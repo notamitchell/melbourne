@@ -99,13 +99,17 @@ names must be exactly the ID followed by `.xml` and `.js`, or the website won't 
 
 You upload each of the two files to its own folder. Each upload is called a *commit*.
 
+**Shortcut:** after you save, the editor's *Saved* box has a link to each upload page. Use them
+and you can skip straight to step 5 below for each file.
+
 ### Upload the .xml file
 
 1. Go to [github.com](https://github.com) and sign in.
-2. Open the eMelbourne project (the team will give you the link; it's also listed on your GitHub
-   home page under *Repositories*).
+2. Open the eMelbourne project at
+   [github.com/notamitchell/Melbourne](https://github.com/notamitchell/Melbourne).
 3. Click the **site** folder, then the **tei** folder. You'll see a long list of files whose names
-   start with `EM`.
+   start with `EM`. GitHub only lists the first 1,000 and says the list has been truncated; that's
+   expected, and you don't need to find your file in the list.
 4. Near the top right, press **Add file**, then **Upload files**.
 5. Drag the `.xml` file from your Downloads folder onto the page (or click **choose your files** and
    pick it). Wait until the file name appears under the drop area.
@@ -117,7 +121,7 @@ You upload each of the two files to its own folder. Each upload is called a *com
 ### Upload the .js file
 
 1. At the top of the page, click **site** in the folder path (it looks like
-   `emelbourne / site / tei`) to go back up one folder.
+   `Melbourne / site / tei`) to go back up one folder.
 2. Click the **tei-js** folder.
 3. Do steps 4 to 7 again with the `.js` file.
 
@@ -150,7 +154,9 @@ wait a minute and reload the page.
 - **Two people start new entries at the same time.** The editor may give both the same ID, and the
   second upload would replace the first. If you're writing a new entry, tell the team, and check on
   the website that the ID you were given is still free before you upload.
-- **GitHub says you don't have permission.** Ask the team to add your GitHub account to the project.
+- **GitHub says you don't have permission, or offers to "fork" the project, or the button says
+  *Propose changes* instead of *Commit changes*.** Your account hasn't been added to the project
+  yet. Ask the team to add you, accept the invitation email from GitHub, then try again.
 
 ---
 
@@ -159,11 +165,14 @@ wait a minute and reload the page.
 - `site/editor.html` is the editor. It needs no server: it works double-clicked and on any static
   host. It isn't linked from the site's pages and asks search engines not to index it, but it is
   public if the site is; it can only download files, never change the site.
-- Set `githubRepo` near the top of `site/js/editor.js` (for example `"unimelb/emelbourne"`) and the
-  *Saved* box will link straight to the two upload pages.
-- `.github/workflows/rebuild-index.yml` runs `tools/build_index.py` whenever a file in `site/tei/`
-  changes. It rebuilds `site/tei-js/`, `site/data/index.js` (search and A to Z) and
-  `site/data/names.js` from the TEI files, commits them, and checks every TEI file against the
+- To let someone upload, add their GitHub account: on the repository page, **Settings** →
+  **Collaborators** → **Add people**. They get an email invitation and must accept it first.
+- `githubRepo` near the top of `site/js/editor.js` is set to `"notamitchell/Melbourne"`, so the
+  *Saved* box links straight to the two upload pages. Change it if the repository moves.
+- `.github/workflows/rebuild-index.yml` runs `tools/build_index.py` and `tools/build-facets.py`
+  whenever a file in `site/tei/` changes. It rebuilds `site/tei-js/`, `site/data/index.js` (search
+  and A to Z), `site/data/names.js` and `site/data/facets.js` (advanced search) from the TEI files,
+  commits them, and checks every TEI file against the
   schema. It can also be run by hand from the **Actions** tab (*Rebuild search index* → *Run
   workflow*). So strictly a collaborator only needs to upload the `.xml` file; the `.js` file is
   regenerated anyway. Uploading both keeps the site correct even before the workflow has run.
