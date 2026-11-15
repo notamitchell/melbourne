@@ -1,5 +1,10 @@
 # Editing eMelbourne: a guide for collaborators
 
+> The same guide is in the editor itself: press **Guide** at the top of
+> [the editor](https://notamitchell.github.io/melbourne/editor.html), or go straight to
+> [editor.html#guide](https://notamitchell.github.io/melbourne/editor.html#guide). If you change
+> the steps, change both: this file and the guide section of `site/editor.html`.
+
 This guide is for anyone who adds to or corrects eMelbourne entries. You don't need any technical
 knowledge. You need:
 

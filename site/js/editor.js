@@ -1069,7 +1069,28 @@
     $("again-xml").addEventListener("click", function (e) { e.preventDefault(); download(lastSaved.id + ".xml", lastSaved.xml, "application/xml"); });
     $("again-js").addEventListener("click", function (e) { e.preventDefault(); download(lastSaved.id + ".js", lastSaved.js, "text/javascript"); });
     $("index-dl").addEventListener("click", downloadIndex);
-    $("help-link").addEventListener("click", function (e) { e.preventDefault(); $("help").showModal(); });
+    // The guide (editor.html#guide, #guide-upload, …) is shown in place of the editor, which keeps its state
+    var scrollBack = 0;
+    function route() {
+      var h = location.hash.slice(1), open = /^guide/.test(h), was = !$("guide").hidden;
+      if (open && !was) scrollBack = window.scrollY;
+      $("guide").hidden = !open;
+      document.body.classList.toggle("guide-open", open);
+      if (open) { var t = document.getElementById(h); if (t && h !== "guide") t.scrollIntoView(); else window.scrollTo(0, 0); }
+      else if (was) window.scrollTo(0, scrollBack);
+    }
+    window.addEventListener("hashchange", route);
+    Array.prototype.forEach.call(document.querySelectorAll("[data-guide-back]"), function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        try { history.replaceState(null, "", location.pathname + location.search); } catch (err) { location.hash = ""; }
+        route();
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-close-dialog]"), function (a) {
+      a.addEventListener("click", function () { var d = a.closest("dialog"); if (d) d.close(); });
+    });
+    route();
     window.addEventListener("beforeunload", function (e) { if (dirty) { e.preventDefault(); e.returnValue = ""; } });
 
     getNames().catch(function () { status("Couldn't load data/names.js; open a saved file instead."); }).then(function () {
