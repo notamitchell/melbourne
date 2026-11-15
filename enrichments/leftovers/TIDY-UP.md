@@ -67,14 +67,14 @@ and the local `href`/`src` links in the HTML and JS.
   
   These are the image-recovery item that is on hold.
 
-## 4. Done (approved 15 Nov 2026, `tools/apply_leftovers.py`)
+## 4. Done (approved 15 Nov 2026, applied by a one-off script since removed)
 
 - **Cited in entries:** Wright, *A people's counsel*, in Parliament of Victoria (EM01118); de Serville, *Pounds and pedigrees*,
   in Melbourne Club (EM00931); ADB "Degraves, William" in Degraves Street (EM01774); ADB "Goldsbrough, Richard" in
   Goldsbrough Mort (EM00653).
 - **Not added, as duplicates:** the ADB records for Finn (PEM000686) and Anderson (PEM000677). EM02152 and EM02485 already
   cite the same articles under other ids.
-- **New page "Further Reading"** (`tei/pages/further-reading.xml`, linked from About): 20 books (the 19 from 2009 plus Onians,
+- **New page "Further Reading"** (`tei/pages/further-reading.xml`, linked from About; later removed from the site): 20 books (the 19 from 2009 plus Onians,
   *Read all about it*), the 4 parent web resources (ADB online, AWM *Fifty Australians*, Victorian Heritage Register,
   Laneway Commissions 2004), and the 4 archival collections that no object uses (Harold Paynting Collection, the two MMBW
   plan records, Unit 467 item 1864/90).

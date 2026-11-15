@@ -59,8 +59,6 @@ site/
 tools/convert.py    database -> TEI + JSON (Python stdlib only, uses the psql client)
 tools/validate.sh   checks every TEI file against schema/emelbourne.rng (needs Java + jing)
 tools/build_index.py  tei/*.xml -> tei-js/, data/index.js, data/names.js (Python stdlib only)
-tools/apply_leftovers.py  attaches the OHRM records kept in the tidy-up (enrichments/leftovers/): references in 4 entries,
-                    the Further Reading page, and each object's archival source in data/objects.js (re-runnable)
 tools/prov_links.py   matches the Everyday War letters to PROV catalogue records -> enrichments/prov-links.csv
 tools/apply_prov_links.py  writes the matched links into tei/pages/*.xml and data/objects.js (re-runnable);
                     then run build_index.py

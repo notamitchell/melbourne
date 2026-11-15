@@ -431,7 +431,7 @@
       function row(k, v) { if (v) { dl.appendChild(h("dt", null, k)); dl.appendChild(h("dd", null, v)); } }
       row("Date", o.date); row("Creator", o.creator); row("Place", o.place);
       row("Physical description", o.physdesc); row("Reference", o.reference); row("Rights", o.rights);
-      // the OHRM archival record the object comes from (tools/apply_leftovers.py)
+      // the OHRM archival record the object comes from (data/objects.js "archive")
       var arc = o.archive;
       if (arc && (o.reference || "").indexOf(arc.title) < 0) {
         dl.appendChild(h("dt", null, "Archival source"));
