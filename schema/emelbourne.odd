@@ -45,6 +45,14 @@
             <ident>object.html?id=D00000891</ident>.</item>
           <item>Images are listed in <gi>div</gi> <att>type</att> <val>gallery</val> as <gi>figure</gi>s, with the credit in
             <gi>note</gi> <att>type</att> <val>rights</val>.</item>
+          <item>Coordinates (from <ident>tools/geocode.py</ident>, written only for rows checked in
+            <ident>enrichments/geo-review.csv</ident>) go in <gi>location</gi> <att>type</att> <val>point</val> with one
+            <gi>geo</gi> holding latitude and longitude in decimal degrees (GDA2020, which for mapping is WGS84), e.g.
+            <val>-37.80437 144.99971</val>, and a <gi>note</gi> <att>type</att> <val>source</val> crediting the gazetteer.
+            A place record puts it in its <gi>place</gi> <att>xml:id</att> <val>subject</val>; a street entry (a topic) in
+            <gi>listPlace</gi> <att>type</att> <val>location</val>/<gi>place</gi>; a person's birth and death places in
+            <gi>listPlace</gi> <att>type</att> <val>life</val>/<gi>place</gi> <att>type</att> <val>birth</val> or
+            <val>death</val>, whose <gi>placeName</gi> repeats the place as <gi>birth</gi> or <gi>death</gi> gives it.</item>
           <item>The OHRM start and end dates of a non-person go in <gi>listEvent</gi> <att>type</att>
             <val>chronology</val> (people keep them as <gi>birth</gi> and <gi>death</gi>).</item>
         </list>
@@ -108,6 +116,37 @@
                   <valItem ident="concept"/>
                   <valItem ident="event"/>
                   <valItem ident="page"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Coordinates (tools/geocode.py) -->
+          <elementSpec ident="listPlace" mode="change">
+            <attList>
+              <attDef ident="type" mode="change">
+                <valList type="semi" mode="add">
+                  <valItem ident="location"><desc>eMelbourne: where the subject of a topic entry (such as a street) is.</desc></valItem>
+                  <valItem ident="life"><desc>eMelbourne: a person's birth and death places, with coordinates.</desc></valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          <elementSpec ident="place" mode="change">
+            <attList>
+              <attDef ident="type" mode="change">
+                <valList type="semi" mode="add">
+                  <valItem ident="birth"><desc>Where the person was born.</desc></valItem>
+                  <valItem ident="death"><desc>Where the person died.</desc></valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          <elementSpec ident="location" mode="change">
+            <attList>
+              <attDef ident="type" mode="change">
+                <valList type="semi" mode="add">
+                  <valItem ident="point"><desc>A single point, in <gi>geo</gi> as latitude and longitude.</desc></valItem>
                 </valList>
               </attDef>
             </attList>

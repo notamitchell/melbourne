@@ -1,0 +1,330 @@
+﻿kind,record_id,record,field,place_text,year,reason
+place,EM00042,Airport,place,"(3045, Hume City)",,no gazetted locality of this name
+place,EM00183,Bennettswood,place,"(3125, 14 km SE, Whitehorse City)",,no gazetted locality of this name
+place,EM00248,Bruces Creek,place,"(3757, 55 km N, Whittlesea City)",,no gazetted locality of this name
+place,EM00660,Gowanbrae,place,"(3043, 13 km NE, Moreland City)",,distance/direction disagrees with the entry: entry says 13 km NE; point is 13.6 km at 335°
+place,EM00793,Kensington,place,"(3031, 4 km N, Moonee Valley City, Melbourne City)",,distance/direction disagrees with the entry: entry says 4 km N; point is 3.8 km at 304°
+place,EM00795,Kerrimuir,place,"(3129, 16 km E, Whitehorse City)",,no gazetted locality of this name
+place,EM00883,Mac's Hotel,place,(34 Franklin Street),,no gazetted locality of this name
+place,EM00971,Merriang,place,"(3757, 28 km N, Whittlesea City)",,distance/direction disagrees with the entry: entry says 28 km N; point is 38.1 km at 8°
+place,EM01170,Portsea,place,"(3944, 98 km S, Mornington Peninsula Shire)",,distance/direction disagrees with the entry: entry says 98 km S; point is 61.1 km at 202°
+place,EM01575,Wandin,place,"(3139, 42 km E, Yarra Ranges Shire)",,no gazetted locality of this name
+street,EM01680,ACDC Lane,street,"ACDC Lane was named in honour of the Australian rock band AC/DC in October 2004, at a ceremony featuring prominent members of the Australian music scene and a b",,the entry names no cross streets or suburb to pin the road down
+street,EM01681,Adamson Lane,street,"The pitched lane near the corner of William and Flinders streets was unnamed in 1895, but had been designated Adamson Lane by 1915. The lane, in one of the olde",,no road of this name in Vicmap Transport today
+street,EM01683,Albert Coates Lane,street,"Albert Coates Lane was built as part of the QV shopping complex in 2002-3. Despite its recent creation, Albert Coates Lane is steeped in history.",,the entry names no cross streets or suburb to pin the road down
+street,EM01682,Albert Place,street,"Albert Place was located in an area known to be thick with brothels in the late nineteenth and early twentieth centuries, running parallel to Greville Place off",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01684,Albion Alley,street,"Albion Alley was probably named for the Albion Hotel, built in 1839. The alley ran off Post Office Place, now Little Bourke Street, in the heart of the city bet",,entry says the lane has gone or changed (ran off); a road of this name today may not be the same one
+street,EM01686,Alsop Lane,street,Alsop Lane once connected La Trobe to Little Lonsdale streets between William and King streets in the north-west corner of the city. Today it is a dead-end serv,,entry says the lane has gone or changed (once connected); a road of this name today may not be the same one
+street,EM01687,Alston Lane,street,Alston Lane runs south off Little Lonsdale Street near its intersection with King Street. It also connects to Elliot Lane at a right angle.,,no road of this name in Vicmap Transport today
+street,EM01688,Angelo Lane,street,"'Angel Lane' ran south off Post Office Place (now Little Bourke Street) just east of the General Post Office. In 1860, the lane contained several businesses per",,no road of this name in Vicmap Transport today
+street,EM01692,Arc Lane,street,"Arc Lane is a 2003 extension of Arcade Alley, which runs north off Little Bourke Street between Swanston and Elizabeth streets. Arc Lane meets Arcade Alley midw",,no road of this name in Vicmap Transport today
+street,EM01689,Arcade Alley,street,Arcade Alley runs north off Little Bourke Street between Swanston and Elizabeth streets. The 1858 Melbourne Directory listed the warehouses of J.,,no road of this name in Vicmap Transport today
+street,EM01690,Argus Alley,street,Argus Alley was named for the Melbourne newspaper which circulated from 1846 until 1957. Argus Alley ran north off Flinders Lane between Regent Place and Swanst,,no road of this name in Vicmap Transport today
+street,EM01695,Australia Arcade,street,"Australia Arcade, or Australia on Collins, is an indoor arcade connecting Collins and Little Collins streets between Swanston and Elizabeth streets. It was prob",,no road of this name in Vicmap Transport today
+street,EM01698,Baptist Place,street,"Baptist Place, previously Baptist Lane, leads south off Little Collins Street between Russell and Swanston streets. The laneway was probably named after the her",,entry says the lane has gone or changed (once led); a road of this name today may not be the same one
+street,EM01699,Barkly Place,street,Barkly Place was once a dead-end laneway leading north from Post Office Place (now Little Bourke Street) between Swanston and Elizabeth streets. It was original,,entry says the lane has gone or changed (was once a); a road of this name today may not be the same one
+street,EM01700,Barrett Alley,street,Barrett Alley once ran north off Chancery Lane (now Little Collins Street) between Queen and William streets. It was probably an access lane for the building on,,no road of this name in Vicmap Transport today
+street,EM01702,Batman Place,street,"Batman Place was a short dead-end laneway leading east off Spencer Street between Flinders Lane and Collins Street. It existed between the 1890s and 1960s, but ",,no road of this name in Vicmap Transport today
+street,EM01704,Bear Alley,street,"Bear or Bears Alley (or Lane), running north off Little Collins Street, just east of Queen Street, was named for J.P. Bear in the 1850s.",,no road of this name in Vicmap Transport today
+street,EM01708,Benson Lane,street,"Benson Lane was once Tattersalls Horse Bazaar, a vast complex of stables with an impressive, semi-palatial façade, owned by a John Black. After the demise of th",,no road of this name in Vicmap Transport today
+street,EM01712,Bourke Place,street,"Bourke Place (or Lane) ran between Bourke and Little Bourke Streets just east of King Street. By the early 1990s, the lane was subsumed within the Bourke Place ",,no road of this name in Vicmap Transport today
+street,EM00221,Bourke Street Mall,street,"A transit mall designed to revive the retail economy and improve the amenity of the city centre, the Bourke Street Mall was officially opened at the commercial ",,no road of this name in Vicmap Transport today
+street,EM01713,Bowen Lane,street,"Bowen Lane now runs north-south from La Trobe Street to roughly level with Little La Trobe between Swanston and Bowen streets. However, in 1860 when the Edward ",,cross streets named in the entry do not fit: La Trobe Street is 2609 m away; Swanston Street is 1620 m away
+street,EM01718,Brogans Lane,street,"Brogans Lane was an infamous track off Little Bourke Street. It was not named, or at least was unnamed on maps, in 1895 and 1915, but was occupied by cabinetmak",,no road of this name in Vicmap Transport today
+street,EM01719,Brown Alley,street,"Brown Alley was probably named for the Brown Boy Inn, which operated in the alley in 1860. The laneway appears to have undergone some name changes, because in 1",,the entry names no cross streets or suburb to pin the road down
+street,EM01720,Buckley Place,street,Buckley Place leads south from Little Bourke Street between Swanston and Elizabeth streets. Its name derives from the famous Buckley & Nunn department stores wh,,no road of this name in Vicmap Transport today
+street,EM01721,Builders Alley,street,"Builders Alley was located off Little Collins Street between Elizabeth and Queen streets, near Butchers Lane. It may have acquired its name from the nearby Galv",,no road of this name in Vicmap Transport today
+street,EM01722,Bull Alley,street,Now named Balcombe Place. GalleryCorrespondence between J.,,no road of this name in Vicmap Transport today
+street,EM01723,Bullens Lane,street,"The present Bullens Lane consists of the nineteenth-century Bullens Lane and Meares Lane, which attached the former to Russell Street at a right angle. The orig",,entry says the lane has gone or changed (ran off); a road of this name today may not be the same one
+street,EM01724,Burns Lane,street,"Located between Queen Street and Elizabeth Street and extending from Little Lonsdale to Lonsdale streets, Burns Lane was named pre-1860, possibly after popular ",,no Burns Lane in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01725,Burton Street,street,"Formerly McGrath Place, Burton Street runs north from Little Lonsdale to La Trobe streets between Spring and Exhibition streets. The lane previously connected C",,no Burton Street in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01726,Butchers Lane,street,"Butchers (or Butcher) Lane ran north-south between Little Collins and Bourke streets, parallel with Elizabeth Street. Here in 1860 commission agents ran their b",,entry says the lane has gone or changed (ran north); a road of this name today may not be the same one
+street,EM01728,Campbell Lane,street,"Campbell Lane was a short access way off William Street, leading west, parallel to Collins Street. In 1895, it was an unnamed right-of-way, servicing the Austra",,no Campbell Lane in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01730,Carsons Place,street,Carsons Place is a dead-end laneway that leads south from Little Collins Street between Swanston and Elizabeth streets. It was probably named for 'Carson's qual,,no road of this name in Vicmap Transport today
+street,EM01735,Centre Way,street,Centreway leads south from Collins Street to connect to Centre Place and Flinders Lane between Swanston and Elizabeth streets. It was first developed at the tur,,no Centre Way in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01736,Centrepoint Mall,street,Centrepoint Mall was built on the site of the Bull and Mouth Hotel after it was demolished in 1933. It is an indoor retail arcade connecting Little Collins Stre,,no road of this name in Vicmap Transport today
+street,EM01738,Chancery Lane,street,"Chancery Lane was the previous name of Little Collins Street between Queen and Williams streets. In the 1850s, Chancery Lane was home to Graham's slaughter hous",,no Chancery Lane in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01744,Club Lane,street,"Club Lane is in the south-east of the city, off Little Collins Street between Exhibition and Spring streets. It was previously called Collins Lane, but was rena",,entry says the lane has gone or changed (was renamed); a road of this name today may not be the same one
+street,EM01745,Coates Lane East and Coates Lane West,street,Coates Lane East leads south off Little Collins Street between Spring and Exhibition streets. It previously ran parallel to Coates Lane West (also called Coates,,no road of this name in Vicmap Transport today
+street,EM01748,Coles Place,street,"Coles Lane, Coles Arcade, and Coles Place, as it has been called at various times, is best known as Cole's Book Arcade, an iconic Melbourne book store. The arca",,no road of this name in Vicmap Transport today
+street,EM00381,Collins Street,street,"Melbourne's best-known and most fashionable street, Collins Street, also contains much of the city's most interesting commercial architecture. Part of the Melbo",,no Collins Street in Sorrento in Vicmap Transport
+street,EM01752,Condells Lane,street,"The name Condells Lane previously referred to the section of Angelo Lane north of Little Bourke Street, and was probably named after Melbourne's first mayor, br",,no road of this name in Vicmap Transport today
+street,EM01753,Coopers Alley,street,"Coopers Alley ran north from Flinders Lane between Elizabeth and Queen streets. In 1895, it offered rear access to the Union Bank on Collins Street, and contain",,no road of this name in Vicmap Transport today
+street,EM01757,Cosgrave Place,street,"Cosgrave Place was a short dead-end laneway just west of Cosgrave Lane, off Little Bourke Street between Spencer and King Streets. It was unnamed in 1895, but c",,no road of this name in Vicmap Transport today
+street,EM01759,Craigs Lane,street,See The Causeway.,,the entry names no cross streets or suburb to pin the road down
+street,EM01764,Cumberland Place,street,"Cumberland Place once ran east-west, parallel to La Trobe and Little Lonsdale streets, in the north-east corner of the city. It was part of the complex of lanew",,entry says the lane has gone or changed (once ran); a road of this name today may not be the same one
+street,EM01767,Custom House Lane,street,"Custom House Lane is located between King and William streets, extending from Flinders Street to Flinders Lane. Formerly Murphys Lane (from 1869), it was rename",,entry says the lane has gone or changed (was renamed); a road of this name today may not be the same one
+street,EM01765,Cyclorama Lane,street,"Donaldson Lane is located between Swanston Street and Russell Street, between Little Bourke Street and Bourke Street. Prior to 1950, Donaldson Lane was known as",,no road of this name in Vicmap Transport today
+street,EM01769,D'Arcy Alley,street,"D'Arcy Alley was located between Elizabeth and Swanston streets, extending south from La Trobe Street and intersecting with Knox Place. The lane no longer exist",,no road of this name in Vicmap Transport today
+street,EM01771,Dawson Place,street,Dawson Place was located between Swanston and Russell streets between Bourke and Little Bourke streets. It was a dead-end lane extending east from Swanston Stre,,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01776,Dikes Lane,street,Dikes Lane was a dead-end lane extending to the east of Exhibition Street between Collins Street and Flinders Lane. It connected with Ellis Lane on the southern,,no road of this name in Vicmap Transport today
+street,EM01785,Eastern Arcade,street,"Eastern Arcade was located between Russell and Exhibition streets, extending from Little Collins Street to Bourke Street. The Eastern Arcade was a two-level bui",,no road of this name in Vicmap Transport today
+street,EM01786,Elizabeth Arcade,street,"Elizabeth Arcade is located between Queen and Elizabeth streets. It extends south from Little Collins Street then doglegs to the east, opening to Elizabeth Stre",,no road of this name in Vicmap Transport today
+street,EM01787,Elizabeth Place,street,Elizabeth Place was a central Melbourne laneway located between Elizabeth and Swanston streets. It extended north from Flinders Lane and connected with a perpen,,no Elizabeth Place in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01788,Elliott Lane,street,"Elliott Lane is located in the between Spencer and King streets. It extends south from Little Lonsdale Street, doglegging to the west to connect with Merriman L",,no road of this name in Vicmap Transport today
+street,EM01789,Ellis Lane,street,"Ellis Lane was located between Exhibition and Spring streets, extending north from Flinders Lane to connect with Dikes Lane. It no longer exists today, having b",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01790,Embank Arcade,street,"Embank Arcade is located between Queen and Elizabeth streets. It is the continuation of Staughton Alley, extending to the north of Flinders Lane to connect to C",,no road of this name in Vicmap Transport today
+street,EM01791,Empire Arcade,street,"Empire Place is located between Elizabeth and Swanston streets, extending north from Flinders Street. It currently exists within a building complex, housing a s",,no road of this name in Vicmap Transport today
+street,EM00541,Exhibition Street,street,"In 1880 Stephen Street residents insisted that the loss, inconvenience and depreciated property values brought about by that street's ill repute as a brothel di",,no Exhibition Street in Flinders in Vicmap Transport
+street,EM01796,Finn Place,street,"Finn Place was located between Exhibition and Spring streets, extending to the north from Little Lonsdale Street. It was located directly opposite Griffin Lane ",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01800,Flinders Way,street,"Flinders Way is located between Elizabeth and Swanston streets, extending to the north of Flinders Lane and running through to Collins Street. It is located jus",,no road of this name in Vicmap Transport today
+street,EM01803,Freemasons Lane,street,"Freemasons Lane was located between Exhibition and Spring streets, extending north from Flinders Lane. It was located next to Freemasons Hall, but no longer exi",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01805,Fultons Lane,street,Little William Street is located between William and Queen streets. It is a dead-end street that opens to Little Bourke Street.,,no road of this name in Vicmap Transport today
+street,EM01810,George Lane,street,"George Lane is located in the block between Exhibition, Spring, Lonsdale and Little Lonsdale streets. In 1915, George Lane extended north-south between Lonsdale",,no George Lane in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01809,Georges Place,street,"Georges Place is located between Swanston and Russell streets, extending north from Collins Street and connecting with the southern portion of Donaldson Lane. I",,no road of this name in Vicmap Transport today
+street,EM01820,Gough Alley,street,Gough Alley is located between King and William streets. It extends east from King Street and doglegs to a dead-end in a northern direction towards Little Lonsd,,no road of this name in Vicmap Transport today
+street,EM01821,Gregory Lane,street,"Gregory Lane was located between Queen and Elizabeth streets, extending to the north from Flinders Lane. Named pre-1856 for business owner Stephen Gregory, the ",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01823,Greville Place,street,"Greville Place is located between Exhibition and Spring streets, extending north from Little Bourke Street to a dead-end. At the heart of the red-light district",,no road of this name in Vicmap Transport today
+street,EM01825,Griffin Lane,street,"Griffin Lane is located between Exhibition and Spring streets, extending to the south from Little Lonsdale Street. Formerly known as Brophy Alley, Griffin Lane ",,no road of this name in Vicmap Transport today
+street,EM01826,Grimes Alley,street,"Grimes Alley was located between King and William streets, connecting Bourke Street and Little Bourke Street to the east of Gresham Street. It no longer exists ",,no road of this name in Vicmap Transport today
+street,EM01829,Gun Alley,street,"Gun Alley was located between Russell and Exhibition streets, extending south from Little Collins Street. It no longer exists.",,no road of this name in Vicmap Transport today
+street,EM01835,Haskin Lane,street,"Haskin Lane was located between Russell and Exhibition streets, extending to the north near 106 Flinders Lane. The lane was discontinued prior to 1915.",,no road of this name in Vicmap Transport today
+street,EM01836,Hawke Place,street,"Hawke Place comprised land which extended east from King Street, between Little Lonsdale and La Trobe streets, before doglegging to the north. It was separated ",,no road of this name in Vicmap Transport today
+street,EM01843,Henderson Place,street,"Henderson Place was located between Exhibition and Spring streets, extending north from Flinders Street. It was located adjacent to Freemasons Lane.",,no road of this name in Vicmap Transport today
+street,EM01844,Henty Place,street,"Henty Place is located between King and William streets, extending south from Little Collins Street to St James Lane. The lane was built after 1915.",,no road of this name in Vicmap Transport today
+street,EM01845,Hetford Place,street,Hetford Place ran north off Little Bourke Street between Queen and Elizabeth streets.,,no road of this name in Vicmap Transport today
+street,EM01846,Hicks Lane,street,"Hicks Lane was located between Queen and Elizabeth streets, extending south from Little Collins Street to a dead-end. It was adjacent on the west side to Flemin",,no road of this name in Vicmap Transport today
+street,EM01849,Hockins Lane,street,"Hockins Lane was located between Russell and Exhibition streets, extending north from Flinders Lane to a dead-end. It no longer exists.",,no road of this name in Vicmap Transport today
+street,EM01854,Jacks Lane,street,Jacks Lane was located between William and Queen streets. It extended west from Market Street just south of Collins Street.,,no road of this name in Vicmap Transport today
+street,EM01857,Keeley Place,street,"Keeley Place was located off Spring Street. In 1891, the South Australian Club Hotel and Brunton's Hotel were located in Keeley Place.",,no road of this name in Vicmap Transport today
+street,EM01858,Kermode Lane,street,"Kermode Lane was located off Little Lonsdale Street. In 1888, the Booth Men's Hostel was located in Kermode Lane.",,no road of this name in Vicmap Transport today
+street,EM01861,Knights Place,street,"Knights Place was located off Flinders Lane. In 1930, the Federal Chambers and the Geelong Butter Factory were located in Knight's Place.",,no road of this name in Vicmap Transport today
+street,EM01867,La Trobe Parade,street,"La Trobe Parade no longer exists, and may have been subsumed by George Parade. In 1860, La Trobe Parade was home to Mrs Clubb, a surgical bandage maker as well ",,no road of this name in Vicmap Transport today
+street,EM01868,La Trobe Place,street,"La Trobe Place is a dead-end street open to Little Bourke Street, located between Swanston and Russell streets, and was named after Victoria's first Governor, C",,no road of this name in Vicmap Transport today
+street,EM01869,Law Courts Place,street,Law Court Place was a portion of Little Bourke Street between William and Queen streets. Law Courts Place connected into Post Office Place and Gordon Place to b,,no road of this name in Vicmap Transport today
+street,EM01871,Leichardt Street,street,"Leichardt Street was located near Lonsdale and Little Lonsdale streets and named for ill-fated explorer Ludwig Leichhardt. In 1860, the Melbourne Synagogue was ",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01872,Lily Lane,street,"Lily Lane was located off Bourke Street. In 1910, the Blue Bell Livery Stables were located in the lane.",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01875,Little La Trobe Street,street,"Little La Trobe Street connects Swanston and Elizabeth streets north of La Trobe Street. In 1888, the Devon and Cornwall hotel, a dairyman and a boot factory we",,entry says the lane has gone or changed (were located); a road of this name today may not be the same one
+street,EM01876,Little Leichardt Street,street,"Little Leichardt Street is a dead-end from Little Lonsdale Street between Exhibition and Spring streets. In 1892, Little Leichardt Street was home to bottle man",,no road of this name in Vicmap Transport today
+street,EM01880,Lonsdale Lane,street,"Lonsdale Lane runs off Lonsdale Street between William and Queen streets. In 1961, the London Chambers were located in the lane.",,entry says the lane has gone or changed (were located); a road of this name today may not be the same one
+street,EM01881,Louden Place,street,"Louden Place connects Bourke to Little Bourke streets between Swanston and Elizabeth streets. In 1895, the Sun Printing and Publishing company, the American Bro",,entry says the lane has gone or changed (were located); a road of this name today may not be the same one
+street,EM01882,Lush Lane,street,"Lush Lane is a dead-end from Flinders Lane between Swanston and Russell streets. The lane was named after James Lush of Mowbray and Lush, drapers and importers,",,no road of this name in Vicmap Transport today
+street,EM01883,Lynch Alley,street,"Lynch Alley was located in Post Office Place. In 1860, Lynch Alley was home to a saddler and leather seller.",,no road of this name in Vicmap Transport today
+street,EM01884,Lynch Place,street,Lynch Place is located between Elizabeth and Swanston streets and connects Little Bourke to Lonsdale Streets.,,no Lynch Place in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM00888,Maling Road,street,"Running parallel to the railway line, Maling Road, proclaimed a heritage area in the early 1980s, is part of Canterbury's shopping centre. Originally an extensi",,the entry names no cross streets or suburb to pin the road down
+street,EM01888,Manchester Place,street,Manchester Place was located off Flinders Lane.,,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01889,Manton Lane,street,"Manton Lane runs off Little Lonsdale Street between King and William streets. In 1891, the Albert Hotel was located in Manton Lane.",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01890,Market Lane,street,"Market Lane was located between Little Bourke and Bourke streets. In 1860, the Ebenezer Baptist Chapel was located in Market Lane.",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01891,Market Street,street,"Market Street connects Flinders Street through to Collins Street between William and Queen streets. In 1888, the National Hotel, several cabinet makers and Yeom",,entry says the lane has gone or changed (were located); a road of this name today may not be the same one
+street,EM01892,Masons Lane,street,Masons Lane was located off Little Collins Street.,,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01893,McCormac Place,street,"McCormac Place was located off McGrath Place. Weston Bate notes that Italian names began to appear in this area from 1895, 'prefiguring social changes through m",,no road of this name in Vicmap Transport today
+street,EM01894,McCormacks Place,street,"McCormacks Place was located of Little Lonsdale Street. In 1910, Catherine McCormack lived in McCormacks Place.",,no road of this name in Vicmap Transport today
+street,EM01896,McGrath Lane,street,"McGrath Lane was located off Little Collins Street. In 1891, the Hotel & Restaurant Employees' Association of Victoria and the Loyal Orange Institution were loc",,no road of this name in Vicmap Transport today
+street,EM01897,McGrath Place,street,"McGrath Place was located off Little Lonsdale Street. In 1910, McGrath Place was home to several residents as well as two cabinetmakers and a furniture manufact",,no road of this name in Vicmap Transport today
+street,EM01901,McLean Alley,street,McLean Alley connects Flanigan Lane and Sutherland Street. GalleryB.,,the entry names no cross streets or suburb to pin the road down
+street,EM01902,McNeil Lane,street,"McNeil Lane was located off Little Collins Street. In 1910, McNeil & Bruce printers were located in McNeil Lane, as were plumbers and general contractors.",,no road of this name in Vicmap Transport today
+street,EM01904,Menzies Alley,street,Menzies Alley was located off St Francis Street.,,no road of this name in Vicmap Transport today
+street,EM01905,Menzies Lane,street,Menzies Lane was located at the rear of the Menzies Hotel off Chancery Lane.,,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01908,Merriman Lane,street,"Merriman Lane was located off Little Lonsdale Street. In 1888, the lane held storage for both the Harvey Little Company and the Haughton Company.",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01909,Merritts Place,street,"Merritts Place runs off Little Bourke Street between King and William streets. In 1910, the Great Western Hotel was located in Merritts Place.",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01910,Metropole Arcade,street,The Metropole Arcade was located off Bourke Street. It was constructed in 1893 as a part of the Metropole Hotel.,,no road of this name in Vicmap Transport today
+street,EM01914,Mint Place,street,Mint Place was a portion of Little Lonsdale Street located between William and Queen streets. The Former Royal Mint building was located in Mint Place and was b,,entry says the lane has gone or changed (was a portion); a road of this name today may not be the same one
+street,EM01915,Mitchell Lane,street,"Mitchell Lane was located off Lonsdale Street. The lane was first listed in 1935 to provide rear access to Mitchell House, a new commercial building in Elizabet",,no road of this name in Vicmap Transport today
+street,EM01918,Moore Lane,street,Moore Lane was located off Flinders Lane.,,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01919,Mornane Place,street,"Mornane Place is a dead-end off Exhibition Street between Bourke and Little Bourke streets. In 1910, the Clare Castle hotel, a wine café and tearooms were locat",,entry says the lane has gone or changed (were located); a road of this name today may not be the same one
+street,EM01920,Mort Lane,street,Mort Lane was located between Little Bourke and Bourke streets.,,no road of this name in Vicmap Transport today
+street,EM01923,Mu Arcade,street,The MU Arcade runs between Swanston Street and Howey Place.,,no road of this name in Vicmap Transport today
+street,EM01926,Nicholas Place,street,Nicholas Place was located off Little Lonsdale Street.,,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01929,Oliver Lane,street,"Oliver Lane connects Flinders Street to Flinders Lane between Russell and Exhibition streets. In the 1890s, David Mitchell's builder's yard and the Duke of Well",,entry says the lane has gone or changed (were located); a road of this name today may not be the same one
+street,EM01928,Oliver Place,street,"Oliver Place was located in Post Office Place. In 1910 and 1930, the King's Arms Hotel was located in Oliver Place.",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01930,Park Street,street,Park Street connects Little Lonsdale and La Trobe streets between King and William streets. The first date of occupation for the street was in 1866.,,2 separate roads called Park Street in Melbourne (the Hoddle grid)
+street,EM01931,Patrick Street,street,"Patrick Street was located between Lonsdale and Little Lonsdale streets. On 12 February 1891, Gherson Visbord was charged with emptying night pans into Patrick ",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01933,Pembroke Lane,street,Pembroke Lane was located off Little Lonsdale Street.,,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01934,Pender Alley,street,"Pender Alley was located in Little Bourke Street. In 1860, a boarding house run by a Mrs Scott was located in Pender Alley.",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01938,Portland Lane,street,"Portland Lane was located off Little Collins Street. In 1910, a photo enlarger, booksellers and an art printer publisher were located here.",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01939,Post Office Place,street,"Post Office Place was a portion of Little Bourke Street between Queen and Elizabeth streets. In 1923, a letter was sent to the Melbourne City Town Clerk asking ",,entry says the lane has gone or changed (was a portion); a road of this name today may not be the same one
+street,EM01940,Presgrave Place,street,"Presgrave Place connects to Howey Place, which runs into Little Collins Street between Swanston and Elizabeth streets. In 1961, the workshop for the Capitol The",,entry says the lane has gone or changed (was located); a road of this name today may not be the same one
+street,EM01941,Pritchard Lane,street,"Downie Street is located in the north-west corner of central Melbourne, between Spencer and King streets. It extends through from Flinders Street to Flinders La",,no road of this name in Vicmap Transport today
+street,EM01942,Providence Place,street,Providence Place/Lane ran parallel to La Trobe Street in the block between Exhibition and Spring streets. Providence Place was resumed during construction of th,,no Providence Place in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01944,Queens Walk,street,"Located on the present site of the City Square, this arcade once extended east from Swanston Street and turned north to open onto Collins Street. Queens Walk, c",,no road of this name in Vicmap Transport today
+street,EM01945,Quirk Alley,street,"Located between Swanston and Russell streets, Quirk Alley extended north from Flinders Lane. It was purchased by the City of Melbourne in the late 1960s and dem",,no road of this name in Vicmap Transport today
+street,EM01955,Robbs Lane,street,"Located between King and William streets and extending north from Flinders Lane, Robbs Lane was named prior to 1911. In the late 1970s and early 1980s, property",,no road of this name in Vicmap Transport today
+street,EM01954,Robertson Lane,street,Collins Way leads south from Little Collins Street between Queen and Elizabeth streets. It is a dead-end lane adjoining the Westpac and BT Investment Centre's s,,no road of this name in Vicmap Transport today
+street,EM01956,Roeszler Lane,street,"Located between William Street and King Street, Roeszler Lane extends east off Bank Place, which runs betweens Collins and Little Collins streets. A short right",,cross streets named in the entry do not fit: King Street is 396 m away
+street,EM01957,Rose Alley,street,"Located between Spencer and King streets, Rose Alley extends from Lonsdale to Little Bourke streets. The right-of-way was created and named pre-1856, although d",,no road of this name in Vicmap Transport today
+street,EM01964,Ryries Lane,street,"Located between Queen and Elizabeth streets, Ryries Lane extends north from Flinders Lane, turning west to open onto Queen Street. It was built and named pre-18",,no road of this name in Vicmap Transport today
+street,EM01965,Sampson Lane,street,"Located between William and Queen streets and extending north from Little Lonsdale Street, Sampson Lane was named pre-1915. In 1935, Sampson Lane was occupied b",,no road of this name in Vicmap Transport today
+street,EM01968,Scotts Court,street,"Located between William and Queen streets, Scotts Court extended north from Collins Street. It was possibly named after Scotts Hotel, which was situated on Coll",,no road of this name in Vicmap Transport today
+street,EM01969,Sherwood Place,street,"Located between Exhibition and Spring streets and extending north from Little Lonsdale Street, Sherwood Place was situated in the heart of the notorious 'Little",,no Sherwood Place in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01971,Sleights Lane,street,"Located between Swanston and Russell streets and extending south from Little Collins Street, Athenaeum Place was named in 1937 after the Melbourne Athenaeum, a ",,no road of this name in Vicmap Transport today
+street,EM01976,St Francis Street,street,"Located between Elizabeth and Swanston streets, St Francis Street extended from La Trobe to Lonsdale streets. Named in 1861 after St Francis Church, situated ad",,no road of this name in Vicmap Transport today
+street,EM01978,St James Street,street,"Located between King and William streets, St James Street extended from Bourke Street to Little Collins Street. It was named after nearby St James Old Cathedral",,no St James Street in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01979,St Johns Lane,street,"Located between William and Queen streets, St Johns Lane extends north from Little Bourke Street. It was named pre-1856, possibly after the parish of St Johns o",,cross streets named in the entry do not fit: La Trobe Street is 279 m away
+street,EM01981,Stafford Lane,street,"Located between Lonsdale and Little Lonsdale streets and extending west from William Street, Stafford Lane was created and named prior to 1915. Today, Stafford ",,no road of this name in Vicmap Transport today
+street,EM01983,Star Lane,street,"Located between Russell and Exhibition streets, Star Lane extended south from Little Bourke Street. It was created and named pre-1915.",,no road of this name in Vicmap Transport today
+street,EM01425,Stephen Street,street,"This street in Melbourne's central grid was named after Sir James Stephen, colonial under-secretary (1836-47). After complaints from residents about the street'",,no Stephen Street in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01988,Stubbs Lane,street,"Located between King and William streets, Stubbs Lane extends south from Flinders Lane. It was named pre-1935.",,no Stubbs Lane in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM01990,Surry Place,street,"Located between Lonsdale and Little Lonsdale streets, Surry Place extended west from Spring Street. Situated within the notorious 'Little Lon' district, it was ",,no road of this name in Vicmap Transport today
+street,EM02000,Turnbull Place,street,"Located between King and William streets, Turnbull Place extended north from Little Bourke Street. It was named prior to 1915 and was closed and built over in t",,no road of this name in Vicmap Transport today
+street,EM02005,Union Place,street,"Located between La Trobe Street and Little Lonsdale Street, Union Place extended east from Exhibition Street. Businesses that operated in this lane included the",,no Union Place in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM02006,Victoria Arcade,street,"Located between Swanston and Russell streets and extending from Bourke Street to Little Collins Street, Victoria Arcade was built in 1876 based on the design by",,no road of this name in Vicmap Transport today
+street,EM02007,Victoria Lane,street,"Located between King and William streets, Victoria Lane extended from Bourke Street to Little Collins Street. Occupying this lane in 1920 was the Nestle & Anglo",,no Victoria Lane in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM02014,White Hart Lane,street,"Located between Queen and Elizabeth streets, White Hart Lane extends north from Little Bourke Street. It was named pre-1858, possibly after the White Hart Inn t",,no road of this name in Vicmap Transport today
+street,EM02016,Williams Lane,street,"Located between Swanston and Russell streets, Waratah Place extends from Lonsdale Street to Little Bourke Street. It had previously been known as Williams Lane.",,no Williams Lane in Melbourne (the Hoddle grid) in Vicmap Transport
+street,EM02018,Winfield Square,street,"Located between King and William streets, Winfield Square extended north from Flinders Lane. The name referred to the nearby Winfield Building, formerly the Woo",,no road of this name in Vicmap Transport today
+street,EM02019,Wrights Lane,street,"Located between Queen and Elizabeth streets, Wrights Lane extended from Lonsdale Street to Little Bourke Street. It was named pre-1847 after an early settler in",,entry says the lane has gone or changed (was renamed); a road of this name today may not be the same one
+deathplace,EM02827,"O'Malley, King",death,"Albert Park, Adelaide",1953,text names a place outside Victoria but it is linked to EM00045: that link looks wrong
+birthplace,EM02719,"Leckie, John William",birth,Alexandra,1872,bare name that is also a place outside Victoria
+birthplace,EM02893,"Salmon, Charles Carty",birth,Amherst,1860,bare name that is also a place outside Victoria
+deathplace,EM03257,"Rodd, John Miller",death,Anglesea,1976,bare name that is also a place outside Victoria
+deathplace,EM02334,"McCulloch, William",death,Ararat,1909,bare name that is also a place outside Victoria
+birthplace,EM02896,"Scobie, James",birth,Ararat,1860,bare name that is also a place outside Victoria
+deathplace,EM02537,"Burke, Thomas Michael",death,Armadale,1949,bare name that is also a place outside Victoria; already linked to EM00086
+birthplace,EM02583,"Dennis, Clarence Michael James",birth,Auburn,1876,bare name that is also a place outside Victoria; already linked to EM00107
+deathplace,EM03362,"James, Elizabeth Britomarte",death,Auburn,1943,bare name that is also a place outside Victoria; already linked to EM00107
+deathplace,EM03088,"Disney, James Stanley",death,"Auburn, Sydney",1952,text names a place outside Victoria but it is linked to EM00107: that link looks wrong
+deathplace,EM02807,"Murdoch, Patrick John",death,"Auburn, Sydney",1940,text names a place outside Victoria but it is linked to EM00107: that link looks wrong
+deathplace,EM02391,"Ross, John",death,"Auburn, Sydney",1920,text names a place outside Victoria but it is linked to EM00107: that link looks wrong
+deathplace,EM02382,"Powell, Walter",death,"Bayswater, London",1868,text names a place outside Victoria but it is linked to EM00169: that link looks wrong
+birthplace,EM03258,"Rogers, James Stanley",birth,Beaconsfield,1893,bare name that is also a place outside Victoria; already linked to EM00171
+birthplace,EM02820,"O'Dowd, Bernard Patrick",birth,Beaufort,1866,bare name that is also a place outside Victoria
+deathplace,EM02647,"Gye, Harold Frederick Neville (Hal)",death,Beaumaris,1967,bare name that is also a place outside Victoria; already linked to EM00172
+deathplace,EM02495,"Avery, David",death,Berwick,1956,bare name that is also a place outside Victoria; already linked to EM00186
+deathplace,EM02750,"Macdonald, Donald Alaster",death,Black Rock,1932,bare name that is also a place outside Victoria; already linked to EM00198
+birthplace,EM02927,"Stephenson, Arthur George",birth,Box Hill,1890,bare name that is also a place outside Victoria; already linked to EM00223
+birthplace,EM02961,"Turner, James Alfred",birth,Bradford,1850,bare name that is also a place outside Victoria
+birthplace,EM02763,"Mackinnon, Lauchlan Charles",birth,Broadford,1848,bare name that is also a place outside Victoria
+birthplace,EM03265,"Sambell, Geoffrey Tremayne",birth,Broadford,1914,bare name that is also a place outside Victoria
+birthplace,EM02999,"Zwar, Albert Michael",birth,Broadford,1863,bare name that is also a place outside Victoria
+birthplace,EM02693,"Kemp, Henry Hardie",birth,Broughton,1859,bare name that is also a place outside Victoria
+birthplace,EM02495,"Avery, David",birth,Bungaree,1871,bare name that is also a place outside Victoria
+deathplace,EM02306,"James, Charles Henry",death,"Burwood, Sydney",1898,text names a place outside Victoria but it is linked to EM00268: that link looks wrong
+birthplace,EM02726,"Levey, James Alfred",birth,Camberwell,1846,bare name that is also a place outside Victoria; already linked to EM00282
+birthplace,EM02914,"Smith, Julian Augustus Romaine",birth,Camberwell,1873,bare name that is also a place outside Victoria; already linked to EM00282
+deathplace,EM02777,"Manifold, William Thomson",death,Camperdown,1922,bare name that is also a place outside Victoria
+birthplace,EM02742,"McArthur, William Gilbert Stewart",birth,Camperdown,1861,bare name that is also a place outside Victoria
+deathplace,EM02742,"McArthur, William Gilbert Stewart",death,Camperdown,1935,bare name that is also a place outside Victoria
+birthplace,EM02189,"Beaney, James George",birth,Canterbury,1828,"birth in 1828, before Melbourne was settled (1835): the place is not the Melbourne one; it is linked to EM00288, which looks wrong"
+birthplace,EM02889,"Russell, Percy Joseph",birth,Carisbrook,1861,bare name that is also a place outside Victoria
+birthplace,EM03144,"Hurley, Thomas Ernest Victor",birth,Ceres,1888,bare name that is also a place outside Victoria
+birthplace,EM02373,"Pasley, Charles",birth,Chatham,1824,"birth in 1824, before Melbourne was settled (1835): the place is not the Melbourne one; it is linked to EM00328, which looks wrong"
+deathplace,EM02597,"Dyson, William Henry (Will)",death,"Chelsea, London",1938,text names a place outside Victoria but it is linked to EM00329: that link looks wrong
+deathplace,EM02287,"Guerard, Johann Joseph Eugen von",death,"Chelsea, London",1901,text names a place outside Victoria but it is linked to EM00329: that link looks wrong
+birthplace,EM02288,"Guilfoyle, William Robert",birth,"Chelsea, London",1840,text names a place outside Victoria but it is linked to EM00329: that link looks wrong
+birthplace,EM02165,"Liardet, Wilbraham Frederick Evelyn",birth,"Chelsea, London",1799,"birth in 1799, before Melbourne was settled (1835): the place is not the Melbourne one; it is linked to EM00329, which looks wrong"
+birthplace,EM03004,"Anderson, Frank Struan",birth,Cheshunt,1909,bare name that is also a place outside Victoria
+birthplace,EM02736,"Longstaff, John Campbell",birth,Clunes,1861,bare name that is also a place outside Victoria
+birthplace,EM02630,"Gilbert, Charles Marsh (Nash) Web",birth,Cockatoo,1867,bare name that is also a place outside Victoria; already linked to EM00369
+birthplace,EM02739,"Lyle, Thomas Ranken",birth,Coleraine,1860,bare name that is also a place outside Victoria
+birthplace,EM02468,"Young, Edmund Mackenzie",birth,Coleraine,1838,bare name that is also a place outside Victoria
+deathplace,EM03024,"Bennetts, Richard John",death,Cooma,1978,bare name that is also a place outside Victoria
+deathplace,EM02217,"Burke, Robert O'Hara",death,Cooper's Creek,1861,bare name that is also a place outside Victoria
+deathplace,EM02462,"Wills, William John",death,Cooper's Creek,1861,bare name that is also a place outside Victoria
+deathplace,EM02560,"Cohn, Carola (Ola)",death,Cowes,1964,bare name that is also a place outside Victoria
+birthplace,EM03376,"Parker, Katharine",birth,Cressy,1886,bare name that is also a place outside Victoria
+birthplace,EM02515,"Blackwood, Robert Officer",birth,Crowlands,1861,bare name that is also a place outside Victoria
+birthplace,EM03248,"Radford, William Cropley",birth,Crowlands,1913,bare name that is also a place outside Victoria
+birthplace,EM02936,"Styles, James",birth,Croydon,1841,bare name that is also a place outside Victoria; already linked to EM00427
+birthplace,EM03007,"Anderson, William Wallace",birth,Dean,1888,bare name that is also a place outside Victoria
+deathplace,EM02916,"Smythe, Robert Sparrow",death,Deepdene,1917,bare name that is also a place outside Victoria; already linked to EM00450
+birthplace,EM02646,"Guthrie, James Francis",birth,Donald,1872,bare name that is also a place outside Victoria
+birthplace,EM02362,"Neild, James Edward",birth,Doncaster,1824,"birth in 1824, before Melbourne was settled (1835): the place is not the Melbourne one; it is linked to EM00481, which looks wrong"
+birthplace,EM02467,"Young, Charles Frederick Horace Frisby",birth,Doncaster,1819,"birth in 1819, before Melbourne was settled (1835): the place is not the Melbourne one; it is linked to EM00481, which looks wrong"
+deathplace,EM02607,"Ewart, Alfred James",death,"East Malven, Melbourne",1937,"the first part is not a Melbourne locality, neighbourhood or park in Vicmap/VICNAMES (spelling or old name)"
+birthplace,EM02501,"Barber, John Andrew",birth,Ellerslie,1873,bare name that is also a place outside Victoria
+deathplace,EM03170,"Le Gallienne, Dorian Leon Marlois",death,Eltham,1963,bare name that is also a place outside Victoria; already linked to EM00516
+deathplace,EM03245,"Phillips, Philip David",death,Eltham,1970,bare name that is also a place outside Victoria; already linked to EM00516
+deathplace,EM03302,"Thomson, Donald Finlay Fergusson",death,Eltham,1970,bare name that is also a place outside Victoria; already linked to EM00516
+deathplace,EM02985,"Withers, Walter Herbert",death,Eltham,1914,bare name that is also a place outside Victoria; already linked to EM00516
+birthplace,EM02459,"Williams, Hartley",birth,Fitzroy,1843,bare name that is also a place outside Victoria; already linked to EM00574
+birthplace,EM02582,"Denison, Hugh Robert",birth,Forbes,1865,bare name that is also a place outside Victoria
+deathplace,EM03193,"MacKenzie, William Frederick (Bill)",death,Forest Hill,1972,bare name that is also a place outside Victoria; already linked to EM00597
+birthplace,EM02549,"Cherry, Thomas",birth,Gisborne,1861,bare name that is also a place outside Victoria
+birthplace,EM02837,"Peck, Harry Huntington",birth,Gisborne,1860,bare name that is also a place outside Victoria
+birthplace,EM03307,"Turnbull, Stanley Clive Perry",birth,Glenorchy,1906,bare name that is also a place outside Victoria
+birthplace,EM02717,"Layh, Herbert Thomas Christoph",birth,Hamilton,1885,bare name that is also a place outside Victoria
+birthplace,EM02803,"Mott, Hamilton Charnock",birth,Hamilton,1871,bare name that is also a place outside Victoria
+deathplace,EM03124,"Halpern, Stanislaw (Stacha)",death,Hampton,1969,bare name that is also a place outside Victoria; already linked to EM00684
+birthplace,EM03218,"Mudie, Ian Mayelston",birth,"Hawthorn, Adelaide",1911,text names a place outside Victoria but it is linked to EM00693: that link looks wrong
+birthplace,EM02696,"Kenyon, Alfred Stephen",birth,Homebush,1867,bare name that is also a place outside Victoria
+birthplace,EM02248,"Dampier, Alfred",birth,Horsham,1848,bare name that is also a place outside Victoria
+birthplace,EM02513,"Blackburn, Maurice McCrae",birth,Inglewood,1880,bare name that is also a place outside Victoria
+birthplace,EM03101,"Fairley, Neil Hamilton",birth,Inglewood,1891,bare name that is also a place outside Victoria
+birthplace,EM02953,"Tivey, Edwin",birth,Inglewood,1866,bare name that is also a place outside Victoria
+deathplace,EM02797,"Monash, John",death,Iona,1931,bare name that is also a place outside Victoria; already linked to EM00761
+birthplace,EM02215,"Budd, Richard Hale",birth,"Kensington, London",1816,"birth in 1816, before Melbourne was settled (1835): the place is not the Melbourne one; it is linked to EM00793, which looks wrong"
+birthplace,EM02233,"Clarke, Marcus Andrew Hislop",birth,"Kensington, London",1846,text names a place outside Victoria but it is linked to EM00793: that link looks wrong
+birthplace,EM02440,"Turner, Henry Gyles",birth,"Kensington, London",1831,"birth in 1831, before Melbourne was settled (1835): the place is not the Melbourne one; it is linked to EM00793, which looks wrong"
+birthplace,EM02175,"à Beckett, William Arthur Callander",birth,"Kensington, London",1833,"birth in 1833, before Melbourne was settled (1835): the place is not the Melbourne one; it is linked to EM00793, which looks wrong"
+deathplace,EM02863,"Rene, Roy (Mo)",death,"Kensington, Sydney",1954,text names a place outside Victoria but it is linked to EM00793: that link looks wrong
+birthplace,EM02538,"Burston, James",birth,Kilmore,1856,bare name that is also a place outside Victoria
+birthplace,EM02613,"Finlay, Mary McKenzie",birth,Kilmore,1870,bare name that is also a place outside Victoria
+birthplace,EM02760,"MacKenzie, William Colin",birth,Kilmore,1877,bare name that is also a place outside Victoria
+birthplace,EM02858,"Raws, William Lennon",birth,Kimbolton,1878,bare name that is also a place outside Victoria
+birthplace,EM02242,"Cowen, Frederic Hymen",birth,Kingston,1852,bare name that is also a place outside Victoria
+birthplace,EM03327,"Williams, Katherine Mary Isabel",birth,Lara,1895,bare name that is also a place outside Victoria
+birthplace,EM02603,"Elmslie, George Alexander",birth,Lethbridge,1861,bare name that is also a place outside Victoria
+deathplace,EM02995,"Young, William Blamire",death,Lilydale,1935,bare name that is also a place outside Victoria; already linked to EM00855
+birthplace,EM02592,"Duggan, Edmund",birth,Lismore,1862,bare name that is also a place outside Victoria
+birthplace,EM02585,"Devine, Hugh Berchmans",birth,Little River,1878,bare name that is also a place outside Victoria; already linked to EM00861
+birthplace,EM02510,"Bevan, Llewelyn David",birth,Llanelly,1842,bare name that is also a place outside Victoria
+deathplace,EM02417,"Strong, Charles",death,Lorne,1942,bare name that is also a place outside Victoria
+deathplace,EM02640,"Griffin, Walter Burley",death,Lucknow,1937,bare name that is also a place outside Victoria
+deathplace,EM02642,"Grimwade, Edward Norton",death,Macedon,1945,bare name that is also a place outside Victoria
+deathplace,EM02678,"Hodges, Henry Edward Agincourt",death,Macedon,1919,bare name that is also a place outside Victoria
+deathplace,EM02823,"Officer, Edward Cairns",death,Macedon,1921,bare name that is also a place outside Victoria
+birthplace,EM03112,"Fredricksen, Carl Theodore (Charles)",birth,Majorca,1873,bare name that is also a place outside Victoria
+birthplace,EM03033,"Bowe, Ethel Jessie",birth,Maldon,1906,bare name that is also a place outside Victoria
+birthplace,EM02650,"Hain, Gladys Adeline",birth,Maldon,1887,bare name that is also a place outside Victoria
+birthplace,EM03254,"Roberts, Stephen Henry",birth,Maldon,1901,bare name that is also a place outside Victoria
+birthplace,EM02483,"Allen, Leslie Holdsworth",birth,Maryborough,1879,bare name that is also a place outside Victoria
+birthplace,EM03057,"Chisholm, Alexander Hugh (Alec)",birth,Maryborough,1890,bare name that is also a place outside Victoria
+birthplace,EM02664,"Healy, George Daniel",birth,Maryborough,1872,bare name that is also a place outside Victoria
+birthplace,EM02829,"Osborne, Henry William (Harry)",birth,Maryborough,1865,bare name that is also a place outside Victoria
+birthplace,EM03297,"Swanson, Victor George",birth,Maryborough,1910,bare name that is also a place outside Victoria
+birthplace,EM03082,"Dean, Arthur",birth,Merino,1893,bare name that is also a place outside Victoria
+birthplace,EM02913,"Smith, Henry Teesdale",birth,Merino,1858,bare name that is also a place outside Victoria
+birthplace,EM02589,"Downes, Rupert Major",birth,"Mitcham, Adelaide",1885,text names a place outside Victoria but it is linked to EM00988: that link looks wrong
+birthplace,EM03104,"Fitzgibbon, Graham Francis (Smacka)",birth,"Mordiallic, Melbourne",1930,"the first part is not a Melbourne locality, neighbourhood or park in Vicmap/VICNAMES (spelling or old name)"
+deathplace,EM02561,"Cole, Frank Hobill",death,Mornington,1934,bare name that is also a place outside Victoria; already linked to EM01013
+deathplace,EM03090,"Down, John Egbert",death,Mornington,1963,bare name that is also a place outside Victoria; already linked to EM01013
+deathplace,EM02810,"Murphy, Herbert Dyce",death,Mornington,1971,bare name that is also a place outside Victoria; already linked to EM01013
+deathplace,EM02381,"Poore, John Legg",death,Mornington,1867,bare name that is also a place outside Victoria; already linked to EM01013
+deathplace,EM02881,"Robson, Ernest Iliff",death,Mornington,1946,bare name that is also a place outside Victoria; already linked to EM01013
+deathplace,EM02886,"Rowell, John Thomas Nightingale",death,Mornington,1973,bare name that is also a place outside Victoria; already linked to EM01013
+deathplace,EM03316,"Walsh, Herbert Fitzgerald",death,Mornington,1972,bare name that is also a place outside Victoria; already linked to EM01013
+birthplace,EM03348,"Edwards, Marion (Bill)",birth,Murchison,1874,bare name that is also a place outside Victoria
+birthplace,EM02452,"Webb, Thomas Prout",birth,"Newtown (Fitzroy, Melbourne)",1845,"the first part is not a Melbourne locality, neighbourhood or park in Vicmap/VICNAMES (spelling or old name)"
+birthplace,EM02537,"Burke, Thomas Michael",birth,Norval,1870,bare name that is also a place outside Victoria
+deathplace,EM03075,"Cox, Leonard Bell",death,Olinda,1976,bare name that is also a place outside Victoria; already linked to EM01084
+birthplace,EM03181,"Lowe, Charles John",birth,Panmure,1880,bare name that is also a place outside Victoria
+birthplace,EM02966,"Waller, Mervyn Napier",birth,Penshurst,1893,bare name that is also a place outside Victoria
+birthplace,EM02572,"Cuming, James",birth,Portland,1861,bare name that is also a place outside Victoria
+birthplace,EM02575,"Cussen, Leo Finn Bernard",birth,Portland,1859,bare name that is also a place outside Victoria
+deathplace,EM03022,"Begg, Kenneth Gowan",death,Portsea,1975,bare name that is also a place outside Victoria; already linked to EM01170
+birthplace,EM02519,"Boyd, James Arthur",birth,Portsea,1867,bare name that is also a place outside Victoria; already linked to EM01170
+deathplace,EM02665,"Henderson, Kingsley Anketell",death,Portsea,1942,bare name that is also a place outside Victoria; already linked to EM01170
+deathplace,EM02824,"O'Hara, Henry Michael",death,Portsea,1921,bare name that is also a place outside Victoria; already linked to EM01170
+birthplace,EM02512,"Bird, Frederic Dougan",birth,Richmond,1858,bare name that is also a place outside Victoria; already linked to EM01245
+birthplace,EM02794,"Mitchell, Edward Fancourt",birth,Richmond,1855,bare name that is also a place outside Victoria; already linked to EM01245
+birthplace,EM02309,"Kernot, William Charles",birth,Rochford,1845,bare name that is also a place outside Victoria
+birthplace,EM03313,"Wakefield, Norman Arthur",birth,Romsey,1918,bare name that is also a place outside Victoria
+birthplace,EM02632,"Goble, Joseph Hunter",birth,Rosebrook,1863,bare name that is also a place outside Victoria
+birthplace,EM02535,"Buntine, Walter Murray",birth,Rosedale,1866,bare name that is also a place outside Victoria
+birthplace,EM03087,"Disher, Harold Clive",birth,Rosedale,1891,bare name that is also a place outside Victoria
+birthplace,EM03131,"Hartley, Francis John",birth,Rutherglen,1909,bare name that is also a place outside Victoria
+birthplace,EM02528,"Bruce, Minnie Grant (Mary)",birth,Sale,1878,bare name that is also a place outside Victoria
+deathplace,EM03087,"Disher, Harold Clive",death,Sale,1976,bare name that is also a place outside Victoria
+birthplace,EM03176,"Loder, Louis Francis",birth,Sale,1896,bare name that is also a place outside Victoria
+birthplace,EM03179,"Lort Smith, Louisa Eleanor",birth,Sale,1875,bare name that is also a place outside Victoria
+deathplace,EM02951,"Thwaites, William",death,San Remo,1907,bare name that is also a place outside Victoria
+deathplace,EM02889,"Russell, Percy Joseph",death,Sassafras,1946,bare name that is also a place outside Victoria; already linked to EM01328
+birthplace,EM02533,"Buggy, Edward Hugh",birth,Seymour,1896,bare name that is also a place outside Victoria
+deathplace,EM03303,"Tindale, George Barrand",death,Sherbrooke,1977,bare name that is also a place outside Victoria; already linked to EM01364
+deathplace,EM03313,"Wakefield, Norman Arthur",death,Sherbrooke,1972,bare name that is also a place outside Victoria; already linked to EM01364
+birthplace,EM02475,"Aitken, George Lewis",birth,Skipton,1864,bare name that is also a place outside Victoria
+birthplace,EM03140,"Horsfall, Robert Allan",birth,Somerville,1909,bare name that is also a place outside Victoria; already linked to EM01398
+birthplace,EM03095,"Eager, Clifden Henry Andrews",birth,Sorrento,1882,bare name that is also a place outside Victoria; already linked to EM01399
+deathplace,EM02411,"Smith, Thomas",death,"South Preston, Melbourne",1900,"the first part is not a Melbourne locality, neighbourhood or park in Vicmap/VICNAMES (spelling or old name)"
+deathplace,EM02523,"Brentnall, Thomas",death,"South Yarrra, Melbourne",1937,"the first part is not a Melbourne locality, neighbourhood or park in Vicmap/VICNAMES (spelling or old name)"
+deathplace,EM02390,"Rolando, Charles",death,St Kilda,1893,bare name that is also a place outside Victoria; already linked to EM01305
+birthplace,EM02740,"Lyons, Joseph Aloysius",birth,Stanley,1879,bare name that is also a place outside Victoria
+birthplace,EM02552,"Clarke, Rupert Turner Havelock",birth,Sunbury,1865,bare name that is also a place outside Victoria; already linked to EM01445
+deathplace,EM02160,"Kerr, William",death,Sunbury,1859,bare name that is also a place outside Victoria; already linked to EM01445
+birthplace,EM02906,"Shirlow, John Alexander Thomas",birth,Sunbury,1869,bare name that is also a place outside Victoria; already linked to EM01445
+birthplace,EM02984,"Winneke, Henry Christian",birth,Talbot,1874,bare name that is also a place outside Victoria
+birthplace,EM02382,"Powell, Walter",birth,Tottenham,1822,"birth in 1822, before Melbourne was settled (1835): the place is not the Melbourne one; it is linked to EM01502, which looks wrong"
+deathplace,EM03330,"Wisewould, Gweneth",death,Trentham,1972,bare name that is also a place outside Victoria
+birthplace,EM02888,"Rudduck, Harold Sugden",birth,Westbury,1873,bare name that is also a place outside Victoria
+birthplace,EM03167,"Langley, Henry Thomas",birth,Windsor,1877,bare name that is also a place outside Victoria; already linked to EM01624
+birthplace,EM02817,"O'Callaghan, Thomas",birth,Windsor,1845,bare name that is also a place outside Victoria; already linked to EM01624

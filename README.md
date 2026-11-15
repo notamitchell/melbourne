@@ -28,6 +28,11 @@ When you reuse it, credit *eMelbourne, University of Melbourne*, link to the lic
 you changed anything, and share your version under the same licence. Commercial use is not
 permitted.
 
+Coordinates added by `tools/geocode.py` come from Vicmap Admin, VICNAMES and Vicmap Transport
+(© State of Victoria, Department of Energy, Environment and Climate Action) and City of Melbourne
+open data, all under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); each coordinate's
+`note type="source"` names the dataset it came from.
+
 Some items carry their own rights statements (shown on each object page), and collection images
 remain subject to the holding institution's terms. Third-party code keeps its own licence:
 [Quill](site/js/vendor/quill/LICENSE.txt) (BSD-3-Clause) and [D3](site/js/vendor/d3/LICENSE.txt) (ISC).
@@ -64,6 +69,9 @@ tools/apply_prov_links.py  writes the matched links into tei/pages/*.xml and dat
                     then run build_index.py
 tools/enrich.py     review|apply: suggests people-mention and birth/death-place links, written into tei/ only
                     for rows marked y in enrichments/review.csv; then run build_index.py and build-facets.py
+tools/geocode.py    fetch|review|apply: coordinates for suburbs, streets and birth/death places in Melbourne and
+                    Victoria from Vicmap and VICNAMES, listed in enrichments/geo-review.csv (with geo-skipped.csv
+                    saying what was left out and why) and written into tei/ only for rows marked y
 schema/             emelbourne.odd (the entry format, documented) and emelbourne.rng (generated: tools/build_schema.py)
 EDITING.md          how collaborators edit entries and upload them through the GitHub website
 ```
