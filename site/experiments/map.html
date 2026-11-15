@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melbourne mapped – eMelbourne experiments</title>
+<link rel="stylesheet" href="../css/site.css">
+<link rel="stylesheet" href="experiments.css">
+<link rel="stylesheet" href="maps.css">
+<script src="../js/vendor/d3/d3.min.js"></script>
+<script src="common.js"></script>
+<script src="maps.js"></script>
+</head>
+<body class="exp">
+<header class="site"><div class="hd"><a class="brand" href="../index.html"><span class="brand-name">eMelbourne</span><span class="brand-tag">The Encyclopedia of Melbourne Online</span></a><form class="quick" action="../search.html" role="search"><label class="sr" for="quick-q">Search eMelbourne</label><input id="quick-q" name="q" type="search" placeholder="Search people, places, events…" autocomplete="off"><button type="submit">Search</button><a class="adv" href="../advanced.html">Advanced search</a></form><nav class="top" aria-label="Site"><a href="../index.html#themes">Themes</a><a href="../browse.html">A to Z</a><a href="../index.html#exhibitions">Exhibitions</a><a href="onthisday.html">On this day</a><a href="index.html" aria-current="page">Experiments</a><a href="../page.html?p=about">About</a></nav></div></header>
+<main class="exp-wrap">
+<p class="exp-crumb"><a href="index.html">Experiments</a></p>
+<h1>Melbourne mapped</h1>
+<p class="exp-lede">Every suburb, street and laneway in eMelbourne, on a map. The bigger a suburb's dot, the more people in eMelbourne were born or died there. Drag to move, scroll or pinch to zoom, and click a dot to see the entry and the people.</p>
+<div class="exp-bar">
+  <span class="exp-legend" id="layers"></span>
+  <label>Find <input type="search" id="find" list="names" placeholder="a suburb or street" size="22"></label>
+  <datalist id="names"></datalist>
+  <button class="btn-quiet" id="all" type="button">Whole region</button>
+  <button class="btn-quiet" id="city" type="button">City centre</button>
+  <span id="count" class="exp-note"></span>
+</div>
+<div class="exp-chart map-box" id="map"></div>
+<p class="exp-note map-credit" id="credit"></p>
+<div id="panel" class="map-panel" aria-live="polite"></div>
+</main>
+<script>
+(function () {
+  "use strict";
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>Sorry, the map could not be drawn.</b> Try reloading the page.</p>"); return; }
+  const { esc } = Exp;
+  const KINDS = [["suburb", "Suburbs & localities", "var(--series-1)"], ["street", "Streets & lanes", "var(--series-2)"]];
+  const on = { suburb: true, street: true };
+  Promise.all([Exp.facets(), Maps.basemap()]).then(([rows, base]) => {
+    const byId = new Map(rows.map(r => [r.id, r]));
+    const themes = id => (byId.get(id)?.th || []);
+    const pts = rows.filter(r => r.ll && r.t !== "person").map(r => ({
+      id: r.id, n: r.n, ll: r.ll, kind: r.t === "place" ? "suburb" : "street", people: []
+    }));
+    // people born or died at a point: the same coordinates as a place record (tools/geocode.py reuses them)
+    const at = new Map(pts.map(p => [p.ll.join(","), p]));
+    rows.filter(r => r.t === "person").forEach(r => ["b", "d"].forEach(k => {
+      const p = r[k]?.ll && at.get(r[k].ll.join(","));
+      if (p && !p.people.some(x => x.r === r && x.k === k)) p.people.push({ r, k });
+    }));
+    document.getElementById("credit").textContent = base.credit + ". Points: tools/geocode.py, from Vicmap and VICNAMES.";
+    document.getElementById("names").innerHTML = pts.map(p => `<option value="${esc(p.n)}">`).join("");
+
+    const map = Maps.make(document.getElementById("map"), base, { extent: Maps.METRO, grid: true });
+    const r = d3.scaleSqrt([0, d3.max(pts, p => p.people.length) || 1], [3, 14]);
+    const g = map.layer.append("g");
+    const dots = g.selectAll("circle").data(pts.sort((a, b) => b.people.length - a.people.length)).join("circle")
+      .attr("class", "map-dot").attr("fill", d => KINDS.find(k => k[0] === d.kind)[2])
+      .attr("data-kind", d => d.kind)
+      .on("mouseenter", (e, d) => map.tip(e, `<b>${esc(d.n)}</b><span class="m">${d.kind === "suburb" ? "Suburb or locality" : "Street or lane"}${d.people.length ? " · " + d.people.length + " born or died here" : ""}</span>`))
+      .on("mouseleave", () => map.tip())
+      .on("click", (e, d) => show(d));
+    function place() {
+      const k = map.k();
+      dots.attr("cx", d => map.x(d.ll)).attr("cy", d => map.y(d.ll))
+        .attr("r", d => (d.kind === "street" ? 4 : r(d.people.length)) * Math.pow(k, 0.2) / k)
+        .attr("stroke-width", 1 / k)
+        .attr("display", d => on[d.kind] ? null : "none");
+    }
+    map.onzoom(place); place();
+
+    document.getElementById("layers").innerHTML = KINDS.map(([k, label, c]) =>
+      `<button type="button" class="exp-key" aria-pressed="true" data-k="${k}"><i style="background:${c}"></i>${label} <span class="n">${pts.filter(p => p.kind === k).length}</span></button>`).join("");
+    document.querySelectorAll("#layers .exp-key").forEach(b => b.addEventListener("click", () => {
+      on[b.dataset.k] = !on[b.dataset.k]; b.setAttribute("aria-pressed", on[b.dataset.k]); place();
+    }));
+    document.getElementById("count").textContent = `${pts.length} places with coordinates`;
+    document.getElementById("all").onclick = () => map.zoomTo(Maps.METRO);
+    document.getElementById("city").onclick = () => map.zoomTo(Maps.CITY);
+    document.getElementById("find").addEventListener("change", e => {
+      const p = pts.find(x => x.n.toLowerCase() === e.target.value.trim().toLowerCase());
+      if (p) { map.zoomTo(Maps.around(p.ll, p.kind === "street" ? 0.004 : 0.03)); show(p); }
+    });
+    const want = new URLSearchParams(location.search).get("id");
+    if (want && pts.find(p => p.id === want)) { const p = pts.find(x => x.id === want); map.zoomTo(Maps.around(p.ll, 0.02)); show(p); }
+
+    function show(d) {
+      dots.classed("on", x => x === d);
+      const ps = d.people.slice().sort((a, b) => (a.r.b?.y ?? 0) - (b.r.b?.y ?? 0));
+      const li = ps.map(({ r, k }) => `<li><a href="${Exp.entry(r.id)}">${esc(r.n)}</a> <span class="exp-note">${k === "b" ? "born" : "died"} ${r[k].y ?? ""} · ${esc(r[k].pl)}</span></li>`).join("");
+      document.getElementById("panel").innerHTML = `<h2><a href="${Exp.entry(d.id)}">${esc(d.n)}</a></h2>` +
+        `<p class="exp-note">${d.kind === "suburb" ? "Suburb or locality" : "Street or lane"} · ${d.ll[0].toFixed(4)}, ${d.ll[1].toFixed(4)}</p>` +
+        (ps.length ? `<h3>Born or died here: ${ps.length}</h3><ul class="plain">${li}</ul>` : "");
+    }
+  }).catch(e => document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p>" + esc(e.message) + "</p>"));
+})();
+</script>
+</body>
+</html>

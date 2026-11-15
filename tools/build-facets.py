@@ -11,6 +11,8 @@ Reads every TEI file in site/tei/ and writes one compact row per record:
   occ   [occupation, ...]          sex  "m" | "f"
   bib   [[kind, author, title, year], ...]
   img   1 if it has a gallery       adb  1 if it cites the ADB
+  ll    [lat, long] of a place record or street (location type="point", see tools/geocode.py);
+        b and d also carry "ll" when the person's listPlace type="life" gives the place's coordinates
   mn    computed, not in the TEI: for a person, the entries whose text names them;
         for an entry, the people it names (first forename + surname, unambiguous names only)
 
@@ -153,6 +155,13 @@ def main():
                         " · ".join(title), int(y.group(0)) if y else None])
         if bib: row["bib"] = bib
         if r.find(".//" + NS + "div[@type='gallery']") is not None: row["img"] = 1
+        for pl in r.iter(NS + "place"):                  # coordinates checked in with tools/geocode.py
+            g = pl.find(NS + "location/" + NS + "geo")
+            if g is None or not g.text: continue
+            ll = [float(x) for x in g.text.split()]
+            k = {"birth": "b", "death": "d"}.get(pl.get("type"))
+            if k and k in row: row[k]["ll"] = ll
+            elif not k: row["ll"] = ll
         if r.get("type") != "person":
             body = r.find(".//" + NS + "body")
             bodies[i] = text(body)

@@ -71,7 +71,8 @@ tools/enrich.py     review|apply: suggests people-mention and birth/death-place 
                     for rows marked y in enrichments/review.csv; then run build_index.py and build-facets.py
 tools/geocode.py    fetch|review|apply: coordinates for suburbs, streets and birth/death places in Melbourne and
                     Victoria from Vicmap and VICNAMES, listed in enrichments/geo-review.csv (with geo-skipped.csv
-                    saying what was left out and why) and written into tei/ only for rows marked y
+                    saying what was left out and why) and written into tei/ only for rows marked y;
+                    basemap writes site/data/basemap.js, the outlines behind experiments/map.html and lives-map.html
 schema/             emelbourne.odd (the entry format, documented) and emelbourne.rng (generated: tools/build_schema.py)
 EDITING.md          how collaborators edit entries and upload them through the GitHub website
 ```
