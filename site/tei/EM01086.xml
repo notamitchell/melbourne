@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Olympic Consolidated Industries</title>
+<author>Mike Williams</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01086</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Valued at $98 000 000 when it merged with the Dunlop Tyre and Rubber Co. in 1980, this company was founded by Frank Beaurepaire in November 1922 as a tyre re-treading business. Located at 264 La Trobe Street, the Beaurepaire Tyre Service soon began selling petrol and cut-price new tyres. Beaurepaire expanded further during the 1930s depression, building the Olympic Tyre and Rubber Co. factory at Footscray. The company name reflected Beaurepaire's reputation in international swimming. Diversification before World War II included bicycle tyres, electric cables and rubber mouldings. Prior to the merger, the company had expanded its production of electric and optical fibre cables, and diversified into automotive batteries and polyurethane foam manufacture.</p></div>
+</body>
+</text></TEI>

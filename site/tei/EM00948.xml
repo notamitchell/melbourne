@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Marathon</title>
+<author>June Senyard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00948</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Until 1978 marathons were organised by athletics clubs, like the Victorian Marathon Club formed by Percy Cerutty in the 1940s, or as part of the Victorian Athletic Championships. The increased popularity of jogging from the 1960s and the establishment of the New York City Marathon in 1970 attracted new participants to the sport. In 1978 Brian Dixon, Minister for Youth, Sport and Recreation, and the City of Melbourne established the Big M Melbourne Marathon in which 3000 participants ran from Frankston to the Melbourne Town Hall. Interest peaked in 1983 with 6867 runners. The decision to limit participants to those over 18 and the popularity of shorter fun runs and the half marathon have reduced numbers, but the Melbourne Marathon remains an important annual event.</p></div>
+</body>
+</text></TEI>

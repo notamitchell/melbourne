@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Keilor Archaeological Site</title>
+<author>Gary Presland</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00792</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00001.xml"><desc>Aboriginal Melbourne</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Keilor archaeological site is an area of approximately 4.4 ha at the junction of Dry Creek and the Maribyrnong River, 1.5 km north of Keilor. The land was acquired in 1976 by the State Government, under Section 26 (b) of the <hi rend="italic">Relics Act 1972</hi> (8273) (Vic.). The acquisition was recognition of the importance of the area to studies of Aboriginal history and local geomorphological processes.</p>
+<p>Interest in the Keilor site was generated in 1940 when a human cranium was unearthed during quarrying activity. Subsequent studies of the local geomorphology identified three terrace formations, which were linked to changes in sea level over the previous 150 000 years. In 1953 E.D. Gill of the National Museum of Victoria calculated the age of the cranium to be about 14 700 years BP (Before Present), using radiocarbon dating and fluorine-phosphate analysis.</p>
+<p>From the early 1960s Dr A.S. Gallus, working with the Archaeological Society of Victoria, excavated a number of sites along Dry Creek. Charcoal from a human hearth excavated by Gallus in 1971 was radiocarbon-dated to about 31 000 years BP, making Keilor one of the earliest sites of human habitation in Australia. The presence of megafaunal remains within the site provided a further point of interest for Aboriginal studies.</p>
+<p>The State Government assumed control of the site in 1972 with the formation of the Archaeological and Aboriginal Relics Office, later called Victoria Archaeological Survey (VAS). VAS and La Trobe University Archaeology Department jointly excavated over a number of seasons between 1978 and 1981 but the results were inconclusive. Major questions posed by the site, such as the nature and extent of human/megafauna interaction, remained unresolved. Moreover, plans for a major on-site education and interpretative centre ultimately had to be abandoned because of difficulties with soil erosion and a lack of stability. No further work is planned at the site which is now managed by Aboriginal Affairs, Victoria.</p></div>
+</body>
+</text></TEI>

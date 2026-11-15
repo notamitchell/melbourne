@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Wandin</title>
+<author>Peter Baddeley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01575</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Wandin</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3139, 42 km E, Yarra Ranges Shire)</p>
+<p>The name Wandin is a contraction of <hi rend="italic">Wandin Yallock</hi>, meaning swift-running stream. This was fruit-growing country from a very early date and land sold quickly from the mid-1860s. In 1892 the Wandin Pioneer Co. Ltd built a factory large enough to process all of the fruits from the area. Eventually it was destroyed by fire and the company was wound up. In 1900 another factory was established close to Wandin railway station, and built up a considerable export business prior to World War I. The site of this station is now part of the Warburton Trail. The suburb's population is centred around Wandin township, and the district, which includes Wandin North, Wandin East and Wandin Yallock, features various wine-growing and horticultural activities.</p></div>
+</body>
+</text></TEI>

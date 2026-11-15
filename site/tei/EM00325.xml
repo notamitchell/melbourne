@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Chapel Street</title>
+<author>Mary Sheehan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00325</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Located in the City of Stonnington, Chapel Street extends from the Yarra River at Alexandra Avenue, south to St Kilda Road, traversing the suburbs of South Yarra, Prahran, Windsor and St Kilda. Chapel Street gained its name from the Independent (Congregationalist) Chapel which stood near Commercial Road in the late 1840s, although the street's fame is firmly rooted in the retailing located between Toorak Road, South Yarra, and Dandenong Road, Windsor.</p>
+<p>Chapel Street grew as a retail centre after the arrival of the railway in the 1860s, and expanded when the advent of trams in 1885 made the shops readily accessible to commuters. Major building development in the 1880s, and again between the 1890s depression and World War I, saw Chapel Street emerge as one of Melbourne's most important thoroughfares. During the interwar years, young Colin McInnes sensed the 'drama' of life as it surged between the 'five storey buildings with their turrets and towers' that lined the street, where was found the 'excitement of a big city' (<hi rend="italic">The road to Gundagai</hi>, 1965).</p>
+<p>The character of the retail district changed in the mid-20th century, influenced first in the 1950s by the motor car, which offered access to modern drive-in shopping malls like Chadstone. By the 1960s, the basic wares of the shops gave way to a greater variety of merchandise, as post-World War II European immigrants demanded exotic ingredients to prepare their traditional food. In the final decades of the 20th century this cosmopolitanism attracted shoppers back to Chapel Street. Empty buildings like the AJC factory and Read's Store were converted to shopping centres; boutiques and restaurants opened; and supermarkets and other chain stores subsumed smaller shops. Chapel Street is the largest metropolitan shopping strip outside the Melbourne Central Business District.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000105" type="book"><author>Malone, Betty</author> <title level="m">Chapel Street Prahran</title> <pubPlace>Melbourne</pubPlace> <publisher>Prahran Historical and Arts Society in conjunction with Prahran Mechanics Institute, 2 vols</publisher> <date>1983-84</date></bibl></listBibl></div></back>
+</text></TEI>

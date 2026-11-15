@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Fringe Festival</title>
+<author>Carly Millar</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00940</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This annual celebration of avant-garde, experimental art, showcasing theatre, music, dance, performance art, film, visual arts, spoken word, circus, comedy and cabaret is inclusive and diverse: its mission is to present an innovative, informal and accessible program. An exciting, idiosyncratic event on the Melbourne cultural calendar, it represents a vital training ground for new independent artists. The Melbourne Fringe Network was established in 1982, growing out of the demise of the Pram Factory, home of the Australian Performing Group. Artists returning from Adelaide Fringe decided that Melbourne needed a similar event. Organised to coincide with Moomba in 1983, the inaugural festival included 120 artists performing in 22 locations across the inner city. From 1984 to 1986 it was called the Melbourne Piccolo Spoleto Fringe Festival but later reverted to its original name. Melbourne Fringe is now an umbrella organisation advising and supporting independent arts organisations, with the festival remaining its principal activity. Signature events, like its street party/parade in Brunswick Street, attract audiences of over 100 000 and each year over 3000 local, national and international artists perform at more than 100 participating venues.</p></div>
+</body>
+</text></TEI>

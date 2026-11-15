@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Attwood</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00106</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Attwood</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3049, 17 km N, Hume City)</p>
+<p>This locality is situated to the east of Melbourne Airport between Greenvale to the north and Westmeadows to the south. Attwood is bisected by Mickleham Road, the location of the Victorian Institute of Animal Science and the Victoria Police dog training centre, stud farm and motor driving school. In 2001, a quarter of its population of 2218 was overseas-born, mainly Italian, British and Turkish. The most common industries of employment included manufacturing and the retail trade.</p></div>
+</body>
+</text></TEI>

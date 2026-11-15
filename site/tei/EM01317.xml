@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>St Vincent De Paul Orphanage</title>
+<author>Karen Twigg</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01317</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Initially established in a house in Prahran in 1854, the existing institution was founded in South Melbourne in 1855 by Fr Gerald Ward (St Vincent de Paul Society), and began admitting Catholic orphan children in 1857. Children were provided with care, education and, upon reaching working age, an apprenticeship. The Sisters of Mercy took charge in 1861 and also managed the St Vincent de Paul Girls' Orphanage, built on an adjoining site in 1863-67. The boys' orphanage was transferred to the Christian Brothers in 1874.</p>
+<p>The girls' orphanage, renamed St Vincent de Paul Children's Home in 1962, was relocated to Black Rock in 1966 following a decision by the Sisters to phase out congregate care in favour of family-group homes. In 1992 the name changed to the St Vincent de Paul Child and Family Service. Both this service and St Vincent de Paul Boys' Home (renamed in 1967) came under the control of the welfare agency MacKillop Family Services in 1997.</p></div>
+</body>
+</text></TEI>

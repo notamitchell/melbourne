@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Angelo Lane</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01688</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-10-09" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01752.xml"><desc>Condells Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00634.xml"><desc>General Post Office</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01037.xml"><desc>Myer</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01939.xml"><desc>Post Office Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>'Angel Lane' ran south off Post Office Place (now Little Bourke Street) just east of the General Post Office. In 1860, the lane contained several businesses pertaining to engineering, basket-making, and corn dealing. Maps from the early twentieth century indicate that Angel Lane tapered to become a narrow pedestrian walkway towards Bourke Street. This walkway was originally a private passage known in 1868 as the 'Herald Passage'. From 1911, the lane was progressively surrounded by the shops of the Myer Emporium. By the 1950s, the lane had been renamed 'Angelo Lane', and the Herald Passage had disappeared under the roofs of Myer. Today the lane is gated at the entrance from Little Bourke, but since the mid twentieth century, the name 'Angelo Lane' has also extended to Angel Lane's neighbour across Little Bourke Street, once known as Condells Lane. This section of the lane now stretches through and around the Myer buildings to emerge on Lonsdale Street.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000093"><head>Correspondence file between George Robertson &amp; others and the City of Melbourne, re building in Herald passage off Bourke St East</head><graphic url="../objects/thumbs/tn_HERA_001_L.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_HERA_001_L.jpg"/><p>17 August 1868</p><note type="rights">Courtesy Public Record Office Victoria</note></figure></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000628" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1860</date></bibl></listBibl></div></back>
+</text></TEI>

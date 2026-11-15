@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Centre for Urban Research and Action</title>
+<author>Renate Howe</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00320</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Founded at Fitzroy Methodist Church in 1971 on the initiative of the Rev. Brian Howe, the Centre for Urban Research and Action (CURA) model of research and action came from Howe's experience while studying in Chicago (1965-67), especially through his involvement in the civil rights and anti-poverty movements. CURA confronted the changes in Fitzroy such as homelessness, the demolition of housing for high-rise public housing estates, freeway construction, the rights of tenants, the marginalisation of ethnic groups, and inadequate social services. Supported by the Brotherhood of St Laurence, Wesley Central Mission and the new activist inner-suburban residents associations, CURA participated in effective campaigns against the redevelopment plans of Victoria's powerful State government bureaucracies.</p>
+<p>CURA published <hi rend="italic">Ekstasis</hi>, a journal focused on church and society issues and developed a research and publishing arm which undertook research projects on housing, the social impact of freeways and the development of multiculturalism. '<hi rend="italic">But I wouldn't want my wife to work here</hi>' (1975), a study of migrant women working in Melbourne industries, was among significant CURA research publications.</p>
+<p>CURA wound down in the 1980s as those involved moved into policy development in social agencies, the trade union movement, government departments and Australian Labor Party politics. Although a small organisation, CURA contributed to social change not only in Melbourne but nationally.</p></div>
+</body>
+</text></TEI>

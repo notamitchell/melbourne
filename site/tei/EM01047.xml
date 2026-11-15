@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>National Trust of Australia (Victoria)</title>
+<author>Jasmine Morris</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01047</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A community organisation established in 1956 to conserve heritage sites, the Trust was born in the building boom after World War II when the public became aware of the need to preserve architecture, streetscapes, gardens, trees, even towns significant in Victoria's past.</p>
+<p>The first Trust acquisition was Como House in South Yarra, rescued from suburban development to become a Melbourne landmark. The Trust has campaigned to save many important heritage assets including Government House, Customs House, the Regent Theatre and W-class trams. In 1971 10 000 Victorians joined the Trust's protest on the lawns of Rippon Lea. The Trust's outlook is constantly developing: now industrial sites and working-class cottages are considered as culturally significant as Victorian mansions.</p>
+<p>Supported by 30 000 members and 1200 volunteers the Trust owns and manages around 50 properties and has more than 7000 files of significant sites on its heritage list. Many of its properties are open to the public as museums and host special events such as wedding receptions. Committees also assess the historical, architectural, technical, cultural and community significance of sites recommended for classification. However, the Trust is without legal authority and has to work with community groups or governments to lobby for the properties it classifies to be listed with the Heritage Council. Sometimes this means negotiating with developers, architects and government bodies and engaging in public debate. During the 1950s there was a long battle to stop the clearing of heritage sites at the top end of Collins Street for high-rise office blocks. In more recent years the glass shards planned for Federation Square were condemned because they would block the view of St Paul's Cathedral from St Kilda Road. In 2004 the Trust contested the State Government's Melbourne 2030 plan, arguing that high-density housing and 'activity centres' would threaten the heritage value of the inner-suburban shopping strips. To this day the Trust continues its work protecting Victoria's heritage.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000021" type="book"><author>Davison, Graeme, and Chris McConville</author> <title level="m">A heritage handbook</title> <pubPlace>Sydney</pubPlace> <publisher>Allen &amp; Unwin</publisher> <date>1991</date></bibl></listBibl></div></back>
+</text></TEI>

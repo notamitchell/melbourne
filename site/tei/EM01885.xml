@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Madame Brussels Lane</title>
+<author>Patricia Mcmullan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01885</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01731.xml"><desc>Casselden Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01200.xml"><desc>Prostitution</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Madame Brussels Lane is a return lane off Lonsdale Street between Exhibition and Spring streets. The lane was named after the Melbourne brothel owner, Madame Brussels, who owned 8 high-class brothels during the late nineteenth century.</p>
+<p>The Urban Workshop Building, located at 50 Lonsdale Street, was built over land which was consolidated in the 1950s and as a result several laneways were destroyed. The architects revived the former lanes as pedestrian walkways within the foyer of the Urban Workshop Building, including Madame Brussels Lane.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000717" type="article"><title level="a">From infamy to street cred, Madame is still marvellous</title> <title level="m">The Age</title> <date>2006</date> <ref target="http://www.theage.com.au/news/national/from-infamy-to-street-cred-madame-is-still-marvellous/2006/04/15/1144521546968.html">online</ref></bibl></listBibl></div></back>
+</text></TEI>

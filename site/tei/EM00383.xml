@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Comedy Theatre</title>
+<author>Elisabeth Kumm</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00383</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01682.xml"><desc>Albert Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located on the south-east corner of Lonsdale and Exhibition streets, the Comedy Theatre was designed in 1927 by the architects C.N. Hollinshed and A.H. Walkley, for J.C. Williamson Theatres Ltd. With seating for just over 1000 patrons, the Comedy was designed as Williamson's 'intimate' theatre. It complemented the firm's other larger theatres, the King's, Her Majesty's and Theatre Royal. The Comedy opened on 28 April 1928 with <hi rend="italic">Our betters</hi> by Somerset Maugham, and featuring Canadian actress Margaret Bannerman. The Comedy was built on a site that has long been associated with theatre. Notable predecessors include Rowe's American Circus, George Coppin's Olympic Theatre and Cole's Hippodrome. The Comedy was the first theatre in Australia to combine circle and upper circle. The interior was designed in the medieval Spanish style that had strong links with contemporary cinemas. The Comedy has almost exclusively staged plays and has featured many visiting and local performers of note. Irene Vanbrugh and Dion Boucicault opened in July 1928; Nellie Stewart made her final Melbourne appearance in 1930; in 1943 <hi rend="italic">Kiss and tell</hi> broke all existing records with 418 performances; the Kiwi Revue Co. occupied the theatre for 106 weeks from December 1946; Googie Withers and John McCallum were regulars in the 1950s; Michael Redgrave starred in <hi rend="italic">A voyage round my father</hi> in 1973. With the disbandment of J.C. Williamson's in the 1970s, the Comedy was bought by the Paul Dainty Corporation. In 1996 David Marriner added the Comedy to his stable, which already included the Princess, Regent and Forum theatres.</p></div>
+</body>
+</text></TEI>

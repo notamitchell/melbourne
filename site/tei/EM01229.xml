@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Regent</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01229</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Regent</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3072, 3073, 11 km N, Darebin City)</p>
+<p>Partly in Preston, partly in Reservoir, Regent is a small mainly residential locality astride Regent Street. Although there were residential subdivisions near the Regent railway station in the 1880s land boom, the area stayed mainly rural until the 1920s. Construction of the West Preston electric tramway, along Gilbert Road to Regent Street, in 1920 opened up the area to more intensive residential use. Local street names record World War I generals (including Monash, Birdwood, Haig and Pershing) and reflect the timing of Regent's main development. Rona Street records the name of one of the 1880s subdivisions.</p></div>
+</body>
+</text></TEI>

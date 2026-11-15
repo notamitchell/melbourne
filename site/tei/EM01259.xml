@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Romanians</title>
+<author>Abe W. Ata</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01259</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Various people of Latin origin and language, and of Christian Orthodox faith, settled in Melbourne after World War II for political reasons. Close to 11% of the community belong to other ethnic groups, such as the Greek, German, Hungarian, Ukrainian, Magyar and Gypsy communities. The 1996 census revealed a total of 4556 Romanian-born Australians residing in 40 different Melbourne suburbs. Their religious composition is however confined to Romanian Orthodoxy (90%), Protestantism (5%), Catholicism (3%) and 2% non-affiliates. In 1972 Fr Gaina established the first Romanian Orthodox Church. With its highly decorative Byzantine interior and Romanian crafted fittings, the church in Queensberry Street, Carlton, had originally been built in 1867 for the Anglo-Celtic community. In concert with other parishes, Fr Gaina also contributed to the first Romanian parish quarterly <hi rend="italic">Altarul Strabun</hi> (which ceased publication in 1990). Melbourne's eight registered Romanian churches serve as venues for cultural, social, language-based and national activities. The Orthodox churches have continued, to various degrees, to be under the jurisdiction of the Orthodox Patriarchate in Bucharest. Romanian is taught in a small number of schools, is broadcast on community radio and has been registered as a VCE subject.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Morgue</title>
+<author>Simon Cooke</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01011</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02139.xml"><desc>Swine Flu: In Focus - June 2009</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Following English tradition, inquests in mid-19th-century Melbourne were held in hotels, and bodies awaiting inquest were stored in outbuildings. There was no precedent in British culture for a dedicated morgue as a place for storing bodies awaiting inquests. 'It is essentially a French institution - the morgue being one of the dismal sights of Paris - and appears to be a gloomy emanation from the morbid sentimentality of the French mind', said the <hi rend="italic">Age</hi> newspaper in 1871. Despite its novelty, a morgue (or dead-house) was proposed for a site near Princes Bridge in 1854 in response to complaints about the presence of corpses in public houses, fear of disease and the need to provide a central place for the identification of the unknown dead. Despite these demands, the Princes Bridge site was not used to store bodies until 1871 because of the revulsion felt at having the dead in such a prominent position. Bodies were being taken to a morgue in Melbourne from at least 1858, although its exact location is now uncertain.</p>
+<p>From around 1864 to 1871 a morgue was located at the Australian Wharf on the Yarra River. A series of sites was used in following years: the original Princes Bridge site (1871-83), Cole's Wharf (1883-88), Batman Avenue (1888-1955) where it had the 'unlucky' phone number of Central 13, and the Flinders Street extension (1956-88), modelled on the Batman Avenue building. A new Coronial Services Centre containing the State Coroners Office and the Victorian Institute of Forensic Pathology was opened in South Melbourne in 1988.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000581" type="journal-article"><author>Brown-May, A., and S. Cooke</author> <title level="a">Death, decency and the dead house: The city morgue in colonial Melbourne</title> <title level="m">Provenance</title> <date>2004</date></bibl></listBibl></div></back>
+</text></TEI>

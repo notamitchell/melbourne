@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="person" subtype="person" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Singleton, John</title>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02402</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="edited">Linked death place East Melbourne (checked list, tools/enrich.py).</change>
+</revisionDesc></teiHeader>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>John</forename> <surname>Singleton</surname></persName><sex value="1"/><birth when="1808-01-02">2 January 1808, <placeName>Dublin</placeName></birth><death when="1891-09-30">30 September 1891, <placeName ref="EM00496.xml">East Melbourne</placeName></death><occupation>philanthropist</occupation><occupation>physician</occupation></person></listPerson></standOff>
+<text><body>
+<div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM001010" type="resource-section"><author>Morrissey, Sylvia</author> <title level="a">Singleton, John (1808-1891)</title> <title level="m">Australian Dictionary of Biography, online edition</title> <publisher>Australian National University</publisher> <date>2006</date> <ref target="http://www.adb.online.anu.edu.au/biogs/A060146b.htm">online</ref></bibl></listBibl></div></back>
+</text></TEI>

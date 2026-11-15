@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Danks, John &amp; Son Pty Ltd</title>
+<author>Mike Williams</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00443</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Founded by Staffordshire-born John Danks (1828-1902) and his brother Thomas, this firm began operation at 42 Bourke Street in 1859 as a brass foundry and manufacturers of gas and water supply equipment. The company diversified into manufacturing lead sheet and pipe (1887), vitreous earthenware (1917) and a comprehensive range of domestic and industrial plumbing and gas equipment. The company also manufactured boilers and small steam engines during the 19th century. Various factory sites were occupied in South Melbourne and in Sydney. In the 1990s, the firm operated from Braeside and Mitcham as wholesale hardware merchants and steel stockists. More recently Danks became a major shareholder in retail hardware outlets such as Home and Thrifty Link, with Australia-wide operations.</p></div>
+</body>
+</text></TEI>

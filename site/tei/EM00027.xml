@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Aboriginal Child-Care Agency</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00027</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00001.xml"><desc>Aboriginal Melbourne</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A Koorie community organisation which oversees placements for Aboriginal children in need of alternative care, Aboriginal Child-Care Agency (ACCA) was founded by Mollie Dyer in 1976. It worked initially through the Victorian Aboriginal Legal Aid Service but became a separate organisation in 1978, when its right to be consulted was recognised by the State Department of Community Welfare Services. Committed to asserting the 'normality' of Aboriginal family structures in order to reverse insensitive welfare intervention and the over-representation of Aboriginal children in care, ACCA runs family support programs and administers Link-Up services for individuals removed from their families in the past.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Heffernan Lane</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01842</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00338.xml"><desc>Chinese</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01679.xml"><desc>Laneway Commissions</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Heffernan Lane is located between Swanston and Russell streets, extending in a north-south direction between Little Bourke and Lonsdale streets. It was named in 1857 after Rolly Heffernan, owner of the Melbourne Hotel in Lonsdale Street. In 1889, the Union Electric Lighting Company and W.H. Masters and Co. gas apparatus manufacturer built an engine house at the Lonsdale Street end of the lane. The smoke from the engine house chimney was a constant cause of complaint by local residents. In December 1894, nine residents, mostly from Russell Street, sent a petition to the City Council complaining about the smoke and requesting that the situation be investigated. However the engine house was not the only cause of smoke on Heffernan Lane. The <hi rend="italic">Argus</hi> newspaper reported that on 25 February 1874 a fire occurred in a building occupied by three Chinese men, Hong Kee, N. Kow, and R. Yen, who were engaged in hawking tea. Between £500 and £600 worth of tea and Chinese 'fancy goods' were damaged. The goods were uninsured, and the origins of the fire unknown.</p>
+<p>Located in Melbourne's Chinatown precinct, Heffernan Lane was home to several Chinese restaurants in the early 1900s. According to Weston Bate, the Chung Wah Café located here 'helped to wean Melburnians from European cuisine'. By 1965, the only Chinese businesses remaining on the lane were the Chung Wah café and a storage area for David Wang and Co. In 1992, Heffernan Lane was home to a culturally diverse range of businesses: an Asian supermarket, Greek restaurant, Egyptian club, and a community tavern.</p>
+<p>Heffernan Lane was the site of artist Evangelos Sakaris's untitled installation for the City of Melbourne's Laneway Commissions 2001-2002. Sakaris's work involved the instalment along the lane of contemporary street signs bearing excerpts of ancient Greek and Chinese texts, to highlight the connections between these cultures.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000035"><head>Heffernans Lane from Lonsdale St</head><graphic url="../objects/images/COM_n0630.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_COM_n0630.jpg"/><p>November 1958</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000703" type="newspaper-article"><title level="m">The Argus</title> <date>1874</date> <biblScope unit="page">5</biblScope></bibl><bibl xml:id="PEM000693" type="resource-section"><title level="a">Central Melbourne - Lanes F-H</title> <title level="m">Amendment C105 - CBD Laneways Review</title> <publisher>City of Melbourne</publisher> <date>2007</date> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=195&amp;pg=3065&amp;bp=1902&amp;coll=8">online</ref></bibl><bibl xml:id="PEM000655" type="resource"><title level="m">Laneway Commissions 2001-2002</title> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=75&amp;pg=810&amp;bp=2022&amp;coll=13">online</ref></bibl></listBibl></div></back>
+</text></TEI>

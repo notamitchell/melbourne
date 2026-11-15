@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>New Zealanders</title>
+<author>James Bennett</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01055</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The presence of New Zealanders in Melbourne can be traced back to the 1850s gold rush. Economic conditions have led to cyclical patterns of immigration. The principal recipient of refugees from the 1880s depression in New Zealand was Marvellous Melbourne. In the 1881-91 decade approximately one-sixth of Victoria's net migration intake came from New Zealand.</p>
+<p>Links between Melbourne and the South Island were particularly strong, stimulated by a 'Bluff to Melbourne' steamer service. Melbourne functioned as a magnet to many New Zealanders who sought the advantages of metropolitan life within a fundamentally similar cultural milieu. The business world was an important point of contact, but so too was cultural life. The New Zealand theatre world was too small to be self-contained and touring companies crisscrossed the Tasman. Maori entertainers performed in theatrical productions in Melbourne as early as September 1862.</p>
+<p>Beginning in the late 1960s there have been three successive waves of migration from New Zealand. However, the proportion of Australia's New Zealand-born population living in Melbourne declined in the 1980s and 1990s. Compared with other immigrants New Zealanders are predominantly young and have no religion, and see themselves as long-term visitors.</p>
+<p>While New Zealanders in Melbourne are found across the occupational spectrum, a number have made their mark in medicine, business, academia, journalism and broadcasting. These include the artist Arthur Merric Boyd, geologist and director of Broken Hill Associated Smelters Sir Colin Fraser, economist, diplomat and administrator Sir Douglas Copland, and medical researcher Peter MacCallum. Prominent media personalities and public figures have included Derryn Hinch, Edwin Maher and Moira Rayner.</p></div>
+</body>
+</text></TEI>

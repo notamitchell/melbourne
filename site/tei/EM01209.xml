@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Puffing Billy</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01209</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Australia's longest-running steam railway operates between Belgrave and Gembrook in the Dandenong Ranges on part of the 2 ft 6 in (76 cm) gauge line between Upper Ferntree Gully and Gembrook, which opened in 1900 and closed following a landslide in 1953. Enthusiasts formed the Puffing Billy Preservation Society in 1955, reopening the line in stages, reaching Menzies Creek (1962), Emerald (1965), Emerald Lake (1975) and Gembrook (1998). The train is a favourite with tourists and children, and since 1982 an annual race sees joggers try to outrun the train and beat it to its destination.</p></div>
+</body>
+</text></TEI>

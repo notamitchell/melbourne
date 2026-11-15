@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Shopping Malls</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01369</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Regional drive-in centres began to displace Melbourne's central-city and suburban shopping strips with the opening of Chadstone in 1960. It followed the drive-in shopping centre pattern of Top Ryde in Sydney and Chermside in Brisbane, both of which opened in 1957.</p>
+<p>Shopping malls catered mainly for shoppers who travelled by motor car, but most were also served by bus. Most were built in the suburbs, closer to where people wished to shop. Parking problems (and parking meters) in the central city and even in suburban shopping streets made shopping malls with ample parking attractive. Later, to help arrest the drift of business to the suburbs, shopping malls opened in the central city.</p>
+<p>As malls developed, they became fully enclosed and airconditioned. They began to offer more than just shopping, with entertainment floors that included multi-screen cinemas, amusement parlours, and areas devoted to doctors and other professionals. Most also had food courts, where people could eat economically. Many became extensive enough for a trip to the mall to be an outing in itself, without any purpose other than window-shopping or 'hanging about'.</p>
+<p>Modern as it was, Chadstone was neither completely enclosed nor completely airconditioned, as later shopping malls were. Its attractions were ample parking near the shops and shoppers' freedom to walk from shop to shop without conflict with cars. Built by the Myer Emporium, Chadstone was in Melbourne's prosperous south-eastern suburbs, 13 km from the city. Myer added a new floor to its store in 1963, but there were no further major developments until the Gandel Group bought the centre in 1983. In 1984 the open-air mall was enclosed. From then on, Chadstone steadily became larger, with progressive additions.</p>
+<p>Melbourne's first indoor shopping mall, Northland, in the northern suburb of Preston, opened in 1966. Also built by Myer, it began with a three-level Myer department store, about 80 other stores, a cinema, a first-class restaurant and various community services. With the totally indoor pattern established, similar centres followed at Eastland (Ringwood) and Southland (Cheltenham). Northland maintained its original form until the Gandel Group bought it in 1983.</p>
+<p>The first shopping mall in Melbourne's west was Highpoint, which opened in 1975 in Maribyrnong, developing rapidly after it was bought by the Sussan Corporation in 1982. One of its more contentious expansions was in 1993, when it became the first regional shopping centre in Victoria to open a betting and gambling section, Pokies Plus. By 1989 Highpoint had grown so large that shoppers could walk for almost a kilometre from one end to the other.</p>
+<p>As Melbourne expanded, shopping malls began to appear in the outer suburbs. In 1976 Knox City opened, 25 km east of the city. In 1996 Epping Plaza opened, 20 km north of the city. Melbourne shoppers were also offered a large central-city shopping mall with the opening of Melbourne Central in 1991, with a Daimaru store and 180 specialty stores. One of its attractions was that a station on Melbourne's underground city-loop railway was directly under it. Daimaru closed in 2002 and its space was redeveloped.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000497" type="book-section"><author>Spearritt, Peter</author> <title level="a">Suburban cathedrals: the rise of the drive-in shopping centre</title> <title level="m">The cream brick frontier: histories of Australian suburbia</title> <pubPlace>Melbourne</pubPlace> <publisher>Monash Publications in History, Department of History, Monash University</publisher> <date>1995</date> <biblScope unit="page">88-107</biblScope></bibl></listBibl></div></back>
+</text></TEI>

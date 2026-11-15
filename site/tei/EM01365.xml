@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ship Inn</title>
+<author>Chrystopher J. Spicer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01365</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01993.xml"><desc>Tavistock Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Built by John Moss between 1836 and 1837 in front of his Flinders Lane brewery on the site of present-day Tavistock House (383 Flinders Lane), the first Ship Inn was a wattle, daub and sawn timber tavern. It was one of the first six hotels licensed in Melbourne. Replaced in 1846 by a brick building housing Melbourne's first Servant's Registry Office (operated by Edward Cochane), it was rebuilt in 1850 as a hotel and adjoining offices to a design by Samuel Marlow for John and Mary Tighe. In 1866 Samuel Crickmer changed the name to the Norfolk Hotel, and in 1893 it became the Tavistock under Mattie Somner. Renovated in 1906 with art nouveau detailing to a design by Leonard Flanagan's office, the Tavistock was closed in December 1914 and converted into retail and office premises. A large part of the remaining building is believed to be the oldest hotel structure extant in Central Melbourne.</p></div>
+</body>
+</text></TEI>

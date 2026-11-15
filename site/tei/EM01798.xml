@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Fleming Place</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01798</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01792.xml"><desc>Equitable Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01846.xml"><desc>Hicks Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01060.xml"><desc>Newspapers and Periodicals</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Fleming Place is located between Queen and Elizabeth streets, to the west of Equitable Place. It extends south from Little Collins Street. Fleming Place has had a diverse range of businesses and buildings located on it over its history. In 1895, the Remington Hotel was located on the corner of Collins Street and Fleming Place, whilst the opposite end of the lane was the site of the John Bull Hotel, on the corner of Little Collins Street. Warehouses lined both the east and west sides of the lane, later used to house paper manufactures and printers, including The Atlas Press in 1920.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000673" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1892</date></bibl><bibl xml:id="PEM000674" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1930</date></bibl></listBibl></div></back>
+</text></TEI>

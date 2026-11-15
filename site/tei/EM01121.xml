@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Pascoe Vale</title>
+<author>Richard Broome</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01121</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Pascoe Vale</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3044, 10 km N, Moreland City)</p>
+<p>This suburb on the east bank of the Moonee Ponds Creek was purchased, settled and named 'Pascoeville' by John 535 Pascoe Fawkner in 1839. The colony's first nursery, established by Fawkner at his farm, Belle Vue Park, in the present Oak Park, boasted numerous fruit varieties and vines that produced 2000 gallons of 'excellent' wine by 1848. Fawkner and his wife Eliza resided there until 1855.</p>
+<p>Initially the main road north passed through 'Pascoeville', but in 1850 it was replaced by Sydney Road. 'Pascoeville' slipped into rural isolation as a farming and haymaking area. By 1900 its northern part, called Mount Sabine or 'Peachey town' after a local farmer, was a popular destination for horse-riding or country outings. The last ploughing match occurred there in 1910.</p>
+<p>In 1922 a photograph of Pascoe Vale, north of Gaffney Street, revealed only 20 houses scattered over 1 km2 of farmland. However, the scores of sheds indicate the presence of owner-builders, some of whom worked at the new Lincoln Mills in Gaffney Street, which opened in 1919 and employed 1000 people by 1920. Others worked in factories located in the nearby North Coburg industrial zone.</p>
+<p>In the 1920s, the War Service Homes Commission developed Pascoe Vale South, adjoining Gallipoli Street. A local Returned Servicemen's Progress Association followed. More war service homes were constructed in the 1950s boom, and together with owner-builders, the commission filled in the suburb. With a less working-class complexion than nearby Coburg, Pascoe Vale consistently ranked higher than its immediate neighbours on social rankings of Melbourne suburbs.</p></div>
+</body>
+</text></TEI>

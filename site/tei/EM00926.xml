@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Boys' High School</title>
+<author>Jacqueline Eager</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00926</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A selective state school for boys in the final four years of their education Melbourne Boys' High originated from Victoria's first secondary institution, the co-educational Melbourne Continuation School, which opened in 1905. Housed in the Old National Model School in Spring Street it was designed to allow students to continue their education after primary level. The school split in 1927 with the boys (totalling 400) moving to Forrest Hill in South Yarra and the girls eventually becoming MacRobertson Girls' High School in 1934. The Forrest Hill building, costing £100 000 to construct, has been the permanent home of the school apart from a short period during World War II when it was requisitioned by the Royal Australian Navy. The school prides itself on tradition and academic success. The school flag bears the motto 'Honour the Work' and a motif of a unicorn, symbolic of the school being the only boys' high school in Victoria at the time of its establishment. The crown located on the unicorn's head symbolises that it was the first State-controlled high school.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000029" type="book"><author>Inch, A.</author> <title level="m">A history of Melbourne High School: Honour the work</title> <pubPlace>Melbourne</pubPlace> <publisher>Lloyd O'Neil Pty Ltd</publisher> <date>1977</date></bibl></listBibl></div></back>
+</text></TEI>

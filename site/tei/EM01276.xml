@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royal Mail Hotel</title>
+<author>Chrystopher J. Spicer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01276</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01960.xml"><desc>Royal Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01989.xml"><desc>Sugden Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Built in 1848 at 251 Bourke Street, on the south-east corner of Bourke and Swanston streets, this hotel gained its name because its owner, E.B. Green, held the contract for carrying post via stagecoach throughout Victoria. William Johnson Sugden, founder of the city's first plain-clothes detective force, became the second licensee when he resigned in 1848 as Melbourne's chief constable. However, he remained in his position as the first fire chief of the city's original publicly funded fire brigade from 1845 to 1850. Sugden obtained one of the few city night licences, enabling him to remain open after 9 p.m. In 1888, when Paddy Reynolds was licensee, the custom began at the hotel of presenting a gold-mounted whip to the winning jockey on the night of the Melbourne Cup. At about this time, the city's hansom cab drivers made the hotel their headquarters, stationing their timekeeper there with his clock and whistle. The hotel was demolished in late 1960 to make way for an office and retail development that was known for many years as Royal Mail House.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>James C. Roberts Memorial</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02086</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="place" active="#subject" passive="EM01115.xml"><desc>Parkville</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01282.xml"><desc>Royal Park</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Artist unknown Granite obelisk date unknown Corner of Macarthur and The Avenue, Parkville</p>
+<p>This austere granite obelisk was erected in memory of Lieutenant James C. Roberts, who died in the Boer War, fought between 1899 and 1902. As a child he played in Royal Park, where the memorial is located.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000128"><head>James C. Roberts Memorial</head><graphic url="../objects/images/JamesCRoberts.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_JamesCRoberts.jpg"/><p>Artist unknown</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

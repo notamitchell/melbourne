@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Her Majesty's Theatre</title>
+<author>Mimi Colligan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00706</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01682.xml"><desc>Albert Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01747.xml"><desc>Cohen Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Designed by Nahum Barnet, Her Majesty's Theatre opened in Exhibition Street as the Alexandra Theatre in October 1886 with the farce <hi rend="italic">Bad lads</hi>. During the early 1890s actor-manager Alfred Dampier staged several Australian melodramas including <hi rend="italic">Marvellous Melbourne</hi> and <hi rend="italic">Robbery under arms</hi>. J.C. Williamson Ltd (JCW) leased the theatre in 1900 renaming it Her Majesty's. In 1911 it was the venue for the Melba-Williamson grand opera season. Renamed His Majesty's in 1924, the theatre hosted Russian ballerina Anna Pavlova in 1926, and Dame Nellie Melba in 1928.</p>
+<p>After a fire in 1929, the burnt-out shell was used (1931-33) as a film studio by F.T. Thring. In 1934 the interior was reconstructed in Art Moderne style by C.N. Hollinshed and W.H. Walkley, reopening with the musical comedy <hi rend="italic">White Horse Inn</hi>. Postwar productions included Broadway musicals such as <hi rend="italic">Oklahoma! </hi>, <hi rend="italic">Annie get your gun</hi>, <hi rend="italic">My fair lady</hi> and <hi rend="italic">Camelot</hi>. The Borovansky Ballet presented several seasons from the late 1940s until its disbandment in 1961. Other notable seasons included the Sutherland-Williamson Opera of 1965 and the Royal Shakespeare Company. With the demise of JCW in 1976 the theatre was used only intermittently. Purchased by television personality Mike Walsh in 2000 it was substantially refurbished and reopened in 2002.</p></div>
+</body>
+</text></TEI>

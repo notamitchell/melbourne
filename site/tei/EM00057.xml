@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Alliance Française</title>
+<author>Dianne Reilly</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00057</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Alliance Française de Melbourne, known until 1972 as the Alliance Française de Victoria, was founded on 6 June 1890 by Madame Berthe Mouchette, the official delegate of the parent body in Paris. Mouchette had responded to excitement about Australia generated in Paris at a lecture given by 'Tasma' (Jessie Couvreur), and settled in Melbourne with her diplomat husband and novelist sister Marie Lion in September 1881. In 1885, the two women purchased the girls' school Oberwyl in St Kilda and it was here that the Alliance Française was inaugurated. From the outset, it had an educational role, maintaining a library and featuring annual prize-giving ceremonies for its students. Diverse cultural events including musical soirées, dramatic productions and an annual ball remain part of the calendar of events. The Alliance had its first permanent home in Armadale in 1977, moving to Richmond in 1979 before settling in St Kilda in 1987. Noted members included Janet, Lady Clarke, its first patron, and Louise Hanson-Dyer, president in the 1920s who was hostess of a number of flamboyant entertainments. Today, with an increasing membership, the Alliance Française flourishes as a pedagogical and social institution representing French culture in Victoria.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000544" type="edited-book"><author>Nettelbeck, Colin W.</author> <title level="m">The Alliance Française in Australia, 1890-1990: An historical perspective</title> <pubPlace>Canberra</pubPlace> <publisher>Fédération des Alliances Françaises en Australie</publisher> <date>1990</date></bibl></listBibl></div></back>
+</text></TEI>

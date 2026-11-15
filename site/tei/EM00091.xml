@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Art Magazines and Publishing</title>
+<author>Leigh Astbury</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00091</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00010.xml"><desc>Media &amp; Communications</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Through their contribution to the discourse of art criticism and scholarship, art magazines help define Melbourne's cultural life. The <hi rend="italic">Illustrated Australian Magazine</hi> (1850-52) began a tradition which saw talented artists earn a living as cartoonists on magazines such as the <hi rend="italic">Melbourne Punch</hi> (1855-1925) or as illustrators with the major city newspapers. Art criticism in 19th-century papers, such as that of James Smith on the <hi rend="italic">Argus</hi>, was often lively and informed, but it struggled to find an outlet elsewhere in brave but short-lived cultural journals such as the <hi rend="italic">Australasian Critic</hi> (1890-91).</p>
+<p>Atlas Press claimed that its 1899 limited edition booklet, <hi rend="italic">A Consideration of the Art of Ernest Moffitt</hi>, by Lionel Lindsay, was 'the first art volume published in Australia'. In 1916 Lothian produced a further milestone in art publishing with a deluxe, folio-sized book, <hi rend="italic">The Art of Frederick McCubbin</hi>. The National Gallery of Victoria and other Melbourne art galleries have contributed to art publishing in the 20th century through catalogues of their collections and exhibitions, as have commercial gallery dealers, and art societies through magazines and newsletters. The consolidation of art history in universities has witnessed the increasing publication of scholarly art monographs since the 1970s.</p>
+<p>Broad-ranging cultural journals such as <hi rend="italic">Meanjin</hi> (1940- ) and <hi rend="italic">Angry Penguins</hi> (Adelaide 1940-42 and Melbourne 1943-46) provided a vital intellectual forum for local debate during a period when Melbourne found it difficult to sustain magazines devoted exclusively to art. The 1970s, however, saw a resurgence in local art journals with the appearance of <hi rend="italic">Arts Melbourne</hi> (1976-77) and the feminist art journal, <hi rend="italic">Lip</hi> (1976-84). In 1981 Paul Taylor began <hi rend="italic">Art and Text</hi> (1981- 2000) in Melbourne; and <hi rend="italic">Agenda</hi> (1988-95) was succeeded by <hi rend="italic">Like, Art Magazine</hi> (1996-2001).</p></div>
+</body>
+</text></TEI>

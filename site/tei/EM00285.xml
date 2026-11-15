@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Campbellfield</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00285</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Campbellfield</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3061, 17 km N, Hume City)</p>
+<p>Campbellfield is a mainly industrial suburb astride the Hume Highway. It takes its name from grazier James David Lyon Campbell and other Campbells who settled in the area in the 1840s. Campbellfield sites offer room for expansion and transport advantages, particularly for manufacturing, transport and storage. Its attractions increased with completion of Melbourne's Western and Northern Ring roads and the Tullamarine Freeway upgrade. Ford and Nestlé have plants there. Campbellfield has a small resident population concentrated in the south of the suburb. It draws its workforce mainly from Roxburgh Park and Craigieburn to the north, and Glenroy and Fawkner to the south.</p></div>
+</body>
+</text></TEI>

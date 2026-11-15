@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>My Melbourne: Collins Street</title>
+<author>Kerry Greenwood</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01223</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>I date my love affair with the City of Melbourne from walking up Collins Street in the Spring of 1965. I was going to see <hi rend="italic">The Nutcracker</hi>. I was 11. I was wearing a new dress, a dropped-waist beige confection with brown and orange spots and a very stylish brown cord belt. Melbourne was wearing dark stone with crenellations and green leaves as soft as skin.</p>
+<p>It was love at first sight.</p>
+<p>Working-class children did not commonly go into the city, though after this I went every Saturday on the train from Footscray to wander and explore. My mother let me go only after I could faultlessly recite the Grid Litany: Spencer, King, William, Queen, Elizabeth, Swanston, Russell, Exhibition, Spring, and the cross reference which meant that, even if lost, no child of hers had any excuse in staying lost: Flinders, Collins, Bourke, Lonsdale, La Trobe, and the little streets between.</p>
+<p>I had never been given a plaything so endlessly fascinating as a whole city. It was full of surprises. Just when I thought I had memorised the stretch of Lonsdale Street between, say, Elizabeth and Queen, the City would yield me Hardware Lane leading into Little Bourke with a map-maker's and a costume jeweller's and odd government offices with unknown functions. Across Elizabeth is a gloomy building which still says that it is the registry of Foreign and Alien Debtors, peopled in my imagination with Gothic heroines and vampire bats.</p>
+<p>Later, I read the end of Dostoevsky's <hi rend="italic">Crime and Punishment</hi> sitting on the massive bulwarks of the GPO, because reading it anywhere else had driven me into misery.</p>
+<p>But on the day we first met, it was sunny, I was very happy in my new dress, and we walked up the impressive slope of Collins Street through patches of shade. From Swanston Street: me, my cousin, my grandmother and my sister. I was impressed by the vast bulk of the Town Hall and the Athenaeum Library with Real Gentlemen inside. The Greek pillars of the Baptist Church went past, a milliner's window with just one hat and no price tag, Georges deco-lettered name over a circular arcade full of gowns on plaster ladies. On up the hill past the Assembly Hall. A bookshop with steps that went down and a window full of fascinating and unreadable tomes. The Scots' Church and then, at the Independent Church, we crossed the road into a forest of green leaves and brass plates and entrancing little shops.</p>
+<p>There were iron lace tables and umbrellas - on the pavement! We sat down and I sipped from a glass of orange crush and a fully tonsured miniature French poodle called André trotted out of the hairdresser's and sat down with his head in my lap.</p>
+<p>He had curly apricot fur.</p>
+<p>I have probably never again been so purely happy since I sat in the dappled light in the Paris End of Collins Street and patted André and sipped orange crush, and fell in love with a city.</p></div>
+</body>
+</text></TEI>

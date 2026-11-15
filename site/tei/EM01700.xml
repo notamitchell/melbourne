@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Barrett Alley</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01700</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01738.xml"><desc>Chancery Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01219.xml"><desc>RACV (Royal Automobile Club of Victoria)</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Barrett Alley once ran north off Chancery Lane (now Little Collins Street) between Queen and William streets. It was probably an access lane for the building on the corner of Little Collins and Queen streets. By 1961, new clubrooms had been built over the top of Barrett Alley. These housed the Royal Automobile Club of Victoria until the club moved to a new building at 501 Bourke Street in 2005.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000649" type="resource"><title level="m">RACV History</title> <publisher>RACV</publisher> <date>2007</date> <ref target="http://www.racv.com.au/wps/wcm/connect/Internet/Primary/about+RACV/RACV+history/">online</ref></bibl></listBibl></div></back>
+</text></TEI>

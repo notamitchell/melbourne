@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Black Wednesday</title>
+<author>Paul Strangio</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00200</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00013.xml"><desc>Politics &amp; Government</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>On 9 January 1878 Melburnians awoke to the news that Graham Berry's radical liberal ministry had cut a swathe through the upper echelons of the colony's civil service, dismissing judges of the county courts, courts of mines and insolvency courts, police magistrates and wardens of goldfields, coroners and deputy-coroners, some Crown prosecutors, and a number of senior departmental officers. A second round of dismissals on 24 January brought the total retrenched to nearly 400, although most were subsequently reinstated.</p>
+<p>Black Wednesday was a spike in the broader struggle between the Berry ministry and the Legislative Council that convulsed Victoria from 1877 to 1881. The struggle erupted in December 1877 when the council deferred Supply ostensibly because it refused to be coerced into sanctioning an expenditure item for the payment of members of parliament that was appended to the Appropriation Bill. Although the public service sackings were justified by the ministry on the grounds of financial exigency, it was also motivated by a desire to reform an intransigent public service blighted by a culture of patronage.</p>
+<p>While the 'ultras' in the Berry ministry, firebrands like Peter Lalor, Francis Longmore and John Woods, were the fiercest advocates of drastic action against the council, Berry and Governor Sir George Bowen wore most opprobrium for the dismissals. The Melbourne establishment rounded on Bowen, despite his subsequent protests that he had assented 'purely' on the principle of following ministerial advice. His fear that the episode would be a permanent black mark against his name - never to be 'forgotten or forgiven either in England or in the colony' - seemed confirmed when at the end of 1878 he was posted to the imperial 'backwater' of Mauritius.</p>
+<p>The political impact of Black Wednesday is difficult to assess. While there is little evidence that the action eroded popular support for the government, the council's defenders seized on it as evidence of the ministry's revolutionary intent and as a source of economic disruption (the so-called 'Berry blight'). When the deadlock was resolved the council emerged with its powers unscathed.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000499" type="book-section"><author>Deakin, Alfred</author> <title level="m">The crisis in Victorian Politics, 1879-1881</title> <pubPlace>Melbourne</pubPlace> <publisher>Melbourne University Press</publisher> <date>1957</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Yarra Glen</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01659</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Yarra Glen</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3775, 45 km NE, Yarra Ranges Shire)</p>
+<p>Yarra Glen is a residential, agricultural, wine-making and dairying district on the upper Yarra River, south-west of Healesville. In 1838 the Ryrie brothers overlanded from New South Wales and established the first track across the Diamond Valley before settling south of the river on Yering station. The Ryries' track from the Yarra crossing near Eltham was the major route across the Diamond Valley. When gold was discovered in the early 1860s at Woods Point, it formed part of the 'Yarra Track' to the diggings. Yarra Flats, as Yarra Glen was then called, offered a hotel and stores to passing miners. In the 1850s the Bell family of Kangaroo Ground purchased an out-station called Gulf Station at Yarra Flats, and the family continued farming there until the 1950s. In the late 1880s the railway line to Healesville via Lilydale was directed through Yarra Flats, crossing the Yarra over a bridge that was said to be the longest in Australia. With the opening of the railway station, the town's name was changed to Yarra Glen. By the 1990s growth in Yarra Glen's residential population reflected its accessibility to metropolitan Melbourne. Following closure in 1980, the railway was revived as the Yarra Valley Tourist line.</p></div>
+</body>
+</text></TEI>

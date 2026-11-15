@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Infanticide</title>
+<author>Kathy Laster</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00754</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Infanticide was rife well into the 20th century. The social stigma of illegitimate birth and lack of child-care options meant that pregnancy and childbirth were often a social and economic disaster. Inadequate contraception and the danger and cost of illegal abortion made infanticide a desperate choice for many women. The opportunity of working as a wet-nurse for middle-class women may also have acted as an incentive for infanticide for some working-class women.</p>
+<p>Between 1885 and 1914, 125 women, mainly poor domestic servants, were charged with murder of an infant and 85 with the lesser crime of concealment of birth in Victoria. Sympathetic juries convicted less than half despite regular discoveries of babies' bodies floating in the Yarra River or abandoned in public places. Infanticides were also easily disguised as 'still births'.</p>
+<p>Many other babies died in the care of 'baby farmers' who provided child care for a fixed or regular payment . An infant separated from the breast, however, had little chance of survival. The notorious baby farmer, Frances Knorr, was executed in 1894 for the murder of three babies in her care. A moral panic about infanticide led to the introduction of the <hi rend="italic">Infant Life Protection Act 1890 (Vic.)</hi> which purported to regulate the problem. While the social and economic burdens of motherhood prevailed, however, direct and indirect infanticide persisted.</p></div>
+</body>
+</text></TEI>

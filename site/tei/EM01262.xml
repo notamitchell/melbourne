@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ross House Association</title>
+<author>Vivien Routley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01262</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01961.xml"><desc>Royston Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The members of the Ross House Association are small community and self-help groups who are dedicated to the pursuit of equality and social justice, and who collaborate in working towards a just and environmentally sustainable society. They wish to achieve social change through advocacy, campaigning, community education, and provision of resources and information.</p>
+<p>The Ross House Association manages a five-storey building in Flinders Lane. In 1980 the self-help movement's need for reasonably priced, secure accommodation was matched with the desire of the R.E. Ross Trust, a philanthropic foundation, to fund a special project. In 1985 the historic Royston House (1898-99), designed by architects Sulman &amp; Power, was purchased and renamed Ross House. Office space is available at below market rates, reducing the insecurity and financial pressures that hamper the activities of small community organisations. Opened in 1987, Ross House can accommodate over 70 organisations and many more use the building's other facilities, including meeting rooms and an equipment pool.</p>
+<p>The association builds community by encouraging interaction and shared information, skills and support among its members. Regular lunchtime forums, training workshops, yoga classes, and floor or issues-based meetings provide opportunities for interaction and the sharing of resources and talents between member organisations.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000097" type="book"><author>Higginson, Jo</author> <title level="m">Building for a community: the story of Ross House</title> <pubPlace>Melbourne</pubPlace> <publisher>Ross House Association</publisher> <date>1998</date></bibl></listBibl></div></back>
+</text></TEI>

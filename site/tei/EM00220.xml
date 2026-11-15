@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bourke Street (Tom Roberts)</title>
+<author>Virginia Spate</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00220</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Tom Roberts probably painted <hi rend="italic">Bourke Street</hi> (alternatively titled <hi rend="italic">Allegro con brio</hi>, meaning 'lively with spirit') in the summer of 1885-86, several months after his return to Melbourne from London, where he had studied not only academic art but the many forms of painting that insisted on the need to paint the scene before one's eyes in order to register a spontaneous personal impression and to grasp the wholeness of the atmospheric effect. In <hi rend="italic">Bourke Street</hi>, Roberts used high-keyed colours in scales of pink, orange, ochre and warm browns to convey his sensation of blazing midday heat, which he wittily emphasised by the word 'ICE' on a cart.</p>
+<p>No other Australian painting of the period - and only a few European or English ones - so vividly celebrates the excitement of modern urban life. Roberts positioned himself on the balcony of Buckley &amp; Nunn's drapery, looking down steeply at the tangle of carriages, carts and figures, then up the steep hill to the sudden void of sky that is typical of Melbourne's straight streets.</p>
+<p>The General Post Office made the intersection of Bourke and Elizabeth streets one of the busiest in the city. As the centre of Victoria's postal services, the entry point of eagerly awaited overseas and intercolonial mail, this corner was central to the commercial and personal life of the city. To accommodate its services and increase its grandeur, two extra storeys were being added to the Bourke Street frontage at the time Roberts painted his work. But, as is characteristic of impressionist vision, Roberts did not depict the specific monument. He merely suggested its scale in the strong vertical shadows on the right, and hinted at its function in the file of red-coated postmen slouching across the intersection. This vertical framing emphasises the main subject of the painting: the dynamism of the modernising city.</p>
+<p>This is Melbourne before bitumen and just before trams (the Bourke Street line opened in August 1887). The untidy mix of a city in the throes of rapid development is vividly suggested by the formal façades and brick side walls of the businesses rising up the hill and culminating in Menzies Hotel; by the gaslight, the telegraph poles and the emphatic shop signs.</p>
+<p>The dynamism of modernity is embodied in the very structure of the painting: in the lines of the vehicles exploding untidily away from its centre, and in the seemingly random flow of the figures, depicted with a caricaturist's wit in quick flicks of the brush. In these characteristics the painting is so strikingly similar to Monet's <hi rend="italic">Boulevard des Capuchines</hi> (1874) as to suggest that Roberts saw it when it was shown in Paris in early 1883.</p>
+<p>Roberts did not exhibit his painting before 1890 (when he added the three female figures on the lower left), probably because it was more radical in its celebration of city life and in its style than any other Australian painting of its time‚ when local visual arts critics characterised any loosely painted, high-keyed work as 'French'. Roberts may have added the French tricolour flag as a hint of an artistic inspiration, but his choice of this particular scene emphasised the astonishing growth of a new city, one which was absolutely specific to place but also connected to the other rapidly modernising cities of the British Empire.</p></div>
+</body>
+</text></TEI>

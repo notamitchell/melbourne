@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Brown Alley</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01719</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01768.xml"><desc>Dame Edna Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Brown Alley was probably named for the Brown Boy Inn, which operated in the alley in 1860. The laneway appears to have undergone some name changes, because in 1895 it appeared as Murckut's Alley on MMBW detail plans, servicing blacksmiths, manufacturers, the Adelaide Club Hotel and the Great Western Hotel. The laneway reappeared as Brown Alley in 1915, when contemporary directories show it contained only a wool buying business. The Lonsdale Street end of Brown Alley has been occupied since 1858 by Seabrook House, a three-storey bluestone warehouse featuring a variety of detailed dressed finishes. The building is now heritage listed, and used for office space.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000628" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1860</date></bibl><bibl xml:id="PEM000653" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1920</date></bibl></listBibl></div></back>
+</text></TEI>

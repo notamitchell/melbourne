@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Greenvale</title>
+<author>Jenny Keating</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00674</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Greenvale</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3059, 24 km N, Hume City)</p>
+<p>Located to the east of Melbourne Airport, Greenvale was originally a stopping place for travellers on the road to Sydney. Formerly an agricultural district, by the last decades of the 20th century it was one of Melbourne's fastest growing residential areas. In the early 1850s the writer William Howitt described two granite quarries here supplying scarce building stone for Melbourne. In what was described as 'beautiful park-like country', the Greenvale Sanatorium for tuberculosis patients was opened in 1905 near Gellibrand Hill, later becoming a geriatric centre and then the Greenvale campus of the North West Hospital. After the 1967-68 drought, work began on a new reservoir on the Yuroke Creek, which was opened in 1973. Part of the reserve, the Greenvale Reservoir Park, is open to the public.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>People's Path</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02025</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00576.xml"><desc>Fitzroy Gardens</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Ian Sprague Terracotta bricks and ceramic tiles 1978-79 Fitzroy Gardens, corner of Landsdowne Street and Cathedral Place</p>
+<p>People's Path originates from a community art project, providing a metaphorical means by which the community can take ownership of a public space. This work comprises approximately 10 000 standard terracotta bricks set in the three concentric circles surrounding a raised garden bed with plantings of palms and ivy. The exposed face of each brick features a hand etched drawing. The associated plaque advises that these 'tiles' were made by the People of Victoria on the opening day of the Arts Victoria 78 Craft festival. The path was opened by Hon. R.J.Hamer, Premier and Arts Minister, on 18 February 1979.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000061"><head>People's Path</head><graphic url="../objects/images/PeoplesPath01.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_PeoplesPath01.jpg"/><p>Ian Sprague 1978</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

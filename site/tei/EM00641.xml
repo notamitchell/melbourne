@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Girl Guides</title>
+<author>Alexandra Mcburnie</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00641</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Girl Guides Association is an informal educational movement offering a range of recreational and service activities to girls and young women. It was originally established in Great Britain in 1910 to provide a feminine equivalent to British Boy Scouts' citizenship education, but gradually absorbed the various girl 'scout' units that had been established internationally. The Girl Guides Association of Victoria was established in 1922 to administer Victoria's disparate Guide units. Its first headquarters were in Stonnington, the then State Government House. Subsequent headquarters were located in the Girls' Friendly Society Hall in Spring Street, the Colonial Mutual Life Assurance Building in Collins Street, 60 Market Street, and for 50 years from 1953 at 20 Russell Street.</p>
+<p>Girl Guides have conducted extensive service activities in Melbourne since 1910. One significant project was the National Development Scheme, which was particularly active during the early 1970s. Part recruitment drive, part outreach campaign, the Scheme attempted to promote the participation and integration into the community of socially 'neglected' individuals, particularly those residing in the Victorian Housing Commission areas of Dallas, Coolaroo and Fitzroy. The Association is now known as Guides Victoria and has a membership of 12 885 Victorian girls and women. New headquarters, known as the Joyce Price Centre, were opened in Clarke Street, South Melbourne, in 2004.</p></div>
+</body>
+</text></TEI>

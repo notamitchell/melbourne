@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Sandridge Rail Bridge</title>
+<author>Rohan Storey</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01324</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This important example of 19th-century industrial technology opened in 1888, was designed by the Victorian Railways to carry the busy Port Melbourne and St Kilda railway lines. The structure's long riveted plate iron girders were remarkable for their time. With piers like giant sunken columns topped by decorative niches, it is the most highly decorated railway bridge in Victoria. The unusually sharp angle across the Yarra River is also a reminder of Australia's first railway line, which joined the city to its port in an almost straight line. With the conversion of the railway lines to tram routes in 1987, it was abandoned and was considered an eyesore by many. In 2003 the State Government announced that it would be restored for use as part of the riverside promenade network.</p></div>
+</body>
+</text></TEI>

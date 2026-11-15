@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Women's Electoral Lobby</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01633</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00013.xml"><desc>Politics &amp; Government</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A national feminist organisation, the Women's Electoral Lobby (WEL) was founded in Melbourne in 1972 by abortion law reform activist, Beatrice Faust. Drawing on an American model its members began by ranking candidates in the forthcoming federal election on the basis of their responses to a poll on a range of women's issues. The subsequent publicity led to rapid growth, establishing WEL's significance as a lobby group. Aiming to achieve social, economic, educational, political and sexual equality for women, WEL quickly developed skills in lobbying, submission writing and media. Although it has no party affiliation, its campaigns have provided both a training ground and a support network for women who have built careers in politics or the bureaucracy. In its early years WEL differentiated itself sharply from older women's organisations but as generational anxieties eased it came to collaborate with the National Council of Women and, in 1982, succeeded the Australian Federation of Women Voters as the national affiliate of the International Alliance of Women. Anxious to address issues faced by women beyond the baby-boomers who provide the bulk of its members, WEL established a young feminists group in the 1990s to carry the organisation into its second quarter century.</p></div>
+</body>
+</text></TEI>

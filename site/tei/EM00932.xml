@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Cricket Club</title>
+<author>David Studham</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00932</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The oldest surviving cricket club in Australia and one of the oldest institutions in Victoria, the Melbourne Cricket Club (MCC) has been an integral part of Melbourne life since its establishment on 15 November 1838. Until the early 20th century the Club was the most important and influential force in Australian cricket. In 1851 a team carrying the MCC's colours crossed Bass Strait to play the inaugural Australian first-class cricket match in Launceston. Until the formation of the Australian Cricket Board of Control (1905), most English touring teams came to Victoria at the invitation of the Club or its members. The MCC led the way internationally in financing a number of Australian teams for Test tours of England. MCC members were also instrumental in the establishment and development of other sports  in the colony such as football, tennis and baseball. Indeed, former club secretary T.W. Wills and his successor T.F. Wray were on the committee that drafted the original rules of football in 1859, and the first Australian tennis championships were hosted by the MCC at its St Kilda Road courts in 1905.</p>
+<p>Today's MCC, with a membership in excess of 80 000, is a private club with public responsibilities, none more important than day-to-day management of the Melbourne Cricket Ground (MCG). This management role is delegated to the MCC by a government-appointed Trust. The Club has managed the MCG since 1853, and has occupancy of approximately 20% of the stadium. The MCC is responsible for the construction and maintenance of facilities for all patrons.</p>
+<p>Between 1889 and 1980 Melbourne Football Club was a section of the MCC. The MCC currently fields teams in major Victorian baseball, cricket, hockey, lacrosse, lawn bowls, shooting, squash, golf, croquet and tennis competitions.</p></div>
+</body>
+</text></TEI>

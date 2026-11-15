@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Carols By Candlelight</title>
+<author>Christine M. Childs</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00300</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A Christmas Eve tradition in Melbourne since 1938, Carols by Candlelight was devised by radio announcer Norman Banks. It was inspired, he claimed, by a glimpse of an elderly woman sitting in bed in her St Kilda Road home, singing along to a Christmas carol, a single candle illuminating her face. Supported by Banks' employer, Radio 3KZ, the first community carols by candlelight attracted 10 000 people. The Alexandra Gardens housed the event until 1958 when the new Sidney Myer Music Bowl became its home. From 1949 to 1964 the Austin Hospital shared the proceeds with the Royal Victorian Institute for the Blind, which has been the sole beneficiary since 1965. The live television broadcast, which began in 1970, provides spectacular images of Australia's top artists supported by the specially assembled choir, performing in front of a sea of twinkling lights.</p></div>
+</body>
+</text></TEI>

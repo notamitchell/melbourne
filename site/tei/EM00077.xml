@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Arabs</title>
+<author>Abe W. Ata</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00077</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The earliest recorded substantial immigration of Arabic-speaking people to Melbourne took place several years before Federation when 200 mainly single males arrived from Syria. They laid the foundation for what has become an ethnically, racially and religiously diverse community. The Lebanese, Syrian, Egyptian, Jordanian and Palestinian communities trace their migrations back to World War I. The smaller Iraqi, Israeli-Arab, Sudanese, Tunisian, Moroccan and Yemeni communities are recent arrivals. Although the majority are Islamic, many Arabic-speaking immigrants belong to Christian denominations, ethnic like the Maronite, Roman Orthodox, Chaldean, Melkite and Assyrian, as well as Western. Other Arab religious communities include the Druze, Bahai and Jewish. Melbourne's Arab community is Australia's second largest. Settled in Coburg, Brunswick, Endeavour Hills, Dandenong, Sunshine, Keilor, Altona and Footscray, the community is divided by religious, national and political differences. Despite sharing a common language and pattern of living, few organisations or associations have been able to successfully juggle the needs of the Arab community as a whole. The Arabic Australian Council, established in 1990, claims to speak on behalf of the whole community. Arabic is taught at ethnic and weekend schools and at Deakin University and the University of Melbourne, and Arabic-language programs are broadcast on ethnic radio and television.</p></div>
+</body>
+</text></TEI>

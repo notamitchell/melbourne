@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Burke and Wills Cairn</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02057</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00264.xml"><desc>Burke and Wills Monument</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01282.xml"><desc>Royal Park</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Artist unknown Stone cairn 1890 Royal Park, corner of The Avenue and Macarthur Road</p>
+<p>On 20 August 1860, 15 000 Melburnians gathered at Royal Park to farewell the 18 members of the Victorian Exploring Expedition, lead by Robert O'Hara Burke. This stone cairn marks the expedition's departure point. The plaque reads: 'This memorial has been erected/ to mark the spot from whence the/ Burke and Wills/ Expedition started on 20 August 1860/ After successfully accomplishing their mission/ the two brave leaders perished on their return/ journey at Coopers Creek in June 1861.'</p>
+<p>Soon after the tragedy, a fence was placed around a tree near their departure point. In 1890, the fence was removed and this cairn was erected about 180 metres east of the tree.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000078"><head>Burke And Wills Cairn</head><graphic url="../objects/images/BurkeAndWillsCairn.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_BurkeAndWillsCairn.jpg"/><p>Artist unknown 1890</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

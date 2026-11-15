@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="person" subtype="person" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Syme, Geoffrey</title>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02941</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="edited">Linked birth place South Melbourne (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="edited">Linked death place East Melbourne (checked list, tools/enrich.py).</change>
+</revisionDesc></teiHeader>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Geoffrey</forename> <surname>Syme</surname></persName><sex value="1"/><birth when="1873-03-03">3 March 1873, <placeName ref="EM01401.xml">South Melbourne</placeName></birth><death when="1942-07-30">30 July 1942, <placeName ref="EM00496.xml">East Melbourne</placeName></death><occupation>newspaper proprietor</occupation></person></listPerson></standOff>
+<text><body>
+<div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM001549" type="resource-section"><author>Serle, Geoffrey</author> <title level="a">Syme, Geoffrey (1873-1942)</title> <title level="m">Australian Dictionary of Biography, online edition</title> <publisher>Australian National University</publisher> <date>2006</date> <ref target="http://www.adb.online.anu.edu.au/biogs/A120172b.htm">online</ref></bibl></listBibl></div></back>
+</text></TEI>

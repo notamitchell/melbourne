@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Jesuits</title>
+<author>Chris Coney</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00773</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Members of the Society of Jesus, an international Catholic religious order, the Jesuits have their Melbourne origins in a contingent of Irish priests who arrived in 1865. They first re-established St Patrick's College as a boys' school and seminary. In 1866 they established missions in Richmond and Hawthorn, and began teaching in Kew, Camberwell and Nunawading. Xavier College opened in 1878. The Richmond novitiate, established in 1884, was moved to Xavier two years later. The Jesuits staffed Newman College  at the University of Melbourne after it opened in 1918, the Werribee seminary from 1922 and the Central Catholic Library in Melbourne from 1924. In 1934 Loyola College was established as a noviceship, retreat and philosophate in Watsonia. The Jesuits were the main teachers and administrators at Corpus Christi seminary in Glen Waverley from 1959. In 1969 their theologate was moved to Parkville from Canisius College, Pymble, New South Wales.</p>
+<p>The order's social activism was evident in the building of a halfway house for juvenile offenders in Melbourne in 1976, their work with alcoholics in Greenvale, and their ministry for homeless youth in St Kilda from 1979. The order has long been distinguished for its intellectual leadership in the Catholic Church and community but its role in establishing <hi rend="italic">Eureka Street</hi> in 1991 as one of Melbourne's pre-eminent magazines covering the arts, politics and social issues took its influence into the wider community.</p></div>
+</body>
+</text></TEI>

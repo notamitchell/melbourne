@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Display Homes</title>
+<author>Mary Sheehan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00475</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Display homes are prototypes, or samples, used by project builders to secure advance orders for their mass-produced houses. Melbourne's first project builder, A.V. Jennings, began bulk-producing houses in the early 1930s. Jennings increased the quantity of houses constructed by applying the assembly-line method pioneered by Henry Ford to mass-produce cars. Teams of mobile subcontractors moved from one stationary house to the next, undertaking dedicated tasks that often involved the installation of prefabricated parts. The project building industry mushroomed after World War II, stimulated by Melbourne's pent-up demand for housing. Project builders marketed their houses through display homes and some project builders, such as Merchant Builders, employed architects like Graeme Gunn to design their homes. Visiting display homes became a popular weekend pastime for Melburnians in the 1960s and 1970s. Many project builders did not survive the onset of economic instability in the 1970s. The houses constructed by project builders were generally built in Melbourne's newly emerging postwar suburbs. Project builders significantly contributed to metropolitan Melbourne's city growth in the second half of the 20th century by offering affordable homes to young couples who prosperity and the 'Long Boom' had allowed to marry earlier than their parents. Display homes continue to be a popular weekend attraction.</p></div>
+</body>
+</text></TEI>

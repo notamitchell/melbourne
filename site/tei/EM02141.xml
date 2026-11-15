@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Migrant Women and Feminism</title>
+<author>Peg Fraser</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02141</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-18" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM02142.xml"><desc>Migrant Women's Activism</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02150.xml"><desc>Working Women's Centre</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Feminism in 1970s Australia was largely a movement of middle-class Anglo-Australian women, focussed on issues of power and gender relevant to their own lives. For many women of migrant background, the struggles were quite different. The challenges of being female were often compounded by the problems of poverty, lack of English and cultural disadvantage, concerns that failed to resonate with many mainstream feminists.</p>
+<p>There were undoubtedly some migrant women who succeeded in the middle-class world of 1970s Australia and became leaders in the empowerment of women and other disadvantaged groups in society. And there were those in the mainstream feminist movement who reached out to include migrant women in their activism. By and large, however, women of migrant background felt alienated from mainstream feminism, even though they were deeply involved in action that was decidedly feminist.</p>
+<p>One of the main obstacles to working together for common goals was the pervasive stereotype of the ‘migrant woman’: uneducated, unskilled, under the thumb of a dominating father or husband, and uncomplaining. The public perception, even among some feminists, was that these women accepted their own oppression and did not aspire to better lives. Some migrant women who did attempt to join the mainstream movement found themselves rejected by the sisterhood, who feared the inclusion of migrant women would weaken their own efforts.</p>
+<p>In fact, many migrant women were deeply involved in activism to improve women’s lives, from providing domestic violence support and women’s health services to setting up child care centres. Some of these women found the concerns of mainstream feminists superficial and trivial compared to their own problems, while others rejected the equally powerful stereotype of ‘women’s liberation’, preferring to keep their lipstick and their husbands. Others rejected the feminist ideal altogether, creating their own model of strong and independent women within the culture of their families and communities.</p>
+<p>Migrant women are often absent from our understanding of the feminist movement in Australia. Follow the links below to learn more about the organisations, individuals and events that have shaped the history of migrant women’s activism in Melbourne.</p></div>
+</body>
+</text></TEI>

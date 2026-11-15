@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Hardware Lane North</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01831</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01724.xml"><desc>Burns Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01832.xml"><desc>Hardware Lane South</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02019.xml"><desc>Wrights Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Hardware Lane North is located between Queen and Elizabeth streets, connecting Little Bourke Street and Lonsdale Street. The southern portion of the lane, between Little Bourke Street and Bourke Street, is known as Hardware Lane South. From 1857, the lane was known as Wrights Lane. In 1927, it was renamed Hardware Lane after Hardware House.</p>
+<p>In 1895, Wrights Lane was home to several hotels. The Kirks Bazaar Hotel, which was first occupied in 1866, was located on the eastern corner of Little Bourke Street and Wrights Lane, whilst on the western side of the same corner was the Governor Arthur Hotel. Kirks Bazaar Hotel is now listed on the Victorian Heritage Inventory. The Shamrock Hotel was situated at the opposite end of the lane, on the western corner intersection with Lonsdale Street.</p>
+<p>In 1911, a petition was forwarded to the Melbourne City Council from Hartley Bros Pty Ltd requesting extra name plates be placed at the entrances to Wrights Lane 'for the benefit of the general public'. The petition was signed by property owners, tenants and business people who were worried that ineffectual signage would result in lost business. Originally many of Melbourne's laneways were unnamed, leading to much confusion over their locations, and the locations of businesses. Due to a significant number of complaints, the City Council began to name the lanes from the early 1850s.</p>
+<p>Today Hardware Lane has a European feel to it, with a cobblestoned pavement and canopy of umbrellas. It is a popular location for dining and listening to jazz music at one of the laneway bars.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000701" type="resource-section"><title level="a">380-384 Little Bourke Street and 46-58 Hardware Lane, Melbourne, HI Number H7822-1271</title> <title level="m">Victorian Heritage Register On-Line</title> <date>2000</date> <ref target="http://www.doi.vic.gov.au/doi/hvolr.nsf">online</ref></bibl><bibl xml:id="PEM000693" type="resource-section"><title level="a">Central Melbourne - Lanes F-H</title> <title level="m">Amendment C105 - CBD Laneways Review</title> <publisher>City of Melbourne</publisher> <date>2007</date> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=195&amp;pg=3065&amp;bp=1902&amp;coll=8">online</ref></bibl></listBibl></div></back>
+</text></TEI>

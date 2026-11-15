@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Immigration Museum</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00746</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01681.xml"><desc>Adamson Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01767.xml"><desc>Custom House Lane</desc></relation><relation name="related" type="event" active="#subject" passive="EM02149.xml"><desc>Trailblazers Exhibition</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Opened in 1998 the Immigration Museum is located in the 1876 Customs House in Flinders Street, opposite the point on the Yarra River where many of the city's early European settlers first landed. A campus of Museum Victoria, it features fixed displays illustrating the themes of Leavings, Settlings, Journeys and Getting In and also has space for changing exhibitions. The Sarah and Baillieu Myer Immigrant Discovery Centre is a centre for family history and genealogical research, while the Museum's Tribute Garden memorialises Victoria's immigrant heritage, listing the names of more than 7000 immigrants from 90 different countries.</p></div>
+</body>
+</text></TEI>

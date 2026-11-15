@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Victorian College of the Arts</title>
+<author>Joe Pascoe</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01555</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established in 1973, the Victorian College of the Arts (VCA) is unique among Australian art schools, offering tertiary courses in visual arts, music, dance, drama, film and television, and studies in creative arts. Tuition is centred on experimental studio and performance-based training. The college, which includes a secondary school for young dancers and musicians, became an affiliated college of the University of Melbourne in 1991.</p>
+<p>Founding director Lenton Parr envisaged a college comprising separate schools, operating for the most part free of non-art disciplines, and based on the atelier tradition. College staff are themselves practitioners. The establishment dates of the individual schools of the VCA are: Art 1973 (previously National Gallery of Victoria Art School, established 1867), Music 1974, Drama 1975, VCA Secondary College 1978, Dance 1979, Film and Television 1992 (previously Swinburne Film School, established 1966) and Creative Studies 1995.</p>
+<p>The 4-ha main campus is located at 234 St Kilda Road, adjacent to the National Gallery of Victoria and in the heart of the cultural precinct. The Schools of Music and Dance are housed in purpose-built buildings designed by Sir Roy Grounds. Other buildings, such as the administration building, constructed in 1926 to a design by E. Evan Smith, and the former Police Hospital of 1915, were formerly used by the Victoria Police.</p>
+<p>Approximately 1300 students attend. Outstanding alumni include artists Bill Henson, Jenny Watson and Trevor Nicholls, film-makers Gillian Armstrong, Emma Kate-Croghan and Geoff Wright, playwrights Hannie Rayson and Andrew Bovell, dancer Sue Healey, creative editor 'Bomber' Perrier, actors Nick Giannopoulos, Siobhan Tuke and Tammy McCarthy, musicians Rebecca Chambers and Shane O'Mara, opera singers Suzanne Johnston and John Heuzenroeder, and director Kim Durban.</p></div>
+</body>
+</text></TEI>

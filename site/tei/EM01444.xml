@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Sun Theatre</title>
+<author>John Lack</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01444</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located in Ballarat Street, Yarraville, the Sun is the last functioning purpose-built pre-television era cinema in Melbourne's western suburbs. Where older cinemas were adapted for sound films in 1929-30, the Sun, like Footscray's Trocadero, was built specifically for the new technology. Built in the moderne (or art deco) style, with a striking façade lit at night by amber sodium lighting and surmounted  by a neon rising sun radiating in red and gold, the Sun opened on 30 April 1938. Its interior, designed by Cowper Murphy &amp; Appleford, dispensed with the traditional division into stalls and circle, with its seats sweeping down beneath a striking cubist ceiling and ornate wall plasterwork to a proscenium draped by a shimmering crushed-velour curtain. More prosaic features included a pram room, bicycle accommodation and a confectionery shopfront.</p>
+<p>Owned and operated by the local Yeomans family, the Sun was the last of Yarraville's theatres to succumb to the challenge of television, closing in 1982 after a period screening Greek-language films. The building deteriorated during the decade of neglect that followed, but a revival in Yarraville's fortunes saw local anxieties, then hopes, focused on the survival and refurbishment of the Sun. Cinema and theatre equipment manufacturer Michael Smith bought the theatre in 1995 and began the rescue operation. The rising sun was illuminated for the Yarraville Festival in March 1996; in 1997 the theatre reopened as a film society and in 2003 began operating commercially as a boutique cinema, with its four new theatres built within the Sun's original 1050-seat cinema. Built for a working-class clientele as the interwar depression lifted, the Sun, now serving a postindustrial and post-immigrant Yarraville, represents an astonishing turnaround for an iconic building.</p></div>
+</body>
+</text></TEI>

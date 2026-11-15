@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Nauru House</title>
+<author>Rohan Storey</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01050</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01708.xml"><desc>Benson Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This 52-storey office tower at 80 Collins Street was designed by architects Perrott Lyon Timlock &amp; Kesa and has an octagonal plan and heavy expression similar to the contemporary MLC Centre in Sydney by Harry Seidler. When completed in 1977 it was Melbourne's tallest building. It was controversial because of the intended demolition of a number of historic buildings. Two were saved, but two other historic buildings were demolished, leaving gaps in the streetscape. Built as an investment by the Nauru Government, it was taken over by receivers in 2004 after a financial crisis in the once phosphate-rich Pacific Island nation. The building housed an apartment for Nauru's President, and tenants have included the Australian Industrial Relations Commission and various government departments.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="person" subtype="person" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mann, Edward Alexander</title>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02778</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Edward Alexander</forename> <surname>Mann</surname></persName><persName type="alternative">Watchman, The</persName><sex value="1"/><birth when="1874-08-11">11 August 1874, <placeName>Mount Gambier</placeName></birth><death when="1951-11-15">15 November 1951, <placeName>Melbourne</placeName></death><occupation>broadcaster</occupation><occupation>chemist</occupation><occupation>politician</occupation></person></listPerson></standOff>
+<text><body>
+<div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM001386" type="resource-section"><author>Andrews, E. M.</author> <title level="a">Mann, Edward Alexander (1874-1951)</title> <title level="m">Australian Dictionary of Biography, online edition</title> <publisher>Australian National University</publisher> <date>2006</date> <ref target="http://www.adb.online.anu.edu.au/biogs/A100385b.htm">online</ref></bibl></listBibl></div></back>
+</text></TEI>

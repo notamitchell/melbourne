@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Football Club</title>
+<author>Lyn Barkas</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00939</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The pioneering club in Australian Rules football has its spiritual home at the Melbourne Cricket Ground, although it has no clearly defined geographical supporter base. Traditionally intertwined with Melbourne's establishment, the Club was founded in 1858 as an offshoot of the Melbourne Cricket Club (MCC). In 1916 Melbourne dropped out of competition until 1919, having lost many players to the armed forces following the outbreak of war. In 1933 coach 'Checker' Hughes changed the Club's nickname from the Fuchsias to the Demons. In 1980 the Demons broke with the MCC and became an independent public company.</p>
+<p>While the Club claims a broad and diverse membership, it remains comparatively small. Ten Premiership Cups, many more Grand Final appearances, six Brownlow Medals, a record-breaking 18-goal haul by Fred Fanning in 1947, and exploits at the Club - both as players and coaches - of game legends Ron Barassi and Norm Smith, did not translate into the membership numbers necessary for survival. As the game became more professional from the 1960s, Melbourne's proud tradition of on-field success began to slip away. The Demons won their last Grand Final in 1964. Since that time, apparent complacency at Board level and a history of attracting significant support only in successful years on the field caused a steady decline in overall performance.</p>
+<p>In 1996 continuing difficulties led to attempts by the Board to merge with the Hawthorn Football Club, thwarted when Joseph Gutnick, with Mark Jenkins and George Zagon, rallied supporters under the banner of the Demon Alternative. In a controversial vote, Melbourne members appeared to follow the demands of their Board to merge, but Hawthorn voted overwhelmingly against the proposal. Since then, the Demons have appeared in the finals in 1998, 2000, 2002 (Grand Final) and 2004.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000354" type="book"><author>Carroll, Lynda</author> <title level="m">The grand old flag: The history of the Melbourne Football Club</title> <pubPlace>Melbourne</pubPlace> <publisher>Hardie Grant Books</publisher> <date>1999</date></bibl></listBibl></div></back>
+</text></TEI>

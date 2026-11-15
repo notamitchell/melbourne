@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Design</title>
+<author>Simon Jackson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00462</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>As 19th-century Melbourne emerged as the industrial base of Australia, design was an important activity. Unique agricultural implements were invented, inspired by the needs of a people isolated from Britain and Europe and faced with different geographic circumstances. This spirit of invention was furthered by expanding industry and the training given in Melbourne by Mechanics Institutes from 1839, and Technical Schools and Schools of Art from 1868.</p>
+<p>The early manufacturing industry was diverse and was accelerated by the threat of World War II when local adaptations to imported American and British aeroplanes and military vehicles were made. The launch of the first Holden in 1948 and other American-styled manufactured goods was stimulated by these wartime experiences, and also by American forms of finance, in order to supply the postwar consumer society.</p>
+<p>Design activity in Melbourne was transformed into a professional discipline with the development of Australia's first professional designers' association, the Society of Designers for Industry, while Australia's first specific tertiary college courses in design began at Melbourne Technical College (now RMIT University) shortly after World War II. The development of local design was furthered by immigration, as many immigrants had technical skills lacking locally.</p>
+<p>Promotion of local design and manufacturing began with the 1880 and 1888 International exhibitions at the Royal Exhibition Building. Australia's first Motor Exhibition was held here in 1912 and, despite breaks caused by both world wars, local and imported designs have been displayed at various consumer goods exhibitions at this venue ever since. The National Gallery of Victoria also promoted design activity. Exhibitions featuring Scandinavian design held at this venue in 1962, 1968, and 1976 had a great influence on local practitioners.</p>
+<p>Some retail outlets supported local design and manufacturing. For example, Fred Ward was commissioned to design furniture to retail exclusively through Myer in the 1930s. Similarly, some demand came from local interior designers and architects, although in most cases the imported consumer product had a glamour the locally designed and manufactured object could not match.</p>
+<p>Design autonomy in Melbourne, and in Australia, has been limited by the small manufacturing base and population, the practice of manufacturing under licence and the dominance of multinational companies. Michael Bogle has claimed that since the 1970s Australian design has become largely indivisible from world design. Designers are increasingly working for multinational companies, whether locally or abroad.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000126" type="book"><author>Bogle, Michael</author> <title level="m">Design in Australia: 1880-1970</title> <pubPlace>Sydney</pubPlace> <publisher>Craftsman House</publisher> <date>1998</date></bibl></listBibl></div></back>
+</text></TEI>

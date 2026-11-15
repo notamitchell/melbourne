@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ashburton</title>
+<author>Chris Mcconville</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00097</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Ashburton</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3147, 12 km SE, Boroondara City)</p>
+<p>The suburb of Ashburton, formerly located in the City of Camberwell, is centred on the commercial strip of High Street and is bounded by Gardiners Creek to the south, Warrigal Road to the east, and Baker Parade and Yuile Street to the north. In 1998 residents of four streets petitioned for their placename to be changed to the more salubrious Glen Iris, which merges with Ashburton in the west. A local politician, Councillor Dillon, suggested Ashburton as the name of a local railway station in 1890, after his birthplace in Cork, Ireland. Ashburton Forest was once a favourite picnic spot overlooking Gardiners Creek. Ashburton includes the localities of Solway and part of Ashwood, and from analysis of 1991 census population data, was identified as the centre of the metropolitan area.</p>
+<p>The first suburban subdivisions here were prompted by the construction of railway routes, especially the Outer Circle, which passed through Ashburton (Norwood station) in 1890, and the Glen Iris line in the same year. These lines were constructed at the end of the land boom decade, and came too late to bring hordes of land-buyers to Ashburton. While estates like the Great Glen Iris Railway Junction Estate were created by the 19th-century developers Flint &amp; Munro, little housing was erected until the estate's reopening in 1923. As other corners of Camberwell were built over between the wars, Ashburton remained a hilly green expanse of dairy farms and orchard trees, with a few cars and carts travelling along High Street towards Glen Iris station and the tram terminus. The Ashburton shopping strip was surveyed in the 1920s and a few rows of bungalows and Mediterranean villas ran down the slopes from High Street and its red-brick shopping strip. The infrequent and diminutive 'Ashie Dasher' train brought commuters to and from Ashburton station.</p>
+<p>Most of Ashburton and nearby Holmesglen were identified as sites for a massive public housing estate after World War II. The Holmesglen Munitions Factory, which bordered Gardiners Creek, was converted to mass production of concrete houses in March 1945. By September 1950, much of the Ashburton Housing Estate had been completed, a combination of single-storey concrete or brick houses, with clusters of walk-up flat blocks. Local street names reflected the estate's wartime birth with the terminus of a truncated Outer Circle railway named Alamein station in 1948 (after the 1942 North African battle). Streets on the estate were called Victory Boulevard, Gona Court, Lancaster Street, Tobruk Road and Bardia Avenue. Residents were typically families of ex-servicemen from inner suburbs or else European immigrants previously housed in the neighbouring Holmesglen Migrant Hostel.</p>
+<p>The Estate brought new business to the Ashburton shopping strip, between Munro Avenue and the railway station, and the shopping centre was substantially rebuilt after 1950. The opening of Myer at Chadstone in 1960 forced local traders to upgrade displays, improve parking and diversify outlets, so that Ashburton became a successful strip when others nearby failed. The closure of Alamein State School and demolition of interwar bungalows has brought medium-density units to many parts of a once suburban landscape.</p></div>
+</body>
+</text></TEI>

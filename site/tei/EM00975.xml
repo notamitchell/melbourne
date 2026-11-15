@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Metropolitan Fire Brigade</title>
+<author>Sally Wilde</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00975</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Metropolitan Fire Brigade (MFB) was set up on 1 May 1891 under the provisions of the <hi rend="italic">Fire Brigades Act 1890</hi>. It was funded jointly by the State government, the insurance companies and the municipal councils of greater Melbourne, each of which nominated three representatives to the Board.</p>
+<p>The MFB provided full-time professional fire protection to Melbourne, its area of responsibility growing with the greater metropolitan area. Until 1950 Melbourne's fire-fighters were on continuous duty, 24 hours a day, and lived either on or near the fire stations, within earshot of the bells. From 1950, following a bitter strike, firefighters worked 40 hours a week on a system of shifts. Officers continued to work continuous duty and live at fire stations for another 20 years.</p>
+<p>The MFB was among the earliest fire brigades in the world to be fully motorised and sold its last horse in 1918. Improved equipment has reduced the time it takes to combat fires, but response time is also vitally important. During the 1980s and 1990s there was a major program to close some fire stations and open others to provide optimum strategic coverage of the metropolitan area. The system of notification of fires is also a vital component of response time. Street fire alarms were phased out from the 1950s and replaced by telephones and private alarms. In 1983 the MFB began using Firecom, a computer-aided alarm monitoring and despatch system and from July 1996 this part of the Brigade's work was contracted out to Intergraph, which provided similar services for the police and ambulance. By 1998 the MFB had a response time within 7.7 minutes for 90% of calls.</p>
+<p>In the early years firefighters were trained at Eastern Hill Fire Station, but from 1966 recruits were trained at the fire station at Church Street, Richmond. In 1972 recruits moved into the first stage of the purpose-built Training College in Victoria Street, Abbotsford. The completed Training College was officially opened in June 1975 and the first three women firefighters graduated in 1988.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000198" type="book"><author>Wilde, Sally</author> <title level="m">Life under the bells: A history of the Metropolitan Fire Brigade, Melbourne 1891-1991</title> <pubPlace>Melbourne</pubPlace> <publisher>Longman Cheshire</publisher> <date>1991</date></bibl></listBibl></div></back>
+</text></TEI>

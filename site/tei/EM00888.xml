@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Maling Road</title>
+<author>Don Gibb</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00888</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Running parallel to the railway line, Maling Road, proclaimed a heritage area in the early 1980s, is part of Canterbury's shopping centre. Originally an extension of the strip-shopping of Canterbury Road, it comprises mostly single-fronted shops built in the period between 1907 and the mid-1920s. Its northern end is dominated by the substantial former Malone's Hotel (opened 1889, delicensed 1920) and the former post office (1908-10). Other major buildings include a theatre (1912); a typical State Bank building (1917-18); and 'The Block' (1907). By the 1960s most buildings needed repair and adaptation to shopping by motor car and self-service. Most were rented and owned by a developer with plans to erect a large supermarket, establish a pedestrian mall and replace surrounding Edwardian housing with car parks. Spirited local action forced major recasting of plans by the Camberwell Council at the same time as gentrification in some inner-Melbourne suburbs in the early 1970s provided alternative models. Strict heritage controls now apply to redevelopment in this 'village' setting which derives its viability from specialty shops and services.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000463" type="book"><author>Gibb, Don, and Stuart Warmington</author> <title level="m">Visions of a village: Canterbury shops and shopping 1880s-1990s</title> <pubPlace>Melbourne</pubPlace> <publisher>Canterbury History Group</publisher> <date>1995</date></bibl></listBibl></div></back>
+</text></TEI>

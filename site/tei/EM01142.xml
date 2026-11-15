@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Picnic Spots and Excursions</title>
+<author>Helen Doyle</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01142</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>A growing appreciation in Great Britain of the benefits of outdoor activity and a new understanding of the countryside as picturesque and beautiful made picnics a popular leisure activity from the early days of settlement at Port Phillip. Batmans Hill, with its romantic and picturesque stand of she-oaks, was a popular early picnic spot, as was the Yarra River at Dights Falls, Kew and Hawthorn, where the railway station was named 'Pic-Nic' in the 1850s. The seaside locations of Brighton and Beaumaris also provided pleasant picnic spots. Picnickers engaged in complementary activities, such as hunting, sketching and plant-collecting.</p>
+<p>A temperate climate and ample public land ensured a healthy appreciation of the outdoors, but picnics and excursions were initially somewhat exclusive pursuits, reliant on leisure time and a means of transport. The newly built Yan Yean Reservoir, with its 'Picnic Point', became popular in the 1860s because of the fine metalled road covering the entire distance from Melbourne. Organised trade picnics became annual events in the latter decades of the 19th century. For working people, popular attractions close to the city, such as the Cremorne Gardens, provided more accessible picnic spots. Designated holidays allowed for wider participation, especially after the introduction of a Saturday half-holiday in the 1880s. As settlement progressed and travel was made easier with an improved railway network, excursionists ventured into the hill country east of Melbourne and boarded bay steamers to take seaside excursions. Fern Tree Gully, with its spectacular fern tree forest, was an almost unrivalled attraction. But the teeming crowds of pleasure-seekers were not always welcomed. Picnickers became somewhat notorious in the country east of Melbourne, where they collected plants to ornament their suburban gardens.</p>
+<p>As motor car ownership increased in the 1920s, picnickers ventured even further afield. The 'Sunday drive' became a Melbourne middle-class institution. Purpose-built picnic facilities, such as fireplaces, furniture and shelters, were also introduced at many public parks and gardens. The new Maroondah Dam, near Healesville, was landscaped specifically as a picnic ground. Occurring as it does in summer, Christmas remains one of the most popular periods for Melburnians to celebrate outdoors.</p></div>
+</body>
+</text></TEI>

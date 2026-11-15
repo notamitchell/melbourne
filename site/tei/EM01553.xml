@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Victorian Club</title>
+<author>Paul De Serville</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01553</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Victorian Club was founded in 1856, 'on a basis as popular as is compatible with respectability', as a meeting place for immigrants before the gold-rush era and the 1850s. Two hundred colonists were immediately admitted (which suggested the need for a second club) and quarters were leased in 100-102 Bourke Street West. With a membership that included judges, university professors, civil servants, politicians, merchants and professional men, it was the first club to reflect the diversity of gold-rush society. But this broad membership did not ensure survival. A year after the manager's trial for embezzlement in 1858 the club was wound up.</p></div>
+</body>
+</text></TEI>

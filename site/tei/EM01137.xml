@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Pharmacies</title>
+<author>David Sharpe</author>
+<author>Kathleen Sharpe</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01137</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Better described as dispensaries, pharmacies in early Melbourne were often run by a doctor. Dr Barry Cotter, who accompanied John Batman in November 1835, opened the first dispensary in the late 1830s near the north-east corner of Queen and Collins streets.</p>
+<p>Melbourne attracted mostly British-trained pharmacists, some initially seeking gold. An 1853 almanac listed 19 chemists and druggists. In 1857 they formed the Pharmaceutical Society of Victoria. Ingredients were stored in decorative containers, and window displays featured colourful carboys. Patent medicines were concocted, and among mostly mild and ineffective components a few potent ones stood out: opium, quinine, digitalis, strychnine and arsenic. Until the 1950s most prescriptions were made up at the back of the shop. Teaching at the Victorian College of Pharmacy raised standards, and the <hi rend="italic">Pharmacists Act 1974</hi> recognised the need for continuing education. An increasing proportion of qualified pharmacists are women.</p>
+<p>Some pharmacies have formed groups, notably AMCAL (1937), Guardian (1974) and Chemmart (1986). After World War II the government introduced schemes to subsidise vital prescriptions. From the 1980s wholesale drug companies have been the main suppliers of formulations. Pharmacists provide advice at a local level and guard this right against deregulation.</p>
+<p>Consultation areas are set aside to offer personal counselling on the use of medications, dietary supplements and mobility aids. Photographic services, perfumes and cosmetic items remain significant sources of income. From a peak during the 1950s, city pharmacy numbers dropped to 23 by 2004.</p></div>
+</body>
+</text></TEI>

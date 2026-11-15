@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Stanford Fountain</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02049</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01132.xml"><desc>Pentridge Prison</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>William Stanford Bluestone fountain c. 1870 Gordon Reserve, corner of Spring and Macarthur Streets</p>
+<p>William Stanford's bluestone fountain features a boy on the upper tier, encircled by birds and fish on the lower tier. But this scene of innocence was created in a far less naive setting.</p>
+<p>Stanford was apprenticed to a London stonemason before coming to Australia to try his luck on the Bendigo goldfields. When he failed to make his fortune, he turned to horse stealing, and in 1854 was imprisoned for 10 years. He was released after six on ticket-of-leave, but was soon found guilty on two charges of highway robbery and another of horse stealing. The sentences amounted to a total of 22 years, two of which were served as hard labour in irons after Stanford broke out of a supposedly 'escape-proof' gaol in 1861. In Melbourne's Pentridge Prison, Stanford's talent for drawing and carving was recognised - he carved bones left over from stews - and the prison governor allowed him to turn his hand to carving stone. Local sculptor Charles Summers tutored Stanford, who soon set to carving a fountain from bluestone from the prison quarry, which was the only material available to him. He modelled the fountain's avian adornments on a stuffed eagle-hawk and modelled the boy on the governor's son.</p>
+<p>The fountain was installed in Carpentaria Place (now known as Gordon Reserve) in 1871, following Stanford's release after he - and his friends petitioned for this on the grounds of his ill health. The <hi rend="italic">Illustrated Australian News</hi> claimed the fountain was 'not only a work of great beauty but...executed under circumstances of extreme difficulty [which for] most men would have been insurmountable'. Stanford received no payment for the fountain but in time became a respected citizen; he established a business in Windsor, which had a reputation for creating fine headstones.</p>
+<p>Stanford died in 1880 from 'stonemasons' disease', having inhaled a surfeit of fine dust while creating his beautiful fountain.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000074"><head>Stanford Fountain</head><graphic url="../objects/images/StanfordFountain.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_StanfordFountain.jpg"/><p>William Stanford 1870</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

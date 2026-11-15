@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Medical Society of Victoria</title>
+<author>Bryan Egan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00919</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Medical Society of Victoria (MSV) dates from the amalgamation of the Victoria Medical Association and the Medico-Chirurgical Society of Victoria in 1855. Publishing the <hi rend="italic">Australian Medical Journal</hi> and successfully lobbying for medical registration, it was the controlling influence in medicine until the 1880s, its 181 members in 1881 including the majority of influential doctors. However, allegations of advertising, of charging excessive fees and of other unprofessional conduct weakened the Society at the time the Victorian Branch of the British Medical Association (BMA) was established in 1879.</p>
+<p>There was little warmth between the MSV and the BMA branch, but the two bodies co-operated professionally and from 1888 the BMA used the MSV hall in Albert Street, East Melbourne, for meetings. Moves for union occurred in 1887 and 1891 but only in 1907 was effective amalgamation achieved with a reciprocal membership arrangement. The preservation of both bodies was necessary to protect the property rights of the MSV for use by the new body.</p>
+<p>Although the MSV acted for the BMA in 1945 in persuading the High Court to declare the <hi rend="italic">Pharmaceutical Benefits Act</hi> unconstitutional, in public it has mostly been an inactive legal entity and has remained so since the Australian Medical Association replaced the BMA in 1962.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000415" type="book"><author>Pensabene, T.S.</author> <title level="m">The rise of the medical practitioner in Victoria</title> <pubPlace>Canberra</pubPlace> <publisher>Australian National University</publisher> <date>1980</date></bibl></listBibl></div></back>
+</text></TEI>

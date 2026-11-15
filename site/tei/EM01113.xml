@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Park Orchards</title>
+<author>Mary Sheehan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01113</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Park Orchards</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3114, 22 km E, Manningham City, Maroondah City)</p>
+<p>This residential suburb was created in 1925 when timber merchants Australis Sharp and John Taylor launched the Park Orchards Country Club estate. Saxil Tuxen, employed to subdivide the estate, had worked with Walter Burley Griffin on the Ranelagh estate at Mount Eliza. Tuxen incorporated many of Griffin's design principles into the Park Orchards subdivision. But buyers were not attracted to the estate, and for many years all that existed were a clubhouse and various sporting facilities. During World War II the Army set up a signals training centre. Demand for land and housing in the 1950s finally spurred development. At the 1996 census the suburb had the highest rate of motor car ownership in the metropolis, with 36% of households owning three cars or more.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000249" type="book"><author>Green, Irvine, and Betty Beavis</author> <title level="m">Park Orchards: a short history</title> <pubPlace>Melbourne</pubPlace> <publisher>Doncaster-Templestowe Historical Society</publisher> <date>1983</date></bibl></listBibl></div></back>
+</text></TEI>

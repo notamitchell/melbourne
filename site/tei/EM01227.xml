@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Red Cross</title>
+<author>Melanie Oppenheimer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01227</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Australian Red Cross was formed as a branch of the British Red Cross Society by Lady Helen Munro Ferguson (later Viscountess Novar), wife of the Governor-General, at the outbreak of World War I in August 1914. The Red Cross assisted sick and wounded soldiers in all medical areas, providing comforts, staff, and repatriation facilities, both at home and overseas. The federated organisation established a national headquarters in Melbourne (where the Governor-General resided), while each State ran its own division, headed by the wife of the governor. Victoria has been in a unique position, having two Red Cross organisations coexisting.</p>
+<p>For the duration of the war, federal Government House in Melbourne was the headquarters of the national division. The ballroom became the depot for the thousands of goods packaged and sent off to the troops overseas. While the administration of Red Cross work in Victoria was carried out by the national office, the Victorian division concentrated on establishing branches across the State and on fundraising.</p>
+<p>Throughout the interwar period, the national headquarters and Victorian division were closely linked through the work of Philadelphia Robertson, who was secretary of both organisations. The Red Cross consolidated its position in Victoria as an important social-welfare organisation through the work of its hospital auxiliaries, assistance with polio and tuberculosis campaigns, the Junior Red Cross (established in Victoria in 1922) and the Blood Bank.</p>
+<p>Administration of the national headquarters was formally separated from the Victorian division in 1939. Outgrowing their building in La Trobe Street, the national headquarters moved to rooms in the Royal Australasian College of Surgeons in Spring Street. The Victorian division then moved to a building donated by Norman Myer in Swanston Street. During World War II, the Red Cross - officially recognised as one of five philanthropic organisation sanctioned by the Australian Government - provided  expertise in key medical areas, especially with prisoners of war, voluntary labour and fundraising.</p>
+<p>The Red Cross worked closely with government authorities in national emergencies such as Cyclone Tracy, in disaster threats such as bushfires and floods, and later under the National Disaster Relief Committee established in 1972. The Australian Red Cross has also become increasingly involved in the concerns of the International Federation of Red Cross and Red Crescent Societies and in international humanitarian law programs. Today Red Cross Victoria, as part of the international Red Cross and Red Crescent movement, offers services for asylum-seekers, medical transport, youth programs, first aid, tracing and refugee services, emergency services and community services.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000616" type="journal-article"><author>Minogue, Noreen</author> <title level="a">The Red Cross, 1914-1975: years of change</title> <title level="m">Victorian Historical Journal</title> <date>1976</date> <biblScope unit="page">45-63</biblScope></bibl><bibl xml:id="PEM000057" type="book"><author>Oppenheimer, Melanie</author> <title level="m">All work no pay: Australian civilian volunteers in war</title> <pubPlace>Walcha</pubPlace> <publisher>Ohio Productions</publisher> <date>2002</date></bibl></listBibl></div></back>
+</text></TEI>

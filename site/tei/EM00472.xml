@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Discount and Variety Stores</title>
+<author>John Young</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00472</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Discount shopping stores reached their apogee with G.J. Coles and Woolworths variety stores. After running a family general store in St James, northern Victoria, George Coles visited America and observed the 5 and 10 cent stores. In 1914 he opened a discount homewares and clothing store in Smith Street in Collingwood, in partnership with two brothers. By 1924 there were several suburban Coles stores, a Coles warehouse and the first CBD store. Coles also expanded interstate. By 1950 Coles had 32 CBD and suburban variety stores.</p>
+<p>Woolworths originated in Sydney in 1924, inspired by, but unconnected with, the American Woolworths chain. It opened its first Melbourne variety store in 1933, and by the postwar years it had a substantial chain of suburban stores. Both Coles and Woolworths expanded in the 1960-1970s in the direction of supermarkets and discount department stores. Woolworths' first Victorian Big-W Outlet, at the corner of Bourke and Swanston streets, was opened in 1968, in the Foy &amp; Gibson store acquired the previous year. Coles opened Australia's first Kmart at the corner of Blackburn Road and Burwood Highway in 1969. It was 51% owned by the American Kresge Coy.</p>
+<p>Myer Emporium began the next discount department store chain, originating with its acquisition of Lindsay's, Geelong. The name was changed to Target in 1973. During the 1980s Coles and Woolworths variety stores were quickly overtaken by Kmart, Target and Big-W. Other discount department chains were Price Line (1982) and Venture. As the big retailing chains vacated the traditional discount and variety-store field, others entered. The Reject Shop, starting in South Yarra, had 49 Victorian stores by the time it won a Business of the Year award in 1994. Smaller entrants to the field were Everything Here $2 (an echo of Coles everything under 2/6), Clints Crazy Bargains and Pricedown.</p></div>
+</body>
+</text></TEI>

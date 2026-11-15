@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Student Christian Movement</title>
+<author>Renate Howe</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00134</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Founded in 1896, the Australian Student Christian Movement (ASCM) was supported by the University of Melbourne's denominational university colleges (Ormond, Trinity and Queen's) and the city's prestigious independent schools. Although a national movement, the secretariat was based in Melbourne from 1910, drawing support from the city's liberal Protestantism. From the 1930s to the 1960s, the ASCM bridged town and gown to become a focus for progressive, ecumenical theology and for radical politics. The ASCM criticised the White Australia Policy, assisted with the settlement of postwar refugees and opposed the Vietnam War. Former members contributed to the leadership of Melbourne's churches, public service, education and the establishment of the Uniting Church in 1978.</p></div>
+</body>
+</text></TEI>

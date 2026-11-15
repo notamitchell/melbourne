@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>West Gate Bridge Disaster</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01604</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02139.xml"><desc>Swine Flu: In Focus - June 2009</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>In 1964 plans were announced for a landmark bridge to be built by a private consortium, the Lower Yarra Crossing Authority (West Gate Bridge Authority), linking Melbourne with its western suburbs and Victoria's western district beyond. Work started on 9 April 1968 from Spotswood on the west side, and the Fishermans Bend airfield on the east, and Melburnians were soon watching progress from specially erected viewing platforms. At 11.50 a.m. on 15 October 1970 a 367-foot (112 m) box girder span between piers 10 and 11 of the bridge collapsed during construction, killing 35 men and injuring another 18. A royal commission established by Premier Bolte immediately after the collapse sat for 80 days, interviewed 52 witnesses, and tabled its report in parliament in 1971. Critical of many aspects of the project, including the Authority, contractors, labour and communications problems, it laid the blame squarely at the feet of London-based designers Freeman Fox for their miscalculations and errors of judgment. The reconstructed bridge was finally opened on 15 November 1978 at a total cost of over $200 million. The bridge collapse remains Australia's single worst workplace accident, and in 2004 a memorial park opened at the intersection of Douglas Parade and Hyde Street, Spotswood.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000505" type="book-section"><author>Hitchings, Bill</author> <title level="a">The West Gate Bridge Collapse, 1970</title> <title level="m">Australia's worst disasters</title> <pubPlace>Melbourne</pubPlace> <publisher>Lothian Books</publisher> <date>2002</date></bibl></listBibl></div></back>
+</text></TEI>

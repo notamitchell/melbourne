@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Queens Walk</title>
+<author>Biheng Zhang</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01944</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00353.xml"><desc>City Square</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01329.xml"><desc>Savage Club</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01360.xml"><desc>Sewerage</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01385.xml"><desc>Smell</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located on the present site of the City Square, this arcade once extended east from Swanston Street and turned north to open onto Collins Street. Queens Walk, constructed in 1889, featured glass cupolas over the entrances and was home to stores such as menswear specialist Henry Buck in the 1950s. Until 1925, the Melbourne Savage Club, whose members included businessmen, lawyers, politicians, artists and bohemians, also resided in this arcade. Queens Walk was purchased by the City of Melbourne in the late 1960s and demolished in the early 1970s for the construction of the City Square.</p>
+<p>A lavish arcade, Queens Walk nevertheless faced problems of sanitation, poor sewage and foul smells that became a feature across Melbourne in the late nineteenth century. Numerous reports were received by the City of Melbourne's Inspector of Nuisances, including a minor flood at the rear of the Hopetoun Registry Office in 1891 caused by the ladies closets, a leaking pipe at the back of Miss Butler's Appartment [sic] Agency in 1892, and decaying fish left in the walk in 1894. Miss Butler wrote to the Council in July 1892 that the smell arising from the leakage was 'unbearable and consequently most injurious to the health'. This sentiment was shared by most occupants of Queens Walk during this era.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl><bibl xml:id="PEM000683" type="resource-section"><title level="a">Block Arcade, H0032, File no 602703 (1-8)</title> <title level="m">Victorian Heritage Register On-Line</title> <date>2000</date> <ref target="http://www.doi.vic.gov.au/doi/hvolr.nsf">online</ref></bibl></listBibl></div></back>
+</text></TEI>

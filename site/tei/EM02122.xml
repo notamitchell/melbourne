@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Vault (aka Yellow Peril)</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02122</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01669.xml"><desc>Yellow Peril</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Ron Robertson-Swann Steel plate sculpture 1980 ACCA, Southbank</p>
+<p>Born in Sydney in 1941, Ron Robertson-Swann studied sculpture at St Martin's School of Art, in London, under Tony Caro. Robertson-Swann was also an assistant to renowned sculptor Henry Moore before returning to Australia in 1968. His work has often divided critics, but none has been so controversial as Vault, unveiled in City Square in 1980.</p>
+<p>Dubbed the 'Yellow Peril' by Councillor Osborne, the yellow, metal sculpture caused a storm of protest over its suitability for City Square. Ironically, it was commissioned for its compatibility with the square's design. The winner of a competition organised by the square's architects, Robertson-Swann's design met the challenge of being a 'grand interlocked sculpture'. It also met the requirement of being bold, visually simple and a strong focal point, which would offset the formal character of the square. But while Vault met these objectives, it was a little too abstract for public taste.</p>
+<p>Professor Patrick McCaughey gave his full support to the work, applauding it for design excellence. Recognising McCaughey's reputation in visual arts, council approved the plans. When the sculpture was installed it was yet to be named, and despite Robertson-Swann soon naming it Vault, Yellow Peril, with its racist overtones, has stuck.</p>
+<p>Following its installation in 1980, Councillor Osborne tabled a survey showing Melburnians' lack of support for the sculpture's prominent position, based on the opinion that it was not sympathetic to the nearby historic St Paul's Cathedral and Town Hall. Council resolved to relocate the work, but not before it was scrawled with graffiti and used as a play structure. Despite the artist's objections, in 1981 Vault was moved to Batman Park, where among other things it served as a shelter for the homeless. In 2002, Vault was unveiled at its new home outside ACCA, where most consider it in keeping with the surrounding built environment.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000090"><head>Vault (aka Yellow Peril)</head><graphic url="../objects/images/Vault.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_Vault.jpg"/><p>Ron Robertson-Swann 1980</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

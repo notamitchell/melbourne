@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Orchestras</title>
+<author>Warren Bebbington</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01095</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Melbourne has two permanent, full-time orchestras, the Melbourne Symphony Orchestra and the State Orchestra of Victoria, as well as the part-time Astra Chamber Orchestra, several fine youth orchestras, and municipal orchestras of varying quality. The earliest professional orchestras in Melbourne date from the 1840s: these were theatre orchestras, which for a century came and went with the ebb and flow of entrepreneurs and touring companies. Theatre orchestras reached a peak in the silent-film era of the 1920s, when almost every major cinema (and many of the new radio stations) could boast a sizeable orchestral ensemble. But it was not until 1967 that opera and ballet in Melbourne could boast a permanent orchestra: it was then that the Australian Elizabethan Theatre Trust founded the Elizabethan Theatre Trust Orchestra, predecessor of the present State Orchestra of Victoria.</p>
+<p>Concert orchestras have had a more sporadic but ultimately surer growth in Melbourne. Composer Charles Horsley conducted an orchestra for the Philharmonic Society concerts in the 1860s, and in 1888 for the International Centennial Exhibition an orchestra of excellent quality was formed which gave numerous concerts under the noted British composer-conductor Frederick Cowen. After Cowen's departure the theatre composer Hamilton Clarke attempted to persevere with the venture, but regular orchestral concert seasons did not gain a secure following until 1891, when the first University of Melbourne professor of music, G.W.L. Marshall-Hall, commenced his long-running subscription series.</p>
+<p>Marshall-Hall's orchestra combined professional players and unpaid students, a mixture which finally reached an impasse with the Musicians Union in 1912. After this, the original Melbourne Symphony Orchestra (founded 1906) provided the centre of attention. Meanwhile, the University Symphony Orchestra was brought to prominence under another Ormond professor, Bernard Heinze. Merging with the Melbourne Symphony Orchestra in 1932 and with the backing of ABC radio (from 1934), this became the source of the present full-time Melbourne Symphony Orchestra.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000259" type="book"><author>Buttrose, Charles</author> <title level="m">Playing for Australia: A story about ABC orchestras and music in Australia</title> <publisher>Australian Broadcasting Commission, Sydney; Macmillan, Melbourne</publisher> <date>1982</date></bibl></listBibl></div></back>
+</text></TEI>

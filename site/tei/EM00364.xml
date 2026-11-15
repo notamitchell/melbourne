@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Clyde</title>
+<author>Jenny Coates</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00364</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Clyde</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3978, 48 km SE, City of Casey)</p>
+<p>Named after the River Clyde, Scotland, this township, serving a mixed farming district, was laid out in 1888 at a railway station on the Leongatha line. The original settlement, located one and a half miles (2.5 km) away, was later renamed Clyde North. Once the location of the Ruffy brothers' Mayune run, Clyde became a centre for the Band of Hope, a Methodist-based temperance movement, in the 1880s, and at one time boasted two churches, a state school (commenced in 1910), a public hall and a free library. The area remains largely rural today, but suburbia is encroaching gradually from nearby Cranbourne.</p></div>
+</body>
+</text></TEI>

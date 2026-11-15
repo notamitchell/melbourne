@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>La Mama Theatre</title>
+<author>Liz Jones</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00815</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established in 1967 by Betty Burstall to nurture new Australian theatre, La Mama has played an important role in the development of the Australian dramatic voice. An intimate 50-seat theatre, situated in an old printing house (built in 1883) at 205 Faraday Street, Carlton, it has housed diverse artistic explorations in music, film, dance and the visual arts as well as innovations in theatre. It has been home to many emerging ensembles as well as a vast number of individual artists. David Williamson, Jack Hibberd, Tes Lyssiotis, Barry Dickins and Louis Nowra are among the many playwrights who launched their careers at La Mama. With its open fire in winter the cosy theatre offers the opportunity to have coffee with the writers, directors, actors and La Mama staff after every show. In 1998 La Mama also took over the management of the Carlton Courthouse Theatre, at 349 Drummond Street, and now operates regularly out of both venues.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000554" type="edited-book"><author>Jones, Liz</author> <title level="m">The La Mama collection: Six plays for the 1990s</title> <pubPlace>Sydney</pubPlace> <publisher>Currency Press</publisher> <date>1997</date></bibl><bibl xml:id="PEM000195" type="book"><author>Liz Jones, with Betty Burstall and Helen Garner</author> <title level="m">La Mama, the story of a theatre</title> <pubPlace>Melbourne</pubPlace> <publisher>McPhee Gribble/Penguin</publisher> <date>1988</date></bibl></listBibl></div></back>
+</text></TEI>

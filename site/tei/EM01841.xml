@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Heape Court</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01841</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Heape Court is located between Queen and Elizabeth streets, extending south from Little Lonsdale Street, doglegging to the west, and extending further south to a dead-end. The lane was named in 1858 for pastoralist and merchant Benjamin Heape, owner of the Heape and Grice business which operated from Little Lonsdale Street. The Heape Court warehouse located at the rear of 361-65 Little Lonsdale Street was built in 1854, and today is listed on the Victorian Heritage Register as a rare and intact example of a gold rush era brick warehouse. The building is a simple two-storey brick structure with a gable room, built by the Holmes Bros firm for Joseph Burton Pynsent, a merchant and general outfitter. It was later used as a blacksmith store for John Cooper and Sons, a wholesale ironmonger and importing firm. In 1860, Heape Court was the location of the Gideon Heard and Co., a tobacco and snuff manufacturing business.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl><bibl xml:id="PEM000673" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1892</date></bibl><bibl xml:id="PEM000674" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1930</date></bibl><bibl xml:id="PEM000702" type="resource-section"><title level="a">Heape Court Warehouse, 361 - 365 Little Lonsdale Street, Number H0826. File Number 602735</title> <title level="m">Victorian Heritage Register On-Line</title> <date>2000</date> <ref target="http://www.doi.vic.gov.au/doi/hvolr.nsf">online</ref></bibl><bibl xml:id="PEM000693" type="resource-section"><title level="a">Central Melbourne - Lanes F-H</title> <title level="m">Amendment C105 - CBD Laneways Review</title> <publisher>City of Melbourne</publisher> <date>2007</date> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=195&amp;pg=3065&amp;bp=1902&amp;coll=8">online</ref></bibl></listBibl></div></back>
+</text></TEI>

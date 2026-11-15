@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Albert Park Reserve</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00047</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>In 1844, Melbourne town councillors proposed that this sandy, marshy wasteland be reserved as breathing space for future inhabitants. The Victorian Government eventually reserved the park in 1862, naming it after the recently deceased Prince Consort. By this time residents of nearby Emerald Hill and St Kilda had claimed territory for cricket grounds - St Kilda (1856), South Melbourne (1862) and the Warehousemen's (now the Albert Ground) and St Kilda Bowling Club (1865) - and Albert Park's identity as predominantly a sports reservation was born.</p>
+<p>In 1875 the government sold off a large area on the east side of the park for luxury housing on St Kilda and Queens roads. Smaller sections of the park were excised for schools and an army signals depot. South Melbourne Council operated sand quarries and a municipal rubbish tip in the park for the first half of the 20th century and the army requisitioned a vast area during World War II. In postwar years the Park Trustees attempted to raise funds by taking over the private golf course, allowing permissive occupancy to two restaurants and staging several Australian Grand Prix races. Criticism of these activities led to a formal inquiry into the park's management.</p>
+<p>When the Victorian Government reintroduced Grand Prix racing to the park in 1996, vocal and passionate voices were raised once again at the sweeping changes to the park landscape. One year later a long-awaited but massive aquatic and indoor sports centre replaced the old 1950s centres. On its 218 ha, Albert Park has hosted every possible sport and recreational activity, from horse-riding and carriage-driving, archery and coursing in the 19th century, to speedboat racing, skateboarding and a community playground in the 20th. Its football, soccer and cricket grounds have almost sacred significance for generations of local supporters, and its playing fields, lake and indoor sports facilities have been training grounds for thousands of sportsmen and women, who retain a sentimental regard for Albert Park.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000253" type="book"><author>Barnard, Jill, and Jenny Keating</author> <title level="m">People's playground: A history of the Albert Park</title> <pubPlace>Melbourne</pubPlace> <publisher>Chandos Publishing</publisher> <date>1996</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bowen Lane</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01713</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01714.xml"><desc>Bowen Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01253.xml"><desc>RMIT University</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01429.xml"><desc>Storey Hall</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Bowen Lane now runs north-south from La Trobe Street to roughly level with Little La Trobe between Swanston and Bowen streets. However, in 1860 when the Edward S. Harley &amp; Co. coffee dealers and spice merchants owned a premises in the lane, it led south from Franklin Street and terminated roughly in line with A'Beckett Street. In 1895, it was still officially unnamed, but contained the College of Pharmacy, the Government Analyst's Office, and a jam factory. It also served as a service lane to the Imperial Hotel, Melbourne United Friendly Society, and the Gordon Institute. By 1915, it had spread south over the rear amenities of the Pharmacy College and the Government Analyst's Office, eventually joining with another unnamed right-of-way behind Storey Hall and Foresters Hall. Bowen Lane was now an official, named lane. The eastern buildings of the Working Men's College soon expanded towards Foresters Hall, and eventually absorbed the entire block. Today, only the southern quarter of Bowen Lane remains under RMIT University.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000653" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1920</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Theatre Restaurants</title>
+<author>Frank Van Straten</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01487</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The first theatre restaurant in Melbourne was George Miller's short-lived Bowl Music Hall, which opened in 1960 in a basement under the Capitol Theatre in Swanston Street. The Bowl specialised in boisterous versions of classic melodramas such as <hi rend="italic">East Lynne</hi>. Five years later Tikki Taylor and her husband John Newman opened Tikki and John's in Exhibition Street, near Her Majesty's Theatre. Providing ebullient music-hall-style entertainment, it flourished until the 1980s. In 1972 John Pinder transformed a converted Fitzroy fish shop into the Flying Trapeze Café, specialising in new cabaret acts and stand-up comedy. Three years later Pinder and Roger Evans created the colourful Last Laugh Theatre Restaurant and Zoo in an old hall in Collingwood. It was an intriguing venue for innovative entertainment, including Circus Oz and the nostalgic Australian Performing Group production <hi rend="italic">Back to Bourke Street</hi>. Upstairs, Le Joke hosted emerging comic talent. In 1979 comedian Rod Quantock established the Comedy Café in Fitzroy. Caper's Dinner Theatre in Hawthorn - opened in May 1997 - combines sophisticated, intimate cabaret with fine food. Featured entertainers have included Debra Byrne, Julie Anthony, Dennis Olsen and newcomers Tim Draxl and Kane Alexander.</p></div>
+</body>
+</text></TEI>

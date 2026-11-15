@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Alcoholism</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00050</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Alcoholism occurs wherever alcohol usage is widely tolerated. Described by temperance activists at the height of the gold rush as 'the most drunken community on the face of the earth', Melbourne was no exception. The campaign to have alcoholism recognised as a medical rather than a moral problem was conducted, almost single-handedly, by Dr Charles McCarthy (1814-96) who, from 1859 on, argued for the need for specialist inebriates' retreats. His calls were partly recognised in 1872 when the Victorian Government bought a property at Northcote to accommodate alcoholics compelled to accept treatment under the <hi rend="italic">Inebriates' Act</hi> passed in the same year. The government, however, was reluctant to provide continuing funding to this, and later asylums developed under the auspices of the Salvation Army and Wesley Central Mission, leaving them dependent on private patients, which made it difficult to survive hard economic times. Falls in consumption and alcohol-related arrest rates, and doubts surrounding the existing medical treatments, meant that there was little pressure to change a system that saw most people with alcohol problems continuing to be dealt with in mental health facilities where, historically, they accounted for almost 10% of admissions.</p>
+<p>A rise in alcohol consumption towards the end of World War II brought a new interest in developing non-custodial treatment. The self-help movement Alcoholics Anonymous was introduced to Melbourne in 1946 on the initiative of the Brotherhood of St Laurence. During the 1960s the Mental Health Authority, identifying alcoholism as the fourth most important public health problem, turned its attention to developing specialist outpatient facilities and short-term residential assessment and rehabilitation centres which operated alongside a small number of private clinics. In more recent years public services have been put out to tender as the government has withdrawn from direct service provision.</p></div>
+</body>
+</text></TEI>

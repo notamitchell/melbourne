@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Dalgety &amp; Co.</title>
+<author>Paul De Serville</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00437</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>One of the main pastoral houses in Melbourne, Dalgety &amp; Co. was founded by F.G. Dalgety (1817-94), who arrived in 1842 as branch manager of a Sydney merchant house. Its mercantile side imported goods, while its broking side consigned wool grown by squatters to the London market. By the end of the century it provided finance, transport, storage, insurance, technical advice and wool sales. F.G. Dalgety moved to London in 1854, and turned the partnership into a joint stock company in 1889. From its Australian headquarters in Bourke Street, Dalgety &amp; Co. continued to grow over the next 60 years and merged with the New Zealand Loan and Mercantile Agency in 1962 to form the largest pastoral house in Australasia. After later mergers it was taken over by Wesfarmers in 1992.</p></div>
+</body>
+</text></TEI>

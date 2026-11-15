@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Separation</title>
+<author>A.G.L. Shaw</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01353</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00013.xml"><desc>Politics &amp; Government</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02113.xml"><desc>Separation Memorial</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>When officially established in October 1836, the Port Phillip District - roughly the future state of Victoria - was declared to be part of New South Wales. This meant it was governed from Sydney. Its superintendent took orders from the governor of New South Wales, who determined its budget, and though, after 1843, the New South Wales Legislative Council had to consent to this, the district had only six representatives out of 36 in the Council, and it was difficult for Port Phillipians to find time to travel to Sydney and attend lengthy sessions there. The district argued (correctly) that it was unfairly treated regarding public works and immigration, and that too much of the revenue raised locally was spent for the benefit of Sydney.</p>
+<p>The first request for separation was made as early as 1836. The public campaign began in 1839, and petitions were sent to London in 1841 and 1845. In 1846 Governor Gipps recommended separation, and the imperial government agreed in principle, but thanks to disputes over a possible federal government and a lack of urgency in London, no legislation was passed. In 1848, to show its irritation, the district elected British Cabinet ministers as its representatives in the Legislative Council in Sydney, and eventually in 1850 the imperial government persuaded parliament to pass a separation Act.</p>
+<p>The news that the Act had been passed reached Melbourne on 11 November 1850 and was the cause of great rejoicing, fireworks, illuminations, street demonstrations, processions, games, thanksgivings and three public holidays (13-15 November), but only when the necessary details were completed was the new Crown Colony of Victoria formally proclaimed on 1 July 1851.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000604" type="journal-article"><author>Shaw, A.G.L.</author> <title level="a">Separation and Federation: the relationship of Port Phillip with the Government of New South Wales</title> <title level="m">Victorian Historical Journal</title> <date>1997</date> <biblScope unit="page">4-15</biblScope></bibl></listBibl></div></back>
+</text></TEI>

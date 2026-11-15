@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Street Numbering</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01434</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>On the back of Melbourne's gold-rush city growth and building boom, problems were occurring by the late 1860s in relation to street numbers. Owners could take any number for a new property as long as it was not already used but complained that properties numbered, for example, 63a, gave the impression that their establishments were insignificant. Numbering of premises within the new Royal Arcade also caused some confusion, as Bourke Street comprised not only new buildings, but also various temporary structures, arcade entrances, inferior buildings and rights-of-way. In 1882 there were calls for attention to be paid to defective numbering, particularly at the western end of the city, with some houses having the same number as their neighbours and others having no number at all. Butchers, bakers, milkmen, postmen, messenger boys and business patrons were all inconvenienced.</p>
+<p>The old system of certain east-west streets being divided into two numbering zones by Elizabeth Street was discontinued in the 1880s. By 1890, despite occasional problems with enumeration of new buildings, Melbourne's street numbering system was known as the best in the colonies, and cities such as Brisbane requested details in order to upgrade their own irregular or incomplete systems. Most city buildings carried the council's regulation number, and those claiming some significance, such as the ES&amp;A (ANZ) Bank, were allowed to substitute numbers 'more suited to its architectural style'.</p></div>
+</body>
+</text></TEI>

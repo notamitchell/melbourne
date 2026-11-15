@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Performing Group</title>
+<author>Helen Thomson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00130</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The source of the 'New Wave' of Australian writing for the stage, along with the Nimrod Theatre Co. in Sydney, the Australian Performing Group (APG) began at the La Mama Theatre in Carlton in 1968 and was disbanded in 1981. In 1970 the APG moved to an old industrial site in Drummond Street, subsequently called the Pram Factory, and there developed as a collective of writers, actors, directors and designers committed to Australian plays. Their work was characterised by irreverence, broad comedy, energetic physicality, explicitly left-leaning politics and a determination to develop a distinctively Australian theatre in contrast to the predominantly Anglo-Celtic respectable mainstream theatre of the time. Its members and many of its audience members were from the University of Melbourne and Monash University, politically active in anti-Vietnam protests and challenging censorship laws in many of their productions. Writers such as Jack Hibberd, John Romeril, David Williamson, and actors Max Gillies, Lindy Davies, Peter Cummins and Bruce Spence, began their careers as members of the APG. Although conceiving of themselves as radical and iconoclastic, familiar Australian themes persisted in the APG's larrikin humour, music-hall stylistic exaggerations and national and largely masculinist stereotypes, including the 'ocker'.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000407" type="book"><author>Robertson, Tim</author> <title level="m">The Pram Factory: The Australian Performing Group recollected</title> <pubPlace>Melbourne</pubPlace> <publisher>Melbourne University Press</publisher> <date>2001</date></bibl></listBibl></div></back>
+</text></TEI>

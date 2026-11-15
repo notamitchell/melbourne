@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Armenians</title>
+<author>Abe W. Ata</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00087</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Coming from as many as 50 different countries, the bulk of Armenian immigrants to settle in Melbourne arrived after World War II. The 1996 census listed only 770 Armenians under 'Birthplace', with 9920 recorded under 'Language Spoken (Armenian)'. The largest concentration lives in the Greater Dandenong, Monash and Knox regions where they have established Armenian Apostolic and Catholic churches, a relief society and weekend language schools. A monthly newspaper, Armenia, circulates widely within the community, and there are regular Armenian programs on ethnic radio.</p></div>
+</body>
+</text></TEI>

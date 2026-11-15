@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Avondale Heights</title>
+<author>Jenny Keating</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00139</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Avondale Heights</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3034, 8 km NW, Moonee Valley City)</p>
+<p>This residential suburb by the Maribyrnong River became one of Melbourne's newest residential areas in the late 1950s, taking its name from the old Avondale property, which was subdivided in the 1920s. Military Road was the only made road in the locality by 1960, when the area was still dotted with the small farms and market gardens which had flourished along the river from the early 20th century. Canning Street Gardens prospered during the interwar years, offering boat excursions, tea gardens, tennis courts and a dance hall. As with other parts of the former City of Keilor, it has a high proportion of overseas-born residents, mostly from Italy and the former Yugoslavia. Construction of new estates continued into the 1990s, and at the 1996 census Avondale Heights recorded the highest rate of owner occupation in Melbourne.</p></div>
+</body>
+</text></TEI>

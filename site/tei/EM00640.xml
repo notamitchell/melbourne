@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Gill Memorial Home for Men</title>
+<author>Chris Coney</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00640</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This Salvation Army hostel for homeless men was located at the corner of Wills and a'Beckett streets. The four-storey brick building was bought in 1928 and after renovations was opened in September 1929. 'The Gill' could accommodate about 300 men per night and during the depression thousands were provided with food and shelter. World War II alleviated pressure on its services but during the boom years of the 1950s and 1960s many veterans suffering from war neuroses sought sanctuary there. Despite periodic renovations and improvements to facilities and services, the dormitory-style accommodation was increasingly seen as inappropriate. In 1988 the Army moved the homelessness service to the Flagstaff Centre in West Melbourne and 'The Gill' was sold and subsequently redeveloped as luxury apartments.</p></div>
+</body>
+</text></TEI>

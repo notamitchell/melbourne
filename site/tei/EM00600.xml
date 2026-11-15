@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Forum Theatre</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00600</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Built to a design of American cinema architect John Eberson and local architects Bohringer, Taylor &amp; Johnson, the State Theatre opened at 154 Flinders Street in February 1929, just before the Regent Theatre. With an original seating capacity of 3371, the largest in the country, the atmospheric design features an ornate Moorish exterior topped by minarets and a clock tower on the Russell Street corner. Inside, patrons were treated to reproduction Greco-Roman sculptures, mock palace façades and a curved cerulean ceiling replete with twinkling stars and projected moving clouds. Greater Union converted the complex into two theatres in the early 1960s, the Forum and the Rapallo. Listed on the Historic Buildings Register in 1978, and renovated as Forum I and II in 1981, the complex was purchased by Staged Developments Australia in 1995 after nearly a decade as the headquarters of the Melbourne Revival Centre.</p></div>
+</body>
+</text></TEI>

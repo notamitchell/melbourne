@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Wowserism</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01643</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Wowserism was a denigratory label applied to a Protestant social reform campaign that left a distinctive mark on Melbourne life. Coined by <hi rend="italic">Truth</hi> editor, John Norton, the word described the followers of W.H. Judkins (1869-1912) who, in May 1906, launched a campaign to compel parliamentarians to legislate to control liquor and gambling interests. Although the term and the spokesman were new, the campaign had deep roots in 19th-century evangelical Sabbatarian and temperance movements. The conservative Wesleyan Methodists, Presbyterians and Baptists, who founded the Victorian Council of Churches in 1893, rejected the social gospel being preached at the Australian Church and the Wesley Central Mission, arguing instead for moral reform.</p>
+<p>Blind to accusations that his reforms would alienate the people he was trying to help, Judkins proudly claimed the wowser label, arguing that it meant 'We Only Want Social Evils Remedied'. His condemnation of the Collingwood tote, conducted by prominent Catholic layman, John Wren (1871-1953), highlighted the campaign's sectarian edge. Calling upon his followers to vote according to their religious principles, Judkins identified favoured candidates and organised demonstrations against those in the opposing camp. The strength of the wowser voice was evident in legislation over the next decade, with gambling severely restricted, many hotels delicensed, opening hours restricted, stronger censorship, and stricter policing of prostitution, juvenile smoking, public bathing, theatres and dance halls.</p>
+<p>This success, however, tarnished the ability of the church to speak out on social issues. In their last campaign against the liberalisation of gambling and licensing in the mid-1950s, the churches smarted at renewed accusations of wowserism. The impact of this defeat continues today in the disavowals which precede any statement from the churches expressing concern about increased gambling venues in the city.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000481" type="book"><author>Dunstan, Keith</author> <title level="m">Wowsers</title> <pubPlace>Melbourne</pubPlace> <publisher>Cassell Australia</publisher> <date>1968</date></bibl></listBibl></div></back>
+</text></TEI>

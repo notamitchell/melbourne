@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Edmund Fitzgibbon Memorial</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02076</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00763.xml"><desc>Irish</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00930.xml"><desc>Melbourne City Council</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00924.xml"><desc>Melbourne and Metropolitan Board of Works</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01189.xml"><desc>Princes Bridge</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>James White Bronze statue with Harcourt granite pedestal 1908 Corner of St Kilda Road and Linlithgow Avenue</p>
+<p>James White trained as a sculptor in London before arriving in Sydney in 1884. In the early 1900s he was much in demand as a portraitist and bronze caster. His statue of FitzGibbon depicts his subject in a barrister's gown and wig, in reference to his admission to the bar in 1860, which followed several years of study while maintaining his duties as town clerk.</p>
+<p>Edmund FitzGibbon was born in Ireland and worked as a clerk in London before immigrating to Australia in 1852. Four years later, he became Melbourne's town clerk. FitzGibbon secured several parks and gardens for the city and was instrumental in introducing tram tracks. In 1891, he became the first chair of the Melbourne Metropolitan Board of Works.</p>
+<p>This memorial was funded by public subscription and unveiled in 1908. It originally stood at the southern end of Princes Bridge, but was relocated in 1971 due to construction of the underpass. In 1983, it was relocated to Spring Street, then five years later placed in storage. In 2003, it was sited in its current position, chosen for its proximity to the original site.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000122"><head>Edmund Fitzgibbon Memorial</head><graphic url="../objects/images/EdmundFitzgibbon.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_EdmundFitzgibbon.jpg"/><p>James White 1908</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

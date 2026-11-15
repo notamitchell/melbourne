@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Playgrounds</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01148</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Playgrounds were first advocated for Melbourne by social reformers who argued that the urban environment was harmful to children's health and welfare. They stood alongside infant welfare, kindergarten and slum-reclamation campaigns in the armoury of those seeking to reform working-class life. Speaking at the National Council of Women (NCW) 1904 congress, Janet Strong, wife of the Rev. Charles Strong, called for the 'setting apart [of] grounds, with a sand heap and other adjuncts of play, sacred to little children and their guardians' in slum neighbourhoods. A model playground, displayed by the NCW at the Australian Women's Work Exhibition in 1907, was followed by Melbourne's first public playground, established by Melbourne City Council in Lincoln Square, Carlton. Reformers, however, believed that children needed trained supervision if they were to exercise their right to play. The Guild of Play (later the Playgrounds and Recreations Association of Victoria), founded in 1912, lobbied inner-city municipalities to implement this model, but while most were quick to provide playgrounds, only South Melbourne had fully accepted the need for supervision. Of the 72 playgrounds operating in metropolitan Melbourne by 1926, only five had play leaders. 'There was a general impression,' the guild regretfully reported, 'that children did not need to be directed in their play'.</p>
+<p>However, as the rise of the motor car rendered the streets increasingly dangerous, there was widespread acceptance of the need for dedicated spaces for children's play, with the concept adopted far more universally than its founders had imagined. Playgrounds became part of the environment of kindergartens, day-care centres, schools and even restaurants, with the Playgrounds Association redirecting its attention to setting standards for safe equipment. Echoes of the original didactic purpose, however, remain in the concept of the 1970s adventure playgrounds or the more recent community playgrounds, such as Hays Paddock in Kew, designed to be accessible to children with disabilities.</p></div>
+</body>
+</text></TEI>

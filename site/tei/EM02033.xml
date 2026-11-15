@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>The Public Purse</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02033</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00221.xml"><desc>Bourke Street Mall</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Simon Perry Calca red granite and stainless-steel sculpture 1994 Bourke Street Mall</p>
+<p>In January 1994, the City of Melbourne called for design submissions for unique and distinctive forms of street seating. Simon Perry's The Public Purse was one of the works selected. This piece was commissioned as part of council's Percent For Art Program, in which one per cent of council's capital works budget went towards funding public artworks, with the goal of integrating public art into the design and development of the city.</p>
+<p>In creating The Public Purse, Perry was interested making an object that would work both conceptually and poetically, while still addressing the context of the site. The Public Purse engages with its environment through its clear reference to the commercial nature of the area. Perry says of this red-granite sculpture that it 'signifies an interaction between the city and citizens, the public and the private'. Looking like nothing less than an oversized dropped purse, this public seating can be located anywhere in the retail district without ever looking out of place.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000066"><head>The Public Purse</head><graphic url="../objects/images/PublicPurse.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_PublicPurse.jpg"/><p>Simon Perry 1994</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Sport, University</title>
+<author>Fay Woodhouse</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01412</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>University sport was first noted in April 1857 when the University of Melbourne defeated Emerald Hill at cricket. By 1870 boating, lacrosse and athletics clubs supported the ideology of sport as necessary to the development of manliness and self-respect.</p>
+<p>In 1904 ten clubs and societies proposed the formation of a sports union for both extra-collegiate students and university men. Sport was also an interest shared by most women, who had entered the university in 1883. By 1905, when the Sports Union was thriving, women demanded that their tennis competition be regarded on an equal status as the men's. In 1907 women were awarded hockey and tennis blues, and inter-faculty and inter-varsity matches were keenly contested.</p>
+<p>The University of Melbourne's involvement with Australian Rules football stretched back to the earliest days of the game, and a team bearing the university name first appeared in 1860. Players needed a matriculation certificate or higher degree to be eligible for the team. While initially among the top metropolitan clubs, the team languished until it re-emerged in the Metropolitan Football Association in 1905, and in 1907 it was admitted to the Victorian Football League.</p>
+<p>Inter-varsity sport was always an important part of the university year, and Melbourne teams travelled annually to other Australian States to compete. At Monash and La Trobe universities, opened in 1961 and 1967 respectively, RMIT and later Deakin and Victoria universities, sports unions have encouraged both social and competitive sporting activities.</p>
+<p>Greater levels of sophistication, merchandising, sponsorships and professional development have been incorporated into university sport since the formation in the early 1990s of Australian University Sport. The Australian University Championships, hosted by individual universities, have become major annual university events. These championships, and the Australian University Games and World University Games, have now replaced the original inter-varsity sporting competitions.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000432" type="book"><author>Senyard, June E.</author> <title level="m">The ties that bind: a history of sport at the University of Melbourne</title> <pubPlace>Sydney</pubPlace> <publisher>Walla Walla Press</publisher> <date>2004</date></bibl></listBibl></div></back>
+</text></TEI>

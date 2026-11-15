@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Cheltenham</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00330</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Cheltenham</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3192, 19 km SE, Bayside City, Kingston City)</p>
+<p>Cheltenham began as a village on the road to the Mornington Peninsula. In 1852, speculator Josiah Morris Holloway purchased large parcels of Crown land in what later became the Shire of Moorabbin. He subdivided much of the land into 2-acre (0.8 ha) blocks and planned a settlement called Two Acre Village. After Charles Whorral purchased land at the corner of Centre Dandenong and Schnapper Point roads and established the Cheltenham Inn, named after his home town in England, the name was gradually adopted by the surrounding village. Natural springs in the vicinity, traditionally used by the Boon wurrung people, attracted white settlers to establish market gardens and orchards.</p>
+<p>The Melbourne Hunt Club used the district for hunting hares, rabbits, snipe and quail, but it was Cheltenham's position on the road to the Mornington Peninsula that helped the village to develop. From the 1860s to the 1880s travellers from Brighton to the Mornington Peninsula changed coaches at the Exchange Hotel at Cheltenham. The coach service was discontinued after the railway line to Mordialloc was opened in 1881, but a horse-drawn tram connected Cheltenham and Sandringham. In the 1850s, community buildings such as a mechanics institute began to appear and it was at Cheltenham rather than Moorabbin, the centre of the local municipality, that a courthouse and police station were built. A weekly cattle and pig market at the Exchange Hotel catered to Dandenong and Mornington Peninsula farmers. A number of charitable institutions were established in the late 19th century. The Methodist child rescue organisation opened its home in 1891 and was followed by the Anglican Community of the Holy Name's female rescue institution.</p>
+<p>The area surrounding the township remained a market gardening and, later, poultry-farming district. Cheltenham's population, even in 1930, was only 400. During the 1950s the township began to metamorphose into a suburb, as streets of postwar homes were built and industries clustered along the Nepean Highway. The Methodist Homes for Children moved to Burwood and were replaced by a St John of God Training School. When Southland shopping centre was opened in 1968, on the former Training School site, Cheltenham's status as a centre of suburban commerce was assured and by 1981 it was one of a number of suburbs designated by the Melbourne and Metropolitan Board of Works as a suburban activity centre. By the end of the 20th century the suburb was a significant residential, industrial and commercial locus in Melbourne's south-east.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bulla</title>
+<author>Jenny Keating</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00260</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Bulla</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3428, 25 km NW, Hume City)</p>
+<p>The rural area of Bulla is located in the south-west of Hume City. It is bordered to the east by Greenvale, Melbourne Airport and Oaklands Junction, to the south by Keilor, to the west by Sunbury and Diggers Rest, and to the north by Wildwood. The first European visitors were probably the explorers Hume and Hovell, who camped nearby in 1824; a cairn near Bulla Cemetery marks their campsite. The first official mention of Bulla was in 1837 when Governor Bourke visited the area, meeting the Brodie brothers who had settled by Deep Creek, a tributary of the Maribyrnong River. <hi rend="italic">Bulla bulla</hi> was an Aboriginal term meaning either 'two' or 'good'. In 1844 the former Chief Constable of Melbourne, William 'Tulip' Wright, built the first hotel, the Bridge Inn, by the Deep Creek. Until the late 1840s Bulla consisted of little more than Tulip's hotel and residence, but as the surrounding land was taken up for farming the township expanded as a service centre. Tulip became the local pound-keeper and postmaster and built other hotels in the district. In 1854, seven years after the village was surveyed, its name was officially shortened to 'Bulla'. In 1862 the Bulla Road District was proclaimed, and became a shire in 1866.</p>
+<p>Woodlands Homestead was settled by William Greene and his family in 1843. The property was reserved under the <hi rend="italic">National Parks Act</hi> in 1981, and the restored homestead is now open to the public. Another early property Glenara was built by pastoralist Walter Clark in 1857 and is now on the register of the National Estate. The Italianate villa is set in one of the earliest surviving domestic gardens in Victoria, and was the subject of an 1867 painting by Eugène von Guérard. Clark's son Alister, founder of the Moonee Valley Racing Club, was a noted horticulturalist and grower of roses and daffodils.</p>
+<p>In the 1850s kaolin (china clay), used for the manufacture of porcelain and pottery, was discovered in the district, and a processing plant operated until the 1870s. Bulla's growth from the late 1850s was to be compromised when, after pressure from the powerful landowner W.J.T. Clarke, the railway bypassed the township, proceeding instead via Diggers Rest. In the late 1880s a proposal for a branch railway from Essendon to Bulla was unsuccessful. Bulla has remained a quiet township in a farming district, with the municipal offices located at Sunbury since 1956.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000098" type="book"><author>Symonds, I.W.</author> <title level="m">Bulla Bulla: An illustrated history of the Shire of Bulla</title> <pubPlace>Melbourne</pubPlace> <publisher>Spectrum</publisher> <date>1985</date></bibl></listBibl></div></back>
+</text></TEI>

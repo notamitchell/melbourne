@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ashwood</title>
+<author>Susan Priestley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00098</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Ashwood</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3147, 13 km SE, Monash City)</p>
+<p>Ashwood lies east of Warrigal Road, bordering Ashburton and Burwood, from which combination its name derived. Once a flourishing market garden district, from 1949 a Housing Commission estate was developed between the Holmesglen and Jordanville railway stations on the Glen Waverley line. It incorporated a Commonwealth migrant hostel of Nissen huts near Holmesglen from 1954 to 1969. Architect Robin Boyd echoed the huts' parabolic shape in designing a patented concrete-skin house and shop bordering High Street Road, built 1952-54 and placed on the Heritage Register in 1997. Ashwood Primary School (1953), Jordanville Technical School (1954) and Ashwood High School (1958) integrated in October 1987 to form Ashwood College. Between 1990 and 1992 staff and students reconstructed an urban wetland in the Gardiners Creek basin.</p></div>
+</body>
+</text></TEI>

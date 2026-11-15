@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Hunting</title>
+<author>Claire Brennan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00738</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The history of hunting in Melbourne begins with the Kulin peoples who were leading a sustainable hunter-gatherer lifestyle when Europeans arrived. European explorers and settlers also hunted for food but they soon began to pursue animals for profit and sport, destroying traditional Aboriginal hunting practices as they did so.</p>
+<p>Sport hunting with hounds was established in Melbourne's hinterlands during the 1840s, and a number of private packs established at this time combined to form the Melbourne Hunt Pack in 1853. In 1888 the Oaklands Hunt was established to provide hunting north of the Yarra River. Hounds were used to pursue kangaroos, emus, dingoes and, later, foxes, stags and hares. Some of the animals introduced specifically to reproduce English-style hunting in Melbourne later became significant pests.</p>
+<p>Other forms of hunting were also pursued, fuelled by the availability of guns and the novelty of being able to hunt. In Britain hunting was restricted to the upper classes; in 19th-century Melbourne it was available to anyone who could afford a gun. As a result many animals were killed. Possums and koalas were killed for their fur. Birds were shot for the Melbourne markets. Kangaroos were killed for meat, for sport and, later, as pests; they were hunted on foot, on horseback using dogs and were also driven into pits or enclosures where they were slaughtered in large numbers. The Acclimatisation Society of Victoria introduced many game birds into Victoria during the 1860s to encourage hunting. After many failed attempts the Society also introduced fish such as salmon and trout in 1864. Salmon did not establish themselves successfully, but trout populations continue to exist.</p>
+<p>In 1858 the Victorian Parliament discussed the need to protect certain species from indiscriminate hunting. There was vigorous debate surrounding the introduction of game laws, seen by some as unfair instruments of class discrimination. However, species introduced specifically for hunting were protected by the <hi rend="italic">Game Preservation Act 1862</hi>. By 1880 attitudes towards native animals were changing, a precursor to the increasing regulation of hunting throughout the 20th century.</p>
+<p>Both the Melbourne and Oaklands Hunts still ride to hounds, although now they chase drags not living animals. Duck, quail and deer hunting also attract enthusiasts, although the 2003 duck hunting season was cancelled due to the impact of drought on waterfowl numbers.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000392" type="book"><author>Cameron-Kennedy, D.F.</author> <title level="m">The Oaklands Hunt 1888-1988: A chronicle of events</title> <pubPlace>Melbourne</pubPlace> <publisher>D.F. Cameron-Kennedy</publisher> <date>1989</date></bibl><bibl xml:id="PEM000179" type="book"><author>Ronald, Heather B.</author> <title level="m">Hounds are running: A history of the Melbourne Hunt</title> <pubPlace>Melbourne</pubPlace> <publisher>Lowden</publisher> <date>1970</date></bibl></listBibl></div></back>
+</text></TEI>

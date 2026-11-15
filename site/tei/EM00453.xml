@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Defence Scientific Establishments</title>
+<author>Richard Watter</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00453</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00011.xml"><desc>Military &amp; Defence</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established by the Commonwealth and originally developed to serve the technical and research needs of the munitions factories, the first defence laboratory in Australia began at Victoria Barracks in 1910 before moving in 1922 to a permanent site at Maribyrnong adjoining the explosives factory. There it became known as the Munitions Supply Laboratories (MSL), its work centred on the scientific standardisation of the west suburban defence factories' technical procedures and the testing of their output. Under the supervision of the MSL, the factories attained the high-quality levels vital to the success of Australian defence production during World War II. In 1950 the MSL was renamed the Defence Standard Laboratories (DSL) as it began to move away from its once close relationship with the factories. Forging direct links with the armed services, the DSL adapted overseas defence equipment and local materials to Australian military requirements, and increasingly generated technological innovations of its own.</p>
+<p>A second Melbourne scientific establishment, the Aeronautical Research Laboratories (ARL), opened in 1949 at Fishermans Bend with close ties to the nearby Commonwealth aircraft factory. ARL worked with the factory in aircraft manufacture and maintenance while independently developing weaponry systems and designing modifications for imported warplanes.</p>
+<p>Both laboratories were overshadowed during the 1960s and 1970s by the rapid rise of the South Australian Weapons Research Establishment, which eclipsed its Melbourne counterparts in size and importance. Compared to the decline in Victorian defence manufacturing over the same time, the local scientific establishments successfully weathered the uncertainties of regular restructuring by the federal government and endured the constraints of limited federal funding. In 1974 the DSL was again renamed, this time as the Materials Research Laboratory (MRL), and in 1992 ARL and MRL were merged to form the Aeronautical and Maritime Research Laboratories (AMRL).</p></div>
+</body>
+</text></TEI>

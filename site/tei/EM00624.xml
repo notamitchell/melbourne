@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Gardiner</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00624</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Gardiner</placeName></place></listPlace></standOff>
+<text><body>
+<div type="detail"><p>(3146, 9 km SE, Stonnington City)</p>
+<p>This locality derives its name from John Gardiner who overlanded cattle from New South Wales in 1837 and established a cattle station beside Gardiners Creek. His name was used to describe the local district until 1878 when it was changed to the Shire of Malvern. Now Gardiner applies only to a small pocket of Malvern and a railway station on the Glen Waverley line. Despite the fact that the line as far as Gardiner opened (as the Glen Iris line) in 1890, it was not until the 1920s that suburban home-buyers began to settle and build in the area.</p></div>
+</body>
+</text></TEI>

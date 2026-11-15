@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Swinburne University</title>
+<author>Alistair Harkness</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01458</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established in 1908 by George Swinburne, a former mayor of Hawthorn and Victorian parliamentarian, the Eastern Suburbs Technical College in Hawthorn offered classes in carpentry, plumbing and blacksmithing. The first students enrolled in 1909, and a boys' junior technical school and the first girls' technical school in Victoria were established soon after. The institution was renamed Swinburne Technical College in 1913 in honour of its founder.</p>
+<p>Swinburne was affiliated with the Victoria Institute of Colleges in 1965 by an Act of Parliament that encouraged the development and improvement of tertiary education in various fields of learning in institutions other than universities. The boys' and girls' technical schools were taken over by the Victorian Education Department in 1969, but the college remained as an autonomous institution. As a result of sweeping changes to advanced education in Victoria between 1976 and 1978 and the passing of the <hi rend="italic">Victorian Post-Secondary Education Act 1978</hi>, the Victoria Institute of Colleges was superseded by the Victorian Post-Secondary Commission. Swinburne Council was empowered to confer bachelor degrees, the first of which was awarded in May 1981. Proclaimed a university on 1 July 1992, its first chancellor was businessman Richard Pratt.</p>
+<p>Swinburne merged with the former Eastern TAFE in 1998, increasing the number of campuses to six. In accordance with its original charter to provide expanded and more accessible education to residents in the outer-eastern suburbs of Melbourne, Swinburne operates at Croydon, Hawthorn, Healesville, Lilydale, Prahran and Wantirna. From being a local provider of technical education, Swinburne has developed into a multi-campus university offering regional, national and international students a range of programs from apprenticeships to doctorates.</p></div>
+</body>
+</text></TEI>

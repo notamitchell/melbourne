@@ -1,0 +1,211 @@
+/* eMelbourne stylesheet. Plain CSS, no build step.
+ * Colours are tokens on :root, redefined for dark mode. Every page that links this file
+ * also gets the UNDER CONSTRUCTION banner (body::before, near the bottom of this file),
+ * so no HTML or JS needs to change to show or remove it.
+ */
+:root {
+  --bg: #fbfaf7; --fg: #1d1d1b; --muted: #5f5e5a; --line: #e2dfd8; --card: #fff;
+  --accent: #0f4f78; --accent-fg: #fff; --hover: #efece5;
+  --band: #0c2d48; --band-fg: #f4f1ea; --band-muted: #b9c6d3; --band-line: #24496a;
+  --warn: #ffd23f; --warn-fg: #1a1a1a; --warn-stripe: #1a1a1a;
+  --focus: #c75b00;
+  --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --gutter: max(16px, calc(50% - 38rem));
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141413; --fg: #ecebe7; --muted: #aaa8a2; --line: #34332f; --card: #1e1e1c;
+    --accent: #84c5ee; --accent-fg: #0d1b26; --hover: #25241f;
+    --band: #0a1f31; --band-fg: #ecebe7; --band-muted: #9fb2c4; --band-line: #1f3a54;
+    --focus: #ffb36b;
+  }
+}
+
+/* ---------------------------------------------------------------- base */
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--bg); color: var(--fg); font: 18px/1.65 var(--serif); }
+.layout { flex: 1; }
+img { max-width: 100%; }
+a { color: var(--accent); text-underline-offset: .18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+a.not-converted { color: var(--muted); text-decoration-style: dotted; }
+.sr { position: absolute; left: -9999px; }
+.muted { color: var(--muted); } .small { font-size: .85em; }
+h1, h2, h3 { line-height: 1.25; text-wrap: balance; }
+p { text-wrap: pretty; }
+
+/* -------------------------------------------------------- title banner */
+header.site {
+  display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; align-items: center;
+  padding: .9rem var(--gutter); background: var(--band); color: var(--band-fg);
+  font-family: var(--sans); border-bottom: 4px solid var(--accent);
+}
+.brand { font: 700 1.45rem/1.2 var(--serif); letter-spacing: -.01em; text-decoration: none; color: var(--band-fg); }
+.tag { color: var(--band-muted); font-size: .9rem; }
+nav.top { display: flex; gap: 1.1rem; font: 500 .95rem var(--sans); }
+nav.top a { color: var(--band-fg); text-decoration: none; padding: .3rem 0; border-bottom: 2px solid transparent; }
+nav.top a:hover { border-bottom-color: var(--band-muted); }
+nav.top a[aria-current] { border-bottom-color: var(--warn); }
+form.mini, form.quick { margin-left: auto; }
+form.mini input, form.quick input {
+  font: .95rem var(--sans); padding: .45rem .7rem; width: 14rem; max-width: 100%;
+  border: 1px solid var(--band-line); border-radius: 6px; background: rgba(255,255,255,.08); color: var(--band-fg);
+}
+form.quick input::placeholder { color: var(--band-muted); }
+form.quick input:focus { background: var(--card); color: var(--fg); }
+
+/* ----------------------------------------------------------- layout */
+.layout { display: grid; grid-template-columns: 15rem minmax(0, 1fr); gap: 3rem; padding: 0 var(--gutter); }
+main { padding: 2rem 0 3rem; min-width: 0; }
+body[data-page="page"] main { max-width: 46rem; }
+
+/* ------------------------------------------------------- side tabs */
+#side { padding-top: 2rem; font-family: var(--sans); }
+.tabs { display: flex; border-bottom: 1px solid var(--line); margin-bottom: 1rem; }
+.tabs a { flex: 1; text-align: center; padding: .55rem .2rem; font-size: .9rem; font-weight: 600; text-decoration: none; color: var(--muted); border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.tabs a:hover { color: var(--fg); }
+.tabs a[aria-selected] { color: var(--fg); border-bottom-color: var(--accent); }
+details.themes summary { font-size: .78rem; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); cursor: pointer; padding: .3rem 0; }
+@media (min-width: 761px) {
+  details.themes summary { pointer-events: none; list-style: none; }
+  details.themes summary::-webkit-details-marker { display: none; }
+}
+#theme-menu, #exhibit-menu { list-style: none; padding: 0; margin: .3rem 0 0; font-size: .93rem; line-height: 1.4; }
+#theme-menu a, #exhibit-menu a { display: block; padding: .32rem .6rem; border-radius: 6px; text-decoration: none; color: var(--fg); }
+#theme-menu a:hover, #exhibit-menu a:hover { background: var(--hover); }
+#theme-menu a.current, #exhibit-menu a.current { background: var(--accent); color: var(--accent-fg); }
+#theme-menu a.not-converted, #exhibit-menu a.not-converted { color: var(--muted); }
+details.themes + details.themes { margin-top: 1.25rem; padding-top: .75rem; border-top: 1px solid var(--line); }
+/* Everyday War sub-pages, nested under their exhibition */
+#exhibit-menu ul { list-style: none; margin: .15rem 0 .4rem .6rem; padding: 0 0 0 .5rem; border-left: 2px solid var(--line); font-size: .88rem; }
+#exhibit-menu ul a { padding: .25rem .5rem; }
+
+/* ------------------------------------------------------------- home */
+.intro { padding: 1.5rem 1.5rem 1.75rem; margin-bottom: .5rem; background: var(--card); border: 1px solid var(--line); border-radius: 10px; }
+.intro h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); margin: 0 0 1rem; }
+.big-search { display: flex; gap: .5rem; }
+.big-search input { flex: 1; font: 1.05rem var(--sans); padding: .7rem .9rem; border: 1px solid var(--muted); border-radius: 8px; background: var(--bg); color: var(--fg); min-width: 0; }
+.big-search button, #search button { font: 600 1rem var(--sans); padding: 0 1.3rem; min-height: 2.75rem; border: 0; border-radius: 8px; background: var(--accent); color: var(--accent-fg); cursor: pointer; }
+.big-search button:hover { filter: brightness(1.1); }
+main h2 { font: 600 .85rem var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-top: 2.25rem; }
+.theme-grid ul { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: .1rem 1.2rem; font-family: var(--sans); font-size: 1rem; }
+.theme-grid li a { display: block; padding: .45rem 0; border-bottom: 1px solid var(--line); text-decoration: none; }
+@media (min-width: 761px) { .theme-grid { display: none; } }
+.features .tei-div { border-top: 1px solid var(--line); padding: .75rem 0 1.25rem; }
+.features .tei-div h2 { text-transform: none; letter-spacing: 0; font: 600 1.25rem/1.3 var(--serif); color: var(--fg); margin: .6rem 0 .3rem; }
+
+/* ----------------------------------------------- headings, browse */
+main > h1, article h1 { font-size: clamp(1.75rem, 4.5vw, 2.4rem); line-height: 1.15; margin: .2rem 0 .7rem; }
+dl.gloss { display: grid; grid-template-columns: fit-content(12rem) minmax(0, 1fr); gap: .2rem 1rem; font: .95rem var(--sans); }
+dl.gloss > * { min-width: 0; overflow-wrap: anywhere; }
+dl.gloss dt { color: var(--muted); } dl.gloss dd { margin: 0; }
+nav.chips, nav.letters { display: flex; flex-wrap: wrap; gap: .4rem; margin: .8rem 0; font: .92rem var(--sans); }
+nav.chips a { padding: .35rem .85rem; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; background: var(--card); }
+nav.chips a:hover, nav.letters a:hover { border-color: var(--accent); }
+nav.chips a[aria-current], nav.letters a[aria-current] { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+nav.letters a, nav.letters span { min-width: 2.2rem; text-align: center; padding: .35rem 0; border-radius: 6px; }
+nav.letters a { text-decoration: none; border: 1px solid var(--line); background: var(--card); font-weight: 600; }
+nav.letters span { color: var(--muted); opacity: .45; }
+ul.az { columns: 2 16rem; column-gap: 2rem; padding-left: 1.1rem; }
+ul.az li { margin: .2rem 0; break-inside: avoid; }
+
+/* ------------------------------------------------------------ footer */
+footer.site { padding: 1.5rem var(--gutter); background: var(--band); color: var(--band-muted); font: .85rem/1.6 var(--sans); }
+footer.site a { color: var(--band-fg); }
+
+/* ------------------------------------------------------------ search */
+#search { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: .5rem; }
+#search input { flex: 1 1 16rem; font: 1.05rem var(--sans); padding: .7rem .9rem; border: 1px solid var(--muted); border-radius: 8px; background: var(--card); color: var(--fg); }
+#search select { font: .95rem var(--sans); padding: .6rem; border: 1px solid var(--muted); border-radius: 8px; background: var(--card); color: var(--fg); }
+#count { font: .9rem var(--sans); }
+.results { list-style: none; padding: 0; margin: 0; }
+.results li { padding: 1rem 0; border-bottom: 1px solid var(--line); overflow: hidden; }
+.results img { float: right; width: 80px; height: 80px; object-fit: cover; margin: 0 0 .5rem 1rem; border-radius: 6px; }
+.r-head a { font-size: 1.15rem; font-weight: 600; }
+.r-type { display: block; color: var(--muted); font: .82rem var(--sans); margin-top: .1rem; }
+.results p { margin: .35rem 0 0; font-size: .95rem; }
+aside h2 { font: 600 .85rem var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+ul.plain { list-style: none; padding: 0; } ul.plain li { margin: .2rem 0; }
+
+/* ------------------------------------------------------------- entry */
+article { max-width: 42rem; }
+.kicker { display: inline-block; font: 700 .75rem var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--accent); margin: 0; }
+.byline { font: 1rem var(--sans); color: var(--muted); margin-top: 0; }
+article h2 { font: 600 1.1rem var(--sans); margin-top: 2.25rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+blockquote { margin: 1.25rem 0; padding: .25rem 0 .25rem 1.1rem; border-left: 4px solid var(--accent); color: var(--fg); font-style: italic; }
+.table-wrap { overflow-x: auto; margin: 1rem 0; }
+table { border-collapse: collapse; font: .9rem var(--sans); }
+caption { text-align: left; font-weight: 600; padding-bottom: .3rem; }
+th, td { border: 1px solid var(--line); padding: .35rem .65rem; text-align: left; vertical-align: top; }
+th { background: var(--hover); }
+dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: .3rem 1.25rem; font: .95rem var(--sans); padding: 1rem 1.1rem; background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+dl.facts dt { color: var(--muted); font-weight: 600; }
+dl.facts dd { margin: 0; }
+section.gallery h2 { grid-column: 1 / -1; }
+section.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); gap: 1.25rem; }
+figure { margin: 0; }
+figure img { width: 100%; height: auto; border-radius: 6px; display: block; background: var(--hover); }
+figcaption { font: .85rem/1.45 var(--sans); color: var(--muted); padding-top: .4rem; }
+figcaption p { margin: .1rem 0; }
+section.related ul { columns: 2 14rem; padding-left: 1.1rem; }
+ol.bibl { padding-left: 1.3rem; font-size: .92rem; }
+ol.bibl li { margin: .35rem 0; }
+.cite { margin-top: 2.5rem; font: .85rem/1.55 var(--sans); color: var(--muted); border-top: 1px solid var(--line); padding-top: 1rem; }
+
+/* ------------------------------------------------- digital objects */
+article.object { max-width: 42rem; }
+article.object > figure { margin: 1rem 0 1.5rem; }
+article.object > figure img { width: auto; max-width: 100%; max-height: 70vh; margin: 0 auto; }
+a.object-link { text-decoration-style: solid; }
+a.object-link img { display: block; border-radius: 6px; }
+span.img-missing {
+  display: inline-block; max-width: 16rem; padding: .5rem .7rem; border: 1px dashed var(--muted); border-radius: 6px;
+  background: var(--hover); color: var(--muted); font: italic .85rem/1.4 var(--sans);
+}
+/* Civic Treasures and letterheads: each object is a run of dt/dd pairs; start each one with a rule */
+dl.gloss dt:empty, dl.gloss dt:has(a.object-link) { grid-column: 1 / -1; margin-top: .9rem; padding-top: .9rem; border-top: 1px solid var(--line); }
+dl.gloss dt:has(a.object-link) { font-weight: 600; }
+dl.gloss dt:empty + dd, dl.gloss dt:has(a.object-link) + dd { grid-column: 1 / -1; }
+dl.gloss > dt:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+
+/* ----------------------------------------------------------- mobile */
+@media (max-width: 760px) {
+  body { font-size: 17px; }
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  header.site { padding-top: .75rem; padding-bottom: .75rem; }
+  .tag { flex-basis: 100%; order: 1; margin-top: -.3rem; }
+  nav.top { order: 2; }
+  form.quick { order: 3; flex-basis: 100%; margin-left: 0; }
+  form.quick input { width: 100%; }
+  #side { padding-top: 1rem; }
+  .tabs a { padding: .7rem .2rem; }
+  details.themes summary { padding: .5rem 0; }
+  #theme-menu a, #exhibit-menu a { padding: .55rem .6rem; }
+  #exhibit-menu ul a { padding: .45rem .5rem; }
+  .intro { padding: 1.1rem; }
+  main { padding-top: 1.25rem; }
+  dl.facts { grid-template-columns: 1fr; gap: 0; }
+  dl.facts dd { margin-bottom: .5rem; }
+  .results img { width: 64px; height: 64px; }
+}
+
+/* ------------------------------------------- UNDER CONSTRUCTION banner
+ * Shown on every page through CSS alone. To remove it at launch, delete this block.
+ */
+body::before {
+  content: "\26A0\FE0E  UNDER CONSTRUCTION \2014  This is a work-in-progress preview of the new eMelbourne. Content, links and design are incomplete and will change.";
+  display: block; padding: .6rem var(--gutter);
+  background:
+    repeating-linear-gradient(-45deg, var(--warn-stripe) 0 10px, var(--warn) 10px 20px) top / 100% 6px no-repeat,
+    repeating-linear-gradient(-45deg, var(--warn-stripe) 0 10px, var(--warn) 10px 20px) bottom / 100% 6px no-repeat,
+    var(--warn);
+  padding-top: calc(.6rem + 6px); padding-bottom: calc(.6rem + 6px);
+  color: var(--warn-fg); font: 600 .92rem/1.45 var(--sans); text-align: center;
+}
+@media print { body::before { border: 2px solid #000; } }
+@media (max-width: 560px) {
+  body::before { content: "\26A0\FE0E  UNDER CONSTRUCTION \2014  Work-in-progress preview. Content and design will change."; font-size: .85rem; }
+}

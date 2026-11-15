@@ -1,0 +1,35 @@
+/* Experiments: page frame and chart tokens. Colours from site.css; series slots validated for light and dark. */
+.exp { --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --series-4: #eda100; --series-5: #e87ba4;
+  --series-6: #008300; --series-7: #6250d6; --series-8: #e34948; --series-other: #a3a29c; --grid: var(--line); }
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .exp { --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500;
+    --series-5: #d55181; --series-6: #0ca30c; --series-7: #9085e9; --series-8: #e66767; --series-other: #6d6c67; }
+}
+:root[data-theme="dark"] .exp { --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500;
+  --series-5: #d55181; --series-6: #0ca30c; --series-7: #9085e9; --series-8: #e66767; --series-other: #6d6c67; }
+.exp-wrap { padding: 1.5rem var(--gutter) 3rem; }
+.exp-wrap > h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); margin: .2rem 0 .4rem; }
+.exp-lede { font: 1rem/1.55 var(--sans); color: var(--muted); max-width: 52rem; margin: 0 0 1rem; }
+.exp-crumb { font: .9rem var(--sans); margin: 0; }
+.exp-bar { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; font: .9rem var(--sans); margin: .75rem 0; }
+.exp-bar input[type="search"], .exp-bar input[type="text"], .exp-bar select { font: .9rem var(--sans); padding: .4rem .6rem; border: 1px solid var(--muted); border-radius: 7px; background: var(--card); color: var(--fg); }
+.exp-legend { display: flex; flex-wrap: wrap; gap: .35rem; }
+.exp-key { display: inline-flex; align-items: center; gap: .4rem; font: .85rem var(--sans); padding: .3rem .65rem; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--fg); cursor: pointer; }
+.exp-key[aria-pressed="false"] { opacity: .45; }
+.exp-key i { width: .8rem; height: .8rem; border-radius: 3px; display: inline-block; }
+.exp-key .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+.exp-chart { position: relative; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: .5rem; }
+.exp-chart svg { display: block; width: 100%; height: auto; font-family: var(--sans); }
+.exp-chart text { fill: var(--muted); font-size: 11px; }
+.exp-tip { position: absolute; pointer-events: none; background: var(--card); color: var(--fg); border: 1px solid var(--line); border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.15); padding: .45rem .6rem; font: .85rem/1.4 var(--sans); max-width: 20rem; z-index: 3; }
+.exp-tip b { display: block; }
+.exp-tip .m { color: var(--muted); }
+.exp-note { font: .85rem var(--sans); color: var(--muted); }
+.exp-cards { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1rem; }
+.exp-cards li { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.1rem; }
+.exp-cards a { font: 600 1.1rem var(--serif); }
+.exp-cards p { font: .92rem/1.5 var(--sans); color: var(--muted); margin: .4rem 0 0; }
+details.exp-table { margin-top: 1rem; font: .88rem var(--sans); }
+details.exp-table table { border-collapse: collapse; width: 100%; }
+details.exp-table th, details.exp-table td { text-align: left; padding: .25rem .5rem; border-bottom: 1px solid var(--line); }

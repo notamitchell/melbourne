@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Café Latin</title>
+<author>Gavin De Lacy</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00278</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>The Café Latin was originally a dining room established above a wine shop at 206 Exhibition Street c. 1920. In its first decade it was run by a succession of restaurateurs including Filippo Navaretti and Reuben Massoni before Camillo Triaca began his reign. Initially popular with a bohemian crowd, the Latin was one of Melbourne's finest Italian restaurants. It closed in 1955 but was re-established in 1962 by David Triaca at 55 Lonsdale Street. From 1984 it became Marchetti's Latin, before finally closing in 2001. Camillo Triaca and the old Latin are described in Hal Porter's <hi rend="italic">Watcher on the cast-iron balcony</hi> (London, 1963).</p></div>
+</body>
+</text></TEI>

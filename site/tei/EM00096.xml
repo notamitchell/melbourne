@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ascot Vale</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00096</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Ascot Vale</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3032, 6 km NW, Moonee Valley City)</p>
+<p>Much of the area bounded on the east by Moonee Ponds Creek and on the west by the Maribyrnong River was sold in Crown land sales in the late 1840s. Most purchasers secured comfortable farm-sized holdings of around 50 acres (20 ha). From 1840 horseracing had taken place by the Maribyrnong River at what later became the Victoria Racing Club's Flemington racecourse. Ascot Vale is believed to have been named after the English racecourse Ascot because of its association with the racing industry.</p>
+<p>Traffic along the rough track from Flemington increased when gold was discovered at Mount Alexander (Castlemaine) in the 1850s. The usual assortment of businesses catering to travellers appeared along the edges of what came to be called Mount Alexander Road. The wealth generated during the decade enabled some residents to build substantial homes on their farmland. The Essendon-Flemington Borough's first council chamber was built at Ascot Vale on Mount Alexander Road in 1865.</p>
+<p>Despite the opening of a private railway line in the 1860s, Ascot Vale's real development did not begin until the land boom of the 1880s when a number of the larger properties, mostly near the railway line or Mount Alexander Road, were subdivided. One new estate was Temperance Township, where a covenant forbade the sale or fermenting of liquor within its boundaries. The new residents established churches, schools and sporting clubs, while banks, businesses and community halls began to appear in Union Road. In 1882 the National Agricultural Society (later the Royal Agricultural Society) relocated its showgrounds from South Melbourne to 30 acres (12 ha) of government reserve on the northern edge of Flemington racecourse. The showgrounds were extended eastward in the 1920s. In 1881 the Flemington Meat Preserving Company was established close to the showgrounds at what was then known as Bagotville. The company continued to operate until World War I when it produced powdered soup for Australian troops.</p>
+<p>Further development occurred after 1906 when a privately owned tram line began operating from North Melbourne to the Maribyrnong River at Ascot Vale. At the same time there were concerted efforts by the newly formed Essendon River League and the Essendon Council to beautify their side of the river. One old property subdivided at this time was Ailsa. The mansion was purchased by the Catholic Sisters of Mercy for use as a training college. It later served as a campus of the Australian Catholic University.</p>
+<p>In the 1920s Bagotville, now called Ascot Vale West, was subdivided, as was the prestigious Travancore Estate to the east near Moonee Ponds Creek. After World War II, there was further development when the Housing Commission of Victoria built walk-up flats and houses on what had been the Ascot racecourse. Ascot Vale remains primarily a residential suburb, with major commercial strip shopping centres along Union Road.</p></div>
+</body>
+</text></TEI>

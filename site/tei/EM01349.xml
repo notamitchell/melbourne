@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>See Yup Temple</title>
+<author>Morag Loh</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01349</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This temple in Raglan Street, South Melbourne, features a unique blend of European and Chinese elements, combining a neoclassical exterior with a floor plan that follows Cantonese temple tradition. It was designed for the See Yup Society by George Wharton in 1866 and replaced double-storey wooden lodgings constructed in 1855 and a temple dating from 1856.</p>
+<p>Extended in 1901, the temple was an important centre of spiritual life for See Yup immigrants, whose traditional eclectic beliefs incorporated Buddhism, Taoism, Confucianism, deity-worship and ancestor-veneration. Devotees of the deities Kwan Ti (representing fidelity, justice and protection) and Ts'ai Sheng Yeh (wealth) erected memorial tablets to society members who died in Victoria. Worship declined from the 1920s as immigrant numbers fell, but from the 1980s, with increased immigration, particularly from Indochina, not only people of See Yup descent but also Chinese Australians of diverse backgrounds worshipped there.</p>
+<p>After representations from the National Trust, the See Yup Society, with financial assistance from the Victorian and federal governments and the Chinese community, began restoration in 1974, and the restored temple was opened to the public in 1976. In 1978 the temple was registered by the Australian Heritage Commission as a building of historical and architectural importance.</p></div>
+</body>
+</text></TEI>

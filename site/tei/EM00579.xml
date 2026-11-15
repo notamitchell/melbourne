@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Flagstaff Gardens</title>
+<author>Georgina Whitehead</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00579</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01686.xml"><desc>Alsop Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01716.xml"><desc>Brights Place</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02108.xml"><desc>Pioneer Monument</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02044.xml"><desc>River God Fountain (aka Old Man Fountain, and Neptune)</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02113.xml"><desc>Separation Memorial</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02069.xml"><desc>The Court Favorite</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>These gardens in the city's west end were laid out in the early 1860s on Flagstaff Hill, named after the flagstaff erected in 1840 at its highest point to send messages between the town and harbour. For the first few years of European settlement, the hill accommodated Melbourne's first burial ground until a cemetery was established nearby on the site of the present Queen Victoria Market. A memorial was erected in 1871 marking the approximate position of the settlers' graves.</p>
+<p>An early resident, George Gordon McCrae, recalled Flagstaff Hill as a popular meeting place, where the latest 'news from the Bay' could be had and fine views enjoyed. It was also popular as a place to fight duels. In 1850 it was the scene of celebrations when news arrived of the impending Separation of the Port Phillip District from New South Wales. Not long after, the electric telegraph superseded signalling flags and the hill lost its attraction as a rendezvous. The signal station was converted to the Flagstaff Observatory, but the site proved unsuitable and the equipment was relocated to the Melbourne Observatory.</p>
+<p>In 1862 West Melbourne residents petitioned the government to turn the by then derelict hillside into public gardens. Clement Hodgkinson, designer of the Fitzroy Gardens and Treasury Gardens, prepared a plan for the 7-hectare site and directed its implementation. Originally decorated with copies of classical statues and densely planted with trees, the gardens are now much changed in character. Extensive lawns and flowerbeds have replaced many trees, and tall buildings obscure views of Port Phillip Bay. A monument was built in 1950 on the site of the old flagstaff to mark Victoria's centenary of self-government. Once serving a densely populated residential district, today the gardens are mainly used by office workers.</p></div>
+</body>
+</text></TEI>

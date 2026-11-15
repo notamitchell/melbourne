@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Tooradin</title>
+<author>Jenny Coates</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01498</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Tooradin</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3980, 53 km SE, Casey City and Cardinia Shire)</p>
+<p>Named after an Aboriginal word for 'swamp monster' or 'bunyip', Tooradin is a small village located on Sawtell Inlet on Westernport Bay. The first European settlers in the district were the Manton brothers, who held the 16 000-acre (6400 ha) run Toorodan. Tooradin was a stopping place for coaches between Cranbourne and Grantville, and from at least the 1870s a jetty was used by trading craft to deliver road-building materials to the area. The railway line opened in 1888, facilitating trade with Melbourne and Gippsland. Today small industries include fishing and the manufacture of farm machinery, but the main land use remains dairy-farming.</p></div>
+</body>
+</text></TEI>

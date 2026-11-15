@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Orchards</title>
+<author>Andrea Gaynor</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01094</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established around Melbourne from the 1850s, orchards took up land cleared by timber-felling, but themselves fell victim to city growth, and by the late 20th century had become a feature of the city's receding agricultural fringe. In 1901 Doncaster, Heidelberg and Nunawading almost entirely dominated metropolitan fruit production, with 6616 acres (2646 ha) of orchards between them. In an era when the yeoman dream was still alive and well, orchards were a symbol of healthy, productive independence. Outer suburban subdivisions in orcharding districts were promoted in the 1920s as places where city families could live among 'industrious husbandmen, real producers, who have turned idle hills into smiling gardens', and raise healthy children. The 1920s <hi rend="italic">Eureka Plan Book</hi> extolled such virtues: 'Ringwood is famous for its apple orchards, the rosy-cheeked apples of Ringwood are known all over Australia and on the London market, and the rosy children are said to be a direct result of the rosy apples'. Orchards did not always exert such a healthy influence. The codling moth arrived in the colony in 1885. Growers in and around Melbourne waged war against it, first with Paris Green (copper arsenate), then lead arsenate and, from the 1940s, DDT. By the 1990s most of the older orcharding areas in Melbourne had been subdivided for housing. Fruit production, however, remained a part of the domestic horticultural landscape. In 1992 the 40% of Melbourne households with fruit trees produced a total of around 12 500 tonnes of fruit. Petty's orchard in Templestowe, once part of the district's Blue Moon Cooperative, is the closest operating orchard to Central Melbourne, and features a horticultural museum.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000396" type="book"><author>Green, Irvine</author> <title level="m">The orchards of Doncaster Templestowe</title> <pubPlace>Melbourne</pubPlace> <publisher>Doncaster-Templestowe Historical Society</publisher> <date>1985</date></bibl></listBibl></div></back>
+</text></TEI>

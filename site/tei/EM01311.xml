@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>St Patrick's Cathedral</title>
+<author>Peter Sherlock</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01311</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The heart of Melbourne's Catholic community and seat of its bishops and archbishops, St Patrick's Cathedral, located at the corner of Albert and Gisborne streets in East Melbourne, is Victoria's largest church building. In 1848 the consecration of Bishop Goold for the new diocese of Melbourne required construction of a cathedral. The first church on the site was begun in 1850, followed by a second in 1858, which included plans for clerical residences, a school and college. The present cathedral derives from a third set of plans commissioned in 1858 from the newly arrived architect William Wilkinson Wardell. The Gothic Revival design took inspiration from both French and English traditions, while the monumental scale was unmatched in the 19th century. Wardell took maximum advantage of the site, and the cathedral dominates the views from Brunswick and Bourke streets. Funded by Catholic parishes and organisations, the nave was completed in 1868, the tower in 1886, and transepts and seven chapels in 1894. The relics of St Flavia, brought from Rome in 1871, were installed under the high altar until 1907, when they were displaced by a relic of St Patrick. The cathedral was consecrated in an elaborate public ceremony on 27 October 1897, at a total cost of £217 376. Its three spires, built to a new, taller design commissioned from Conolly &amp; Vanheems by Archbishop Mannix, were completed in 1939. Later renovations included the construction of a new organ in 1964, the remodelling of the sanctuary area in the wake of the Second Vatican Council, and the reconstruction of the cathedral precinct to incorporate the diocesan offices and presbytery. In 1974 Pope Paul VI conferred the title of Minor Basilica on St Patrick's, and his successor, John Paul II, made the first papal visit in 1986. In 1997 a major restoration program was completed to mark the centenary of the cathedral's consecration.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000309" type="book"><author>Boland, T.P.</author> <title level="m">St Patrick's Cathedral: a life</title> <pubPlace>Melbourne</pubPlace> <publisher>Polding Press</publisher> <date>1997</date></bibl></listBibl></div></back>
+</text></TEI>

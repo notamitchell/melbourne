@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>St Patrick's Day</title>
+<author>Richard Scully</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01313</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A focal point of celebration for Melburnians of Irish birth or descent since foundation, St Patrick's Day (17 March) has experienced periods of strong popularity as well as decline. In early Melbourne, celebration of the day generally encompassed attendance at Catholic mass followed by low-key private functions. In 1842 the foundation of the St Patrick's Society gave new impetus to the commemoration, and the impromptu march by the society's members through Melbourne's streets in the 1840s eventually became an annual event. By the 1890s the procession followed a fixed route up Bourke Street from its junction with Queen Street to Parliament House and on via Nicholson Street in the direction of the Fitzroy Football Oval, where a sports carnival was regularly held. While attendances at public events fluctuated throughout the 19th century, the turn of the century witnessed a revival of the day as a celebration of a different kind of Australian identity. Crowds of 100 000 were reported at the 1902 procession, and those of 1908-1909 were attended by successive governors-general.</p>
+<p>As a focus for political causes, St Patrick's Day reached its peak during 1917-22, when Archbishop Daniel Mannix and others fostered general Irish Catholic solidarity with the causes of Irish independence and opposition to conscription. An attempt by the Melbourne City Council to prohibit the march in 1922 failed, but distaste at events in Ireland meant that that year was in many ways the 'last hurrah' of a separate Irish Melbourne. As the 20th century waned, commemoration returned to a more personal level, while in the early 21st century the day experienced renewed popularity (promoted in part by Melbourne's many Irish hotels) as less of an Irish Catholic sectarian event than an expression of yet another facet of multicultural Melbourne.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000617" type="journal-article"><author>Dunstan, David</author> <title level="a">The rise and fall of St Patrick's Day</title> <title level="m">Overland</title> <date>1979</date> <biblScope unit="page">56-60</biblScope></bibl></listBibl></div></back>
+</text></TEI>

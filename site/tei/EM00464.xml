@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Diamond Creek</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00464</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Diamond Creek</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3089, 23 km NE, Nillumbik Shire)</p>
+<p>Diamond Creek is a settlement in the Diamond Valley and takes its name from a tributary of the Yarra River on account of crystalline stones observed on the creek bed. Originally called Nillumbik, Diamond Creek was included in the area claimed by John Batman's Port Phillip Association in 1835.</p>
+<p>Although a government township was surveyed on the west of the Diamond Creek in 1852, it was neither subdivided nor sold until 1866. By this time, the discovery of the Diamond Reef on private land on the east side of the creek had attracted substantial numbers of goldminers to the district. A post office, Primitive Methodist Church and school, and three hotels were established soon after. A National School, opened in 1870, became a state school in 1872, the original schoolroom being located in the grounds of Diamond Creek Primary School.</p>
+<p>After the 1860s many miners and others who purchased land in the vicinity turned to orcharding, and the town became a centre for an orchard industry that spread across much of the Diamond Valley. The industry peaked at the turn of the century and began to decline after World War I. Annual horticultural shows survived into the 1960s, demonstrating the enduring rural nature of the district.</p>
+<p>Diamond Creek township was a sleepy hollow for much of the first half of the 20th century, although the extension of the Eltham railway line through the town and on to Hurstbridge in 1912 attracted tourists and day-trippers to the area. The family of writer Alan Marshall bought a house and small parcel of land here in the 1920s when they moved from the Western District to allow Alan to pursue a city career. Diamond Creek was only 19 miles (30 km) by rail from Melbourne, but still afforded a rural lifestyle.</p>
+<p>These were the elements of life at Diamond Creek that accounted for its growing population from the 1960s onward. Affordable land on subdivided orchards encouraged young families to build their homes at Diamond Creek and commute to work in Melbourne or the northern suburbs. Reserves of open land along the Diamond Creek help the town to retain its rural atmosphere, which is also enhanced by the miners' and orchardists' cottages that dot the slopes of the township.</p></div>
+</body>
+</text></TEI>

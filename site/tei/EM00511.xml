@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Egyptians</title>
+<author>Abe W. Ata</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00511</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Although there was some Egyptian immigration before 1901, the Coptic diaspora to Melbourne followed the implementation of Nasser's Pan-Arab policies in the early 1960s. The 2001 census recorded 11 142 Egypt-born Melburnians. Around 97% of the community in Victoria reside in Melbourne, with large concentrations in Broadmeadows, Brunswick and Coburg.</p>
+<p>Coptic Egyptian Christians are distinguished as the original inhabitants of Egypt and Northern Sudan. The Coptic clergy in Melbourne have been a decisive influence in both the projection of religio-ethnic identity and nurturing it through education programs, youth groups, language classes and various family activities. The in-marriage rate of 95% has sustained a high degree of community. The first Coptic (Virgin Mary) Church was established in 1970 and has since had a school attached. The community also established an aged care hostel in Narre Warren. As the community grew, the number of churches swelled to 15. In 1999 Bishop Suriel moved the diocesan headquarters to Donvale, where it now boasts a library, hostel and sports facilities, and purports to serve the affairs of some 15 000 individuals in Australia and New Zealand.</p>
+<p>By the end of the 1970s several waves of Muslim migrants began to arrive. They were instrumental in setting up the El-Seddique Society and attracting funds from overseas to set up the El-Seddique Mosque in West Heidelberg in 1982. The religious steering committee runs Islamic classes for children and provides other cultural, social and sporting services to its members, who also include Somalis, Ethiopians, Lebanese, Malaysians and Afghanis. Men and women worship in separate parts of the mosque.</p>
+<p>The Egyptian community boasts a higher percentage of educated and professional members than other Arab communities and includes teachers, accountants, medical practitioners, chemists and engineers. It also has contributed to community radio and Channel 31 television programs.</p></div>
+</body>
+</text></TEI>

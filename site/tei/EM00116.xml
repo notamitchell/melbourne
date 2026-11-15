@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Church</title>
+<author>Marian Zaunbrecher</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00116</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Australian Church was founded in 1885 by the Reverend Charles Strong, who had come to Melbourne in 1875 to minister at Scots' Church. His intellectual approach had attracted many to the congregation, but his liberal views brought him into conflict with conservative Presbyterians, who forced him to resign in 1883. In 1884, Strong's followers asked him to present a series of lectures at the Temperance Hall which were to lay the basis for the indigenous church.</p>
+<p>The Australian Church moved from the Temperance Hall to the Melbourne Athenaeum in Collins Street before building its own premises in Flinders Street in 1887. The ornate building and splendid organ reflected the spirit of Marvellous Melbourne, and its congregations of over 1000, its optimism. The church provided a spiritual home for many of Melbourne's liberal intellectuals and was a centre for social reform.</p>
+<p>The building program, however, had left the congregation with a debt which haunted the 70 years of its existence. In 1922, in order to economise, the Church moved to Russell Street. But declining finances, the loss of members and the death of Strong in 1942 led to the sale of the building in 1955, its organ going to Wilson Hall at the University of Melbourne.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000413" type="book"><author>Badger, Colin Robert</author> <title level="m">The Reverend Charles Strong and the Australian Church</title> <pubPlace>Melbourne</pubPlace> <publisher>Abacada Press on behalf of the Charles Strong Memorial Trust</publisher> <date>1971</date></bibl></listBibl></div></back>
+</text></TEI>

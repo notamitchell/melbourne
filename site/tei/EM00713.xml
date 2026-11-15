@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Hire Purchase</title>
+<author>D.T. Merrett</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00713</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Hire purchase or 'time payment' began modestly in the 1860s when sellers of musical instruments allowed their customers to pay by instalments. This practice spread to other department stores because banks would not make small personal loans, leaving low wage-earners dependent on store-based credit for the purchase of expensive items such as furniture. Hire purchase took a new turn after World War I with the entry of specialist credit companies that financed purchases by retailers from manufacturers and sales to customers from retailers. The bulk of this new business was related to the rise in demand for motor cars and, to a somewhat lesser degree, electrical appliances for the home. By 1940 approximately 40 companies were providing hire purchase credit, including the United States' giant General Motors Acceptance Corporation and the Australian Guarantee Corporation that financed Ford dealers.</p>
+<p>One of these firms, the Industrial Acceptance Corporation, came to play a crucial role in the evolution of hire purchase in the postwar era. At the instigation of employee Ian Jacoby, the Melbourne-based Nathan family purchased the business when the American parent withdrew in 1929. Jacoby emerged as a giant figure in the hire purchase industry in the 1950s, breaking the hire purchase companies' reliance on bank overdrafts by pioneering the issue of debentures. This feat, quickly imitated by all other companies, strengthened the balance sheets of hire purchase companies, lengthening the term of their liabilities to better match the flow of receivables, and gave them an avenue to raise money at a time when the demand for consumer goods was booming and the ability of banks to lend was restricted.</p>
+<p>A small number of large hire purchase companies, nearly all eventually partly or wholly owned by trading banks, grew to become important parts of Australia's financial system through the postwar period. However, the deregulation of the financial system from the early 1980s allowed banks to make loans into areas once the preserve of finance companies, thus diminishing their relative position.</p></div>
+</body>
+</text></TEI>

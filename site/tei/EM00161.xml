@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bathing Boxes</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00161</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A feature of bayside beaches since the 1840s, in a more modest era bathing boxes were once horse-drawn and used as changing rooms. Approximately 2000 exist on Port Phillip Bay from Brighton to Portsea. Government policy favoured their removal in the 1960s, but many are now valued as much for their tourist appeal as for their market value. The Brighton Bathing Box Association has since the 1930s co-ordinated, publicised and set standards for the 90 or so colourful boxes at Dendy Street. Moved to their present alignment in 1934, these are an unusually homogeneous group and have become a symbol of Melbourne's beach culture.</p></div>
+</body>
+</text></TEI>

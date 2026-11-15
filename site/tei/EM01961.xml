@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royston Place</title>
+<author>Biheng Zhang</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01961</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00083.xml"><desc>Architecture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00586.xml"><desc>Flinders Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01262.xml"><desc>Ross House Association</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located between Elizabeth and Swanston streets, Royston Place extends south from Flinders Lane. It was named in 1963 after Royston House (now Ross House), which is situated at 247-51 Flinders Lane. Royston House was erected in 1898-1900 as an extensive six-storey brick warehouse for importers Sargood, Butler, Nichol and Ewen, and named in 1929. Only one section of this Romanesque styled structure remains today.</p>
+<p>Prior to 1963, this right-of-way was known as Were Alley, then Manchester Place. The former was named for stockbroker J.B. Were, who arrived in Melbourne in 1839 and who occupied the building west of the lane.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl><bibl xml:id="PEM000719" type="resource-section"><title level="a">Ross House, 247-251 Flinders Lane:  VHR0627-603930</title> <title level="m">Victorian Heritage Register On-Line</title> <date>2000</date> <ref target="http://www.doi.vic.gov.au/doi/hvolr.nsf">online</ref></bibl><bibl xml:id="PEM000695" type="resource-section"><title level="a">Central Melbourne: Lanes N-R</title> <title level="m">Amendment C105 - CBD Laneways Review</title> <publisher>City of Melbourne</publisher> <date>2007</date> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=195&amp;pg=3065&amp;bp=1902&amp;coll=8">online</ref></bibl></listBibl></div></back>
+</text></TEI>

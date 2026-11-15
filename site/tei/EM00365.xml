@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Co.As.It.</title>
+<author>Maria Tence</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00365</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02142.xml"><desc>Migrant Women's Activism</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02144.xml"><desc>Migrant Women's Refuge</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(189 Faraday Street, Carlton)</p>
+<p>An acronym for the <hi rend="italic">Comitato Assistenza Italiani</hi> or Italian Assistance Association, Co.As.It. was formed in December 1967 by an Act of the Italian Government to establish welfare agencies in locations of high immigration. Registered as a charitable organisation in 1968, it became the first ethnic welfare agency to receive Commonwealth grant-in-aid funding, and originally occupied premises in Drummond Street purchased with community funds raised by pre-World War II Italian immigrants.</p>
+<p>Co.As.It. is governed by a voluntary Committee of Management, led successively by prominent community figures such as Elda Vaccari, Sir James Gobbo and Justice Bernard Bongiorno. Its welfare activities are funded by the Italian and Australian governments, both federal and State, and the Catholic education office. Recognised across Australia as a peak body for ethno-specific services, it has developed an array of support services including case-aide, aged care, youth support, employment and reskilling programs. It was also one of the first ethno-specific agencies to be funded to operate women's refuges and continues to run child-care centres. Recognising the historical and cultural contribution of Italian immigration to Australia in 1980, Co.As.It. established the Italian Historical Society. In 1985 it was the first ethno-specific historical society to mount an important historical exhibition in collaboration with the State Library of Victoria. In 1992 the Italian Resource Centre was opened to support the teaching of Italian as a second language in primary and secondary schools.</p></div>
+</body>
+</text></TEI>

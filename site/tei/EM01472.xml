@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Teaching Profession</title>
+<author>Andrew Spaull</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01472</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The establishment of the state school system (1872) was accompanied by the formation of a state teaching service in which teachers and pupil-teachers were hired and employed centrally under the provisions of the Public Service Acts and later the Teaching Service Acts. In theory, teachers' employment and work as 'servants of the State' was the same for each class of teachers, regardless of location, except for a systemic division based on gender. By decree, women teachers did not enjoy the same rates of pay, pension entitlements, promotion opportunities or positions of school leadership, at least until the early 1970s.</p>
+<p>Before 1946 state teachers' basic terms and conditions of employment were determined by parliament. After that, conditions such as salaries were the subject of independent determination by State industrial tribunals and, after 1994, by the Australian Industrial Relations Commission. Until the mid-1970s, the linchpin in teachers' work and career development was inspection, an employer-controlled system assessing classroom performance by an 'efficiency' rating that encouraged or frustrated a teacher's advancement through a hierarchical career structure. This system maintained the state service's reputation as a narrowly trained teaching 'force' rather than a classical 'profession'.</p>
+<p>In independent schools, teachers' conditions were unregulated, dependent on individual whims of school principals, school councils and parish priests. Teachers in girls' schools obtained industrial regulation under a wages board in 1946, and most other teachers obtained similar regulation of their conditions in 1975.</p>
+<p>Organisations of teachers were formed as Statewide structures. But because of proximity to central governing bodies, Melbourne teachers provided leadership and dynamism to their unions and subject associations. At times these organisations called for the establishment of professional institutes of teachers, but such calls were ignored by employers and teachers alike.</p>
+<p>Melbourne's teachers have been closely associated with important reform movements. The leaders of the Victorian Lady Teachers' Association were at the forefront of the first-wave feminist movement of the late 19th century. Melbourne teachers in the union provided support for the activities of the Education Reform Association in the 1940s. In curriculum and public examinations reform, the Melbourne branches of the Victorian Secondary Teachers' Association and several subject associations (of secondary teachers in government and non-government schools) were responsible for major reforms in the 1970s.</p>
+<p>The radical restructuring of education labour markets and the state school system have transformed the work processes of Melbourne teachers, leading to a significant increase in the managerial control of teachers and eroding the professional autonomy that teachers were able to exercise in the 1970s and 1980s.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000514" type="edited-book"><author>Spaull, A.D.</author> <title level="m">Australian teachers from colonial schoolmasters to militant professionals</title> <pubPlace>Melbourne</pubPlace> <publisher>Macmillan</publisher> <date>1977</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Tilly Aston Bell</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02028</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00802.xml"><desc>Kings Domain</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01567.xml"><desc>Vision Australia</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Anton Hasell Bronze sculpture 1999 Kings Domain</p>
+<p>This sculpture by Victorian artist Anton Hasell commemorates the centenary of the Vision Australia Foundation and the life and achievements of its founder, Tilly Aston. Formerly known as the Association for the Blind, this organisation has provided services and advocacy for people with blindness and vision impairment since 1895.</p>
+<p>Tilly Aston was the first blind person in Australia to attend university, but her education was cut short by an absence of textbooks in Braille. In 1894, she established a Braille library and a year later founded the Association for the Blind, the aim of which was to improve the quality of life for the blind through self-help rather than through charity. She was responsible for gaining for the blind free post for Braille and talking books, free travel on public transport and the right to vote.</p>
+<p>Hasell's interactive sculpture consists of three connecting bells cast in bronze, and features images of Aston. When this work is approached, movement sensors trigger a series of tolls. Fittingly, the inscription on one bell is in Braille.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>State Bank Homes</title>
+<author>Seamus O'Hanlon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01421</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The State Savings Bank built thousands of homes across a huge arc of Melbourne's suburbs from the 1920s onwards. After the <hi rend="italic">Housing and Reclamation Act 1920</hi> authorised the lending of funds for housing to approved persons at concessionary rates, the bank initially developed mainly detached Californian Bungalow styles, but over the years designs were regularly updated to incorporate emerging fashions and trends.</p>
+<p>Early examples can be found in what are now the middle suburbs, especially those serviced by newly electrified trains and trams. In the north and west, smaller weatherboard houses were popular, while larger brick and weatherboard styles are more often found in eastern and southern districts. Size, fittings and finishes reflected price, with the smallest houses having two bedrooms, and the larger ones three. More expensive models featured separate dining and breakfast rooms and other 'modern' features. In the postwar years, houses were built throughout the suburbs, their styles, size and fittings reflecting changing social and architectural ideas. The scheme was phased out in the 1960s, but the epithet 'State Bank Home' remains an indicator of quality housing.</p></div>
+</body>
+</text></TEI>

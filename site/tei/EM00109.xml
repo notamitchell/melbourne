@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australia Hotel</title>
+<author>Chrystopher J. Spicer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00109</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Completed in Collins Street in 1939 to a Leslie M. Perrott design, the Australia Hotel replaced an existing hotel of that name which had been established on the site of the highly fashionable and popular Vienna Café Hotel (1890-1915), Gunsler's Café Hotel (1879-90), and the City Club Hotel established about 1872. In 1908 the Vienna lease was acquired by Anthony Lucas, who in 1916 contracted Walter Burley Griffin to remodel the interior to form a banquet hall incorporating a balcony mezzanine for his Café Australia Hotel. When Fred Matear and Norman Carlyon purchased the freehold and rebuilt the hotel in 1939, elements of the Griffin ceiling were incorporated into the ballroom of the new hotel. The modern 12-storey hotel with its 94 bedrooms and 12 suites contained on the ground floor what was claimed to be the largest shopping arcade in Australia, along with twin movie theatres in the basement. On other floors were the wood-panelled Cantala Room from a Caulfield mansion which was used as a private dining room, a new Vienna Café, a Venetian Court, and a stately Georgian Banquet Room. The Hotel Australia became one of Melbourne's smartest society hotels and an important cultural venue and stylish meeting place. It was a favourite haunt of Americans during World War II; Sir Robert Menzies was a frequent patron and the Packer family maintained a suite there for 25 years. Both the Australia and the Royal Arcade Hotel behind it were demolished in 1989 to make way for a new hotel and the 'Australia on Collins' shopping precinct.</p></div>
+</body>
+</text></TEI>

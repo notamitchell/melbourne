@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Japanese</title>
+<author>Pam Oliver</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00771</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Although there were less than a hundred or so Japanese in Melbourne before 1910, the city was the scene of some important 'firsts' in the Australia-Japan relationship: the first visitors as acrobats in December 1867; the first known Japanese settler, Sakuragawa Rikinosuke, in 1871; the first Japanese-owned import firm Akira &amp; Co. in 1881 near Young &amp; Jackson Hotel; and Australia's first Honorary Consul for Japan, Alexander Marks, who received his commission in Melbourne in 1879.</p>
+<p>Melbourne was the port of entry for many Japanese in Australia. Early settlers worked predominantly in tailoring businesses in the city and South Yarra or as houseboys, often marrying Australians and integrating into the community. Independent merchants, arriving after 1904 on passports to establish trading companies, worked as interpreters at the port. One teacher, Mowsey Inagaki, pioneered the University of Melbourne's Japanese-language program.</p>
+<p>By the 1920s the Japanese trading company network had spread throughout Australia. Eighteen firms based in Sydney, such as Mitsui and Mitsubishi, opened branch offices in Melbourne, each with between three and 18 staff members. Most brought families and often stayed for up to 20 years. Companies imported Japanese fabrics and fancy goods for Melbourne's department stores. They exported wool, live sheep and other primary produce. Most of these people left during 1941 with the threat of war. The remainder were interned with consular staff.</p>
+<p>In 1945 only a handful of Japanese remained in Melbourne before Japanese war brides entered in 1952, but the population expanded as Japanese companies returned, bringing employees and their families for average stays of four years. Some prewar residents also returned permanently. Many of these firms and trade organisations such as the Japan External Trade Organisation (JETRO) and Japanese Chamber of Commerce and Industry (JCCI) remain active.</p>
+<p>The growth of trade and tourism brings large numbers of Japanese to Melbourne every year. During the 1980s thousands of Japanese arrived to work in tourism, to study at Monash University and the University of Melbourne and teach in schools. Some Japanese academics, students, teachers, artists and musicians stayed and married Australians, becoming permanent residents. The population of Japanese has remained low, with 3169 on permanent visas and a further 4605 on long-stay visas in 2002. Only 22% of Japanese residents naturalise. Despite the small community, Melbourne has seen a growth in Japanese cultural events, restaurants and shops, Japanese clubs and Australia-Japan related organisations.</p></div>
+</body>
+</text></TEI>

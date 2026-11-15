@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Angliss Meatworks</title>
+<author>John Lack</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00065</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This factory was established in Footscray in 1905 by (Sir) William Angliss, shop butcher and meat exporter. Located above the Maribyrnong River opposite the Melbourne City abattoirs and Newmarket stockyards, with railway access to the port at Williamstown and road access to the suburbs, the Imperial Freezing Works became and long remained Melbourne's largest integrated meat and by-product processing centre, employing a large seasonal, skilled and semi-skilled workforce. In 1934 Angliss sold the Victorian section of his business empire to Vesteys, a British firm which proceeded to deskill the workforce by introducing the 'chain system' of slaughtering. Union resistance led to a series of violent and bloody lockouts and strikes. The firm had its way, but at the cost of a radicalised workforce led by militants. 'Angies', as it continued to be known by locals, played a major part in provisioning Allied troops in the Pacific War, and thereafter continued a mainstay of the local economy, with a significant female workforce. Run-down and obsolete by the 1970s, the works closed in 1977 and demolition ended with the felling of the chimney in 1985. The site in Seelaf Square, now occupied by a mixture of public and private housing, honours the long-time communist secretary of the meatworkers' union and beloved Footscray identity George Seelaf.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000556" type="edited-book"><author>Healy, Chris</author> <title level="m">The Lifeblood of Footscray: Working lives at the Angliss Meatworks</title> <pubPlace>Melbourne</pubPlace> <publisher>Melbourne's Living Museum of the West</publisher> <date>1986</date></bibl></listBibl></div></back>
+</text></TEI>

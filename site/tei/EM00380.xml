@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Collins House Group</title>
+<author>D.T. Merrett</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00380</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Collins House Group was the name applied to three core mining companies whose operations began on the rich silver-lead-zinc lodes of Broken Hill in the 1890s and early 1900s and their numerous associates in the emerging non-ferrous metals and related industries. They took this name as they shared offices in the building at 360-366 Collins Street from 1911 until 1951 when one of the principal companies, Consolidated Zinc Corporation, decamped to the other end of Collins Street. The Group had a profound impact on Australian mining, metallurgy and secondary industry in the first half of the 20th century. Its entrepreneurial flair and drive in building up a non-ferrous metals industry won it respect from that part of the community obsessed with national development, while its power and influence were roundly condemned by radical critics of monopoly power.</p>
+<p>Three men, W.L. Baillieu, Colin Fraser and W.S. Robinson, were the driving force behind its formation and expansion. Baillieu was instrumental in the creation of the Group through his involvement as a director of North Broken Hill and in the flotation of the Zinc Corporation in 1905. These two companies, together with Broken Hill South, provided the ores that fed the Group's growing downstream involvement in smelting, refining, fabricating, manufacturing and marketing lead, zinc and copper in Australia and Britain. The Group controlled a range of other important companies including Broken Hill Associated Smelters (1915), Electrolytic Zinc (1916), British Australian Lead Manufacturers (1918), Electrolytic Refining and Smelting (1928), National and Imperial Smelting Corporations (1929), Metal Manufactures (1928), Austral Bronze (1928) and Australian Aluminium (1936). The Group broadened its scope to encompass aircraft production, hardwood paper production and goldmining in the 1930s.</p>
+<p>The Collins House Group was a loose confederacy whose success and stability rested heavily on the financial, technical and managerial skills of its senior personnel, and the ability of each of the mines to feed the downstream smelters. Serious divisions emerged in the 1930s as the production from the old North and South mines was eclipsed by the Zinc Corporation and its mine, New Broken Hill Consolidated (1936). This resultant shift in the balance of the Group was exacerbated by the retirement or death of the triumvirate of leading directors who had enjoyed a remarkably harmonious working relationship. The mining companies increasingly pursued their individual paths after World War II, undermining the earlier co-operative and unified purpose of the Collins House Group.</p></div>
+</body>
+</text></TEI>

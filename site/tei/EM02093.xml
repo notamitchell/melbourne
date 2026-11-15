@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Larry La Trobe</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02093</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02041.xml"><desc>Boy On A Turtle</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00353.xml"><desc>City Square</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00381.xml"><desc>Collins Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Pamela Irving Bronze sculpture 1992 and 1996 Corner of Collins and Swanston Streets</p>
+<p>Pamela Irving created Larry La Trobe in 1992 as part of the Percent for Art Program and Swanston Street redevelopment. He is a life-size, dingo-like dog who surveys the activity in City Square. Larry was based loosely on Irving's dog Lucy and on her uncle, Larry. She claims that the dog is iconic to Australia, and from the moment it was unveiled, Larry La Trobe became one of Melbourne's most loved sculptures.</p>
+<p>Despite being anchored to the site with 30 centimetre bolts, Larry disappeared in August 1995. Council immediately launched a campaign for his return, but to no avail. On hearing of the theft, Larry's most ardent admirer, Peter Kolliner, who had owned the foundry where he was cast, offered to produce another one. Irving altered the new Larry's colouring to affect some individuality (he has a redder tinge) but in all other respects he is the same.</p>
+<p>Larry was officially welcomed home on 16 September 1996. Melbourne band Jugularity entertained the crowd with an ode to the sculpture, Larry Come Home, a dogumentary, sung to the tune of Advance Australia Fair.</p></div>
+</body>
+</text></TEI>

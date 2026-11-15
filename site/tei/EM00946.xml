@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne International Arts Festival</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00946</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This annual arts festival is held in October. Its origins date to a 1981 visit to Melbourne of the president of Umbria as part of the Italian Arts Festival. In 1983 Gian Carlo Menotti, Italian-born American composer and Pulitzer Prize winner, considered linking Melbourne with his Festival of Two Worlds. Menotti had established the festival at Spoleto near Rome in 1958, and in 1977 founded the Spoleto Festival in Charleston, South Carolina. When six painted trams headed down Swanston Street on 15 September 1986 the first Spoleto Melbourne Festival was launched under Menotti's direction as part of the new Spoleto Festival of Three Worlds. The Melbourne Festival included under its umbrella the Fringe Festival, first held in 1982, as well as the multicultural Piccolo Spoleto. In 1990 it was renamed the Melbourne International Festival of the Arts, growing in popularity with a changing emphasis which included outdoor events and street theatre. John Truscott, who designed the interiors of the Arts Centre, succeeded Menotti as artistic director in 1989. Subsequent directors have included Richard Wherrett, Leo Schofield, Clifford Hocking, Sue Nattrass, Jonathan Mills, Robyn Archer and Kristy Edmunds.</p></div>
+</body>
+</text></TEI>

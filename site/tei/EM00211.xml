@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Boneo</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00211</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Boneo</placeName></place></listPlace></standOff>
+<text><body>
+<div type="detail"><p>(3939, 65 km S, Mornington Peninsula Shire)</p>
+<p>Boneo was originally part of one of the earliest pastoral runs taken up in 1838 on the Mornington Peninsula. William Thomas, Aboriginal Protector for the Westernport district, included the Aboriginal name <hi rend="italic">Bornis</hi> for this locality on an 1841 map. It was the first district of the peninsula to be extensively cleared of its natural vegetation for agricultural purposes in the 1850s. Dairying and orchards became established rural industries in the 19th century, and the area remains a dispersed rural settlement featuring market gardens, pastures and hobby farms.</p></div>
+</body>
+</text></TEI>

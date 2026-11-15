@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bourke Place</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01712</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Bourke Place (or Lane) ran between Bourke and Little Bourke Streets just east of King Street. By the early 1990s, the lane was subsumed within the Bourke Place development at 600 Bourke Street. Bourke Place is the fourth tallest skyscraper in Melbourne.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000116"><head>Correspondence between Nathaniel Levy and Public Works Committee, re Synagogue Lane</head><graphic url="../objects/thumbs/tn_SYN2_001_L.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_SYN2_001_L.jpg"/><p>4 June 1878</p><note type="rights">Courtesy Public Record Office Victoria</note></figure></div>
+</body>
+</text></TEI>

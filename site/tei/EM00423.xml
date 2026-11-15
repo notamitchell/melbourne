@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Croatians</title>
+<author>Ilija Sutalo</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00423</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Between 1851 and 1890, 130 Croatian immigrants, mostly single men, arrived in Melbourne. Some had been on the goldfields before settling in Emerald Hill, Carlton and Brunswick, and working as seamen, labourers, publicans, restaurateurs, fruiterers and fishermen. Between 1890 and World War II at least 250 Croatians settled in Melbourne but the largest number have arrived since World War II as displaced persons, political or economic migrants, family reunion migrants and refugees. Most Croatians found employment as unskilled and semi-skilled labourers in manufacturing and construction.</p>
+<p>At the 2001 census, Melbourne had 16 059 Croatian-born. But this is a conservative estimate and does not include Croatian-born who classified themselves as Yugoslav-born, or Croatians born in Bosnia Herzegovina. Initially concentrated in the inner suburbs, most now live in Keilor, St Albans, Avondale Heights, Sunshine, Altona, Broadmeadows, Greenvale, Mill Park, Springvale, Dandenong and Berwick, with the highest concentration in Brimbank, which in 1999 elected a Croatian-born mayor.</p>
+<p>Croatian identity is tied to its language and cultural traditions. There are over 90 social, language, sporting (soccer, golf and bocce), folkloric, dramatic, literary, musical, arts, religious, women's and students' clubs and societies in Melbourne. The ageing of the Croatian-born population is evident in the emergence of seven Croatian senior citizen clubs. Since the 1950s the name 'Croatia' has been associated with a number of soccer clubs in Melbourne, the most successful being the Melbourne Knights Soccer Club (formerly 'Melbourne Croatia') based in Sunshine.</p>
+<p>For almost four decades the Croatian Catholic Church at Clifton Hill has been an important religious, social and cultural centre. Croatians have also built Catholic churches at Springvale (1983) and Sunshine (1986) and there is a Croatian Islamic centre in Maidstone. Since the 1960s Croatian ethnic language schools have operated in Melbourne. Australia's main Croatian-language newspaper is the Melbourne-based <hi rend="italic">Croatian Herald</hi> (<hi rend="italic">Hrvatski Vjesnik</hi>) and there are several radio programs in Croatian. Some descendants of the Melbourne Croatian-born population have had great success in sport, public life, journalism, medicine and academia. For example, the soccer star Mark Viduka, John Tripovich (former Labor Deputy Leader of the Victorian Legislative Council), Catholic Archbishop Matthew Beovich and Justice Ivan Franich.</p></div>
+</body>
+</text></TEI>

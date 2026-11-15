@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Briar Hill</title>
+<author>Andrew Lemon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00233</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Briar Hill</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3088, 18 km NE, Banyule City)</p>
+<p>A small, mainly residential suburb that constitutes an outlying part of Greensborough towards Montmorency, Briar Hill occupies hilly land that is still well treed in its suburban streets. Farmed in small holdings in the second half of the 19th century, the land saw its first town allotment subdivision sales after the railway was extended to Eltham in 1902, but its remoteness and lack of amenities restricted settlement to only a few hundred residents by World War II. A progress association (1920) achieved a post office (1924) and state school (1927). Some small-scale industry centred on a sawmill. Relatively cheap land prices after the war encouraged housing development, particularly through to the 1970s. The suburb experienced a decrease and an ageing of its population in the latter decades of the 20th century.</p></div>
+</body>
+</text></TEI>

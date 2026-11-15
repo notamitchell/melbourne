@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Central Board of Health</title>
+<author>David Dunstan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00317</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02139.xml"><desc>Swine Flu: In Focus - June 2009</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Following outbreaks of cholera, such as had occurred in Britain, and notably in 1854 in Mauritius, this three-person supervisory body was created by the colonial legislature in 1855 for the protection of the health of the public. The Board followed British models overseeing the work of hospitals, quarantine and vaccination facilities, and advising local boards of health maintained by municipal government. Its first chairman was the former naval officer and chief medical officer Dr William McCrea, a medical man and sanitarian of the old school without precise knowledge of the origins and spread of contagious diseases provided by germ theory and later scientific discoveries. Although active on public health issues involving disease, noxious trades and sewerage for Melbourne, the Board lacked resources and coercive powers or control over the police. McCrea retired in 1879 and the efforts of his successors to obtain additional powers proved controversial. The resolution of Melbourne's 19th-century sanitary crisis saw the Central Board of Health replaced with a Board of Public Health by new health legislation in 1889 and the creation of the Melbourne and Metropolitan Board of Works.</p></div>
+</body>
+</text></TEI>

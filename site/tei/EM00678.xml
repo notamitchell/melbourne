@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Gruyere</title>
+<author>Peter Baddeley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00678</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Gruyere</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3770, 43 km E, Yarra Ranges Shire)</p>
+<p>Gruyere is located in the Seville Hills, just out of Lilydale, and was first surveyed in 1858. In the early days of the township, industries included grazing, agriculture and viticulture. Timber was removed in considerable quantities for railway sleepers, with orchards subsequently taking over as a major industry. An increase in activities such as hobby farms, horse studs and nurseries reflected a change from rural to urban ownership of properties in the district. The locality's Swiss name was suggested by wine-grower Paul de Castella. Cahilltown (after early settler Richard Cahill) is an official alternative placename.</p></div>
+</body>
+</text></TEI>

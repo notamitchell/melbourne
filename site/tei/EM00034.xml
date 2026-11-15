@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Acland Street</title>
+<author>Seamus O'Hanlon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00034</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This St Kilda street was named after Sir Thomas Dyke Acland, a former owner of the schooner <hi rend="italic">Lady of St Kilda</hi>, after which the suburb is named. Acland Street is divided into two sections, the northern end primarily residential, the southern end below Carlisle Street entirely commercial. In the 19th century and again today, the northern end has been one of Melbourne's most sought after addresses. From 1870 it was the home of Moritz Michaelis, part-owner of the Footscray tanning works Michaelis Hallenstein, and whose mansion Linden, operating today as a community art gallery, still stands at number 26. Since the 1930s Acland Street has been a meeting place for Jewish and other Eastern European immigrants, and became famous in the postwar period for its cake shops and cafés. In 1958, Masha and Avram Zeleznikow opened the Scheherazade Café, named after the Persian Queen and the Paris club where they met after the traumas of the war in Europe. It soon became a haven for artists and writers, a role it maintains today. An Acland Street Residents Association was formed in 1994 to focus local concerns about traffic, planning and development issues.</p></div>
+</body>
+</text></TEI>

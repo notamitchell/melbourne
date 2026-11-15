@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Racing Museum</title>
+<author>Annette Shiell</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00132</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>First situated at Caulfield racecourse, the Australian Racing Museum is the only museum devoted to thoroughbred horseracing in Australia. With its collection of fine and decorative arts, trophies, costumes, vehicles, equipment, ephemera, film and video and a small reference library, the museum offers a program of changing exhibitions, a research service and a range of educational, outreach and public activities. Known as the Victorian Racing Museum until 1998, the Museum was opened in 1981 by Queen Elizabeth II and is administered by the Victorian Racing Industry. Champions - Australian Racing Museum and Hall of Fame opened at Federation Square in 2004.</p></div>
+</body>
+</text></TEI>

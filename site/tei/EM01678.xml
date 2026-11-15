@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Conversations</title>
+<author>City of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01678</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-27" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>The <hi rend="italic">Melbourne Conversations</hi> program is developed and produced by the City of Melbourne's Arts and Culture Branch. Since 2001 it has engaged Melbourne's diverse community and contributed to the city's lively civic culture and public intellectual life. A combined audience in excess of 41,000 patrons have attended over 130 <hi rend="italic">Melbourne Conversations</hi> and enjoyed the contributions of well-known local, national and international speakers. Venues include Melbourne Town Hall, Federation Square's BMW Edge and other popular central Melbourne venues. Most <hi rend="italic">Melbourne Conversations</hi> are jointly developed with external partners including state government departments, universities, philanthropic organisations, professional associations, international conferences, festivals, galleries and local community and arts organisations.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Waxworks</title>
+<author>Mimi Colligan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01595</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01773.xml"><desc>Dean Alley</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Waxwork exhibitions commenced in Bourke Street in May 1857 when Madame Lee, a circus tightrope artist and ballet dancer, displayed a collection of historical and current figures <hi rend="italic">à la Tussaud</hi>. She also displayed her 'petite family' in 'drawing-room entertainments', thus originating a tradition of live shows at the Waxworks. In 1858 she sold the business to Mrs Williams who married phrenologist Philemon Sohier. With his interest in reading heads, Sohier took casts of the skulls of hanged criminals for the Chamber of Horrors for Madame Sohier, who claimed to be an 'artiste in wax', to model. A life-size wax tableau of explorers Burke and Wills was among the 300 or so figures. In 1870 the Sohiers sold the business to Ludwig Maximilian Kreitmayer, a wax modeller who had run an anatomical wax museum in Bourke Street since 1861. Later, Kreitmayer added a music hall to new premises, hosting magic shows like the illusion of the swimming girl, Amphitrite, and singers like the Afro-American 'giantess', Abomah. These live acts 'rubbed shoulders' with the latest wax effigy of Queen Victoria or a newsworthy politician. Kreitmayer died in 1906 and his widow Harriet carried on the business, from 1910 replacing the waxworks with a cinema, later to be called the Star. Her projectionist was F.W. Thring (later to be her son-in-law, father of actor Frank Thring and director of Efftee films). The next important waxwork exhibition in Melbourne was displayed in 1997-98 when London's Madame Tussaud's visited.</p></div>
+</body>
+</text></TEI>

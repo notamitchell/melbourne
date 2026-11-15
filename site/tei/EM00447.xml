@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Deakin University</title>
+<author>Renate Howe</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00447</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established in Geelong in 1976 and named after early Prime Minister Alfred Deakin, the university was an amalgamation of Geelong Teachers' College and the Gordon Institute of Advanced Education. Initially, Deakin aspired to be Australia's Open University through its Distance Education program, attracting mature-age students, especially women, from Melbourne and country regions, into innovative courses in arts, education, law, commerce, architecture, the performing and visual arts and a pioneering indigenous teacher education program. In 1992 the university amalgamated with the Melbourne-based Victoria College, which was a federation of Prahran College of Advanced Education and Toorak, Burwood and Rusden Teachers' Colleges, which had provided high-quality teacher education in postwar Melbourne. Deakin has since developed a metropolitan identity at its campus in Burwood, distinguished from Melbourne's other universities by its flexible learning programs, its commercial arm which provides courses to industry and professional organisations, links with the TAFE sector; it also has regional campuses at Geelong and Warrnambool. Now one of Melbourne's largest universities, Deakin has responded to challenging changes in tertiary education and successfully provided opportunities for tertiary education to a diverse range of students.</p></div>
+</body>
+</text></TEI>

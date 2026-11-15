@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Folk Music</title>
+<author>Graham H. Dodsworth</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00591</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>During the latter half of the 19th century, both indigenous and colonial compositions were performed at formal and informal social gatherings for purposes of celebration, ceremony, education, protest, entertainment and storytelling. The colonial examples of these compositions consisted of tunes and songs passed down through families or learnt from printed materials, friends and work companions. While instrumental music was composed and performed mainly for dance accompaniment, songs ranged from work songs, through songs intended to sway political opinion, to songs of personal identification such as those declaring love, or lamenting rejection of the same. Typical instrumentation, when used, included concertinas, button accordions, reed and woodwind instruments (such as penny whistles, piccolos and flutes), violins, guitars and drums.</p>
+<p>There has been considerable interchange between folk and popular music. Folk songs were used in broadsheet publications and in music hall productions, while other songs originating in those media moved, over time, into folk culture. In 1954 the production of Dick Diamond's <hi rend="italic">Reedy river</hi>, together with the establishment of the Victorian Bush Music Club, launched the infectious bush band era, which achieved maturity in the early 1970s with such bands as the Ramblers, the Cobbers, Mulga Bill's Bicycle Band and the Original Bushwackers and Bullockies Bush Band. The latter were comprised of students from the University of Melbourne and La Trobe University respectively. Their success inspired more than 60 other Bushwacker 'clone' bands performing at hotels and at both public and private bush dances throughout the suburbs by the end of the decade.</p>
+<p>During the latter half of the 20th century, the Outpost Inn at 52 Collins Street, Frank Traynor's at 100 Little Lonsdale Street and, in Carlton, the Dan O'Connell Hotel in Canning Street, Fogarty's Union Hotel in Fenwick Street and the Tankerville Arms in Nicholson Street regularly featured performances of existing folk songs while also occasionally helping to spawn new ones, such as Eric Bogle's 'The Band Played Waltzing Matilda'.</p>
+<p>Less prolifically, American hillbilly culture was being emulated by such bands as 'The Gutbucket Jug Band' and 'The Captain Matchbox Whoopee Jug Band'. While Tex Morton, Smokey Dawson and Slim Dusty inspired other solo performers in popularising both American and Australian 'country and western' songs, patrons of café bars in inner-suburban Melbourne also enjoyed the songs and dance tunes indigenous to Southern Europe in the form of Italian, Maltese and Turkish folk music, and Greek rebetika (or rembetika).</p>
+<p>The most common experience contemporary Melburnians have had with folk music, however, was as schoolchildren, when modified versions of songs from mainly, but not exclusively, English-speaking countries (mainly colonial Australia) were incorporated in Australian Broadcasting Commission radio broadcasts.</p></div>
+</body>
+</text></TEI>

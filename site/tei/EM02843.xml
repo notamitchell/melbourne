@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="person" subtype="person" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Pinschof, Carl Ludwig</title>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02843</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Carl Ludwig</forename> <surname>Pinschof</surname></persName><sex value="1"/><birth when="1855-04-14">14 April 1855, <placeName>Vienna</placeName></birth><death when="1926-05-19">19 May 1926, <placeName>Cape Town</placeName></death><occupation>consul</occupation><occupation>economist</occupation><occupation>merchant</occupation></person></listPerson></standOff>
+<text><body>
+<div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM001451" type="resource-section"><author>Middelmann, Raoul F.</author> <title level="a">Pinschof, Carl Ludwig (1855-1926)</title> <title level="m">Australian Dictionary of Biography, online edition</title> <publisher>Australian National University</publisher> <date>2006</date> <ref target="http://www.adb.online.anu.edu.au/biogs/A110239b.htm">online</ref></bibl></listBibl></div></back>
+</text></TEI>

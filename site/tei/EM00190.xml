@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bijou Theatre</title>
+<author>Mimi Colligan</author>
+<author>Elisabeth Kumm</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00190</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02006.xml"><desc>Victoria Arcade</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Designed by architects Reed &amp; Barnes, this theatre opened as the Academy of Music in Bourke Street in November 1876 under the management of G.B.W. Lewis. Renamed the Bijou in 1880, it shared the site with the Palace Hotel from 1888. After the theatre was destroyed by fire in 1889, George Johnson designed a larger, more sumptuous building in 1890, at which time the hotel's multi-purpose hall was transformed into the Gaiety Theatre, which operated as a music hall. Subsequently many companies and directors used the Bijou, including the Brough-Boucicault Comedy Co., Harry Rickards and William Anderson. From 1913 to 1929, the Fuller management promoted it as the 'Home of Clean Vaudeville'. Performers included 'Stiffy', 'Mo' and George Wallace. From 1929, Gregan McMahon and others leased the Bijou, before its demolition in 1934. The Commonwealth Bank now occupies the site.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Intellectual Disability</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00759</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>In the absence of charitable support in Melbourne, people with intellectual disabilities were contained initially in the State-run lunatic asylums where, by 1875, they comprised 25% of inmates. A private school, opened in Moonee Ponds in 1881, was the first specialist service followed, in 1887, by the opening of cottages at the Kew Asylum. Known initially as the Idiots' Asylum, Kew Cottages were always overcrowded and under-resourced.</p>
+<p>From 1913 responsibility for special education was delegated to the Education Department which opened its first special school in Bell Street, Fitzroy. Better survival rates together with the introduction of intelligence testing saw increasing numbers being diagnosed as 'sub-normal'. Eugenic-based fears about the 'threat' posed by the 'feeble-minded' led to calls for complete segregation. An increase in the number of 'opportunity classes' in state schools, and the opening of Travancore residential clinic (1933), and the Janefield Colony (1937), were the official response. Parents, questioning the inevitability of institutionalisation, established day centres for those ineligible for special schooling.</p>
+<p>With the appointment of Dr E. Cunningham Dax to head the Mental Health Authority in 1952 came a willingness to confront the substandard conditions in the overcrowded institutions. A public appeal, conducted through the <hi rend="italic">Herald</hi> newspaper in 1953, provided much-needed money for renovations. But the increase in resources was not sustained. Although medical science was eliminating some of the major causes of intellectual disability, the demand for residential services remained high.</p>
+<p>Ideological changes in the 1970s saw educational facilities extended to all children and an emphasis on their right to live integrated rather than segregated lives. Parent groups have argued against de-institutionalisation, wanting existing facilities improved rather than dismantled, highlighting the tragic 1996 fire at Kew Cottages as evidence of long-standing neglect. Small community-based residential units, however, provide the model for future government provision in this area.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000117" type="book"><author>Jones, Mary Lucille</author> <title level="m">Colony to community: The Janefield and Kingsbury training centres</title> <pubPlace>Melbourne</pubPlace> <publisher>Janefield and Kingsbury Redevelopment Project in association with Australian Scholarly Publishing</publisher> <date>1997</date></bibl><bibl xml:id="PEM000112" type="book"><author>Judge, Cliff</author> <title level="m">Civilisation and mental retardation: A history of the care and treatment of mentally retarded people</title> <pubPlace>Melbourne</pubPlace> <publisher>C.J. Publishing</publisher> <date>1987</date></bibl><bibl xml:id="PEM000251" type="book"><author>Lloyd, Arthur</author> <title level="m">Payment by results: Kew Cottages' first 100 years 1887-1987</title> <pubPlace>Melbourne</pubPlace> <publisher>Kew Cottages and St Nicholas Parents' Association</publisher> <date>1987</date></bibl></listBibl></div></back>
+</text></TEI>

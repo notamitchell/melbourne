@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Drug Use and Abuse</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00490</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01932.xml"><desc>Paynes Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>In Melbourne's early history, concern about drug use focused on fiscal rather than health issues with European gold rush immigrants arguing that the tax imposed on alcohol and tobacco, their drugs of choice, should also be extended to the opium used by many Chinese. An opium import duty introduced in 1856 deterred government from introducing further regulation until after Federation despite campaigns which, from the 1880s, linked opium usage with sexual depravity, campaigns that were supported by many prominent Chinese.</p>
+<p>Drug addicts were subject to the Inebriates Act 1890 but the small number treated were mainly victims of morphine derivatives initially offered as pain relief. The decline in the Chinese community, combined with an increased regulation of patent medicines, decreased the use of opiates. Concern instead was focused, in the interwar years, on cocaine, condemned because of its underworld associations and its reputation as a sexual stimulant. Drug dependence, previously seen as an illness and therefore pitiable, was now constructed as a matter of choice. Unlike alcoholism, where it was the alcoholic not the alcohol which was problematised, drugs were seen as evil in their own right, although there was little evidence of a rise in demand for treatment.</p>
+<p>Up till the 1960s, medically supervised drug maintenance was the accepted treatment, but the intrusion of drugs into the youth culture during the Vietnam War brought a demand for more stringent regulation. The <hi rend="italic">Poisons Act 1962</hi>, which extended absolute prohibition to Indian hemp, demonised the trafficker while restoring victim status to the user, an attitude which was to see a proliferation of treatment agencies offered as an alternative to punishment. More recently, the increase in the availability and visible usage of heroin and a consequent rise in drug-related crime have polarised the community. Although Melbourne has not followed Sydney in introducing safe injecting rooms, both decriminalisation and maximum policing have been advanced as offering the solution to what is now recognised as a major social problem.</p></div>
+</body>
+</text></TEI>

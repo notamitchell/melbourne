@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Moomba</title>
+<author>Craig Bellamy</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01000</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Melbourne Moomba Festival is one of Australia's largest and longest running outdoor festivals. It comprises various displays of arts and sport, a pageant, and an array of activities on the Yarra River.</p>
+<p>Moomba opened on 12 March 1955 with the bold pronouncement from the Age newspaper that: 'Moomba will be the City's bid to rival such famous international civic highlights as the Pasadena Tournament of Roses, the Edinburgh Arts Festival, and the Nice Battle of Flowers'. The first Moomba was administered by the Melbourne City Council (MCC) and the City Development Association (CDA). The CDA was an enterprise of luminaries such as Norman Myer of the Myer Emporium and Edgar Coles of G.J. Coles Ltd. They believed that the central city would decline - as had been experienced in many American cities - if inner-city retailers did not attempt to attract people to Central Melbourne.</p>
+<p>But not everyone thought that Moomba was a good idea. There were those who felt the festival was a deliberate attempt by 'the establishment' to eradicate the century-old workers' Labour Day procession and celebrations. The Labour Day procession by trade unionists on Swanston Street was a commemoration of the winning of the eight-hour day by building workers and lasted from 1856 until 1951.</p>
+<p>The idea of a large people's festival had been a vision of the MCC for many years but the two world wars had prevented its occurrence. It was not until 1954 after the return from an overseas trip, that the then city councillor, Sir Maurice Nathan, reinvigorated the idea that Melbourne needed an open-air festival to liven up a dreary city and attract tourists.</p>
+<p>Bill Onus, president of the Australian Aborigines' League, suggested the name Moomba to the MCC. The name originated from an Aboriginal theatre production, <hi rend="italic">An Aboriginal Moomba: Out of the dark</hi>, a component of the 1951 Federation Jubilee, staged at the Princess Theatre with an all-Aboriginal cast and organised by the Australian Aborigines' League to promote Aboriginal rights and culture in south-eastern Australia. The MCC, in its wisdom, translated the name as 'let's get together and have fun'. However, later popular belief is that the name was actually a trick by Bill Onus upon the unsuspecting white population; many people believe that the name actually means 'bottom' or even 'up your bum'.</p>
+<p>In 1969 Lin Onus, the son of Bill, angry that the suggestion had been made in the media that the word Moomba meant bottom, was reported in the <hi rend="italic">Sun News-Pictorial</hi> newspaper as saying that his late father knew that it meant bottom. However, he later changed his mind and regretted that he had hastily confirmed that it was a hoax but was unable to alter the fact that 'the joke' had now become firmly implanted in the public imagination.</p>
+<p>The heyday of the Swanston Street procession in the 1970s saw crowds estimated at hundreds of thousands lining Swanston Street 30-people deep as they eagerly waited for a glimpse of the Moomba monarch. In the 1970s the monarchs included popular icons such as Rolf Harris, Graham Kennedy, Bert Newton and Mickey Mouse. Clowns Zig (Jack Perry) and Zag (Doug McKenzie), veterans of 44 festivals, were one of the Moomba's most enduring icons until forced to step down as kings of Moomba in 1999 after revelations that Perry had a former conviction for indecent assault.</p></div>
+</body>
+</text></TEI>

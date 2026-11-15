@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Anti-Immigration Groups</title>
+<author>Andrew Markus</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00069</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Few groups with a specifically anti-immigration program have been formed in Melbourne's history. In Melbourne, as in other Australian cities, opposition has been directed less at the need for immigration - a need rarely contested before the 1980s in a country perceived to be under-populated - than at specific immigrant groups.</p>
+<p>In the 19th century sectarian animosities sparked outbursts of opposition against Irish Catholics, leading to disturbances in Melbourne. The most serious, in 1846 and 1867, involved the use of firearms and the infliction of serious injury. Opposition to Chinese immigration, at first based on the goldfields, led to the formation in Melbourne of anti-Chinese leagues in 1879-80 and 1886-88, culminating in a series of public meetings and demonstrations at the peak of the agitation in 1888.</p>
+<p>From the 1890s onwards, opposition was led by representatives of major interest groups, not by single-purpose anti-immigration bodies. The Australian Natives Association articulated middle-class anti-Asian views late in the 19th century, while the trade union movement opposed any form of immigration that threatened to lead to an oversupply of labour. Members of the United Furniture Trade Society, seeking to exclude Chinese cabinet-makers from the Melbourne industry, led the anti-Chinese agitation in the 1880s. In the 1920s animosities were directed at Southern European immigrants, some of whom, desperate for work in difficult economic circumstances, took employment as strikebreakers and became involved in violent confrontations between trade unionists and employers. A number of such incidents occurred during the Melbourne waterfront strike of 1928.</p>
+<p>In the period of almost full employment following World War II, there was no organised opposition to immigration beyond minuscule neo-Nazi groups. The Australian Labor Party, which had voiced working-class suspicion of large-scale immigration programs, became an advocate of immigration under the leadership of Chifley and Calwell in the immediate postwar years.</p>
+<p>In the 1980s some individuals were prominent in sparking public discussion of immigration issues, most notably Professor Geoffrey Blainey of the University of Melbourne. Perhaps the nearest approximation to an anti-immigration group in the city's history was the fringe political party Australians Against Further Immigration, which unsuccessfully contested federal elections between 1990 and 1996 (winning less than 2% of the Victorian vote). Subsequently it was absorbed by Pauline Hanson's One Nation, where its members were influential in shaping the party's immigration policy. At the 1998 federal election its vote in Melbourne was the lowest of the mainland capitals; in 2001 One Nation's Senate vote across the State was 2.45%.</p></div>
+</body>
+</text></TEI>

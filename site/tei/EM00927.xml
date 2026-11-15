@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Chamber of Commerce</title>
+<author>David Dunstan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00927</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Formed in the counting house of Octavius Brown on 12 March 1851, the Melbourne Chamber of Commerce began as a society of merchants designed to arbitrate in mercantile disputes and represent Melbourne's mercantile community. The initial members were accountants, bankers, financiers, importers, ship owners and brokers with the prominent local merchant William Westgarth elected as first president. The Chamber proved itself influential in politics, with members involved in the Melbourne City Council and the Parliament of Victoria. The Chamber advocated free trade and opposed protection and was active in resisting the James McCulloch administration's efforts to introduce the first major protective tariff in Australia in 1865. When this was rejected by the Legislative Council the Chamber petitioned Queen Victoria over the government continuing to collect customs duties without parliamentary authority, provoking a bitterly fought constitutional crisis which led to the early recall of the Governor, Sir Charles Darling, in 1866. Further political antagonism followed the election of the radical liberal government of (Sir) Graham Berry in May 1877, but by the 1880s a pragmatic acceptance of protection was evident among members.</p>
+<p>The Chamber was not totally opposed to government involvement where its members' interests or those of the economy were concerned. It favoured a program of river and harbour improvements to facilitate the passage of ships and goods to Melbourne. The Melbourne Harbor Trust, formed in 1877, reflected the Chamber's influence and membership. Its controversial program of Yarra River improvements and relocation of docks to West Melbourne, led to the long-term decline of facilities at Williamstown. The Chamber was an early supporter of Federation and in 1869 advocated a federal tariff for the colonies. Following Federation in 1901 it was instrumental in establishing the General Council of the Chambers of Commerce of the Commonwealth. The Chamber remained a force in Melbourne political life and commerce in the 20th century. In 1986 it changed its name to the State Chamber of Commerce and Industry (Victoria) and in 1991 to the Victorian Employers Chamber of Commerce &amp; Industry (VECCI) as a result of a merger with the Victorian Employers' Federation.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Studley Park</title>
+<author>Vicki Macknight</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01438</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Part of Yarra Bend Park, Studley Park is Melbourne's first and most important indigenous parkland area. It was named after settler John Hodgson's house, which in turn was named after a town in Yorkshire, England. Both Studley Park and Yarra Bend were held back from sale, the former for recreation, the latter for public institutions. Amalgamated in 1924 after the closure of Yarra Bend Asylum, they were connected by Kane's Bridge until it was destroyed by flooding. It was replaced by the present bridge in 1935. The whole area is exceptional for its diversity of flora, all the more surprising given the industrial history of the inner north-east. However, it is no pristine natural environment, with many species, particularly low-growing grasses and flowers, having been lost because of pollution, grazing and trampling. Studley Park has been popular for picnicking and walking since the 1830s. In the 1860s boating and swimming became popular, reaching their peak in the interwar years. The Studley Park Boathouse, established as the Burn's Boathouse, has been in continuous use since 1863. The park's popularity waned mid-century as motor cars expanded leisure choices. Since the early 1980s revegetation and the construction of the Main Yarra Trail have led to a resurgence of popularity.</p></div>
+</body>
+</text></TEI>

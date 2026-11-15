@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>George Lane</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01810</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00987.xml"><desc>Missions</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>George Lane is located in the block between Exhibition, Spring, Lonsdale and Little Lonsdale streets. In 1915, George Lane extended north-south between Lonsdale and Little Lonsdale streets. Today it exists inside a large building complex. The three entries to the lane, on Lonsdale Street, Little Lonsdale Street, and Exhibition Street, serve as entrances to the building complex. A depot of the Central Methodist Mission was located in the lane in the 1890s, as were several hotels, including the Victoria Hotel on the corner of George Lane and Lonsdale Street, and Cooper's Family Hotel at the opposite end on the corner of Little Lonsdale Street.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000022"><head>George Lane - east side, looking at Lonsdale Street</head><graphic url="../objects/images/b21895.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_b21895.jpg"/><p>Australia Dept. of Housing and Construction Victoria/Tasmania Region 1950</p><note type="rights">Courtesy State Library of Victoria</note></figure><figure xml:id="D00000023"><head>George Lane - east side, looking south from nos. 20-22</head><graphic url="../objects/images/b21932.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_b21932.jpg"/><p>Australia Dept. of Housing and Construction Victoria/Tasmania Region 1950</p><note type="rights">Courtesy State Library of Victoria</note></figure></div>
+</body>
+</text></TEI>

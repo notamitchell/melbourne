@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Aboriginal Artefacts</title>
+<author>Gaye Sculthorpe</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00026</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00001.xml"><desc>Aboriginal Melbourne</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Artefacts made by Aboriginal people in the Melbourne region consist of ancient objects of stone and bone; wood, bone and fibre objects surviving from the 19th century; and contemporary artefacts made for sale. Non-portable artefacts such as scarred trees are also found <hi rend="italic">in situ</hi> in various locations around the metropolitan region.</p>
+<p>The artefacts surviving from the pre-colonial period are mainly stone implements of various kinds. These have been retrieved from many metropolitan sites. Stone for making axes was an important item of trade. Stone from the Mount William quarry at Lancefield, just north of Melbourne, was traded extensively in south-eastern Australia. Stone tools were used to grind seeds, to make weapons, and for scraping and cutting. Items made of organic materials such as wood, skin and fibres are fragile and few of these have survived from the Melbourne region. Those that have survived (items such as a canoe, water vessels, clubs and shields) form an important part of Victorian Aboriginal heritage. Items from the period before 1835 and later items not made for sale are protected by law.</p>
+<p>Following European colonisation, Aboriginal people at mission stations such as at Coranderrk, near Healesville, continued to make artefacts both for their own use and for sale to tourists. Income from the sale of items such as baskets, boomerangs and skin cloaks was important for the economic survival of station residents.</p>
+<p>In the 20th century with an increased demand for Aboriginal products, individual Aboriginal people made artefacts specifically for sale to tourists. Bill Onus established a factory and shop, Aboriginal Enterprises, at Belgrave in the 1950s. This became a significant outlet for sale of Aboriginal products. Aboriginal people continue to make items for sale (including art, artefacts, jewellery and other items) which can be purchased at Aboriginal keeping places and community events. Since the 1980s many retail for Aboriginal artefacts have emerged in Central Melbourne, though most Aboriginal products come from other States rather than from local Aboriginal people.</p></div>
+</body>
+</text></TEI>

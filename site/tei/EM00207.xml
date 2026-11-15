@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bocce</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00207</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This form of lawn bowls was introduced by Italian migrants in the early 20th century and popularised during the period of mass immigration immediately after World War II. Bocce was a popular leisure activity, predominantly for men, in backyards and parks, and part of the culture of many ethnic clubs and societies. Italian migrants in the 1950s would play bocce on Sundays at improvised links in Princes Park and the Edinburgh Gardens, or on the grassy median strips of inner-suburban streets. Bocce was transformed into a more organised competitive sport after the formation of the Victorian Bocce Federation (1967) and the Bocce Federation of Australia (1970). The inaugural National Bocce Championships were staged in 1970, and from 1974 local players competed at international level. Melbourne hosted the World Doubles Championships in 1979 and 1985, and the World Junior Championships in1988. From the late 1970s many municipal parks and reserves installed bocce links, and local clubs include the Altona Maltese Bocce Recreation and Social Club, and the Merrilands Bocce Club.</p></div>
+</body>
+</text></TEI>

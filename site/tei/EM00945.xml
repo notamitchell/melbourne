@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Hebrew Congregation Synagogue</title>
+<author>Judith Buckrich</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00945</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01871.xml"><desc>Leichardt Street</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The first synagogue of the Melbourne Hebrew Congregation was built in 1847-48 on land granted by the government in Bourke Street between Queen and William streets. Designed by Charles Laing and built by James Webb, the tiny building was said to have the most tasteful interior in Melbourne. In 1850 the congregation applied for a government grant to build a bigger synagogue. It was approved and then withdrawn, but a new synagogue designed by Charles Webb was built in 1854. A formal rectangular building with a gabled roof and columned portico, it was regarded as one of the wonders of gold-rush Melbourne.</p>
+<p>The foundation stone of the current St Kilda Road building, designed by Melbourne architect and prominent member of this Jewish congregation, Nahum Barnet, was laid on 14 April 1929. Barnet's plan was in line with that of overseas synagogues of the period and of Interwar Academic Classical design. It has a Corinthian portico and a copper-clad dome. The interior was an extended replica of the Bourke Street synagogue from whence the congregation had moved to avoid riding on the Sabbath. It has semi-circular seating and a ladies' gallery. Among the interior decorations are stained glass windows created by David Pincus, Karl Duldig and Remona Kedem.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000339" type="book"><author>Aron, Joseph, and Judy Arndt</author> <title level="m">The enduring remnant: The first 150 years of the Melbourne Hebrew Congregation 1841-1991</title> <pubPlace>Melbourne</pubPlace> <publisher>Melbourne University Press</publisher> <date>1992</date></bibl></listBibl></div></back>
+</text></TEI>

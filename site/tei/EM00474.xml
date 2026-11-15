@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Displaced Persons</title>
+<author>Moya Mcfadzean</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00474</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The millions of people in Europe left homeless and stateless after World War II were commonly termed 'displaced persons'. Between 1947 and 1951 Australia received 182 000 displaced persons via the International Refugee Organisation. By 1955, another 75 000 refugees arrived through other organisations. Of these more than 250 000 people (an intake second only to the USA), about a quarter came to Victoria, with the majority eventually settling in Melbourne.</p>
+<p>Issues such as a declining birthrate and fears of vulnerability to foreign attack inspired Arthur Calwell, Australia's first Minister for Immigration, to urge Australia to 'populate or perish'. Britain remained Australia's preferred source of immigrants but in order to achieve the government's 1% net annual immigration target, Australia was forced to look elsewhere. The early preference was for young, single refugees from Baltic countries and the first carefully selected arrivals - 837 Latvians, Lithuanians and Estonians - arrived at Princes Pier in Melbourne on 7 December 1947. As the targets increased, young families were also encouraged, but selection generally remained restricted to people from Eastern European countries.</p>
+<p>The 'DPs', as they became popularly known, were assessed in Europe for eligibility, then transported to Melbourne and other Australian ports. Politicians favoured the term 'New Australians' but public and media suspicion encouraged such labels as 'Balts' and 'reffos'. The selection process was rigorous. The elderly, disabled and sick were rejected, and families were separated. In accordance with the government imperative for control and assimilation, people were accommodated in reception centres such as Bonegilla near Albury. Compulsory two-year labour contracts meant that people were placed in employment, usually manual, regardless of their qualifications.</p>
+<p>The resettlement of displaced persons after World War II initiated an influx of peoples not seen since the gold rush and dramatically and permanently changed the cultural composition of Melbourne.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000127" type="book"><author>Kunz, Egon F.</author> <title level="m">Displaced persons: Calwell's New Australians</title> <pubPlace>Sydney</pubPlace> <publisher>Australian National University Press</publisher> <date>1988</date></bibl></listBibl></div></back>
+</text></TEI>

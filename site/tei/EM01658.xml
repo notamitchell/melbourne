@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Yarra Falls</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01658</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A natural rocky bar across the Yarra River 10 km from its mouth determined the site for the city's foundation and early settlement. The Falls formed a low barrier between the brackish tidal water downstream and the fresh water upstream, furnishing the infant settlement with a potable water supply. Attempts were made in 1839 to dam the Falls using convict labour, and from the early 1840s a more solid dam was constructed to assure the town's water supply. Early punts operated above the Falls, while the saltwater basin or pool below was suitable for shipping to dock and turn. In January 1845 John Charles Batman, son of early settler John Batman, drowned at the Falls while fishing. Located in a line just west of present-day Queen Street, the Falls were finally removed in the 1880s for construction of Queens Bridge.</p></div>
+</body>
+</text></TEI>

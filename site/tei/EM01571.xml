@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>W-Class Trams</title>
+<author>Matthew Churchward</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01571</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>First introduced by the Melbourne &amp; Metropolitan Tramways Board (MMTB) in 1923, Melbourne's once ubiquitous W-class electric trams have long been a familiar local icon. Between 1923 and 1956 some 756 W-class trams were built in eight series to a variety of design variations, with three-quarters constructed at the MMTB's Preston workshops.</p>
+<p>Intended from the outset as a standard design to replace the ageing cable trams and to extend early municipal electric tram services in Melbourne's transport system, the distinctive form of the W-class trams had its origins in a small batch of 21 trams built by Duncan &amp; Fraser of Adelaide for the Prahran &amp; Malvern Tramways Trust (PMTT) in 1913-14. Although loosely referred to as 'Californian combination' style trams, the defining W-class layout, with a combination of open-seated drop-centre section and two enclosed end saloons, appears to have first evolved in Australia. The design proved ideally suited to Melbourne's ever-changing weather and reflected the popular cable trams with their open 'dummy' or grip car and enclosed saloon trailer.</p>
+<p>Originally painted in the former PMTT's chocolate and cream paint-scheme, the green and cream colours which came to typify W-class trams were introduced in 1925 to complement Melbourne's tree-lined boulevards and remained standard until after the formation of the Metropolitan Transit Authority (the MET) in 1983. Between 1978 and the early 1990s some 35 older W-class trams were repainted as colourful public art works commissioned from leading Victorian artists in the popular Transporting Art program. In 1994 a distinctive new colour scheme of burgundy, cream and gold was unveiled for the W-class trams refurbished to run the new City Circle tourist route.</p></div>
+</body>
+</text></TEI>

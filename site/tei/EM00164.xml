@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Batmans Hill</title>
+<author>Penelope Edmonds</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00164</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01702.xml"><desc>Batman Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Situated at the western end of the original city grid and once overlooking the turning basin and the West Melbourne Swamp, Batmans Hill is today little more than a rise. The name itself is only perpetuated in the eponymous Spencer Street hotel. The hill was partly levelled in 1863-65 for development of Spencer Street Railway Station, with final work done in March 1892. While the line of the hill can be seen in brickwork in the Flinders Street extension, few Melbourne commuters would realise that they traverse a place so central in the minds of early 19th-century settlers.</p>
+<p>John Pascoe Fawkner dubbed the area Pleasant Hill when he and his fellow entrepreneurs arrived in 1835. It was a popular recreation ground in the town's early years, the site of the settlement's first cricket matches and horse races. But it is most often remembered as the place John Batman chose for his house when he arrived from Launceston in 1836 (and where he died in 1839), ushering in the beginnings of a settlement that would seek to fashion a European-style urban social space on the Woi wurrung land. Painting in 1863, Liardet re-creates the house and cultivated gardens, with schooners moored on the river and a group of Aboriginal people sheltering on its banks. The arrival of ships could be monitored from the top of the hill which, in the late 1830s, also served as a military defence post in case of Aboriginal attack. By 1843, the Melbourne Town Council was planning to establish a botanical gardens and aquarium on the site. A powder magazine on the western side, constructed in 1847, was removed when the hill was flattened.</p>
+<p>In the settler imagination, Batmans Hill became a symbolically coded racial focal point. To the anonymous author of <hi rend="italic">Melbourne as it is, and as it ought to be</hi> (1850) the summit provided an ideal location for 'a hall for the reception of the busts of Great Men'. One year later, <hi rend="italic">Melbourne Punch</hi>'s chilling racial dystopia, <hi rend="italic">Imaginings of 'Celestial' Melbourne 2000 AD</hi>, envisaged a future in which the descendants of the British were slaves of 75 million Chinese whose 'new pagoda on Batman's Hill is to be opened on Monday next'. Today, Bunjil, the creator spirit of the people of the Kulin nation, sits on the site of the hill. Indigeneity has been reinscribed into the post-colonial cityscape. In these actual and imaginary visions of difference, Batmans Hill is a canvas onto which celebrations of identity and anxieties about difference have been projected.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Maidstone</title>
+<author>John Lack</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00886</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Maidstone</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3012, 9 km NW, Maribyrnong City)</p>
+<p>Straddling Ballarat Road between Footscray and Braybrook, Maidstone takes its name from the town in Kent, England. It was first promoted as a private township in 1858 when land speculator J.W. Thompson staged a procession through Melbourne with a German band and a banner inscribed 'Every man his own landlord', before embarking by steamer up the Yarra and Maribyrnong rivers for an on-site launch. Despite the promise of made streets, a school and a chapel, an observer in 1860 noticed only ten homes.</p>
+<p>Isolated from the railway, Maidstone grew slowly as an appendage of Footscray. Here, in 1894, Bert Facey, author of <hi rend="italic">A fortunate life</hi> (1981), was born into one of the scattered families struggling to survive the 1890s depression. Trams ran from Footscray after 1921, a Progress Association was formed, Maribyrnong defence industries stimulated further settlement, and Maidstone even got its own cinema in the 1940s. Despite local resistance the cramped allotments of 1858 had been resubdivided along Metropolitan Town Planning Commission lines. The postwar industrial boom soon saw Maidstone built out. Divided between the cities of Footscray and Sunshine, it became part of the City of Maribyrnong in 1994.</p></div>
+</body>
+</text></TEI>

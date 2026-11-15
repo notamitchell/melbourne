@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Save Our Sons</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01330</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00013.xml"><desc>Politics &amp; Government</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This anti-conscription movement was founded in Melbourne in August 1965, following the reintroduction of conscription for overseas service during the Vietnam War. Wearing embroidered sashes, its predominantly middle-class members, mothers of sons of conscription age, protested silently at Army induction sites, seeking to disrupt the conscription process. Five members were imprisoned at Fairlea over Easter in 1971 for wilful trespass. Characterised as more 'bohemian' than the Sydney branch, Melbourne Save Our Sons (SOS) worked alongside other anti-war movements in organising the 1969 moratorium and assisting draft resisters. Politicised by their involvement, many members later became active in the Australian Labor Party.</p></div>
+</body>
+</text></TEI>

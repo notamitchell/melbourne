@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Medical History Museum</title>
+<author>Harold Attwood</author>
+<author>Ann Brothers</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00917</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This Museum was established with a grant from the Wellcome Trust, London, and opened in 1967. It was largely the initiative of medical historian and bibliographer Kenneth Fitzpatrick Russell (1911-87) who held a personal chair in anatomy and medical history at the University of Melbourne. Situated in the Brownless Biomedical Library, the Museum was the first of its kind attached to a medical school in Australia, and remains the largest collection, with around 5000 items, many of national heritage significance.</p>
+<p>Historically, the collection focused on the history of the Melbourne Medical School, its teachers and clinical schools, and the achievements of its graduates, but in 1994, with the acquisition of the Australian Medical Association collection, the scope of the Museum broadened to reflect the history of medical practice in Victoria.</p>
+<p>The Museum houses a complete 19th-century Savory &amp; Moore pharmacy, relocated from its London address, and re-installed exactly as it appeared when it closed there as a practising pharmacy in 1968. As well as containing the original furniture and fittings, additional decorative bottles and drug jars of the 1880s acquired from Palmer's Pharmacy, Ballarat, are displayed on the shelves, in some instances with their original contents. Also included in the collection are three large, ornate exhibition cases made by Melbourne cabinet-maker Charles Beauchamp for the 1880-81 Melbourne Exhibition. Today these cabinets house a display of historic microscopes and microtomes, as well as bleeding and cupping and early amputation sets.</p>
+<p>Within the Museum's collection of scientific instruments are examples of original medical research carried out at the University of Melbourne by researchers such as William Stone, who experimented with the making of X-ray tubes soon after Roentgen's discovery; H.J. Grayson who developed his microruling machine; and Nobel prize winner Macfarlane Burnet's microscope, used in his microbiological research. A wide range of diagnostic and surgical instruments cover 200 years of technological innovation and change, while archival photographs, letters and diaries, certificates and other documents pertaining to medical training, doctors' notebooks and records, ceremonial and commemorative artefacts, and a collection of artworks, further strengthen the Museum's collection.</p>
+<p>The Museum has close links with other University medical resources including the Rare Books and Medical History Collection within the Brownless Biomedical Library, and with the University of Melbourne Archives. Strong ties also exist with the Dentistry Collection, and with the renovated and renamed Harry Brookes Allen Museum of Anatomy and Pathology, opened in 2004 to commemorate the life and work of the first Melbourne-trained professor of anatomy and pathology, and the museum he established in 1882.</p>
+<p>The Medical History Museum has broadened its original terms of reference to give more consideration to the social aspects of health and medicine, addressing the contemporary issues of public health, ethics, aged living, and indigenous and women's health.</p></div>
+</body>
+</text></TEI>

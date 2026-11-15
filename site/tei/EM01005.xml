@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Moorabbin Air Museum</title>
+<author>Helen Penrose</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01005</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Owned by the Commonwealth Government and operated by the Moorabbin Airport Corporation, Moorabbin Airport, which opened in 1949, operates as a facility for charter and training flights. The Museum was established at the airport in 1962 by a small group of volunteers with the aim of preserving Australia's aviation heritage. Its collection includes aircraft and other aviation artefacts, as well as a documentary archive. Over 40 aircraft are on display including several that were designed or manufactured in Australia. These include the Wackett, Sabre, Ceres, Wirraway and Boomerang models which were manufactured at the Commonwealth Aircraft Corporation factory in Melbourne, as well as other famous Australian aircraft including a Victa Airtourer, Yeoman Cropmaster and DeHavilland Tiger Moth. Other aircraft on display have been used for Australian defence, including a Link Trainer, Curtiss Kittyhawk and DeHavilland Sea Venom.</p></div>
+</body>
+</text></TEI>

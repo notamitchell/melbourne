@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mulgrave</title>
+<author>Susan Priestley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01027</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Mulgrave</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3170, 21 km SE, Monash City)</p>
+<p>Originally a land parish surveyed in 1853 between Nunawading and Moorabbin parishes, Mulgrave extended east to Dandenong Creek and incorporated Oakleigh on its western (Warrigal Road) boundary. The name most likely honoured Lord Mulgrave, privy councillor from 1851 and as 2nd Marquess of Normanby, Victorian Governor 1879-84. The parish became the core of a municipality beginning with the 1857 Oakleigh and Mulgrave road district. Notwithstanding several acquisitions by Oakleigh after it severed in 1891, Mulgrave Shire still covered nearly 60 square km on its declaration as the City of Waverley in 1961. Mulgrave was retained for the new city's south-eastern quarter where major industries established or relocated along Wellington and Springvale roads from 1962. Its remaining 394 ha of rural land were released for suburban development in June 1970. Waverley Gardens shopping complex opened in 1974.</p></div>
+</body>
+</text></TEI>

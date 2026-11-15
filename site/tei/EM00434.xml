@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Cypriots</title>
+<author>Abe W. Ata</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00434</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The population on the East Mediterranean island of Cyprus numbers approximately 600 000, of which 80% are Greek, 18% Turkish and the remaining 2% British expatriates, Armenians and Maronites. The northern part of the island was occupied by Turkish troops during 1974, resulting in the displacement of tens of thousands of Greek Cypriots. The settlement of the Greek Cypriot population in Australia predates that of the Turkish Cypriots, with the latter migrating largely during the 1970s and 1980s. Both communities have settled in northern suburbs with concentrations in the Sunshine, Broadmeadows, Keilor, Epping and Whittlesea areas. Greek Cypriots tend to mix quite freely with their compatriots from Greece, as Turkish Cypriots do with their Turkish counterparts, in social activities and through inter-marriage. Greek Cypriots worship on Sunday in various Greek Orthodox churches. The Cyprus Turkish Islamic Society of Victoria, established in Rathdowne Street, Carlton, in 1956, provides a religious centre for Turkish Cypriots, while the North Cyprus Turkish Community of Victoria devotes its time to social and cultural festivals and various athletic activities of which the Satellite City United Soccer Club is best known.</p></div>
+</body>
+</text></TEI>

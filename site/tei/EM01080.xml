@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Old Melbourne Cemetery</title>
+<author>Celestina Sagazio</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01080</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established on Crown land in West Melbourne in 1837, Melbourne's first official cemetery was located in an area bounded by Franklin, Queen and Peel streets. The northern boundary was Fulton Street, which has been absorbed into the Queen Victoria Market area.</p>
+<p>The cemetery comprised 10 acres (4 ha) vested in various church leaders in trust and allocated as follows: Church of England (Anglican) 2 acres (0.8 ha), Church of Scotland (Presbyterian) 2 acres, Roman Catholic (2 acres), Independent (Congregational) 1 acre (0.4 ha), Jews (1 acre), Society of Friends (Quakers) 1 acre, Wesleyan (Methodist) 1 acre. Half of the Society of Friends' section was later set aside for Aboriginal people.</p>
+<p>According to the writer 'Garryowen' (Edmund Finn) the first interment was that of shepherd John Smith in 1837. The number of burials is unknown as registers prior to 1866 have disappeared. Estimates have gone as high as 10 000 for total burials. One year after the opening of the Melbourne General Cemetery (MGC) in 1853, the Old Melbourne Cemetery was proclaimed closed for burials except to those claiming a grave or vault there. By 1878 part of the site was taken over by the market, and some remains reinterred at the MGC. In December 1915 a bill revoking the Crown land grant for the Old Melbourne Cemetery was passed, providing for the exhumation of bodies. A few further burials occurred until November 1917 when no further burials were permitted.</p>
+<p>In September 1920 the Melbourne City Council, responding to agitation by citizens, agreed to remove a limited number of graves. A total of 914 bodies were exhumed and most reinterred at Fawkner Crematorium and Memorial Park, where many memorials were re-erected in the Old Pioneers Section. Others were reinterred in the MGC, Boroondara, St Kilda and Cheltenham cemeteries.</p>
+<p>In 1991 about 30 graves were unearthed by the City of Melbourne while surveying the site for a new shed. A report was commissioned to address the sensitive archaeological issues relating to the site.</p></div>
+</body>
+</text></TEI>

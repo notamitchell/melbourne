@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Serbs</title>
+<author>Abe W. Ata</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01354</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>After World War II many Serbian immigrants opposed to the communist regime came to Australia as displaced persons. They took on jobs in industrial areas and, with the help of the Serbian Orthodox Church, set up an organised community network. The Free Serbian Orthodox Church Diocese is focused around St Sava in Carlton (1963). Large clusters of Serbian families are still found around the western industrial areas of Sunshine, Footscray and Keilor, in the south-east at Springvale and Dandenong, and inner-north in Preston, Northcote and Heidelberg.</p>
+<p>Ethnic Serbians from Croatia and Bosnia arrived in considerable numbers after the disintegration of the former Yugoslavia in the 1990s. More mobile professionally, economically and linguistically than their earlier settled compatriots, this group has nurtured the cultural and national identity of the community at large. Other cultural and community organisations include the Serbian Welfare Association (1972), the Serbian Cultural Community of Victoria, and the <hi rend="italic">Serbian Voice</hi> newspaper.</p>
+<p>The Serbian population is difficult to estimate because of self-identification as 'Yugoslavs' in earlier censuses. Australian census figures then inaccurately identified former Yugoslav groups such as Croatian, Montenegrin, Slovene, Kosovar, Macedonian and South Hungarian by language and ancestry. The 1996 census indicated that 90% of Victoria's 4000 Serbs and 2000 second-generation Serbs were living in Melbourne.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Tippings Variety Store</title>
+<author>Kate Maclaren</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01493</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Tippings was a South Melbourne landmark, known for its diverse range of goods and cheap prices. Richard Tippings opened the Clarendon Street store in 1935, in premises built in the 1870s as part of the redevelopment of the Melbourne Orphan Asylum. Its success was built on low prices and a wide range of products, from hardware to toys to its own brand of cough mixture. Managed by Tippings' son, the store finally closed in 1997 in the face of competition from shopping malls, which had drawn its customers away from the Clarendon Street shopping strip.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Kew Cottages</title>
+<author>Evan Costello</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00798</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>An institution for the intellectually disabled in Kew, Kew Cottages originally opened in the grounds of its parent institution, the Kew Asylum. In colonial Victoria people with intellectual disabilities and those with mental illnesses lived in large and often insanitary institutions. Kew Cottages was the first attempt to separate these two groups. Three small cottages, designed to house 20 children each, and an attached classroom, opened in May 1887. Despite early optimism Kew Cottages became progressively overcrowded and more institutional in nature. By the early 1900s there were over 200 children living in the Cottages, and attempts at education  ceased in 1907 following an outbreak of typhoid. A royal commission in 1924 found evidence of neglect and ill treatment. An Education Department school for mildly intellectually disabled children opened in 1929. Various governments promised to close both institutions at Kew, conveniently starving them of resources. With the appointment of the Mental Health Authority in 1952 and public campaigns to raise money, life for residents improved. The impact of normalisation theories from the 1970s resulted in many occupants moving into smaller community residences. Children ceased to be admitted and by 1992 the Special School closed. A 1996 fire killed nine men and provoked further debate about funding and the future. Around 250 adults with intellectual disabilities still live at Kew Residential Services.</p></div>
+</body>
+</text></TEI>

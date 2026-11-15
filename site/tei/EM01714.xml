@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bowen Street</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01714</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01713.xml"><desc>Bowen Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01081.xml"><desc>Old Melbourne Gaol</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01253.xml"><desc>RMIT University</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01429.xml"><desc>Storey Hall</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Bowen Street, running north from La Trobe Street between Swanston and Russell streets, would have offered spectacular views of Melbourne in the nineteenth century, as it was cut through the steep incline overlooking the Swanston Street basin. Bowen Street was formerly the home of the Working Men's College, the Gordon Institute, the Imperial Hotel, Melbourne United Friendly Society, and down the entire east side of the street, the Melbourne Gaol. The bluestone cell-blocks of the prison had been built in 1853, and doubtless witnessed an unpleasant side of Melbourne life for the 80 years until their gradual demolition in the 1930s. The Old Melbourne Gaol closed in 1929, but was briefly reopened during World War II as a military detention centre. Some of the buildings remain today as part of RMIT University, which now occupies all buildings on either side of Bowen Street.</p></div>
+</body>
+</text></TEI>

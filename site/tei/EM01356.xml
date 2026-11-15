@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Service Stations</title>
+<author>David Wixted</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01356</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>An important new building type in the interwar period, service stations are now an integral feature of the roadside landscape. The former 1930s Beacon Service Station in West Brunswick is listed on the Register of the National Estate.</p>
+<p>Motor car numbers rose from around 30 vehicles in 1903 to 1590 in 1910. The <hi rend="italic">Victorian Petroleum Act 1912</hi> introduced regulated petrol storage, resulting in an increase in motor garages selling petrol. In September 1914, a fuel pump invented by S.F. Bowser &amp; Co. of Canada was exhibited in Melbourne, and by 1916 the Melbourne City Council (MCC) reported that most garages had installed the Bowser system. Five years later petrol pumps were increasingly and conveniently found at the kerbside.</p>
+<p>By 1923 pumps were permitted at those city motor businesses concentrated in Elizabeth Street, though barred from many other central streets. Traditional selling of petrol in four-gallon tins at hardware outlets, cycle shops, grocers and blacksmiths was effectively ended in 1925, when oil companies such as Vacuum and Shell imported bulk oil and refined it before delivery by road tanker to service stations. These stations required safe underground storage and pumping facilities to participate in the bulk-price discount schemes. Growing municipal concern over the safety of kerbside pumps was a factor in the development of drive-in service stations, the first of which were constructed in Malvern and Prahran in 1926.</p>
+<p>Most garages sold multiple brands of petrol until Ampol introduced solo marketing in December 1952. Individual companies rushed to establish local outlets, and the resultant increase in service stations caused local concern as houses were demolished and corner blocks monopolised. In 1954 the 'petrol war' was reported to have reached fever pitch, with 38 stations within a one-mile (1.6 km) radius of Camberwell Junction. By 1960 Kew was known as the 'city of pumps', with numbers peaking across the city in 1965.</p>
+<p>After 1960 the surplus of Middle East crude oil reduced company profits, which were further strained by the emergent independents such as Daygas (1964). Self-service was introduced as a cost-cutting measure in 1976, and by 1978 Shell had opened convenience stores as a profit-booster, followed by others such as British Petroleum's Food Plus stores.</p>
+<p>Service-station architecture evolved from the modified coach-building workshop and kerbside garage of the 1910s to the postwar oblong box, successively influenced by Spanish mission (1920s) and streamlined art moderne styles (1930s). From the 1950s, oil companies developed standardised architecture, built to suit a company image of friendly service, cleanliness and efficiency, and marketed via branded road maps, giveaways and mass advertising. Stations landscaped to blend in with their surroundings debuted in 1967 at Mobil Valewood in Mulgrave; late 20th-century large-scale self-service facilities were anticipated in 1989 by Shell's Westgate stations in Port Melbourne.</p></div>
+</body>
+</text></TEI>

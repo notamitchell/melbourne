@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Windsor Murder</title>
+<author>Bronwyn Fensham</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01626</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Frederick Bailey Deeming (aka Albert Williams) was hanged for the murder of his wife, Emily Williams, whose decomposing body was found cemented under a hearthstone at a house in Andrew Street, Windsor, in March 1892. The case is notable for several reasons: Deeming was identified, arrested, tried and hanged in less than three months; the Victorian investigation led to the discovery of the bodies of Deeming's first wife and four children in England; and the level of public interest in and divided opinion on Deeming's guilt.</p>
+<p>Australian and English newspapers discussed the crime and Deeming's possible responsibility for other crimes. Letters were received by the police and the Governor, accusing Deeming of murders in South Africa and South America, and the infamous 'Jack the Ripper' murders in London only a few years before.</p>
+<p>Alfred Deakin (later Prime Minister of Australia) represented Deeming, arguing that his client was insane and therefore not responsible for his actions. Scores of witnesses identified Deeming as the husband of Emily Williams, despite his elaborate use of aliases. The trial took only four days and, though letters asking for mercy flooded the Governor's office, Deeming was hanged at the Old Melbourne Gaol on 23 May 1892. His extant death mask was used in the study of phrenology.</p></div>
+</body>
+</text></TEI>

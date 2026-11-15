@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Boer War Monument</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02056</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00802.xml"><desc>Kings Domain</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01581.xml"><desc>War Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Irwin and Stephenson Sandstone memorial 1924 King's Domain, corner of St Kilda and Domain Roads</p>
+<p>Some 16 000 Australians served for the British cause in the Boer War, fought between 1899 and 1902. This memorial was first proposed in 1911, yet the simple sandstone obelisk and cross was not erected until 1924, more than two decades after the signing of the Treaty of Vereeniging, which brought the hostilities to a close. The four sandstone lions were added to the site in 1952.</p>
+<p>This is the second memorial in or near the domain commemorating those lost in the war; the grand South African War Memorial, commissioned by 5th Victorian Contingent to their fallen comrades, stands near the corner of St Kilda Road and Government House Drive. Unlike that monument, which honours the fallen of a single contingent, Irwin and Stephenson's cenotaph honours all Australians who fought in South Africa.</p></div>
+</body>
+</text></TEI>

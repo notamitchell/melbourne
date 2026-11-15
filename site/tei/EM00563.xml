@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Festival Hall</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00563</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The West Melbourne Stadium in Dudley Street was built in 1912 for promoter and all-round sportsman Reginald 'Snowy' Baker, who sold it to John Wren in 1915. It became the main venue for boxing and wrestling in Melbourne. After being destroyed by fire in 1955, it was reopened as Festival Hall in time to provide the venue for a number of Olympic Games events, including gymnastics and wrestling, the following year. It was also a popular rock music venue, and although remembered by many concert-goers for its stifling heat, poor seating and average acoustics, it has featured a who's who of local and international acts through the 1960s (the Beatles, Pat Boone, Johnny Farnham, Eric Burdon &amp; The Animals, Bob Dylan), 1970s (Fairport Convention, Jethro Tull, Status Quo, AC/DC, Alice Cooper, John McLaughlin, Bee Gees, Frank Sinatra, Skyhooks, Deep Purple, The Boys Next Door, Cold Chisel, Black Sabbath, Procol Harum, Nana Mouskouri), 1980s (The Clash, Split Enz, The Police, Billy Idol, Dire Straits, Midnight Oil, Neil Young) and beyond. Operated by Stadiums Pty Ltd, and recently refurbished, Festival Hall continues as one of the city's oldest entertainment venues.</p></div>
+</body>
+</text></TEI>

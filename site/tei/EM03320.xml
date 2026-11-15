@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="person" subtype="person" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Warne-Smith, Ivor Phillip Scharrer</title>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM03320</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="edited">Linked death place Newport (checked list, tools/enrich.py).</change>
+</revisionDesc></teiHeader>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Ivor Phillip Scharrer</forename> <surname>Warne-Smith</surname></persName><persName type="alternative" subtype="also-known-as">Smith, Ivor Warne</persName><sex value="1"/><birth when="1897-10-29">29 October 1897, <placeName>North Sydney</placeName></birth><death when="1960-03-04">4 March 1960, <placeName ref="EM01057.xml">Newport, Melbourne</placeName></death><occupation>Australian Rules footballer</occupation></person></listPerson></standOff>
+<text><body>
+<div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM002084" type="book"><author>Hobbs, G.</author> <title level="m">125 Years of the Melbourne Demons</title> <pubPlace>Melbourne</pubPlace> <date>1984</date></bibl><bibl xml:id="PEM001929" type="resource-section"><author>Nadel, Dave</author> <title level="a">Warne-Smith, Ivor Phillip Scharrer (1897-1960)</title> <title level="m">Australian Dictionary of Biography, online edition</title> <publisher>Australian National University</publisher> <date>2006</date> <ref target="http://www.adb.online.anu.edu.au/biogs/A160589b.htm">online</ref></bibl></listBibl></div></back>
+</text></TEI>

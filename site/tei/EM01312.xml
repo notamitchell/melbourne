@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>St Patrick's College</title>
+<author>Richard Scully</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01312</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The second public (independent) and first Catholic secondary school in Victoria, St Patrick's College was founded in East Melbourne on 5 December 1854 and officially opened by Bishop Goold on 6 August 1855. After struggling with financial and scholastic difficulties in its first decade, the college flourished under the administration of the Jesuits from September 1865. Despite low enrolments in both the school and attached seminary at the turn of the century, the college continued to function as an important pillar of the intellectual and spiritual life of Melbourne's Catholic community. Over 5000 students had passed through St Patrick's by 1968, when Archbishop Knox decided it was to close. The decision met with spirited resistance from the school and wider community, but proceeded despite legal wrangling and an attempt to have the site classified by the National Trust. Demolished in the early 1970s, all that remains of the physical school is the bluestone East Tower close to the corner of Lansdowne Street and Cathedral Place. The St Patrick's Old Collegians Association (founded 1911) survives.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000228" type="book"><author>Head, Michael, and G. Healy</author> <title level="m">More than a school: a history of St  Patrick's College, East Melbourne: 1854-1968</title> <pubPlace>Melbourne</pubPlace> <publisher>Jesuit Publications</publisher> <date>1999</date></bibl></listBibl></div></back>
+</text></TEI>

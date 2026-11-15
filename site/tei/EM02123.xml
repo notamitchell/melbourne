@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Walker Fountain</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02123</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00910.xml"><desc>Mayoralty</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00930.xml"><desc>Melbourne City Council</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01310.xml"><desc>St Kilda Road</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Mobelt, Digregorio &amp; Associates Concrete fountain 1981 Corner of Linlithgow Avenue and St Kilda Road</p>
+<p>The Edmund FitzGibbon memorial first occupied the site of the Walker Fountain. This concrete fountain was donated to the people of Victoria in 1981 by former Melbourne mayor Ron Walker and his wife, Barbara. It comprises 46 underwater lights and 144 individual streams of water.</p></div>
+</body>
+</text></TEI>

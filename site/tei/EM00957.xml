@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne University Publishing</title>
+<author>Ian Morrison</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00957</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established as Melbourne University Press (MUP) in 1922 with a grant of £300 from the University, MUP operated initially as a bookseller and stationery store. It published its first book, Myra Willard's <hi rend="italic">History of the White Australia Policy</hi>, in an edition of 600 copies, in August 1923. Until 1932 MUP was managed part-time, initially by Stanley Addison, Assistant Registrar of the University, then briefly by the University Librarian, Leigh Scott. Frank Wilmot, better known as the poet 'Furnley Maurice', was appointed manager in 1932 and held the position until his death in 1942.</p>
+<p>A long period of administrative stability - under Gwyn James (1943-62), Peter Ryan (1962-88) and John Iremonger (1990-94) - established MUP as a leading scholarly publisher, producing such landmark works as Manning Clark's <hi rend="italic">A History of Australia</hi> (1962-87), and the <hi rend="italic">Australian dictionary of biography</hi> (1966- ). The sale of Miegunyah, the home of Sir Russell and Lady Grimwade, funded the establishment of Miegunyah Press in 1967 as a separate imprint to produce high-quality books, in particular in the fields of biography and Australian, maritime and natural history.</p>
+<p>Despite increasing inventiveness in book design during the 1990s MUP was unable to shake its stolid image. Major commercial successes, such as Ray Parkin's <hi rend="italic">H.M. Bark Endeavour</hi> (1997), were relatively few and University management became increasingly intolerant of the publisher's financial performance. In 2003 MUP was reconstituted as Melbourne University Publishing Ltd, a subsidiary company of the University, with Robert McKay as chairman and Louise Adler as chief executive officer.</p></div>
+</body>
+</text></TEI>

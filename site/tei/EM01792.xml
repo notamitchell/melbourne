@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Equitable Place</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01792</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01749.xml"><desc>Collins Way</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01798.xml"><desc>Fleming Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01091.xml"><desc>Opera</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Equitable Place is located between Queen and Elizabeth streets, extending from Collins to Little Collins streets. It also has a dead-end section extending to the east towards the Collins Street end. Equitable Lane was named after the Equitable Life Assurance Buildings which were located on the corner of Elizabeth and Collins streets. These buildings were built by David Mitchell, the father of opera singer Dame Nellie Melba. In addition to the location of the Equitable Buildings on the east side of Equitable Place, several other businesses were located here. In 1895, the Watermans Arms Hotel at 353 Little Collins Street had a back entrance on the west side of Equitable Place. Other businesses located on this lane in 1920 included the Whitehead Company, and the Dean W. G. Company, selling oil, colour, paperhanging, and glass, situated on the west side.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000636" type="resource"><author>City of Melbourne</author> <title level="m">Amendment C105 - CBD Laneways Review</title> <publisher>City of Melbourne</publisher> <date>2007</date> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=195&amp;pg=3065&amp;bp=1902&amp;coll=8">online</ref></bibl><bibl xml:id="PEM000673" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1892</date></bibl><bibl xml:id="PEM000674" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1930</date></bibl></listBibl></div></back>
+</text></TEI>

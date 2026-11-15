@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Lake Thwaites</title>
+<author>Tony Dingle</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00823</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>In 1904 William Thwaites, engineer-in-chief of the Melbourne and Metropolitan Board of Works (MMBW), proposed to dam the Yarra River downstream of the Chandler Highway to create a narrow S-shaped lake, 10 km long, reaching above the Yarra's junction with the Plenty River. The lower river would be snagged and a channel and lock built to bypass Dights Falls, allowing commercial barge traffic along the river up to the dam. Apart from opening up the river to commerce, Thwaites' plan intended to mitigate the threat of flooding and allow more effective scouring of the lower river. Adjacent municipalities and Progress Associations wanted the dam built, but the MMBW was unsure of its legal power to proceed. The Metropolitan Town Planning Commission considered the scheme in the 1920s, but concluded that the land would be of greater recreational value if converted into football ovals. There were also aesthetic objections from artists and others in Alphington and Eaglemont. The Town and Country Planning Board asked the MMBW to look at the scheme in 1950 while it worked on Melbourne's metropolitan plan, but it no longer seemed appealing or feasible. Lake Thwaites remained an imagined place.</p></div>
+</body>
+</text></TEI>

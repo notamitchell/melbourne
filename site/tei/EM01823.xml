@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Greville Place</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01823</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01682.xml"><desc>Albert Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01478.xml"><desc>Temperance</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Greville Place is located between Exhibition and Spring streets, extending north from Little Bourke Street to a dead-end.</p>
+<quote rend="block">At the heart of the red-light district, on the corner of Greville Place and Little Bourke Street-east of Exhibition Street-the Salvation Army began its efforts to sustain and redeem the derelicts of Melbourne. The hall they used had been set up as a medical centre in 1879 by Dr John Singleton, a tireless philanthropist, whose main hospital in Collingwood was a pace-setter in caring for the poor. He recorded that the Greville Place hall was 'in the very midst of a nest of not less than a hundred brothels'. [Weston Bate,<hi rend="italic">Essential but unplanned</hi>, p. 94]</quote>
+<p>In 1895, the occupants of Greville Place reflected its location in the Chinatown region. Four houses were occupied by Chinese residents, whilst the Sang Goon store was also located here.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl></listBibl></div></back>
+</text></TEI>

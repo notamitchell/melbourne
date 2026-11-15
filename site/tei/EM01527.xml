@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ukrainians</title>
+<author>Marko Pavlyshyn</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01527</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Of the 13 000 Victorians of Ukrainian ancestry, some 90% live in Melbourne. Most arrived in Melbourne as postwar refugee immigrants in 1948-51, settling in the western suburbs and then throughout the metropolitan area. Others migrated later from the former Yugoslavia, Poland and, from the 1990s, Ukraine itself.</p>
+<p>Melbourne has two Ukrainian Catholic churches, including the Cathedral in North Melbourne, seat of the Ukrainian Catholic Bishop for Australia, New Zealand and Oceania, three Ukrainian Orthodox churches and two Ukrainian Baptist communities. The Ukrainian Catholic Church has a convent for Basilian nuns, sponsors the Ukrainian Arts and Crafts Museum and publishes the weekly <hi rend="italic">Church and Life</hi>.</p>
+<p>The Association of Ukrainians in Victoria, established in 1949, has headquarters in Essendon and four suburban branches. There are three Ukrainian community Saturday schools. Ukrainian is also taught at the Victorian School of Languages. Monash University has a community-funded Centre for Ukrainian Studies.</p>
+<p>The community sustains a credit co-operative society, a home for the aged, several choirs and dance ensembles, the Ukrainian Women's Association and two youth organisations. SBS and 3ZZZ broadcast Ukrainian radio programs. Melbourne is the seat of the Australian Federation of Ukrainian Organisations.</p></div>
+</body>
+</text></TEI>

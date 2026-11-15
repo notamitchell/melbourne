@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Caulfield Cup</title>
+<author>June Senyard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00311</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The centrepiece of the Melbourne Racing Club's yearly horseracing calendar, the Caulfield Cup was first run in the autumn of 1879 when it was won by the six-year-old Newminster. Moved to the spring season in 1881, this long handicap race of a mile and a half (2400 m) for horses over three years of age has been paired in the thinking of the betting public with the Melbourne Cup. However, until the 1980s, only seven horses had won both races, but since then Let's Elope, Doriemus, Might and Power, and Ethereal have achieved the double.</p>
+<p>The race has its own mystique. The running of two Cups in 1881 and 1943 produced two winners. There was the tragic race fall in 1885, the worst in Australian racing history, when 16 of the 44 horses fell and jockey Donald Nicholson was killed. The legendary jockey Scobie Breasley won the Cup four times in succession between 1942 and 1945 and, after a time in England, won again in 1952. The Caulfield Cup is primarily a showcase of the best stayers in Australia: the great Poseidon (1906 and 1907), The Trump (1937), Rising Fast (1954 and 1955), Tulloch with a record time (1957), and Might and Power (1997).</p></div>
+</body>
+</text></TEI>

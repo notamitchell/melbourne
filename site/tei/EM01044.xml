@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>National Council of Women</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01044</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02091.xml"><desc>Janet Lady Clarke Memorial</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Founded in 1902, the National Council of Women (NCW) was a local manifestation of maternal feminism. Affiliated with the International Council of Women, it sought to provide a forum in which gender, at least theoretically, could override class, race and ethnic divisions, linking the local with the global in promoting the interests of 'women, children and humanity in general'.</p>
+<p>The Council attracted 35 affiliates, representing a range of philanthropic, occupational and women's suffrage organisations. All of the issues energising Melbourne's bourgeois-philanthropic social reform network found an audience at NCW congresses which launched important initiatives in the areas of disability services, children's courts, infant life protection and playgrounds. Campaigns for reform in women's political, legal and citizenship status, however, waited much longer to be realised.</p>
+<p>The notion of a unitary women's voice was disturbed during World War I when the NCW, contrary to the international organisation's commitment to peace, expelled anti-war delegates. Less serious divisions emerged later between women who wanted to widen opportunities for female employment and those more concerned with maintaining the supply of domestic servants, and between those arguing for uniform divorce laws and those seeking to defend marriage.</p>
+<p>The Council has consistently campaigned for the right for women to be represented at all levels of the city's life, counting among its successes the construction of the Pioneer Women's Memorial Garden as part of the city's centenary celebrations and the foundation of the Victorian Children's Book Council in 1954. With its 140 affiliates it participated in International Women's Year in 1975, its older style of feminism contrasting with the radicalism of the new women's liberation movement. Cast into a more conservative mode by these developments the Council has nevertheless survived and continues to provide a forum for the discussion of women's issues.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000104" type="book"><author>Norris, Ada</author> <title level="m">Champions of the impossible: A history of the National Council of Women of Victoria, 1902-1977</title> <pubPlace>Melbourne</pubPlace> <publisher>Hawthorn Press</publisher> <date>1978</date></bibl></listBibl></div></back>
+</text></TEI>

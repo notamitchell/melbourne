@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Deep Rock</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00449</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Deep Rock Swimming Club operated a favourite bathing spot on the Yarra River about 200 m upstream of Dights Falls, popular into the 1940s until falling victim to river realignment and construction of the Eastern Freeway in the 1970s. The natural swimming hole at Deep Rock was a recognised swimming pool, together with spots at Survey Paddock, Alphington Park, Fairfield, Ivanhoe and Heidelberg. During an aquatic festival in March 1918 in aid of the Soldiers' Amelioration Fund, 60 000 people watched Solomon Islander Alec Wickham (inventor of the Australian crawl) dive over 100 feet (30 m) into the river from the adjacent cliff. By the 1920s a concrete swimming basin had been constructed by volunteers and was popular in summer months with children from Clifton Hill and Collingwood. A foundation stone in Yarra Bend Park marks the site.</p></div>
+</body>
+</text></TEI>

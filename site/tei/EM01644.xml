@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Wrestling</title>
+<author>Barry York</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01644</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Wrestling has been popular in Melbourne since the 1880s when 'Professor' William Miller and Clarence Whistler entertained large crowds at venues such as the Theatre Royal, the Bijou and Victoria Hall, wrestling in the American free style known as 'catch-as-catch-can' or the slower and more restrictive European Greco-Roman style. With the opening of the West Melbourne Stadium in February 1915, and the rise of radio during the 1920s, the fast-paced American style dominated. The first live wrestling broadcasts in Australia were made from the Melbourne Motordrome by Norm McCance for 3LO on 21 March 1925.</p>
+<p>Like any big business, professional wrestling experiences ebbs and flows but, during the 20th century, has always been strongest in Melbourne. Melburnian Clarence Weber held the Australian heavyweight title from 1906 to 1913, creating a solid support base in his city and Stadiums Limited administered its various stadiums from Melbourne. Professional wrestling's popularity in Australia has depended on colourful larger-than-life characters from overseas. Big Chief Little Wolf, the Navajo Indian, packed the stadiums in the late 1930s when he first came here. He settled at Preston in the early 1950s.</p>
+<p>Following the advent of television in 1956, promotions commenced from Melbourne, initially through HSV-7. The televising of bouts accentuated and encouraged gimmickry. Inspired by the American grappler Gorgeous George, who wrestled in Melbourne in 1956, wrestlers started growing their hair long, dying it blond, and wearing sequined robes into the ring. The period 1964 to 1978 marked wrestling's glory days. GTV-9's World Championship Wrestling program captured the ethnic market for sponsors and advertised forthcoming grudge matches at Festival Hall, which replaced the West Melbourne Stadium after it burned down in 1955. That wrestling drew its strongest support from migrant communities was evidenced in the fact that the heroic 'good guys' represented the biggest ethnic communities in Melbourne: the 'Golden Greek' Spiros Arion and Italy's 'Gentle Giant' Mario Milano. Wrestling continues in Melbourne on the club circuit. Its popularity lay in the portrayal of the conflict between Good and Evil, a timeless and universal theme.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Sisters of the Good Shepherd</title>
+<author>Anne Dalton</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01378</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This Catholic religious order arrived from Angers, France, on 24 June 1863 at the request of the Bishop of Melbourne, James Goold, to establish a female rescue home. The four Irish-born sisters belonged to a French order founded in 1835 with the mission of providing protection for socially disadvantaged women and children. They purchased a house and property of 2.8 ha, known as Abbotsford, on the banks of the Yarra River, 5 km from the city. In 1864 the purchase of an additional 6.5 ha enabled the establishment of an industrial school and provided accommodation for female juvenile offenders. Women were also admitted on a voluntary basis as a result of problems associated with homelessness and poverty. In 1865 the sisters set up a commercial laundry, which provided employment, training and a source of income. Despite early difficulties, the work expanded, and branches were established in Oakleigh, South Melbourne, Bendigo and eventually across Australia and New Zealand.</p>
+<p>Worldwide social change in the 1960s and 1970s, and the effects of the Second Vatican Council, led the sisters to adopt a policy of deinstitutionalisation in 1973. Buildings were sold; sisters moved to houses in various suburban locations, and hostel accommodation was provided for the girls and women. Work diversified, and sisters moved into such areas as youth, family and financial counselling, emergency housing, and prison, hospital and industrial chaplaincies. A nursing home and an aged care hostel were built on a section of the original site. The Good Shepherd Youth and Family Service was established in 1977, developing an ongoing partnership between sisters and employed staff. A social-justice platform was adopted to formulate policies and work towards societal change to benefit the economically and socially disadvantaged. The heritage-listed buildings and gardens of the St Helier site at Abbotsford, later used as a campus by La Trobe University, became the subject of resident protest in the late 1990s in the face of plans for large-scale housing redevelopment.</p></div>
+</body>
+</text></TEI>

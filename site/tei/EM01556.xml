@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Victorian Deaf Society</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01556</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Attempts from the late 1870s to organise social, religious and sporting activities among graduates of the Deaf and Dumb Institution were formalised with the foundation in 1883 of the Victorian Society for Promoting the 747 Spiritual and Temporal Welfare of the Adult Deaf and Dumb, modelled on the philanthropic missions operating in many British cities. Initially meeting at the Collins Street Baptist Church and the Young Men's Christian Association, the society established its social centre for the deaf in Flinders Street in 1904. In 1909 it purchased a large property at Blackburn Lake where it offered training and employment at its flower farm, and, later, residential facilities. In 1924 it moved from Flinders Street to Jolimont where it established offices and meeting rooms, later adding a chapel, a young men's hostel and, from 1980, a licensed social club. Much of the Blackburn land was sold in 1965 but the aged care facility remained under the society's control until it was sold in 2004.</p>
+<p>The deaf committee, which had operated within the society since 1887, was superseded by an independent self-help group, the Victorian Council for the Deaf, in 1982. The society, however, has widened its scope, extending its referral, advice and support services to the non-signing deaf and those who face deafness later in life.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>La Trobe Place</title>
+<author>Patricia Mcmullan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01868</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00371.xml"><desc>Coffee Palaces</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00659.xml"><desc>Governors</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01206.xml"><desc>Public Toilets</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01488.xml"><desc>Theatre Royal</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>La Trobe Place is a dead-end street open to Little Bourke Street, located between Swanston and Russell streets, and was named after Victoria's first Governor, C.J. La Trobe. It was previously known as Davis Lane.</p>
+<p>On 12 May 1890, William P. Small, the manager of the nearby Melbourne Coffee Palace, wrote to the City of Melbourne:</p>
+<quote rend="block">for some months past the public have got into the habit of using La Trobe Place (the lane running along the Melbourne Coffee Palace from Bourke St to Theatre Royal gallery entrance) as a public urinal after dark, especially on Saturday and Sunday nights, and were it not that we hose it there would be a great stench.<lb/>As it is the smell arising during the night is a cause of great complaint from our boarders, and I have to request that the police may be instructed to proceed against anyone causing a nuisance; especially as there is a urinal provided at the lane leading up to the Theatre Royal.<lb/>I have also requested the Town Clerk to have a light put in the lane to make the place less private.</quote>
+<p>Small wrote again on 31 May 1890 reporting that the nuisance was as bad as ever: 'The stench of urine in our dining room is almost unbearable the public are fast using our dining room wall as if it were a public urinal'.</p>
+<p>In 1900, the La Mascotte Hotel and the Orient Hotel were located in La Trobe Place, by 1910 replaced by the British Lion hotel. The Theatre Royal's stage door as well as several Chinese stores were also located in La Trobe Place.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000715" type="book"><title level="m">Sands &amp; McDougall's commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1910</date></bibl><bibl xml:id="PEM000694" type="resource-section"><title level="a">Central Melbourne: Lanes K-M</title> <title level="m">Amendment C105 - CBD Laneways Review</title> <publisher>City of Melbourne</publisher> <date>2007</date> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=195&amp;pg=3065&amp;bp=1902&amp;coll=8">online</ref></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Island Wave</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02131</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Lisa Young Steel sculpture on concrete footing 2003 Franklin and Queen Streets roundabout</p>
+<p>Originally an illustrator of children's books, Lisa Young has been a practising artist since the early 1990s. She completed a Master of Fine Arts at RMIT, where her research led her to explore repeated forms and the rhythms they create. These concerns are apparent in Island Wave, her first major public sculpture in Melbourne.</p>
+<p>Island Wave is a large work that comprises a repeated motif and which follows the gentle curve of the Franklin and Queen Streets roundabout. Young's motif is a French curve, to which she was drawn for its sensuality and its past use as a mechanical drawing aid for the technical works executed by engineers and architects. The repetition of this motif along the curve of the roundabout creates a sense of movement, particularly for the motorist travelling alongside it. It is scaled to give one the sensation of both moving in rhythm to and being engulfed by a wave. Unlike a solid monolithic sculpture, there is a certain 'lightness' about Island Wave, which is achieved by its thinness, its open form and the sense of movement it evokes. Island Wave engages both the motorist and pedestrian, and its prominent location near Queen Victoria Market ensures that it has a local and international audience.</p>
+<p>This elegant sculpture was created as the inaugural work for the council's Melbourne Collection Commissions, a fund for significant and permanent site-specific works by contemporary artists. It was fabricated by Gilbro Engineering and installed by Famous Constructions. Controversially, the sculpture replaced Tom Bill's With and With Each Other, which, despite having only a three-month permit, had remained on the roundabout since the 1998 Construction in Process Sculpture Festival. Island Wave was launched by Lord Mayor John So and Councillor Kimberly Kitching in October 2003.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000143"><head>Island Wave</head><graphic url="../objects/images/IslandWave02.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_IslandWave02.jpg"/><p>Lisa Young 2003</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

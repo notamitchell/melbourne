@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Treasury Building</title>
+<author>Frances O'Neill</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01512</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Constructed in Spring Street between 1858 and 1862 and facing down the elegant Collins Street, the Treasury was the first major government office built in Melbourne after the gold rushes. The decision to build Parliament House at the eastern end of Bourke Street marked the shift of government functions to the eastern part of the city. The provision of the new colony's substantial government offices near parliament was made possible by the prosperity of the years following the gold discoveries.</p>
+<p>Recognised as one of the most significant 19th-century buildings in Australia, the Treasury was designed by the Public Works Department's eighteen-year-old architectural prodigy J.J. Clark in the Renaissance Revival style. The building drew on the palazzo form popular in the 19th century and was influenced by C.R. Cockerell's Ashmolean Museum at Oxford. The first plans for the building showed that a gold office was to be included, but although vaults for the storage of gold were provided in the basement, stories that gold was ever stored there are most likely apocryphal.</p>
+<p>When the Treasury was completed, its tenants were the Governor of Victoria, the chief secretary, the Treasurer, and the registrar-general and registrar of the Supreme Court. The prestige of the governor as representative of the Crown demanded suitable accommodation in an imposing building. The suite of rooms for the governor's use included the Executive Council chamber, as well as offices for the governor, his aide-de-camp and his private secretary. In the 19th century, the clerk of the Executive Council is believed to have lived on the premises in a flat on the top floor.</p>
+<p>After the State Government Offices were completed at 2 Treasury Place in 1876, the treasurer and his officers moved there. The Spring Street building remained the office of the governor and the chief secretary; it was then renamed the 'Old Treasury', while 2 Treasury Place was known for a time as the 'New Treasury'. While the first-floor Executive Council chamber still hosts official business, in 1994 the building was restored to house the Gold Treasury Museum.</p></div>
+</body>
+</text></TEI>

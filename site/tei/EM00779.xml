@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Jolimont</title>
+<author>Sandra Burt</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00779</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Jolimont</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3002, 1.5 km SE, Melbourne City)</p>
+<p>Part of East Melbourne, Jolimont is best known as the location of Victoria's first Government House. Charles Joseph La Trobe arrived in Melbourne in 1839 on the <hi rend="italic">Fergusson</hi>, bringing with him his wife and family as well as a prefabricated house. It was erected on 12.5 acres (5 ha) he had purchased and named Jolimont ('pretty hill') after his wife's Swiss home. This small cottage combined the functions of a private residence and official Government House, and is one of the most well-documented buildings of early Melbourne. Agnes and Charles streets are named after two of La Trobe's children. Because of its association with the Lieutenant-Governor, and close proximity to the city, Jolimont was an area of some social significance where the cream of Melbourne society gathered.</p>
+<p>Adjacent to La Trobe's cottage in Agnes Street for many years was the footwear factory of Bedggood &amp; Co. Occupied in 1899, the factory was a landmark for many years and helped to preserve La Trobe's Cottage. The Bedggood family bought surrounding houses at considerable expense rather than use the land the cottage was on, and employees sometimes lived in it.</p>
+<p>The Melbourne Cricket Ground, Melbourne's most popular sporting venue, was founded in 1838 and occupied its current position near Jolimont railway station in 1853. The complex is also home to the Australian Gallery of Sport. The former East Melbourne Cricket Ground also helped to associate Jolimont with sport in the public mind, as did Gustav Techow's National Gymnasium, established around 1870.</p>
+<p>One item of note on the Historic Buildings Register is the Former Grand Rank Cabmen's Shelter near the footbridge in Yarra Park, dating from 1898. The Jolimont railway station on the northern end of Yarra Park dates from 1900 when the Princes Bridge to Collingwood section of the Heidelberg line was opened.</p>
+<p>The Jolimont Railway Yards, comprising some 27.5 ha, have been the topic of much discussion over the past 40 years. Development on the site began in the 1860s as the need for a centralised rail yard, connecting the major lines, grew paramount. In the early 1960s a plan to cover part of the yards and place a city square on top gained much publicity but came to nothing.</p>
+<p>Today Jolimont combines 19th-century sensibility with 20th-century office buildings. Flag International occupies an office at 150 Jolimont Road for their Australian headquarters. Jolimont is not noted for its shopping opportunities, although there are shops near the Hilton Hotel in Wellington Parade, and the area is close to the discount factory outlets in Bridge Road.</p></div>
+</body>
+</text></TEI>

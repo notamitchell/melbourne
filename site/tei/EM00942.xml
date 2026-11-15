@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Girls Grammar School</title>
+<author>Peter Sherlock</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00942</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Melbourne's oldest and most prominent Anglican independent school for girls was privately founded as Merton Hall in 1893 by Emily Hensley and Alice Taylor. In 1898 the school was purchased by the Morris family and in 1900 moved to its present site in Anderson Street, South Yarra. In 1903, after 20 years of debate on Anglican education for girls, the Church of England took responsibility for the school. From 1916 to 1938 the educational ideals of headmistress Kathleen Gilman Jones promoted vocational training beyond social conventions. Her successor, the charismatic Dorothy Ross, implemented co-operative models of learning expressed most notably in democratic student participation throughout the school. A crisis of ethos developed after Ross' retirement in 1955, culminating in resignations and public controversy in 1958 during Edith Mountain's first year as headmistress. The impact of the baby boom and changes in women's opportunities drove a major expansion of school facilities in the 1960s, including construction of a science laboratory, library and chapel. Since the 1980s the school has enrolled up to 900 students each year, and in the 1990s recommitted itself to the principle of single-sex education.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000533" type="edited-book"><author>McCarthy, Rosslyn, and Marjorie R. Theobald</author> <title level="m">Melbourne Girls Grammar School centenary essays 1893-1993</title> <pubPlace>Melbourne</pubPlace> <publisher>Hyland House</publisher> <date>1993</date></bibl></listBibl></div></back>
+</text></TEI>

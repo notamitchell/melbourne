@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Judiciary</title>
+<author>John Harber Phillips</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00784</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The judiciary of Victoria comprises the judges of the Supreme and County courts. From 1843 Supreme Court proceedings were conducted by a judge of the Supreme Court of New South Wales in a building on the corner of La Trobe and Russell streets. The Supreme Court of Victoria was established on this site in 1852 and Lieutenant-Governor La Trobe appointed William à Beckett as Chief Justice, and Redmond Barry and Edward Williams as judges. This building housed the trials of the men charged with high treason after the Eureka Stockade and bushranger Ned Kelly in 1880. On 1 February 1884 a new Supreme Court building was opened in William Street. The court now consists of 31 judges including 11 judges of an Appeal Division. It is a superior court of record having general jurisdiction in Victoria. In practice, its criminal jurisdiction involves charges of murder and other grave crimes.</p>
+<p>The County Court was established in 1852 with a civil jurisdiction with a limit of £50. The original judges had jurisdiction in various parts of the colony but in 1857 each judge was given jurisdiction over the whole of Victoria. In 1968 the considerable criminal jurisdiction of the Court of General Sessions was conferred on the County Court (the County Court judges had hitherto acted as Chairman of General Sessions). The present civil jurisdictional limit is $200 000 but the Court can exercise unlimited jurisdiction if the parties agree. There are now 58 judges, two of whom are Deputy Presidents of the Victorian Civil and Administrative Tribunal. As with the Supreme Court, the judges sit to hear cases in Melbourne and in a number of provincial cities.</p></div>
+</body>
+</text></TEI>

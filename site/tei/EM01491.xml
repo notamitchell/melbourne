@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Thornbury</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01491</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Thornbury</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3071, 7 km NE, Darebin City)</p>
+<p>This residential locality stretches from Merri Creek in the west to Darebin Creek in the east, with commercial activity centred around High Street. Thomas Ritchie's section in the Parish of Jika Jika, purchased at land sales in 1839, made up most of the present-day area of Thornbury and included rich ground with a frontage to Merri Creek. Attempts at subdivision in the 1850s fetched disappointing prices, and much of the land in the area was eventually purchased by Job Smith and named after his English birthplace. Smith farmed the area until the 1880s, reaping substantial profits when Thornbury Park formed a section of land boom subdivision at Northcote. Development in the area was greatly facilitated by the construction of a vehicular bridge over Merri Creek at St George's Road (1886). Local dissatisfaction with perceived municipal neglect and the cost of private street-construction led to an unsuccessful attempt to create a new Borough of Thornbury in 1904. Further residential subdivision took place in 1911-13, a state school opened in 1915, and by World War I a cluster of shops had consolidated on High Street. Between 1981 and 1996 Thornbury's unemployment rate nearly doubled while its population fell by 10.8%. In 1996 overseas-born residents accounted for 40% of the population, the majority Italian, Greek and Chinese. In the late 1990s Thornbury's predominantly double-fronted weatherboard Californian bungalows were in demand as an alternative to more expensive real estate in the southern parts of Northcote.</p></div>
+</body>
+</text></TEI>

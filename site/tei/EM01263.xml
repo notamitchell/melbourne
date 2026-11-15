@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Rotary Club of Melbourne</title>
+<author>Gillian Hibbins</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01263</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Australia's first Rotary Club was chartered in Melbourne on 21 April 1921. Club member Sir Angus Mitchell was president of Rotary International in 1948-49, and the club hosted the 1993 Rotary International Convention. Rotary built the Claremont Home for the elderly and a day care centre at the Kew Mental Hospital. Other beneficiaries of its philanthropy and service have included the Boy Scouts, the Baker Medical Institute, the Royal Children's Hospital, International House, the Lifeline telephone counselling service, the Crossroads Youth Service, the Australian Childhood Foundation, and health-care programs in Vietnam and other parts of South-East Asia. The club regularly provides scholarships for both overseas and Australian students. It established and maintains Rotary Park in South Yarra.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000070" type="book"><author>Parnaby, Owen</author> <title level="m">Australia's first Rotary Club: a history of the Rotary Club of Melbourne</title> <pubPlace>Melbourne</pubPlace> <publisher>Melbourne University Press</publisher> <date>2002</date></bibl></listBibl></div></back>
+</text></TEI>

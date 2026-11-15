@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ozanam House</title>
+<author>Kim Torney</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01105</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This accommodation facility began offering crisis care to homeless men from a temporary shelter established in 1953 in Flemington Road, North Melbourne. Two years later the new Ozanam House was completed, providing 60-bed accommodation. The shelter was named for Frédéric Ozanam, founder of its managing body, the Society of St Vincent de Paul, which had a long history of care for the Melbourne homeless, beginning in Fitzroy in 1887. Many of the men who sought shelter at Ozanam House were heavy drinkers, and the government policy of deinstitutionalisation in the late 1960s saw an increase in the number of psychiatrically disturbed men seeking housing. In an attempt to meet demand, extensions were made to Ozanam House in the 1970s, including the purchase of adjoining properties which operated as 'dry' houses. By 1987 Ozanam House provided nightly accommodation for 180 men. In response to changes in government assistance for homeless persons, Ozanam House closed for redevelopment in 1994, reopening in 1996 with 60 crisis beds. As well as accommodation, Ozanam House provides meals and support for homeless men in other types of temporary housing.</p></div>
+</body>
+</text></TEI>

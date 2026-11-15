@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Princes Park</title>
+<author>Rob Hess</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01192</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02024.xml"><desc>Beyond The Ocean Of Existence</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02137.xml"><desc>Reynold's Reserve Drinking Fountain</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02129.xml"><desc>Within Three Worlds</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Proclaimed in 1854, Princes Park, which encompasses the Carlton Recreation Ground, became the home of the Carlton Football Club and the Carlton Cricket Club in 1864. Now 40 ha in area, the northern section of the park was initially swamp land, and some parts were used as a rubbish tip before 1897, when Carlton's desire for an enclosed football ground resulted in hasty improvements to the amenities in readiness for the first season of tenancy. A small stand opened in 1900, and further facilities for spectators were constructed in the 1930s. Victorian Football League Grand Finals were played at the venue in 1942, 1943 and 1945, the latter match a particularly violent affair, attracting a record attendance of 62 986. Princes Park hosted Sheffield Shield cricket in the 1945/46 season, and reconstruction of the oval and playing surface took place at the end of the decade.</p>
+<p>While a redeveloped Princes Park had originally been announced as the main stadium for the 1956 Olympic Games, the Melbourne Cricket Ground was ultimately the key venue. Few improvements were made until the late 1960s, when the George H. Harris stand was opened. South Melbourne, Fitzroy, Hawthorn and the Western Bulldogs football clubs have all reluctantly shared tenancy at Princes Park at one time or another. Further construction plans, championed by the then Carlton Football Club president John Elliott, met with strong opposition from local residents, and while the increasing use of the facility for sports such as gridiron, Rugby League, test-match cricket and soccer, as well as for opera, has been important for the economic viability of the ground, the more passive recreational needs of park-users have been downplayed. The 'renaming' of the ground as 'Optus Oval' in 1994 was a particularly divisive decision, reflecting growing community concern over commercial use of public parks.</p></div>
+</body>
+</text></TEI>

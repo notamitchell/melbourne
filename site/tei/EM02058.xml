@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Captain Matthew Flinders Statue</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02058</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01315.xml"><desc>St Paul's Cathedral</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Sculptor Charles Web Gilbert; founder F. Barbedienne Bronze statue with granite plinth 1923 St Paul's Cathedral, Swanston Street</p>
+<p>Charles Web Gilbert was born in 1867 near Cockatoo, in Victoria. At a young age he became a pastry cook, modelling cake decorations. He later studied at the National Gallery Art School, but had no formal training in sculpture. Gilbert travelled to England at the outbreak of World War I, and shortly after to France, where he made battlefield models for the Australian Imperial Force. Returning to Australia, he worked for the Australian War Memorial, and later undertook many commemorative commissions. The Flinders monument is Gilbert's best-known work and has been particularly admired for the use of the boat as the statue's base.</p>
+<p>Flinders gained acclaim for establishing the strait between mainland Australia and Tasmania in 1798. Over 1801-03, he mapped the coast of Australia, completed against great odds, and was the first cartographer to use 'Australia' on maps, rather than 'New Holland'. On the Flinders' Statue Fund collecting card, Professor Ernest Scott wrote: 'amongst the seamen who habitually traverse these coasts, no name, not even that of Cook, is so deeply esteemed as his'.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000091"><head>Captain Matthew Flinders Statue</head><graphic url="../objects/images/CaptainMatthewFlinders.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_CaptainMatthewFlinders.jpg"/><p>Sculptor Charles Web Gilbert; founder F. Barbedienne 1923</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

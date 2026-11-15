@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Port Phillip Monument</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02136</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="place" active="#subject" passive="EM00594.xml"><desc>Footscray</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00602.xml"><desc>Foundation and Early History</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00900.xml"><desc>Maribyrnong River</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01663.xml"><desc>Yarra River</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Artist unknown Sandstone monument 1941 Shepherd Bridge, Footscray</p>
+<p>This sandstone monument was erected in 1941 to commemorate the first landing of Europeans in the Melbourne area. It is positioned at the original junction of the Yarra and Maribyrnong Rivers, the two waterways explored by Charles Grimes in 1803, when he arrived from Sydney. While it is commonly believed that John Batman first extolled the virtues of site of Melbourne, some 32 years earlier Grimes made the claim that it was 'the most eligible place for a village'.</p>
+<p>We don't recommend that you read the wordy plaque for accuracy, though: '... These rivers were originally discovered by Charles Edmond Grimes/ in February 1808 and re-found by John Batman in 1836./ Port Phillip was discovered by John Murray in the Lady Nelson in February 1802. The first vessel in Hobson's Bay was the Cumberland/ with Grimes the surveyor. The first man o'war was the Calcutta./ At the end of the same year 1903, the first vessel to ascend the Yarra was John P. Fawkner's Enterprise'.</p>
+<p>Claude Smith, a keen local historian and Footscray councillor, proposed the monument in 1937. He maintained that had the Maribyrnong been a freshwater rather than a saltwater stream, the site of Footscray would have been the state's capital.</p></div>
+</body>
+</text></TEI>

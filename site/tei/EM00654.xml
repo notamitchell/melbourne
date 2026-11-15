@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Golf</title>
+<author>June Senyard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00654</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The number and variety of golf courses in Melbourne testify to the popularity of the game. In 1847 Scot James Graham began playing golf with friends in Melbourne, hitting their 'featheries' in the Flagstaff Gardens. Golf was formally organised on 22 May 1891 when the (Royal) Melbourne Golf Club was established at a meeting at Scots Hotel, with the official opening taking place on land close to the Caulfield railway station in early July. The Club received its 'Royal' charter in 1895.</p>
+<p>Other clubs soon formed at Surrey Hills (later Riversdale), Glenroy (later Northern), Kew, Heidelberg and Williamstown and golf course architects, like the noted Alister Mackenzie who laid out Royal Melbourne's west course, shaped distinctive sites. At all clubs, attention to the amenities of the clubhouse reinforced the hospitality associated with the nineteenth hole, and caddies underlined golf's leisurely style. Australia's first professional, Richard Taylor, from Hoylake, Scotland, was appointed to Royal Melbourne in 1891 to provide equipment for players and instruct them in the game.</p>
+<p>Women were playing at Royal Melbourne in 1892 but, as associate members, had no voting rights and were not allowed to play on Wednesday and Saturday afternoons or public holidays, a restriction on women golfers at most clubs that remained until the passage of equal opportunity legislation in 1984.</p>
+<p>The Australian Amateur Championship (1894) and the Victorian Amateur Championship (1899) and the pennant competition (1899) were regarded as the highlights of the annual calendar. Although the Australian Open, which began in 1904, was open to amateurs and professionals, it was the 1930s before golf professionals acquired a positive public profile. Professionals brought excitement to the game. Joe Kirkwood, the 19-year-old professional appointed at Riversdale in 1916, established course records at Riversdale (65), Metropolitan (66) and Royal Melbourne (70). After World War I Kirkwood moved to the USA, returning to Melbourne for a brief promotional tour in 1930. The £3000 purse for the 1934 Centenary Open tournament held at Metropolitan attracted a number of American professional players, including Gene Sarazen, and crowds of over 4000. Returning in 1936 Sarazen won the Australian Open, also at Metropolitan.</p>
+<p>Public golf courses like the City of Melbourne's Royal Park, established in 1903, and the 18-hole Yarra Bend golf course, completed under an unemployment relief scheme in the 1930s, made the sport more accessible. Peter Thomson, who began playing at Royal Park in the 1940s, turned professional in 1949 and went on to win five British Opens and three Australian Opens.</p>
+<p>Golf came to television in 1961 when a charity exhibition between Peter Thomson, Kel Nagle, Arnold Palmer and Gary Player was broadcast live by Channel GTV9. Scheduled programs were cancelled to keep running the match. Increasingly, Melbourne's golfers have accepted their sport as an international game with lucrative overseas events that attract the elite male, and, to a lesser extent, the elite female, player, with Melbourne's courses occasional venues on the world circuit.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000026" type="book"><author>Mansfield, G.</author> <title level="m">A history of golf in Victoria</title> <pubPlace>Melbourne</pubPlace> <publisher>Victorian Golf Association</publisher> <date>1987</date></bibl></listBibl></div></back>
+</text></TEI>

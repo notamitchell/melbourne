@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Young &amp; Jackson Hotel</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01672</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>One of Australia's most famous hotels stands at the north-west corner of Swanston and Flinders streets on part of the block originally purchased by John Batman in 1837 for £100. Part of the allotment was purchased by Henry Jennings in 1852. By 1853 a three-storey bluestone building had been constructed on the site, occupied on the ground floor by butcher James Graham. On 1 July 1861 John P. Toohey opened the Princes Bridge Hotel. The licence was subsequently transferred to James Hogan (1862) and Joshua Roberts Mooney (1866), and in 1875 taken over by Henry Figsby Young (1845-1925) and Thomas Joshua Jackson (1834-1901). The Dublin-born pair had previously held the license of the Sparrow's Hotel in St Kilda. In 1914 Young sold his interests in the hotel to Stephen Morell. Marcel Gilbert purchased the hotel in 1979 for $1 680 000, undertaking extensive renovations, and in 1986 it was purchased by the brewery division of the Bond Corporation. Australian Leisure and Hospitality bought the hotel in 1998. While the building itself has undergone many generations of alterations and extensions, it remains one of Melbourne's principal landmarks at the city's southern gateway. The controversial painting of <hi rend="italic">Chloe</hi> was installed in the hotel's saloon bar in 1908, and the building has long been associated with the electric sky-signs above its façade. In the decades following World War II, Dante Triaca conducted a restaurant at 'Number One Swanston Street'.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000624" type="journal-article"><author>Schumer, Leslie A.</author> <title level="a">Young and Jackson's</title> <title level="m">RHSV Journal</title> <date>1983</date> <biblScope unit="page">41-5</biblScope></bibl></listBibl></div></back>
+</text></TEI>

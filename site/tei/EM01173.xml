@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Post Master Gallery</title>
+<author>Richard Breckon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01173</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located at 321 Exhibition Street, the Post Master Gallery features exhibitions of items from Australia Post's National Philatelic Collection. The collection contains original artwork, printed proofs, stamp sheets and postal stationery of the Australian Commonwealth and colonial eras. Since the 1950s a practice has been followed of retaining all artwork and proofs relating to the development of each stamp design. The acquisition of the Ray Chapman Collection of Australian Commonwealth stamps (1901-65) by Australia Post in 1986 greatly enhanced the scope of the National Philatelic Collection. The collection also contains worldwide stamps from the late 19th century up to the present day, as distributed by the Universal Postal Union to all the world's postal administrations.</p></div>
+</body>
+</text></TEI>

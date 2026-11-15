@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mernda</title>
+<author>Gwynedd Hunter-Payne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00968</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Mernda</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3754, 26 km N, Whittlesea)</p>
+<p>Situated at the northern extreme of the Plenty Gorge, Mernda was initially called Morang. An early landmark, the Bridge Inn, with adjacent land, was purchased by Moses Thomas in 1852. Thomas opened one of three flour mills on the Plenty River, using locally grown wheat. The settlement had its heyday during construction of the Yan Yean Reservoir (1853-57). To capitalise on tourism the name was changed to South Yan Yean then later, Mernda (perhaps from the Aboriginal word <hi rend="italic">merndi</hi> meaning 'earth'). Plenty Road was rerouted to bypass the town and avoid railway crossings when the link to Whittlesea was built in the 1890s. Although it remains rural, with a weekly stock and general market that has operated adjacent to the hotel for more than a century, it is now zoned for housing development. The failed 19th-century closer settlement, Separation, lies to the immediate west.</p></div>
+</body>
+</text></TEI>

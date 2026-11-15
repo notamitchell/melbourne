@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Point Cook</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01150</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Point Cook</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3030, 19 km SW, Wyndham City)</p>
+<p>Point Cook was named after Lieutenant John Murray Cooke of HMS <hi rend="italic">Rattlesnake</hi>, which visited Port Phillip Bay in 1837. It was the location of William Taylor's pastoral station in 1849, but by 1852 Thomas Chirnside had added this area to his rapidly consolidating property in the Werribee district. The Point Cook property remained in Chirnside hands until 1920. They lived at Point Cook homestead until they built Werribee Park mansion in 1875, and it was at Point Cook that they bred and trained racehorses and hunted deer and other game. A part was sold to the Commonwealth Government in 1914 for use as Australia's first pilot-training school, and in 1921 became the site of a Royal Australian Air Force (RAAF) cadet-training scheme and, after World War II, an RAAF college, later called an academy. In 1985 the academy moved to Canberra, although some RAAF facilities remain at Point Cook, along with the RAAF museum. The National Air and Space Museum of Australia has been based at Point Cook since the late 1990s.</p>
+<p>The nucleus of the Point Cook estate remained as a pastoral property, in the hands of a series of owners, until 1978, when it passed to the Melbourne and Metropolitan Board of Works to develop as a coastal park. In 1924 Cheetham Saltworks Pty Ltd bought the northern part of the property for the manufacture of salt in artificial evaporative lakes. The lakes, which were significant wetlands bird habitats, were handed over to Melbourne Parks and Waterways, and the remainder of Cheetham's land was subdivided for housing, a country club and a golf course.</p></div>
+</body>
+</text></TEI>

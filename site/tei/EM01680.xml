@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="concept" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>ACDC Lane</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01680</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-07-02" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01257.xml"><desc>Rock Music</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01673.xml"><desc>Young Men's Christian Association</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>ACDC Lane was named in honour of the Australian rock band AC/DC in October 2004, at a ceremony featuring prominent members of the Australian music scene and a bagpipe tribute to the song 'It's a long way to the top'. Christening the lane, Lord Mayor John So proclaimed: 'As the song says, there is a highway to hell, but this is a laneway to heaven. Let us rock'.</p>
+<p>MMBW plans from 1895 show an unnamed, pitched lane off Flinders Lane between Russell and Exhibition streets, where ACDC Lane now stands. At the turn of the twentieth century, the lane was surrounded by residences, sheds and other buildings, all of which had vast cellars below street level. By 1915 the name Corporation Lane had been adopted, probably for the Corporation Yard just east of the lane, opposite the Flinders Hotel. In 1920, Corporation Lane housed the YMCA's military stores.</p>
+<p>In 2008, ACDC Lane contained cafés, restaurants and clubs as well as an installation by Lou Weis and Jan Van Schaik called 'Over Logo', and numerous other works of street art. An electrical fire in June 2008 caused some damage to the buildings of ACDC Lane, including the rock 'n' roll club 'Cherry Bar', but just two days later, the laneway hosted an all-ages rock concert amongst the scorched buildings.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000627" type="article"><author>Tom Arup</author> <title level="a">Iconic Bar damaged, offices gutted in fire</title> <title level="m">The Age</title> <date>2008</date> <ref target="http://www.theage.com.au/national/iconic-bar-damaged-offices-gutted-in-fire-20080606-2mhg.html">online</ref></bibl><bibl xml:id="PEM000628" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1860</date></bibl><bibl xml:id="PEM000626" type="newspaper-article"><title level="a">Highway to hell ends in laneway</title> <title level="m">Herald Sun</title> <date>2004</date> <biblScope unit="page">8</biblScope></bibl></listBibl></div></back>
+</text></TEI>

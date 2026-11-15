@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Macedonians</title>
+<author>Peter M. Hill</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00879</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Melbourne has the largest and most varied Macedonian community of any Australian city, with some 50 000 Macedonians of various generations. The earliest arrivals, predominantly from Aegean Macedonia (Northern Greece), gravitated towards Melbourne in the 1930s, 1940s and 1950s, settling in inner-city suburbs such as Fitzroy. Later many brought out their families and moved north to Preston and Lalor. Beginning in the 1960s many Macedonians arrived from the former Yugoslavia, settling mainly in the western suburbs. There is also an old Aegean-Macedonian community in Werribee.</p>
+<p>The Macedonians established their first support systems in Fitzroy with cafés in Gertrude Street, and Exhibition Street in the city. There was a branch of the Macedonian Patriotic Organisation (MPO) in Royal Lane from 1934, and the Macedonian-Australian People's League (MAPL) held its first federal conference in Melbourne in 1947. In recent years the Macedonians have established modern community centres in Epping, Sunshine and Springvale. The Federation of Macedonian Associations in Victoria (FOMAV) won the best float award at the Moomba Parade in 1990.</p>
+<p>The Macedonian Church of Saints Cyril and Methodius (established 1950) was in Young Street, Fitzroy. Later the church acquired a former Anglican church in Bayview Street, Northcote. The first parish of the Macedonian Orthodox Church outside the homeland, St George's, also in Young Street, was consecrated in 1960. The traditional St Clement's Day picnic is held at the Macedonian monastery in Kinglake.</p>
+<p>The Preston Lions Soccer Club, founded in 1949, was known before 1994 as Preston Makedonia. In the early decades of immigration, enthusiasts staged plays and reviews, such as Anton Panov's classic <hi rend="italic">Pechalbari</hi> in Melbourne in 1958. There are now a number of very active Macedonian theatre groups, such as the Australian-Macedonian Drama Group (1984) and Boomerang (1991).</p>
+<p>The first Macedonian newspaper in Australia was <hi rend="italic">Makedonska Iskra</hi> ('Macedonian Spark'), published initially in Perth in 1946, and from 1953 in Melbourne. The <hi rend="italic">Macedonian Weekly Herald</hi> was established in 1982 in Melbourne. The <hi rend="italic">Australian-Macedonian Weekly</hi> (founded 1985) and the bi-weekly <hi rend="italic">Today Denes</hi> (founded 1992) circulate in Melbourne.</p></div>
+</body>
+</text></TEI>

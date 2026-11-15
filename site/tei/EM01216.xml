@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Queen Victoria Medical Centre</title>
+<author>Emma Russell</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01216</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01683.xml"><desc>Albert Coates Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01751.xml"><desc>Constance Stone Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01914.xml"><desc>Mint Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01951.xml"><desc>Red Cape Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01970.xml"><desc>Shilling Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established in 1896 as the Victoria Hospital for Women and Children, the 'Queen Vic' was one of only three hospitals worldwide founded, managed and staffed by women. Opening as a clinic in the hall of St David's Welsh Church, La Trobe Street, it aimed to become a hospital 'For Women, By Women', serving poor women who were uncomfortable about having to see a male doctor. Despite disapproval and scorn from influential friends, colleagues and some members of the public, this radical venture of the eleven female founding doctors, led by Dr Constance Stone, received considerable support. Funded by an appeal to coincide with the Queen's Diamond Jubilee, within three years the clinic was able to purchase the old Governess' Institute in Mint Place. Initially known as the Queen Victoria Hospital for Women and Children, it became the Queen Victoria Memorial Hospital when the Queen died.</p>
+<p>Under the guidance of its longest serving president, (Dame) Mabel Brookes, elected in 1924, the 'Queen Vic' expanded, opening the Jessie McPherson Community Hospital in 1931 and moving in 1946 into premises recently vacated by the Royal Melbourne Hospital. In 1965 it became the new Monash University's teaching hospital for obstetrics, gynaecology and paediatrics. The hospital changed from being 'For Women, By Women' to a 'Family Hospital', treating male patients and employing male medical personnel. It was in the hospital's Department of Obstetrics and Gynaecology, headed by Professor Carl Wood, that Australia's successful in vitro fertilisation research and treatment program was initiated.</p>
+<p>In 1977 the hospital amalgamated with McCulloch House in Caulfield and was renamed the Queen Victoria Medical Centre. Ten years later the centre moved to Clayton to merge with the Moorabbin Hospital and, in 1991, Prince Henry's Hospital to form the Monash Medical Centre.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Lutheranism</title>
+<author>Charles Meyer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00869</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Protestant belief associated with Martin Luther was established in South Australia in 1839 by German 'Old Lutherans' escaping religious persecution in Prussia. Melbourne Lutheranism began ten years later with the arrival of around 900 mainly Protestant Germans. By 1853, when Pastor Matthias Goethe from Sydney became the first permanent pastor in Melbourne, small Lutheran German farming communities had formed in Richmond, Doncaster, Thomastown and Berwick. In 1852 a site was granted for a church in present-day Parliament Place, East Melbourne. The original 1853 structure was replaced in 1874 by a bluestone church designed by Charles Blachmann, which houses a historic organ. The first metropolitan Lutheran day school started at the East Melbourne site in 1856, other congregations and schools opening in the late 1850s and 1860s in Bayswater and Doncaster. The oldest surviving Lutheran church in Victoria, built in 1856, is part of a historic collection of buildings at Thomastown (Westgarthtown).</p>
+<p>Doctrinal bickering with the South Australian Evangelical Lutheran Synod of Australia (ELSA) led to the establishment in 1856 of the Evangelical Lutheran Synod of Victoria (ELSVic), with Pastor Goethe as head. The 1861 census details 10 500 Germans for Victoria, the majority in Melbourne, mostly Lutheran. Despite an influx of ELSA members from South Australia into south-west and north-west Victoria from the early 1870s, ELSVic remained strongest in Melbourne and Geelong.</p>
+<p>Lutherans suffered during the anti-German hysteria of World War I, with internments and loss of jobs. Despite Church representations to the federal government, German was forbidden in church services and newspapers until well after the war. It was several decades before the Lutheran Church in Australia and German-Australians in general recovered socially and economically. There was renewed hardship for German-Australians during World War II, but government encouragement of European emigration after 1945 resulted in Lutheran congregations from several ethnic groups (Dutch, Latvian, Chinese, Slovak, Finnish). Lutheran primary and secondary schools opened from the 1960s. Communicant Lutherans number 3593, spread over 25 Melbourne congregations (1998). Synod union in 1966 was a major step forward.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000452" type="book"><author>Brauer, A.</author> <title level="m">Under the Southern Cross: History of Evangelical Lutheran Church of Australia</title> <pubPlace>Adelaide</pubPlace> <publisher>Lutheran Publishing House</publisher> <date>1956</date></bibl></listBibl></div></back>
+</text></TEI>

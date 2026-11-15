@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="person" subtype="person" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Hodges, Henry Edward Agincourt</title>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02678</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Henry Edward Agincourt</forename> <surname>Hodges</surname></persName><sex value="1"/><birth when="1844-10-14">14 October 1844, <placeName>Liverpool</placeName></birth><death when="1919-08-08">8 August 1919, <placeName>Macedon</placeName></death><occupation>judge</occupation></person></listPerson></standOff>
+<text><body>
+<div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000255" type="book"><author>Grant, James</author> <title level="m">Perspective of a century: a volume for the centenary of Trinity College, Melbourne, 1872-1972</title> <pubPlace>Melbourne</pubPlace> <publisher>Council of Trinity College</publisher> <date>1972</date></bibl><bibl xml:id="PEM002055" type="book"><author>Wilmot, R. W. E.</author> <title level="m">Liber Melburniensis, 1858-1914 : A History of the Church of England Grammar School, Melbourne</title> <pubPlace>Melbourne</pubPlace> <publisher>Arbuckle, Waddell &amp; Fawckner</publisher> <date>1914</date></bibl><bibl xml:id="PEM001286" type="resource-section"><author>Young, J. McI.</author> <title level="a">Hodges, Henry Edward Agincourt (1844-1919)</title> <title level="m">Australian Dictionary of Biography, online edition</title> <publisher>Australian National University</publisher> <date>2006</date> <ref target="http://www.adb.online.anu.edu.au/biogs/A090327b.htm">online</ref></bibl></listBibl></div></back>
+</text></TEI>

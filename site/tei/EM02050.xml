@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>John F. Kennedy Memorial</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02050</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01513.xml"><desc>Treasury Gardens</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Raymond B. Ewers Bronze bas-relief head set in granite boulder on landscaped site 1965 Treasury Gardens</p>
+<p>Raymond B. Ewers was born in 1917 in Wyalong, NSW. He was educated in Victoria before assisting William Leslie Bowles on Melbourne's King George V and Sir John Monash Memorials. An official war artist, Ewers produced many fine memorials in the wake of the war, including the Drouin War Memorial, the Kakoda Memorial in Papua New Guinea and the Sir Thomas Blamey Memorial in Melbourne.</p>
+<p>Following the 1963 assassination of John F. Kennedy, Ewers was commissioned to cast a bronze portrait of the former US president. This was set in a granite boulder and sited in the tranquil Japanese Gardens within Treasury Gardens. The superintendent of Parks &amp; Gardens and the city architect were responsible for site design and installation, which included remodelling the ornamental lake and building a bridge to the island where the monument would form the centrepiece. A paved area and a bronze flagpole were added, with the intention of reflecting Kennedy's final resting place at Arlington.</p>
+<p>John Fitzgerald Kennedy was something of a new breed of US politician. Born to a wealthy family with political pedigree, he was the youngest man ever elected president, and he brought vibrancy to government that gave hope to many around the world. Kennedy was sworn in as president in January 1961, calling his campaign 'The New Frontier'. Besides averting a nuclear war with the Soviets over the 1962 Cuban missile crisis, his administration spearheaded many progressive causes. While riding in an open-top limousine through the streets of Dallas, Texas, Kennedy was shot and killed by Lee Harvey Oswald on 22 November 1963.</p>
+<p>Memorials to prominent British figures attest to Australia's links with Empire, but this is particularly significant for being a rare monument to an American. One of the memorial's plaques reads: 'This memorial signifies the grateful recognition/ by the citizens of this city for the service/ given by John F. Kennedy/ as President of the United States of America/ 1961-1963'.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000075"><head>John F. Kennedy Memorial</head><graphic url="../objects/images/JohnFKennedy01.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_JohnFKennedy01.jpg"/><p>Raymond B. Ewers 1965</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

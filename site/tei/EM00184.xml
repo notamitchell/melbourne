@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bentleigh</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00184</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Bentleigh</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3204, 14 km SE, Glen Eira City)</p>
+<p>A mainly residential suburb located between South Road and the Nepean Highway, with significant retail areas along Centre Road and South Road. Bentleigh East is situated between North and South roads, with Warrigal Highway to the east, and contains the Yarra Yarra Golf Club in its south-east corner. Originally forming part of Henry Dendy's 1841 Brighton Special Survey, by the 1850s this district featured market gardens clustered around the beginnings of a village called East Brighton. One market gardener, Thomas Bent, became a prominent landowner, MLA, and Brighton and Moorabbin councillor. East Brighton station was opened in 1881, when Bent was Minister for Railways. A year before he died in 1909, the station was renamed Bentleigh in his honour. By the 1920s local industries included bone mills, brickworks and poultry farms. In the next decade, some market gardeners began subdividing their properties for housing estates, making Bentleigh the first part of the Shire of Moorabbin to start the transition to suburbia. After World War II, Bentleigh was one of the first of Melbourne's suburbs to establish a private club, the Bentleigh Club, where members could avoid the hazards of the six o'clock swill and legally enjoy a drink after hotel closing hours.</p></div>
+</body>
+</text></TEI>

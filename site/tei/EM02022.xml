@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Apollo Belvedere</title>
+<author>City of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02022</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-25" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-02-20" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><list type="gloss"><label>Artist:</label><item>Artist unknown</item><label>Media:</label><item>Marble and granite bust</item><label>Created:</label><item>date unknown</item><label>Location:</label><item>Queen Victoria Gardens</item></list>
+<p>This marble bust is a replica of that found in Rome's Vatican Museum. Known as the Greek god of the sun, Apollo would harness four horses to his chariot each day to drive the sun across the sky. In art, the youthful Apollo is traditionally seen as the epitome of beauty, but this god also has associations with music, prophecy and medicine. Belvedere Apollo was donated to the city by well-known solicitor, politician, newspaper proprietor and educationist Theodore Fink. He acquired the bust and a replica of the Farnex Hercules for the people of Victoria when he was visiting Rome. The works were sited at the main entrance to Victoria gardens when they were unveiled in 1928; their location was slightly altered when Alexandra Avenue was lowered to pass beneath St Kilda Road. Fink's donation marked the end of a tradition of placing copies of classical statuary in Melbourne's public gardens, a practice that took hold in the 1860s and lasted into the early decades of the 20th century.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000017"><head>Apollo Belvedere</head><graphic url="../objects/images/ApolloBelvedere.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_ApolloBelvedere.jpg"/><p>Artist unknown (image by City of Melbourne)</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mont Albert</title>
+<author>Andrew Lemon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00995</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Mont Albert</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3127, 13 km E, Whitehorse City, Boroondara City)</p>
+<p>A garden suburb straddling two municipalities, Mont Albert grew from a railway station (1890) on the Lilydale line. Enthusiasts established Melbourne's second golf club there (1892-1907). Despite initial land speculation and building, open spaces prevailed until between 1900 and 1916 when Mont Albert experienced its major housing construction. Shops built in Hamilton Street 1912-13 became a focal point. The Kew to Union Road electric tram extension (1916) encouraged housing north of Whitehorse Road. A handsome central school opened in 1917. Mont Albert North (3129) is bounded by Koonung Creek and Elgar Road. Mature trees and gardens remain a feature, but large blocks proved a lure for unsympathetic development later in the 20th century.</p></div>
+</body>
+</text></TEI>

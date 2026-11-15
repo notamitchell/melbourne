@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Council for Aboriginal Rights</title>
+<author>Sue Taffe</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00409</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00001.xml"><desc>Aboriginal Melbourne</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Throughout its 30-year history the Council for Aboriginal Rights attracted a diverse membership, representing churches, trade unions, peace groups and political parties, linked by its charter to attract 'the widest possible support for a campaign to obtain justice for all Aboriginal Australians'. The council was formed in Melbourne in 1951 in response to an Aboriginal workers' strike in Darwin against wage discrimination. Unlike other organisations concerned with Aboriginal disadvantage at this time, it was not welfare-based, seeking instead social and political solutions to the economic and political discrimination that Aboriginal Australians faced. By the late 1950s the Council for Aboriginal Rights had established alliances with similarly concerned individuals and organisations in Australia, and abroad such as the London-based Anti-Slavery Society. Although religious organisations were affiliated in the early years, by 1960 most had withdrawn, leaving a nucleus of left-wing activists adept at researching and addressing the political causes of Aboriginal disadvantage. The council lobbied governments, wrote and disseminated pamphlets and conducted meetings to educate the public about discrimination against Aboriginal people.</p>
+<p>Honorary secretary Shirley Andrews was instrumental in moves to form the Federal Council for Aboriginal Advancement in 1958, with which the Council for Aboriginal Rights was affiliated. The council addressed issues of discrimination on a national scale, campaigning for the extension of social service payments to Aboriginal people, equal wages and the 1967 referendum which gave the Commonwealth power to legislate on Aboriginal affairs. Long-serving executive members President Barry Christophers and Shirley Andrews recognised that community consciousness of Aboriginal disadvantage needed to be roused if their campaigns were to succeed. Their letters to newspapers and press releases used well-known figures such as artist Albert Namatjira and actor Robert Tudawali to demonstrate that disadvantage was partly due to government policy. Margaret Tucker and Sir Douglas Nicholls were notable Aboriginal members, and with the threatened closure of the Lake Tyers Reserve in 1963, Pauline Pickford, who replaced Shirley Andrews as secretary, liaised with Tyers people, encouraging their active participation in the council.</p></div>
+</body>
+</text></TEI>

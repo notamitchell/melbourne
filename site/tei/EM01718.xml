@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Brogans Lane</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01718</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00338.xml"><desc>Chinese</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00834.xml"><desc>Larrikins</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01541.xml"><desc>Vagrancy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Brogans Lane was an infamous track off Little Bourke Street. It was not named, or at least was unnamed on maps, in 1895 and 1915, but was occupied by cabinetmakers Ah Jawl and Ah Tawt in 1900. Police records state that a Mary Wilson was charged with vagrancy in Brogans Lane on 9 December 1892. Wilson had accosted a young girl, Mary Glew, and taken her into Brogan's Lane where 'a bunch of larrikins' were loitering. Luckily, a man named Fisher living in Little Bourke Street knew that Wilson was 'a bad character' and called the police. The <hi rend="italic">Argus</hi> report of this incident affirmed that Brogan's Lane was 'inhabited by the lowest classes'. Around this time, poet Louis Esson drew a vibrant description of the lane in his poem of the same name.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000657" type="book"><author>Murdoch, Sir Walter</author> <title level="m">The Oxford book of Australasian verse</title> <pubPlace>London</pubPlace> <publisher>Oxford University Press</publisher> <date>1918</date></bibl><bibl xml:id="PEM000656" type="journal-article"><author>Sophie Couchman</author> <title level="a">Not so Mug Mugshots: Behind the portraits of series B6443</title> <title level="m">Crossings: bulletin of the International Australian Studies Association</title> <date>2004</date> <biblScope unit="page">2004</biblScope></bibl></listBibl></div></back>
+</text></TEI>

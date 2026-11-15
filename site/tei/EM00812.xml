@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Kooyong</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00812</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Kooyong</placeName></place></listPlace></standOff>
+<text><body>
+<div type="detail"><p>(3144, 6 km SE, Stonnington City)</p>
+<p>Kooyong is a small residential district best known as the site of the Lawn Tennis Association of Victoria's stadium and headquarters, established there in 1920. <hi rend="italic">Kooyongkoot</hi> meaning 'resting place' or 'haunt of the wild fowl', was the Aboriginal name for Gardiners Creek. George Stevenson's large mansion and estate, Glenferrie, dominated the area at the end of the 19th century. Chinese market gardeners worked here until the 1930s but Kooyong was gradually subdivided between 1900 and the 1930s and became an enclave of substantial, often architect-designed houses.</p></div>
+</body>
+</text></TEI>

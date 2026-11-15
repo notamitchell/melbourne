@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Housing and Urban Research Institute</title>
+<author>Mike Berry</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00123</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Australian Housing and Urban Research Institute (AHURI) is a collaborative national research organisation headquartered in Central Melbourne. Formally launched in July 1993, its applied research focuses on housing and urban development processes in Australia, and aims to understand better the forces at work in this field, to inform public policy debate and evaluate outcomes. The management company AHURI Ltd co-ordinates seven participating research centres across Australia, with funding from Commonwealth, State and Territory government grants, participating university research centres, and commercial research.</p></div>
+</body>
+</text></TEI>

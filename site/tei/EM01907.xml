@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Merlin Alley</title>
+<author>Patricia Mcmullan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01907</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01706.xml"><desc>Benjamin Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Merlin Alley is located off Little Bourke Street between William and Queen streets.</p>
+<p>Merlin Alley housed the businesses of a clothes cleaner, gunsmith and machinist in 1860. On 9 June 1893, John Clarke wrote to the City of Melbourne regarding the state of Merlin Alley, before it had received its current name:</p>
+<quote rend="block">the lane is only 110 ft, there is no dwelling houses or family tenants-the property is only partly occupied so that there is very little use made of the lane...in the meantime every care will be taken to prevent any nuisance or insanitary use being made of the lane.</quote>
+<p>In 1895, the alley contained cigar makers, various dealers and warehouses.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl><bibl xml:id="PEM000628" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1860</date></bibl></listBibl></div></back>
+</text></TEI>

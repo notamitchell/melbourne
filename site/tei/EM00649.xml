@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>My Melbourne</title>
+<author>John Cain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00649</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Throughout every phase of my life, Melbourne has been a part. A seat on top of a double-decker bus provided my first memories and views of Melbourne. In the bus, I was almost as high as most of the city's buildings. I could read the street names dedicated to our colonial past as the smoking smelly diesel bus laboured along Bourke Street. I thought every large city must have been like this with perfectly interesting streets.</p>
+<p>This bus ride from my home in Northcote took me through Collingwood and Fitzroy. Here I saw the factories, shops and warehouses of the traders and merchants that stood among the small cottages of their workers. But it was the places I was taken to that most impressed me - big old stone buildings - Parliament House, Melbourne Town Hall, the Trades Hall, the Museum, Art Gallery, the Shrine, shops, picture theatres, Botanic Gardens (with music on Sundays), Zoo, and speakers on the Yarra Bank.</p>
+<p>What I enjoyed most was a Saturday at the footy at the Melbourne Cricket Ground, to be part of what was our tribal suburban competition. It was so much bigger than the Collingwood and Fitzroy grounds, near where I lived, and you could see so much better.</p>
+<p>As a secondary school and university student I was to walk, work and socialise in Melbourne. City retail department stores provided my first vacation jobs, while Melbourne University made me aware of Royal Parade. Its tree-lined roads and adjacent sporting fields and parklands seemed to complement the freedom and sophistication of my new learning experience. The university seemed to us part of the city - 'down town' - but did not belong to it.</p>
+<p>The students' Melbourne was a place where we could be forthright about anything. We had a strong view on every public issue of the time. Debate and discussion were in the pubs and cafés in nearby Carlton, as well as the university cafeteria. Melbourne was, and remains, the place of radical politics and critical ideas.</p>
+<p>Study of the law made other grand buildings of our golden past - the State Library and Law Courts - part of my life. Work in a Melbourne lawyer's office showed me Melbourne of the city worker - walk in any direction and you find a leafy park in which to eat, walk, talk or just relax.</p>
+<p>As a lawyer and politician I saw the peaks and troughs as the postwar boom years made Melbourne a city of high-rise with an urban sprawl. I saw the best and worst as flair, initiative, sensitive planning and preservation, flamboyance, waste and greed - all played their part in determining the physical shape of our city, and the values of its citizens.</p>
+<p>At the same time, people from all over the world came and stayed, changing us and our culture forever. They became part of our lives in schools, workplaces and neighbourhoods, as well as in places of entertainment and culture.</p>
+<p>Melbourne is no longer the provincial town I grew up in, but now a worldly place in size and character, while still reflecting and complementing the people who love it.</p></div>
+</body>
+</text></TEI>

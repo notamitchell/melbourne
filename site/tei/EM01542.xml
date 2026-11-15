@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Vegemite</title>
+<author>Marian Quigley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01542</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>A sandwich spread developed from brewer's yeast by the chemist Dr Cyril Percy Callister at the Fred Walker Cheese Company (later the Kraft Walker Cheese Company) in 1922, Vegemite was first sold in 1923. Callister was awarded a DSc from the University of Melbourne for his research on the chemical makeup of Vegemite's British predecessor, Marmite. A plaque marking the site of Vegemite's discovery was unveiled at Kerferd Road, Albert Park, in 1980.</p>
+<p>The product's name was chosen from entries in a public competition. In an attempt to match the popularity of Marmite, Vegemite was briefly renamed Parwill (Vegemite's British predecessor) in 1928. Heavy promotion in 1935-36 helped it become a mass commodity. In 1939 Vegemite gained official product endorsement from the British Medical Association, and the Department of Supply ordered large supplies of the product for the armed forces during World War II.</p>
+<p>The advertising jingle 'Happy Little Vegemites' was first broadcast in 1954. A Vegemite Exhibition was staged at Sydney's Powerhouse Museum in 1991. The company now sells 22 million jars of Vegemite a year. Generally regarded as an Australian icon, Vegemite has been solely owned by American company Kraft since 1950. Kraft Foods Limited is located at 187 Todd Road, Fishermans Bend.</p></div>
+</body>
+</text></TEI>

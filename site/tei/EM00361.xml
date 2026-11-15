@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>My Melbourne: A Christmas Story</title>
+<author>Tony Birch</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00361</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>I lived in the inner suburb of Fitzroy when I was a kid. We were close to the city, so 'going to town' was something I did most weekends, walking to the Queen Victoria Market with my grandmother before window-shopping in town. I liked the crowds and noise of the city, particularly when Christmas loomed. The street decorations, the Myer windows, and the wish lists I created after visiting toy stores were a part of the Christmas experience.</p>
+<p>The familiarity of city streets was no more acutely felt than at the corner of Bourke and Swanston streets at Christmas time. Each year a department store that was located on the north-eastern corner of the intersection installed a gigantic Father Christmas that dominated the corner. His large black boots poked out from the awning that covered the entrance to the store, while the shoulders of his red suit were level with the roof-top several storeys above. This Father Christmas was completed with an enticing mechanical finger that drew the attention of adults and children alike.</p>
+<p>My first encounter with him was when I was about five. And for many years after that initial meeting, I would pester my grandmother to take me into town, to <hi rend="italic">that</hi> intersection to see him. And each year my grandmother would patiently explain to me that Father Christmas did not visit Melbourne in July, or October, or whenever it was that I demanded to see him. But each December he would arrive to renew his acquaintance with the children of Melbourne before leaving in early January. I would spend the next months wondering where it was that a giant Santa Claus went to during the cold months of a Melbourne winter.</p>
+<p>When I was a little older we moved from Fitzroy to Richmond, while my grandmother stayed behind. For the first time in my life I was not able to walk into town with her on a Saturday morning. And for the first year that I could remember I did not visit the intersection of Bourke and Swanston streets at Christmas time. It was also the year that I stopped believing in Father Christmas.</p>
+<p>The next year, during the winter, I was playing with some friends in a partially abandoned factory in Richmond. The factory had been subdivided and transformed into storage warehouses. Some of them remained occupied. As we made our way from one cavernous space to another within the complex, we found some areas locked. Standing outside a large padlocked and chained wooden door I noticed that a window, high above my head, was slightly ajar. I asked one of my friends to bunk me up so that I could see inside.</p>
+<p>As I poked my head through the window I noticed a familiar silhouette in the darkened space, lying on his back, stretching from one side of the warehouse to the other. One of my mates, tired of carrying my weight on his shoulders, screamed, 'Is there anything in there?'</p>
+<p>'There is. It's Father Christmas.'</p></div>
+</body>
+</text></TEI>

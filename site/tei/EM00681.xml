@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Gyms and Gymnastics</title>
+<author>Rob Hess</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00681</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>With its origins in ancient Greece, gymnastics developed as a modern system of physical training in Europe in the early 19th century. Gustav Techow, a Prussian Army officer, brought progressive views and extensive knowledge of various programs to Victoria in the 1860s, in particular promoting the Swedish system of gymnastics, which made extensive use of apparatus. Appointed director of the National Gymnasium in Melbourne in 1864, Techow was also employed by the Board of Education to train several hundred teachers in gymnastics and military drill, writing several influential manuals, including <hi rend="italic">Manual of gymnastic exercises for the use of schools and at home</hi> (1866) and <hi rend="italic">Gymnastics for State Schools</hi> (1877). By 1878 German immigrants had established the first <hi rend="italic">Turnverein</hi> (gymnastics clubs) in Melbourne, and in the following year English-women Harriet Elphinstone Dick and Alice Moon began providing classes in gymnastics to Melbourne's private (independent) girls' schools, a precursor to the fact that at least one female-only gymnasium existed in the city in 1881.</p>
+<p>Despite anti-German sentiment following World War I, gymnastics remained a popular activity largely due to the fact that during the 1920s the Melbourne Young Men's Christian Association staged an annual 'gymnastics circus' and in 1937 a gymnastics association was founded in Victoria. After the formation of a national body in 1948, the first Australian championships for men were held in Melbourne in 1950. The television exposure given to the sport  at the Olympic Games assisted in broadening the appeal of various styles or 'disciplines' of gymnastics, and the inclusion of a gymnastics program at the Australian Institute of Sport in 1981 has led to international success at an elite level. Fostered originally by the Royal South Street Society in Ballarat in 1903, the establishment of immensely popular calisthenics clubs, involving choreographed movements set to music, has also been an important foundation for female gymnastics in Victoria, where 30 000 young girls participate annually in statewide competitions. In addition, a number of segregated gymnasiums (and more general-purpose fitness centres) have recently established themselves throughout the city and suburbs.</p></div>
+</body>
+</text></TEI>

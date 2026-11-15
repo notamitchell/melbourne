@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Spanish</title>
+<author>Rafaela Lopez</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01407</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Immigration from Spain has come in two waves. The first immigrants arrived in the 1850s, attracted by gold, but also escaping the economic, social and political upheavals in their homeland. These immigrants, who came predominantly from Catalonia (136 by 1871), made a significant contribution to the embryonic city, particularly in the hospitality industry, owning fourteen hotels, including Parer's Crystal Café Hotel, the London Tavern and Hosie's Hotel, between the late 1850s and the 1900s. By 1901 most of Victoria's 178 Spanish-born lived in Melbourne. Notable descendants of this early wave of Spanish immigration include Sir Stephen Morell, lord mayor of Melbourne from 1926 to 1928 (after whom the Morell Bridge is named), the pioneer aviator and World War I fighter pilot Raymond Parer (1894-1967) and his cousin, wartime photographer Damien Parer.</p>
+<p>The second wave of Spanish immigration followed the signing in 1958 of an agreement between the Australian and Spanish governments to provide assisted passage to intending immigrants. In the period 1959-82 about a quarter of the approximately 28 000 Spaniards who migrated to Australia settled in Melbourne. The second wave peaked in 1963, and although Spaniards continued to arrive in smaller numbers, we can no longer speak of a significant immigration flow. Most of the 3128 Spanish-born persons residing in Victoria in 1996 were living in Melbourne's western and northern suburbs. The main Spanish community organisation is the <hi rend="italic">Hogar Español</hi> (Spanish Club) in Johnston Street, Fitzroy, where there are also a number of Spanish restaurants and tapas bars and where the annual <hi rend="italic">Fiesta de la Hispanidad</hi> or Hispanic Community Festa is held. Well-known contemporary Melburnians of Spanish origin include painter Ignacio Marmol and actor-comedian Simon Palomares.</p></div>
+</body>
+</text></TEI>

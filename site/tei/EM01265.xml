@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Rowville</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01265</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Rowville</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3178, 27 km SE, Knox City, Yarra Ranges Shire)</p>
+<p>Bounded to the west by Dandenong Creek, Rowville was regarded as part of Narre Warren until 1903, when it was named in honour of the Row family, who built Stamford Park homestead here in the 1880s. James Clow established a cattle station, Tirhatuan, in 1838, and between 1842 and 1853 the Native Police depot was situated on Rowville's border. In 1941 the Army set up a training camp on the corner of Wellington and Stud roads. Later the camp accommodated troops of the US First Marine Division. In December 1944 it became a prisoner of war camp for Italian soldiers, one of whom was fatally shot by an Australian officer in 1946. Although Rowville remained a dairying and poultry-raising district until the 1980s, it gained a drive-in cinema in the 1950s. In the early 1970s the City of Knox earmarked Rowville as the site for future development as a residential suburb, although this development did not occur until the 1980s and 1990s, when it became one of the fastest-growing residential areas of Melbourne.</p></div>
+</body>
+</text></TEI>

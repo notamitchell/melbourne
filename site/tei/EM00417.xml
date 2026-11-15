@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Cremorne Gardens</title>
+<author>Mimi Colligan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00417</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located in Richmond by the Yarra River, Cremorne Gardens were Melbourne's first 'pleasure gardens', precursors of the amusement park. They were developed in 1853 by caterer James Ellis, former manager of London's Cremorne, who had arrived in Melbourne as a bankrupt in 1852. Attractions included an elaborate rotunda for dancing, a theatre called the Pantheon, tight-rope performances above the lake and fireworks displays over a huge modelled and painted panorama. Changed annually, this featured subjects such as <hi rend="italic">The Siege of Sebastopol</hi> and <hi rend="italic">Naples and the Eruption of Vesuvius</hi>. A popular summer haunt, Cremorne Gardens were managed by actor-manager and politician George Coppin in partnership with actor G.V. Brooke from 1856 to 1859 and then by Coppin alone. The Gardens were the destination for early Eight Hours' Day marches. In 1863 Coppin's insolvency caused the site to be sold to the proprietor of a private mental asylum. Monash Freeway, Cremorne, Cubbitt and Balmain streets now border the site.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000579" type="journal-article"><author>Colligan, Mimi</author> <title level="a">Cremorne Gardens, Richmond, and the modelled panoramas</title> <title level="m">Victorian Historical Journal</title> <date>1995</date> <biblScope unit="page">122-36</biblScope></bibl></listBibl></div></back>
+</text></TEI>

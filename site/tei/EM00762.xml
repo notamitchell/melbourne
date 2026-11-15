@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Iraqis</title>
+<author>Abe W. Ata</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00762</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>After World War II Iraqis migrated in very small numbers directly from Iraq and other parts of the world. Those who succeeded were mainly professionals and para-professionals who worked in engineering, chemical laboratories, accountancy and other areas. However, most Iraqi migrants arrived as refugees after the 1991 Gulf War.</p>
+<p>The community is divided along religio-political lines. One group is the Assyrians and Chaldeans, followers of an ancient Eastern Orthodox Christian sect, who affiliated with the larger Assyrian community, composed of immigrants from Syria, Palestine, Jordan, Turkey, and bound by a shared tradition, church and language. Smaller minority groups have Jewish, Christian Catholic, Greek Orthodox, Assyrian, Chaldean and Armenian affiliations.</p>
+<p>Shi'ite Iraqis arrived as refugees and were accommodated in migrant hostels and flats in Preston, Springvale and Maribyrnong before settling in Epping, Reservoir and Thomastown. The community has established an educational and religious centre in Fawkner which serves as an alternative mosque for the Shi'ite Islamic community.</p>
+<p>Iraqi-born Kurdish refugees arrived in the 1990s following events in Northern Iraq. The community has attempted to maintain contact with other Persian, Kurdish and Syrian communities, and through the Iraqi Kurdish Association in Preston is working towards the betterment of their lives.</p></div>
+</body>
+</text></TEI>

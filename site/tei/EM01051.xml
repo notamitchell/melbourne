@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Naval and Military Club</title>
+<author>Paul De Serville</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01051</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01685.xml"><desc>Alfred Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Formed in 1881 as a meeting place for officers, the Naval and Military Club is reputedly the oldest service club in Australia with a continuous history. First known as the Pipeclay Club, it changed its name five times before adopting its present name in 1952. It moved quarters many times before acquiring 7 Alfred Place (the former German Club) in 1920. By then, as a result of World War I, its membership had greatly increased. In 1967 it moved to a new clubhouse at 27 Little Collins Street.</p>
+<p>In its first years it held lectures on military topics but this activity was taken over by the United Services Institution after 1889. Distinguished presidents include General Sir John Monash and Field Marshal Sir Thomas Blamey. Membership was extended to civilians after long years of peace, and to women in 1992.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM002066" type="book"><author>Legge, J. S.</author> <title level="m">The Naval and Military Club, Melbourne, 1881-1962</title> <pubPlace>Melbourne</pubPlace> <date>1962</date></bibl><bibl xml:id="PEM000388" type="book"><author>Perry, Warren</author> <title level="m">The Naval and Military Club, Melbourne: A history of its first hundred years, 1881-1981</title> <pubPlace>Melbourne</pubPlace> <publisher>The Club in conjunction with Lothian</publisher> <date>1981</date></bibl></listBibl></div></back>
+</text></TEI>

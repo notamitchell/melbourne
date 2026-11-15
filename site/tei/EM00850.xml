@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Leviathan Men's Clothing Store</title>
+<author>Kim Torney</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00850</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located on the corner of Bourke and Swanston streets, this was one of Melbourne's best-known department stores. The Leviathan Clothing Co. is first recorded in the 1865 <hi rend="italic">Sands &amp; McDougall Directory</hi> at 68 Bourke Street East. After many years of leasing the corner site for its emporium, in 1910 the company purchased what <hi rend="italic">Building</hi> magazine (12 July 1910) described as 'the old and out-of-date building', opening their new five-storey premises in 1913. The <hi rend="italic">Argus</hi> newspaper described the new store as 'one of the handsomest buildings of its kind in the city'. The Leviathan suffered in the police strike of 1923 when its windows were smashed, 'ladies' dummies were flung into the street, and stock stolen. A 1976 architectural survey considered it to be 'reminiscent of a late Victorian wardrobe'. Leviathan Limited ceased trading on this site in 1972, and by the late 1970s the ground floor was divided into small, mainly clothing, stores.</p></div>
+</body>
+</text></TEI>

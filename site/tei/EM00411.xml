@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Country Roads Board</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00411</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The forerunner of VicRoads, the Country Roads Board (CRB) was formed in 1913 and had a major role in Melbourne's road system. By the 1970s, it shared responsibility with Melbourne municipalities for 604 miles (982 km) of main roads. Outside Melbourne, it was responsible for 34 miles (55 km) of freeways, 174 miles (280 km) of State highways, and 14 miles (23 km) of tourist roads.</p>
+<p>For some years, the CRB was concerned that it shared the responsibility for Melbourne's major roads with the Melbourne and Metropolitan Board of Works (MMBW), which built parts of the South-Eastern (Monash) and Tullamarine freeways and other major roads. This concern was resolved to the CRB's satisfaction and the MMBW's irritation in 1974, when the Hamer (Liberal) Government transferred the MMBW's road responsibilities to the CRB.</p>
+<p>The CRB seemed reluctant to accept the Government's restrictions on metropolitan freeway development. Work on upgrading Alexandra Parade, through Carlton, Fitzroy and Collingwood, in apparent anticipation of construction of the Eastern Freeway, led to violent clashes with local residents. The project went ahead, as did the construction of the Mulgrave Freeway.</p>
+<p>In 1983 the Cain (Labor) Government converted the CRB into the Road Construction Authority (RCA). It later merged the RCA into the Roads Corporation, which traded as VicRoads. The major Melbourne road-building project approved during this period was the less confrontational SEMARL - the South Eastern Mulgrave Arterial Road Link.</p>
+<p>Major Melbourne projects encouraged after the election of the Kennett Government in 1992 included the extension of the Eastern Freeway from Doncaster to Nunawading, completion of the Western Ring Road, and the CityLink Project. Although construction and operation of the latter was a private sector undertaking, VicRoads did the investigation, planning and environmental research.</p></div>
+</body>
+</text></TEI>

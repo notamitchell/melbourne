@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mothers' Clubs</title>
+<author>Joan Kirner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01016</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>State school Mothers' or Parents' Clubs have existed in Victoria as local groups and as a State-wide organisation for over 70 years. Mothers' Clubs were founded by Miss Ida Body, an infant mistress at Princes Hill Primary School, to encourage mothers to assist children to read. The mothers continued on to raise money for school library books. Thus began the parents-as-helpers and fund-raising history of the Mothers' Club Movement. These Clubs have raised millions of dollars for schools over the past eight decades. Mothers' Clubs became more broadly based and active Parents' Clubs in the 1970s.</p>
+<p>In the late 1960s the education system in Victoria, and across Australia, was clearly in crisis. It needed a big injection of vision and dollars, especially for disadvantaged schools. Parent and Teacher Organisations worked well together to tackle 'Action for Better Education'. The Victorian Federation of State Schools Parents' Clubs, the Mothers' Clubs' state-wide body, grew from being mainly fundraisers to becoming very effective non-party political lobbyists and activists for education.</p>
+<p>At the same time parents and teachers were successful in setting up School Councils in Victoria with elected parent and teacher representatives. School Councils were given power over selection of the principal, school maintenance, and some funds. Parents' Clubs' regulations required members of the Parents' Club to be named as members of the School Council.</p>
+<p>In the late 1990s the state-wide parent organisation started to rebuild after the removal of its government grant in the mid-1990s. It went back to schools and encouraged parents to again stand up for better state education. The political and fund-raising role of Mothers'/Parents' Clubs remains a fine community tradition in Victoria.</p></div>
+</body>
+</text></TEI>

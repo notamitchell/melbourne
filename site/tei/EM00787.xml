@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Kalkallo</title>
+<author>Gwynedd Hunter-Payne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00787</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Kalkallo</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3064, 36 km N, Hume City)</p>
+<p>An important coach stop on the main Sydney Road, Kalkallo replaced an earlier settlement at Kinlochewe to the south, razed in the bushfires of Black Thursday in 1851. Settlement clustered at the Rocky Water Holes, named Donnybrook by Surveyor Robert Mason in 1853 when the post office was transferred from Kinlochewe. Tenant farmers, road workers and passing traffic supported inns, hotels, courthouse, gaol, tannery, flour mill, and stores. The police station, opened 1853, stabled the Ovens Gold Escort. The population declined when road traffic reduced after the opening of the North Eastern Railway in 1872. A name change in 1874 distinguished Kalkallo from the smaller settlement of Donnybrook. Widening of the Hume Highway during the 1970s necessitated the demolition of remaining town buildings on the western side of the main street.</p></div>
+</body>
+</text></TEI>

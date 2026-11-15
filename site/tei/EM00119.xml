@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Consolidated Industries Ltd</title>
+<author>Mike Williams</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00119</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This manufacturer of glass has been located in Melbourne since its foundation as Felton &amp; Grimwade's Melbourne Glass Bottle Co. in Graham Street, South Melbourne, in 1872. Australian Consolidated Industries (ACI) moved to the present Spotswood site in 1890, becoming a limited liability company in 1903. Interstate mergers brought a change of name in 1915, with the new Australian Glass Manufacturing Co. expanding during the 1930s into plastics, plate glass and general packaging. The title ACI International, adopted in 1981, reflects the company's move into overseas packaging since World War II. After successive takeovers, the company is now part of Owens Illinois Inc.</p></div>
+</body>
+</text></TEI>

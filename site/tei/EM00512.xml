@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Eight Hours' Day Monument</title>
+<author>Maryanne Mccubbin</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00512</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-08" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>A memorial to the Eight Hours' Day movement stands on a reserve at the corner of Victoria and Lygon streets, Carlton. In 1890, parliament granted the pioneers of the movement a site at the north-west corner of Spring Street and Carpentaria Place. Percival Ball's original design depicted 'a workman and the goddess Liberty holding a torch aloft'. Seeking £3000 by donation, the pioneers laid the foundation stone on 21 April 1891, the 35th anniversary of the gaining of the eight hours' day. Upon Ball's death in 1900, the Pioneers of the Eight Hour Movement Committee reworked his design, to be erected for £800. Ball's pedestal and granite column was framed above by three figure 8s, topped by a sphere representing the earth inscribed with the words 'Rest, Labour and Recreation'. The monument was unveiled on 21 April 1903. The route of the Eight Hours' Day procession was altered in 1923, and in 1924 the monument was moved to its current location. It continues to serve as a major symbolic gathering place for the labour movement on Labour Day, May Day and during other industrial protests and marches.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000060"><head>Eight Hour Day Memorial</head><graphic url="../objects/images/EightHourDay.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_EightHourDay.jpg"/><p>Percival Ball (?) 1900</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

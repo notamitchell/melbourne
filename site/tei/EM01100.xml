@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Orthodox Churches</title>
+<author>Zoe Knox</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01100</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The establishment of various Orthodox jurisdictions was a response to the pastoral needs of Melbourne's immigrant communities, particularly the need for ministry in their native languages, beginning with Greek and Antiochian (or Syrian) Orthodox migrants in the mid-1800s. The majority of the 6.2% of Melburnians who identify as Orthodox are from the Greek Church.</p>
+<p>The first documented Orthodox service was held by the chaplain of a visiting Russian naval vessel in 1862. Regular services began around 1896, conducted by Greek priest Archimandrite Dorotheos who divided his time between Melbourne and Sydney. The Greek Orthodox Community in Melbourne was formed in 1897, and the first church, Evangelismos, was consecrated in East Melbourne in 1901. Greek priests ministered to all Orthodox until Antiochian Orthodox separated from the Greeks and eventually consecrated their own church, with services in Arabic.</p>
+<p>Melbourne's Orthodox community remained small, comprised largely of immigrants from Greece and the Middle East and Russian refugees from the Russo-Japanese War and Manchuria, until postwar migration rapidly swelled its numbers. Russian Orthodox refugees from China in the 1950s, labour migration from Greece and Eastern Europe in the 1950s and 1960s, and the arrival of Orthodox Lebanese in the 1960s and 1970s invigorated existing, and introduced new, Orthodox jurisdictions. Immigration from South Eastern Europe increased the number of Orthodox in the 1990s and early 2000s.</p>
+<p>The Orthodox community continues to contribute diversity and vitality to multicultural Melbourne. Orthodox churches unify migrant communities through faith, language, and custom, and serve as centres for cultural, educational and other social services. Melbourne has Albanian, Antiochian, Belarusian, Bulgarian Eastern, Coptic, Greek, Macedonian, Romanian, Russian, Serbian and Ukrainian Orthodox churches built according to their own architectural traditions. The Orthodox population is most concentrated in Thomastown, Northcote, Lalor, Deer Park East, Clayton South, Yarraville and Oakleigh.</p></div>
+</body>
+</text></TEI>

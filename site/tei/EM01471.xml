@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Teacher Unionism</title>
+<author>Andrew Spaull</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01471</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>A feature of school politics in Melbourne for over a century, trade unions have served as the organised voice of the teaching profession in its struggles for industrial and professional advancement.</p>
+<p>Associations of teachers formed in Geelong and Ballarat in the 1850s, and incipient unions formed in Melbourne in the mid-1870s, did not survive, but with the rapid expansion of State primary education after 1872, new groups of Melbourne-based teachers, divided by gender, were formed in the early 1880s, combining to create a central union in 1886. Functioning under a variety of titles, but commonly known as the Teachers' Union, this became the main organisational base for teachers at state schools for the next hundred years.</p>
+<p>It was, however, riven with discord, especially between the Melbourne head teachers and women and assistant men. The introduction of State secondary education  saw high and technical branches join the union after World War I only to leave over issues of sectional autonomy after World War II, to form the Victorian Secondary Teachers' Association (1948, 1954) and the Technical Teachers' Union (1967). These unions were identified with the rise of teacher militancy in the late 1960s and 1970s, organising prolonged strikes at Northcote, Maribyrnong, Brunswick and Seaford-Carrum high schools and Footscray Technical College. The strikes were related to teachers' assertion of professional control over their working conditions and career development, and to the use of unqualified teachers. In the 1980s union militancy was credited with helping to defeat the state Liberal Government (1982) and returning an Australian Labor Party Government (1985).</p>
+<p>Teacher unity was partly restored in the mid-1980s, but only in 1993 did the three unions combine with the Kindergarten Teachers' Association to form the Victorian branch of the Australian Education Union (AEU). A successor to the Australian Teachers' Federation, established in 1922, the AEU is a federal union that has successfully co-ordinated Victorian state teachers' claims to obtain federal awards, restoring many of the employment conditions that had been abolished or substantially reduced by the State Government in 1992. From its federal office, which had moved from Canberra to Carlton in 1985 (now South Melbourne) in order to be closer to the Australian Council of Trade Unions and the Australian Industrial Relations Commission, the AEU successfully withstood the government's High Court challenge to these awards in 1995.</p>
+<p>Unions for teachers at independent schools were formed on gender lines in Melbourne around 1920. They were less prominent than their state counterparts, although the Assistant Mistresses' Association developed an industrial profile after it secured a wages board in 1946. The masters' and mistresses' associations amalgamated in 1975. Separate unions for teachers in Catholic primary and secondary schools were organised in the 1970s. In 1994 all nongovernment schoolteacher unions amalgamated to form the Victorian Independent Education Union, also based in South Melbourne.</p></div>
+</body>
+</text></TEI>

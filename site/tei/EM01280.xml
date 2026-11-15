@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royal Mint</title>
+<author>Judy Macdonald</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01280</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01914.xml"><desc>Mint Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01930.xml"><desc>Park Street</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Despite early petitions by the Victorian Government, a Royal Mint branch was established in Sydney in the 1850s, and services did not begin at a Melbourne branch mint until 12 June 1872 under deputy master Colonel Edward Wostenholme Ward. The site fronting William Street and bounded by Queen, La Trobe and Little Lonsdale streets was part of a Crown block extending to Lonsdale Street, reserved for 'public purposes', and the site of Melbourne's first exhibition building in 1854.</p>
+<p>Original building plans signed by Ward &amp; Comber were altered by John James Clark after William Wardell, inspector-general of public works, was instructed to reduce costs. The two-storey administrative block of brick on a bluestone base, rendered and elaborately ornamented, bears the royal coat of arms over the balustrade of the columned portico. This block, with the gatehouses, is all that remains of the original complex.</p>
+<p>In the first 10 years, gold coins to the value of £15 million were minted. An average of 650 000 ounces (18 421 kg) of gold per annum was received in the first 20 years. In 1916 the mint took over the minting of gold and silver Australian coinage from the London mint, and until the 1960s the majority of coins produced in Australia were minted there. Operations ceased in 1968 after the introduction of decimal currency and the opening of the Commonwealth Mint in Canberra. A Royal Proclamation discontinued the Melbourne branch mint from 1 July 1970. The Public Works Department renovated and restored the interior of the administrative building in 1970. Classified by the National Trust, the building was subsequently used by the Victorian Teachers Tribunal, the Registry Office and the Royal Historical Society of Victoria.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000288" type="book"><author>Royal Historical Society of Victoria</author> <title level="m">Royal Mint Melbourne</title> <pubPlace>Melbourne</pubPlace> <publisher>Author</publisher> <date>1989</date></bibl></listBibl></div></back>
+</text></TEI>

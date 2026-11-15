@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Grainger Museum</title>
+<author>ThÉRÈSe Radic</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00663</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Constructed for controversial Australian composer Percy Grainger in the grounds of the University of Melbourne (1935-38), the Grainger Museum was intended as a legacy to illustrate the creative musical process. It houses a large collection of materials related to Grainger's life and that of his musical contemporaries. Supplied and originally arranged by Grainger, the contents include music manuscripts, musical instruments, recordings, published books, letters and journals, flagellatory materials, furniture, china, clothing, (Rose Grainger collection) paintings (by Tom Roberts, Rupert Bunny and others), sculptures, photographs, and the collections related to the Victorian liedertafel, A.E.H. Nickson and other teachers, composers G.W.L. Marshall-Hall, Mona McBurney, Florence Donaldson Ewart, the Melbourne Symphony Orchestra and its founder Alberto Zelman and others. Grainger's technological interests led to the museum's later involvement in promoting experimental music. The Museum was closed to the public in 2003 pending an extended period of building maintenance.</p></div>
+</body>
+</text></TEI>

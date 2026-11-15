@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Emerald Hill Theatre</title>
+<author>Helen Thomson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00520</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Founded in 1961 by Wal Cherry and George Whaley, the 235 Emerald Hill Theatre was an important precursor to the 'New Wave' of Australian theatre that emerged in the 1970s and 1980s. It was situated in a former church in South Melbourne, converted by architect Robin Boyd, and closed in 1966 when Cherry was appointed to the chair of drama at Flinders University, Adelaide. The company's 31 distinctive, high-quality stage productions included significant modern European, American and English plays as well as some classics and Australian work. It was dedicated to ensemble work and drew heavily on the dramatic theories of Brecht and Stanislavsky.</p></div>
+</body>
+</text></TEI>

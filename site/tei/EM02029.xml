@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Three Businessmen Who Brought Their Own Lunch: Batman, Swanston And Hoddle</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02029</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Alison Weaver and Paul Quinn Bronze sculpture 1993 Corner of Swanston and Bourke Streets</p>
+<p>This whimsical, life-size sculpture of three businessmen carrying lunchboxes is located in the heart of Melbourne. Artist Alison Weaver claims that while the men are named and motionless, they are also intended to be anonymous and to represent being 'trapped in the perpetual motion of consumerism'. Weaver figures these three Melbourne pioneers as 'pedestrians of vast time' who have returned to the city streets, and says her interpretation of them is driven by humour rather than by iconoclasm.</p>
+<p>Three Businessmen Who Brought Their Own Lunch was commissioned in 1993 as part of the Swanston Street Art Works Program, and was a gift to the City of Melbourne from the Republic of Nauru to celebrate the city's 150th anniversary.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000064"><head>Three Businessmen Who Brought Their Own Lunch: Batman, Swanston and Hoddle</head><graphic url="../objects/images/ThreeBusinessmen.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_ThreeBusinessmen.jpg"/><p>Alison Weaver and Paul Quinn 1993</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

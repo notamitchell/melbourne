@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Cranbourne</title>
+<author>Jenny Coates</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00415</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Cranbourne</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3977, 49 km SE, Casey City)</p>
+<p>Before European settlement, the Boon wurrung people of the Kulin nation knew the Cranbourne area as <hi rend="italic">Mar-ne-bek</hi>, meaning excellent country. The first Europeans, the Ruffy brothers, arrived from Tasmania in 1836 and took up the Tomaque run, west of present-day Cranbourne, which they held until 1850, along with Mayune from 1840 to 1850. St Germains, about 5 km east of Cranbourne, was held by James Buchanan from 1845 to 1848 and then by Alexander Patterson until 1860. The name Cranbourne is derived from either Viscount Cranbourne, son of the Marquess of Salisbury, or an English town.</p>
+<p>The site of Cranbourne, reserved in 1852 but not surveyed until 1856, was proclaimed a town in 1861. Reverend Alexander Duff founded the Presbyterian Church in 1855 and a Denominational School in 1856. The Catholic and Anglican churches were also founded in the early 1860s. In the 1850s Cranbourne attracted attention when a farmer discovered a meteorite while ploughing a paddock. A further 11 meteorites ranging in size from 23 kg to 1.5 tonnes have been discovered in the area.</p>
+<p>Horse studs and dairy farms were established in the area from the 1860s, as was a cattle market in the 1870s. The Mornington Farmers' Association, founded as a branch of the Port Phillip Association in 1856, held its first agricultural show in Cranbourne in 1857. From 1860 the annual show alternated between Cranbourne and Berwick. Digging and carting jobs were available in local rock quarries and sandmines, industries assisted by the arrival of the railway in 1887, and by the small rail tracks that ran throughout the town to facilitate movement to the station. Dairy farming, legume and potato-growing, and horse-breeding continued to play important roles in the economy of the town. Italian immigrants started market gardening after World War I. By 1920 the population numbered a mere 250, and while manufacturing development after World War II created a demand for industrial subdivision around the South Gippsland Highway, by 1966 Cranbourne, with 1300 inhabitants, remained a town of modest size.</p>
+<p>In the 1940s the Royal Botanic Gardens decided that the use of a site with sandier soil and less shade than that in the Melbourne gardens could overcome the problems associated with cultivating native plants. A Commonwealth military reserve of 345 acres (138 ha) near Cranbourne was finally chosen and surveyed in the late 1960s. Described as 'almost virgin heathland' and featuring 'tea-tree, heath, wattles and ground orchids', it consisted of swamps and flats, sandy undulations, and undergrowth of tea-tree, hakea and melaleuca. Recent archaeological surveys of the Gardens have noted significant sites indicating Aboriginal occupation and use.</p>
+<p>Cranbourne still retains the atmosphere of a country town. Quiet villages such as Clyde, Tooradin, Warneet, Cannons Creek, Five Ways, and Junction Village are close by. The Cranbourne Racing Complex - host to three racing codes, turf (horseracing), harness and greyhounds - is one of the largest training centres in Australia. But the nature of the area is changing rapidly, as light industry expands and, more significantly, farmland is converted into new housing estates for commuters to other centres such as Dandenong and Melbourne. By 1996 Cranbourne's population had increased to over 14 000.</p></div>
+</body>
+</text></TEI>

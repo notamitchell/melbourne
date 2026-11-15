@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royal District Nursing Service</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01273</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Founded as the Melbourne District Nursing Society in 1885, the Royal District Nursing Service (RDNS) was an initiative of the Rev. Charles Strong (1844-1942) of the Australian Church, whose wife was a Nightingale nurse with experience of district nursing in England. The society was a voluntary organisation run as a subscriber charity. Nurses, often accompanied by members of the committee, tended the sick poor in the city and the inner suburbs, working in association with the Melbourne Ladies' Benevolent Society in cases that needed material aid. From 1894 to 1951 the society also offered a home-based midwifery service, and in 1931 it opened one of Melbourne's first antenatal clinics. Its willingness to innovate was also evident in its sponsorship of Melbourne's first birth-control clinic, coyly titled the Women's Welfare Clinic, which operated from 1934 to 1940. The society also established the After-Care Home (later Hospital) in Collingwood, which opened in 1925. Rapid expansion in the postwar period challenged the voluntary basis of the service. Taking the title of the Royal District Nursing Service in 1966, it was increasingly absorbed into the metropolitan health-care network, by 1992 offering domiciliary care to the sick and the elderly from 15 regional centres across the city and suburbs.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000252" type="book"><author>Rosenthal, Newman</author> <title level="m">People, not cases: the Royal District Nursing Service</title> <pubPlace>Melbourne</pubPlace> <publisher>Thomas Nelson</publisher> <date>1974</date></bibl></listBibl></div></back>
+</text></TEI>

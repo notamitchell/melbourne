@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Scott's Hotel</title>
+<author>Chrystopher J. Spicer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01341</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>'The city home of country people' stood opposite the Western Market at 444 Collins Street. In 1852 William Morton partly demolished the Lamb Inn and remodelled it as the Clarendon Family Hotel. Edward Scott, previously of the Port Phillip Club Hotel in Flinders Street, purchased the Clarendon in 1860 and constructed the much grander Scott's Hotel on the site. He then sold it to William C. Wilson in 1868. After Wilson's death in 1903, Scott's remained in the family, and Charles W. Wilson was licensee for well over 30 years, substantially rebuilding the hotel in 1913-14. Scott's always maintained a prodigious reputation for the standard of the hotel table and cellar, rivalling Menzies Hotel. It was renowned for the pastoral property auctions held there, as the gathering place for race horse owners and breeders, as the Melbourne residence of English test cricketers such as W.G. Grace and as Dame Nellie Melba's favourite hotel. After being purchased by the Royal Insurance Co. in 1961, Scott's was demolished the following year to make way for offices. It was claimed to be the oldest continuously licensed site in Victoria.</p></div>
+</body>
+</text></TEI>

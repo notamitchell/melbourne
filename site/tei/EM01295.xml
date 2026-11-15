@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Sabbatarianism (Sunday Observance)</title>
+<author>F.B. Smith</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01295</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Melbourne on Sunday, a Protestant clergyman boasted in 1938, 'was the quietest city in the Empire'. Male and, implicitly, female Melburnians were enjoined to follow religious and domestic rituals and to rest. Newspapers were banned. Factories and offices were dormant; public transport was sparse outside the hours of divine service; theatres and shops were closed, excepting pharmacies, confectioners, butchers and bakers before 9 a.m. and after 1 p.m. Hotel bars were silent. Organised sport and shooting for pleasure were prohibited. Above the hushed unswept streets, church bells made the only syncopated sounds, and parishioners chatting after worship the only gatherings. A large minority of Melburnians, scrubbed and in Sunday best, attended church; others slept in; some drank the beer they had stocked.</p>
+<p>The State laws that enforced the Melbourne Sabbath were made mostly in the mid-1860s, incorporating English, Scottish and Welsh precedents that went back to 1676. Scots and Irish Presbyterians, Anglicans, English and Welsh Methodists and Baptists, ensconced in a society stabilising after the gold rushes, faced Irish Catholics, whose mores they distrusted. The respectable, led by their clergy, installed a code of private sobriety and public solemnity. Catholics, impelled to morning mass by a fear of committing mortal sin, were inclined to laxity through the rest of the day; but they lacked political power.</p>
+<p>Melburnians acquiesced in, or duly paraded, their austere Sunday. Workers had a guaranteed day off. Melburnians could doze, dress up to visit relations, stroll in the park or take themselves to the beach or the hills. Overt challenges to the Sabbath rules were few: an attempt to open the National Gallery on Sundays in 1883 was quashed; Hospital Sunday was contained by the churches; moves from the 1870s to enlarge railway excursion services and, from the 1930s, airway flights were fought and restricted.</p>
+<p>The Melbourne Sabbath disintegrated in the 1960s with the withering of Christian confidence. Shops opened in 1966. Cinemas and professional sport were permitted in 1967, Sunday newspapers in 1969 and horse-racing in 1993. The un-British 'Continental Sunday' had arrived and Melbourne sedately embraced it.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000481" type="book"><author>Dunstan, Keith</author> <title level="m">Wowsers</title> <pubPlace>Melbourne</pubPlace> <publisher>Cassell Australia</publisher> <date>1968</date></bibl></listBibl></div></back>
+</text></TEI>

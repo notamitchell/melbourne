@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>St Helena</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01302</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">St Helena</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3088, 20 km NE, Banyule City)</p>
+<p>A residential district between Greensborough and Eltham, St Helena's white settlement began when Major Anthony Beale and his wife Katherine purchased 195 ha of Crown land in 1840, naming their cottage after the island of St Helena, where they had met. When Katherine died in 1856, Beale erected a tiny chapel in her memory, in which early Diamond Valley residents met for Anglican services. On Beale's death in 1865, the chapel and adjacent burial ground were willed to the Church. In the 1850s a number of German farmers purchased neighbouring land. In the early 20th century St Helena, with its little church and valley of orchards, was recommended as a picturesque location for country walks. The church, St Katharine's, was substantially rebuilt after bushfire damage in 1957. By the end of the century St Helena was experiencing rapid population growth with a large proportion of high-income families.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Shenandoah</title>
+<author>R.S. (Bill) Billett</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01362</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00013.xml"><desc>Politics &amp; Government</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The visit of the <hi rend="italic">Shenandoah</hi> in 1865 had repercussions for relations between the USA and Great Britain, already strained by Great Britain's supply of ships to the Confederate side during the American Civil War (1860-65). The Confederate raider, built at Glasgow and launched as the <hi rend="italic">Sea King</hi>, left Glasgow on 8 October 1863 and rendezvoused with a British vessel off Madeira, where guns and additional crew were embarked and the ship's name was changed to CSS <hi rend="italic">Shenandoah</hi>. After boarding nine vessels on its voyage south, the <hi rend="italic">Shenandoah</hi> sailed into Melbourne on 26 January 1865 for repairs and coal supplies.</p>
+<p>During the visit Captain Lieutenant Waddell breached the neutrality of Great Britain and its colonies, recruiting local crew through an advertisement placed in the <hi rend="italic">Argus</hi> on 20 February 1865. His desperation can be gauged by the fact that he had made threats 'to open fire on the town' if he were prevented from repairing, coaling and recruiting. Open to reprisal raids on its ports in times of conflict, the Victorian Government was virtually powerless to resist Waddell's threats. The <hi rend="italic">Shenandoah</hi> sailed from Melbourne on 18 February 1865, and went on to take 37 vessels, most of which were whalers.</p>
+<p>Following the end of the Civil War, the USA sought US$6 303 039 compensation from Great Britain on account of the havoc wrought by the <hi rend="italic">Shenandoah</hi>, but it was 1872 before the claim for damages was heard by an international tribunal in Geneva. The finding condemned the Victorian Government for aiding the Confederate cause by providing Waddell with repair facilities and failing to prevent his recruiting activities, and declared Great Britain 'responsible for all acts committed by that vessel after her departure from Melbourne'.</p></div>
+</body>
+</text></TEI>

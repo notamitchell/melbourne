@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Trade Union Banners</title>
+<author>Anne Mancini</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01506</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>The trade union banners unfurled for an 1850 procession that celebrated the Separation of the Port Phillip District from New South Wales were listed by Garryowen in his <hi rend="italic">Chronicles of early Melbourne</hi> (1888). Before that date, banners were used on occasions of celebration such as St Patrick's Day. With its origins in British religious processions, the banner tradition was developed by friendly societies and trade unions, and symbolised the unity of these self-help organisations, acknowledging their respectable place in society.</p>
+<p>Trimmed with gold braid, the banners flapped against their pole frames like sails. Accompanied by brass bands and floats carrying tableaux of various historical anecdotes - such as the tobacconists' float of Sir Walter Raleigh meeting Queen Elizabeth - banners were focal points of the street theatre of the Eight Hours' Day march.</p>
+<p>Melbourne's most prolific banner painter, William Cameron of Collingwood, was of Scottish descent but trained locally as a painter and decorator. The main sources of banner symbols were classical mythology, the Bible, heraldic devices and Freemasons' rituals. Banners stressed the dignity of men's labour; women were rarely depicted in the work force, making their appearance instead as personifications of such ideals as truth and wisdom. New technology and products were shown side by side with the traditions of the trades. Australian banner-painters developed their own symbols, which included Australian places, native animals and flora, the triple eight and the Southern Cross.</p>
+<p>After World War I, Anzac Day gradually became the chief ritual expression of community identity, and banner commissions declined. However, in 1982 the Australia Council's Art and Working Life program helped fund a number of new banners, and exhibitions of old and new banners revealed the strength of the tradition. Museum Victoria and the University of Melbourne Archives hold significant collections of Victorian banners.</p></div>
+</body>
+</text></TEI>

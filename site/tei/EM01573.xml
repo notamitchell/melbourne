@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Waiters' Races</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01573</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A novelty event of European origin, waiters' races became a feature of local festivals including the Melbourne Fringe Festival, Lygon Street Festa and Lunar Festival in Victoria Street, Richmond. As early as 1961, 42 starters carrying trays of wine bottles and partly filled glasses competed in a Wine Waiters' Guineas during Moomba. Radio 3DB commentator Bill Collins called the quarter-mile (400 m) event in race fashion. From 1988 waiters racing with trays of coffee were the centrepiece of the Brunswick Street fringe celebration, with winners drawn from local cafés including Joe's Garage, Mario's, Baker's and the Black Cat.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royal Parade</title>
+<author>Laura Donati</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01281</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02080.xml"><desc>George Hawkins Ievers Memorial Drinking Fountain</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02137.xml"><desc>Reynold's Reserve Drinking Fountain</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Positioned on the north-south datum line established by surveyor Robert Hoddle, Royal Parade, Parkville, was originally named Sydney Road. It initially curved through Melbourne General Cemetery and Princes Park but has occupied its current position since 1852. In 1853 the Central Roads Board transformed the bullock track and stock route into a three-chain boulevard and lined its carriageways with pine trees. These were replaced by the Melbourne City Council in the 1910s with an avenue of English elms now classified by the National Trust. Rockeries separating the elms were removed by sustenance workers in the 1930s. Housing construction on the parade's western side commenced in 1868 after land designated as parkland was sold for development. Building in north-western Royal Parade was tightly controlled by a Crown covenant that regulated the height, material and position of the houses. Development of the south-western aspect of the parade was not so controlled, and houses tended to be smaller and less grand. After the 1870 covenant was annulled in 1972, multi-storey buildings began to appear. Development of the parade's eastern side has been confined to Princes Park and the University of Melbourne.</p></div>
+</body>
+</text></TEI>

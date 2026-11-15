@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Tenpin Bowling</title>
+<author>Amanda Mcleod</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01482</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The American tenpin bowling craze came to Melbourne in 1960, with Box Hill, Fairfield, Hawthorn and St Kilda among the first centres. After the initial novelty wore off, investors suffered financial difficulties and a number of lanes closed. But careful marketing and catchy slogans such as 'bowling brings out the swinger in you' saw the sport 'striking' back by 1967. In 1973 Ed Flemming, owner of the Ringwood lanes, introduced the Melbourne Tenpin Cup, paying a $1000 prize. Main player AMF, equipment manufacturer and lessor, now runs 12 Melbourne centres. In recent years, tenpin bowling has generated new interest, sparking the opening of new lanes at Southbank, Richmond and Prahran.</p></div>
+</body>
+</text></TEI>

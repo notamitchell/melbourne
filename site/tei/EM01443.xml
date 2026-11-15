@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Sun News-Pictorial Newspaper</title>
+<author>Fay Anderson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01443</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Launched on 11 September 1922 and edited by Hugh Denison (who was also the owner of the Sydney Sun), the <hi rend="italic">Sun News-Pictorial</hi> was Australia's first picture tabloid daily. In a design reminiscent of the London <hi rend="italic">Mirror</hi>, the cover displayed up to ten photographs, with the remainder of the paper containing diverse, succinct stories.</p>
+<p>In 1925 the Herald &amp; Weekly Times Ltd acquired the paper, which it saw as complementing its afternoon broadsheet, the <hi rend="italic">Herald</hi>. Although its chief executive, Sir Keith Murdoch, preferred the latter, by the late 1930s the <hi rend="italic">Sun News-Pictorial</hi> became Australia's most popular daily newspaper, outselling its closest Victorian rival, the <hi rend="italic">Age</hi>. In 1938 its circulation was 240 000, increasing to 550 000 in 1957 and peaking at 650 000 by 1971.</p>
+<p>Considered socially and politically conservative and invariably nationalistic in tone, the <hi rend="italic">Sun News-Pictorial</hi> reported on politics, immigration, war and communism with a particular slant. The broadsheet also had an avid interest in the monarchy, an obsession with sport and a fascination with crime (often accompanied by pithy, sensational headlines).</p>
+<p>By the late 1980s fortunes had changed: the circulation of the <hi rend="italic">Sun News-Pictorial</hi> was in decline, and the <hi rend="italic">Herald</hi> faced imminent closure. New owners, Rupert Murdoch's News Ltd, opted to amalgamate the papers. The new '24-hour paper', the <hi rend="italic">Herald Sun</hi>, first appeared on 6 October 1990. Known to its detractors as the 'Hun', it is often accused of reflecting its proprietor's political views and commercial interests.</p>
+<p>Although the newspaper vacated its Flinders Street building in 1995, the landmark is heritage-listed, and the façade and distinctive neon Herald Sun advertising sign remain intact.</p></div>
+</body>
+</text></TEI>

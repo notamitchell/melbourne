@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Weathervanes</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02126</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Daniel Jenkins Hand-beaten copper sculpture with gold-leaf detail 1993 Corner of Bourke and Swanston Streets</p>
+<p>Daniel Jenkins was born in Kansas, USA, in 1947, and arrived in Australia in 1981. He studied extensively in Europe, and is a jeweller and silversmith by trade. The technique Jenkins employed on Weathervanes is repoussé, the metal beaten from its underside to give shape and relief to the design, and was acquired while visiting Venice on a Palladio Foundation scholarship.</p>
+<p>Each of the four weathervanes takes the shape of an animal: a horse, pig, fish and bird. They are positioned high on tram poles to give aerial performances with each gust of wind. The vanes have been conceived to represent specific aspects of Melbourne: the bird symbolises the city's parks and gardens; the horse symbolises its culture and sport; the fish refers to its waterways; and the pig represents the city's hope and future - the latter a tongue-in-cheek reference to 'pigs can fly'. Jenkins said of the sculpture, 'I wanted each of these weathervanes to be cartoon-like and even frivolous. We take our cities for granted and with the daily pedestrian bustle it is always business as usual. It takes something very unusual to attract someone's eye. I want people to look up and smile!'</p>
+<p>The City of Melbourne commissioned Jenkins to make this work, which took him four months to complete. Lord Mayor Councillor Des Clark unveiled Weathervanes in March 1993.</p></div>
+</body>
+</text></TEI>

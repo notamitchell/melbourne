@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Parliament House</title>
+<author>Ray Wright</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01117</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00013.xml"><desc>Politics &amp; Government</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Home of the Parliament of Victoria since 1856, Parliament House is a Melbourne landmark located on a 4.43 ha site at the intersection of Spring and Bourke streets.</p>
+<p>Designed by Peter Kerr (1820-1912), Parliament House was constructed in stages. The principal spaces within the building are the Legislative Council and Legislative Assembly chambers (1856); the library (1860); the vestibule and Queen's Hall (1879); a north-wing basement (1891); and refreshment rooms (1929). The tiled vestibule floor, bearing the words 'Where no counsel is the people fall: but in the multitude of counsellors there is safety' (Proverbs 11:14), leads visitors to ornately decorated interiors within.</p>
+<p>The Roman Doric west (Spring Street) façade (1892) - portico and colonnade, sweeping steps, carriageway and wrought-iron lamps - conveys an image of such architectural unity and legislative purpose that colonial observers dubbed Parliament House 'the most significant building in Australia'. The classical allusions of exterior and interior alike were further complemented by graceful gardens, reputedly designed by William Guilfoyle (1840-1912), in which today are found a pavilion, ventilation tower, tennis court, bowling green and historic markers.</p>
+<p>Spring Street imagery is deceptive, for Parliament House is incomplete. Plans to construct a south-east corner, a north wing and a dome have not been realised. Indeed, in 1975 cramped conditions within the building compelled the construction of temporary accommodation at the rear of Parliament House - which remains in use. On days when the parliament meets, 132 members and some 150 parliamentary staff work in the building.</p>
+<p>Although Parliament House's dominance of the city's eastern skyline has been reduced by multi-storey buildings, it remains the pivotal structure in historic Spring Street, as well as a focus of political ceremony and demonstration. It is at once an emblem of Melbourne, a powerful study in architecture expressing purpose, and an enduring reminder of Peter Kerr's generous artistic vision.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000496" type="book-section"><author>Tibbits, G.</author> <title level="a">Parliament House, Melbourne</title> <title level="m">Historic public buildings of Australia, vol. 2</title> <pubPlace>Melbourne</pubPlace> <publisher>Cassell Australia</publisher> <date>1971</date> <biblScope unit="page">152-62</biblScope></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Marine Store Dealers</title>
+<author>Dean Wilson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00901</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01999.xml"><desc>Turnbull Alley</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Although the name was derived from the sale of anchors, ships' cables and sails, marine store dealers traded primarily in used bottles, rags, bones and scrap metal, renting out hand-carts and trucks from inner suburban yards to collectors known as 'bottle boys'. By the early 1870s social reformers and police accused marine store dealers of encouraging juvenile offending, as many of their collectors were children who scoured streets and yards to supplement the incomes of poor households. Regulatory legislation passed in 1876, 1888 and 1890 led to greater supervision of dealers and collectors, with licence registers being kept by police. Collectors were required to wear tin badges displaying their licence number, while their hand-carts were painted black, blue or green and carried the owner's name and address. The substitution of plastic, synthetic textiles and aluminium cans for glass and rag, and the introduction of both non-returnable bottles and of direct-purchasing by companies, spelt the end to traditional dealing. Although bottle boys have ceased to be a regular sight in Melbourne, the trade continues in different forms. In 1986, 550 collectors' licences were issued and an estimated 275 dealers' licences were in force. Surviving dealers and collectors were placed under the provisions of the <hi rend="italic">Second-Hand Dealers and Pawnbrokers Act 1989</hi>.</p></div>
+</body>
+</text></TEI>

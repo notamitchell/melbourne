@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>View Bank</title>
+<author>Don Garden</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01566</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">View Bank</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3084, 14 km NE, Banyule City)</p>
+<p>A small suburb by the Yarra River north-east of Heidelberg, View Bank takes its name from the 192-acre (77 ha) property established by James Williamson in 1839-40. It then passed to a Scot, pastoralist Dr Robert Martin, who also acquired the adjacent Banyule property. He erected a prefabricated house and established extensive terraced gardens, but after his death in 1874 the homestead deteriorated and was demolished in the 1920s. In the late 1990s it became the site of an important archaeological dig. Remote from a railway line, View Bank remained farmland until after World War II. From the 1960s it was subdivided, with some parts retained as Yarra parkland, and became a prestige residential area.</p></div>
+</body>
+</text></TEI>

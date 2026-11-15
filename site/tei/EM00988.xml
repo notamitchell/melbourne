@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mitcham</title>
+<author>Mary Sheehan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00988</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Mitcham</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3132, 20 km E, Whitehorse City, Manningham City)</p>
+<p>The Mitcham district was included in the Nunawading Road Board, proclaimed in 1857 and declared a shire in 1872. The Shire of Blackburn and Mitcham was created by severance from Nunawading in 1925. In 1945 the City of Nunawading was gazetted. Part of Mitcham was included in the City of Whitehorse in 1994 and a smaller portion was included in the City of Manningham.</p>
+<p>The name Mitcham was used after the mid-1880s. Its derivation is attributed to two origins: the first, that the district was named after Mitcham Grove, established by William Slater; the second that it derived from the local property Mitcham Heights, named after Mitcham in Surrey, England. The district has also been called Air Hill and Emery's Hill. All names acknowledge Mitcham's elevation in relation to the surrounding area. A water tower built at Mitcham in 1912 used the elevation to help channel water from O'Shanassy Creek to Melbourne.</p>
+<p>The district attracted German migrants after 1860. Johann Schwerkolt bought land bordering the Mullum Mullum Creek in 1861. Initially he grew grapes but, after the decline of the industry in the late 19th century, changed to orcharding. The City of Nunawading restored Schwerkolt's cottage in the 1960s. The Antonio family also acquired a portion of the property and later donated a part (now Antonio Park) for a bush reserve.</p>
+<p>Despite the expansion of Mitcham township fruit-growing continued to predominate in the district. Cool stores were built by the early decades of the 20th century. The clay soils in the district also encouraged brick and tile manufacturing. The Australian Brick, Tile &amp; Tessellated Co. (renamed the Australian Tessellated Tile Co. in 1895) began operations south-west of the Mitcham railway station in 1886.</p>
+<p>In 1882 the railway line was extended from Camberwell to Lilydale. A station, initially called Emery's Hill Station after a local landowner, was opened at Mitcham in 1886. Residential subdivision occurred after the extension of the railway, and though the sale of land and housing construction slowed with the onset of the 1890s depression, residential growth continued in the first decades of the 20th century. From the 1950s Mitcham's orchards were replaced by residential development.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Aberfeldie</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00025</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Aberfeldie</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3040, 9 km NW, Moonee Valley City)</p>
+<p>A western pocket of Moonee Ponds and Essendon, on high ground overlooking the Maribyrnong River from the north, Aberfeldie is a small residential suburb with large areas of parks and reserves. James Robertson purchased Crown land here in 1845 and gave his house its Scottish name. When the Aberfeldie Estate was first offered for sale by subdivision in the 1880s, scattered substantial houses appeared. Further attempts to sell blocks continued into the 20th century. By the 1920s local residents had prevailed on the Essendon Council to purchase a large area by the river as recreation space. By then Aberfeldie was populous enough to become Essendon's fourth ward and to need a state primary school of its own.</p></div>
+</body>
+</text></TEI>

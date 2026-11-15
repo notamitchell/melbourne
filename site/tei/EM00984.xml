@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mission of St James and St John</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00984</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This inner-city mission, associated with the evangelical wing of the Anglican Church, was founded in 1919 by an amalgamation of the parishes of St John's, La Trobe Street and St James', Collins Street. Initially focusing on evangelisation in the remaining residential areas in the western part of the city, offering clubs, activities and outdoor relief, the mission was transformed by the arrival of Canon (later Archdeacon) Lamble in 1925. In the next three years it opened eight children's homes and reformatory institutions including a lock hospital for the treatment of venereal disease at Fairfield, a babies' home in Balwyn and separate homes for boys and girls at Glenroy, which, after World War II, would be replaced by a cottage settlement at Blackburn South. The Mission also offered a ministry from the relocated St James' Old Cathedral and developed an expertise in counselling people struggling with alcoholism or drug dependence. With the closure of its large institutions in the 1970s, the Mission opened a series of suburban centres offering foster care and general family support services. In 1997 it joined with the Mission to Streets and Lanes and St John's Homes to form a new Diocesan family welfare agency, Anglicare.</p></div>
+</body>
+</text></TEI>

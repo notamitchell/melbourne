@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Club</title>
+<author>Paul De Serville</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00931</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01744.xml"><desc>Club Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Founded in 1838, the Melbourne Club is the oldest club in Victoria and probably the State's oldest secular institution. The founding members were squatters, civil servants, judges, professional men and merchants. While some were gentlemen by birth, the majority were accounted gentlemen in taste, manners and habits. In 1839 it leased Fawkner's Hotel (corner of Market and Collins streets), before moving to the corner of William and Bourke streets in 1841. In 1859 it moved to its present site (36 Collins Street) where Leonard Terry designed a handsome building in the Italian style.</p>
+<p>Long after the gold era the Club remained a stronghold of pioneer families. Socially it constituted the supreme body of Victorian society. Members of established families joined it as a matter of course, and newer families marked their arrival in society when they appeared on its list. Since the 1970s the list has broadened. Many candidates are first-generation members, while many old families through extinction, lack of money or interest no longer belong.</p>
+<p>The behaviour of the first members was sometimes spirited, with duels fought, horsewhipping administered, shop signs stolen. A strand of dandy behaviour may also be observed through much of the 19th century. In general the Club has grown more staid in recent times. While radicals have seen it as a symbol of inequality and capitalism, and as such it has been a focus of protest, the political power of the Club has usually been exaggerated. It is true that most members probably have been conservative or liberal, but real power, even during conservative governments, has usually been exercised by men with little interest in clubland.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000237" type="book"><author>McNicoll, Ronald</author> <title level="m">Number 36 Collins Street, Melbourne Club 1838-1988</title> <pubPlace>Sydney</pubPlace> <publisher>Allen &amp; Unwin/Haynes in conjunction with the Melbourne Club</publisher> <date>1988</date></bibl><bibl xml:id="PEM002040" type="book"><author>Scott, Ernest</author> <title level="m">Historical Memoir of the Melbourne Club</title> <pubPlace>Melbourne</pubPlace> <publisher>Specialty Press</publisher> <date>1936</date></bibl><bibl xml:id="PEM000264" type="book"><author>de Serville, Paul</author> <title level="m">Port Phillip gentlemen</title> <pubPlace>Melbourne</pubPlace> <publisher>Oxford University Press</publisher> <date>1980</date></bibl><bibl xml:id="PEM000266" type="book"><author>de Serville, Paul</author> <title level="m">Pounds and pedigrees</title> <pubPlace>Melbourne</pubPlace> <publisher>Oxford University Press</publisher> <date>1991</date></bibl></listBibl></div></back>
+</text></TEI>

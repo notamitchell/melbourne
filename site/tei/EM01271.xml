@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royal Children's Hospital</title>
+<author>Peter Yule</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01271</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Internationally recognised as a centre of paediatric treatment, teaching and research, the Hospital for Sick Children was founded by Doctors John Singleton and William Smith in a small house in Stephen (now Exhibition) Street in 1870. The original committee of management consisted solely of women, who retained their majority until the 1980s.</p>
+<p>The hospital moved to larger premises in Spring Street in 1873, and in 1875 it purchased Sir Redmond Barry's villa in Pelham Street, Carlton. On this site the committee, under the leadership of Elizabeth Testar and Jane Murray Smith, built a new hospital in a flamboyant neo-Gothic style. Outstanding among the hospital's early doctors was William Snowball (1855-1902), who pioneered paediatrics in Victoria. The hospital's nurse-training school began in 1889 under the direction of Sarah Bishop (matron 1875-99).</p>
+<p>In the 1920s and 1930s the Children's Hospital responded to the problems of poliomyelitis, tuberculosis and other crippling diseases by building an orthopaedic hospital at Mount Eliza and developing physiotherapy and other ancillary health services. The hospital underwent revolutionary changes in the 1940s and 1950s, inspired by Ella Latham (president 1933-54) and Vernon Collins (medical director 1948-59), which transformed an old-fashioned charity into a modern teaching hospital.</p>
+<p>In 1953 the hospital was granted its 'Royal' prefix, and in 1963, during the presidency of Dame Elisabeth Murdoch, it moved from its overcrowded site in Carlton to buildings in Parkville. Since then it has greatly expanded its teaching and research roles to become one of the world's leading paediatric hospitals, being particularly noted for its work in the treatment of childhood cancer, the surgery of congenital abnormalities, gastroenterology and genetics. Many families in Melbourne have called on the services of the Royal Children's Hospital at some time, and the special position the hospital holds among the people of Melbourne is demonstrated by the massive public support for the annual Good Friday Appeal.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM002068" type="book"><author>Gardiner, L.</author> <title level="m">Royal Children's Hospital Melbourne 1870-1970</title> <pubPlace>Melbourne</pubPlace> <date>1970</date></bibl><bibl xml:id="PEM000417" type="book"><author>Yule, Peter</author> <title level="m">The Royal Children's Hospital: a history of faith, science and love</title> <pubPlace>Sydney</pubPlace> <publisher>Halstead Press</publisher> <date>1999</date></bibl></listBibl></div></back>
+</text></TEI>

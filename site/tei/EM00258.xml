@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>My Melbourne: the Lady Mayoress' Jumble Sale</title>
+<author>Robyn Annear</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00258</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Could this be heaven? No, it was the lower Melbourne Town Hall. The year was 1986, the month June. And the event? The annual Lady Mayoress' Jumble Sale.</p>
+<p>Yellowing posters, recycled since before the last war, had been up for a month or more. They weren't there to draw attention to the event, so much as to tip off those already in the know. Positioned on either side of the town hall entrance in Swanston Street, the posters were shielded from the undiscerning gaze by hefty stone pillars supporting a balcony the size of a suburban house. Up there, a Lord Mayor had once entertained the Beatles. Today, down below, in the splendidly seedy lower town hall, some lucky punter would buy the shot-silk sheath dress worn at the Beatles' reception by the then Lady Mayoress. Only when she got it home would its new owner discover a rust-coloured stain on the off-side hip, a trace of fish paste from George Harrison's Jatz biscuit.</p>
+<p>Long before the big half-yearly sales were dreamt of, the Lady Mayoress' Jumble Sale was the major event of the Melbourne bargain-hound's calendar. The doors opened at 10 to a crush reminiscent of the Beatles' reception. At the centre of the hall was a catwalk down which, at 11 and 2, youngish sarth-of-the-Yarra matrons paraded last season's cast-offs. Refreshments were served in one corner, and there were stalls touting crafts and high-class knick-knackery. Most of the hall, though, was devoted to the thing I was here for: old clothing, racks bulging and trestles piled high with it.</p>
+<p>The Lady Mayoress' Jumble Sale didn't sell just any old tatt. These were quality cast-offs which together gave off an aroma, a blend of mothballs and old leather with an unaccountable top-note of dusty shortbread. (Unaccountable, that is, until one learned to identify it as the smell given off by old Fletcher Jones skirts.) Here were rack upon rack of glamour gowns, chic suits, summer shifts, coats with fur collars, and for men, miles of things, both stiff and tweedy. Cardigans filled a whole rack, from beaded-yoke evening models with three-quarter sleeves to bulky mohairs in shades of lilac and cerise.</p>
+<p>Hats were a specialty: the veiled and feathered sort, the trailing ribbon sort, the perky, the tweedy and the vamp. From this department came one of my best-ever buys. A confection of wire and bay-green velvet topped with a spray of netting and a faux emerald the size of an eyeball, it might equally have been the ceremonial jockstrap of some past Lord Mayor. Probably, though, it was a hat - I certainly hope so, since I've been out in public with it on my head.</p>
+<p>On my tramride homewards that day with my bagful of precious throwbacks, I got into conversation with the conductor. Working out of South Melbourne (the hippest depot on the Met), he naturally knew all about the Lady Mayoress' Jumble Sale and was cursing his day shift. He confided that his non-regulation waistcoat - a silk knit, studded with embroidered motifs like bumble bees - was of LMJS provenance.</p>
+<p>Like tram conductors, the Lady Mayoress' Jumble Sale failed to survive the 1990s. At least I have my hat to remember it by - though I never did figure out what those straps are for or why, when I wore it to the races, that portly fellow in a morning suit sniggered so.</p></div>
+</body>
+</text></TEI>

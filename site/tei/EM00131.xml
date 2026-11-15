@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Psychological Society</title>
+<author>Simon Cooke</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00131</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The largest learned and professional organisation for psychologists in Australia, the Australian Psychological Society (APS) was established in 1944 as the Australian Branch of the British Psychological Society and became an independent organisation in 1966. In 1968, the APS moved from the University of Sydney to Clunies Ross House National Science Centre in Parkville, coinciding with a decision to make greater efforts to cater to its members in private practice and public service by becoming visibly more professional itself. The APS relocated to Carlton in 1994.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000040" type="book"><author>Cooke, Simon</author> <title level="m">A meeting of minds: The APS and Australian psychologists 1944-1994</title> <pubPlace>Melbourne</pubPlace> <publisher>Australian Psychological Society</publisher> <date>2000</date></bibl></listBibl></div></back>
+</text></TEI>

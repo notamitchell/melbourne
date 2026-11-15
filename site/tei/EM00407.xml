@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Corporal Punishment</title>
+<author>Peter Gronn</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00407</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Corporal punishment was a form of discipline for serious misdemeanours by mostly male students in primary and secondary, government and independent schools. This mode of physical punishment included slapping or smacking of the limbs, but usually meant a small number of short, sharp and painful hits inflicted by a headmaster or teacher wielding a cane or leather strap to a student's extended open hand or, in some cases, bare buttocks. Girls at primary school were slapped, or rapped with rulers over the knuckles or on the palms. Corporal punishment symbolised the assertion of a teacher's ultimate authority and was calculated by its proponents to maximise an offender's humiliation or sense of shame for a misdeed. To this end it was administered in an at times elaborately ritualised manner: an offender was not only formally summoned, but seen to be summoned, and then kept waiting until finally ushered in to the privacy of a secluded office for both verbal and physical rebuke. 'The strap', as corporal punishment was mostly known, or 'the cuts' became part of schoolboy folklore. To receive 'six of the best' was a point of honour among the most hardened of juvenile cases. Children's remedies included rubbing the palms with the leaves of peppercorn trees, or sitting on one's hands. It was not done to cry, whatever the pain. Opponents of the practice derided it as barbarism. Corporal punishment was abolished in Victorian government schools in 1983.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Chloe</title>
+<author>Stephanie Holt</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00341</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>An 1875 nude by the French academic painter Jules Lefebvre, <hi rend="italic">Chloe</hi> has been the pride of Young &amp; Jackson Hotel since 1909. <hi rend="italic">Chloe</hi> reached Australia in 1879 and graced the 1880 Melbourne International Exhibition. Loaned briefly to the Melbourne Public Gallery in 1882 by its new owner, Dr Thomas FitzGerald, its propriety was vigorously debated. Tall stories, tributes and the sneers of art critics accrued over the years. Melburnians' sentimental regard for the painting earned it heritage protection in 1989. In 1995, as the centrepiece of a National Gallery of Victoria exhibition of French art, <hi rend="italic">Chloe</hi>'s aesthetic quality was reaffirmed.</p></div>
+</body>
+</text></TEI>

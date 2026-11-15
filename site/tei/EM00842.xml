@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>My Melbourne: Larino, Safe Haven</title>
+<author>George Dreyfus</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00842</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>There isn't much left of the Larino Children's Home at the corner of Whitehorse Road and Maleela Avenue in Balwyn. The dark red brick fence is still there, always looking as if it's about to fall down. When passing I sometimes get out of the car and give it a bit of a pat, a mixture of reassuring 'hold in there, old fellow' and 'thank you for saving my life'.</p>
+<p>The stately old mansion - it was the same colour as the brick fence - is long gone, replaced by an obviously upmarket retirement home. Larino was to have been pulled down before the war, but at the last moment Samuel Meyers bought it on behalf of the Australian Jewish Welfare Society. The space was needed for the 17 German-Jewish children, including my brother Richard and myself, already on the high seas on board His Majesty's Ship <hi rend="italic">Orama</hi>. We children were fleeing Nazi Germany, alone, no relatives - in fact most of the children were never to see their parents again.</p>
+<p>But our lives were saved. I certainly am grateful to Australia, Melbourne, Balwyn. And we have restocked; isn't that part of the human experience? It became very obvious to all of us at the reunion in Melbourne 50 years after the landing, in July 1989, and to me personally when I visited three of the Larino children in Israel in May 1999.</p>
+<p>And we have repaid Australia well, and never been a drag on the Australian tax system, the apparent motive for stopping so many desperates from gaining refuge in Australia. I am particularly proud of my son Mark, the QC, for fighting on behalf of the Stolen Generation in the High Court of Australia.</p>
+<p>Mark and I cannot agree: I say that if we had remained in Germany, by 1942 we 17 children would have been dead; Mark says that the Aboriginal children died an inner death. But never mind. The small Melbourne Jewish community fought for our survival as so many Australian Jews have fought for Aboriginal survival.</p>
+<p>And I have tried to repay Australia, writing music for various causes: <hi rend="italic">Rush</hi>, which celebrates the first great wave of migration to Melbourne and the goldfields inland; <hi rend="italic">Sextet for didjerrido and wind instruments</hi>, which celebrates the friendship between our two peoples; <hi rend="italic">Old Melbourne</hi>, which celebrates the cast-iron ornamentation so fashionable in turn-of-the century Melbourne; <hi rend="italic">The Box Hill gloria</hi>, which celebrates the not-so-upmarket suburb; the music for <hi rend="italic">Power without glory</hi>, which celebrates the even less upmarket Collingwood; <hi rend="italic">Waterfront</hi>, the 'in-between' Port Melbourne; <hi rend="italic">Lighthouse</hi>, in honour of Sir Edward 'Weary' Dunlop; <hi rend="italic">Heidelberg 1890</hi>, which celebrates the painters of the Golden Summer; and <hi rend="italic">Larino, safe haven</hi>, which celebrates plain naked survival. What more can one ask except that you, dear reader, might just like to buy the printed music and play it, or just buy the CDs and lazily enjoy it? Well done, Melbourne!</p></div>
+</body>
+</text></TEI>

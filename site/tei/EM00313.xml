@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Celtic Club</title>
+<author>Richard Scully</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00313</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This social organisation for Melburnians of Celtic (Irish, Scots, Welsh) descent was formed on 26 September 1887. Originally a semi-political association supporting Irish Home Rule, by the 20th century the club had become primarily a social organisation, though maintaining loose nationalist links. Disagreements over Irish political events almost destroyed the club in 1890-91 (Parnell divorce scandal) and again throughout 1916-22 (the Anglo-Irish and Irish Civil Wars), but it has survived to remain an important point of contact with their cultural heritage for many Melburnians. Since 1959, the club's rooms have been at the corner of Queen and La Trobe streets.</p></div>
+</body>
+</text></TEI>

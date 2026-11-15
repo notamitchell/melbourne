@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Savoy Hotel (Hotel Alexander)</title>
+<author>Chrystopher J. Spicer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01331</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Located on the north side of the street, opposite Spencer Street Station, this was the first 20th-century American-style hotel in Victoria, claiming to be the first in Australia to have ensuite bathrooms and a controlled-temperature-interior environment.</p>
+<p>Replacing an earlier Alexander's Hotel of 1866, the 200-room building was completed for owner James Richardson in 1928 to a design by Leslie M. Perrott, later architect of the Australia and the Chevron. Richardson and Perrott had spent five months touring the USA in 1924 for new ideas, and the usually frugal Richardson lavished £300 000 on the building and another £50 000 on furniture and fittings. The hotel's magnificent lobby, entered by a wide flight of stairs from Spencer Street and filled with light through tall windows, occupied the entire first floor.</p>
+<p>Richardson moved into a top-floor suite in the Alexander in 1948. After his death three years later, the hotel was bought for £450 000 as the second hotel in the Federal Hotel chain and renamed the Savoy-Plaza. Its Rainbow Room and maître d' Albert Argenti became renowned in Melbourne over the next decade, hosting a who's who of international show business including Louis Armstrong, Nat King Cole and Ella Fitzgerald. Some young Australians, such as John Farnham, Rolf Harris and the Seekers, began careers there. Frank Sinatra, performing at nearby Festival Hall, was a guest, as were Ava Gardner, Fred Astaire, Anthony Perkins and others during the filming of <hi rend="italic">On the beach</hi>.</p>
+<p>Sold to the Victorian Government in 1974, the hotel became the Police Cadet Training Academy until 1987, when it was purchased by the Nauruan-owned company Spencer Investments. Rebuilt internally as the Savoy Park Plaza Hotel, it was opened on 10 May 1991.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>The Water Nymph</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02125</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-05-31" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01214.xml"><desc>Queen Victoria Gardens</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Paul Montford Bronze sculpture 1925 Queen Victoria Gardens (Melway ref. 2F H8)</p>
+<p>In 1925, Melbourne City Council's Parks &amp; Gardens Committee allocated funds towards purchasing statues for its public gardens. This was an attempt to appease a dissatisfied and vocal public, which had criticised council for the poor state of the pieces located in Fitzroy Gardens.</p>
+<p>Paul Montford's Water Nymph is one of the works that were purchased. It is a bronze statue of a young woman, with raised arms stroking her hair. She kneels on a round base, which is set in an ornamental lake. This is a classic image of the period. The nymph is linked to age-old representations of the mermaid and the siren, which symbolise female sexuality.</p>
+<p>Water Nymph was unveiled in September 1925.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000142"><head>The Water Nymph</head><graphic url="../objects/images/WaterNymph.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_WaterNymph.jpg"/><p>Paul Montford 1925</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

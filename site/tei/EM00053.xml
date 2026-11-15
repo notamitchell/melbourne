@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Alexandra Park and Gardens</title>
+<author>Georgina Whitehead</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00053</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>These were created along the south bank of the Yarra River by Princes Bridge when the river was rechannelled at the end of the 19th century to prevent flooding. Carlo Catani (1852-1918), chief engineer of the Public Works Department, designed the recreation grounds named after Queen Alexandra as part of the flood mitigation works. The tan track next to the Royal Botanic Gardens was once part of Alexandra Avenue, originally a park drive divided into sections for horses, carriages, bicycles and pedestrians and banned to commercial traffic, but now an arterial road. The Gardens behind the boatsheds have been a venue for Melbourne's Moomba festival.</p></div>
+</body>
+</text></TEI>

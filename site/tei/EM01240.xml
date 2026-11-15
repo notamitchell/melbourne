@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Retail Traders' Association of Victoria</title>
+<author>John Young</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01240</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>The Retail Traders' Association of Victoria (1954) is the successor to the Master Drapers' and Traders' Association of Victoria (c. 1939), which succeeded the Victorian Master Drapers' Association (1909). It represents 12 000 Victorian retail outlets, nine-tenths of which have ten or fewer employees. The association's most influential period was 1920-60, coinciding with the heyday of central city shops and department stores. Its presidents included Sir Edgar Coles, Sir Arthur Coles (G.J. Coles &amp; Co.), Sir Frank Richardson (Cox Brothers) and Sir Leo Curtis (Bradman's Bags, Lord Mayor of Melbourne 1964).</p></div>
+</body>
+</text></TEI>
