@@ -11,6 +11,10 @@ framework.
   Cloudflare Pages, Apache, nginx, an S3 bucket). There is no build step.
 - **To edit entries:** see [EDITING.md](EDITING.md).
 
+The live preview is on GitHub Pages at <https://notamitchell.github.io/melbourne/>, published by
+`.github/workflows/deploy-pages.yml` after every change to `main`. That workflow is the only
+Pages-specific file; delete it to move to another host.
+
 ## Licence and credit
 
 The content (the entries, pages, images and data in `site/`) comes from eMelbourne, produced by the
@@ -134,7 +138,8 @@ etc.), which `convert.py` expands before converting. Objects link to `object.htm
 
 - The 404 shim needs the host to serve `404.html` for missing paths (GitHub Pages, Netlify and
   Cloudflare Pages do this by default; Apache: `ErrorDocument 404 /404.html`; nginx: `error_page 404 /404.html`).
-  If the site is served from a sub-path, set `SITE_ROOT` in `404.html`.
+  If the site is served from a sub-path, set `SITE_ROOT` in `404.html` (the Pages workflow does this
+  for GitHub Pages automatically).
 - Why `tei-js/`: browsers block `fetch()` of local files, so a double-clicked site cannot read
   `tei/*.xml` directly. `<script>` tags are allowed from disk, so each TEI file is also written as a
   small JS wrapper. The `.xml` files stay the master copy; `convert.py` regenerates the wrappers.

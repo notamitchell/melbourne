@@ -1,0 +1,66 @@
+# Publishes site/ to GitHub Pages.
+#
+# This is the only GitHub-Pages-specific file: the site itself is plain static
+# files, so any other host can serve site/ as it is. To stop using Pages,
+# delete this file.
+#
+# One-time setup: repository Settings > Pages > Build and deployment >
+# Source: "GitHub Actions".
+#
+# When it runs:
+#  - after every successful "Rebuild search index" run on main (a TEI upload),
+#    so the site goes live with the rebuilt indexes, and a broken upload that
+#    fails validation is not published;
+#  - on any other push to main;
+#  - by hand: Actions tab > "Deploy to GitHub Pages" > Run workflow.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "site/tei/**.xml"   # these go through the rebuild workflow first
+  workflow_run:
+    workflows: ["Rebuild search index"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # the latest main, including the rebuild's own commit
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Point the old-URL redirects at the Pages address
+        # Pages serves the site from /<repo>/ until a custom domain is set,
+        # then from /. 404.html in the repository keeps "/" for other hosts.
+        run: |
+          root="${{ steps.pages.outputs.base_path }}/"
+          sed -i "s#var SITE_ROOT = \"/\";#var SITE_ROOT = \"$root\";#" site/404.html
+          grep -q "var SITE_ROOT = \"$root\";" site/404.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
