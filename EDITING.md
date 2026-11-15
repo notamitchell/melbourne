@@ -106,7 +106,7 @@ and you can skip straight to step 5 below for each file.
 
 1. Go to [github.com](https://github.com) and sign in.
 2. Open the eMelbourne project at
-   [github.com/notamitchell/Melbourne](https://github.com/notamitchell/Melbourne).
+   [github.com/notamitchell/melbourne](https://github.com/notamitchell/melbourne).
 3. Click the **site** folder, then the **tei** folder. You'll see a long list of files whose names
    start with `EM`. GitHub only lists the first 1,000 and says the list has been truncated; that's
    expected, and you don't need to find your file in the list.
@@ -121,7 +121,7 @@ and you can skip straight to step 5 below for each file.
 ### Upload the .js file
 
 1. At the top of the page, click **site** in the folder path (it looks like
-   `Melbourne / site / tei`) to go back up one folder.
+   `melbourne / site / tei`) to go back up one folder.
 2. Click the **tei-js** folder.
 3. Do steps 4 to 7 again with the `.js` file.
 
@@ -154,9 +154,14 @@ wait a minute and reload the page.
 - **Two people start new entries at the same time.** The editor may give both the same ID, and the
   second upload would replace the first. If you're writing a new entry, tell the team, and check on
   the website that the ID you were given is still free before you upload.
-- **GitHub says you don't have permission, or offers to "fork" the project, or the button says
-  *Propose changes* instead of *Commit changes*.** Your account hasn't been added to the project
-  yet. Ask the team to add you, accept the invitation email from GitHub, then try again.
+- **You get an email from GitHub saying "Run failed: Rebuild search index".** The file you uploaded
+  has a mistake in it, usually because it was edited outside the editor. The website keeps its
+  previous search index until it's fixed. Tell the team and forward them the email; the link in it
+  shows which file and line is wrong.
+- **GitHub says "Uploads are disabled. File uploads require push access to this repository", or
+  there is no *Upload files* choice under *Add file*.** Either you aren't signed in, or your account
+  hasn't been added to the project yet. Ask the team to add you, accept the invitation email from
+  GitHub, then try again.
 
 ---
 
@@ -167,7 +172,7 @@ wait a minute and reload the page.
   public if the site is; it can only download files, never change the site.
 - To let someone upload, add their GitHub account: on the repository page, **Settings** →
   **Collaborators** → **Add people**. They get an email invitation and must accept it first.
-- `githubRepo` near the top of `site/js/editor.js` is set to `"notamitchell/Melbourne"`, so the
+- `githubRepo` near the top of `site/js/editor.js` is set to `"notamitchell/melbourne"`, so the
   *Saved* box links straight to the two upload pages. Change it if the repository moves.
 - `.github/workflows/rebuild-index.yml` runs `tools/build_index.py` and `tools/build-facets.py`
   whenever a file in `site/tei/` changes. It rebuilds `site/tei-js/`, `site/data/index.js` (search
