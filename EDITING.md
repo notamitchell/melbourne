@@ -16,8 +16,9 @@ it to GitHub. Nothing on the website changes until you upload.
 
 Use whichever of these the team has told you to use:
 
-- **On the website:** go to the site's address and add `/editor.html` to the end, for example
-  `https://example.org/editor.html`.
+- **On the website:** go to
+  [notamitchell.github.io/melbourne/editor.html](https://notamitchell.github.io/melbourne/editor.html)
+  (the site's address with `editor.html` on the end).
 - **From a copy on your computer:** open the `site` folder and double-click `editor.html`. It opens
   in your web browser. (To get a copy, the team can send you one, or on the GitHub page for the
   project press the green **Code** button, then **Download ZIP**, and unzip it.)
@@ -181,9 +182,9 @@ wait a minute and reload the page.
   schema. It can also be run by hand from the **Actions** tab (*Rebuild search index* → *Run
   workflow*). So strictly a collaborator only needs to upload the `.xml` file; the `.js` file is
   regenerated anyway. Uploading both keeps the site correct even before the workflow has run.
-- If the site is deployed by a GitHub Actions workflow, note that commits made by the rebuild
-  workflow don't start other workflows; add the deploy as a job after the rebuild, or trigger it on
-  `workflow_run`.
+- `.github/workflows/deploy-pages.yml` publishes `site/` to GitHub Pages. A TEI upload is published
+  only after the rebuild workflow succeeds, so a file that fails validation never goes live; any
+  other change to `main` is published straight away.
 - On a host without GitHub Actions, run `python3 tools/build_index.py` after adding files (Python 3,
   no other packages), or use **Download updated index files** in the editor's *Saved* box. That
   merges the one entry into the index files of the copy the editor was opened from, so only use it
