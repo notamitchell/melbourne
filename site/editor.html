@@ -19,6 +19,7 @@
   <span id="current" class="ed-current"></span>
   <span class="ed-spacer"></span>
   <span id="status" class="ed-status" role="status" aria-live="polite"></span>
+  <a href="#guide" id="btn-guide" class="ed-btn ghost">Guide</a>
   <button type="button" id="btn-home" class="ed-btn ghost" hidden>Open another</button>
   <button type="button" id="btn-save" class="ed-btn primary" hidden>Save files</button>
 </header>
@@ -34,7 +35,7 @@
   </div>
   <h1>Edit eMelbourne</h1>
   <p class="ed-lead">Change an entry or write a new one, check how it will look, then save it and upload it to GitHub.
-    <a href="#" id="help-link">How publishing works</a></p>
+    <a href="#guide">Read the step-by-step guide</a></p>
   <div class="ed-cards">
     <section class="ed-card">
       <h2>Edit an entry</h2>
@@ -174,6 +175,149 @@
   </section>
 </div>
 
+<!-- The guide for collaborators (editor.html#guide). The same text, plus notes for the team, is in EDITING.md. -->
+<main id="guide" class="ed-wrap ed-guide" hidden aria-labelledby="guide-h">
+  <p><a href="#" class="ed-btn ghost small" data-guide-back>← Back to the editor</a></p>
+  <h1 id="guide-h">How to edit eMelbourne</h1>
+  <p class="ed-lead">This guide is for anyone who adds to or corrects eMelbourne entries. You don't need any technical knowledge.</p>
+  <div class="ed-notice">
+    <p><strong>You need:</strong> a computer with Chrome, Edge, Firefox or Safari, and a free
+      <a href="https://github.com/signup" target="_blank" rel="noopener">GitHub account</a> that the eMelbourne team has added to the project.
+      Ask the team if you haven't been added yet.</p>
+    <p>There are three stages: <strong>edit</strong> the entry here, <strong>save</strong> it, then <strong>upload</strong> it to GitHub.
+      Nothing on the website changes until you upload.</p>
+  </div>
+
+  <nav class="ed-toc" aria-label="In this guide">
+    <ol>
+      <li><a href="#guide-open">Find the entry, or start a new one</a></li>
+      <li><a href="#guide-edit">Make your changes</a></li>
+      <li><a href="#guide-check">Check it</a></li>
+      <li><a href="#guide-save">Save</a></li>
+      <li><a href="#guide-upload">Upload to GitHub</a></li>
+      <li><a href="#guide-live">See it on the website</a></li>
+      <li><a href="#guide-problems">If something goes wrong</a></li>
+    </ol>
+  </nav>
+
+  <section id="guide-open">
+    <h2>1. Find the entry, or start a new one</h2>
+    <p>The editor is at <a href="https://notamitchell.github.io/melbourne/editor.html">notamitchell.github.io/melbourne/editor.html</a>. It opens with three choices.</p>
+    <ul>
+      <li><strong>Edit an entry:</strong> type part of the entry's name, or its ID (such as <code>EM00187</code>), and click it in the list.
+        An entry's ID is at the end of its address on the website (<code>entry.html?id=EM00187</code>).</li>
+      <li><strong>Start a new entry:</strong> type the title, choose the type (Entry, Person, Place, and so on) and press <strong>Create</strong>.
+        For a person, write the title as <em>Surname, First names</em>, for example <em>Batman, John</em>. The editor gives the new entry the next free ID.</li>
+      <li><strong>Open a saved file:</strong> if you saved an entry earlier but haven't uploaded it yet, choose its <code>.xml</code> file to carry on.</li>
+    </ul>
+  </section>
+
+  <section id="guide-edit">
+    <h2>2. Make your changes</h2>
+    <p>The <strong>Edit</strong> tab has a box for each part of the entry. Change only what you need to; anything you leave alone stays exactly as it was.</p>
+    <dl class="ed-gloss">
+      <dt>About this entry</dt><dd>The title, the type and the authors (one name per line).</dd>
+      <dt>Facts or Dates</dt><dd>For a person: their name, birth, death and occupations. For anything else: its start and end dates.
+        Write dates as you would in a sentence, such as <em>3 March 1850</em>, <em>1850</em> or <em>c. 1850</em>.</dd>
+      <dt>Quick facts</dt><dd>An optional short list at the top of the article, used on the cultural artefact pages (<em>Artist:</em>, <em>Media:</em>, <em>Created:</em>, <em>Location:</em>).</dd>
+      <dt>Article</dt><dd>The main text. It works like a word processor: bold, italic, headings, lists and quotations are on the toolbar.
+        <ul>
+          <li><strong>Link to another eMelbourne entry:</strong> select some words, press <strong>Link to entry</strong>, type the entry's name and click it.</li>
+          <li><strong>Link to another website:</strong> select some words and press the chain button.</li>
+          <li><strong>Add a picture from a collection:</strong> copy the link to the item's page at Trove (National Library of Australia), State Library Victoria,
+            Public Record Office Victoria or University of Melbourne Digitised Collections, or a link to an image file, and paste it on a line of its own.
+            After a moment it turns into the picture, with a caption linking back to the collection.</li>
+        </ul></dd>
+      <dt>Gallery</dt><dd>The pictures shown under the article. Paste a collection link in the box and press <strong>Add picture</strong>, then write a caption and,
+        if you know them, the creator and date. Every picture needs a caption. Use the arrows to change the order, and <strong>Remove</strong> to take one out.</dd>
+      <dt>Related entries</dt><dd>Press <strong>Add a related entry</strong> and choose the entry. The × removes one.</dd>
+      <dt>References</dt><dd>Press <strong>Add a reference</strong> and fill in what you know: author, title, the book or journal it was published in, place, publisher,
+        year, pages, and a link if it's online. Click a reference to open it and correct it.</dd>
+      <dt>About your change</dt><dd>Your name, and a few words on what you changed. These go in the entry's history.</dd>
+    </dl>
+    <p>Your work is kept in this browser as you go. If you close the tab by mistake, open the editor again and press <strong>Carry on with it</strong>.
+      This only works on the same computer and browser.</p>
+  </section>
+
+  <section id="guide-check">
+    <h2>3. Check it</h2>
+    <ul>
+      <li>The <strong>Preview</strong> tab shows the page as it will look on the website.</li>
+      <li>The <strong>Compare</strong> tab lists everything you've changed, with the old version on the left and the new one on the right.
+        Deleted words are crossed out in red and new words are highlighted in green. Check it before you save, especially that nothing has gone missing by accident.</li>
+    </ul>
+  </section>
+
+  <section id="guide-save">
+    <h2>4. Save</h2>
+    <p>Press <strong>Save files</strong> (top right, or at the bottom of the form). Two files go into your <strong>Downloads</strong> folder, named after the entry's ID:</p>
+    <ul>
+      <li><code>EM00187.xml</code>: the entry itself.</li>
+      <li><code>EM00187.js</code>: a copy of the same entry that the website loads.</li>
+    </ul>
+    <p>If the browser asks whether to allow the site to download several files, choose <strong>Allow</strong>.
+      If only one file arrived, use the links in the <em>Saved</em> box to download the other again.</p>
+    <p class="ed-warn"><strong>Check the file names.</strong> If you have saved the same entry before, your computer may have named the new files
+      <code>EM00187 (1).xml</code> and <code>EM00187 (1).js</code>. Delete the older files from your Downloads folder and rename the new ones, removing
+      <code> (1)</code>. The names must be exactly the ID followed by <code>.xml</code> and <code>.js</code>, or the website won't find them.</p>
+  </section>
+
+  <section id="guide-upload">
+    <h2>5. Upload to GitHub</h2>
+    <p>You upload each of the two files to its own folder. Each upload is called a <em>commit</em>.</p>
+    <p><strong>Shortcut:</strong> the <em>Saved</em> box has a link to each upload page. Use them and you can start at step 4 below for each file.</p>
+    <h3>Upload the .xml file</h3>
+    <ol>
+      <li>Go to <a href="https://github.com/login" target="_blank" rel="noopener">github.com</a> and sign in.</li>
+      <li>Open the eMelbourne project at <a href="https://github.com/notamitchell/melbourne" target="_blank" rel="noopener">github.com/notamitchell/melbourne</a>.</li>
+      <li>Click the <strong>site</strong> folder, then the <strong>tei</strong> folder. GitHub only lists the first 1,000 files and says the list has been truncated;
+        that's expected, and you don't need to find your file in the list.</li>
+      <li>Near the top right, press <strong>Add file</strong>, then <strong>Upload files</strong>.
+        (Or go straight to the <a href="https://github.com/notamitchell/melbourne/upload/main/site/tei" target="_blank" rel="noopener">upload page for the tei folder</a>.)</li>
+      <li>Drag the <code>.xml</code> file from your Downloads folder onto the page, or click <strong>choose your files</strong> and pick it.
+        Wait until the file name appears under the drop area.</li>
+      <li>Scroll down to <strong>Commit changes</strong>. In the first box, write a short description, for example
+        <em>Corrected birth date of John Batman</em> or <em>New entry: Fitzroy Gardens</em>.</li>
+      <li>Leave <strong>Commit directly to the main branch</strong> selected, and press the green <strong>Commit changes</strong> button.</li>
+    </ol>
+    <h3>Upload the .js file</h3>
+    <ol>
+      <li>At the top of the page, click <strong>site</strong> in the folder path (it looks like <code>melbourne / site / tei</code>) to go back up one folder.</li>
+      <li>Click the <strong>tei-js</strong> folder.
+        (Or go straight to the <a href="https://github.com/notamitchell/melbourne/upload/main/site/tei-js" target="_blank" rel="noopener">upload page for the tei-js folder</a>.)</li>
+      <li>Do steps 4 to 7 above again, with the <code>.js</code> file.</li>
+    </ol>
+    <p>Make sure each file goes into the right folder: the <code>.xml</code> file into <code>tei</code>, and the <code>.js</code> file into <code>tei-js</code>.</p>
+    <p>If the entry already existed, uploading replaces it with your version; that's expected. GitHub keeps every earlier version,
+      so nothing is ever lost and the team can always undo a mistake.</p>
+  </section>
+
+  <section id="guide-live">
+    <h2>6. See it on the website</h2>
+    <p>The website updates a few minutes after you upload, and the search and A to Z pages update themselves too.
+      Open the entry's page (<code>entry.html?id=EM00187</code>) and check it. If you still see the old version, wait a minute and reload the page.</p>
+  </section>
+
+  <section id="guide-problems">
+    <h2>If something goes wrong</h2>
+    <dl class="ed-gloss">
+      <dt>The editor says it can't open an entry</dt><dd>Check the ID. If you're using a copy of the site on your computer, it may be out of date.</dd>
+      <dt>No picture appears after pasting a collection link</dt><dd>The link has to be to a single item that has a digitised image, and the editor only
+        recognises the collections listed above, IIIF image links and links ending in <code>.jpg</code>, <code>.png</code>, <code>.gif</code> or <code>.webp</code>.
+        If it can't find a picture, the link stays as an ordinary link.</dd>
+      <dt>GitHub says "Uploads are disabled", or there is no Upload files choice</dt><dd>Either you aren't signed in, or your account hasn't been added to the
+        project yet. Ask the team to add you, accept the invitation email from GitHub, then try again.</dd>
+      <dt>You get an email from GitHub saying "Run failed: Rebuild search index"</dt><dd>The file you uploaded has a mistake in it, usually because it was edited
+        outside the editor. The website keeps the previous version until it's fixed. Tell the team and forward them the email.</dd>
+      <dt>You uploaded a file to the wrong folder, or with the wrong name</dt><dd>Tell the team; they can move or remove it. Nothing is lost.</dd>
+      <dt>Two people edit the same entry at once</dt><dd>Whoever uploads second replaces the first person's changes. If you're planning a big change to an entry, let the team know first.</dd>
+      <dt>Two people start new entries at the same time</dt><dd>The editor may give both the same ID, and the second upload would replace the first.
+        If you're writing a new entry, tell the team, and check on the website that the ID you were given is still free before you upload.</dd>
+    </dl>
+  </section>
+  <p><a href="#" class="ed-btn primary" data-guide-back>← Back to the editor</a></p>
+</main>
+
 <!-- After saving -->
 <dialog id="saved" class="ed-dialog" aria-labelledby="saved-h">
   <h2 id="saved-h">Saved</h2>
@@ -183,7 +327,7 @@
   <p class="ed-warn">Check that the file names are exactly as above. If your computer added something like <code>(1)</code>, rename the file before uploading.</p>
   <h3>To publish it</h3>
   <ol id="saved-steps"></ol>
-  <p>The full step-by-step guide is in <a id="guide-link" href="../EDITING.md" target="_blank" rel="noopener">EDITING.md</a>.</p>
+  <p>The <a href="#guide-upload" data-close-dialog>step-by-step guide</a> explains each step.</p>
   <details>
     <summary>Search index</summary>
     <p>The search and A to Z pages update themselves after you upload, when the site's automatic rebuild is set up on GitHub.
@@ -201,16 +345,5 @@
   <form method="dialog"><button class="ed-btn ghost">Cancel</button></form>
 </dialog>
 
-<dialog id="help" class="ed-dialog" aria-labelledby="help-h">
-  <h2 id="help-h">How publishing works</h2>
-  <ol>
-    <li>Open or start an entry here and make your changes. Your work is kept in this browser as you go, so a closed tab isn't lost.</li>
-    <li>Use <strong>Preview</strong> to see the page as it will look, and <strong>Compare</strong> to see what you changed.</li>
-    <li>Press <strong>Save files</strong>. Two files go to your Downloads folder: the entry (<code>.xml</code>) and a copy the site loads (<code>.js</code>).</li>
-    <li>Upload both files to the eMelbourne repository on GitHub, through the GitHub website. Nothing changes on the site until you do.</li>
-  </ol>
-  <p>The full guide is <a href="../EDITING.md" target="_blank" rel="noopener">EDITING.md</a>.</p>
-  <form method="dialog"><button class="ed-btn primary">Close</button></form>
-</dialog>
 </body>
 </html>
