@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Born here, died there – eMelbourne experiments</title>
+<link rel="stylesheet" href="../css/site.css">
+<link rel="stylesheet" href="experiments.css">
+<link rel="stylesheet" href="maps.css">
+<script src="../js/vendor/d3/d3.min.js"></script>
+<script src="common.js"></script>
+<script src="maps.js"></script>
+</head>
+<body class="exp">
+<header class="site"><div class="hd"><a class="brand" href="../index.html"><span class="brand-name">eMelbourne</span><span class="brand-tag">The Encyclopedia of Melbourne Online</span></a><form class="quick" action="../search.html" role="search"><label class="sr" for="quick-q">Search eMelbourne</label><input id="quick-q" name="q" type="search" placeholder="Search people, places, events…" autocomplete="off"><button type="submit">Search</button><a class="adv" href="../advanced.html">Advanced search</a></form><nav class="top" aria-label="Site"><a href="../index.html#themes">Themes</a><a href="../browse.html">A to Z</a><a href="../index.html#exhibitions">Exhibitions</a><a href="onthisday.html">On this day</a><a href="index.html" aria-current="page">Experiments</a><a href="../page.html?p=about">About</a></nav></div></header>
+<main class="exp-wrap">
+<p class="exp-crumb"><a href="index.html">Experiments</a></p>
+<h1>Born here, died there</h1>
+<p class="exp-lede">Where the people in eMelbourne were born and where they died, for the places in Melbourne and Victoria that can be pinned down with certainty. Places overseas and interstate are left off the map. A line joins a birthplace to a place of death. Pick a span of years or a line of work, and click a dot to see who it was.</p>
+<div class="exp-bar">
+  <span class="exp-legend" id="layers"></span>
+  <label>Born from <input type="text" id="from" size="5" maxlength="4" inputmode="numeric" placeholder="year"></label>
+  <label>to <input type="text" id="to" size="5" maxlength="4" inputmode="numeric" placeholder="year"></label>
+  <label>Work <select id="work"><option value="">Any</option></select></label>
+  <button class="btn-quiet" id="metro" type="button">Melbourne</button>
+  <button class="btn-quiet" id="vic" type="button">Victoria</button>
+</div>
+<p id="count" class="exp-note"></p>
+<div class="exp-chart map-box" id="map"></div>
+<p class="exp-note map-credit" id="credit"></p>
+<div id="panel" class="map-panel" aria-live="polite"></div>
+</main>
+<script>
+(function () {
+  "use strict";
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>Sorry, the map could not be drawn.</b> Try reloading the page.</p>"); return; }
+  const { esc } = Exp;
+  const LAYERS = [["b", "Birthplaces", "var(--series-1)"], ["d", "Places of death", "var(--series-2)"], ["line", "Birth to death", "var(--series-7)"]];
+  const on = { b: true, d: true, line: true };
+  Promise.all([Exp.facets(), Maps.basemap()]).then(([rows, base]) => {
+    const people = rows.filter(r => r.t === "person" && (r.b?.ll || r.d?.ll)).map(r => ({ ...r, g: Exp.group(r.occ) }));
+    document.getElementById("credit").textContent = base.credit + ". Points: tools/geocode.py, from Vicmap and VICNAMES; only places in Victoria that could be matched with certainty.";
+    document.getElementById("work").insertAdjacentHTML("beforeend", Exp.GROUPS.map(([k, l]) => `<option value="${k}">${esc(l)}</option>`).join(""));
+    document.getElementById("layers").innerHTML = LAYERS.map(([k, label, c]) =>
+      `<button type="button" class="exp-key" aria-pressed="true" data-k="${k}"><i style="background:${c}"></i>${label}</button>`).join("");
+
+    const map = Maps.make(document.getElementById("map"), base, { extent: Maps.METRO, labelsAt: 8, label: "Map of birth and death places; the list under it names the people for a chosen place" });
+    const arcs = map.layer.append("g"), dots = map.layer.append("g");
+    let shown = [], chosen = null;
+
+    function filtered() {
+      const lo = +document.getElementById("from").value || -Infinity, hi = +document.getElementById("to").value || Infinity, w = document.getElementById("work").value;
+      return people.filter(p => (p.b?.y == null || (p.b.y >= lo && p.b.y <= hi)) && (!w || p.g === w));
+    }
+    function draw() {
+      const ps = filtered();
+      // one dot per place and kind: the people born (or died) at the same coordinates
+      const pts = [];
+      ["b", "d"].forEach(k => {
+        if (!on[k]) return;
+        d3.groups(ps.filter(p => p[k]?.ll), p => p[k].ll.join(",")).forEach(([key, list]) =>
+          pts.push({ k, key, ll: list[0][k].ll, name: list[0][k].pl.split(/[,(]/)[0].trim(), list }));
+      });
+      pts.sort((a, b) => b.list.length - a.list.length);
+      shown = pts;
+      const r = d3.scaleSqrt([0, d3.max(pts, p => p.list.length) || 1], [2.5, 18]);
+      const both = on.line ? ps.filter(p => p.b?.ll && p.d?.ll && p.b.ll.join() !== p.d.ll.join()) : [];
+      arcs.selectAll("path").data(both, p => p.id).join("path").attr("class", "map-arc").attr("stroke", "var(--series-7)")
+        .attr("d", p => {
+          const x1 = map.x(p.b.ll), y1 = map.y(p.b.ll), x2 = map.x(p.d.ll), y2 = map.y(p.d.ll), dx = x2 - x1, dy = y2 - y1;
+          return `M${x1},${y1}Q${(x1 + x2) / 2 - dy * .2},${(y1 + y2) / 2 + dx * .2} ${x2},${y2}`;   // a slight bow, so return trips don't overlap
+        });
+      dots.selectAll("circle").data(pts, p => p.k + p.key).join("circle").attr("class", "map-dot")
+        .attr("fill", p => p.k === "b" ? "var(--series-1)" : "var(--series-2)")
+        .attr("cx", p => map.x(p.ll)).attr("cy", p => map.y(p.ll)).each(function (p) { this.r0 = r(p.list.length); })
+        .on("mouseenter", (e, p) => map.tip(e, `<b>${esc(p.name)}</b><span class="m">${p.list.length} ${p.k === "b" ? "born" : "died"} here</span>`))
+        .on("mouseleave", () => map.tip())
+        .on("click", (e, p) => show(p));
+      size();
+      const nb = ps.filter(p => p.b?.ll).length, nd = ps.filter(p => p.d?.ll).length;
+      document.getElementById("count").textContent = `${ps.length.toLocaleString("en-AU")} people: ${nb.toLocaleString("en-AU")} born and ${nd.toLocaleString("en-AU")} died at a place on the map; ${both.length.toLocaleString("en-AU")} lines from birth to death.`;
+      if (chosen) show(pts.find(p => p.k === chosen.k && p.key === chosen.key));
+    }
+    function size() {
+      const k = map.k();
+      dots.selectAll("circle").attr("r", function () { return this.r0 * Math.pow(k, 0.25) / k; }).attr("stroke-width", 1 / k);
+    }
+    function show(p) {
+      chosen = p || null;
+      dots.selectAll("circle").classed("on", x => p && x.k === p.k && x.key === p.key);
+      if (!p) { document.getElementById("panel").innerHTML = ""; return; }
+      const list = p.list.slice().sort((a, b) => (a.b?.y ?? 0) - (b.b?.y ?? 0));
+      const o = p.k === "b" ? "d" : "b";
+      document.getElementById("panel").innerHTML = `<h2>${p.k === "b" ? "Born" : "Died"} in ${esc(p.name)}: ${list.length}</h2><ul class="plain">` +
+        list.map(r => `<li><a href="${Exp.entry(r.id)}">${esc(r.n)}</a> <span class="exp-note">${r.b?.y ?? "?"}–${r.d?.y ?? "?"} · ${esc(r[p.k].pl)}` +
+          (r[o]?.pl ? ` · ${o === "d" ? "died" : "born"} ${esc(r[o].pl)}` : "") + (r.occ ? " · " + esc(r.occ.join(", ")) : "") + `</span></li>`).join("") + "</ul>";
+    }
+
+    map.onzoom(size);
+    draw();
+    ["from", "to", "work"].forEach(id => document.getElementById(id).addEventListener("input", draw));
+    document.querySelectorAll("#layers .exp-key").forEach(b => b.addEventListener("click", () => {
+      on[b.dataset.k] = !on[b.dataset.k]; b.setAttribute("aria-pressed", on[b.dataset.k]); draw();
+    }));
+    document.getElementById("metro").onclick = () => map.zoomTo(Maps.METRO);
+    document.getElementById("vic").onclick = () => map.zoomTo(Maps.VIC);
+  }).catch(e => document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p>" + esc(e.message) + "</p>"));
+})();
+</script>
+</body>
+</html>

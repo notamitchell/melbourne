@@ -1,0 +1,21 @@
+/* Map experiments (map.html, lives-map.html). Colours from site.css and experiments.css. */
+.exp { --water: #dfe8ee; --land: #f3f1ea; --loc-line: #d2cdc1; --grid-line: #b7b1a3; }
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .exp { --water: #17222b; --land: #22252a; --loc-line: #3a3e44; --grid-line: #565b62; }
+}
+:root[data-theme="dark"] .exp { --water: #17222b; --land: #22252a; --loc-line: #3a3e44; --grid-line: #565b62; }
+.map-box { padding: 0; overflow: hidden; background: var(--water); touch-action: none; }
+.map-svg { cursor: grab; }
+.map-svg:active { cursor: grabbing; }
+.map-land path { fill: var(--land); stroke: var(--loc-line); vector-effect: non-scaling-stroke; }
+.map-loc path { fill: var(--land); stroke: var(--loc-line); stroke-width: .7; vector-effect: non-scaling-stroke; }
+.map-loc path:hover { fill: var(--hover); }
+.map-grid path { fill: none; stroke: var(--grid-line); stroke-width: 1.2; vector-effect: non-scaling-stroke; }
+.map-labels text { fill: var(--muted); pointer-events: none; paint-order: stroke; stroke: var(--land); stroke-width: .25em; stroke-linejoin: round; }
+.map-dot { stroke: var(--card); cursor: pointer; fill-opacity: .85; }
+.map-dot:hover, .map-dot.on { fill-opacity: 1; stroke: var(--fg); }
+.map-arc { fill: none; stroke-opacity: .35; vector-effect: non-scaling-stroke; pointer-events: none; }
+.map-credit { margin: .4rem 0 0; }
+.map-panel { margin-top: 1rem; font: .92rem var(--sans); }
+.map-panel h2 { margin: 0 0 .2rem; }
+.map-panel h3 { margin: 1rem 0 .3rem; font-size: 1rem; }

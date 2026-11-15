@@ -4,6 +4,7 @@
   python3 tools/geocode.py fetch   [site_dir]   downloads the gazetteers into tmp/geo-cache/
   python3 tools/geocode.py review  [site_dir]   writes enrichments/geo-review.csv and geo-skipped.csv
   python3 tools/geocode.py apply   [site_dir]   writes the rows marked y into site/tei/*.xml
+  python3 tools/geocode.py basemap [site_dir]   writes site/data/basemap.js, the outlines the map experiments draw
 
 Only Melbourne and Victorian places are geocoded, and only when the match is certain:
 
@@ -192,6 +193,9 @@ def fetch(site):
     for i in range(0, len(names), 20):   # towns further out, by name
         loc += wfs("locality_polygon", cql="locality_name IN (" + ",".join("'" + n + "'" for n in names[i:i + 20]) + ")")
     json.dump(loc, open(cache("localities.json"), "w"))
+    print("Vicmap Lite local government areas …")
+    open(cache("lga-lite.json"), "wb").write(get(WFS, dict(service="WFS", version="1.1.0", request="GetFeature",
+         typeName="open-data-platform:vmlite_lga", outputFormat="application/json", srsName="EPSG:4326")))
     print("City of Melbourne road corridors …")
     open(cache("com-road-corridors.geojson"), "wb").write(get(COM))
     todo = sorted({t for _, t in street_titles(roots)} | set(GRID))
@@ -595,7 +599,52 @@ def apply(site):
     print(f"{len(todo)} rows marked y; {changed} files changed. Now run tools/build_index.py and tools/build-facets.py.")
 
 
+# ---------------------------------------------------------------- basemap
+
+def basemap(site):
+    """Simplified outlines for the map experiments: Victoria, Melbourne's localities, the Hoddle grid."""
+    from shapely.geometry import shape, mapping
+    from shapely.ops import unary_union, linemerge
+
+    def rings(g, nd=4):
+        polys = g.geoms if hasattr(g, "geoms") else [g]
+        out = []
+        for p in polys:
+            if p.geom_type != "Polygon" or p.is_empty:
+                continue
+            out.append([[round(x, nd), round(y, nd)] for x, y in p.exterior.coords])
+        return out
+
+    lga = [f for f in json.load(open(cache("lga-lite.json")))["features"] if f["properties"]["state"] == "VIC"]
+    vic = unary_union([shape(f["geometry"]).buffer(0) for f in lga]).simplify(0.01)
+    vic = [r for r in rings(vic, 3) if len(r) > 8]
+    loc = []
+    for f in json.load(open(cache("localities.json"))):
+        g = shape(f["geometry"]).buffer(0)
+        c = g.representative_point()
+        if km(GPO, (c.y, c.x)) > 75:
+            continue
+        g = g.simplify(0.0007)
+        loc.append({"n": f["properties"]["locality_name"].title(), "c": [round(c.x, 4), round(c.y, 4)], "r": rings(g)})
+    grid = []
+    for n in GRID:
+        fn = cache("roads/" + re.sub(r"\W", "_", n.upper()) + ".json")
+        if not os.path.exists(fn):
+            continue
+        u = unary_union([shape(f["geometry"]) for f in json.load(open(fn))
+                         if "MELBOURNE" in (f["properties"]["left_locality"], f["properties"]["right_locality"])])
+        u = (linemerge(u) if hasattr(u, "geoms") else u).simplify(0.00005)
+        for l in (u.geoms if hasattr(u, "geoms") else [u]):
+            grid.append({"n": n, "l": [[round(x, 5), round(y, 5)] for x, y in l.coords]})
+    data = {"credit": "Outlines: Vicmap Lite, Vicmap Admin and Vicmap Transport, © State of Victoria (DEECA), CC BY 4.0",
+            "vic": vic, "loc": loc, "grid": grid}
+    path = os.path.join(site, "data", "basemap.js")
+    js = 'EMEL.loaded("basemap",' + json.dumps(data, separators=(",", ":")) + ");\n"
+    open(path, "w", encoding="utf-8").write(js)
+    print(f"{len(loc)} localities, {len(grid)} grid street pieces, {len(js) // 1024} KB -> {os.path.relpath(path, ROOT)}")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     site = sys.argv[2] if len(sys.argv) > 2 else os.path.join(ROOT, "site")
-    {"fetch": fetch, "review": review, "apply": apply}.get(cmd, lambda s: sys.exit(__doc__))(site)
+    {"fetch": fetch, "review": review, "apply": apply, "basemap": basemap}.get(cmd, lambda s: sys.exit(__doc__))(site)
