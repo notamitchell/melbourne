@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Objects through time – eMelbourne experiments</title>
+<title>The collection through time – eMelbourne experiments</title>
 <link rel="stylesheet" href="../css/site.css">
 <link rel="stylesheet" href="experiments.css">
 <script src="../js/vendor/d3/d3.min.js"></script>
@@ -20,24 +20,24 @@
 <header class="site"><div class="hd"><a class="brand" href="../index.html"><span class="brand-name">eMelbourne</span><span class="brand-tag">The Encyclopedia of Melbourne Online</span></a><form class="quick" action="../search.html" role="search"><label class="sr" for="quick-q">Search eMelbourne</label><input id="quick-q" name="q" type="search" placeholder="Search people, places, events…" autocomplete="off"><button type="submit">Search</button><a class="adv" href="../advanced.html">Advanced search</a></form><nav class="top" aria-label="Site"><a href="../index.html#themes">Themes</a><a href="../browse.html">A to Z</a><a href="../index.html#exhibitions">Exhibitions</a><a href="onthisday.html">On this day</a><a href="index.html" aria-current="page">Experiments</a><a href="../page.html?p=about">About</a></nav></div></header>
 <main class="exp-wrap">
 <p class="exp-crumb"><a href="index.html">Experiments</a></p>
-<h1>Objects through time</h1>
-<p class="exp-lede">The 1,561 digital objects (images and digitised records) by the year they are dated to. An object dated across several years counts in its first year. Drag across the chart to choose years and list the objects, with the entries they belong to.</p>
-<div class="exp-bar"><div class="exp-legend" id="legend"></div><label><input type="checkbox" id="log"> Stretch the small years (log scale)</label><span id="count" class="exp-note"></span></div>
+<h1>The collection through time</h1>
+<p class="exp-lede">Photographs, letters, plans and other items from the eMelbourne collection, by the year they come from. Items that span several years are shown in their first year. Drag across the chart to pick some years and see the items from them.</p>
+<div class="exp-bar"><div class="exp-legend" id="legend"></div><label><input type="checkbox" id="log"> Make quieter years easier to see</label><span id="count" class="exp-note"></span></div>
 <div class="exp-chart" id="chart"></div>
 <div id="list" aria-live="polite"></div>
 </main>
 <script>
 (function () {
   "use strict";
-  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>The chart library could not be loaded</b> (js/vendor/d3/d3.min.js).</p>"); return; }
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>Sorry, the chart could not be drawn.</b> Try reloading the page.</p>"); return; }
   const { esc } = Exp;
-  const KINDS = [["digitised record", "Digitised records", "var(--series-1)"], ["image", "Images", "var(--series-2)"]];
+  const KINDS = [["digitised record", "Documents and records", "var(--series-1)"], ["image", "Pictures", "var(--series-2)"]];
   let items = [], names = {}, range = null;
   Promise.all([Exp.objects(), Exp.facets()]).then(([objects, rows]) => {
     rows.forEach(r => (names[r.id] = r.n));
     items = Object.entries(objects).map(([id, o]) => ({ id, o, e: Exp.parseDate(o.date) })).filter(x => x.e);
     const undated = Object.keys(objects).length - items.length;
-    document.getElementById("count").textContent = `${items.length.toLocaleString("en-AU")} dated · ${undated} without a date`;
+    document.getElementById("count").textContent = "";
     document.getElementById("legend").innerHTML = KINDS.map(([k, l, c]) => `<span class="exp-key" style="cursor:default"><i style="background:${c}"></i>${l} <span class="n">${items.filter(x => x.o.type === k).length}</span></span>`).join("");
     const p = new URLSearchParams(location.search).get("years");
     if (p && /^\d{4}-\d{4}$/.test(p)) range = p.split("-").map(Number);
@@ -79,7 +79,7 @@
   function list() {
     try { history.replaceState(null, "", range ? "?years=" + range.join("-") : location.pathname); } catch (e) { /* file:// */ }
     const el = document.getElementById("list");
-    if (!range) { el.innerHTML = '<p class="exp-note">Drag across the chart to list the objects from those years.</p>'; return; }
+    if (!range) { el.innerHTML = '<p class="exp-note">Drag across the chart to see the items from those years.</p>'; return; }
     const xs = items.filter(x => x.e.y >= range[0] && x.e.y <= range[1]).sort((a, b) => a.e.y - b.e.y || (a.e.m || 0) - (b.e.m || 0) || (a.e.d || 0) - (b.e.d || 0));
     const shown = xs.slice(0, 300);
     el.innerHTML = `<h2>${range[0] === range[1] ? range[0] : range.join("–")}: ${xs.length} objects</h2><ul>` + shown.map(x =>

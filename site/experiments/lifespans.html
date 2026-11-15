@@ -14,7 +14,7 @@
 <main class="exp-wrap">
 <p class="exp-crumb"><a href="index.html">Experiments</a></p>
 <h1>Lifespans</h1>
-<p class="exp-lede">Every person in eMelbourne as a bar from birth to death, coloured by the kind of work they did. The line above counts how many of the people shown were alive in each year. Point at a bar for details; click it to open the entry.</p>
+<p class="exp-lede">Each bar is one person's life, from birth to death, coloured by the kind of work they did. The line at the top shows how many of them were alive in each year. Point at a bar to see who it is, or click it to read about them.</p>
 <div class="exp-bar">
   <input type="search" id="find" placeholder="Name or occupation" aria-label="Find a name or occupation">
   <input type="text" id="born" placeholder="Born in, e.g. Dublin" aria-label="Born in">
@@ -25,13 +25,13 @@
 <div class="exp-legend" id="legend" role="group" aria-label="Kinds of work"></div>
 <div class="exp-chart" id="alive" style="margin-top:.75rem"></div>
 <div class="exp-chart" id="chart" style="margin-top:.75rem"></div>
-<p class="exp-note">Kinds of work are worked out from each person's occupations in the TEI (608 different occupations, folded into eight groups by keyword); a person goes in the group of their first occupation that fits. Dates known only to the year are drawn from the start of that year.</p>
+<p class="exp-note">People are grouped by their main occupation into eight broad kinds of work. Where only the year of a birth or death is known, the bar starts or ends at the beginning of that year.</p>
 <details class="exp-table"><summary>Table of the people shown</summary><div id="table"></div></details>
 </main>
 <script>
 (function () {
   "use strict";
-  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>The chart library could not be loaded</b> (js/vendor/d3/d3.min.js).</p>"); return; }
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>Sorry, the chart could not be drawn.</b> Try reloading the page.</p>"); return; }
   const SLOT = { politics: 1, law: 2, business: 3, arts: 4, science: 5, building: 6, church: 7, service: 8 };
   const css = getComputedStyle(document.body);
   const color = g => css.getPropertyValue(SLOT[g] ? "--series-" + SLOT[g] : "--series-other").trim();

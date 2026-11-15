@@ -25,16 +25,16 @@
 <main class="exp-wrap">
 <p class="exp-crumb"><a href="index.html">Experiments</a></p>
 <h1>Themes together</h1>
-<p class="exp-lede">Which of the 21 themes are tied to each other. Two themes are tied when a record in one is related to a record in the other, or a record carries both. Red squares are pairs tied more often than their sizes alone would predict; blue, less often. Click a square to list the records that tie the two themes.</p>
-<div class="exp-scale"><span>Less than chance</span><span class="bar"></span><span>More than chance</span><span>· grey: about as expected, or fewer than three ties · blank: none</span></div>
+<p class="exp-lede">Some themes go hand in hand. Two themes are linked when an article in one points to an article in the other, or one article belongs to both. Red squares are pairs that turn up together more than you might expect; blue squares, less. Click a square to see the articles that link them.</p>
+<div class="exp-scale"><span>Less than expected</span><span class="bar"></span><span>More than expected</span><span>· grey: about as expected, or too few to say · blank: none</span></div>
 <div class="exp-chart" id="chart"></div>
 <div id="pairs" style="margin-top:1rem"></div>
-<details class="exp-table"><summary>Table of the strongest ties</summary><div id="table"></div></details>
+<details class="exp-table"><summary>The strongest pairs as a list</summary><div id="table"></div></details>
 </main>
 <script>
 (function () {
   "use strict";
-  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>The chart library could not be loaded</b> (js/vendor/d3/d3.min.js).</p>"); return; }
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>Sorry, the chart could not be drawn.</b> Try reloading the page.</p>"); return; }
   const { esc } = Exp;
   Promise.all([Exp.facets(), Exp.nav()]).then(([rows, nav]) => {
     const byId = Object.fromEntries(rows.map(r => [r.id, r]));
@@ -64,7 +64,7 @@
     const holder = document.getElementById("chart"), W = Math.max(640, holder.clientWidth - 16), L = 190, T = 170;
     const size = Math.min(34, (W - L - 10) / N), H = T + size * N + 10;
     const svg = d3.create("svg").attr("viewBox", `0 0 ${L + size * N + 90} ${H}`).style("max-width", (L + size * N + 90) + "px")
-      .attr("role", "img").attr("aria-label", "Matrix of the 21 themes; colour shows how much more or less often each pair is tied than chance. The table below lists the strongest ties.");
+      .attr("role", "img").attr("aria-label", "Matrix of the 21 themes; colour shows which pairs turn up together more or less than expected. The list below names the strongest pairs.");
     themes.forEach((t, i) => {
       svg.append("text").attr("class", "lab").attr("x", L - 8).attr("y", T + i * size + size / 2 + 4).attr("text-anchor", "end").text(t.name);
       svg.append("text").attr("class", "lab").attr("transform", `translate(${L + i * size + size / 2 + 4},${T - 8}) rotate(-55)`).text(t.name);
@@ -76,7 +76,7 @@
       .attr("x", c => L + c.j * size).attr("y", c => T + c.i * size).attr("width", size).attr("height", size).attr("rx", 4)
       .attr("fill", c => (!c.n ? "transparent" : c.n < 3 ? cv("--div-mid") : col(Math.log2(c.lift))))
       .on("pointermove", (e, c) => {
-        tip.innerHTML = `<b>${esc(themes[c.i].name)} and ${esc(themes[c.j].name)}</b>${c.n} ties<br><span class="m">${c.n ? c.lift.toFixed(1) + " times what chance predicts" : "No ties"}</span>`;
+        tip.innerHTML = `<b>${esc(themes[c.i].name)} and ${esc(themes[c.j].name)}</b>${c.n} ${c.n === 1 ? "link" : "links"}<br><span class="m">${!c.n ? "None" : c.n < 3 ? "Too few to say" : c.lift >= 1.5 ? "More often than expected" : c.lift <= 0.67 ? "Less often than expected" : "About as expected"}</span>`;
         tip.hidden = false;
         const r = holder.getBoundingClientRect(); let x = e.clientX - r.left + 14; if (x + 260 > r.width) x -= 290;
         tip.style.left = x + "px"; tip.style.top = (e.clientY - r.top + 14) + "px";
@@ -88,12 +88,12 @@
     function name(id) { return byId[id] ? `<a href="${Exp.entry(id)}">${esc(byId[id].n)}</a>` : esc(id); }
     function list(c) {
       const k = Math.min(c.i, c.j) + "," + Math.max(c.i, c.j), ties = why.get(k) || [];
-      document.getElementById("pairs").innerHTML = `<h2>${esc(themes[c.i].name)} and ${esc(themes[c.j].name)}: ${ties.length} ties</h2><ul class="plain">` +
+      document.getElementById("pairs").innerHTML = `<h2>${esc(themes[c.i].name)} and ${esc(themes[c.j].name)}: ${ties.length} ${ties.length === 1 ? "link" : "links"}</h2><ul class="plain">` +
         ties.slice(0, 80).map(([x, y]) => `<li>${name(x)}${y ? " ↔ " + name(y) : " (in both themes)"}</li>`).join("") + (ties.length > 80 ? `<li>and ${ties.length - 80} more</li>` : "") + "</ul>";
     }
     const top = cells.filter(c => c.i < c.j && c.n >= 3).sort((a, b) => b.lift - a.lift);
-    document.getElementById("table").innerHTML = "<table><thead><tr><th>Themes</th><th>Ties</th><th>Times chance</th></tr></thead><tbody>" +
-      top.map(c => `<tr><td>${esc(themes[c.i].name)} and ${esc(themes[c.j].name)}</td><td>${c.n}</td><td>${c.lift.toFixed(2)}</td></tr>`).join("") + "</tbody></table>";
+    document.getElementById("table").innerHTML = "<table><thead><tr><th>Themes</th><th>Links</th><th>Compared with what you would expect</th></tr></thead><tbody>" +
+      top.map(c => `<tr><td>${esc(themes[c.i].name)} and ${esc(themes[c.j].name)}</td><td>${c.n}</td><td>${c.lift >= 1 ? c.lift.toFixed(1) + " times as often" : "less often"}</td></tr>`).join("") + "</tbody></table>";
   }).catch(e => document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p>" + esc(e.message) + "</p>"));
 })();
 </script>
