@@ -11,7 +11,7 @@
   new pages:
      /biogs/EM00187b.htm           -> entry.html?id=EM00187
      /biogs/gallery/EM00187g.htm   -> entry.html?id=EM00187#gallery
-     /about.html, /help.html       -> page.html?p=about|help
+     /about.html, /help.html       -> page.html?p=about (Help was retired)
      /browse_*.htm, /search*.htm   -> browse.html, search.html
      /everydaywar/[index.html]     -> page.html?p=everydaywar
      /everydaywar/NAME.html        -> page.html?p=everydaywar-NAME
@@ -36,7 +36,7 @@
   else if ((m = p.match(/\/(letterheads|infocus)\.html?$/i))) target = "page.html?p=" + m[1].toLowerCase();
   else if ((m = p.match(/\/biogs\/gallery\/(EM\d{5})g\.html?$/i))) target = "entry.html?id=" + m[1].toUpperCase() + "#gallery";
   else if ((m = p.match(/(EM\d{5})[a-z]?\.html?$/i))) target = "entry.html?id=" + m[1].toUpperCase();
-  else if ((m = p.match(/\/(about|help)\.html?$/i))) target = "page.html?p=" + m[1].toLowerCase();
+  else if (/\/(about|help)\.html?$/i.test(p)) target = "page.html?p=about";
   else if (/\/browse[^/]*\.html?$/i.test(p)) target = "browse.html";
   else if (/\/search[^/]*\.html?$/i.test(p)) target = "search.html";
   else if (/\/(home|index)\.html?$/i.test(p)) target = "index.html";
