@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Progress Associations</title>
+<author>Helen Penrose</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01198</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00013.xml"><desc>Politics &amp; Government</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Since the beginning of the twentieth century, groups of suburban residents have formed volunteer progress associations to gain improvements in services or to lobby local government on local issues. The associations have usually been non-party political, and early progress associations stipulated that politics and sectarianism were not to be discussed at meetings. Traditionally the vehicles of local sentiment, residents' associations tread a fine line between representing communities of interest and becoming communities of exclusion.</p>
+<p>One of the oldest progress associations was established in 1908 in East Brunswick. Meetings were held in the local pub and the motto was 'to serve the people'; these characteristics are typical of progress associations in Melbourne. By 1938 there were 14 progress associations in the City of Camberwell alone, and the movement expanded in the 1950s as postwar suburban expansion accelerated. Some associations initiated the building of progress halls and community centres to create community focal points for meetings and activities, and generally to enhance civic pride. Others lobbied against rate increases and for street lights, better roads and footpaths, and sporting facilities. Fundraising was another aspect of the voluntary work of progress associations, usually for specific needs such as school equipment.</p>
+<p>Progress associations increasingly took up local government issues in the 1960s. These included the sometimes contentious issues of health, housing, city planning controls, pollution and the natural environment, and were addressed through meetings, demonstrations, lobbying and the presentation of petitions. Many progress associations were disbanded in the 1970s and 1980s and were replaced by new community and 'friends' groups, which focused on management of the environment and heritage planning issues. A focus on these issues gave rise to the establishment of Save Our Suburbs groups around Melbourne in the 1990s.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000275" type="book"><author>Sydenham, Diane</author> <title level="m">Progress and progress associations in the twentieth century</title> <pubPlace>Melbourne</pubPlace> <publisher>City of Nunawading</publisher> <date>1988</date></bibl></listBibl></div></back>
+</text></TEI>

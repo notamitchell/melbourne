@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Czechs and Slovaks</title>
+<author>Abe W. Ata</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00435</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Czechs and Slovaks belong to the former Czechoslovakia's two main ethnic groups which, after 1990, reclaimed their separate entities, with the Slovaks being partly Yugoslav and partly Czech in origin. Some 3000 Czechs live in Victoria. Most came as political refugees following two great upheavals in Czechoslovakia: the communist takeover in 1948 and the Soviet-led invasion in 1968. Today the galvanising force for the community is the Sokol Melbourne Inc., headed by Pavel Pospichal, with its Czech and Slovak National House located at 597 Queensberry Street, North Melbourne. Originally a gymnastics centre, the building provides a library, video centre, music centre, meeting place for pensioners, language and art classes. National meals and drinks are served every Tuesday, films are screened fortnightly, and there are monthly dances with Czech music. A lack of Czech-speaking social workers necessitates self-help with a group visiting and otherwise supporting frail elderly and disabled in the community. A monthly Czech publication, <hi rend="italic">Kvart</hi>, is auspiced by the Sokol. The community broadcasts on both SBS radio and television in Czech language, which is taught at the University of Melbourne and some schools.</p></div>
+</body>
+</text></TEI>

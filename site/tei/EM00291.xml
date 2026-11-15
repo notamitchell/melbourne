@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Capitol Theatre</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00291</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01940.xml"><desc>Presgrave Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Designed by Walter Burley Griffin and his wife Marion Mahony in association with the architectural firm Peck &amp; Kemter, the Capitol Theatre seated 2137 when it opened on 7 November 1924 opposite the Melbourne Town Hall at 109-117 Swanston Street. The theatre predated the Regent and the Forum by five years, and brought a taste of fantasy and architectural modernity to the city. Featuring a magificent Wurlitzer organ, the largest in Australia to that time, and a highly sculptured plaster ceiling of crystalline shapes lit by lights of varying colours and brightness, the theatre was part of the 10-storey Capitol House complex that also included extensive office accommodation. When the lower part of the auditorium was reconfigured as a shopping arcade in the 1960s, many of the original elements were destroyed, though the ceiling remained intact. RMIT purchased the theatre in 1999. The cantilever verandah, described by the City Surveyor in 1922 as 'freak architecture', has been more recently restored.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,38 @@
+# Operating system and editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Scratch and temporary files
+*.tmp
+*.bak
+*.log
+tmp/
+scratch/
+
+# Large source data. The original eMelbourne database dump and the figshare
+# RO-Crate (doi:10.26188/23983911.v1) are only needed to re-run the one-time
+# import with tools/convert.py; download them from figshare rather than
+# committing them.
+*.sql
+*.sql.gz
+*.dump
+*.zip
+*.tar.gz
+ohrm/
+site-snapshot*/
+site-files.txt
+
+# Editor downloads that land in the repo by mistake, e.g. "EM00187 (1).xml"
+* (1).*
+* (2).*

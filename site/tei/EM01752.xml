@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Condells Lane</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01752</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01688.xml"><desc>Angelo Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00232.xml"><desc>Brewers and Brewing</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00910.xml"><desc>Mayoralty</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01037.xml"><desc>Myer</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The name Condells Lane previously referred to the section of Angelo Lane north of Little Bourke Street, and was probably named after Melbourne's first mayor, brewer Henry Condell. In the nineteenth century, Condells Lane, which was also known as Valance Alley, ran behind the savings bank and money orders office of the General Post Office on Elizabeth Street. In 1895, the lane did not extend all the way through to Lonsdale Street but offered access to a variety of merchants, including an importer and manufacturer of wire mattresses, a die sinker and livery stables. Today Condells Lane has been absorbed by Angelo Lane, which offers service access to the Myer buildings north and south of Little Bourke Street.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000102"><head>Correspondence file between E. Duckett and the Town Clerk, City of Melbourne, re Condells Lane</head><graphic url="../objects/thumbs/tn_COND_001_L.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_COND_001_L.jpg"/><p>2 July 1874</p><note type="rights">Courtesy Public Record Office Victoria</note></figure></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000662" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1895</date></bibl></listBibl></div></back>
+</text></TEI>

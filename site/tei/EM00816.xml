@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>La Trobe's Cottage</title>
+<author>Mary Sheehan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00816</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(Birdwood Avenue)</p>
+<p>The private residence of Charles Joseph La Trobe, the first Superintendent of the Port Phillip District and, after Separation, Victoria's first Lieutenant-Governor, La Trobe's Cottage was prefabricated in England. It was initially erected in 1839 on land purchased at the first sales and named Jolimont by La Trobe's wife. Rescued from Jolimont, the surviving portion of the cottage was relocated from its site near the Melbourne Cricket Ground to parkland adjacent to the Royal Botanic Gardens in 1963, and moved again to nearby Dallas Brooks Drive in the 1990s during the Observatory Gate precinct development. Preservation of La Trobe's Cottage was the focus of early heritage conservation efforts, and while <hi rend="italic">in situ</hi> preservation is now preferred over removal and reconstruction, its remnant traces, original furnishings and some of La Trobe's personal effects continue to offer tangible links to Victoria's history.</p></div>
+</body>
+</text></TEI>

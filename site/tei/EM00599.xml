@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Forts</title>
+<author>Colin Jones</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00599</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00011.xml"><desc>Military &amp; Defence</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>For the defence of the approaches to Melbourne and the shipping in Hobsons Bay, forts were erected on the foreshores at Williamstown and South Melbourne from 1858. At Williamstown the gun batteries extended from the pier to the present cricket ground, and in the sandhills on the other side of the bay from the present Mills Street, South Melbourne (St Kilda Battery), to the Sandridge Lagoon. The present formation of Danks Street is caused by the reservation for a military tramway behind the forts. In 1864 the four batteries at Williamstown mounted 28 guns, with 60 rounds per gun. The four batteries at Sandridge in 1864 mounted 17 guns, with 30 rounds per gun. The report of the Committee on National Defences considered that the guns were of limited use because of their relatively short range, and that the main fortress defences should be built instead at Port Phillip Heads. The Sandridge forts were demolished in 1879, along with the adjacent rifle range, but some of the works at Williamstown were partly modernised to include the 9-inch (23 cm) muzzle loaders now on display, as well as smaller more modern weapons. Fort Gellibrand was retained until 1922, though with an obsolete armament.</p></div>
+</body>
+</text></TEI>

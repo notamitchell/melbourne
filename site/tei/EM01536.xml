@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>University of Melbourne Archives</title>
+<author>Cecily Close</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01536</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="concept" active="#subject" passive="EM03395.xml"><desc>Civic Treasures</desc></relation><relation name="related" type="concept" active="#subject" passive="EM03394.xml"><desc>Letterheads</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The University of Melbourne Archives were established in 1960 when Frank Strahan was appointed as university archivist to collect and preserve for research records relating to the University and to business, following representations to Vice-Chancellor Sir George Paton from the Business Archives Council of Australia (Victorian Branch) and a renewal of interest in University records. Soon added were records from the professions and, from 1973, trade union and related records. Archival holdings, most Melbourne-based though often of Australia-wide and occasionally international interest, measure 13 km and include photographic material. Official records of the University of Melbourne from its establishment, together with those of clubs and societies and private papers of former staff and students, document the intellectual, cultural and social life of both city and institution. Other collections include those of major firms and individuals in the pastoral, manufacturing, retail, financial, real estate, building, transport and mining industries; numerous trade unions; the anti-war and peace movement; the women's movement; the legal, medical and para-medical professions; politics, education and the arts. In 1986 the Archives joined the University of Melbourne Library, in which it now shares a reading room. A new repository was opened in Brunswick in 1999.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000453" type="book"><title level="m">University of Melbourne Archives: Guide to collections</title> <pubPlace>Melbourne</pubPlace> <publisher>Archives Board of Management, University of Melbourne</publisher> <date>1983</date></bibl><bibl xml:id="PEM000565" type="journal"><title level="m">Bulletin of the University of Melbourne Archives</title> <date>1994-</date></bibl></listBibl></div></back>
+</text></TEI>

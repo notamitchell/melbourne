@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>CSIRO</title>
+<author>Esther Anderson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00429</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Council for Scientific and Industrial Research (CSIR), the precursor to the Commonwealth Scientific and Industrial Research Organisation (CSIRO), was established in 1926 and initially located in rented rooms in a technical college in Brunswick. Its primary aim was to carry out scientific research related to, or promoting, primary and secondary industries. At first most of its resources were devoted to problems of agriculture and the use of forest products. CSIR later established divisions dealing with animal health and nutrition, soils, plant industry, fisheries, food preservation and transport, and entomology. The National Standards Laboratory, the Aeronautical Laboratory and the Division of Industrial Chemistry were created in the years 1937-40 and were important in the development of Australian industry. In 1940 laboratories dealing with radio-physics, dairy research, and lubricants and bearings were established to help the war effort. By the end of World War II, research areas included building materials, wool textiles, coal, atmospheric physics, physical metallurgy and assessment of land resources.</p>
+<p>In 1949 the <hi rend="italic">Science and Industry Research Act</hi> reconstituted CSIR as CSIRO. Its activities expanded to include the environment, human nutrition, conservation, rural and city planning, and water supply. In 1971 CSIRO moved its headquarters from Melbourne to Canberra. Many laboratories and research stations remained in Melbourne, including food science, building, construction and engineering laboratories and a science education centre at Highett, a petroleum resources unit at Syndal and the headquarters of its Atmospheric Research Division in Aspendale. CSIRO is involved with the CRC Vaccine Technology Unit and the Biomolecular Research Institute at Parkville (established in 1990 as a joint initiative with the Strategic Industry Research Foundation). CSIRO has a considerable presence at Clayton, including research laboratories in forestry and forest products, information technology services, information technology science, minerals, mathematical and information sciences, molecular science, manufacturing science and technology, telecommunications, industrial physics and leather research. CSIRO also has an office and bookshop in Collins Street in Central Melbourne.</p></div>
+</body>
+</text></TEI>

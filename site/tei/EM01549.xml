@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Victorian Aboriginal Health Service</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01549</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00001.xml"><desc>Aboriginal Melbourne</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This service was established in Fitzroy in 1973 by the Koorie community to provide both primary and preventive health care services to Aboriginal people across the State. The service has a dual focus, providing employment and positive role models to Koorie people while also educating the wider community about the ways in which Koorie life experiences impact on both their health and their attitudes to health care providers. In addition to treating individuals, making referrals where necessary to external clinics known to be sympathetic, the service conducts a range of education and screening programs designed to tackle the community's health problems which, it argues, are a product of the history of poverty and dispossession of Koorie peoples. Described as 'a grass roots service, run by our people, for our people', the service also functions as a community centre, a place in the city where Koories from across the State can meet relatives and feel safe in asking for help. Staff from the centre also conduct clinics in Koorie settlements across rural Victoria.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000001" type="book"><author>Nathan, P.</author> <title level="m">'A home away from home': A study of the Aboriginal Health Service in Fitzroy, Victoria</title> <pubPlace>Melbourne</pubPlace> <publisher>Preston Institute of Technology</publisher> <date>1980</date></bibl></listBibl></div></back>
+</text></TEI>

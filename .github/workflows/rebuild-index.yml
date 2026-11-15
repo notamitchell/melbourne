@@ -1,0 +1,60 @@
+# Keeps the generated files in step with the TEI files.
+#
+# Whenever a TEI file is added or changed (for example one uploaded through the
+# GitHub website after saving it in editor.html), this rebuilds site/tei-js/,
+# site/data/index.js (search and A to Z) and site/data/names.js with
+# tools/build_index.py, site/data/facets.js (advanced search) with
+# tools/build-facets.py, checks every TEI file against the schema, and commits
+# the result. To run it by hand: Actions tab > "Rebuild search index" > Run workflow.
+name: Rebuild search index
+
+on:
+  push:
+    paths:
+      - "site/tei/**.xml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-index
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild tei-js, search index and names
+        # a file that can't be read is skipped and reported at the end
+        run: python3 tools/build_index.py --site site || echo "UNREADABLE=1" >> "$GITHUB_ENV"
+
+      - name: Rebuild the advanced search index
+        run: python3 tools/build-facets.py site
+
+      - name: Commit the rebuilt files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/tei-js site/data/index.js site/data/names.js site/data/facets.js
+          if git diff --cached --quiet; then echo "Nothing to update."; exit 0; fi
+          git commit -m "Rebuild search index"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
+
+      - name: Check the TEI against the schema
+        run: |
+          pip install --quiet jingtrang
+          sh tools/validate.sh site
+
+      - name: Report files that could not be read
+        if: env.UNREADABLE == '1'
+        run: |
+          echo "::error::Some TEI files could not be read; see the 'Rebuild' step above for which ones."
+          exit 1

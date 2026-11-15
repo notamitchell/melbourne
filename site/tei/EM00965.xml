@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mercer House</title>
+<author>Barbara Falk</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00965</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This teacher education institution grew out of the Associated Teachers Training Institute (ATTI) founded by the Incorporated Associated Registered Teachers of Victoria in 1921 for fee-paying part-time trainee teachers for the independent schools. This 'back door' into teaching required satisfactory paid teaching in a registered school and a pass in a very basic theoretical course. In 1946 the ATTI moved from the city to Mercer House, Mercer Road, Malvern. Recognition of primary, junior and secondary courses for Commonwealth scholarships, art and craft, domestic science courses and a remedial teaching centre followed. Mercer House was absorbed into Toorak Teachers College (now Deakin University, Toorak) in 1975.</p></div>
+</body>
+</text></TEI>

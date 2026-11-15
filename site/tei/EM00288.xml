@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Canterbury</title>
+<author>Don Gibb</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00288</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Canterbury</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3126, 10 km E, Boroondara City)</p>
+<p>Before 1994, Canterbury was part of the City of Camberwell. It was a sparsely settled district of farms and gentlemen's retreats in 1873, when it was named after Sir John Henry Manners-Sutton, Governor of Victoria (1866-73), who became Viscount Canterbury in 1869 after the death of his elder brother. Suburban subdivision mostly occurred after the arrival of the railway line in Lilydale in 1882. By the 1920s it was characterised by substantial detached houses, mostly brick; a higher than average Protestant population; political conservatism; and a thriving shopping centre. Its high social status in the late 20th century was partly reflected in high real estate prices and the heritage redevelopment of shopping centre in Maling Road.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000134" type="book"><author>McWilliam, Gwen</author> <title level="m">Early Canterbury</title> <pubPlace>Melbourne</pubPlace> <publisher>Camberwell City Libraries</publisher> <date>1994</date></bibl></listBibl></div></back>
+</text></TEI>

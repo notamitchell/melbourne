@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Gorman Alley</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01819</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00524.xml"><desc>Engineering</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01541.xml"><desc>Vagrancy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Gorman Alley is located between Exhibition and Spring streets, extending south into a dead-end from Little Lonsdale Street. Nineteenth- and early twentieth-century laneways were often considered unsafe and undesirable locations due to reports of vagrancy and drunken behaviour. Patrons leaving hotels and pubs, which were normally located on the corner of a lane, often contributed to this lewd behaviour observed in the laneways. Residents often complained about the disturbances in the laneways, which ranged from drunken behaviour to assault and robbery. Lack of sufficient lighting further contributed to these problems. In 1892, the Oddfellows Hotel was located on Gorman Alley. In 1914, several complaints were made to the City Council regarding the lack of sufficient lighting and the unsavoury nature of the lane. It was suggested that by providing better lighting at the ends of the lane, it would 'greatly assist the police in keeping down complaints from the residents'. But Gorman Alley was not just a laneway filled with undesirable characters. The Lonsdale Street premises of the Alexander Lugton's engineering firm Lugton Successors backed onto the alley. By 1860, the firm had expanded from a blacksmith to boiler making, and was located at 27-33 Gorman Alley from 1889 to 1916.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl></listBibl></div></back>
+</text></TEI>

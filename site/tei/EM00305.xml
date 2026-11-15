@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Cartooning</title>
+<author>Vane Lindesay</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00305</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00010.xml"><desc>Media &amp; Communications</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Cartooning in Australia had its genesis with the first Australian magazine, <hi rend="italic">Melbourne Punch</hi>, founded in 1855. Initially satirical, it lampooned politics and politicians in cartoons and text every week until 1925, when its direction was changed to a broader policy. Until this date graphic satire was an essential feature of <hi rend="italic">Melbourne Punch</hi>, with Nicholas Chevalier, Montagu Scott and Thomas Carrington being the pioneer cartoonists in Australian journalism. In the early years of the 20th century the drawings of many fine humorous artists appeared in it regularly. They included George Dancey, Alf Vincent, Will Dyson, Percy Leason, Emile Mercier, Cecil (Unk) White, Claire Scott, Alex Gurney, Jim Bancks (the creator of <hi rend="italic">Ginger Meggs</hi>) and Hal Gye, who shared a degree of immortality with C.J. Dennis for giving Australians the pictures and songs of <hi rend="italic">The Sentimental Bloke</hi>.</p>
+<p>In the latter half of the 19th century, many attempts were made to establish popular satirical magazines in Melbourne. Contemporaries of <hi rend="italic">Melbourne Punch</hi> included <hi rend="italic">Humbug</hi>, whose cartoonist was T.S. Cousins, and at the same time and sharing the same cartoonist, a similar magazine, <hi rend="italic">Touchstone</hi>, was published from an address at the Spring Street end of Collins Street. <hi rend="italic">Table Talk</hi>, founded in 1885, lasted well into the 20th century, but it was only during the last few years of publication that joke cartoons and other graphic material relieved the magazine's dull grey pages.</p>
+<p>In 1890 Tom Durkin became the sole cartoonist for the weekly <hi rend="italic">Bullant</hi> (later <hi rend="italic">The Ant</hi>). Durkin, like other cartoonists of the day, produced only satirical political comment. It was not until the first two decades of the 20th century that Melbourne newspapers featured any of the three types of cartooning: the editorial or political comment, the single panel illustrated joke, and the popular comic strip. Among the better known artists to emerge during this period were Jim Bancks, Len Reynolds, Walter Driscoll, Harold (Mick) Armstrong, Alex Gurney, Keith Martin, Alex McRae, Noel Counihan, Stan Cross, Sam Wells and John Frith. From his studio at 28 Collins Street, David Low, destined to become the world's most famous cartoonist of his time, produced a series of cartoons lampooning Billy Hughes, published as <hi rend="italic">The Billy Book</hi>.</p>
+<p>In more recent times, the cartoonists William Ellis Green (WEG), George Haddon, Geoff Hook (JEFF), and Mark Knight, with Judy Horacek, Douglas Tainsh, Les Tanner, Michael Leunig, John Spooner, Ron Tandberg and Peter Nicholson have all made a significant contribution to the national culture.</p></div>
+</body>
+</text></TEI>

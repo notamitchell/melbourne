@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Paper Manufacturers Ltd</title>
+<author>Mike Williams</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00129</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Australian Paper Manufacturers Ltd (APM) was the foundation enterprise and a unit of the international paper and packaging conglomerate AMCOR, established in 1986. As the Australian Paper and Pulp Co., and still operating Charles Ramsden's 1868 city-based paper mill, they opened their Fairfield paper and board mill in 1921. Dominating the industry, the company developed the uses of native timber pulps, including explosives components. A public company from 1937, and in the 1950s diversifying into packaging with manufacturing facilities elsewhere in Victoria, interstate and overseas, the company was named APM Ltd in 1984.</p></div>
+</body>
+</text></TEI>

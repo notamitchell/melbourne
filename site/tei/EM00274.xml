@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Button Days</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00274</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Instituted during World War I to raise money for patriotic funds, Button Days became associated with voluntarism and appeals. Few lapels went undecorated, and large sums were raised on such occasions as Wattle Day and Hospital Sunday, and during appeals associated with hospitals, the National War Memorial (Shrine of Remembrance), or Tubercular Soldiers. Collections were popularly sited on the Block until complaints of congestion from Collins Street shopkeepers in the early 1920s saw kiosks prohibited in the central retail area. The popularity of Button Days was revived during World War II. Empire Day stalls outside the Melbourne Town Hall, hotels, arcades and Flinders Street Station sold buttons and flags, as well as flowers, cakes, novelties and jam. Red Cross fundraising drives were co-ordinated by women's hospital auxiliaries, the Councillors' Wives group, the Overseas League, Red Cross branches and old girls' associations. Button Days again declined in peacetime, though tin shakers, highway collectors and badge or pin sellers continued their annual campaigns, most notably in association with Remembrance Day and Royal Children's Hospital appeals. In 1998 the <hi rend="italic">Fundraising Appeals Act</hi> regulated the raising and application of money and other benefits for non-commercial purposes from the public.</p></div>
+</body>
+</text></TEI>

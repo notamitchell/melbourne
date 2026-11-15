@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Williamstown Observatory</title>
+<author>R.W. Home</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01622</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This small astronomical observatory was established by the colonial government at Point Gellibrand in 1853 at the suggestion of R.L.J. Ellery, who became director. Its main function was to provide a time service. A ball erected on a tower, visible from Hobsons Bay, was dropped at 1 p.m., enabling ships to rate their chronometers. Simultaneously, telegraph signals activated time balls at Melbourne, Geelong and later Queenscliff. The observatory also provided a precise determination of Melbourne's longitude. To support the geodetic survey of the colony, begun in 1858 under his direction, Ellery began a program of determining the positions of the more prominent southern-hemisphere stars. The observatory closed in 1863, when its instruments and the work they supported were transferred to the new Melbourne Observatory.</p></div>
+</body>
+</text></TEI>

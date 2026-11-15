@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Warburton Alley</title>
+<author>Biheng Zhang</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02009</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02010.xml"><desc>Warburton Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located between Queen and Elizabeth streets, Warburton Alley extends north from Little Bourke Street. It was possibly named after iron merchant Thomas Warburton who was based in nearby Warburton Lane, south of Little Bourke Street. The earliest record of the lane's occupation was in 1888. In 1935, hardware merchants Green &amp; Son were known to have occupied this site.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl><bibl xml:id="PEM000640" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1935</date></bibl><bibl xml:id="PEM000737" type="resource-section"><title level="a">Warburton Alley, Melbourne: HI Number H7822-1286</title> <title level="m">Victorian Heritage Register On-Line</title> <date>2000</date> <ref target="http://www.doi.vic.gov.au/doi/hvolr.nsf">online</ref></bibl></listBibl></div></back>
+</text></TEI>

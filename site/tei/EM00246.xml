@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Brownlow Medal</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00246</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>The annual Australian Rules Football award presented on the Monday night before the Grand Final in September for the player or players judged by the field umpires to have been the fairest and best for the season is known as the Brownlow Medal. Charles Brownlow (1861-1924) was a player, captain, coach and club secretary of the Geelong Football Club, and later chairman of the Umpires and Permits Committee and vice-president of the Victorian Football League. The inaugural medal was won by Geelong's Edward 'Carji' Greeves in 1924.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000175" type="book"><author>Blair, Peter, and Jon Anderson</author> <title level="m">History of the Brownlow Medal: Fairest and best</title> <pubPlace>Melbourne</pubPlace> <publisher>Sabey &amp; Associates</publisher> <date>1997</date></bibl></listBibl></div></back>
+</text></TEI>

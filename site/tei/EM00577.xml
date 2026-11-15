@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Fitzroy Legal Service</title>
+<author>John Chesterman</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00577</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Fitzroy Legal Service was the first free-to-all community legal centre in Australia. On 18 December 1972, two weeks after the election of the reformist Whitlam federal government, a group of barristers, solicitors, youth workers, students and community activists opened the doors to the service, then in the basement of the Fitzroy Town Hall. Located in what was possibly Melbourne's most impoverished inner suburb, the service predated any broad-based government-funded legal aid. The founding philosophy was that legal knowledge should not be a privileged commodity, and that clients should be empowered to take care of their own legal concerns. The advent of and gradual increase in government funding enabled up to eight workers to be employed by the 1990s, but the service has always relied heavily on volunteers. From its earliest days it has had a dual role, offering free legal assistance (which by the late 1990s had been received by over 60 000 people) and promoting broader social-change activities. The latter role has most notably been fulfilled by the publication of legal information guides (such as the <hi rend="italic">Law handbook</hi>) and by monitoring the exercise of police powers.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000267" type="book"><author>Chesterman, John</author> <title level="m">Poverty law and social change: the story of the Fitzroy Legal Service</title> <pubPlace>Melbourne</pubPlace> <publisher>Melbourne University Press</publisher> <date>1996</date></bibl></listBibl></div></back>
+</text></TEI>

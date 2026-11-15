@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Adam Lindsay Gordon Memorial</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02023</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00208.xml"><desc>Bohemia</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00858.xml"><desc>Literature</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01442.xml"><desc>Suicide</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Paul Montford Bronze statue on sandstone pedestal 1931 Gordon Reserve, Spring Street</p>
+<p>Born in London in 1868, Paul Montford was the son of renowned sculptor Horace Montford. He showed a gift for painting from an early age, and at 19 entered London's prestigious Royal Academy of Arts. It was here that Montford's interest in modelling and sculpture developed. He created several sculptures in Melbourne, including The Court Favorite, Peter Pan and The Water Nymph.</p>
+<p>Montford came to Australia in 1921, and undertook this sculpture of the seated poet and horseman Adam Lindsay Gordon a decade later. A significant 19th-century Australian poet, Gordon is depicted with a book in one hand and a pencil in the other, and with his saddle under his chair. He sits on a sandstone pedestal heavily inscribed on each side. Its north face reads: 'Of the works of His hand by sea or by land, the horse may at least rank second'; its east face reads: 'He sang the first great songs these lands can claim to be their own'.</p>
+<p>Gordon was born in 1833 in the Azores, Portugal, where his maternal grandfather owned a plantation. A wild and impetuous youth, he was sent to South Australia by his family shortly after completing his education in England. Soon after his arrival in 1853 he became a constable in the mounted police, before trying his hand, unsuccessfully, at both politics and running sheep. In much debt, Gordon committed suicide in 1879.</p>
+<p>In 1911, a public meeting was held to consider erecting a memorial to Gordon. The first subscription predated this meeting, with the Earl of Dudley donating £60 in 1910. A second meeting, held in 1912, was not well attended and the fund was still £1000 short. It was another two decades before the memorial was finally erected. Montford was awarded the gold medal of the Royal Society of British Sculptors for this work.</p></div>
+</body>
+</text></TEI>

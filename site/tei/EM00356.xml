@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Clayton</title>
+<author>Susan Priestley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00356</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Clayton</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3168, 18 km SE, Monash City)</p>
+<p>Clayton comprises the south-central part of Monash City, formerly the Monash and Clayton wards of Oakleigh. Melbourne solicitor John Hughes Clayton lived between 1865 and 1877 on a rural block on the south-eastern corner of Clayton and Centre roads. For almost a century after Crown Land sales in the 1850s, the Clayton district as far south as Heatherton Road serviced the metropolis through market gardens, flower and dairy farms, horse and cattle pasture, municipal and private abattoirs. A nightsoil depot in the remote south did not affect the 'pure air' sought by the beneficent promoters of a Convalescent Home for Women, which moved to Clayton Road in 1889 after five years in Oakleigh. Named McCulloch House for founding president Margaret, second wife of Premier Sir James McCulloch, it merged with the Queen Victoria Hospital for Women in 1977, preparatory to that hospital's relocation to Clayton as part of Monash Medical Centre. A pioneering female surgeon at the Queen Victoria Hospital, Margaret McLorinan (1886-1932), grew up at Clayton.</p>
+<p>Clayton township developed after 1877 around the Clayton Road station on the new Gippsland railway a mile south of the original school on Dandenong Road. Both are listed heritage buildings. Oakleigh's expansion into its rural fringe led to the establishment of Clayton South school in 1929. After World War II, a tidal wave of manufacturing industry and associated housing estates spread to Clayton's outer limits, encouraged by Princes Highway reconstruction as a dual carriageway from 1957 and an upgraded rail connection with Dandenong. Factory products ranging from paint, cables and wire to cosmetics, bread and coffee were evocative of Australia's long postwar home-making boom. So were sandpits off Clarinda Road (now Bald Hill Park) and near the Heatherton-Clayton Road intersection. New suburbia was characterised by a sewerage scheme begun in 1960, the 1961 Technical School (closed c. 1992), and drive-in picture theatres on the Wellington- Blackburn Road corner and at Clarinda Road south. The suburb in Gerald Murnane's novel <hi rend="italic">A lifetime on clouds</hi> (1976) is based on Clayton/Oakleigh. Laurie Duggan's early childhood at Clayton is included in his autobiographical poem 'Adventures in Paradise' (1982).</p>
+<p>North of the Princes Highway, land was acquired in November 1958 for Monash University and four adjoining CSIRO laboratories. From 1906 it had been the site of an epileptics' hostel with a supporting farm, named the Talbot Colony after the Governor's wife Lady Talbot, its founding patron. Together with Rusden Teachers College (later a campus of Deakin University, closed in 2002), the Post Master General's (PMG) telecommunications research centre and another for Broken Hill Proprietary (BHP), the foundations were laid for Monash City's 1996 Knowledge Precinct.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000038" type="book"><author>Keeley, May</author> <title level="m">A journey into yesterday: A history of Clayton</title> <pubPlace>Melbourne</pubPlace> <publisher>Author</publisher> <date>1980</date></bibl></listBibl></div></back>
+</text></TEI>

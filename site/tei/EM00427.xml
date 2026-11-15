@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Croydon</title>
+<author>Peter Baddeley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00427</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Croydon</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3136, 28 km E, Maroondah City)</p>
+<p>The area that is now Croydon was initially called White Flats. Seen from the heights of the Yarra track, the valley appeared white because of the extensive growths of a silvery-white coarse grass called <hi rend="italic">Danthonia pallida</hi> (Red-anther wallaby-grass).</p>
+<p>In the early 19th century, the area now covered by the Croydon township was part of four large pastoral runs: Thomson's Warrandyte Run, the Anderson's Creek Run (owned by Lewis Robinson), William Turner's Stringy Bark Forest Run, and Gardiners Run, part of which now forms North Croydon. William Turner was the first European settler in the district. He came from England in 1837 and from 1840 to 1844 held Western Port, which stretched from present-day Mitcham to the Dandenong Ranges and from South Croydon to Mullum Creek. By 1860 he had built a house at the corner of present-day Dorset and Mount Dandenong roads.</p>
+<p>When the railway from Melbourne was put through in 1882, the local station was called Warrandyte. The shire of Lilydale and the Railway Commissioners called for a more suitable name since the township of Warrandyte was 4 miles (7 km) away. As the railway line bisected Gregory Lacey's property, he suggested that the new name be Croydon after his wife's home town in England. The 1888 <hi rend="italic">Guide to the Upper Yarra</hi> noted Croydon as 'a new and fast-rising township'. By 1900, with a population of 270, it was described in directories as the 'centre of a timber district'.</p>
+<p>Although Croydon was first surveyed privately in 1868, it was not officially proclaimed a town until 1912. The area to the east of Melbourne was created a district in 1856 and constituted as the Shire of Lillydale in February 1872. This shire initially included Croydon, Ringwood, Warrandyte and 16 other townships, but Ringwood was removed in 1924. The Shire of Croydon gained its independence in May 1961 and was proclaimed a city 10 years later.</p>
+<p>Electricity came to the township during World War I, but it was the electrification of the railway in the following decade that enhanced Croydon's real estate value. Crown land, as well as the large land grants of an earlier era (including Turner's), were subdivided for housing. Estates were offered for sale as early as 1909, but the height of real estate subdivision occurred in the 1920s and 1930s. The area's population grew to 3385 in 1947, and 15 694 in 1961, by which time Croydon was caught up in Melbourne's suburbanisation. Although the population decreased slightly over the period 1981-96, home-ownership rates rose from 29.3% to 43.8%.</p>
+<p>Croydon's first primary school was opened in 1888, with three more primary schools added between 1962 and 1967. Croydon High School was opened in 1958, followed by the Croydon Campus of Outer Eastern College of TAFE in 1993. It became part of Swinburne University of Technology in 1998. Arndale shopping centre, opened in 1964, was the first fully air-conditioned shopping mall in Victoria. Croydon's Wedgwood factory (the first built outside England) and Johnson's china factory both created significant employment opportunities in the area.</p>
+<p>Croydon North and Croydon South are small residential suburbs, the former located between the Maroondah Highway and Yarra Road, the latter with a retail area centred around Bayswater and Eastfield roads. In the latter decades of the 20th century, rapid suburbanisation occurred at Croydon Hills, one of Melbourne's fastest growing new suburbs in that period.</p></div>
+</body>
+</text></TEI>

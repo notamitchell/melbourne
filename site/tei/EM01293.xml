@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ruwolt, Charles Pty Ltd</title>
+<author>Mike Williams</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01293</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>This major 20th-century Melbourne engineering company specialised in steel and alloy steel castings. German-born Charles Ruwolt (1873-1946) grew up and received his engineering training in South Australia and Victoria. Like many engineering entrepreneurs of the time, he established himself in the manufacture and repair of farming and mining machinery. In 1911 pressure of business, particularly export orders, caused him to move his works from Wangaratta to Victoria Street, Richmond. Experience with manganese steel castings and the installation of heavy machine tools equipped the company to make major components for earthmoving, locomotive and rock-crushing machinery, and for heavy engineering. The company became a major source of heavy casting and forgings for other firms, and during World War II produced gun howitzers, tank-attack guns, mortar bombs and armour-piercing shot. The business was bought by the Vickers Ltd (UK) group in 1948, and subsequently operated as Vickers Ruwolt Pty Ltd. The Richmond site was sold in the 1980s and redeveloped for housing, offices and the Victoria Gardens shopping centre.</p></div>
+</body>
+</text></TEI>

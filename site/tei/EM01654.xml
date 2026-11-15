@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Yarra Bend Asylum</title>
+<author>Cheryl Day</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01654</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Yarra Bend Asylum was the first purpose-built asylum in the Melbourne metropolitan area. Prior to its construction, there was no provision for monitoring the mental health of the inhabitants of the Port Phillip District and those considered insane were housed in gaols or sent to Tarban Creek Asylum near Sydney. In 1846 it was announced that a site had been selected for the establishment of a lunatic asylum at the junction of Merri Creek and the Yarra River on the northern side of the city. The asylum was officially opened on 5 October 1848 and the first inmates were transferred from the Melbourne Gaol. Originally called the Melbourne Asylum or the 'Lunatic asylum on the Merri Creek', Melbourne's first asylum became known as Yarra Bend after Separation in 1851. In 1856 a government Board of Inquiry into the state of Yarra Bend declared that the site and buildings were altogether unsuitable, recommending that a new lunatic asylum be erected on a more appropriate site. Although the Kew Asylum opened in 1872, Yarra Bend continued to operate until 1922 when plans were made to transfer all patients to the newly opened Mont Park Psychiatric Hospital. The last of the inmates left Yarra Bend on 1 September 1925, and the property was handed over to the Yarra Bend Trust which established the recreation areas and golf course that are still in use. The buildings in the northern section of the parklands became the Fairfield Infectious Diseases Hospital. Other buildings previously used by male patients of the asylum were converted in 1927 to a hospital, known as Fairhaven, for the treatment of venereal diseases. The discovery of penicillin during World War II meant that lengthy hospitalisation was no longer necessary for venereal disease and Fairhaven closed in 1951. These buildings were reopened in 1956 as Fairlea Women's Prison.</p></div>
+</body>
+</text></TEI>

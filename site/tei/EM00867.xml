@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Lower Plenty</title>
+<author>Andrew Lemon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00867</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Lower Plenty</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3093, 17 km NE, Banyule City)</p>
+<p>Lower Plenty marks the crossing point over the Plenty River close to the Yarra River, on the road from Melbourne to Eltham. Some Crown land was sold here as early as 1838, and in the 1850s a small township emerged where a toll-gate intercepted the bridge over the Plenty. The area remained predominantly agricultural until well into the 20th century, although improved road access encouraged suburbanisation from the 1960s. However, open spaces and larger properties (including Heidelberg and Rosanna golf clubs, Odyssey House rehabilitation centre and Amberley Christian Brothers' Youth Retreat Centre) still occupy much of the terrain between Main Road and the Yarra.</p></div>
+</body>
+</text></TEI>

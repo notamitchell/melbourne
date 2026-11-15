@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>St Andrews</title>
+<author>Andrew Lemon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01298</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">St Andrews</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3761, 30 km NE, Nillumbik Shire)</p>
+<p>Formerly Caledonia, then Queenstown, St Andrews emerged in 1854 as the largest township on the Caledonia goldfields, its population exceeding 600. It was also on access roads to Smiths Gully and Kinglake. A formal land survey followed in 1858. With post office, court, hotels and brewery, the town of Queenstown was proclaimed (1861). The demise of mining, evident by the 1890s, brought decline despite agricultural development. Queenstown State School (common school, 1862) was renamed St Andrews in 1956. Artists and others attracted by the countryside and tranquillity ensured new prosperity for the area from the 1970s.</p></div>
+</body>
+</text></TEI>

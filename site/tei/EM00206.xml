@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Boarding and Lodging Houses</title>
+<author>Seamus O'Hanlon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00206</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01934.xml"><desc>Pender Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01962.xml"><desc>Russell Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01980.xml"><desc>St Patricks Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02003.xml"><desc>Uniacke Court</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Although few people today differentiate between the two, boarding and lodging houses were originally different accommodation types aimed at distinct markets. In the 19th and early 20th centuries, boarding houses catered to a range of classes and offered food and shelter on a weekly basis, especially to single people. Lodging houses, on the other hand, tended to attract the poor and the more transient who rented beds for one night at a time. Lodging houses were usually larger and more anonymous than boarding houses and their residents were not provided with meals. Perhaps the best known of these places was Gordon House in Little Bourke Street, and later South Melbourne. The third and probably largest segment of the boarding and lodging market was the informal sector in which householders would provide room and board (often undeclared to tax and welfare authorities), usually to young men newly arrived in the city.</p>
+<p>Women, who provided this type of service either within their own homes or in former large houses modified for the purpose, dominated all sectors of the market. The boarding market was largely based in the inner southern and eastern suburbs, especially St Kilda, Prahran, South Melbourne and East Melbourne. Lodging, on the other hand, was centred north of the Yarra River in the more working-class areas of Carlton, Fitzroy, North Melbourne and West Melbourne.</p>
+<p>Lodging houses were overseen by municipal government from 1854, but boarding houses remained free from any government control until the <hi rend="italic">Health Act 1919</hi> brought them under some local authority supervision. The informal sector has never been subject to control, largely because it is so diffuse and diverse. From 1919 a series of legal changes forced boarding house keepers to upgrade their premises and register their guests.</p>
+<p>Numbers of both boarding and lodging houses declined in the postwar period, as flats increasingly became more common and acceptable places in which to live. Rooming accommodation is increasingly under threat from gentrification, which has seen many boarding houses converted back to single-family accommodation. To counter this trend, the Housing Commission of Victoria and other charity groups moved to buy up and renovate some of these places. Residents today tend to be those with limited housing options, especially people with social or psychiatric problems, some of whom found themselves adrift after deinstitutionalisation in the 1980s and 1990s.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000447" type="book"><author>O'Hanlon, Seamus</author> <title level="m">Together apart: Boarding house, hostel and flat life in pre-war Melbourne</title> <pubPlace>Melbourne</pubPlace> <publisher>Australian Scholarly Publishing</publisher> <date>2002</date></bibl></listBibl></div></back>
+</text></TEI>

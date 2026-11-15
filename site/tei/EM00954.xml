@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Teachers College</title>
+<author>Don Garden</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00954</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Melbourne Teachers College has had multiple identities. As the Normal Institution it operated at the Model School in Spring Street from 1855-59, reopening in the same premises as the Training Institution in 1870, with F.J. Gladman brought from England to instil the latest educational philosophy. In 1889 the Institution moved to a grand, highly decorated, teaching and residential building adjacent to the University of Melbourne where it reopened as the Training College after being closed because of the depression from 1893-1900. The new principal was Frank Tate, one of Victoria's foremost educationists, who left to become Director of Education in 1902. Under Tate and his successor, John Smyth (principal 1902-27) the College was a leading force in Victorian teacher training.</p>
+<p>Renamed the Teachers College in 1913 it quickly expanded beyond primary training to secondary, kindergarten and other specialised areas. From 1903 secondary training was conducted in conjunction with the University, a connection that was extended and formalised in 1919 with the principal being simultaneously appointed to the Chair of Education. During the 1920s trainee numbers rose far beyond the accommodation capacity, peaking at over 1000 in 1928. New colleges established at Ballarat and Bendigo in 1926 eased the pressure on the now Melbourne Teachers College until another round of depression cutbacks slashed trainee numbers. After considerable controversy the formal link with the University was broken in 1939.</p>
+<p>Postwar expansion saw enrolments peak at 1153 in 1971 before the establishment of several new colleges relieved pressure. To rationalise resources the College amalgamated in 1973 with the adjacent Secondary Teachers College to form the Melbourne College of Education, which in turn became the State College of Victoria at Melbourne, and, in 1983, the Melbourne College of Advanced Education, before being amalgamated in 1989 with the Education Faculty of the University of Melbourne to form the Institute of Education.</p></div>
+</body>
+</text></TEI>

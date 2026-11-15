@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Natives Association</title>
+<author>Elizabeth Willis</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00126</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Australian Natives Association (ANA) Benefit Society was formed in 1871 at a meeting of young men in Grimwood's Hotel, Elizabeth Street. The Association was one of many friendly societies that also aimed to promote the moral, social and intellectual advancement of its members. The young founders restricted membership to native-born Australians, but there were no Koories among them.</p>
+<p>The Association, which provided both a forum for discussion and opportunities for political activity, grew substantially in membership and influence during the 1880s and 1890s. It was particularly strong in the poorer suburbs of Melbourne. In 1890 its intercolonial conference in Melbourne called for the immediate Federation of the Australasian colonies, and for Australian sovereignty in domestic and Pacific affairs. The ANA sponsored lecture tours in support of Federation and kept the issue alive through its journal <hi rend="italic">Advance Australia</hi> and at monthly lodge meetings. Alfred Deakin claimed that the oratory and mood at the 1898 ANA conference persuaded the Victorian Government and the <hi rend="italic">Age</hi> newspaper to support the Constitution Bill, and contributed substantially to Victoria's overwhelming support for it. Many prominent politicians, including Deakin, Sir A.J. Peacock and Sir George Turner, joined the ANA and found it a useful vehicle for the promotion of Australian, as distinct from imperial, interests.</p>
+<p>The ANA remained a community force for many decades. It supported the White Australia Policy, advocated a strong Australian defence force, promoted the celebration of Australia Day as a national holiday, proposed a Greater Melbourne Council with enlarged powers over public utilities, and defended wider powers for the Commonwealth Government. Between 1905 and 1926, it organised 10 fairs in Melbourne to promote Australian manufacturers and to encourage consumers to 'Buy Australian'.</p>
+<p>Lodge membership has been declining for several decades, though some lodges still meet monthly. In 1993 the ANA amalgamated with Manchester Unity to become Australian Unity Ltd.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000008" type="book"><author>Menadue, J.E.</author> <title level="m">A centenary history of the Australian Natives' Association, 1871-1971</title> <pubPlace>Melbourne</pubPlace> <publisher>Horticultural Press</publisher> <date>1971</date></bibl></listBibl></div></back>
+</text></TEI>

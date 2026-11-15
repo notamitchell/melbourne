@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Lie Of The Land</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02132</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00029.xml"><desc>Aboriginal Melbourne</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00165.xml"><desc>Batman's Treaties</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00297.xml"><desc>Carlton Gardens</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01033.xml"><desc>Museum Victoria</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Fiona Foley and Chris Knowles Sandstone sculpture 1997 Melbourne Museum, Carlton Gardens</p>
+<p>Born in 1964, Brisbane-based Indigenous artist Fiona Foley studied in Sydney and at St Martin's School of Art in London. Collaborator Chris Knowles is a sound artist who has created many sound installations. Like Foley, Knowles is both an academic and practising artist.</p>
+<p>Lie of the Land comprises seven sandstone pillars standing some three metres high. Each pillar is inscribed with a commodity that John Batman lists in his diary as an item he traded with Wurundjeri elders in 1835 to secure 600 000 acres of their land around Port Phillip Bay: 'blankets', 'knives', 'looking glasses', 'tomahawks', 'beads', 'scissors' and 'flour'. Knowles' soundscape accompanies this compelling work, with Batman's entry on the controversial exchange read out in Woiwurrung-the local Indigenous language-and several other languages representing the ethnic groups present in Australia around the time of settlement. The etched pillars are a powerful symbol; tombstone-like, they speak the fate of many Indigenous people through the process of settlement and colonisation. Placed near the entrance to Melbourne Museum, this sculpture also speaks eloquently of the relationship this institution once had with Indigenous peoples, collecting often-sacred items and relics, and at times by inappropriate means. In relation to the historical and political nature of this work, Fiona Foley has stated, 'As the history has been written by the victors, it is only now that the silent histories of the indigenous populations are given a voice'.</p>
+<p>Lie of the Land was commissioned by the City of Melbourne to coincide with the Australian Reconciliation Convention, held in Melbourne in May 1997, and the 30th anniversary of the 1967 referendum, which gave Indigenous Australians the right to vote. The sculpture was originally sited outside the Town Hall on Bourke Street and was later moved to a forecourt of Melbourne Museum.</p></div>
+</body>
+</text></TEI>

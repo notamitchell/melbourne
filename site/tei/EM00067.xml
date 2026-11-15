@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Animal Welfare</title>
+<author>Stephanie Jaehrling</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00067</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Animals in early Melbourne were used as livestock and for transport. Cruel treatment of them was common and received little criticism. The hunting of dingoes, kangaroos and imported deer and foxes flourished, and animal-baiting was a common spectacle in city streets and hotels. In the mid-1860s, in a specially constructed glass pit at the Butchers' Arms, patrons were invited to try out their terriers on a plentiful supply of rats and native cats.</p>
+<p>But animal welfare was not entirely without its proponents. The Humane Society for the Suppression of Cruelty to Animals was founded in 1854, and the Victorian Society for the Protection of Animals (VSPA) in 1871. These early animal welfare societies dealt largely with individual cases of reported cruelty. In 1860, for example, John Sinclair was fined 10 shillings for beating his horse 'in a most brutal manner about the head and eyes', because the animal didn't stop when commanded.</p>
+<p>During the 20th century other animal welfare organisations giving shelter and treatment to sick and stray animals were founded in Melbourne: the Lost Dogs Home in North Melbourne (1913); the Victorian Animal Aid Trust (1948, Kilsyth shelter opened 1956, moved to Coldstream 2000); Peninsula Animal Aid (1964, Pearcedale); the Blue Cross Animals Society (1966, Wonga Park shelter opened 1974); the Cat Protection Society (1975, Greensborough); and the Australian Animal Protection Society (1975, Keysborough).</p>
+<p>The Lort Smith Animal Hospital, whose North Melbourne premises was opened in 1936, had its origins in an animal clinic set up by Louisa Lort Smith and run out of the veterinary school at the University of Melbourne. Lort Smith had been a founder of the Animal Welfare League in 1929 and a staunch advocate of the use of more humane killing methods at abattoirs.</p>
+<p>In 1956 the VSPA became the Royal Society for the Prevention of Cruelty to Animals (RSPCA). It continued to press for legislative protection of animals as well as deal with reported cases of cruelty and inspection of saleyards such as Newmarket. The Australian Association Against Painful Experiments on Animals (later to become Animal Rights), established in 1922, was another early lobby group.</p>
+<p>It was not until the 1970s and 1980s, echoing developments elsewhere in the world, that animal welfare evolved into an ideological movement in Melbourne. Many groups appeared, including Animal Liberation (Victoria), and Beauty Without Cruelty. In 1980, a federation of Australian animal rights groups was founded in Melbourne (now called Animals Australia). These groups considered the exploitation of animals for profit or amusement unacceptable. They raised awareness via the media of systemic abuses of animals and lobbied the government to make legislative changes, using slogans such as 'Put Animals into Politics'. Issues were wide-ranging: vivisection, desexing of cats and dogs, intensive farming, battery hens, live animal exports, animals in circuses, horseracing, duck-shooting, vegetarianism and steel-jaw traps. This lobbying created the Animal Welfare Advisory Committee, which since the 1980s has advised government on policy.</p></div>
+</body>
+</text></TEI>

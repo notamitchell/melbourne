@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royal Visits</title>
+<author>Liz Rushen</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01286</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02074.xml"><desc>Duke &amp; Duchess Of York Memorial (aka Temperance)</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Although Queen Victoria was only known to her Melbourne subjects through visual images and newspaper reports, they greeted enthusiastically the various relatives she dispatched on royal visits. Alfred, Duke of Edinburgh, drew large crowds in Melbourne in 1867 and laid the foundation stone of the new Melbourne Town Hall. He was followed in 1881 by Albert, Duke of Clarence and Avondale, and George, Duke of York, midshipmen aboard the training vessel <hi rend="italic">Bacchante</hi>.</p>
+<p>In 1901 George and Mary, Duke and Duchess of Cornwall and York, visited to open the first federal parliament at the Royal Exhibition Building, with the republican Sydney <hi rend="italic">Bulletin</hi> peevishly reporting that Melburnians' attention seemed more directed towards 'a small accidental prince' than the great monarch of nationhood. Edward, Prince of Wales, later Edward VIII and then Duke of Windsor, made an enormously popular visit in 1920, sent by his father George V to thank Australians for their role in World War I. In 1934 Henry, Duke of Gloucester, was dispatched to help Victorians to celebrate their centenary, dedicating the new Shrine of Remembrance in front of enthusiastic crowds.</p>
+<p>Melbourne's enthusiasm for royal visits reached its peak in 1954, when the Duke of Edinburgh and Queen Elizabeth II, the first reigning monarch to come to Australia, visited the city. Thousands lined the streets and railway lines to see them pass, cheering and waving flags. Schoolchildren staged an elaborate pageant at the Melbourne Cricket Ground, and crowds thronged the Melbourne Town Hall to catch a glimpse of the Queen, bedecked with jewels, as she made her way to a ball.</p>
+<p>No subsequent visit drew quite the same reaction. While the Prince and Princess of Wales opened the Bourke Street Mall in 1983, the introduction of television, the rise of the cult of celebrity and the growth of the republican movement have all served to diminish the mystique of royalty, although various members of the family continue to make regular visits to the city.</p></div>
+</body>
+</text></TEI>

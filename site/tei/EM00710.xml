@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Highett</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00710</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Highett</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3190, 17 km S, Bayside City, Kingston City)</p>
+<p>A pocket of suburbia between the Nepean Highway at Moorabbin and the sea at Sandringham, Highett was a market gardening district until World War II. J.M. Cowie and William Highett (MLC 1858-80) had purchased land from Dendy's Special Survey in 1851. Highett operated a cattle station and when the railway from Caulfield to Mordialloc opened in 1881 the local station was named Highett's Road. Shortened to Highett in 1887, the station stood in relative isolation until the 1920s when local market gardeners built a community hall and set land aside for a recreation reserve. During World War II a Commonwealth Government aircraft manufacturing plant operated in Highett which after the war was the site of a Gas and Fuel Corporation Gasworks and a Commonwealth Scientific and Industrial Research Organisation (CSIRO) plant. Highett grew rapidly during the 1950s with many homes built by the Victorian Housing Commission, expanded community facilities and 100 shops in its retail strip. An instant suburban enclave, Highett was satirised by Barry Humphries in 'The Highett Waltz' (1959) as being 'ever so quiet'.</p></div>
+</body>
+</text></TEI>

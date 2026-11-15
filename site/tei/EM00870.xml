@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Lyceum Club</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00870</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01953.xml"><desc>Ridgway Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Lyceum Club, which began in 1912, had its origins in the Woman Writers' Club, founded ten years earlier by the 429 three female members of the Institute of Journalists who, excluded from the institute's premises, wanted a place to meet and write. In 1912 they joined with the group of women active in philanthropic and community work, education, science and the arts who had met through the 1907 Women's Work Exhibition, and members of the Catalysts, a women's discussion group, founded in 1910. The first overseas group to affiliate with the London Lyceum, the Club was open to university graduates and women who had achieved distinction in their own right. Its purpose was evident in a series of 'circles' that allowed members to learn new skills or discuss social problems.</p>
+<p>The Club grew rapidly and moved through a series of rented premises before settling into the residence above the English, Scottish &amp; Australian (ES &amp; A) banking chamber at Bank House, Collins Street, in 1934. Here the Club's 1000 members had access to three bedrooms, a dining room and a quiet room. Although the circles went into recess during World War II, the Club recovered quickly, lifting its membership quota to 1200 in 1947. Forced to vacate its rooms in 1957 the Lyceum built its own premises in Ridgeway Place two years later. Although its membership is declining the Club continues to function as a meeting place for older women with an academic background.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000036" type="book"><author>Gillison, Joan</author> <title level="m">A history of the Lyceum Club Melbourne</title> <pubPlace>Melbourne</pubPlace> <publisher>Lyceum Club</publisher> <date>1975</date></bibl><bibl xml:id="PEM000201" type="book"><author>Stuart, Lurline</author> <title level="m">Literary women: A checklist of work by members of the Lyceum Club, Melbourne</title> <pubPlace>Melbourne</pubPlace> <publisher>Lyceum Club</publisher> <date>1993</date></bibl></listBibl></div></back>
+</text></TEI>

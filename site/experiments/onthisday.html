@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On this day – eMelbourne experiments</title>
+<link rel="stylesheet" href="../css/site.css">
+<link rel="stylesheet" href="experiments.css">
+<script src="../js/vendor/d3/d3.min.js"></script>
+<script src="common.js"></script>
+<style>
+  .exp { --seq-0: #cde2fb; --seq-1: #9ec5f4; --seq-2: #6da7ec; --seq-3: #3987e5; --seq-4: #256abf; --seq-5: #184f95; --seq-6: #0d366b; }
+  @media (prefers-color-scheme: dark) { :root:where(:not([data-theme="light"])) .exp { --seq-0: #0d366b; --seq-1: #184f95; --seq-2: #256abf; --seq-3: #3987e5; --seq-4: #6da7ec; --seq-5: #9ec5f4; --seq-6: #cde2fb; } }
+  :root[data-theme="dark"] .exp { --seq-0: #0d366b; --seq-1: #184f95; --seq-2: #256abf; --seq-3: #3987e5; --seq-4: #6da7ec; --seq-5: #9ec5f4; --seq-6: #cde2fb; }
+  .day { stroke: var(--card); stroke-width: 2px; cursor: pointer; }
+  .day:hover { stroke: var(--muted); }
+  .day.sel { stroke: var(--fg); stroke-width: 2.5px; }
+  .day.today { stroke: var(--focus); stroke-width: 2.5px; }
+  #chart text.lab { fill: var(--fg); font-size: 12px; }
+  .otd h2 { margin-top: 1.5rem; }
+  .otd ul { list-style: none; padding: 0; margin: .3rem 0; font: .95rem/1.5 var(--sans); }
+  .otd li { padding: .3rem 0; border-bottom: 1px solid var(--line); }
+  .otd .yr { display: inline-block; min-width: 3.2rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .otd-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; }
+  .otd-head h2 { margin: 1.5rem 0 0; font: 600 1.5rem var(--serif); text-transform: none; letter-spacing: 0; color: var(--fg); }
+  .otd-head button { font: .9rem var(--sans); padding: .35rem .7rem; border: 1px solid var(--line); border-radius: 7px; background: var(--card); color: var(--fg); cursor: pointer; }
+</style>
+</head>
+<body class="exp">
+<header class="site"><a class="brand" href="../index.html">eMelbourne</a><span class="tag">The Encyclopedia of Melbourne Online</span><nav class="top" aria-label="Site"><a href="../index.html">Home</a><a href="../page.html?p=about">About</a><a href="../page.html?p=help">Help</a><a href="../advanced.html">Advanced search</a><a href="index.html" aria-current="page">Experiments</a></nav><form class="quick" action="../search.html"><input name="q" type="search" placeholder="Quick search" aria-label="Quick search"></form></header>
+<main class="exp-wrap">
+<p class="exp-crumb"><a href="index.html">Experiments</a></p>
+<h1>On this day</h1>
+<p class="exp-lede">Births and deaths of people in eMelbourne, and digital objects dated to the day, for every day of the year. Darker squares have more. Today is outlined; click any day to see what happened on it.</p>
+<div class="exp-bar"><div class="exp-legend" id="kinds" role="group" aria-label="What to count"></div><span id="count" class="exp-note"></span></div>
+<div class="exp-chart" id="chart"></div>
+<div class="otd" id="list" aria-live="polite"></div>
+</main>
+<script>
+(function () {
+  "use strict";
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>The chart library could not be loaded</b> (js/vendor/d3/d3.min.js).</p>"); return; }
+  const { esc } = Exp;
+  const KINDS = [["b", "Births"], ["d", "Deaths"], ["o", "Objects"]];
+  const on = new Set(["b", "d", "o"]);
+  const DAYS = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  const now = new Date();
+  let sel = { m: now.getMonth() + 1, d: now.getDate() };
+  const p = new URLSearchParams(location.search).get("day");
+  if (p && /^\d{2}-\d{2}$/.test(p)) sel = { m: +p.slice(0, 2), d: +p.slice(3) };
+  const byDay = new Map(), key = (m, d) => m * 100 + d;
+
+  Promise.all([Exp.facets(), Exp.objects()]).then(([rows, objects]) => {
+    const add = (m, d, item) => { const k = key(m, d); if (!byDay.has(k)) byDay.set(k, []); byDay.get(k).push(item); };
+    rows.forEach(r => {
+      if (r.t !== "person") return;
+      ["b", "d"].forEach(k => { const e = r[k]; if (e && e.p === "day" && e.m && e.d) add(e.m, e.d, { kind: k, y: e.y, id: r.id, n: r.n, pl: e.pl, occ: r.occ }); });
+    });
+    Object.entries(objects).forEach(([id, o]) => {
+      const e = Exp.parseDate(o.date);
+      if (e && e.p === "day") add(e.m, e.d, { kind: "o", y: e.y, id, n: o.title, entries: o.entries || [] });
+    });
+    const names = Object.fromEntries(rows.map(r => [r.id, r.n]));
+    byDay.forEach(list => list.forEach(x => { if (x.kind === "o") x.names = names; }));
+    drawKinds(); draw(); show();
+  }).catch(e => document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p>" + esc(e.message) + "</p>"));
+
+  const count = (m, d) => (byDay.get(key(m, d)) || []).filter(x => on.has(x.kind)).length;
+  function drawKinds() {
+    const el = document.getElementById("kinds"), tot = k => [...byDay.values()].reduce((a, l) => a + l.filter(x => x.kind === k).length, 0);
+    el.innerHTML = KINDS.map(([k, l]) => `<button type="button" class="exp-key" data-k="${k}" aria-pressed="${on.has(k)}">${l} <span class="n">${tot(k).toLocaleString("en-AU")}</span></button>`).join("");
+    el.onclick = e => { const b = e.target.closest("[data-k]"); if (!b) return; const k = b.dataset.k; if (on.has(k) && on.size > 1) on.delete(k); else on.add(k); drawKinds(); draw(); show(); };
+  }
+  function draw() {
+    const holder = document.getElementById("chart"), W = Math.max(560, holder.clientWidth - 16), L = 40, T = 22, cell = Math.min(32, (W - L - 8) / 31), H = T + cell * 12 + 8;
+    const cells = [];
+    for (let m = 1; m <= 12; m++) for (let d = 1; d <= DAYS[m - 1]; d++) cells.push({ m, d, n: count(m, d) });
+    const max = d3.max(cells, c => c.n) || 1, css = getComputedStyle(document.body);
+    const ramp = d3.range(7).map(i => css.getPropertyValue("--seq-" + i).trim());
+    const col = d3.scaleQuantize([1, max], ramp);
+    document.getElementById("count").textContent = `${d3.sum(cells, c => c.n).toLocaleString("en-AU")} dated to the day; busiest day has ${max}`;
+    const svg = d3.create("svg").attr("viewBox", `0 0 ${L + cell * 31 + 8} ${H}`).style("max-width", (L + cell * 31 + 8) + "px")
+      .attr("role", "img").attr("aria-label", "Calendar of the year, one square per day, darker for more births, deaths and objects. Choose a day to list them below.");
+    Exp.MONTHS.forEach((mn, i) => svg.append("text").attr("class", "lab").attr("x", L - 6).attr("y", T + i * cell + cell / 2 + 4).attr("text-anchor", "end").text(mn.slice(0, 3)));
+    [1, 5, 10, 15, 20, 25, 31].forEach(d => svg.append("text").attr("x", L + (d - 1) * cell + cell / 2).attr("y", T - 7).attr("text-anchor", "middle").text(d));
+    const tip = document.createElement("div"); tip.className = "exp-tip"; tip.hidden = true;
+    svg.selectAll("rect").data(cells).join("rect")
+      .attr("class", c => "day" + (c.m === now.getMonth() + 1 && c.d === now.getDate() ? " today" : "") + (c.m === sel.m && c.d === sel.d ? " sel" : ""))
+      .attr("x", c => L + (c.d - 1) * cell).attr("y", c => T + (c.m - 1) * cell).attr("width", cell).attr("height", cell).attr("rx", 4)
+      .attr("fill", c => (c.n ? col(c.n) : "var(--hover)"))
+      .on("pointermove", (e, c) => {
+        tip.innerHTML = `<b>${c.d} ${Exp.MONTHS[c.m - 1]}</b>${c.n} ${c.n === 1 ? "item" : "items"}`; tip.hidden = false;
+        const r = holder.getBoundingClientRect(); let x = e.clientX - r.left + 14; if (x + 180 > r.width) x -= 200;
+        tip.style.left = x + "px"; tip.style.top = (e.clientY - r.top + 14) + "px";
+      })
+      .on("pointerleave", () => { tip.hidden = true; })
+      .on("click", (e, c) => { sel = { m: c.m, d: c.d }; draw(); show(); document.getElementById("list").scrollIntoView({ behavior: "smooth", block: "start" }); });
+    holder.replaceChildren(svg.node(), tip);
+  }
+  function step(n) {
+    const dt = new Date(2024, sel.m - 1, sel.d + n);   // 2024 has 29 February
+    sel = { m: dt.getMonth() + 1, d: dt.getDate() }; draw(); show();
+  }
+  function show() {
+    try { history.replaceState(null, "", "?day=" + String(sel.m).padStart(2, "0") + "-" + String(sel.d).padStart(2, "0")); } catch (e) { /* file:// */ }
+    const list = (byDay.get(key(sel.m, sel.d)) || []).filter(x => on.has(x.kind)).sort((a, b) => a.y - b.y);
+    const part = (k, title) => {
+      const xs = list.filter(x => x.kind === k); if (!xs.length) return "";
+      return `<h2>${title} (${xs.length})</h2><ul>` + xs.map(x => k === "o"
+        ? `<li><span class="yr">${x.y}</span><a href="${Exp.object(x.id)}">${esc(x.n)}</a>${x.entries.length ? ` <span class="exp-note">· ${x.entries.slice(0, 3).map(id => `<a href="${Exp.entry(id)}">${esc(x.names[id] || id)}</a>`).join(", ")}</span>` : ""}</li>`
+        : `<li><span class="yr">${x.y}</span><a href="${Exp.entry(x.id)}">${esc(x.n)}</a> <span class="exp-note">${x.pl ? esc(x.pl) + " · " : ""}${esc((x.occ || []).join(", "))}</span></li>`).join("") + "</ul>";
+    };
+    document.getElementById("list").innerHTML = `<div class="otd-head"><h2>${sel.d} ${Exp.MONTHS[sel.m - 1]}</h2>
+      <button type="button" id="prev">← Day before</button><button type="button" id="next">Day after →</button></div>` +
+      (list.length ? part("b", "Born") + part("d", "Died") + part("o", "Digital objects") : "<p>Nothing recorded for this day.</p>");
+    document.getElementById("prev").onclick = () => step(-1);
+    document.getElementById("next").onclick = () => step(1);
+  }
+})();
+</script>
+</body>
+</html>

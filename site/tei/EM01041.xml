@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Narre Warren</title>
+<author>Jenny Keating</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01041</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Narre Warren</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3805, 38 km SE, Casey City)</p>
+<p>Narre Warren North (3804) developed as a pastoral district, with some orchards and dairying. A relatively successful soldier settlement was established in the locality. The area was originally called Narre Warren, but when a settlement of the same name developed around a railway station a few kilometres to the south, the former locality became 'Old Narre Warren' or 'Narre Warren North'. The name appears to be of Aboriginal derivation, suggesting either 'hilly country' or 'no good water'. In the 1960s the Fountain Gate estate was built at Narre Warren. Developer Isador Magid designed the estate with streets on a grid, but Robin Boyd persuaded him to replace them with cul-de-sacs with parkland corridors to the rear. Boyd was employed to redesign the estate, and designed a number of houses in the suburb. A large shopping centre opened near the housing estate, and in 1977 the new municipal offices for the City of Berwick, and later the City of Casey, were constructed. Narre Warren South is a semi-rural area in the City of Casey, while Narre Warren East (3804) is in the Yarra Ranges Shire.</p></div>
+</body>
+</text></TEI>

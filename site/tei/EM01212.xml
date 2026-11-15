@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Quakers</title>
+<author>Peter Sherlock</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01212</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Although Quaker missionary James Backhouse had visited in 1837, it was 1843 before the first gathering of Quakers was held in Melbourne. In 1847 burial space was set aside in the Flagstaff Hill cemetery. About 400 Friends migrated to Melbourne during the gold rush, leading to the opening of a purpose-built meeting house in Russell Street in 1860. The Melbourne Monthly Meeting, largest of the Australian societies, was formally recognised by the London Yearly Meeting in 1861. Prominent pacifists since the 1860s, Quakers protested against the introduction of compulsory military training for boys in 1909, and some young Friends were interned. They were also strongly opposed to conscription during World War I. Melbourne has been prominent in Australian Quaker activity. It hosted the first annual Australian General Meeting in 1902, and from 1940 to 1968 the Quaker Service Council Australia was based in the city. In 1953 the Melbourne Meeting House was moved to Toorak. A second Melbourne meeting was established in the 1960s, and by 2000 there were three. Numerically small, the Society of Friends continues to attract members through its progressive spirit, social activism and egalitarian structure.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000443" type="book"><author>Australia Yearly Meeting of the Religious Society of Friends (Quakers)</author> <title level="m">This we can say: Australian Quaker life, faith and thought</title> <pubPlace>Melbourne</pubPlace> <publisher>Author</publisher> <date>2003</date></bibl></listBibl></div></back>
+</text></TEI>

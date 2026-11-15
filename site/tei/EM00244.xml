@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Brooklyn</title>
+<author>John Lack</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00244</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Brooklyn</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3012, 11 km W, Maribyrnong City, Hobsons Bay City)</p>
+<p>Brooklyn is a compact residential and industrial neighbourhood bounded by Tottenham, Yarraville, Spotswood and at Altona North, the West Gate Freeway, and divided by Geelong Road and the Sunshine-Newport railway line. Brooklyn was known until the 1920s as Brooklea (possibly named after a local home or farm), with its own post office. Brooklea became corrupted to Brooklyn, a home for quarries, wool stores, meatworks, motor wreckers and foundries, the industrial detritus of surrounding municipalities. Since the 1890s the Melbourne and Metropolitan Board of Works outfall sewer (joined later by the replacement for the Spotswood Pumping Station) has marked Brooklyn's south-west boundary. Brooklyn's hotel was one of a constellation of three that stretched along Geelong Road from the Rising Sun at West Footscray, through the Half Moon (now the site of a caravan park at Miller's Road), to the Guiding Star on old Geelong Road, since rebuilt on the realigned highway. After World War II, Brooklyn was home to thousands of immigrants living in emergency migrant hostels converted from wool stores close to Borthwick's and Smorgon's meatworks. Thus did Australia discharge its promise to newcomers of 'meat with every meal'.</p></div>
+</body>
+</text></TEI>

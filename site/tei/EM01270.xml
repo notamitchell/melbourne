@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royal Botanic Gardens</title>
+<author>Sara Maroske</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01270</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02030.xml"><desc>Temple Of The Winds</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Covering nearly 40 ha in South Yarra, the Royal Botanic Gardens are one of Melbourne's feature tourist attractions, a natural sanctuary for native wildlife and home of the National Herbarium of Victoria.</p>
+<p>After several false starts, an area on the south bank of the Yarra River was set aside for Melbourne's botanic garden on 16 March 1846. It was an inspired choice of land, enabling a succession of curators and directors to create gardens that have been internationally famous almost since their inception.</p>
+<p>The two best-known directors were Ferdinand von Mueller (1857-73) and his successor William Guilfoyle (1873-1909). Mueller made the garden and herbarium famous as institutions of science. He did not regard the creation of a beautiful landscape as an object in itself, but was by no means unaware of the beauty of plants. His proudest achievements included the geyser in the lagoon, the flowering of the giant waterlily <hi rend="italic">Victoria amazonica</hi>, the living plant collection and plant distributions. From 1859 to 1861 Mueller also directed the Zoological Garden, which was partly within the Botanic Garden.</p>
+<p>Guilfoyle was a landscape gardener for whom a botanic garden was a place of art. He reconfigured Mueller's plants in the picturesque English landscape style characterised by sweeping lawns, curved paths and colourful garden beds. Among his creations were a fern gully, the Temple of the Winds, the Australian border and, after 1897, when the course of the Yarra was straightened, the transformation of the lagoon into a landscaped lake.</p>
+<p>Twentieth-century directors maintained Guilfoyle's overall design in what is now a historic garden. Nevertheless, some new elements were added: a cactus garden (1946), the Ellis Stones rockery (1966), a herb garden (1986), the Californian garden (1993), the Australian rainforest walk (1996) and a children's garden (2004). A native garden was initiated at Cranbourne in 1970, much of which is still in its natural state. This garden was opened to the public in 1991.</p>
+<p>Known in its early years as the Melbourne Botanic Garden, in 1958 Queen Elizabeth II approved the addition of 'Royal' to the title, and in 1992 the garden's management was vested in a government-appointed board.</p>
+<p>With nearly a million visitors annually, the gardens remain an oasis of mainly middle-class resort and a venue for guided walks and tours, social events, concerts, films and plays. Under the Separation Tree, citizens celebrated receipt in November 1850 of the news of Separation, and over 50 000 individual plants include other historic trees planted by previous directors, royal visitors and other celebrities. The adjacent site of the old Melbourne Observatory was transformed into a gateway precinct for the gardens in the late 1990s.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000593" type="journal-article"><author>Lemon, Andrew</author> <title level="a">Melbourne's pride and glory: 150 years at the Royal Botanic Gardens</title> <title level="m">Victorian Historical Journal</title> <date>1996</date></bibl><bibl xml:id="PEM000416" type="book"><author>Pescott, R.T.M.</author> <title level="m">The Royal Botanic Gardens Melbourne: a history from 1845 to 1970</title> <pubPlace>Melbourne</pubPlace> <publisher>Oxford University Press</publisher> <date>1982</date></bibl></listBibl></div></back>
+</text></TEI>

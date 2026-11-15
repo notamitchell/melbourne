@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Patterson Lakes</title>
+<author>Gillian Hibbins</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01123</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Patterson Lakes</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3197, 32 km SE, Kingston City)</p>
+<p>This suburb is set on a number of artificial lakes developed since the 1970s from a remnant of the Carrum Swamp and joined to a series of waterways connected to the Patterson River and then to Port Phillip Bay. The Patterson River was constructed in the 1880s as the main drain of the Carrum Swamp and named for the Minister of Public Works, J.B. Patterson. The National Water Sports Centre at Bangholme, providing a rowing and canoeing course to international standard, was opened in 1988. The suburb also features the Patterson River Country Club and a number of retirement villages.</p></div>
+</body>
+</text></TEI>

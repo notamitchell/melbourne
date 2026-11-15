@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Haymarket Theatre</title>
+<author>Mimi Colligan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00696</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Designed by P.T. Conlon for George Coppin, the Haymarket Theatre opened on 15 September 1862 with American actor Joseph Jefferson in <hi rend="italic">Our American Cousin</hi>. In a lively area of Bourke Street next to the Eastern Market, the building also contained the Apollo Music Hall, where in 1866, roller skating was introduced to Melbourne. In 1863 Coppin engaged the English actors Charles and Ellen Kean for a season of Shakespeare and other plays. The theatre was remodelled and renamed the Duke of Edinburgh in 1868 for the royal tour of Prince Alfred. In 1867 actor-manager William Hoskins took a lease and staged repertory plays. Highlights of this management included the tragedian James Anderson, dancer-actor Madame (Céline) Céleste and Lyster's Royal Italian Opera. The theatre was destroyed by fire in September 1871. The Apollo Hall was rebuilt, together with the Eastern Arcade.</p></div>
+</body>
+</text></TEI>

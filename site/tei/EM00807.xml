@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Knox City</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00807</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This outer eastern municipality at the gateway to the Dandenong Ranges was created in 1994 by merging the former City of Knox with part of the former Shire of Sherbrooke. Formerly it was part of Fern Tree Gully, an urban fringe shire that included the tourist attractions of the hills, market gardens and orchards on the plains and the gradually developing suburbs of Bayswater, Wantirna and Boronia. The tensions inherent in administering such a range of ratepayers were largely responsible for the division of the shire into the Shires of Sherbrooke and Knox in 1963. Only six years later Knox became a city. The name derives from Sir George Knox, a local resident and councillor of the shire in the 1920s and member of the Legislative Assembly from 1927 to 1960.</p>
+<p>Although it was still a predominantly rural district at the time of its formation, Knox became one of the most rapidly growing areas of Melbourne in the ensuing decades. The population of 28 000 in 1963 doubled within seven years and reached over 100 000 in the 1990s. Initially, residential and industrial development was limited to the northern parts of the shire, at Wantirna, Bayswater, Boronia and Fern Tree Gully, while the Rowville-Scoresby area to the south remained a market gardening and orchard district. The cheapness of land in the shire, which was aided by the fact that most new housing subdivisions were unsewered and without made roads, attracted buyers with limited incomes, but resulted in Knox having a high level of home ownership compared with most of metropolitan Melbourne.</p>
+<p>In the 1980s more homes were built in Knox than in any other Melbourne municipality. The ready supply of employees in the rapidly growing population and council policies encouraged light industrial and warehouse development. Throughout the 1980s and 1990s pressure to release more land for residential purposes led to an ever-decreasing amount of agricultural space within the city as brick veneer houses on quarter-acre (0.1 ha) blocks spread into Rowville and Scoresby. Unlike many older Melbourne municipalities, Knox developed from the coming together of a number of isolated communities rather than expansion from a traditional town centre. The residential and industrial suburb of Knoxfield (3180, 26 km SE) is now at its centre with the municipal offices and the Knox City Shopping Centre, opened in 1977, located nearby. Many of the suburb's residents are employed in the manufacturing industries located along Ferntree Gully Road.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000277" type="book"><author>Jones, Michael</author> <title level="m">Prolific in God's gifts: A social history of Knox and the Dandenongs</title> <pubPlace>Sydney</pubPlace> <publisher>Allen &amp; Unwin: in association with the City of Knox</publisher> <date>1983</date></bibl></listBibl></div></back>
+</text></TEI>

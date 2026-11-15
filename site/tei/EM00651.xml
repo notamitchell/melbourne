@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Gog and Magog</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00651</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Gog and Magog are 2.1-metre-high statues of mythical British giants flanking a large clock in Royal Arcade, installed in 1892. Thomas Gaunt &amp; Co., clockmakers and jewellers, had been original tenants of the arcade. Gaunt died in 1890 and the clock, though bearing his name on its black and gold face, is attributed to Frederick Ziegler. The pine figures were probably carved by Mortimer Godfrey in his Lonsdale Street workshop. Connected by wires to the clock which operates from a machine room above, they strike iron bells every quarter hour and are modelled on larger effigies in London's Guildhall.</p></div>
+</body>
+</text></TEI>

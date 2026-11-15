@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>RACV (Royal Automobile Club of Victoria)</title>
+<author>Helen Penrose</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01219</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01700.xml"><desc>Barrett Alley</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Founded in 1903 as the Automobile Club of Victoria (ACV), the RACV was a social club for motorists and held events such as motor car races, motor gymkhanas and other contests. Similar clubs were established around Australia at the same time (Sydney and Adelaide in 1903, Queensland in 1905). The Victorian club was founded at a meeting of 55 men after their return from a morning's motoring to Mordialloc. Its constitution and rules were adopted the following year, and it has been run by a board ever since. At first only men were eligible for membership, but from 1909 women were also admitted.</p>
+<p>The first ACV motor show was held in the Royal Exhibition Building in 1912. As motoring gained popularity, the club added a touring department (1914) and a motor insurance scheme (1915). A 1916 Royal Charter saw the ACV become the RACV. By 1923 the club boasted 3907 members, more than a third of whom lived in the country. Motoring pastimes focused on country venues, and thousands of Melburnians were by this time enjoying hill climbs, touring, 'overlanding' and, from the 1930s, caravanning. A road patrol system (1924) and road service membership (1926) were introduced to cater for these activities.</p>
+<p>By 1953 the service fleet numbered 44 vehicles, serving 150 000 members. That year also marked the first issue of the <hi rend="italic">Royalauto</hi> magazine. By the start of the 21st century around 1.4 million members enjoyed a wide range of services, including the driving school (1960), home loans (1995) and other financial services. The RACV has over its history been a proponent of the freedom of the road, and has been an important motor lobby group on such issues as road safety, city parking, enforcement of traffic regulations, petrol taxes, the removal of wartime petrol rationing in the 1940s, freeways and the direction of motoring taxes towards road construction.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000333" type="book"><author>Priestley, Susan</author> <title level="m">The crown of the road: the story of the RACV</title> <pubPlace>Melbourne</pubPlace> <publisher>Macmillan</publisher> <date>1983</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Parliamentary Mace Mystery</title>
+<author>Ray Wright</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01120</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>In the early hours of Friday, 9 October 1891, the Parliament of Victoria's mace was stolen, in what has remained one of Melbourne's favourite unsolved crimes. The mace was the symbol both of the office of speaker and of the constitutional rights of Victoria's citizens as protected by the parliament. Five feet long, silver-plated and ornately engraved, it was widely (and incorrectly) believed to be extremely valuable.</p>
+<p>Suspicion focused initially on parliamentary engineer Thomas Jeffery, who on the afternoon of 9 October was seen running from the rear of Parliament House carrying a package that in size and shape resembled the mace. Police questioned him, searched his home in Nicholson Street, Abbotsford, and matched his tools to markings on the forced storage case. Confronted by a lack of motive and evidence, and by Jeffery's guileless innocence - he claimed the package was firewood - the police reluctantly dropped their enquiries.</p>
+<p>Thirteen months later, the <hi rend="italic">Bulletin</hi> and <hi rend="italic">Table Talk</hi> published stories suggesting that members of parliament had taken the mace as a joke and left it in a bordello in Little Lon. The uproar was immense, the satire hilarious. A February 1893 Board of Inquiry, while bringing down an open finding, nevertheless did establish that the mace had not been taken to a brothel. Popular opinion would have none of it. Indeed, the theft became somehow linked to Speaker Thomas Bent, who had assumed office some eight months after the theft. Based on no evidence whatsoever, Melburnians found Bent guilty and have so accused him ever since.</p>
+<p>The mace was never recovered. The story of the theft, and the association between parliamentarians and Little Lon, is now a hardy media perennial. The most judicious finding is that the theft was either a random burglary or an inside joke gone badly wrong.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000473" type="book"><author>Wright, Raymond</author> <title level="m">Who stole the mace?</title> <pubPlace>Melbourne</pubPlace> <publisher>Victorian Parliamentary Library</publisher> <date>2001</date></bibl></listBibl></div></back>
+</text></TEI>

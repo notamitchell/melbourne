@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Footscray Park</title>
+<author>John Lack</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00596</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Comprising some 32 ha of gardens, lawns and playing fields, Footscray Park occupies the slopes and river flats between Ballarat Road Footscray and the Maribyrnong River, overlooking Flemington racecourse. The Victoria Racing Club (VRC) bought the quarry hill (known as 'Poverty Point') and the lower grazing land to prevent its use for noxious trades, but its proposed 1908-09 subdivision for housing was forestalled by a group of Footscray residents who successfully campaigned for its development as a public park. Footscray City Council and the State Government shared the cost of the land, and the work of a volunteer beautification committee (1911-16) so impressed the VRC that it donated the flat land now used as sports grounds.</p>
+<p>The park's curator David Matthews (1890-1969) created a miniature botanical garden, with many trees now on the Victorian Significant Tree Register. Very much a public park, it houses war memorials, seating and pergolas, decorative urns, a children's playground and wading pool, an ornamental lily pond and a fountain. Much of the heavy work was done by depression sustenance workers, who successfully fought for award instead of starvation rates at Bailey's Reserve. Melbourne Cup Day attracted large crowds to 'Scotchmans Hill' at the eastern end, and the Henry Lawson Society has held its annual gathering in the park since 1923.</p>
+<p>The area west of the Nicholson Street extension (today Mills Close) was excised in 1941 for Footscray Technical School (now Victoria University). Riverside trees were uprooted to enable an uninterrupted view of the Queen's arrival at Flemington by water during her royal visit in 1954, and the park was much diminished by the loss of about 1.1 ha with the widening of Ballarat Road in 1963. Although Footscray Park went into decline following Matthews' 1964 retirement, it remains a major recreational area. In the 1980s it became an important venue for ethnic community celebrations, notably the Vietnamese Tet Festival, and for Footscray's Saltwater Festival. The subject of major heritage studies and refurbishments, Footscray Park was recognised by Heritage Victoria in 1996 as the State's largest and most intact Edwardian-era park.</p></div>
+</body>
+</text></TEI>

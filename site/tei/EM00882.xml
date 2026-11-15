@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>MacRobertson Girls' High School</title>
+<author>Pauline Parker</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00882</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-07-21" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Victoria's only selective-entry state high school for girls, MacRobertson Girls' High School, adjacent to Albert Park Lake, can trace its history from the opening of the Melbourne Continuation School in 1905. Victoria's first state secondary school, on the site of the old Model School in Spring Street, the continuation school was established to redress social and cultural inequities that favoured access to the university by independent school students. It also had a role in teacher training. Renamed Melbourne High School in 1912, it split along gender lines in 1927 with the girls continuing to occupy the cramped, and soon to be condemned Spring Street building as Melbourne Girls' High School.</p>
+<p>The effects of the depression and the establishment of new suburban high schools threatened the survival of the school. In May 1931 the school moved to an empty Government House, and then in 1933 to poorly maintained state school no. 1689 in King Street, North Melbourne. To celebrate Victoria's centenary, confectioner Sir Macpherson Robertson donated £40 000 for a new school. The MacRobertson Girls' High School, built to an award-winning design, was formally opened by the Duke and Duchess of Gloucester in 1934.</p>
+<p>MacRob is open to girls in years 9 to 12 and full-fee paying students from overseas. Entrance is by competitive examination, with some music places offered in years 10 and 11. In 2000 MacRob was Victoria's most successful secondary school at Victorian Certificate of Education examinations.</p></div>
+</body>
+</text></TEI>

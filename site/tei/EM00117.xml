@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Club</title>
+<author>Paul De Serville</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00117</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01694.xml"><desc>Austral Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01830.xml"><desc>Gurners Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Australian Club was founded in 1878 by men with offices in the western end of the city. For a century its membership combined a strong mercantile presence (its Apostles Table in the late 1880s was a who's who of Melbourne's mercantile establishment) with a notable pastoral contingent, largely from the Riverina. One long-standing link has been with the Broken Hill Proprietary, some of whose chairmen have been club presidents. The judiciary and the legal profession have also been well represented. Its first president, Sir William Clarke, oversaw the construction of a substantial clubhouse in 1879. Enlarged in 1892-93, on the eve of the bank crash, its dining room, billiard room and divided staircase are fine examples of late-Victorian interiors. The club survived the depression years, enrolling 200 members at a reduced entrance fee. Its chief contribution to Melbourne life was its ball, held, from 1887 until 1971, in Melbourne Cup week, and notable for the imported splendours of the supper. From the late 1980s extensive renovations were carried out on what is now the largest and best example of a late 19th-century clubhouse in the country. The club has survived the decline of the family companies and the eclipse of the pastoral industries; it remains the largest club in the western end of the city.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000321" type="book"><author>de Serville, Paul</author> <title level="m">The Australian Club, Melbourne, 1878-1998</title> <pubPlace>Melbourne</pubPlace> <publisher>Australian Club</publisher> <date>1998</date></bibl></listBibl></div></back>
+</text></TEI>

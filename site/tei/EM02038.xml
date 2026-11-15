@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Dolphin Fountain</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02038</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00576.xml"><desc>Fitzroy Gardens</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>June Arnold Bronze and granite fountain 1982 Fitzroy Gardens</p>
+<p>June Arnold's Dolphin Fountain caused quite a stir when it was proposed. It comprises around 100 aquatic birds and animals, such as dolphins, crabs and seahorses, sculpted in bronze and fastened to a small pyramid of granite boulders, over which water cascades. Some in the community questioned just where the fountain should be located, while others questioned whether it had a place in the gardens at all. One advisor from the National Trust provocatively asked: 'Why must the Fitzroy Gardens continue to be the collecting yard of everybody's fantasies?'</p>
+<p>Following a period of consultation between the artist, Melbourne City Council and Fountains Trust, it was agreed that the fountain would be sited on the relatively secluded northern bank of the ornamental lake, rather than on the proposed site on Albert Street, where it would be far more prominent. It was unveiled in December 1982.</p>
+<p>Many of the fountain's critics have found it at odds with the planned naturalism of the heritage-listed Fitzroy Gardens but, just as Arnold predicted, it has been a favourite with children ever since its installation.</p></div>
+</body>
+</text></TEI>

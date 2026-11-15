@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bligh Place</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01709</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01547.xml"><desc>Victoria University</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Bligh Place leads north from Flinders Lane between Elizabeth and Queen streets, opposite Victoria University's Flinders Lane campus and the Mill Place arcade. It was probably named for merchants Bligh &amp; Harbottle, who operated from a warehouse in Flinders Lane in the nineteenth century. In 1920, Bligh Place contained the warehouses of several wool merchants, and a store belonging to Beauchamp Brothers. In 2008 the balconies of apartments overlook Bligh Place, which despite its desolate appearance boasts several tiny sushi shops and a Japanese-inspired bar. The laneway is a dead-end with no vehicular access, but thanks to the custom of university students, enjoys active frontage.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000081"><head>Correspondence file between the Hon. W. J. T. Clarke and Town Clerk, City of Melbourne, re Bligh Place</head><graphic url="../objects/thumbs/tn_BLI1_001_L.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_BLI1_001_L.jpg"/><p>6 July 1867</p><note type="rights">Courtesy Public Record Office Victoria</note></figure><figure xml:id="D00000082"><head>Correspondence file between W.J.T. Clarke and Public Works Committee, City of Melbourne, re Bligh Place</head><graphic url="../objects/thumbs/tn_BLI2_001_L.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_BLI2_001_L.jpg"/><p>10 June 1867</p><note type="rights">Courtesy Public Record Office Victoria</note></figure></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000628" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1860</date></bibl><bibl xml:id="PEM000637" type="resource-section"><title level="a">Central Melbourne: Lanes A-B</title> <title level="m">Amendment C105 - CBD Laneways Review</title> <publisher>City of Melbourne</publisher> <date>2007</date> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=195&amp;pg=3065&amp;bp=1902&amp;coll=8">online</ref></bibl></listBibl></div></back>
+</text></TEI>

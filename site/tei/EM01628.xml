@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Wirth's Circus</title>
+<author>Mark St Leon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01628</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Brass musicians from Jettenbach, Bavaria, the original Wirth brothers, Philip, Johannes (1834-1880) and Peter, disembarked in Port Phillip in 1855. For several years, the brothers and their families travelled the gold fields and backblocks as itinerant musicians, sometimes in the employment of a circus. In 1860 the Wirth family shared a camp with the Burke and Wills exploration party.</p>
+<p>In the early 1880s the family of Johannes established what became Australia's most prestigious circus company. Wirth's Circus gave its first appearance in Melbourne in 1887 on the stage of the Alexandra Theatre. When the banks failed in 1893, the Wirths embarked upon a seven-year world tour. When they returned to Australia in 1900 they found FitzGerald Bros had become Australia's premier circus. A bitter rivalry ensued, with the Wirths emerging triumphant after the deaths of the two FitzGerald brothers in 1906.</p>
+<p>Leasing land from Melbourne City Council on St Kilda Road close to Princes Bridge in 1901, the FitzGeralds had erected an octagonal circus building that they called the Olympia. After their demise, the lease was granted to the Wirths, who constructed a new circus building. The new Olympia was used for its Wirths' Melbourne performances until destroyed by fire in 1953. The Arts Centre now occupies this site.</p>
+<p>The Wirth brothers continued FitzGeralds' practice of bringing a large circus to Melbourne for the Melbourne Cup, presenting a gold-mounted whip to the winning rider. The Melbourne season was the high point of the annual circuit made by the Circus through Australia and New Zealand. Wirth's Circus ceased operations in 1963.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Edinburgh Gardens</title>
+<author>Georgina Whitehead</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00504</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A public recreation reserve in Fitzroy, the Edinburgh Gardens were developed in the 1880s when many of their fine elms and oaks were planted. Named after the Duke of Edinburgh, who survived an assassination attempt during a royal visit in 1868, part of the 15-ha reserve has been used by local sportsmen since its reservation in 1862. The opening of the Royal Park to Fitzroy railway line in 1888 cut the Gardens in two until the line's closure in 1981. The World War I memorial bandstand (erected 1925) survives, as does an old grandstand overlooking the community oval, home to the Fitzroy Football Club from 1887 to 1980.</p></div>
+</body>
+</text></TEI>

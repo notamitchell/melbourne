@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Hurstbridge</title>
+<author>Andrew Lemon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00740</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Hurstbridge</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3099, 30 km NE, Nillumbik Shire)</p>
+<p>Hurstbridge is a partly suburbanised township at the terminus of the railway beyond Eltham, near the junction of Arthurs and Diamond creeks. Named after early settler Henry Hurst (shot dead by a bushranger in 1866), and the timber bridge he built over the creek, Hurstbridge became the centre of a prosperous fruit-growing area, particularly after the railway opened (1912). Although a new concrete bridge was built in 1918, Hurstbridge remained countrified until residential growth began in the 1950s. A high school opened in 1967. Latterly, under the pressure of new housing, residents have been active in efforts to retain the scale and trappings of a small town.</p></div>
+</body>
+</text></TEI>

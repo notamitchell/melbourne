@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Cycloramas</title>
+<author>Mimi Colligan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00433</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01765.xml"><desc>Cyclorama Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Popular in Melbourne from 1889 to 1906, Cycloramas were shown in two circular buildings: one in Fitzroy on Victoria Parade (now St Vincent's Hospital), the other in Little Collins Street (now Georges Apartments). Each displayed a 360-degree oil painting, measuring 122 x 15 m. The picture, lit from above, was viewed from a central platform. Real objects, such as trees or bushes, were merged into the painted picture to heighten the illusion. Three pictures (<hi rend="italic">Battle of Waterloo</hi>; <hi rend="italic">Battle of Gettysburg</hi> and <hi rend="italic">Jerusalem</hi>) were shown at Fitzroy between 1889 and 1906. Also displayed, from 1891, was the locally painted <hi rend="italic">Eureka Stockade</hi>. <hi rend="italic">The Siege of Paris</hi> was shown in Little Collins Street from 1891 to 1896. The canvases were promoted by Americans Gross &amp; Reed and the Melbourne Cyclorama Co. The depression of the 1890s and the arrival of motion pictures contributed to the demise of the genre. The Fitzroy building was later used as a circus, boxing ring and cinema, before demolition in 1928. A smaller cyclorama (36 x 4 m), <hi rend="italic">Early Melbourne in 1842</hi>, painted by local scenic artist John Hennings, was exhibited at the Royal Exhibition Building from 1892 to c. 1920. This painting survives in the La Trobe Picture Collection, State Library of Victoria.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000100" type="book"><author>Colligan, Mimi</author> <title level="m">Canvas documentaries: Panoramic entertainments in nineteenth-century Australia and New Zealand</title> <pubPlace>Melbourne</pubPlace> <publisher>Melbourne University Press</publisher> <date>2002</date></bibl></listBibl></div></back>
+</text></TEI>

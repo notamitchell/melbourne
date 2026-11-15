@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Elsternwick</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00515</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Elsternwick</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3185, 9 km SE, Glen Eira City)</p>
+<p>Bisected by the Nepean Highway, Elsternwick is in the western part of Caulfield, bordering Elwood and Brighton. Victorian pioneer Charles Ebden is said to have built a house by a creek here, naming both Elster, the German word for magpie. Wick, meaning harbour or village, was added when in 1856 government surveyors marked a village roughly centred on the corner of Glen Huntly Road and the Nepean Highway. By that time the name of Elsternwick was loosely used to describe the largely unpopulated district to the east of St Kilda and north of Brighton.</p>
+<p>Elsternwick railway station opened as part of the privately run Brighton line in 1859. The unreliable service was improved when the government took over the line in the 1880s and Elsternwick began to attract residents, many of them building substantial homes and mansions. In 1898 a number of Caulfield's 'more prosperous' residents formed the Elsternwick Club, so they could meet on 'socially acceptable terms'. Elsternwick Park served as a racecourse in the 19th century and during the 1880s and 1890s was devoted entirely to trotting. Many of the mansions of the 1870s and 1880s sat within enormous estates, the largest being Sir Frederick Sargood's Rippon Lea, established in the 1860s and enlarged over the next 30 years until it covered 45 acres (18 ha). In the 1890s and 1900s, many of the gardens of these estates were subdivided into streets of more modest homes. It was one of these houses in Buxton Street that became the model for the Meredith family home in George Johnston's novel <hi rend="italic">My brother Jack</hi> (1964).</p>
+<p>Glen Huntly Road has been a focus for shopping since the 19th century. The proximity of Elsternwick station from 1859 helped to encourage the growth of a retail centre which was significantly expanded when the private estate Glenmoore was subdivided into housing blocks, with shops along the Glen Huntly Road frontage in 1891. Elsternwick is the home of a number of independent schools, many of them catering to Jewish students. Historic buildings in the suburb include the Elsternwick Club (1885), former Union Church (1890), former post office (1891), fire station (1895), and the Elsternwick Theatre (1911, now the Classic Cinema).</p></div>
+</body>
+</text></TEI>

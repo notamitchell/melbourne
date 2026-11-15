@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Special Constables</title>
+<author>Dean Wilson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01408</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Special constables were citizens sworn in to perform the office of constable in times of crisis. In Melbourne's early years special constables were frequently called upon whenever the police were confronted with major public assemblies. In the 1840s, on election days and during sectarian conflicts and horseracing carnivals, the small town police force was supplemented by special constables. The 'specials' were usually drawn from among small property-owners and respectable tradespeople.</p>
+<p>Following the gold rushes, the increased size of the police force meant special constables were less frequently required. Only in times of acute civic crisis did men march to the Melbourne Town Hall, swear their allegiance to the government and receive their baton. Such was the case when riots over the question of land reform erupted on 28 August 1860. In the following days over 1000 special constables were sworn in, and the Union Jack flying from the Town Hall or red lamps and rockets were used to summon the specials in the event of further disorder. Comprised mainly of merchants, their clerks and property-holders, 630 special constables were sworn in during the bitter confrontations of the 1891 maritime strike.</p>
+<p>Although special constables historically aided the regular police force, they are perhaps best remembered for replacing them. During the 1923 police strike about 2360 special constables were sworn in at Melbourne and suburban town halls. While provision remained on the statute books, the police strike and its aftermath proved to be the last occasion when special constables were called upon.</p></div>
+</body>
+</text></TEI>

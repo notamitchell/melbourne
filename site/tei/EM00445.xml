@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Darebin Creek</title>
+<author>Peter Christiansen</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00445</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>A tributary of the Yarra River, Darebin Creek rises on the northern outskirts of Melbourne and flows through industrial and residential suburbs including Thomastown and Lalor before joining the Yarra at Alphington. The Aboriginal Protector William Thomas recorded the Woi wurrung name for this waterway as <hi rend="italic">Dirrabeen</hi>.</p>
+<p>Market gardens were established close to the Darebin Creek as the availability of water was important for irrigating crops and the pasturing of dairy stock. Quarries were established along the creek to exploit the extensive bluestone outcrops in its catchment, supplying Melbourne with building materials and crushed rock for road-making. A number of quarries still operate today in Epping and Wollert.</p>
+<p>In the 1970s the Northcote and Heidelberg councils collaborated on the formation of a unified park system along the creek valley. Works to improve the natural environment and protect habitat for native mammals, birds and fish have included bank stabilisation, the building of fishways, revegetation and the removal of noxious weeds. The open space along the Darebin Creek is increasingly valued for leisure and recreational purposes such as walking, jogging, cycling, picnicking, nature observation and dog-walking.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Southern Cross Hotel</title>
+<author>Chrystopher J. Spicer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01406</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Located at the south-west corner of Bourke and Exhibition streets, Australia's first modern American-style international five-star hotel was built on the site of the former Eastern Market to the design of Welton Becket &amp; Associates (New York and Los Angeles) and Leslie M. Perrott &amp; Partners (Australia) for Intercontinental Hotels, a subsidiary of Pan American World Airways. They had been attracted to Melbourne following the success of the 1956 Olympic Games. The 426-room hotel cost £5.25 million and included an underground carpark, shops and a bowling alley. Opened on 24 August 1962 by the Prime Minister, Robert Menzies, its guest list included the Beatles in 1964, Judy Garland, Rock Hudson, John Wayne and Marlene Dietrich. The hotel hosted the annual Logie and Brownlow awards and was Liberal Party headquarters for election-night functions. Pan Am sold its interest in the hotel in 1977, leaving it in Australian ownership until it was sold to the Republic of Nauru in 1994. The hotel was closed on 1 April 1995 and partly demolished in order for it to be extensively remodelled. However, this project was never completed and the ruined building stood derelict until finally being completely demolished in 2003 to make way for an office development.</p></div>
+</body>
+</text></TEI>

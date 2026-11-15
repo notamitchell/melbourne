@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Fires</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00568</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00012.xml"><desc>Urban Environment</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01698.xml"><desc>Baptist Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02139.xml"><desc>Swine Flu: In Focus - June 2009</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Until the establishment of the Metropolitan Fire Brigade in 1891, Melbourne was protected from the ravaging effect of fires by community and voluntary brigades. Apart from the continuing threat of bushfires on its rural fringes, urban fires - common to many of Melbourne's 19th-century city counterparts - proliferated because of a combination of human error and accident, combustible building materials, lack of regulation on the storage of flammable chemicals, and rampant building speculation. Health regulations and building and construction technologies, from the introduction of fire sprinklers in city buildings in the 1880s to the introduction of laws requiring the compulsory installation of smoke detectors in all new domestic buildings from 1999, have vastly reduced, though will never eliminate, fire in the city.</p>
+<p>One of Melbourne's first fires, in 1838, destroyed a wattle-and-daub watch-house near Spencer Street, between Collins and Little Collins streets. An early brigade was formed in 1845, the year in which the residence and brewery of Henry Condell, Melbourne's first mayor, caught fire. Over 20 houses were destroyed in Queensbury Street, Carlton, in 1855, and city timber yards, chemical works and warehouses were common casualties. There is a long list of city theatres destroyed or damaged by fire: the Olympic Theatre (1866), Haymarket Theatre (1871), Theatre Royal (1872), Bijou Theatre (1889), Her Majesty's Theatre (1929), the Trocadero (1940), Wirth's Olympia (1953), the Tivoli (1967) and the Playbox Theatre (1984). Other major Melbourne fires have included the destruction of Allans, Glen's and Georges in Collins Street in 1889 (replaced by the Block Arcade); a huge Flinders Lane conflagration in 1887, which resulted in large insurance company losses and the destruction of Sargood's; and fires at the Melbourne Town Hall (1925), Wilson Hall at the University of Melbourne (1952), and the Aquarium (1953). In 1947 ten painters and dockers were killed by fire on the <hi rend="italic">Mahia</hi> freighter at Victoria Dock when a drum of sodium nitrate exploded. Nine men died at a fire at Kew Cottages in 1996, and Australia's worst building fire tragedy to that time occurred in August 1966, when a fire destroyed the Salvation Army's William Booth Memorial Home in Little Lonsdale Street, killing 30 men.</p></div>
+</body>
+</text></TEI>

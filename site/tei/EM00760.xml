@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>International Bookshop</title>
+<author>Ken Norling</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00760</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00013.xml"><desc>Politics &amp; Government</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Opened in Exhibition Street in 1933 as a shopfront for the Melbourne office of the Communist Party of Australia (CPA), the International Bookshop lasted until 1993, two years longer than the CPA, in the second floor of the undistinguished Elizabeth Street building it had occupied for over 30 years. For 60 years it was much more than the bookshop of a political party. It was a cultural institution for progressive and radical movements of varied kinds. From its earliest days, pamphlets on the Soviet Union and works of Marx, Lenin and Stalin shared shelf space with the writings of rationalists like Joseph McCabe and the fiction of Upton Sinclair, Jack London and others. The shop later became a major outlet for the works of such Australian writers as Alan Marshall, Katharine Susannah Prichard, Frank Hardy, Bill Wannan and Dorothy Hewett.</p>
+<p>The Cold War, disillusionment with the Soviet Union and the unexpected long postwar economic boom caused a steady decline of the CPA during the 1970s but the Bookshop found a new lease of life. Customers radicalised by the women's liberation movement, the Vietnam War, and later the gay liberation movement, kept it a centre of Melbourne radical life.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000216" type="book"><author>Sendy, John</author> <title level="m">Melbourne's radical bookshops: History, people, appreciation</title> <pubPlace>Melbourne</pubPlace> <publisher>International Bookshop</publisher> <date>1983</date></bibl></listBibl></div></back>
+</text></TEI>

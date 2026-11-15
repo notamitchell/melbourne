@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>St Columb's</title>
+<author>Norman Curry</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01300</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established in 1883 from Christ Church in Hawthorn, St Columb's was designed by architect George Wharton and its congregation grew quickly under its first vicar, T.H. Armstrong, later Bishop of Wangaratta. Outreach - through missionary service and the development of ministry in the Dandenong Ranges under C.H. Nash (1900-06), and through open-air and town hall services under D.M. Deasey (1912-32) - became a feature. Many incumbents served the diocese as archdeacons and canons, the most recent being J.B. Moroney (1965-86), a cathedral canon and also Anglican Archdeacon of Melbourne.</p>
+<p>Stirring men's services with 600-700 present under W. Carey Ward (1894-1900), Nash and H.F. Mercer (1907-12) encouraged lay involvement and leadership. With its evangelical tradition, St Columb's had a marked effect on church life in the developing outer suburbs as its parishioners moved further east.</p>
+<p>The fine bluestone building, extended over the years before its consecration in 1905, would have been ideally placed had the original proposal for an open space between church and town hall been implemented. The building of a large Sunday school in 1898 for the more than 400 students enrolled unfortunately blocked any view from the increasingly busy Burwood Road.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000305" type="book"><author>Carolan, Jane</author> <title level="m">St Columb's, Hawthorn, 1883-1983: a history</title> <pubPlace>Melbourne</pubPlace> <publisher>The Vestry of St Columb's</publisher> <date>1983</date></bibl></listBibl></div></back>
+</text></TEI>

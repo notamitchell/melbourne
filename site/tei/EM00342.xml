@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Choirs</title>
+<author>Helen Penrose</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00342</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Melbourne's oldest choir, the Royal Melbourne Philharmonic Society, dates from 1853 and derives its repertoire and structure from similar British groups. Smaller amateur and church choirs and liedertafels have since played an important part in Melbourne's music-making.</p>
+<p>The choirs of St Peter's Eastern Hill, St Patrick's Cathedral and St Paul's Cathedral perform fine sacred choral music in a liturgical setting. Since World War II, groups of all sizes have developed, reflecting Melbourne's broad ethnic base and the desire for non-liturgical choral music expression. Such choirs perform at community functions or local concerts and include Petrunka, a Bulgarian women's choir, the Welsh Male Voice Choir and the Victorian Trades Hall Choir.</p>
+<p>Youth and university choirs cater for the needs of younger singers and are noted for their enthusiastic approach to performance. Melbourne University Choral Society is the oldest of these, established in 1939. Other youth choirs include the Monash University Choral Society, Ormond College Choir, Melbourne Youth Choir, Melbourne Voices and the National Boys' Choir, established in 1964. Smaller ensembles such as Tudor Choristers, Ensemble Gombert and Gloriana specialise in the performance of early music. Others, such as Faye Dumont Singers, perform a wide range of choral repertoire. Astra Choir leads the way in the performance of contemporary choral works. Larger choral works scored for orchestral accompaniment are performed by the Melbourne Chorale.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Rosanna</title>
+<author>Don Garden</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01260</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Rosanna</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3084, 13 km NE, Banyule City)</p>
+<p>The name Rosanna was given to a 960-acre (384 ha) property on the northern boundary of the Warringal or Heidelberg village reserve, purchased from the government in 1840 by stock-and-station dealer James Watson. He acquired it as a speculation and almost immediately subdivided the land as the Rosanna estate. A few blocks were sold near the village boundary, but most remained intact as tenanted farmland into the 20th century. Rosanna Road, running north from Heidelberg to Lower Plenty Road, was officially cut through the middle of the property in the 1860s.</p>
+<p>During the 1880s land boom, the Rosanna estate was acquired, along with other land in the district, by C.H. James, a major speculator, as part of a grandiose scheme to build a private railway from Heidelberg to Eltham. When the government rejected the scheme, James and others campaigned for a line from Heidelberg to Hurstbridge. The government finally agreed, but the project was abandoned during the 1890s depression and the subdivision of Rosanna did not proceed.</p>
+<p>Eventually the railway line through Rosanna was opened in June 1902, though there was no local station until 1906. A small amount of development followed, but the main innovation was the Yarra Yarra Golf Club, which operated from 1911 until it moved to Bentleigh after 1927. A brief spurt of subdivision in the region of the station during the 1920s was interrupted by the onset of the depression. It was finally the suburban spread of Melbourne after World War II that saw the broad acres of Rosanna subdivided. They were principally occupied by lower middle-class housing, but there were some pockets of more affluent building, such as the 1970s Elliston estate.</p></div>
+</body>
+</text></TEI>

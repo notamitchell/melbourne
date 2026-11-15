@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Lebanese</title>
+<author>Trevor Batrouney</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00843</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>After three successive migration waves over 120 years, the Lebanese-born population of Melbourne stood at 13 907 persons and those of Lebanese ancestry at 32 000 in the 2001 census. This represents 98.2% of all Lebanese living in Victoria. In the early 1900s most Lebanese lived in a 'khoora' or district, which developed around the northern edge of the city in Lonsdale Street, Exhibition Street, La Trobe Street and around South Carlton. Major concentrations are now found in the northern municipalities of Moreland, Hume, Darebin, and Whittlesea.</p>
+<p>The Lebanese community includes Catholics (40%), made up of the Eastern Rite Maronite and Melkite churches, Antiochian Orthodox adherents (around 13%) and Muslims (41%). The Maronites have one central church, a child-care centre, a primary and secondary school and an aged care hostel and nursing home. The Melkites worship in two churches and a mission while the Antiochian Orthodox have three churches and two missions. By 2004 the number of Islamic societies had expanded to around 40 to serve the needs of all Muslims in Melbourne, each with a full-time or part-time imam. The Muslims had established six schools, both primary and secondary, by the end of the 1990s.</p>
+<p>The unemployment rate for Lebanese-born in Melbourne is high, reflecting the disruption to education and employment which many experienced during the Lebanese Civil War. However, many immigrant and second-generation Lebanese are attaining tertiary education and professional occupations. The Honorable Stephen Bracks, who was elected Premier of Victoria in October 1999, is of Lebanese background.</p>
+<p>The Australian Lebanese Association is recognised by the Lebanese Government as the representative of the Lebanese community in Victoria. Australian Lebanese Welfare caters for the extensive welfare and employment needs of Lebanese immigrants by complementing the work of mainstream organisations. Victorian Arabic Social Services brings Arabic community workers together for support, exchange of information, and joint action. The Australian Arabic Council was established as a direct response to the racism experienced by members of the Arabic community during the Gulf War. The Council aims to promote Arabic culture, to encourage accurate reporting on Arabic issues and to engage in educational activities. The Antiochian Community Support Association was established in 2003 to meet the social, welfare and cultural needs of Arabic-speaking persons in the south-east region of Melbourne. A number of village associations provide social and cultural activities and assistance to villages in Lebanon. The major Lebanese newspapers in Melbourne are <hi rend="italic">El Telegraph</hi>, <hi rend="italic">El Herald</hi>, <hi rend="italic">Al Bairak</hi> and <hi rend="italic">An Nahar</hi>.</p></div>
+</body>
+</text></TEI>

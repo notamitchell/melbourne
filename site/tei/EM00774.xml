@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Jewish Council to Combat Fascism and Anti-Semitism</title>
+<author>Philip Mendes</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00774</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Once Australian Jewry's pre-eminent left-wing organisation, the Jewish Council to Combat Fascism and Anti-Semitism was formed in May 1942 by a group of activist (mainly established Eastern European) Jews concerned about increasing anti-Semitism, both local and international. The Council was always influenced by the Communist Party and its sympathisers, but in its early years enjoyed broad communal support. It campaigned in favour of the creation of the State of Israel, and against the immigration of former Nazis to Australia. By 1948 the Council had become the official public relations representative of the Jewish community.</p>
+<p>During the Cold War the Council lost community support due to its perceived pro-Soviet bias. Its apparent denial of Soviet anti-Semitism appalled many Jews. Equally, the impact of McCarthyism narrowed the boundaries of acceptable Jewish political behaviour, with communal leaders concerned to avoid any popular identification of Jews with communism.</p>
+<p>In the late 1950s and early 1960s the Council enjoyed a minor revival due to its close association with the Left-dominated Victorian Branch of the Australian Labor Party (ALP). Council President Sam Cohen was successful in securing ALP preselection for the federal Senate, but subsequently offended many Jews by appearing to defend the Soviet Union's anti-Jewish policies in a parliamentary debate.</p>
+<p>Prominent Council activists included Sam Cohen, Norman Rothfield, Sam Goldbloom, Ernest Platz and Judah Waten. Due to an ageing membership and declining support, the Council ceased to exist in 1970.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000611" type="journal-article"><author>Mendes, P.</author> <title level="a">The Jewish Council to Combat Fascism and Anti-Semitism: an historical re-appraisal</title> <title level="m">Australian Jewish Historical Society Journal, May and November 1989 and November 1990</title> <date>1990</date></bibl></listBibl></div></back>
+</text></TEI>

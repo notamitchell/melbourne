@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Cambodians</title>
+<author>Justin Corfield</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00283</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Early members of Melbourne's Cambodian-born community came in the 1960s under the auspices of the Colombo Plan. Many more came in the 1970s, initially as students, and later as refugees settling in the aftermath of the 1975 communist victory in the Cambodian Civil War. Most of the Cambodian immigrants came initially to the Enterprise Migrant Hostel at Springvale, and many still live in that suburb, where they have constructed a Buddhist temple. There are also significant concentrations in Noble Park and Box Hill. The community meets together for Cambodian New Year (April) and Chum Ben (September). A newspaper, <hi rend="italic">Khmer Angkor</hi>, operated in the early 1990s. A prominent member of the community, Hong Lim, was elected to the Victorian Legislative Assembly in 1996. Following the 1991 Paris Peace Settlement, a number of long-time Melbourne residents returned to Cambodia. Ung Huot was appointed to the Cabinet in 1993 and became First Prime Minister in 1997; and Piphal Engly was Minister-Counsellor at the Cambodian Embassy in Canberra. Lim Prohas and Sander de Montero also served in the government. The 2001 census recorded 8853 Cambodian-born in metropolitan Melbourne.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found – eMelbourne</title>
+<!--
+  Old-URL shim. Most static hosts (GitHub Pages, Netlify, Cloudflare Pages,
+  S3 + CloudFront, Apache "ErrorDocument 404 /404.html", nginx "error_page")
+  serve this page for any missing path. It maps the old OHRM URLs onto the
+  new pages:
+     /biogs/EM00187b.htm           -> entry.html?id=EM00187
+     /biogs/gallery/EM00187g.htm   -> entry.html?id=EM00187#gallery
+     /about.html, /help.html       -> page.html?p=about|help
+     /browse_*.htm, /search*.htm   -> browse.html, search.html
+     /everydaywar/[index.html]     -> page.html?p=everydaywar
+     /everydaywar/NAME.html        -> page.html?p=everydaywar-NAME
+     /civictreasures/civictreasures.html -> page.html?p=civictreasures
+     /letterheads.html, /infocus.html    -> page.html?p=letterheads|infocus
+     /objects/D00000891.htm        -> object.html?id=D00000891
+  SITE_ROOT is the path the site is served from ("/" on its own domain,
+  "/repo-name/" on a GitHub project page). Change it in one place here.
+-->
+<script>
+(function () {
+  var SITE_ROOT = "/";
+  var p = location.pathname, m;
+  // if the site lives below a prefix, work it out from an old top-level folder in the path
+  var d = p.match(/^(.*?\/)(biogs|everydaywar|civictreasures|objects)\//i);
+  if (d && d[1].length > 1) SITE_ROOT = d[1];
+  var target = null;
+  if ((m = p.match(/\/objects\/(D\d+)\.html?$/i))) target = "object.html?id=" + m[1].toUpperCase();
+  else if (/\/everydaywar\/(index\.html?)?$/i.test(p)) target = "page.html?p=everydaywar";
+  else if ((m = p.match(/\/everydaywar\/([\w-]+)\.html?$/i))) target = "page.html?p=everydaywar-" + m[1].toLowerCase();
+  else if (/\/civictreasures\/(civictreasures\.html?)?$/i.test(p)) target = "page.html?p=civictreasures";
+  else if ((m = p.match(/\/(letterheads|infocus)\.html?$/i))) target = "page.html?p=" + m[1].toLowerCase();
+  else if ((m = p.match(/\/biogs\/gallery\/(EM\d{5})g\.html?$/i))) target = "entry.html?id=" + m[1].toUpperCase() + "#gallery";
+  else if ((m = p.match(/(EM\d{5})[a-z]?\.html?$/i))) target = "entry.html?id=" + m[1].toUpperCase();
+  else if ((m = p.match(/\/(about|help)\.html?$/i))) target = "page.html?p=" + m[1].toLowerCase();
+  else if (/\/browse[^/]*\.html?$/i.test(p)) target = "browse.html";
+  else if (/\/search[^/]*\.html?$/i.test(p)) target = "search.html";
+  else if (/\/(home|index)\.html?$/i.test(p)) target = "index.html";
+  if (target) location.replace(SITE_ROOT + target);
+  else document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("home").href = SITE_ROOT + "index.html";
+  });
+})();
+</script>
+<style>body{font:17px/1.6 Georgia,serif;margin:3rem 16px;max-width:36rem;background:#fbfaf7;color:#1d1d1b}a{color:#12527a}@media(prefers-color-scheme:dark){body{background:#161615;color:#ecebe7}a{color:#7cc0ea}}body::before{content:"\26A0\FE0E  UNDER CONSTRUCTION \2014  This is a work-in-progress preview of the new eMelbourne.";display:block;margin:-3rem -16px 2rem;padding:.8rem 16px;background:#ffd23f;color:#1a1a1a;font:600 .92rem/1.45 system-ui,sans-serif;border-block:6px solid #1a1a1a}</style>
+</head>
+<body>
+<main>
+<h1>Page not found</h1>
+<p>This address isn't part of eMelbourne. Try the <a id="home" href="/index.html">search page</a>.</p>
+</main>
+</body>
+</html>

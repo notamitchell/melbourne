@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>School Medical Service</title>
+<author>David Kirk</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01333</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This service was established in November 1909 by three medical officers, Drs Mary Booth, Jane Greig and Harvey Sutton, based in the Education Department offices in Central Melbourne. The medical officers visited schools in Melbourne, other major towns in Victoria and rural areas in order to carry out their examinations. By 1915 these officers had recorded in detail the physical and psychological 'defects' of thousands of children at state schools. This detailed information was used to recommend treatment to the family general practitioner, since the medical officers were not permitted to treat the children themselves. World War I forced the service to scale down its activities, but by the early 1920s more doctors, nurses and dentists had been added. The dental clinic was located in Domain Road, St Kilda. During the 1920s and 1930s the service extended its activities to all parts of Victoria. The medical officers also collected information on children's racial origins. Eugenics, the application of the laws of heredity to the control of human propagation, was a key philosophy underlying the service's program of work, and it remained influential until the 1940s. In 1946 the service was transferred from the Education Department to the Department of Health. This move resulted in a gradual decline in the direct involvement of doctors in medical inspection and a shift away from the detailed, eugenics-inspired measurement and recording of children's physical condition, leading to the service's replacement by the School Nursing Program in the 1980s.</p></div>
+</body>
+</text></TEI>

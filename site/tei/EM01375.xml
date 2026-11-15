@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Singaporeans</title>
+<author>Abe W. Ata</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01375</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>The 1996 census records put the number of Singaporean-born immigrants in Melbourne at 5932, or approximately a third of total Singaporean Australians. Although the main ethnic groups in Singapore consist of Chinese (76%), Indians (6%) and Malaysians (5%), data on how these figures are reflected in Australia are lacking. Community leaders estimate, however, that there are as many Singaporean high-school and tertiary students on temporary visas as there are Singaporean permanent residents. As anticipated, these communities worship alongside other cultural communities who hold similar religious beliefs. Organised activities are mostly confined to the students associations and clubs, set up along ethnic lines or affiliated with larger Malaysian, Indian or Chinese associations. Aside from a handful of restaurants, the Merlion Club (1990) has brought the resident and student communities together.</p></div>
+</body>
+</text></TEI>

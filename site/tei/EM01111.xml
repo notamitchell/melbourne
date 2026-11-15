@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Parer's Crystal Café Hotel</title>
+<author>Mary R. Mennis</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01111</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Built in 1886, Parer's Crystal Café Hotel was a splendid multi-storey building constructed in Bourke Street at a cost of £60 000. Providing accommodation for over 650 people with a staff of 80, it featured lavishly furnished dining rooms, a saloon, a café, clubrooms and billiard rooms. The hotel, built by three brothers - Juan, Felipe and Estevan Parer - who had left their native Catalonia in the 1850s, was one of thirteen hotels owned by the family, many of which were in Bourke Street. Leavitt's <hi rend="italic">Jubilee history of Victoria and Melbourne</hi> (1888) described Parer's as the leading café in the Southern Hemisphere: 'Its wealth of mirrors so fantastically arranged, its tessellated floor, glittering tables, refreshing fountains and artistic draperies, remind one of the magnificent structures of a similar kind which grace the capitals of Europe and America'. The hotel catered for visiting country people as well as the rich of Toorak. It survived the 1890s bank crash but was sold to a company of other family members in 1914. The hotel stayed with the family until 1950, when it was sold for £110 000 to Sharpels, who resold it for twice the price. In 1951 it became Ushers Hotel.</p></div>
+</body>
+</text></TEI>

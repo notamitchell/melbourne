@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Leichardt Street</title>
+<author>Patricia Mcmullan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01871</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01876.xml"><desc>Little Leichardt Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00945.xml"><desc>Melbourne Hebrew Congregation Synagogue</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Leichardt Street was located near Lonsdale and Little Lonsdale streets and named for ill-fated explorer Ludwig Leichhardt. In 1860, the Melbourne Synagogue was located in Leichardt Street. The street was home to Joseph Kinnan's store, which sold fancy goods in 1892.</p>
+<p>On 11 September 1893, property owner Peter Tucker sent a letter to the Melbourne Town Clerk complaining of a nuisance caused by a bad smelling fluid coming from adjoining stables:</p>
+<quote rend="block">With great reluctance I am forced to bring under your notice the nuisance that is being committed on my property situated in Leichhardt Street Gipps Ward in the City of Melbourne. At the north east corner of my property on the land of another person there is a stable erected from whence comes a bad smelling green liquid which fluid is allowed to flow over my property. This is a thing that speaks for itself and is daily causing me damage so I trust that immediate steps will be taken to remedy the soil.</quote>
+<p>Inspector Edward Thunderbolt discovered the nuisance to be from the yard of Mrs McIllwain of 5 Little Leichhardt Street. She was then ordered by the Health Committee to clean up the offending mess.</p>
+<p>By 1910, there were 17 cabinetmakers in the street as well as a steel truck manufacturer, plane maker and cook shop.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000089"><head>Correspondence file between Michael Hackett &amp; others and the City of Melbourne, re Leichardt Street</head><graphic url="../objects/thumbs/tn_LEIC_001_L.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_LEIC_001_L.jpg"/><note type="rights">Courtesy Public Record Office Victoria</note></figure></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000628" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1860</date></bibl><bibl xml:id="PEM000673" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1892</date></bibl><bibl xml:id="PEM000715" type="book"><title level="m">Sands &amp; McDougall's commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1910</date></bibl></listBibl></div></back>
+</text></TEI>

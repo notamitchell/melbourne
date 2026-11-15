@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Metropolitan Town Planning Commission</title>
+<author>Robert Freestone</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00977</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00012.xml"><desc>Urban Environment</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Commission was Australia's first metropolitan planning agency and in its 1929 final report provided the first comprehensive metropolitan plan. Its activities reflect the influence of American 'city functional' ideology with emphases on efficiency, economy, and scientific data collection and analysis. The Commission was the product of calls by municipal government for a more co-ordinated response to pressures of city growth.</p>
+<p>A bill establishing the Commission was passed in December 1922. The new body was to investigate 'the present conditions and tendencies of urban development in the metropolitan area', and make costed recommendations and general plans. It was an advisory body of nine members, representing groupings of municipalities, business, technical and professional interests. Architect Frank Stapley, the prime mover in the establishment of the Commission, was the Melbourne City Council's representative and chairman. Surveyor-engineer Frederick Cook provided technical expertise and Alfred Kemsley was appointed secretary. The Commission reported on a series of planning issues to the State Government (such as the location of abattoirs and the development of the Glen Waverley district) and proffered advice to local councils on diverse matters like subdivision design. Its tenure of office was extended four times in order to complete the comprehensive <hi rend="italic">Plan of general development</hi> submitted in December 1929. The focus was on land-use zoning, open space and transportation. The zoning scheme was based on three broad categories of business, residential and industrial uses. A metropolitan 'recreational scheme' embracing nearly 30 000 acres (12 000 ha) of open space was proposed, comprising children's playgrounds through parkways to a series of large metropolitan parks following watercourses. Drawing on the results of path-breaking traffic surveys, transport problems were a major concern in the final report and much space was devoted to solutions for traffic congestion, including a proposal for a lower Yarra River crossing on the site of the present West Gate Bridge.</p>
+<p>Although the final report was well received, the initiative lapsed with the onset of the depression. Conservative fears about curtailment of property rights and the drying up of municipal support for any permanent body which might compromise local autonomy also played their part. While the contemporary impact of the Commission's work was limited, State and local authorities later took up many of its specific recommendations. The Melbourne and Metropolitan Board of Works' Melbourne Planning Scheme of 1954 drew much inspiration from the pioneering work of the 1920s.</p></div>
+</body>
+</text></TEI>

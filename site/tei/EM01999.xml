@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Turnbull Alley</title>
+<author>Biheng Zhang</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01999</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00901.xml"><desc>Marine Store Dealers</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01194.xml"><desc>Princess Theatre</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01206.xml"><desc>Public Toilets</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located between Bourke and Little Bourke streets, Turnbull Alley extends west from Spring Street, forming a dogleg to meet at the rear of the Princess Theatre. It was named pre-1856 and in 1860, was occupied by Robert Hagin's marine store.</p>
+<p>Turnbull Alley was home to a number of private residences in the late nineteenth century, while still being used frequently by patrons of the Princess Theatre. In December 1894, property owner A.E. Walker complained to the City of Melbourne on behalf of one tenant, Mrs Cohen and her large family, of the urinal situated opposite this property, built level with the footpath and used by 'fifty or hundred men during the intervals of a performance'. Upon his visit, Assistant Inspector Richard Bullons reported that 'Mrs Cohen's complaint is that the men do not adjust their dress before leaving the urinal'. This was of particular concern to residents as the laneway was so narrow. Bullons recommended that Council write a letter to the Princess Theatre advising that 'a prominent notice be put up, requesting persons to adjust their dress before leaving'.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl><bibl xml:id="PEM000640" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1935</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Warrandyte</title>
+<author>Mary Sheehan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01587</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Warrandyte</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3113, 23 km E, Manningham City)</p>
+<p>Warrandyte was formerly in the City of Doncaster and Templestowe, and was reconstituted as the City of Manningham in 1994. Although the area was surveyed and named Warrandyte in 1841, it was popularly referred to as Anderson's Creek until the early 20th century when a petition resulted in the name change. One version of the origin of the name Warrandyte is that it derived from Aboriginal words <hi rend="italic">warran</hi> (throw) and <hi rend="italic">dyte</hi> (the object aimed at), although this claim has been contested in recent times.</p>
+<p>Warrandyte is said to be the site of the first discovery of gold in Victoria by Louis Michel and William Habberlain on 13 July 1851. This has been disputed by claims gold was discovered at Clunes township on 7 July 1851. Michel optimistically named the site Victoria Gold Field, even though it was commonly referred to as the Anderson's Creek Field. Never a rich goldfield, Anderson's Creek has the distinction of being the first in the colony where gold licences were issued and the first to acquire an officially appointed gold commissioner. Deep lead mining continued at Warrandyte until the early 20th century, conducted by mining ventures including the Caledonian and the Evelyn Tunnelling and Mining Co. The Yarra River was diverted through a hill at Pound Bend by the Evelyn Tunnelling and Mining Co. to allow dredging of an exposed 3-mile (5 km) stretch.</p>
+<p>Warrandyte's picturesque surrounds around the Yarra attracted tourists, particularly after the extension of the railway from Lilydale (1889). It also has special associations with the Heidelberg School artists. Clara Southern, pupil of Frederick McCubbin, settled in the area at the turn of the century, followed in 1914 by Penleigh Boyd. Other artists who painted at Warrandyte include Jo Sweatman, Frank Crozier, Walter Withers, John Perceval, Albert Tucker, and Arthur Boyd. The sculptor Inge King also lived and worked in Warrandyte.</p>
+<p>Although the Township of Warrandyte was surveyed in 1856, growth was arrested following the discovery of Ballarat's richer gold fields. Warrandyte remained predominantly a rural district supporting orchards, dairying and pastoral industries, as well as mining, until the second half of the 20th century. By the 1970s it was mainly a residential area, although Pound Bend and Whipstick Gully continued to attract tourists and weekend gold prospectors.</p></div>
+</body>
+</text></TEI>

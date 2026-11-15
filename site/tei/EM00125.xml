@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Medical Association</title>
+<author>Leigh Boucher</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00125</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Victorian arm of the Australian Medical Association (AMA) has a complex organisational history. Apart from six months in 1852, there has been some form of professional body representing the interests of doctors in Victoria since 1846. Although never an explicitly 'political' organisation, the AMA (Victoria) and its various precursors have consistently had a strong voice in colonial and State politics where issues of health are concerned. The Port Phillip Medical Association, founded by 12 doctors in 1846, folded in 1852 and was replaced six months later by the Medical Society of Victoria (MSV). The 1861 <hi rend="italic">Medical Registration Act</hi>, which established firm regulations regarding the practice of medicine in Victoria and stamped out much 'quackery', owed its germination and success to the political efforts of the MSV. Factional disagreements in 1879 led to the formation of the Victorian Branch of the British Medical Association, but its membership and impact were never as far-reaching as the MSV, particularly given the connections between the <hi rend="italic">Australian Medical Journal</hi> and the MSV. The two organisations amalgamated in 1907 and in 1962 became the Victorian Branch of the AMA. The AMA (Victoria), together with its institutional precursors, has been the body responsible for the regulation of medical practitioners (whether through internal regulation or governmental influence) since 1851. Its wide understanding of 'public health' has always enabled the AMA to have a voice in Victorian affairs beyond the confines of the doctor's surgery.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000502" type="book-section"><author>Dyason, D.</author> <title level="a">The medical profession in colonial Victoria: 1834-1901</title> <title level="m">Disease, medicine and empire: Perspectives in western medicine and the experience of European expansion</title> <pubPlace>London</pubPlace> <publisher>Routledge</publisher> <date>1988</date></bibl></listBibl></div></back>
+</text></TEI>

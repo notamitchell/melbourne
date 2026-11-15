@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Milk Bars</title>
+<author>John Young</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00981</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Milk bars with chromium counters and exotically flavoured drinks came through the mediums of American servicemen and cinema films, and a few of them were established in early postwar Melbourne. There were also more prosaic milk bars, often growing from a prewar confectionery shop, with a soda fountain and a milk-shake machine or a mixed business that also sold groceries and tobacco.</p>
+<p>In 1952-53 the retail census showed that confectionery and milk bars sold 73% of Melbourne's confectionery, ice cream and soft drinks and 33% of the tobacco. They also had 14% of total food sales in Melbourne. In 1962-63 they had 18.8%, but in 1973-74 they had only 6.8%. The fall in market share is explained by supermarkets gaining carton-milk sales in 1969 and their persuading confectionery wholesalers to break their exclusive supply arrangement with milk bars.</p>
+<p>During the brief economic rise and fall of milk bars they had an important social role. Teenagers could buy 'blue moon' milk shakes and 'hang out' at milk bars. Suburban cinema crowds bought drinks and snacks at the nearest milk bar during intermissions; and espresso bars had barely begun as a competitor. As corner stores they were easily identified by Sennitts' polar bear and Peter's ice-cream cone signs.</p>
+<p>Since the 1970s milk bars and fish and chip shops have melded as take-away food shops, and since 1977 (when 7-Eleven started) milk bars and mixed businesses have become convenience stores. Petrol retailers later enlarged the convenience-store concept. By the 1990s milk bars were mostly inner-suburban or country-town corner stores.</p></div>
+</body>
+</text></TEI>

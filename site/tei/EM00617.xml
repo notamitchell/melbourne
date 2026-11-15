@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Fungi</title>
+<author>Tom May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00617</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Often overlooked and misunderstood, fungi are a separate kingdom of the living world, and are megadiverse and ubiquitous. Fungi characteristically reproduce by spores, consist of hyphae and absorb nutrients from living organisms or the breakdown of dead organic matter. Fungi are most noticeable as destructive agents of garden plants (rusts, mildews), foods (bread mould) or building materials (dry rot), or as causes of human disease (ringworm).</p>
+<p>A traditional autumn pastime for Melburnians has been seeking mushrooms in fields and verges, particularly on the rural fringes of the metropolis. The once ubiquitous horse supplied manure to provide the enriched soils upon which field mushrooms thrived. The edible field mushroom is now less common than the similar, but toxic, yellow staining mushroom, responsible for many cases of poisoning each year. Other poisonous species are the striking red and white fly agaric, the luminous ghost fungus and the deadly death cap. Some fungi grow specifically with certain trees and have been introduced with exotic trees, as has fly agaric (with pine and birch) and death cap (always with oaks). Under pines, some exotic edible species are plentiful, such as saffron milk cap.</p>
+<p>Melbourne markets supply an increasing range of cultivated and wild-collected fungi, from shiitake to morels, which are a safer alternative to collecting from the wild for all but the most experienced. The true truffle does not occur locally, but there are numerous truffle-like fungi that are food for mammals such as bandicoots. Some fungi attract attention through their bizarre forms (stinkhorns, cage fungi, starfish fungi). The majority (many thousands) are microscopic, with aggregates of spores sometimes visible as moulds. Fungi underpin ecosystems from forest remnants to backyard compost, playing hidden roles, such as in mutually beneficial partnerships with most flowering plants (mycorrhizas), as food for animals, and in the breakdown of organic debris ranging from leaf litter to feathers. Yeasts (for beer, bread and Vegemite production) also underpin the diet of many Melburnians.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000015" type="book"><author>Fuhrer, B.A.</author> <title level="m">A field companion to Australian fungi</title> <pubPlace>Melbourne</pubPlace> <publisher>Bloomings Books</publisher> <date>2001</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Duke &amp; Duchess Of York Memorial (aka Temperance)</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02074</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00487.xml"><desc>Drinking Fountains</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01286.xml"><desc>Royal Visits</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01478.xml"><desc>Temperance</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01631.xml"><desc>Woman's Christian Temperance Union</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>J. Churchman &amp; Sons Marble, granite and sandstone drinking fountain 1901 Victoria Square, corner of Elizabeth and Victoria Streets</p>
+<p>This stone drinking fountain commemorates the visit of the Duke and Duchess of Cornwall and York, who visited Australia soon after Edward VII's ascension to the throne. During their stay in Melbourne, they opened the first Federal Parliament on 9 May 1901.</p>
+<p>The memorial fountain, with its sandstone pillars and symbolic figure of Britannia, was presented to the City of Melbourne by the Woman's Christian Temperance Union of Australia in an effort to promote abstinence. In part, its inscription reads: 'For God, home and humanity'.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000121"><head>Duke &amp; Duchess Of York Memorial (aka Temperance)</head><graphic url="../objects/images/DukeAndDuchessOfYork.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_DukeAndDuchessOfYork.jpg"/><p>J. Churchman &amp; Sons 1901</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

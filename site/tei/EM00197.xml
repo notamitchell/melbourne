@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Black Box Flight Recorder</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00197</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This crash-resistant flight data recorder is used by safety investigators to determine the cause of aviation accidents. Following the crash of a Comet jet airliner on its way from India to Sydney in 1953, chemist Dr David Warren of the Aeronautical Research Laboratories (ARL) at Fishermans Bend was inspired to develop a prototype recorder. In 1954 he circulated a report on 'A Device for Assisting Investigation into Aircraft Accidents'. Local manufacturers were loath to develop a device which Australian aviation authorities had yet to approve. Demonstration of the recorder during a 1958 visit from Sir Robert Hardingham of the British Air Registration Board led to its development overseas. An inquiry into a 1960 Queensland air crash recommended that black box flight recorders be installed in all Australian airliners, Australia becoming in 1967 the first country to make both flight data and cockpit voice recorders mandatory. The original ARL Flight Memory Unit is displayed at Scienceworks Museum.</p></div>
+</body>
+</text></TEI>

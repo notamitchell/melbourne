@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Baseball</title>
+<author>Ian Hamilton</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00159</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A descendant of the English game of rounders, baseball arrived in Melbourne from the United States in 1857. The first interstate game was played against South Australia in 1885, and in 1888-89 two American teams played before crowds of about 10 000. The Victorian Baseball Association was founded with six clubs in 1898. Initially teams were affiliated with cricket clubs. This gave players of both games the opportunity to enhance their fielding skills during the winter when baseball was played as a curtain-raiser at football games. A demonstration baseball game played at the 1956 Olympic Games drew a record crowd of 114 000 on the Melbourne Cricket Ground. The Victorian Baseball Association, which switched to a summer competition in 1976, has 37 affiliated metropolitan clubs. It promotes the game among schools and its recently reformed women's competition is flourishing. A Victorian State team competed for the Claxton Shield from 1934 until 1985. The Australian Baseball League, established in 1989, has two Melbourne-based teams who play at the State Baseball and Softball Centre in Altona. Local players have acquitted themselves well in the major leagues in the United States and Japan.</p></div>
+</body>
+</text></TEI>

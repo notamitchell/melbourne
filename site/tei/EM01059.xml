@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Newsboys</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01059</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01754.xml"><desc>Coromandel Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The ubiquitous city newsboy was a feature of Melbourne street life throughout the 19th and early 20th centuries. Children were engaged in a range of petty economic activities in the streets, from holding horses to selling fruit, flowers, matches and trinkets. In the late 1890s the nuisance of <hi rend="italic">Herald</hi> newspaper and match boys in Collins Street was remarked upon, and many newsboys were fined for violent outcry. In 1914 John Quilty was fined £1 for noisy outcry, but was also guilty of a favourite trick of the newsboy, calling out fraudulent headlines to effect a sale: 'Extraordinary edition - account of the Fern Tree Gully railway accident'. Boy rescue societies included the Newsboys Try Society (later City Newsboys Society) founded by William Forster in the late 1880s.</p>
+<p>The street had long been seen as a resort of crime and idleness from which children needed rescue, and the era of juvenile street traders had seen its heyday by the 1920s. In the 20th century the Newsboys Society provided its members with medical and dental services, camps, balls, sport, classes, and a range of skills training. Edith Onians, the 'newsboys' friend', was a long-time advocate of their welfare until her death in 1955.</p></div>
+</body>
+</text></TEI>

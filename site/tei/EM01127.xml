@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Pelaco</title>
+<author>Amanda Mcleod</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01127</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This shirt-manufacturing company was established in 1913 by Scottish immigrant James Kerr Pearson. In 1922 the company's headquarters were established at 23 Goodwood Street on the top of Richmond Hill, with its landmark 14-foot (4.3-m) high neon sign erected in 1939. Pelaco was an innovator in manufacturing efficiency and labour relations, discontinuing Saturday morning work in 1908 and appointing an industrial relations officer in 1928. The 1950s was the company's most successful decade, with 1500 people employed in ten factories. The company relocated to Collingwood in 1988. After numerous changes of ownership, Pelaco International was purchased in 1991 by Nossbaum, Zapelli &amp; Parisi and is now located in Maidstone.</p></div>
+</body>
+</text></TEI>

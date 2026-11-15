@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>School Banking</title>
+<author>D.T. Merrett</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01332</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>This initiative of the State Savings Bank of Victoria to encourage thrift among the young was first proposed in 1906. The scheme, initially known as the Penny Banks, began in 1912, following legislation in 1911 abolishing the minimum deposit of one shilling. Melbourne's government rather than independent schools enthusiastically embraced the scheme, but by the 1960s its moral purpose was weakening. Teachers handed the bookkeeping duties back to the bank in 1969, while the bank, increasingly concerned about the cost of administering the scheme, abandoned it in 1990. Children then operated standard accounts through a branch.</p></div>
+</body>
+</text></TEI>

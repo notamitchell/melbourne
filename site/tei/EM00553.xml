@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Fawkner Park</title>
+<author>Georgina Whitehead</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00553</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2014-11-26" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located in South Yarra, Fawkner Park was named after Melbourne's co-founder John Pascoe Fawkner. It originally faced Albert Park Reserve across the shared boundary of St Kilda Road but was reduced to its present 41 ha in the 1860s when, despite public protests, the government sold off the St Kilda Road and Punt Road frontages. The long straight paths are lined with large elms, poplars, oaks, and Moreton Bay figs, which were reported as thriving in the large quantities of nightsoil deposited there before the 1880s.</p>
+<p>Sport has always been a major park activity, and in the 1890s a section was developed so that visitors could see how a range of different games, including golf, were played. Gambling was also a popular park diversion at that time, which police tried to counter by special weekend patrols. From the 1860s until the 1920s, recreation and grazing were contemporaneous park uses; stock was also agisted in Princes Park, Yarra Park and Royal Park to raise revenue. During World War II, 700 members of the Australian Women's Army Service were stationed in the park, which today provides facilities for various organised sports (although no longer golf) and attracts casual visitors, many with their dogs.</p></div>
+</body>
+</text></TEI>

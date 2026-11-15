@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Beaconsfield</title>
+<author>Jenny Keating</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00171</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Beaconsfield</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3807, 46 km SE, Cardinia Shire)</p>
+<p>European settlers initially ran sheep on the land around Beaconsfield and Beaconsfield Upper (48 km SE). The growth of industries such as dairying, fruit and flower-growing, sawmilling, eucalyptus-distilling and brickmaking were stimulated by the advent of the railway line to Gippsland. On the day in 1881 that a deputation asked the Minister for Railways for a station at Cardinia Creek, Lord Beaconsfield (Disraeli) died and the station was reputedly named after him. But it appears that the name may have already been in use in the district.</p>
+<p>A notable early feature was 'Bowman's Track'. In the early 1860s Mrs Bowman of the Gippsland (later Bowman's) Hotel employed men to cut a track through the thick bush to link up with the track to the gold diggings at Wood's Point. It was well used and the government later compensated her when another track was cut via Launching Place. Bowman's track was later rediscovered and used as a tourist trail in the 1890s.</p>
+<p>In 1869 Queen Victoria's second son, Prince Alfred, stayed at Bowman's Hotel (now dismantled). The government built on extra rooms and brought in special staff and the Prince was taken kangaroo-hunting. Gold was discovered south of Upper Beaconsfield in the early 1870s in the Haunted Gully, now covered by Beaconsfield Reservoir. Miners moved in but yields were small. At least 50 orchards were established in this area between 1890 and 1920.</p>
+<p>Beaconsfield and Upper Beaconsfield became popular holiday destinations. The railway, together with the gradual improvement of the roads in the district, attracted day-trippers and hikers. In the 1920s the township of Dewhurst was established north of Upper Beaconsfield. Prime Minister Harold Holt once had a weekend house here. In the 1970s Dewhurst was submerged beneath the Cardinia Dam.</p>
+<p>Bushfires have had a terrible effect on this area. Fires in 1939 destroyed whole settlements and most of the local forests were severely damaged. Timber mills moved away from the forests and into other parts of Victoria. During the 1983 Ash Wednesday fires 21 lives and 186 homes were lost at Upper Beaconsfield. In the latter decades of the 20th century the area experienced significant population increase, though it remains a comparatively lightly populated rural suburb.</p></div>
+</body>
+</text></TEI>

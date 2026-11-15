@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Hawthorn Football Club</title>
+<author>Stuart Macintyre</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00694</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Hawks adapted from unpromising beginnings to become one of the most successful teams in the Australian Football League. The Club was formed in 1873 at the Hawthorne Hotel in Burwood Road, but repeatedly needed to be re-formed until it found a home at the Glenferrie Oval in 1906. The team entered the Victorian Football Association in 1914 with limited success, and required determined boosting from local promoters to gain entry to the Victorian Football League in 1925. Harry Gordon's commissioned history, <hi rend="italic">The hard way</hi> (Sydney, 1990), describes the long search for success for an unglamorous club with unfashionable colours that boasted only four Brownlow Medallists by the end of the 20th century.</p>
+<p>Lacking the support base and intense loyalty of the inner-suburban clubs, Hawthorn struggled for much of the next 30 years: imported coaches and players were seldom able to lift it from the foot of the League ladder. One imported coach, Roy Cazaly, altered the nickname from the May-blooms to the more belligerent Hawks in 1943. It first achieved success when former captain John Kennedy instilled new standards of fitness and determination to coach Hawthorn to the 1961 premiership. In the 1970s the team benefited from rich recruiting zones to win three more premierships with such stars as Leigh Matthews, Peter Knights and Peter Hudson.</p>
+<p>Having outgrown Glenferrie Oval the team played the home games elsewhere from 1974. The advent of a national competition made such recruitment crucial and Hawthorn did as well as any with interstaters Gary Buckenara, John Platten and Jason Dunstall. Further premierships were won in 1983, 1986, 1988, 1989 and 1991.</p>
+<p>Hawthorn cultivated the close, cohesive tradition of a 'family club' but its limited membership made it vulnerable when success dried up in the 1990s. Yet previously undemonstrative supporters turned out in thousands to support former player Don Scott and vote down a merger proposal at the end of 1996.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000358" type="book"><author>Gordon, Harry</author> <title level="m">The hard way: The story of Hawthorn Football Club</title> <pubPlace>Sydney</pubPlace> <publisher>Lester-Townsend</publisher> <date>1990</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>McCormac Place</title>
+<author>Patricia Mcmullan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01893</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01725.xml"><desc>Burton Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00338.xml"><desc>Chinese</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01764.xml"><desc>Cumberland Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01794.xml"><desc>Exploration Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00767.xml"><desc>Italians</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01896.xml"><desc>McGrath Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01909.xml"><desc>Merritts Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00987.xml"><desc>Missions</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01969.xml"><desc>Sherwood Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>McCormac Place was located off McGrath Place. Weston Bate notes that Italian names began to appear in this area from 1895, 'prefiguring social changes through migration'. This pattern was also reflected in Cumberland Lane, McGraths Lane, Merritts Lane, Exploration Lane and Sherwood Place. The Melbourne City Mission established a Men's Hostel in the place in the 1950s and in 1961 the place's inhabitants were largely Chinese and Italian.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl><bibl xml:id="PEM000716" type="book"><title level="m">Sands &amp; McDougall's commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1961</date></bibl></listBibl></div></back>
+</text></TEI>

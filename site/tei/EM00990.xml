@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Model School</title>
+<author>Ian Wilkinson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00990</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The central school and headquarters of Victoria's National Board of Education (created 31 December 1851) was located in East Melbourne, on the present College of Surgeons site, and opened on 13 September 1854. The buildings contained administration offices, a 'model' school with separate girls', boys' and infants' departments, and a 'normal' school for teacher training. Known as the Central Common School after the <hi rend="italic">Common Schools Act, 1862</hi> replaced the National Board, it became state school 391 following the <hi rend="italic">Education Act, 1872</hi>. The Education Department's offices were located there until 1878. Teacher preparation, which had ceased in 1859, recommenced in 1870, before transferring to new buildings near the University of Melbourne in 1889. After 1890 the school gradually declined as the central city's residential population decreased. After it closed in December 1904 the girls' and boys' departments of the new Melbourne Continuation School occupied the buildings from 1905. The boys' school was transferred to the present Melbourne High School site in 1927 and the girls' school (later MacRobertson Girls' High School) was removed in 1931. The Model School was demolished in 1933.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000394" type="book"><author>Allan, J. Alexander</author> <title level="m">The Old Model School: Its history and romance 1852-1904</title> <pubPlace>Melbourne</pubPlace> <publisher>Melbourne University Press in association with Oxford University Press</publisher> <date>1934</date></bibl></listBibl></div></back>
+</text></TEI>

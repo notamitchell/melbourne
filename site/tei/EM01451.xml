@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Supreme Court</title>
+<author>Susanne Davies</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01451</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Supreme Court has authority to hear the State's most serious criminal and civil cases, as well as various appeals. As responsibility for such matters initially rested with the Supreme Court of New South Wales, individuals accused of committing grave crimes in the Port Phillip District were sent to Sydney for trial until 1841. The district's first resident judge, John Walpole Willis, presided over the first sitting of the Supreme Court in Melbourne on 12 April 1841 in a building situated on the south-west corner of Bourke and King streets.</p>
+<p>In 1843 the court moved to premises on the corner of Russell and La Trobe streets, conveniently close to the old Melbourne Gaol. In January 1852 the new Legislative Council of Victoria passed an Act to establish the Supreme Court of Victoria. A chief justice, William A'Beckett, was appointed, as was a second judge, Redmond Barry, who in 1880 was to preside over the trial of bushranger Ned Kelly. In 1884 the court relocated to its current accommodation, a double-storied sandstone building in William Street, modelled on the Four Courts in Dublin. This building took ten years to construct and encloses a cobbled courtyard within which stands the Supreme Court Library building. Under its ornate dome are housed more than 90 000 volumes, collected since 1854. The court's size and workload have increased dramatically over the years. In 1998 the court had 28 male and two female judges, with over 3500 cases on its lists at any time. Mediation, the streamlining of administrative procedures and the use of video and computer technology have been introduced to assist in the efficient processing of cases, the most controversial of which continue to capture the media spotlight and the popular imagination.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000484" type="book"><author>Supreme Court Library Committee</author> <title level="m">A short account of the Supreme Court of Victoria</title> <pubPlace>Melbourne</pubPlace> <publisher>Hawthorn Press</publisher> <date>1969</date></bibl></listBibl></div></back>
+</text></TEI>

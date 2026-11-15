@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Arthurs Creek</title>
+<author>Gwynedd Hunter-Payne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00093</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Arthurs Creek</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3099, 33 km NE, Nillumbik Shire)</p>
+<p>Lying in a fertile valley on the boundary of Whittlesea and Nillumbik, Arthurs Creek, a tributary of Diamond Creek, was named after Port Phillip Association member Henry Arthur, a nephew of Tasmanian Governor Sir George Arthur. Early settlers in the area included Robert and Agnes Reid and John Bear. The land was opened to selectors in the 1860s, and by the 1880s significant orchards had been planted. In 1890 the Arthurs Creek Fruit Growers Association formed, exporting its first shipment to England in 1896. Grazing and fruit-growing remain dominant occupations among the small, scattered population, many of whom are involved in the Arthurs Creek District Landcare Group. The township population was approximately 350 at the 1996 census.</p></div>
+</body>
+</text></TEI>

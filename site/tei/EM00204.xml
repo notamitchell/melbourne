@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Block Arcade</title>
+<author>Leigh Boucher</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00204</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01696.xml"><desc>Balcombe Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01710.xml"><desc>Block Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Completed in 1893, Block Arcade is arguably one of the finest extant examples of Melbourne's 19th-century shopping arcades. The Collins Street section of the L-shaped arcade, constructed on the site of the Federal Emporium, destroyed by fire in 1889, was completed in 1892, the Elizabeth Street section in 1893. Benjamin Fink, had only purchased the site three months before the fire, and the expediency with which the plans for the Arcade were unmasked raised the eyebrows of later historians.</p>
+<p>Architect Don Askew cited the Milano Galleria Vittorio Arcade in Italy as an influence. The floor contained the largest area of mosaic tiles yet laid down in Australia. The arcade was positioned on the fashionable promenade of Collins Street that formed one quarter of the strolling quadrangle of Collins, Elizabeth, Swanston and Little Collins streets. One of the city's elite fashionable locations, the Block Arcade was described in the <hi rend="italic">Argus</hi> in 1930 as the 'hub of Melbourne ... Citizens and visitors were to see and be seen'. Plans in 1962 to raze the whole corner did not eventuate. In 1986 the building was purchased by Time Corporation. The building was refurbished in 1988 and is now in private hands.</p></div>
+</body>
+</text></TEI>

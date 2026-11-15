@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Jimmy Watson's Wine Bar</title>
+<author>Carmel Murphy</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00777</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02072.xml"><desc>Dinny O'Hearn Fountain</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This bar and bistro at 333 Lygon Street, Carlton, is a well-known local meeting place. James Calexte Watson (born 1903 in Outtrim, Victoria) opened J.C. Watson Wine Merchant in 1935. His aim was to introduce patrons to fine wines, and to help improve the somewhat negative public perception of wine bars at the time. After Jimmy Watson's death in 1962, his only son Allan took over the running of the establishment, and would be followed by his own two sons, Nigel and Simon. The Jimmy Watson Trophy, established in 1962, commemorates Watson's service to the Australian wine industry.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000189" type="book"><author>Poliness, Grania</author> <title level="m">Jimmy Watson's wine bar</title> <pubPlace>Melbourne</pubPlace> <publisher>Grapevine</publisher> <date>1989</date></bibl></listBibl></div></back>
+</text></TEI>

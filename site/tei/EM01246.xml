@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Richmond Football Club</title>
+<author>Denise Cuthbert</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01246</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Richmond Football Club, based at the Punt Road oval, was established and admitted to the Victorian Football Association (VFA) in 1885. It won VFA premierships in 1902 and 1905 before joining the Victorian Football League (VFL) in 1908. From 1965 home games were played at the Melbourne Cricket Ground, and in the following decade the club achieved great success under coach Tom Hafey and with star players including Kevin Bartlett (the club's games record holder at 403), Royce Hart and Francis Bourke.</p>
+<p>Richmond's colours were originally a blue guernsey with a yellow and black striped cap. A yellow and black striped guernsey was worn from 1888. The black guernsey with the diagonal yellow stripe was introduced in 1915, becoming the norm from 1924. Known popularly as the Richmond Tigers since the 1890s, the war cry 'Eat 'em alive, Tigers' has been used since the 1920s.</p>
+<p>Following admission to the VFL, the club initially struggled at this level of competition. The drought broke with premierships in 1920 and 1921. The club won further premierships in 1932, 1934, 1943, 1969, 1973, 1974 and 1980, and was runner-up in 1919, 1924, 1927, 1928, 1931, 1933, 1940, 1942, 1944, 1972 and 1982. The club's on-field record - with long periods of poor form and strong individual performances, frustrating near misses and spectacular finals success - coupled with the enormous appeal of stars such as Jack 'Captain Blood' Dyer, who played 312 games for the club between 1931 and 1949, forged a fervent supporter base.</p>
+<p>Jack Dyer's assertion that those born in Richmond had twin obligations to barrack for Richmond and vote for the Australian Labor Party points to the working-class identity of the club and the locality. The club has played a leading role in Richmond's social life and maintained strong connections with the Catholic Church, particularly St Ignatius College, whose football culture nurtured many Richmond players. The club looked to its supporters during the financial crisis of 1989-90, and the 'Save our Skins' campaign raised over a million dollars. Still negotiating the tensions between struggling team form and dazzling individual performances, Richmond was one of the best-subscribed clubs in the AFL by the start of the 21st century.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000445" type="book"><author>Hansen, Brian</author> <title level="m">Tigerland: the history of the Richmond Football Club from 1885</title> <pubPlace>Melbourne</pubPlace> <publisher>Richmond Former Players and Officials Association</publisher> <date>1989</date></bibl></listBibl></div></back>
+</text></TEI>

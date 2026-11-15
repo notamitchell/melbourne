@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>St Peter's Eastern Hill</title>
+<author>Colin Holden</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01316</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The oldest Anglican church on its original site in the city area, St Peter's was designed by Charles Laing and built in 1846-48 on the south-west corner of Gisborne and Albert streets. Subsequent extensions are by Charles Vickers (1854) and Terry &amp; Oakden (1876), and the fine arts-and-crafts Gothic brick hall and school by Alexander North was added in 1912. In 1848 Melbourne's first bishop, Charles Perry, was received at St Peter's with letters patent from Queen Victoria proclaiming Melbourne a city as a result of being the centre of his newly created diocese.</p>
+<p>This inner-city Anglican church has been regarded as Melbourne's leading Anglo-Catholic parish since the time of Ernest Selwyn Hughes (vicar 1900-26), combining strong liturgical and musical traditions with concern for social-justice issues. This last component reflects Hughes' interest in socialism, a position more radically espoused by his successor, Canon Farnham Edward Maynard (vicar 1926-64) through broadcasts and publications. Maynard's invitation to the Brotherhood of St Laurence to work at St Mary's Mission in Fitzroy had a long-term impact on welfare delivery in Victoria.</p>
+<p>St Peter's has seen interaction across a range of cultures, from the Chinese community at the beginning of the century to the celebration of Greek, Russian and Syrian Orthodox liturgies. The incarnational theology of Anglo-Catholics encouraged the embellishment of the interior with sculpture and other artworks, including bronzes by Andor Meszaros, carvings by Robert Prenzell and Ola Cohn, and stained glass by Napier Waller. The parish hall was home to Gertrude Johnson's National Theatre (1938-61), and rehearsal centre for the Elizabethan Trust Orchestra and its successors.</p></div>
+</body>
+</text></TEI>

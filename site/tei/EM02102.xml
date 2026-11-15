@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Passage</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02102</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00314.xml"><desc>Cemeteries</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01215.xml"><desc>Queen Victoria Market</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Mark Stoner Bluestone sculpture 1994 Queen Victoria Market, corner of Therry and Queen Streets</p>
+<p>Born in England in 1951, Mark Stoner has exhibited widely and his work is represented in the National Galleries of Australia and Victoria. In 1991, he was commissioned to undertake a memorial to the former cemetery site and those once buried here. Stoner's monumental, non-representational sculpture evokes the timelessness and symbolism of an ancient Egyptian pyramid. He has described the work as 'a passage for memories or dreams', but the site is also a place of passage between worlds. Stonemasons Huntley Barton and Brian Johns worked his design by hand, using a material Stoner chose for its link to the founding of Melbourne.</p>
+<p>A bronze plaque alongside a map of the former cemetery reads: 'Passage commemorates the Old Melbourne General Cemetery, which was located on this site between 1837 and 1917. The illustration is based on a 1863 map. In 1878 the market expanded and took up the area between Victoria and Fulton Streets, three quarters of the Jewish allotment and all the Society of Friends and Aboriginal allotments. Between 1920 and 1922, 914 bodies were exhumed and reinterred in other cemeteries around Melbourne. By 1936 the Queen Victoria Market expanded to take up the entire Old Melbourne General Cemetery site.'</p></div>
+</body>
+</text></TEI>

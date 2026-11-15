@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royal Historical Society of Victoria</title>
+<author>Liz Rushen</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01275</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A community, not-for-profit organisation, the Royal Historical Society of Victoria (RHSV) was founded in 1909 as the Historical Society of Victoria. Concerned to capture the memories of 'old pioneers still living who have the whole history ... in their heads', its founders set out to collect, classify and publish information about Victoria's history. Pioneer historian Henry Giles Turner moved the founding motion; the Hon. Frank Madden, Speaker of the Victorian Legislative Assembly, was the first president, and one of the first vice-presidents was Alfred Deakin, soon to become Australian prime minister.</p>
+<p>In 1920 the society incorporated the Royal Geographical Society of Victoria (established 1883), inheriting its collection of journals, records and maps, and gained the 'Royal' title in 1952 in commemoration of the centenary of Separation. It has been active in lobbying for an increased respect for history, with members campaigning in 1916 for the preservation and classification of materials held in Victorian Government departments, many years before the foundation of the Public Record Office in 1973; in 1960 it exacted a promise from the premier that no documents would be destroyed by any public department without prior submission to the State Library.</p>
+<p>The RHSV is the State's premier historical society, and the peak body for local history across the State. Its library houses a research collection of national significance, and the society runs a series of activities designed to bring history to the wider community. Publications include the <hi rend="italic">Victorian Historical Journal</hi> (formerly <hi rend="italic">Victorian Historical Magazine</hi>), which has been published continuously since 1911, a monthly newsletter, <hi rend="italic">History News</hi>, brochures and monographs.</p></div>
+</body>
+</text></TEI>

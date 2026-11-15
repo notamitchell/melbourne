@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>My Melbourne: the Six O'Clock Swill</title>
+<author>Keith Dunstan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00934</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>I grew up in a Melbourne of unquestioned moral purity. Our Sunday was kept pure by law; absolutely nothing happened: no movies, no restaurants, no newspapers, no pubs, all banned.</p>
+<p>The writer Brian Fitzpatrick had a beautiful sense of irony. In 1955 he said of the Melbourne Sunday: 'It has a tranquillity, a pure beauty, why, it is a work of art like the Winged Victory of Samothrace, the Two Minutes' Silence, of La Giaconda'.</p>
+<p>In 1955, apart from going to church, there were two things one could do on a Sunday: visit the Botanic Gardens or, for a real thrill, watch the aeroplanes taking off and landing at Essendon Airport.</p>
+<p>We had no real Sunday newspapers until the 1980s, and even in 1985 we were prosecuting a Caulfield hardware merchant for selling paint and garden lime on a Sunday.</p>
+<p>Yet my most vivid Melburnian memory brings back the six o'clock closing of hotels. It produced what we called 'the six o'clock swill', and the intensity of that swill surely was unequalled anywhere, except in other Australian States. Queensland and Western Australia 461 never had it. Victoria and South Australia were the last to hang on to it.</p>
+<p>Maybe I could describe the scene as I saw it almost every night at the Astoria or Phoenix Hotel, adjacent to the Herald building in Flinders Street. Like most workers we managed to get away from the office at 5.30 p.m. Imagine the scene: a large room, lavatory-like atmosphere, filled with pushing men, no seats, no tables, everything stripped for action. There is a large clock on the wall, invariably set fast, because the police come around at 6 p.m.</p>
+<p>There is a big staff on for swill time: skilled barmen and barmaids, all equipped with the latest pluto taps on plastic hoses, designed for dispensing beer at frightening speed. Time moves past so quickly. It is twenty to six, now ten to six, the bar is 10 deep with crushing bodies, all thrusting handfuls of glasses towards the barmaids: 'Here', 'Here', 'For Chrissake here!' It is like penetrating the crowd behind the goals at a football match. Getting the precious cargo back to your possie is incredibly hazardous. Your mates help, of course, and you try to pass the glasses overhead. Beer rains.</p>
+<p>The clever thing is to buy early. There are five in your local school. You buy five beers each. You assemble the four you are not drinking between your feet - terribly hazardous if much shoving is going on, but it does ensure a continuity of supply.</p>
+<p>At six the publican is ringing bells, making announcements over the amplifier: 'Come on fellers, fair go. Drink up, fair go'. He gets progressively more urgent: 'Jesus. The cops 'll be here in a minute. I'll lose my licence. <hi rend="italic">Get out! Everybody out! </hi>'</p>
+<p>At 6.15 p.m. we are all out on the footpath. Two characters over yonder are chundering into the gutter. Constitutions that have not known food for five hours need to be strong to handle five beers in 20 minutes.</p></div>
+</body>
+</text></TEI>

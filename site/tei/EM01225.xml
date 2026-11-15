@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Real Estate Agents</title>
+<author>David Nichols</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01225</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Real estate firms seek to subdivide, package and present land, and to market homes and other premises, for sale to speculators, commercial firms and home-buyers, both on behalf of vendors and for their own profit. This is done either by sale for agreed terms or via the auction process. Real estate firms are often regarded with suspicion, particularly for their perceived use of misleading plans and illustrations, and of flowery rhetoric, in advertising. Since 1922 they have been regulated by the <hi rend="italic">Estate Agents Act</hi>, because of public concern over this and other forms of dishonest conduct. Real estate agents are also licensed, allowing them to buy, sell, let or collect rent on properties on others' behalf.</p>
+<p>With some exceptions, 19th-century real estate firms offered existing premises or new subdivided land on small 'infill' streets via individual sale. The firm of T.M. Burke changed the nature of real estate and auction firms in Melbourne after 1919, with the use of door-to-door salesmen, mass advertising of the firm's services and the development of large 'planned' suburban areas such as Merrilands - approaches that have often been typified as originating in the USA.</p>
+<p>The auction system, which has been used in Melbourne since its foundation, has been traced back as far as ancient Rome, although the model used in Australia is more closely related to procedures that found favour in London in the 17th century. Typically, it involves an advertised opportunity for individuals to gather before a licensed auctioneer who will raise the price on a property until all but the successful bidder drop out. Concerns about the licensing and registration of auctioneers are often raised; the field has long been open to corruption, perhaps the most famous instance being the suppression of bids on land at Jolimont in 1840 for the personal benefit of Lieutenant-Governor La Trobe.</p></div>
+</body>
+</text></TEI>

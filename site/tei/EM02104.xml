@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Pavement Tiles</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02104</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00221.xml"><desc>Bourke Street Mall</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>James Cattell, Lyn Kinder-Dickson, Joanne Croke, Tim Jones, Susan Toole and Adrian Gemelli Glazed ceramic and concrete paving with metal, glass and found objects 1994 Bourke Street Mall</p>
+<p>This work is installed through the central area of Bourke Street Mall. The area has been repaved to incorporate 395 artist-designed tiles. James Cattell and Lyn Kinder-Dickson created 50 screen-printed tiles depicting people in everyday situations. Susan Toole embedded familiar objects into 45 concrete tiles and incorporated text in several languages. Adrian Gemelli fabricated 100 abstract-patterned tiles, using a variety of techniques and materials. And Tim Jones and Joanne Croke assembled 200 coloured concrete tiles embedded with ceramic and glass. This collaborative work aims to enrich the environment and inform passers-by of its history and use. It also aims to humanise the space.</p>
+<p>The City of Melbourne commissioned the work in 1992 as part of its Percent for Art Program.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000134"><head>Pavement Tiles</head><graphic url="../objects/images/PavementTiles.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_PavementTiles.jpg"/><p>James Cattell, Lyn Kinder-Dickson, Joanne Croke, Tim Jones, Susan Toole and Adrian Gemelli 1994</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Objects through time – eMelbourne experiments</title>
+<link rel="stylesheet" href="../css/site.css">
+<link rel="stylesheet" href="experiments.css">
+<script src="../js/vendor/d3/d3.min.js"></script>
+<script src="common.js"></script>
+<style>
+  #chart .selection { fill: var(--accent); fill-opacity: .12; stroke: var(--accent); }
+  #list { font: .95rem/1.5 var(--sans); }
+  #list ul { list-style: none; padding: 0; }
+  #list li { padding: .35rem 0; border-bottom: 1px solid var(--line); }
+  #list .yr { display: inline-block; min-width: 3.2rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body class="exp">
+<header class="site"><a class="brand" href="../index.html">eMelbourne</a><span class="tag">The Encyclopedia of Melbourne Online</span><nav class="top" aria-label="Site"><a href="../index.html">Home</a><a href="../page.html?p=about">About</a><a href="../page.html?p=help">Help</a><a href="../advanced.html">Advanced search</a><a href="index.html" aria-current="page">Experiments</a></nav><form class="quick" action="../search.html"><input name="q" type="search" placeholder="Quick search" aria-label="Quick search"></form></header>
+<main class="exp-wrap">
+<p class="exp-crumb"><a href="index.html">Experiments</a></p>
+<h1>Objects through time</h1>
+<p class="exp-lede">The 1,561 digital objects (images and digitised records) by the year they are dated to. An object dated across several years counts in its first year. Drag across the chart to choose years and list the objects, with the entries they belong to.</p>
+<div class="exp-bar"><div class="exp-legend" id="legend"></div><label><input type="checkbox" id="log"> Stretch the small years (log scale)</label><span id="count" class="exp-note"></span></div>
+<div class="exp-chart" id="chart"></div>
+<div id="list" aria-live="polite"></div>
+</main>
+<script>
+(function () {
+  "use strict";
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>The chart library could not be loaded</b> (js/vendor/d3/d3.min.js).</p>"); return; }
+  const { esc } = Exp;
+  const KINDS = [["digitised record", "Digitised records", "var(--series-1)"], ["image", "Images", "var(--series-2)"]];
+  let items = [], names = {}, range = null;
+  Promise.all([Exp.objects(), Exp.facets()]).then(([objects, rows]) => {
+    rows.forEach(r => (names[r.id] = r.n));
+    items = Object.entries(objects).map(([id, o]) => ({ id, o, e: Exp.parseDate(o.date) })).filter(x => x.e);
+    const undated = Object.keys(objects).length - items.length;
+    document.getElementById("count").textContent = `${items.length.toLocaleString("en-AU")} dated · ${undated} without a date`;
+    document.getElementById("legend").innerHTML = KINDS.map(([k, l, c]) => `<span class="exp-key" style="cursor:default"><i style="background:${c}"></i>${l} <span class="n">${items.filter(x => x.o.type === k).length}</span></span>`).join("");
+    const p = new URLSearchParams(location.search).get("years");
+    if (p && /^\d{4}-\d{4}$/.test(p)) range = p.split("-").map(Number);
+    document.getElementById("log").addEventListener("change", draw);
+    draw(); list();
+    addEventListener("resize", () => { clearTimeout(draw.t); draw.t = setTimeout(draw, 150); });
+  }).catch(e => document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p>" + esc(e.message) + "</p>"));
+
+  function draw() {
+    const holder = document.getElementById("chart"), W = holder.clientWidth - 16, H = 300, M = { l: 40, r: 12, t: 12, b: 26 };
+    const lo = Math.floor(d3.min(items, x => x.e.y) / 10) * 10, hi = Math.ceil((d3.max(items, x => x.e.y) + 1) / 10) * 10;
+    const years = d3.range(lo, hi);
+    const counts = years.map(y => { const r = { y }; KINDS.forEach(([k]) => (r[k] = items.filter(x => x.e.y === y && x.o.type === k).length)); return r; });
+    const stack = d3.stack().keys(KINDS.map(k => k[0]))(counts);
+    const x = d3.scaleBand(years, [M.l, W - M.r]).paddingInner(.15);
+    const y = (document.getElementById("log").checked ? d3.scaleSymlog() : d3.scaleLinear()).domain([0, d3.max(counts, c => KINDS.reduce((a, [k]) => a + c[k], 0)) || 1]).range([H - M.b, M.t]).nice();
+    const svg = d3.create("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img").attr("aria-label", "Stacked bars of digital objects per year; drag to choose years and list them below");
+    svg.append("g").attr("transform", `translate(${M.l},0)`).call(d3.axisLeft(y).ticks(5).tickSize(-(W - M.l - M.r))).call(g => g.select(".domain").remove()).call(g => g.selectAll("line").attr("stroke", "var(--grid)"));
+    svg.append("g").attr("transform", `translate(0,${H - M.b})`).call(d3.axisBottom(x).tickValues(years.filter(v => v % (W < 700 ? 20 : 10) === 0)).tickSizeOuter(0)).call(g => g.select(".domain").attr("stroke", "var(--grid)"));
+    const tip = document.createElement("div"); tip.className = "exp-tip"; tip.hidden = true;
+    stack.forEach((s, i) => svg.append("g").attr("fill", KINDS[i][2]).selectAll("rect").data(s).join("rect")
+      .attr("x", d => x(d.data.y)).attr("width", x.bandwidth()).attr("y", d => y(d[1])).attr("height", d => Math.max(0, y(d[0]) - y(d[1]) - (d[1] > d[0] && i === 0 && d.data[KINDS[1][0]] ? 1 : 0))).attr("rx", Math.min(2, x.bandwidth() / 3)));
+    const brush = d3.brushX().extent([[M.l, M.t], [W - M.r, H - M.b]]).on("end", e => {
+      if (!e.selection) { if (e.sourceEvent) { range = null; list(); } return; }
+      const [a, b] = e.selection, inside = years.filter(v => x(v) + x.bandwidth() >= a && x(v) <= b);
+      if (inside.length) { range = [inside[0], inside[inside.length - 1]]; list(); }
+    });
+    const bg = svg.append("g").call(brush);
+    bg.on("pointermove", e => {
+      const px = d3.pointer(e)[0], yr = years.find(v => px >= x(v) && px <= x(v) + x.bandwidth()); if (yr == null) { tip.hidden = true; return; }
+      const c = counts[yr - lo];
+      tip.innerHTML = `<b>${yr}</b>${KINDS.map(([k, l]) => `${l}: ${c[k]}`).join("<br>")}`; tip.hidden = false;
+      const r = holder.getBoundingClientRect(); let tx = e.clientX - r.left + 14; if (tx + 180 > r.width) tx -= 200;
+      tip.style.left = tx + "px"; tip.style.top = (e.clientY - r.top + 14) + "px";
+    }).on("pointerleave", () => { tip.hidden = true; });
+    if (range) bg.call(brush.move, [x(range[0]), x(range[1]) + x.bandwidth()]);
+    holder.replaceChildren(svg.node(), tip);
+  }
+  function list() {
+    try { history.replaceState(null, "", range ? "?years=" + range.join("-") : location.pathname); } catch (e) { /* file:// */ }
+    const el = document.getElementById("list");
+    if (!range) { el.innerHTML = '<p class="exp-note">Drag across the chart to list the objects from those years.</p>'; return; }
+    const xs = items.filter(x => x.e.y >= range[0] && x.e.y <= range[1]).sort((a, b) => a.e.y - b.e.y || (a.e.m || 0) - (b.e.m || 0) || (a.e.d || 0) - (b.e.d || 0));
+    const shown = xs.slice(0, 300);
+    el.innerHTML = `<h2>${range[0] === range[1] ? range[0] : range.join("–")}: ${xs.length} objects</h2><ul>` + shown.map(x =>
+      `<li><span class="yr">${x.e.y}</span><a href="${Exp.object(x.id)}">${esc(x.o.title)}</a> <span class="exp-note">${esc(x.o.date)}${(x.o.entries || []).length ? " · " + x.o.entries.slice(0, 3).map(id => `<a href="${Exp.entry(id)}">${esc(names[id] || id)}</a>`).join(", ") : ""}</span></li>`).join("") +
+      "</ul>" + (xs.length > shown.length ? `<p class="exp-note">The first ${shown.length} are listed; choose fewer years to see the rest.</p>` : "");
+  }
+})();
+</script>
+</body>
+</html>

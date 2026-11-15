@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Environmental Education</title>
+<author>Alan Reid</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00527</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Defined as education about, for and in the environment, environmental education is exemplified in the continuing work of the Wurundjeri Aboriginal community in interpreting the natural environment, in the nature study courses introduced by Dr J.A. Leach in the 1920s and in the ongoing revision by the Timelines Project of the patterns of the local seasons. Education for the environment is represented in the early work of the Gould League, founded in 1909 to encourage in children a love of native birds, in its recent work on recycling education, and in the moves in 1970 by the Australian Conservation Foundation (ACF) to introduce conservation education into schools.</p>
+<p>Before the 1970s, environmental education took the form of biology and geography field study excursions. In 1971 the Environmental Studies Association of Victoria (ESAV) was formed, and in 1972 the ACF produced a field studies code for school excursions. A branch of INSPECT (Inquiry into the State of Pollution and Environmental Conservation by Thoughtful people) was set up at Monash University in 1971. By 1974 staff of the Gould League had begun in-service training of teachers in environmental education and were designing activity materials for school use.</p>
+<p>The 1975 UNESCO seminar on Education and the Human Environment in Melbourne examined major curriculum needs. In 1976, a review network was formed which led to production of environmental activity materials. The Environmental Teachers Association (ETA) was formed in late 1976 and the <hi rend="italic">Eingana</hi> magazine published. At this time, environmental courses for teachers at Rusden College began. In 1977 the Gould League, Education Department and Ministry for Conservation co-operated to run conferences on teaching strategies. An important influence was the Acclimatisation movement, which emphasised immersion in and personal sensitisation to the environment.</p>
+<p>In 1980 the Australian Association for Environmental Education formed in Melbourne. Newsletters and a professional journal followed. In 1984 ESAV and ETA combined to become the Victorian Association for Environmental Education. In 1989 the Victorian Environmental Education Council was established and many grants were made to establish school environmental projects. A Centre for Studies in Mathematics, Science and Environmental Education was established at Deakin University in 1994. A draft Ministerial Policy was launched in 1997, and several key learning areas emphasising environmental education are included in the Curriculum and Standards Frameworks for Schools. Extension programs have been provided by Melbourne Zoo, Healesville Sanctuary, Gould League, Museum Victoria, Centre for Education and Research in Environmental Strategies, Victorian Institute of Marine Sciences and the Royal Botanic Gardens.</p></div>
+</body>
+</text></TEI>

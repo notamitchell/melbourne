@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>King George V Memorial</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02090</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00802.xml"><desc>Kings Domain</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01373.xml"><desc>Sidney Myer Music Bowl</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Sculptor William Leslie Bowles; founder John Galizia; stonemason G.B. Edwards &amp; Sons Bronze, sandstone and granite sculpture with bluestone base 1952 Kings Domain, nr Sidney Myer Music Bowl</p>
+<p>William Leslie Bowles was born in 1885 in Leichhardt, NSW. He travelled to London on a McConnell scholarship, where he studied at the South London School of Sculpture and the Royal Academy of Arts. Bowles returned to Australia in 1924, working first for the Australian War Memorial and then undertaking many public commissions.</p>
+<p>Bowles' memorial to George V is highly symbolic in design, signalling the power of the monarchy and the Empire's paternalism towards its colonies. George came to the throne in 1910 and was more a representative of the people than a political sleuth, as had been Elizabeth I and Edward VII. The Empire underwent several changes during his rule: an independent Irish parliament was established in 1918, the country then divided along religious lines two years later, and demands for self-governance in the colonies resulted in the creation of the British Commonwealth of Nations in 1931.</p>
+<p>King George V died in 1936. The outbreak of World War II delayed the construction of Bowles' memorial to him, which was funded by public conscription and by council. The monument was unveiled in 1952 and underwent conservation in 1996.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000129"><head>King George V Memorial</head><graphic url="../objects/images/KingGeorgeV.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_KingGeorgeV.jpg"/><p>Sculptor William Leslie Bowles; founder John Galizia; stonemason G.B. Edwards &amp; Sons 1952</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

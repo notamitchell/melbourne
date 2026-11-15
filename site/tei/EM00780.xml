@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Jolimont Railway Yards</title>
+<author>Mike Williams</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00780</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Rail yards and workshops were located to the east of Princes Bridge over the Yarra River on land included in 1839 as part of a larger area reserved for parkland by Superintendent La Trobe. Rail yard and workshop encroachment began with the establishment of the Melbourne and Suburban Railway Co.'s line from Princes Bridge station to Punt Road in 1858-59. Works included the erection of an engine shed. An amalgamation of railway companies formed the Hobsons Bay United Railway Co. in 1865 and the excavation of two culverts under Swanston Street which linked Flinders Street and the Princes Bridge stations opened up the Jolimont area as a marshalling yard and repair area for the united companies.</p>
+<p>The Victorian Railways Department built a larger locomotive depot in the yards, concurrent with the viaduct connection to Spencer Street Station and the western railway network in 1888. This was demolished and replaced in 1917 by workshops to service newly introduced electric trains. A large electric sub-station and power operations room were constructed along the Batman Avenue frontage as part of the electrification project. Utilisation of the air space over the rail yards, their appearance and cross-river vistas have plagued Melburnians for decades. Federation Square east of Princes Bridge spans the surviving rail tracks and replaces the visually intrusive 1967 Gas and Fuel buildings, demolished in 1997. Clearance of the workshops and central signal box and the completion of the city loop line have facilitated alternative development and a broader distribution of reserve suburban trains across the city's rail network. Sidings space has been released for residential development west of the Melbourne Cricket Ground, and the Exhibition Street extension flyover accessing Melbourne's south-eastern distributor Monash Freeway completes developments in this former component of La Trobe's Jolimont reserve.</p></div>
+</body>
+</text></TEI>

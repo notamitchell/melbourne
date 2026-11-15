@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Emerald Hill</title>
+<author>Susan Priestley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00519</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This heritage precinct in South Melbourne, bounded by Clarendon, Park, Cecil and Dorcas Streets, was purchased in 1974 with Commonwealth and State funding as an urban restoration project, completed in 1981. From 1855 to 1883 Emerald Hill was the name of the municipality of South Melbourne, which became a borough in 1863 and a town in 1870. The name was attributed to <hi rend="italic">Port Phillip Herald</hi> journalist Edmund Finn, who in October 1845 advertised the venue of a temperance society picnic as an 'eminence ... green as the freshest shamrock ... encircled by shining lagoons, the sparkling sea, and growths of scrub and ti-tree'.</p></div>
+</body>
+</text></TEI>

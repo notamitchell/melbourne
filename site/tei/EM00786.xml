@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Kalizoic Society</title>
+<author>Andrew Montana</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00786</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Formed at a meeting in 1884, with members including forensic pathologist Dr James Neild, surgeon Dr Louis Henry, and arts journalist and critic James Smith, the Kalizoic Society advocated a widespread 'love of the beautiful' among Melburnians. It struggled with insufficient funds and a general disinterest in adopting Kalizoic sanitary and aesthetic improvements, its one success being the presentation of pictures to the (Royal) Melbourne Hospital and the Benevolent Asylum in 1885. Proposed amalgamations with the Australian Health Society and the Australian Artists' Association in 1885 and 1887 never eventuated, and an attempt by Neild to revive the Kalizoic Society in 1899 failed. The Society was separate from commercial retail art furnishing establishments that adopted the Greek-derived name meaning 'beauty towards outward life'.</p></div>
+</body>
+</text></TEI>

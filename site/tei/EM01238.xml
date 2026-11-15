@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Reservoir</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01238</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Reservoir</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3073, 12 km N, Darebin City)</p>
+<p>This suburb took its name from the reservoir built in 1864 on the pipeline that carried water from Yan Yean to Melbourne. Pronunciation has sometimes divided along class lines, rhyming for the workers with 'war', for the gentry with 'wah'. To the north of Preston, Reservoir became a suburb in the 1920s. Spring and Edwardes streets, north of Reservoir railway station, had a number of shops by 1929 and remain the suburb's retail heart. Childhood home of author Barry Dickins, Reservoir is the scene of many of his reminiscences. At Edgars Creek, Edwardes Lake Park, one of the most popular parks in the northern suburbs, was formed partly on land donated in 1916 by Thomas Dyer Edwardes.</p></div>
+</body>
+</text></TEI>

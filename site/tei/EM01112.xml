@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Parishes</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01112</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Originating as ecclesiastical units in the United Kingdom, parishes eventually became geographic units for local government. In the Australian colonies the parish became the basic geographic unit for measuring Crown land before its sale. Government surveyors in the Port Phillip District were ordered to divide counties into parishes measuring approximately 25 sq. miles (65 km2), using natural features such as waterways as parish boundaries wherever possible. Each parish was to be divided into numbered sections and to have village or township reserves marked on it. To avoid replicating locality names from other countries, surveyors were instructed to use Aboriginal words - or an approximation of them - to name each parish. Few English words were used in Victoria's parish names.</p></div>
+</body>
+</text></TEI>

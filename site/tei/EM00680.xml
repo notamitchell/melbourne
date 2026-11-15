@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Guy Fawkes Day</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00680</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Guy Fawkes Day is an English festival celebrated on 5 November commemorating the failure of a 1605 plot to blow up the House of Commons. The day traditionally saw excited children burning effigies on bonfires and discharging penny bungers and other fireworks. From the late 1840s newspapers reported both the annual celebrations and the consequent damage to person and property. World War II saw the prohibition of crackers under the Firearms and Explosives clause of the National Security Regulations, and while suburban communities continued to gather around local bonfires into the 1960s, the festival declined due to safety concerns, a decrease in the availability of vacant blocks, and growing restriction on the sale of fireworks.</p></div>
+</body>
+</text></TEI>

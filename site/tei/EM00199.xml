@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Black Thursday</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00199</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02139.xml"><desc>Swine Flu: In Focus - June 2009</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>On 6 February 1851, three months after news of Separation from New South Wales had reached Melbourne, severe bushfires gave the soon-to-be-proclaimed state of Victoria a fiery baptism and are remembered as one of the State's worst natural disasters. Fires around Macedon, the Dandenong Ranges, the Pentland Hills, Portland, Port Fairy, Geelong and in the Plenty Ranges showered the city with charred matter, while a blasting wind carried singed leaves as far as Tasmania, scattering ash upon the decks of ships in Bass Strait. The thermometer reached 117 degrees F in the shade (47 degrees C), the oppressively hot weather relieved only late in the evening by a cool southerly change and light rain. 'From the appearance of the sky', noted the <hi rend="italic">Argus</hi>, 'and the occasional brilliant bursts of light that were perceptible, one might have been almost led to imagine that it had been some one of the numerous residences in the vicinity of the Botanic gardens that had taken fire'. William Strutt's painting <hi rend="italic">Black Thursday</hi> (1864) graphically depicts a melee of terrified people and animals fleeing ahead of the conflagration. Strutt described in his journal the overwhelming heat of 'that scorching Thursday' where at breakfast 'the butter in the butter dish was melted to oil, and the bread when cut turned to rusk'. Stock, fencing and property losses were severe, and fatalities were recorded in the Barrabool Hills near Geelong and elsewhere. In a harrowing episode, the bodies of Bridget McLelland and her five young children were taken by bullock dray from their Diamond Creek station near the Plenty Ranges to the Travellers Rest Inn at Collingwood for an inquest before Coroner W.B. Wilmot.</p></div>
+</body>
+</text></TEI>

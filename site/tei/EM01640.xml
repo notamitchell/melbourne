@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Woodstock</title>
+<author>Gwynedd Hunter-Payne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01640</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Woodstock</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3751, 30 km N, Whittlesea Shire)</p>
+<p>Situated around the intersection of the Epping and Donnybrook-Yan Yean roads, Woodstock was the site of a denominational school (1853), the Sir Henry Barkly Hotel (1855), post office and coach house with a daily coach to Melbourne (1858), Catholic school (1875-1929) and the Mechanics Institute and Free Library (1911). The railway through Donnybrook, opened in 1872, damaged the coaching business. The hotel, closed after the departure of men during World War I, was demolished in 1948. The remaining buildings were destroyed in the bushfires of January 1968, leaving only the post office, which closed in 1971. The area remains rural, part of an ancient red gum woodland.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Exhibition Fountain (aka Hochgurtel Fountain)</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02078</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00542.xml"><desc>Exhibitions</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00906.xml"><desc>Marvellous Melbourne</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01274.xml"><desc>Royal Exhibition Building</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01588.xml"><desc>Water Supply</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Josef Hochgurtel Portland cement fountain 1880 Carlton Gardens</p>
+<p>Josef Hochgurtel was born in Cologne and trained under Herr Fuels, who modelled the Cologne Cathedral. In creating the Exhibition Fountain, he was assisted by August Saupe, who had worked on similar pieces in Berlin, Dresden and Copenhagen.</p>
+<p>The colossal fountain stands some ten metres high on the south side of the Royal Exhibition Building, outside the Great Hall. It was constructed for the first of Melbourne's two grand international world fairs. The fountain's visual elements were designed to display the young colony's confidence and advancement, simultaneously signalling the purpose of world fairs to display the produce and industry of nations. At the central level of the fountain, four youths (representing a young and vibrant colony) dance below symbols of the arts, science, commerce and industry; for example, musical instruments, a telescope, sailing ship, steam engine and globe of the world. Above this are images of Victoria's indigenous flora and fauna, and a boy with a clamshell. Holding all of this aloft are four merpeople rising up from the waters of the lower pool. Built during Victoria's boom years, the fountain's spouting water, it was thought, would demonstrate the power and success of the recently established Yan Yean project, which brought potable water to the city. On opening day, however, the pressure was too poor to affect much more than a spurt from atop of the grand edifice.</p>
+<p>In 1994, Hochgurtel's fountain underwent major restoration. It remains a great reminder of the glorious days of Marvellous Melbourne.</p></div>
+</body>
+</text></TEI>

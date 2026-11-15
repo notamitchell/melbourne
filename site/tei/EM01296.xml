@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Sacré Coeur</title>
+<author>Chris Coney</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01296</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>An independent school for girls located at 172 Burke Road, Glen Iris, Sacré Coeur was founded in 1888 by Catholic nuns of the Society of the Sacred Heart. Although planned from the Sacred Heart convent in Sydney, the school was deeply influenced by the French origins of the order, especially in its early years. Students were sometimes required to speak only in French; <hi rend="italic">cache</hi> and <hi rend="italic">catte</hi> were popular sports, and the school benefited from the movement of nuns and various furnishings when the anti-clerical French government forced convents to close in 1903.</p>
+<p>The initial enrolment of ten grew to 48 in 1910, 140 in 1940, 304 in 1960 and over 600 by 1980. Day students, first accepted in the 1920s, soon outnumbered the boarders. In the early decades great emphasis was given to religious instruction and subjects such as Latin, singing and needlework. From the 1950s more attention was paid to preparing students for public examinations and employment. This was accompanied by increasing community and political involvement. For example, students were politicised through the school's actively anti-communist stance during the 1940s and 1950s.</p>
+<p>Social change and the Second Vatican Council led to many reforms. Enclosure was phased out, and less restrictive apparel was worn by the nuns. There was more frequent and varied contact with other schools, especially in sporting and debating competitions. The boarding school closed in the 1970s. The increasing role of the laity was demonstrated by the first school council in 1976 and by the appointment of Janette Bourke as the first lay principal in 1980.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000542" type="edited-book"><author>McCarthy, Kathleen, and Denise Pitney</author> <title level="m">Sacré Coeur, Burke Road, 1888-1988, a centenary history</title> <pubPlace>Melbourne</pubPlace> <publisher>Sacré Coeur School</publisher> <date>1988</date></bibl></listBibl></div></back>
+</text></TEI>

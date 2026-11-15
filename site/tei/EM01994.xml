@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Temple Court</title>
+<author>Biheng Zhang</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01994</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01830.xml"><desc>Gurners Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00845.xml"><desc>Legal Precinct</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00989.xml"><desc>Mitre Tavern</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01360.xml"><desc>Sewerage</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01995.xml"><desc>Temple Court Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located between William and Queen streets, Temple Court extended from Collins Street to Little Collins Street. It was named for one of London's Inns of Court and, in 1901, was home to the businesses of solicitors, estate agents and surveyors among other professionals. Today, the lane no longer exists, replaced instead by the Temple Court building, constructed in 1924 and currently being used as residential apartments.</p>
+<p>One occupant at 60 Temple Court in 1892 was M.J. McGarry of Leahy, McGarry &amp; Co., Hotel and Money Brokers. McGarry was also the licensee for the Mitre Tavern Hotel, situated adjacent to Temple Court. In a letter to the City of Melbourne sent on 8 December 1892, McGarry complained of a closet that was built beside his door, and which was frequented by eighty or ninety men daily: 'I may say that myself and my child is laid up in bed owing to the bad smell that come to the hotel from the closet'. Upon his visit, Inspector John Fullerton found the closet to be clean and emptied twice a week, and decided that there were no grounds for action by the City Council.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000044"><head>Temple Court Lane. E.A. Watts P.L.</head><graphic url="../objects/images/COM_n1184.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_COM_n1184.jpg"/><p>10 August 1963</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl><bibl xml:id="PEM000733" type="book"><title level="m">Sands &amp; McDougall's commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1901</date></bibl><bibl xml:id="PEM000696" type="resource-section"><title level="a">Central Melbourne: Lanes S-Z</title> <title level="m">Amendment C105 - CBD Laneways Review</title> <publisher>City of Melbourne</publisher> <date>2007</date> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=195&amp;pg=3065&amp;bp=1902&amp;coll=8">online</ref></bibl></listBibl></div></back>
+</text></TEI>

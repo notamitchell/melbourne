@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Shipwrecks</title>
+<author>Kate Fielding</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01367</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>In the 19th century, shipwrecks were greeted in Melbourne with a mix of horror and fascination similar to that which accompanies reports of aircraft accidents today. In an isolated community, totally dependent on ocean travel, shipwrecks had a particular potency. Having made the arduous ocean voyage from Europe to Australia, most 19thcentury Melburnians understood firsthand the hardship, danger and fear associated with the journey. Until the 1950s ships brought both international passengers and freight to the city. While sickness and disease remained the far greater cause of mortality during sea journeys, it was the threat of shipwreck that captured popular imagination. It was not only the loss of life that made shipwrecks so abhorrent. As Melbourne's economy and wellbeing relied heavily on imported goods, the safe passage of ships was of great concern.</p>
+<p>Approximately 800 ships have been wrecked along the Victorian coastline since 1797. Most sea traffic reached Melbourne by 'threading the needle' - passing through the narrow and notoriously dangerous Bass Strait before entering Port Phillip Bay through the famously treacherous 'Rip'. Many of the lighthouses and maritime guides that were developed in the 19th century to minimise the risks of this journey can be seen along the Victorian coastline, including at the twin headlands that mark the entrance to Port Phillip Bay.</p>
+<p>Melburnians thrilled to stories of shipwrecks well beyond their own bay; wrecks along Victoria's dramatic coastline had equal significance for the loss of life and freight. The 1878 wreck of the clipper <hi rend="italic">Loch Ard</hi> 300 km west of Melbourne captured Melburnians' imaginations and a fundraising ball was held. The first gold medal of the Humane Society of Victoria was presented to crew-member Tom Pearce for his bravery in rescuing the only other survivor, the young passenger Eva Carmichael, and the wreck featured prominently in an exhibition of dioramas of international events.</p>
+<p>As air travel has replaced ships as the dominant form of international travel, shipwrecks have had a lower public profile. While the city continues to operate as Australia's major freight port, most Melburnians have no direct contact with the shipping industry. However, the submerged remains of wrecked ships are popular sites for recreational divers and are now protected by heritage legislation.</p></div>
+</body>
+</text></TEI>

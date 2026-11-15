@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Telephone</title>
+<author>Chris Healy</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01476</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00010.xml"><desc>Media &amp; Communications</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The telephone has shaped everyday life in Melbourne at least as much as roads, shipping and railways. While the telegraph made the decisive break between transportation and communication, the telephone made available unmediated, person-to-person communication across distance.</p>
+<p>Australia's first commercial telephone service connected the Flinders Street offices and South Melbourne foundry of the engineering company Robison Brothers in 1879. Australia's first telephone directory (1880) listed 43 subscribers to the Melbourne Telephone Exchange Co., one of two private exchanges bought by the Victorian Government in 1887. Initially an expensive device used by businesses and professionals, the telephone (along with other technologies) transformed commercial practices, and then spatial and social relationships.</p>
+<p>Before the introduction of automated telephone exchanges in Melbourne from 1914, telephonists were overwhelmingly women. It was women, too, who drove the mass-market take-up of the telephone in private homes between the wars, changing the ways in which middle-class women socialised and managed their homes.</p>
+<p>As section 51(v) of the Australian Constitution gave power over all telephone and 'other like services' to the federal government, responsibility for Australia's 33 000 telephones passed to the Postmaster General's (PMG) Department in Melbourne in 1901.</p>
+<p>Melbourne and Sydney were connected by telephone in 1907, followed by other capital cities, the last of which, Hobart, was linked via the world's second submarine coaxial cable installed in 1935. By the late 1960s, satellite and microwave technologies had integrated Melbourne's telephones into a global communications system.</p>
+<p>The establishment of Telecom and the abolition of the PMG's Department in 1975 set the stage for the key developments from the 1980s: the privatisation of telephone services, the take-up of mobile phones and the use of telephone infrastructure to connect computer users to broadband Internet services.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000114" type="book"><author>Moyal, Ann</author> <title level="m">Clear across Australia: a history of telecommunications</title> <pubPlace>Melbourne</pubPlace> <publisher>Nelson</publisher> <date>1984</date></bibl></listBibl></div></back>
+</text></TEI>

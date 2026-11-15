@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Port of Melbourne Authority</title>
+<author>Keith Trace</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01163</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Port of Melbourne Authority (PMA) replaced the former Melbourne Harbor Trust as administrator and operator of the Port of Melbourne, only to be itself replaced by the Melbourne Port Corporation under the State Government's 1995-96 reform program. The <hi rend="italic">Port of Melbourne Authority Act 1958</hi> gave the authority powers including management and control of the port, shipping, navigational aids, wharfage, and the collection of tolls and charges. The PMA was split into three new State-owned enterprises: the Melbourne Port Corporation is the statutory 'landlord', responsible for long-term planning, development and management of the port; the Victorian Channels Authority is responsible for harbour control and management of shipping channels, while Melbourne Port Services (now privatised) provides ancillary services within the port, including mooring, dredging and security.</p></div>
+</body>
+</text></TEI>

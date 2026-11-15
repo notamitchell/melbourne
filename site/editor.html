@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>eMelbourne editor</title>
+<link rel="stylesheet" href="js/vendor/quill/quill.snow.css">
+<link rel="stylesheet" href="css/editor.css">
+<script src="js/tei.js"></script>
+<script src="js/vendor/quill/quill.min.js"></script>
+<script src="js/glam-embed.js"></script>
+<script src="js/tei-compare.js"></script>
+<script src="js/editor.js" defer></script>
+</head>
+<body data-page="editor">
+<header class="ed-bar">
+  <a class="ed-brand" href="index.html" target="_blank" rel="noopener">eMelbourne <span>editor</span></a>
+  <span id="current" class="ed-current"></span>
+  <span class="ed-spacer"></span>
+  <span id="status" class="ed-status" role="status" aria-live="polite"></span>
+  <button type="button" id="btn-home" class="ed-btn ghost" hidden>Open another</button>
+  <button type="button" id="btn-save" class="ed-btn primary" hidden>Save files</button>
+</header>
+
+<noscript><p class="ed-wrap">The editor needs JavaScript.</p></noscript>
+
+<!-- Start: open an entry, start a new one, or open a saved file -->
+<main id="start" class="ed-wrap" hidden>
+  <div id="draft-banner" class="ed-notice" hidden>
+    <p><strong>You have unsaved work</strong> on <span id="draft-what"></span>.</p>
+    <p><button type="button" id="draft-restore" class="ed-btn primary">Carry on with it</button>
+       <button type="button" id="draft-discard" class="ed-btn ghost">Throw it away</button></p>
+  </div>
+  <h1>Edit eMelbourne</h1>
+  <p class="ed-lead">Change an entry or write a new one, check how it will look, then save it and upload it to GitHub.
+    <a href="#" id="help-link">How publishing works</a></p>
+  <div class="ed-cards">
+    <section class="ed-card">
+      <h2>Edit an entry</h2>
+      <label for="open-q">Name or ID</label>
+      <input id="open-q" type="search" autocomplete="off" placeholder="e.g. Bourke Street, EM00187">
+      <ul id="open-results" class="ed-results" aria-label="Matching entries"></ul>
+    </section>
+    <section class="ed-card">
+      <h2>Start a new entry</h2>
+      <label for="new-title">Title</label>
+      <input id="new-title" autocomplete="off" placeholder="e.g. Fitzroy Gardens">
+      <p class="ed-hint">For a person: Surname, First names (e.g. Batman, John).</p>
+      <label for="new-type">Type</label>
+      <select id="new-type"></select>
+      <p><button type="button" id="new-create" class="ed-btn primary">Create</button></p>
+      <p id="new-msg" class="ed-error" hidden></p>
+    </section>
+    <section class="ed-card">
+      <h2>Open a saved file</h2>
+      <p>Carry on with an entry you saved earlier but haven't uploaded yet (the <code>.xml</code> file).</p>
+      <label class="ed-btn ghost ed-file">Choose file…<input id="open-file" type="file" accept=".xml,application/xml,text/xml"></label>
+      <p id="file-msg" class="ed-error" hidden></p>
+    </section>
+  </div>
+</main>
+
+<!-- The editor -->
+<div id="editor" hidden>
+  <nav class="ed-tabs ed-wrap" role="tablist" aria-label="Editor views">
+    <button type="button" role="tab" id="tab-edit" aria-controls="view-edit" aria-selected="true">Edit</button>
+    <button type="button" role="tab" id="tab-preview" aria-controls="view-preview" aria-selected="false">Preview</button>
+    <button type="button" role="tab" id="tab-compare" aria-controls="view-compare" aria-selected="false">Compare</button>
+  </nav>
+
+  <form id="view-edit" class="ed-wrap ed-form" role="tabpanel" aria-labelledby="tab-edit" autocomplete="off">
+    <section class="ed-sec">
+      <h2>About this entry</h2>
+      <div class="ed-grid">
+        <div class="span2"><label for="f-title">Title</label><input id="f-title" required></div>
+        <div><label for="f-type">Type</label><select id="f-type"></select></div>
+        <div><label>ID</label><output id="f-id" class="ed-id"></output></div>
+      </div>
+      <label for="f-authors">Authors</label>
+      <textarea id="f-authors" rows="2" placeholder="One name per line"></textarea>
+    </section>
+
+    <section class="ed-sec" id="sec-person">
+      <h2>Facts about the person</h2>
+      <div class="ed-grid">
+        <div><label for="p-forename">First names</label><input id="p-forename"></div>
+        <div><label for="p-surname">Surname</label><input id="p-surname"></div>
+        <div><label for="p-born">Born</label><input id="p-born" placeholder="e.g. 13 January 1819"></div>
+        <div><label for="p-bornplace">Place of birth</label><input id="p-bornplace"></div>
+        <div><label for="p-died">Died</label><input id="p-died" placeholder="e.g. 4 April 1898"></div>
+        <div><label for="p-diedplace">Place of death</label><input id="p-diedplace"></div>
+      </div>
+      <div class="ed-grid">
+        <div><label for="p-occupations">Occupations</label><textarea id="p-occupations" rows="2" placeholder="One per line"></textarea></div>
+        <div><label for="p-other">Other names</label><textarea id="p-other" rows="2" placeholder="One per line"></textarea></div>
+      </div>
+    </section>
+
+    <section class="ed-sec" id="sec-dates">
+      <h2>Dates</h2>
+      <div class="ed-grid">
+        <div><label for="d-start">Start</label><input id="d-start" placeholder="e.g. 1850, or 3 March 1850"></div>
+        <div><label for="d-end">End</label><input id="d-end" placeholder="Leave empty if it still exists"></div>
+      </div>
+      <div class="ed-grid" id="place-fields">
+        <div><label for="pl-address">Address or location</label><input id="pl-address"></div>
+        <div><label for="pl-other">Other names</label><textarea id="pl-other" rows="2" placeholder="One per line"></textarea></div>
+      </div>
+    </section>
+
+    <section class="ed-sec">
+      <h2>Quick facts <span class="ed-opt">optional</span></h2>
+      <p class="ed-hint">A short list shown at the top of the article, as on the cultural artefact pages (Artist, Media, Created, Location).</p>
+      <div id="gloss-rows" class="ed-rows"></div>
+      <button type="button" class="ed-btn small ghost" id="gloss-add">Add a line</button>
+    </section>
+
+    <section class="ed-sec">
+      <h2>Article</h2>
+      <p class="ed-hint">To add a picture, paste a link to an item at Trove (National Library of Australia), State Library Victoria,
+        Public Record Office Victoria or University of Melbourne Digitised Collections, or a link to an image, on a line of its own.
+        To link to another eMelbourne entry, select some words and press <strong>Link to entry</strong>.</p>
+      <div id="toolbar">
+        <span class="ql-formats"><select class="ql-header"><option value="2">Heading</option><option selected></option></select></span>
+        <span class="ql-formats"><button class="ql-bold" aria-label="Bold"></button><button class="ql-italic" aria-label="Italic"></button><button class="ql-underline" aria-label="Underline"></button><button class="ql-script" value="super" aria-label="Superscript"></button></span>
+        <span class="ql-formats"><button class="ql-list" value="ordered" aria-label="Numbered list"></button><button class="ql-list" value="bullet" aria-label="Bulleted list"></button><button class="ql-blockquote" aria-label="Quotation"></button></span>
+        <span class="ql-formats"><button class="ql-link" aria-label="Web link"></button><button type="button" class="ql-entrylink ed-tb-text">Link to entry</button></span>
+        <span class="ql-formats"><button class="ql-clean" aria-label="Remove formatting"></button></span>
+      </div>
+      <div id="article"></div>
+    </section>
+
+    <section class="ed-sec">
+      <h2>Gallery</h2>
+      <p class="ed-hint">Pictures shown under the article. Paste a collection or image link to add one.</p>
+      <div id="gallery-rows" class="ed-gallery"></div>
+      <div class="ed-inline">
+        <input id="gallery-url" type="url" placeholder="Paste a collection or image link" aria-label="Collection or image link">
+        <button type="button" class="ed-btn small" id="gallery-add">Add picture</button>
+      </div>
+      <p id="gallery-msg" class="ed-hint" role="status"></p>
+    </section>
+
+    <section class="ed-sec">
+      <h2>Related entries</h2>
+      <ul id="rel-rows" class="ed-chips"></ul>
+      <button type="button" class="ed-btn small ghost" id="rel-add">Add a related entry</button>
+    </section>
+
+    <section class="ed-sec">
+      <h2>References</h2>
+      <div id="ref-rows" class="ed-refs"></div>
+      <button type="button" class="ed-btn small ghost" id="ref-add">Add a reference</button>
+    </section>
+
+    <section class="ed-sec ed-you">
+      <h2>About your change</h2>
+      <div class="ed-grid">
+        <div><label for="c-name">Your name</label><input id="c-name" autocomplete="name"></div>
+        <div class="span2"><label for="c-note">What did you change? <span class="ed-opt">optional</span></label><input id="c-note" placeholder="e.g. Added two pictures from State Library Victoria"></div>
+      </div>
+      <p><button type="button" class="ed-btn primary" id="btn-save2">Save files</button></p>
+    </section>
+  </form>
+
+  <section id="view-preview" class="ed-preview" role="tabpanel" aria-labelledby="tab-preview" hidden>
+    <div class="ed-wrap"><p class="ed-hint">This is how the page will look on the site. Links open in a new tab.</p></div>
+    <iframe id="preview-frame" title="Preview of the entry"></iframe>
+  </section>
+
+  <section id="view-compare" class="ed-wrap ed-compare" role="tabpanel" aria-labelledby="tab-compare" hidden>
+    <div id="compare-out"></div>
+  </section>
+</div>
+
+<!-- After saving -->
+<dialog id="saved" class="ed-dialog" aria-labelledby="saved-h">
+  <h2 id="saved-h">Saved</h2>
+  <p>Two files are in your Downloads folder: <code id="saved-xml"></code> and <code id="saved-js"></code>.
+    If the browser asked whether to allow several downloads, choose Allow. You can also download them again here:
+    <a href="#" id="again-xml">.xml</a> · <a href="#" id="again-js">.js</a></p>
+  <p class="ed-warn">Check that the file names are exactly as above. If your computer added something like <code>(1)</code>, rename the file before uploading.</p>
+  <h3>To publish it</h3>
+  <ol id="saved-steps"></ol>
+  <p>The full step-by-step guide is in <a id="guide-link" href="../EDITING.md" target="_blank" rel="noopener">EDITING.md</a>.</p>
+  <details>
+    <summary>Search index</summary>
+    <p>The search and A to Z pages update themselves after you upload, when the site's automatic rebuild is set up on GitHub.
+      If it isn't, download the updated index files and upload them to <code>site/data</code>.</p>
+    <p><button type="button" class="ed-btn small ghost" id="index-dl">Download updated index files</button> <span id="index-msg" class="ed-hint"></span></p>
+  </details>
+  <form method="dialog"><button class="ed-btn primary">Done</button></form>
+</dialog>
+
+<!-- Choose an entry (related entries, links) -->
+<dialog id="picker" class="ed-dialog" aria-labelledby="picker-h">
+  <h2 id="picker-h">Choose an entry</h2>
+  <input id="picker-q" type="search" autocomplete="off" placeholder="Name or ID" aria-label="Name or ID">
+  <ul id="picker-results" class="ed-results"></ul>
+  <form method="dialog"><button class="ed-btn ghost">Cancel</button></form>
+</dialog>
+
+<dialog id="help" class="ed-dialog" aria-labelledby="help-h">
+  <h2 id="help-h">How publishing works</h2>
+  <ol>
+    <li>Open or start an entry here and make your changes. Your work is kept in this browser as you go, so a closed tab isn't lost.</li>
+    <li>Use <strong>Preview</strong> to see the page as it will look, and <strong>Compare</strong> to see what you changed.</li>
+    <li>Press <strong>Save files</strong>. Two files go to your Downloads folder: the entry (<code>.xml</code>) and a copy the site loads (<code>.js</code>).</li>
+    <li>Upload both files to the eMelbourne repository on GitHub, through the GitHub website. Nothing changes on the site until you do.</li>
+  </ol>
+  <p>The full guide is <a href="../EDITING.md" target="_blank" rel="noopener">EDITING.md</a>.</p>
+  <form method="dialog"><button class="ed-btn primary">Close</button></form>
+</dialog>
+</body>
+</html>

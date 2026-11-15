@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Albion</title>
+<author>John Lack</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00048</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Albion</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3020, 14 km W, Brimbank City)</p>
+<p>Albion began as a township in the 1850s, immediately west of Braybrook on the Ballarat Road, and became part of the Braybrook Road Board in 1860 when the census credited Albion village with more residents than Braybrook itself. Albion was the ancient poetic name for Britain, and today the main reminder of this overly optimistic venture in subdivision and promotion is the liberal sprinkling of English street names in Sunshine and Sunshine North. Most of the closer residential development followed the establishment of H.V. McKay's Sunshine Harvester Works at Braybrook rail junction after 1906, and was boosted by industrial development after World War II. By the 1950s the name had come to be applied to a wide area west of the subdivision, with the opening of Albion railway station in 1860, the establishment of Albion Quarrying Co. in 1888, the reopening of Albion station on its current site in 1919, and the creation of the Explosives Factory (Albion) at Deer Park from 1938. With the disappearance of all but the railway station, however, Albion today denotes a small residential area in west Sunshine between the St Albans railway line to the east and the Jones and Kororoit creeks in the west. The suburb is noteworthy for its large Maltese population, and the name survives in several clubs and societies.</p></div>
+</body>
+</text></TEI>

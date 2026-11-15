@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mormonism</title>
+<author>Peter Sherlock</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01012</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>One of Australia's fastest growing minority religions, Mormonism has been represented in Melbourne since the first missionaries arrived in the early 1850s. However, 72 early converts left for Utah in 1855, and the missionaries followed in 1857. The Latter-day Saints returned in 1869 but converts continued to emigrate to Utah. In 1922 the first chapel was built in East Melbourne, and a women's relief society was organised. Postwar growth led to the creation of Melbourne stake in 1960, and the opening of a temple in Wantirna South in 2000. The church's genealogical centres are well-known to Melbourne's family historians.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000301" type="book"><author>Newton, Marjorie</author> <title level="m">Southern cross saints: The Mormons in Australia</title> <pubPlace>Laie, Hawaii</pubPlace> <publisher>Institute for Polynesian Studies</publisher> <date>1991</date></bibl></listBibl></div></back>
+</text></TEI>

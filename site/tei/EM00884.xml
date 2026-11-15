@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Magic</title>
+<author>Gerald Taylor</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00884</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>From 1855 when the English Wizard Joseph Jacobs opened the Olympic Theatre for George Coppin, many of the world's greatest magicians appeared in Melbourne, including Howard Thurston (1905), Chung Ling Soo (William Robinson 1909) and Dante (Harry Jansen 1933 and 1935). On 17 February 1910, 20 000 people watched the world famous escapologist Harry Houdini jump manacled into the Yarra River and escape. Australia's own international performer, the Great Levante, had the longest run, playing at the King's Theatre for three months in 1940-41.</p>
+<p>Will Andrade advertised magical tricks for sale in 1900. Other magic shops of note were Claude Guest's Magic Depot, The Play Shop, Aladdin's and Seward's. Bernard's Magic Shop in Elizabeth Street opened in 1937 and is the oldest magic shop in Australia. In the suburbs, Will Alma manufactured quality apparatus at South Melbourne and Richard 'Doc' Rowe ran a mail order business from his home in Toorak.</p>
+<p>The oldest magic club in Melbourne, the Australian Society of Magicians, commenced in 1920, followed by the Magic Circle of Victoria (1938) and the Melbourne Ring of the International Brotherhood of Magicians (1949). Australia's first Convention of Magicians was held in Melbourne in 1952, and the 25th Australian Convention of Magicians in 1996. Melbourne hosts the national magic convention once every four years.</p>
+<p>The advent of television in 1956 made household names of Bernard the Magician (Alfred Gertler) and Parer the Magician (Tommy Parer). Virgil, an American performer, presented the last big touring show of the 1950s at the Princess Theatre in 1952, while the Broadway magical-musical, <hi rend="italic">The Magic Show</hi>, played at the Princess in 1975. A revival of magic brought about by television specials saw American superstar David Copperfield visit Melbourne in 1996.</p>
+<p>With the demise of variety theatres, magicians sought to adapt to new forms of entertainment. Today they appear on television and at theatre-restaurants, clubs, corporate promotions and private functions.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000531" type="edited-book"><author>Waller, Charles</author> <title level="m">Magical nights at the theatre: A chronicle</title> <pubPlace>Melbourne</pubPlace> <publisher>Gerald Taylor Productions</publisher> <date>1980</date></bibl></listBibl></div></back>
+</text></TEI>

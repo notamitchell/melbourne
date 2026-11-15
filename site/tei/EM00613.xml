@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>French</title>
+<author>Wallace Kirsop</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00613</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Part of Melbourne's life since the 1850s, the francophone community includes Belgians, Swiss, French Canadians, Lebanese and Mauritians as well as the French. Immigration from France itself has been largely an individual phenomenon with the accent on economic betterment or self-fulfilment, and there is little evidence of the chain-migration patterns observable in some French settlements in the Americas. However, before Federation, French-born persons, although not numerous (1382 in Victoria in 1891), counted among the largest non-British groups. Twentieth-century immigration peaked in the 1970s, but on a smaller scale than that for the principal post-1947 immigrant communities. Temporary residents with business or official postings have been more noticeable in recent decades, as opposed to the long-stay refugees or brides of World War I soldiers of earlier years.</p>
+<p>Given their diverse origins and motives for emigration, the French have followed many callings, some of them, like wine-growing, rural rather than urban. The first arrivals, drawn to rural areas by gold, later regrouped in Melbourne. Thereafter it is possible to identify several favoured occupations, mostly maintained up to the present: teachers, musicians, artists, importers (especially of wine and spirits), restaurateurs, chefs, bakers, pastrycooks, wool-buyers. In addition there have been scientists, medical practitioners, members of religious orders, booksellers, publishers, photographers and actors, as well as others doing clerical or manual work and thoroughly assimilated into the wider society.</p>
+<p>Despite this dispersal of French settlers, the local community has had a strong infrastructure: a consulate from 1852, the creation of the local branch of the Alliance Française in 1890, a Chamber of Commerce from 1899, a benevolent society, an association of ex-service personnel, groups for French speakers and Francophiles, and, more recently, schools. On the other hand, <hi rend="italic">Le Journal de Melbourne</hi> lasted for three numbers (27 November - 11 December 1858), whereas Sydney's <hi rend="italic">Le Courrier Australien</hi> (founded 30 April 1892) is the country's oldest surviving foreign-language newspaper.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000348" type="book"><title level="a">The French presence in Victoria 1800-1901</title> <title level="m">Exhibition catalogue, Victorian Artists' Society, East Melbourne, 3-13 December 1984</title> <pubPlace>Melbourne</pubPlace> <publisher>Alliance Française de Melbourne</publisher> <date>1984</date></bibl></listBibl></div></back>
+</text></TEI>

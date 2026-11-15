@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Skating</title>
+<author>Jo Hook</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01380</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Ice-skating was introduced to Melbourne when the Glaciarium icerink opened in City Road, South Melbourne, in 1906. Bands played waltzes from the bandstand, and at half-time speed skaters enjoyed five minutes of faster-paced music. The St Moritz on the Esplanade in St Kilda, built in 1924, became an icerink in 1939. Skating was a popular pastime during World War II, and American servicemen frequented the St Moritz. For a generation of Melburnians the rink became a social focus. The 'Glaci' closed in 1957, the St Moritz in the early 1980s. Ice-skating gained popularity again in Melbourne in the 1980s with the Sidney Myer Music Bowl's rink of pink ice operating each winter from 1984 until 1998. The Burley family opened icerinks in Ringwood and Footscray, and other rinks opened in Oakleigh and Dandenong. Only Ringwood and Oakleigh survive in Melbourne today, and they field a successful ice hockey competition and figure-skating teams.</p></div>
+</body>
+</text></TEI>

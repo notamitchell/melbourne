@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Convent of the Good Shepherd (Abbotsford Convent)</title>
+<author>Anne Dalton</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00396</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>The present Abbotsford Convent building in St Heliers Street was designed in 1899 by architects Reed, Smart &amp; Tappin. This building replaced the original convent, a large villa known as Abbotsford House, which had been used to accommodate the Good Shepherd Sisters since their arrival in Melbourne in 1863. U-shaped in plan, the upper floors of the present convent employ central corridors to access the nuns' rooms. The exterior features grey roughcast stucco and a red-brick façade with slate roof and tall chimneys. The first section was opened on 13 April 1902 by Reverend T.J. Carr, Catholic Archbishop of Melbourne. Nearly 2000 people were in attendance. The Western Wing was completed in 1903. The Sisters sold the Convent in 1975 to the Institute of Early Childhood Development. In 1989 it became a La Trobe University Campus for the Faculty of Health Sciences. The Collingwood Children's Farm was established on the Yarra riverfront. After an intensive anti-development campaign, title of the heritage-listed site was transferred to the Abbotsford Convent Foundation in 2004, with the site earmarked for a community arts, education and cultural precinct.</p></div>
+</body>
+</text></TEI>

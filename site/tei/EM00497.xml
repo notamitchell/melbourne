@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Eastern Hill</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00497</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Surveyor Robert Hoddle's street grid, aligned to the Yarra River, had as its horizontal bookends Batmans Hill at the western or Spencer Street end, and Eastern Hill to the east past Spring Street. More a rise than an eminence, in the town's early topography Eastern Hill was a pretty wooded hill, already becoming fashionable by 1840, and soon covered with neat cottages. At a distance from the commercial western hub of the town, East Melbourne would develop as the dormitory of professional Melbourne in the decades following the 1850s gold rush. An early water supply tank was erected on the hill in 1855, fed by a steam pump from the Yarra River and servicing lower-lying areas until the opening of the Yan Yean scheme later in the decade. St Peter's Eastern Hill was constructed at the south-west corner of Gisborne and Albert streets in 1846-48, and because of the location of St Patrick's Cathedral on the east side of Gisborne Street, and Presbyterian, Lutheran and Unitarian reserves on a block to the south, the area was sometimes known as Church Hill. The precinct was also recognisable as the location of educational institutions including a Jewish school, Scotch College, the Model School, Parade College, Presbyterian Ladies' College, and St Patrick's College. The tower at the Eastern Hill Fire Station (1893) took advantage of the site's elevation to provide a site from which fires across the metropolis could be spotted.</p></div>
+</body>
+</text></TEI>

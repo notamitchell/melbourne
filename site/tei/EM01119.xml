@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>My Melbourne: Childhood Memories</title>
+<author>Dame Phyllis Frost</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01119</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>I was born in 1917 and lived in Brighton for the first five years of my life. We moved to Croydon on my fifth birthday in 1922. Early childhood memories of Melbourne are vividly etched into my long-term memory. Being taken 'into town' for the day meant all sorts of fun and adventure and a day packed with excitement.</p>
+<p>Perhaps my earliest visit was to the Cyclorama. I think we went to a building up near the Exhibition Building. Once inside you found yourself in a circular scene depicting some of the wars in which Australians had been involved, like the Boer War in South Africa and scenes of the landing in Gallipoli. There seemed to be lots about the British Empire, 'on which the sun never sets'. England was known as our motherland and we were all loyal subjects of the monarchy; nobody prattled on about a republic in those days.</p>
+<p>At the age of three I spelled my first word of five letters, <hi rend="italic">Aspro</hi>. That was because there was a big electrical sign that winked on and off on the south bank of the Yarra spelling out A-S-P-R-O, ASPRO, day and night. Beside it was a bear, also in lights, licking a Sennitts ice-cream. We loved those electric signs. As a small child I became ecstatic when I first saw the Skipping Girl Vinegar animated sign in Abbottsford. It was fascinating and we watched it every time we passed.</p>
+<p>There was a pitiful zoo at Royal Park where all the animals - lions, tigers, even polar bears - were kept in small barred cages with protective fences around them. 'Molly the Monkey', who was a big monkey, used to sit all by herself in a little cage with no recreational space or even a tree stump to climb. Each afternoon the elephant, 'Queenie', was saddled with a big, long saddle, and adults and children sat back to back with long leather straps to hold them in.</p>
+<p>We loved riding on the dummy part of the cable trams as they clanged along. The grip man (driver) stood in the centre of the dummy and operated the levers. There were horse-drawn cabs on four wheels and smaller hansom cabs on two wheels - where the driver sat up at the back and talked to his passengers through a little trapdoor.</p>
+<p>But one of the really wonderful parts of Melbourne that 'melted away' was the Eastern Market. There was a Turkish man who sat at the entrance intoning a sort of chant - 'Turkey Lolly, who'll buy lolly, good for Susie, good for Johnnie' - all the time he was making pink fairy floss in a spinning cylinder worked by a foot treadle. He did a roaring trade. There were animals, bird and pet shops. Native animals, birds and reptiles were not protected, so not only were there puppies, kittens and white rabbits, but there were also rosellas, talking cockatoos, sometimes a talking magpie, tortoises and lizards.</p>
+<p>Father Christmas appeared in some of the streets in Christmas week - never before - and he distributed little toys or sweets to children. We had no Mother's Day or Father's Day or Easter bunnies, but we did have hot cross buns available in the baker's shop on the day before Good Friday.</p></div>
+</body>
+</text></TEI>

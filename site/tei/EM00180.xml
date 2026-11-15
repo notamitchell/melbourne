@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bells</title>
+<author>Brian Hubber</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00180</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>From the first European settlement in the 1830s, bells have been part of Melbourne's aural history. The ringing of bells regulated the life of the city, warned of danger and celebrated achievements. Melbourne's first peal was the six-bell peal installed in St James' Old Cathedral in 1852. St Patrick's Cathedral has an eight-bell peal, cast in Dublin and purchased by Bishop Goold in 1853; the bells were hung in 1868. St Paul's Cathedral's magnificent 12-bell peal, hung in 1890, is one of only two outside England. Post offices, being unofficial public timekeepers, often have a clock tower and bells. The Melbourne General Post Office has 12 fixed bells. At every third hour the bells are played by means of a rotating drum fitted with pins. Four barrels, each pinned for seven tunes, play such favourites as Brahms' 'Lullaby' and 'Waltzing Matilda'. Many town halls built in the 1870s and 1880s (although not the Melbourne Town Hall) had clocks with bells. Some of these continue to ring the hours and quarter hours. A single bell could have a number of uses in its lifetime. On 11 November 1850 the <hi rend="italic">Lysander</hi>'s ship-bell announced the Separation of Victoria from New South Wales. When the <hi rend="italic">Lysander</hi> became a prison hulk, the bell regulated prison life. From there it went to Pentridge Prison, to the Coburg fire station, and eventually to the Melbourne Cricket Ground, where until 1956 the time-keepers used it for football games. The <hi rend="italic">Lysander</hi>'s bell is now in the Australian Gallery of Sport at the Melbourne Cricket Ground.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000324" type="book"><author>Pettet, Helen, and Doggett, Anne</author> <title level="m">The bells are ringing: A celebration of Melbourne life through the story of her bells</title> <pubPlace>Melbourne</pubPlace> <publisher>Authors</publisher> <date>2001</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Port Phillip Association</title>
+<author>A.G.L. Shaw</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01164</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00007.xml"><desc>Early Settlement</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Port Phillip Association sprang from a small syndicate of investors who hoped to develop pastoral activities on the northern shores of Bass Strait. In April 1835 Hobart banker Charles Swanston, lawyer Joseph Gellibrand, surveyor John Wedge and pastoralist John Batman agreed to send Batman to Port Phillip to investigate prospects there. He found the land excellent for grazing, and when he met a group of the Woi wurrung, he persuaded them to sign an agreement (Batman treaties), whereby he claimed to have bought 600 000 ac (240 000 ha) for his syndicate.</p>
+<p>Back in Launceston he reported his 'purchase' to his partners. They decided to expand their enterprise and soon persuaded twelve others to join them in forming the Geelong and Dutigalla Association, soon renamed the Port Phillip Association, to exploit 'their' land. Each member was to receive one share in the land, which he was to develop himself, and agreed to send 1000 sheep to Port Phillip within a year. On average they did so, but before long many of the members began selling their shares, particularly to Swanston and Gellibrand, as the imperial government delayed ratifying the 'purchase'. In November 1836 Governor Bourke agreed to pay the association only a 'fair' compensation in land at the price of five shillings an acre for the costs its members had incurred <hi rend="italic">before</hi> his declaration in August 1835 that all settlers there were trespassers on Crown land. This the government fixed at £7000, or about £400 a share.</p>
+<p>By 1838 Swanston, Mercer and another pastoralist, Thomas Learmonth, had bought all the shares, including those of Gellibrand, who had been killed, and formed the new Derwent Co. It bought 10 500 ac (4200 ha) of freehold land near Geelong, at auction, for 15 shillings an acre, using the £7000 compensation in part payment - which was the end of the association's great hopes of 1835.</p></div>
+</body>
+</text></TEI>

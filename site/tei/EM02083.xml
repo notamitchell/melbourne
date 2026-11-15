@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Grey Street Fountain</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02083</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00576.xml"><desc>Fitzroy Gardens</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Artist unknown Cement fountain 1863 Fitzroy Gardens, opposite Grey Street</p>
+<p>Known simply as the Grey Street Fountain, this is one of the oldest fountains in Melbourne's public gardens. Manufactured by Garnkirk, its simple design comprises three tazza bowls of diminishing size set on a volcanic-rock outcrop within a pool.</p>
+<p>Its construction commenced in 1863 under the direction of Clement Hodgkinson, the assistant commissioner of the Survey Office. The original concept incorporated a pool 100 feet (30.5 metres) long, with a central cluster of rocks from which water was to be ejected to nearly 50 feet (15.25 metres), though this appears not to have been realised. The pond was filled with small islands of aquatic plantings and Sydney couch grass.</p>
+<p>In 1968, Melbourne City Council wanted to replace the fountain with an elaborate sundial to commemorate the recently deceased Prime Minister Harold Holt. When the council's intention became known, some 800 people petitioned against the fountain's removal. In the face of such opposition, plans for the sundial were scrapped and the Grey Street Fountain retained.</p>
+<p>The fountain is the only surviving ornament in its original position remaining in Fitzroy Gardens from that period.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000125"><head>Grey Street Fountain</head><graphic url="../objects/images/GreyStreetFountain.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_GreyStreetFountain.jpg"/><p>Artist unknown 1863</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

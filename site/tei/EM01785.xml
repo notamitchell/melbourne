@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Eastern Arcade</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01785</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00079.xml"><desc>Arcades</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00499.xml"><desc>Eastern Market</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Eastern Arcade was located between Russell and Exhibition streets, extending from Little Collins Street to Bourke Street. The Eastern Arcade was a two-level building constructed in 1872 on the site of the former Haymarket Theatre. The site was adjacent to the Eastern Market, originally a fruit and vegetable market that by the late 1800s was the heart of Melbourne's Saturday nightlife.</p>
+<p>Eastern Arcade was originally home to a multitude of business from booksellers and hairdressers to newsagents and pie stores. In 1895, David Kinnear owned both a wine shop and a refreshment room in the arcade. The varying nature of businesses within the arcades is highlighted in an 1893 complaint to the city health inspector by G.H. Minet of the Advanced Literature and Book Depot, located at 13 Eastern Arcade. Minet complained of the 'erection of incubators and chickenhouses' within the arcade, citing that it was unhealthy for the business proprietors and would 'oblige them to leave'. Inspector B. Ford followed up the complaint with two inspections, finding on both occasions that the premises in question were clean and well ventilated, thus posing no risk to the health of the surrounding businesses.</p>
+<p>By the 1950s, the arcade had closed and was reconfigured as a furniture store, later to become an outlet of the Fletcher Jones clothing company. Most recently the former Eastern Arcade has been home to the Allans Music Store.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000673" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1892</date></bibl><bibl xml:id="PEM000674" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1930</date></bibl><bibl xml:id="PEM000683" type="resource-section"><title level="a">Block Arcade, H0032, File no 602703 (1-8)</title> <title level="m">Victorian Heritage Register On-Line</title> <date>2000</date> <ref target="http://www.doi.vic.gov.au/doi/hvolr.nsf">online</ref></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="person" subtype="person" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Nimmo, John</title>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02366</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>John</forename> <surname>Nimmo</surname></persName><sex value="1"/><birth when="1819-10-20">20 October 1819, <placeName>Catrine</placeName></birth><death when="1904-03-11">11 March 1904</death><occupation>businessman</occupation><occupation>parliamentarian</occupation><occupation>surveyor</occupation></person></listPerson></standOff>
+<text><body>
+<div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM002009" type="book"><author>Daley, C.</author> <title level="m">The History of South Melbourne</title> <pubPlace>Melbourne</pubPlace> <date>1940</date></bibl><bibl xml:id="PEM001994" type="book"><author>Garryowen</author> <title level="m">Chronicles of Early Melbourne</title> <pubPlace>Melbourne</pubPlace> <date>1888</date></bibl><bibl xml:id="PEM000191" type="book"><author>Hoare, Benjamin</author> <title level="m">Jubilee history of the Melbourne Harbor Trust: compiled from the original records of the Trust and from the Victorian Hansard</title> <pubPlace>Melbourne</pubPlace> <publisher>Peacock Brothers</publisher> <date>1927</date></bibl><bibl xml:id="PEM000974" type="resource-section"><author>Mitchell, Ann M.</author> <title level="a">Nimmo, John (1819-1904)</title> <title level="m">Australian Dictionary of Biography, online edition</title> <publisher>Australian National University</publisher> <date>2006</date> <ref target="http://www.adb.online.anu.edu.au/biogs/A050392b.htm">online</ref></bibl></listBibl></div></back>
+</text></TEI>

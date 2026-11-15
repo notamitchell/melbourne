@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Royal Park Depot</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01283</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located at 900 Park Street, Parkville, the Royal Park Depot was the sole reception centre for children committed to State care from 1880 to 1961. The depot was adjacent to the Royal Park Industrial School (later used by the Immigrants' Aid Society for Aged Care), an 800-bed institution opened in 1875 but abandoned four years later with the introduction of boarding-out.</p>
+<p>A series of cottages, with an adjoining farm, the depot was designed to provide short-term care for up to 60 children. Ideally, infants were dispatched to local wet nurses within a day, and older children moved on within one week, but over time the numbers in the depot grew, with 'hard-to-place' adolescents, children with intellectual disabilities and syphilitic infants forming a core of long-term residents, some of whom stayed on as workers when their wardship came to an end.</p>
+<p>Average daily occupancy, which had risen to 100 by 1910, doubled by 1920. Ex-ward Walter Jacobsen remembered the depot as a very accepting place. Child-welfare activists were more critical, forcing an inquiry in 1920, which recommended that the depot be used only for reception care. However, the collapse of boarding-out during the depression intensified the overcrowding, despite arrangements to place some children in non-government orphanages and children's homes.</p>
+<p>A 1952 <hi rend="italic">Herald</hi> campaign again condemned the depot, yet it was 1960 before the government acted on this critique, promising new centres that would separate neglected children from juvenile offenders. In 1961 Allambie, a reception centre for children, was opened at Burwood, but the depot buildings, renamed Turana in 1952, were still used for adolescent males, with Baltara, built on the western end of the block, for younger boys. By the late 1990s all reception care had been contracted out to regionally based foster care agencies, but the Melbourne and Parkville Juvenile Justice Centres still operate from the site.</p></div>
+</body>
+</text></TEI>

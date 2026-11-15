@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Wood Blocks</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01639</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Used for street paving in St Petersburg (1820) and Manchester (1838), and first suggested for use in Melbourne's streets in the early 1840s, wood blocks were introduced to Echuca (1860s) and Sydney (January 1881) before being trialled in Melbourne. Test sections were laid in Spencer Street in 1880, and in March 1881 a section of wooden pavement was opened to traffic at the intersection of Collins and Swanston streets. Hailed as a clean, noiseless, low maintenance and durable solution to problems of street surfacing, hardwood blocks in 6-inch (15 cm) lengths were laid on a concrete foundation and coated annually with prepared tar. The use of hardwoods was pioneered by A.C. Mountain, city surveyor of Sydney (1879-1886) and Melbourne (from 1887). In 1897 Mountain published <hi rend="italic">Wood-paving in Australia</hi>, in which he recorded 112 acres (45 ha) of wood paving in Melbourne's streets to Sydney's 103 acres (41 ha). By 1915 wood paving extended to most streets of the central city, as well as many in the inner suburbs. By the 1930s wood paving was being replaced with concrete, the old tar-impregnated blocks becoming a popular substitute for firewood. In 1954 the Melbourne City Council distributed 500 tons to pensioners for winter fuel, though 149 acres (60 ha) still remained. Remnant sections could still be found at the end of the 20th century in some tram reserves.</p></div>
+</body>
+</text></TEI>

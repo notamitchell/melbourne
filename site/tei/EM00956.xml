@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne Town Hall</title>
+<author>Graeme Tucker</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00956</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01693.xml"><desc>Athenaeum Place</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02063.xml"><desc>Coat Of Arms</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Prominently located at the north-east corner of Swanston and Collins streets, the current town hall replaced an earlier building (1853), and was opened in 1870. Melbourne's municipal showpiece, cultural venue and meeting place for political and social debate, it was designed in the French Second Empire style by competition-winning architect Joseph Reed. The portico was added in 1887.</p>
+<p>A much smaller hall was originally envisioned but concerned citizens successfully petitioned the council to vastly increase its size. This was to allow many more people to gather and debate varied issues of the moment. But meetings on controversial topics were regularly faced with strict conditions or banned outright by conservative councils from the 1890s until the 1950s.</p>
+<p>The hall was also the hub of Melbourne's social life. To celebrate its opening, Mayor Samuel Amess hosted a grand concert and mayoral ball, and commissioned a cantata from composer Charles Horsley and poet Henry Kendall. Mayoral balls became Melbourne's pre-eminent elite social event with the exception of balls at Government House.</p>
+<p>As Melbourne's main concert venue the hall saw the debut of Nellie Melba in 1884. As venue for Melbourne Symphony Orchestra performances, it showcased many famous visiting musicians. The Beatles were given a civic reception in 1964 and rock music groups appeared regularly throughout the 1960s, although the exuberance of the fans sometimes caused consternation to the council. The hall had been furnished with a grand organ costing £7350 in 1872 that was used for regular public recitals. Popular culture was also addressed by regular film screenings until the 1930s. The hall was even the venue for the world's first narrative film with the premier of <hi rend="italic">Soldiers of the cross</hi> in 1900.</p>
+<p>After a fire in 1925 a larger auditorium was built, extending across the site of the former Victoria Coffee Palace, and featuring murals designed by Napier Waller. The redevelopment secured the hall's role as Melbourne's premier concert venue until the opening of Festival Hall, Myer Music Bowl and the Hamer Hall. Even so, the hall still fulfils similar functions to those of 1870, albeit in a more modest way.</p></div>
+</body>
+</text></TEI>

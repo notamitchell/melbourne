@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Storey Hall</title>
+<author>Catherine Waterhouse</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01429</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01713.xml"><desc>Bowen Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01714.xml"><desc>Bowen Street</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Constructed in 1884-87 for the Hibernian Australasian Catholic Benefit Society, the Hibernian Hall at 342-346 Swanston Street was renamed several times (Guild Hall from 1907; the Dureau Memorial Building from 1946) before its 1959 reopening as Storey Hall, after Sir John Storey (a longtime council member of the Melbourne Technical College) and his son John (an engineering student who had died in 1947). Other occupants have included the Women's Political Association (from 1916), various commercial and manufacturing companies (from the early 1920s) and Melbourne Legacy (from 1946). Part of RMIT since 1954, it underwent an award-winning refurbishment in 1994-95, with its eye-catching shapes inspired by chaos mathematics. Its vibrant green and purple reflect two significant early uses: Catholic then feminist activism.</p></div>
+</body>
+</text></TEI>

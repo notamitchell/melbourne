@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Gas Holders</title>
+<author>David Dunstan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00629</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Commonly but wrongly known as 'gasometers', these large cylindrical structures dominated Melbourne urban skylines until the 1970s. An inverted canister (or series of canisters) floating on water but rising and falling on a frame according to its contents, gas was pumped in at a pressure sufficient to raise the lifts and storage tanks. By this means gas could be stored and delivered when demand exceeded plant supply. The Melbourne company's plant at West Melbourne (1856) was the first but an additional 350 000-cubic-feet (30 000 m3) holder had to be ordered from England soon afterwards. Demand for light and power saw gas holders proliferate across the suburbs. By 1960 the Gas and Fuel Corporation had 30 in its area of supply with two at Preston and Highett each of 3 million cubic feet (255 000 m3) capacity. The explosion of the Metropolitan Gas Company's large South Melbourne gas holder on 4 April 1920 was one of Melbourne's memorable accidents. Gas holders have vanished since changes in technology and the supply of natural gas by pipeline from undersea reserves in Bass Strait, their land given over to other uses.</p></div>
+</body>
+</text></TEI>

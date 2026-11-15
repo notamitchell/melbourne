@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Africans</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00038</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Around 2000 Somali-born Africans came to Melbourne following the 1991 civil war in that country, and the city continues to be the centre of the Australian population of Somali and Nigerian immigrants. As diverse communities divided along clan or ethnic lines, Melbourne's Africans have been represented and supported by a number of cultural, community and welfare organisations including the Somali Relief Association, the Nigerian Society of Victoria, the Ethiopian Community Association of Victoria, and the African Communities Council of Victoria, a short-lived umbrella organisation in the 1990s. Melbourne's Somali population was initially concentrated around Springvale (the location of the Enterprise migrant hostel) and south-western suburbs, while Footscray has been the epicentre of the Ethiopian population. The influence of African immigrants on Melbourne's ethnic character has been revealed in recent decades through the burgeoning of African restaurants, cafés, bands, and community radio programs. At the Centre for Education and Research in Environmental Strategies park in Brunswick, an African Village has from 1988 been the centrepiece of a multicultural education program.</p></div>
+</body>
+</text></TEI>

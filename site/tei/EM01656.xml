@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Yarra Boot Trunk Tragedy</title>
+<author>Simon Cooke</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01656</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>On 17 December 1898 the naked corpse of a young woman was discovered in a yellow box floating in the Yarra River at South Richmond. More than 8000 people came to see the body, or later the preserved head, at the morgue. Sometimes more than 1500 people came in a single day and police took advantage of public curiosity in the hope that the body would be identified. On 11 January 1899 the victim was identified as Mabel Ambrose, a 17-year-old who died during an abortion performed by 'Madame' Olga Radalyski at the behest of Travice Tod. Both were convicted of murder. Dr William Gaze, tried as an accessory, was acquitted.</p></div>
+</body>
+</text></TEI>

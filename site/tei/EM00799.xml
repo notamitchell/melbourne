@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Keysborough</title>
+<author>Lesley Alves</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00799</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Keysborough</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3173, 28 km SE, Greater Dandenong City)</p>
+<p>Located south-west of Dandenong, Keysborough is named after the Keys family who arrived as squatters in 1844 to become the district's largest landowners and influential participants in Dandenong's early local government. Keys-borough remained a close-knit community of farmers and market gardeners centred on a small group of pioneering families until the 1960s. In 1955 Keysborough was split between the municipalities of Dandenong and Springvale. Suburban subdivision began on the Springvale side around 1964, with the Parkmore Keysborough Shopping Centre opening in 1973. Much of Keysborough remains green wedge land, providing open space for the Keysborough Golf Club and a campus of Haileybury College.</p></div>
+</body>
+</text></TEI>

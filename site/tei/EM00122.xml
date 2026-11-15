@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Health Society</title>
+<author>David Dunstan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00122</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Formed in Melbourne in 1875 at the instigation of Unitarian Minister Martha Turner, the Australian Health Society was a sanitary association like those in Britain, its public meetings and tracts such as the 'Sanitary Alphabet' and 'A Bad Smell' promoting hygiene in the city and suburbs. The poor health of Melbourne meant a high incidence of diphtheria, measles, typhoid and other contagious diseases responsible for epidemics and many deaths, often among children and young adults. Issues raised included 'summer diseases' - ophthalmia (conjunctivitis) and sunstroke - and 'preservation of the teeth'. The society comprised doctors, prominent citizens and politicians. In 1880-82 it targeted poorer districts and women. Public meetings 'for wives and daughters' were held in Collingwood, Carlton, Richmond and South Melbourne. Schools were pressured to place health education on the curriculum. Society stalwarts Springthorpe &amp; Broddribb's <hi rend="italic">Manual of health and temperance</hi> (1891) was the basis for an annual examination in state schools. Reflecting improvements in the mortality figures in 1896 (before the introduction of underground sewerage), medical expert Professor H.B. Allen noted the improved public observance of 'rules of simple cleanliness [and] the practice of those known principles of sanitary economy'.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Victorian Aborigines Advancement League</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01551</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00001.xml"><desc>Aboriginal Melbourne</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Originating as the Save the Aborigines Committee, the Victorian Aborigines Advancement League (VAAL), founded in 1957, was a response to publicity about the condition of Aboriginal people in Warburton Ranges, WA. With Gordon Bryant MHR as president, Church of Christ minister Stan Davey as secretary and Doug Nicholls, Koorie minister at the Fitzroy Aborigines Mission, as field officer, it sought also to draw attention to more local concerns. Its predominantly non-Aboriginal membership engaged with local community leaders such as Margaret Tucker, Geraldine Briggs and William and Eric Onus to campaign for citizenship and retention of existing reserve lands and was a founding affiliate of the Federal Council for Aboriginal Advancement established in 1958. Suburban branches raised funds to establish hostels in Northcote for girls (1958) and boys (1964) and support a range of welfare programs.</p>
+<p>In 1964 the VAAL established an all-Aboriginal branch, the members of which, influenced by the Black Power movement, campaigned for black control. Their success, in 1969, saw the resignation of Nicholls and the decline of suburban branches, but the 'new' organisation, with Bruce McGuinness at its head, was 'owned' by the local community. Using Commonwealth government funding, in the 1970s the League was influential in the establishment of the Victorian Aboriginal Legal Aid Service, the Aboriginal Child Care Agency and an Aboriginal Women's Refuge. From its Thornbury offices the League continues to conduct welfare and community activities.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000457" type="book"><title level="m">Victims or victors?: The story of the Victorian Aborigines Advancement League</title> <pubPlace>Melbourne</pubPlace> <publisher>Hyland House</publisher> <date>1985</date></bibl></listBibl></div></back>
+</text></TEI>

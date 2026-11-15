@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Princes Walk Vaults</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01193</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Constructed for the Melbourne City Council (MCC) in 1890, their design attributed to A.W. McKenzie, the 19 vaults were part of works undertaken on the south side of Yarra Bank Road, which was realigned following completion of the new Princes Bridge in 1888. Located under the road's retaining wall, the barrel-vaulted cells of brick construction are approximately 5 m deep. With their south-facing openings in six bays of three, diminishing in size along the riverbank, they present a striking frontage faced with rusticated bluestone. Provision of a public toilet in the single vault to the west of the Princes Bridge was an early example of such facilities. The vaults were managed through the 20th century by the MCC, some used as council storerooms and others rented to tenants including the Victorian Motor Boat Club, the river police, confectioners, restaurants, hobby shops, the Cream Top motor hire service and a range of marine trades including boat-builders, motor boat proprietors and marine engineers. In 2003, with fewer than half of the vaults tenanted by river-cruise operators, they were transferred to the State Government-owned company Federation Square Management. The vaults are listed on the Victorian Heritage Register.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ballooning</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00148</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Following the popularity of balloon ascents in England after the 1851 Crystal Palace Exhibition, Melbourne entrepreneur and manager George Coppin, while on a visit to England in 1857, engaged two English aeronauts, Charles Henry Brown and Joseph Dean, to attempt a flight at his Cremorne Gardens at Richmond. In Sydney, French aeronaut Pierre Maigré had made a much-publicised but unsuccessful flight attempt in the Domain on 15 December 1856, when an impatient crowd rioted, resulting in the death of a young boy.</p>
+<p>On 1 February 1858 the English-made balloon <hi rend="italic">Australasian</hi> was partly filled with coal gas at the Melbourne Gas Works at Batman's swamp. Thirty men conveyed the balloon by horse and cart to Cremorne, where the 60-foot (18 m) high craft was topped up at Coppin's gasometer. A faulty valve meant that there was only enough gas for the balloon to carry one passenger, and it was Dean who took his place on the first recorded crewed balloon flight in Australia. Large crowds witnessed the event from vantage points on Yarra River steamboats, and the roads, paths and other elevated points around Richmond were jammed with spectators. The balloon floated for about 8 miles (13 km) and landed 'somewhere on the other side of Heidelberg'. A series of flights from Cremorne followed, with landings at Brunswick, Emerald Hill and on Dandenong Road at Springvale. A special medallion was struck to commemorate the inaugural flight.</p>
+<p>In December 1858, Brown, with actor Henry Edwards as a passenger, made the first successful flight in Sydney's Domain. Charles Brown's dead body was found in the Yarra River at Richmond in 1870, a police inspection of his body revealing a piece of wood with the name C. Brown engraved in a balloon design. In April 1879 aeronaut Henry L'Estrange survived when his balloon <hi rend="italic">Aurora</hi>, having set off from the grounds of the Agricultural Society, burst 9000 feet (2743 m) over Government House, the pilot inadvertently making Australia's first emergency parachute descent. Australia's earliest parachute descent from an aircraft was made by Captain G.C. Wilson at the Epsom racecourse at Mordialloc on 26 December 1919. At Essendon Airport on 21 November 1937, 17-year-old Jean Burns became the first female freefall parachutist in Australia to jump from an aircraft. The McKenzie Flying School's Parachute Wing introduced sports parachuting in 1958 at Lord Casey's Berwick airfield.</p>
+<p>Twentieth-century technological improvements such as the propane burner made balloon flights a popular leisure activity by the latter decades of the century. Early morning flights from inner-city parks and in the Yarra Valley are a popular tourist attraction and give a unique aerial vantage point over city landmarks.</p></div>
+</body>
+</text></TEI>

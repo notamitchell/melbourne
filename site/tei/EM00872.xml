@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Lygon Street Festa</title>
+<author>Helen Penrose</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00872</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00017.xml"><desc>Social Life &amp; Customs</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This annual street festival was first held in 1978 when the influence of the Italian community was at its peak in Lygon Street. It was organised by the Carlton Traders' Association as an adjunct to the Italian Arts Festival. Lygon Street was closed to traffic between Elgin and Queensberry streets for the weekend of the festival to encourage the event's family and community spirit. The Festa is held annually in October, and celebrates Italian food and culture with music, street theatre, food stalls, entertainment, and traditional events such as dancing, waiters' race and greasy pole competition. The event was renamed Festa Primavera in 2004 and the focus moved to Argyle Square off Lygon Street.</p></div>
+</body>
+</text></TEI>

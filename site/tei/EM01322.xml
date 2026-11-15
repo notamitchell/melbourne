@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Sandown Racecourse</title>
+<author>June Senyard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01322</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Sandown is situated 24 km from Melbourne in Springvale. In 1891 a racecourse at Springvale was established beside the railway line. It was then used for coursing until the Victorian 638 Trotting and Racing Association (VTRA) acquired the track for horseracing in the late 1940s. It passed to the Melbourne Racing Club (MRC) when the VTRA merged with the Williamstown Racing Club. In 1963 the MRC combined with the Victorian Amateur Turf Club and transformed the old racecourse. Sandown emerged in 1965, the only metropolitan racecourse to be opened in Australia in the 20th century. A racing circuit for motor sport, part of the redevelopment, had opened in 1962. Sandown, modelled on American racetracks, with sweeping turns, cambered corners and a long uphill straight, was designed to test the stamina of the horses. In 2002 the course was redeveloped as a dual circuit venue. The Sandown Classic (previously the Sandown Cup) closes the Melbourne Spring Racing Carnival.</p></div>
+</body>
+</text></TEI>

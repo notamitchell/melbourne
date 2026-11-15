@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Café Petrushka</title>
+<author>Gavin De Lacy</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00279</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Minka Wolman and Jessie Sumner established this Russian restaurant in 1937 at 144 Little Collins Street. The Petrushka became the rendezvous of the city's bohemians, intelligentsia, and sundry dancers from Colonel de Basil's Russian ballet troupe. A three-course meal including borsch cost 1s 9d, glass tumblers of tea 6d, and a Russian supper was available until midnight. Among the 'Petrushka-ites' were the artists Nutter Buzacott, Albert Tucker and Hayward Veal, and Writers' League confrères Robert Close and Alan Marshall. The Petrushka closed in 1939 but is described in Hal Porter's <hi rend="italic">The paper chase</hi> (Sydney, 1966).</p></div>
+</body>
+</text></TEI>

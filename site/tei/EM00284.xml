@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Camp Pell</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00284</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>An army camp reserved between the wars in Royal Park, Camp Pell was named after Major Floyd J. Pell, a US airman killed in 1942 defending Darwin against a Japanese air attack. Camp Pell housed American troops during World War II, and was home for a time to Eddie Leonski, the 'Brownout Strangler'. At war's end its army huts were soon taken over as emergency accommodation for low-income families evicted by slum clearance activities of the Housing Commission and awaiting other accommodation. In 1946, 3000 people were temporarily housed at the camp by the Cain Australian Labor Party Government, which was struggling to address acute postwar housing shortages. Until its closure in 1956 ahead of the Olympic Games, 'Camp Hell' was popularly represented in slum stereotypes as a hotbed of immorality and disease, while its residents struggled with the vagaries of rotting wooden and rusting metal huts, inadequate amenities and streets turned to mud whenever it rained. The original gate guard shelters remain, and the Urban Camp now occupying one of the remaining structures offers accommodation to rural schoolchildren.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>River God Fountain (aka Old Man Fountain, and Neptune)</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02044</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00264.xml"><desc>Burke and Wills Monument</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00576.xml"><desc>Fitzroy Gardens</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00579.xml"><desc>Flagstaff Gardens</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01513.xml"><desc>Treasury Gardens</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Charles Summers Stone and cement fountain 1862 Fitzroy Gardens</p>
+<p>Born in Somerset, England, in 1825, Charles Summers gained his earliest training with his father, who was a stonemason and builder. He was admitted to the Royal Academy at 24, but migrated to Australia three years later due to poor health. In 1855, Summers established a studio in Collins Street, and he was the founder of the Victorian Society of Fine Arts. He quickly rose to prominence, gaining many notable commissions, including a memorial to Burke and Wills.</p>
+<p>While Summers was the sculptor of this larger than life-size statue, which holds aloft an opened clamshell-shaped fountain, it was created in collaboration with Clement Hodgkinson. Born in England in 1818, Hodgkinson trained as a civil engineer before coming to Australia. A talented and diligent man, he joined Melbourne's Survey Office as a temporary draftsman and rose rapidly through the ranks to become deputy surveyor-general in 1858 and assistant commissioner for Crown Lands &amp; Survey in 1861. Described in the <hi rend="italic">Illustrated Melbourne Post</hi> as 'that most tasteful of amateur gardeners', he was responsible for the development of the Fitzroy, Flagstaff and Treasury Gardens. Hodgkinson was also instrumental developing the Yan Yean project, a reticulated water supply that was essential for the growing city and which allowed its gardens to exist on the scale they did. Based on works by Italian sculptors of the Renaissance, River God celebrated this permanent water supply for Melbourne.</p>
+<p>In 1956, council proposed replacing River God; it was in poor condition and 19th-century sculpture was thought to be old fashioned, despite the fountain's historical significance. In 1962, it was replaced with Robin Boyd's Fountain of the Birds. Some three decades later, River God was discovered in a council depot. In 1996, it was conserved and returned not to its original position, between Gipps and Hotham Streets, but above a newly created rockery. While it is an important historical monument, River God is also notable as an example of the work of Melbourne's foremost early sculptor, Charles Summers.</p></div>
+</body>
+</text></TEI>

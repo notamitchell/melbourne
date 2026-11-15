@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Degraves Place</title>
+<author>Alexandra Gerner</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01775</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01774.xml"><desc>Degraves Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00587.xml"><desc>Flinders Street Station</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Degraves Place is located between Elizabeth and Swanston streets. It extends to the east from Degraves Street, and doglegs to the south to a dead-end. It is named after William Degraves, a flour-miller, merchant, and Legislative Council representative, who owned the building on the corner of Flinders and Degraves streets. Degraves Place is also the location of the entrance to the Flinders Street Station underpass.</p>
+<p>In 2007 Degraves Place was chosen as one of four sites to house temporary artworks by Australian and international artists for the City of Melbourne's Laneway Commissions 2007. Heather B. Swann's 'Gates of Hell', a sculpture of the mythological multi-headed dog Cerberus, was situated at the entrance to the Flinders Street underpass between July and March 2008. Swann's sculpture, in addition to guarding the underpass, compelled the audience to contemplate the 'hellishness of now, the purgatories and punishments of the contemporary world'.</p></div>
+</body>
+</text></TEI>

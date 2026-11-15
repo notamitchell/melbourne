@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Churches of Christ</title>
+<author>M. Rosalyn Shennan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00346</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Church of Christ began with a meeting of six followers of the Disciples of Christ, James and Margaret Ingram, Henry and Elizabeth Picton and Mr and Mrs Lyle in early 1853. A similar gathering was held in Prahran the same year, and these two groups formed the nucleus of the Church of Christ in Melbourne. By 1859 Melbourne followers were meeting at the Russell Street Temperance Hall, and in 1861 a chapel was built in Chapel Street, Prahran. A number of other congregations were established in the suburbs in the 1860s, including Carlton where a chapel was constructed in Lygon Street in 1865. A visit by the American evangelist H.S. Earl in July 1864 did much to boost interest in the Churches of Christ, where life centred around the 'breaking of bread' at morning service and the evening evangelical service. In 1881, the Melbourne congregation settled in the former John Knox Presbyterian Church on the corner of Little Lonsdale and Swanston streets, purchasing the building two years later. Membership of the Swanston Street church grew from 60 in the mid-1860s to a peak of about 350 in the 1920s.</p>
+<p>Women have played an important role in the church. In 1863 one of three deacons appointed to the Brighton church was a woman. The first prayer meeting of 'sisters' was held the same year, called together by Mrs Davies of the Swanston Street congregation. During the depression, the Women's Social Service Auxiliary made and distributed clothing from its Melbourne headquarters and in 1931 reported providing assistance - everything from dentures to legal advice - to 2800 individuals.</p>
+<p>By the 1990s over 70 Church of Christ congregations existed in suburban Melbourne. The Swanston Street church has enjoyed a resurgence and has a large multicultural membership, many of whom are international students from nearby colleges and universities.</p></div>
+</body>
+</text></TEI>

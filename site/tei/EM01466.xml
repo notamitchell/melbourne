@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Tapping Man</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01466</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>A mechanical doll installed in the window of L.P. Alexander's tailor's shop at 214 Swanston Street, the tapping man has been remembered as an icon for a generation of Melbourne shoppers. In the mid-1950s the German-made 'little man' replaced another model from an earlier firm of tailors. A similar doll had also been placed in the window of Jimmy Mitchell's tailor shop at 224 Swanston Street in the 1930s. Alexander's registered the little man device as a trademark in 1958. It appeared on their clothing labels and featured in a radio jingle sung by Ron Blaskett and Gerry Gee. With tilting eyes, three-cornered hat and blue frock coat, the doll tapped on the window with a steel-tipped stick until Lou Alexander closed the store in 1971. In 1976 Don Lock rescued the doll from a rubbish pile, and in 1984 it was purchased for the toy collection of James Hardie Industries by chairman J.B. Reid. Donated in 1988 to Sydney's Juniper Hall Museum of Australian Childhood, in 1997 ownership was transferred to the Victorian branch of the National Trust. The figure has undergone two major restorations, and in 1998 was returned to public view in the window of Haigh's Chocolates in the Block Arcade.</p></div>
+</body>
+</text></TEI>

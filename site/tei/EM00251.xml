@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Buckley &amp; Nunn</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00251</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01684.xml"><desc>Albion Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01692.xml"><desc>Arc Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01689.xml"><desc>Arcade Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01720.xml"><desc>Buckley Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Buckley's was a prominent department store. Irish-born Mars Buckley arrived in Victoria in 1851 with goods he sold on the goldfields. He then opened a store in Bourke Street, and with partner English-born Crumpton Nunn established Buckley &amp; Nunn as one of Melbourne's biggest retailers. When Nunn died in England in 1891, Buckley sold the business to Robert Reid, and it later became a public company. In 1920-22 an emporium designed by Bates, Peebles &amp; Smart was built in Baroque Revival style at 310 Bourke Street (later occupied by David Jones) and became a significant element in the retail streetscape. In 1934 a new Men's Store opened next door at 294-296 Bourke Street. Designed by architects Bates, Smart &amp; McCutcheon in Jazz Modern style, the building won the Royal Victorian Institute of Architects' Street Architecture Medal as an exemplary modern design. The façade featured terracotta panels showing men in sports, casual and evening wear, while the store's lifts and decorative lift surrounds were fine examples of Art Deco style. Buckley &amp; Nunn later opened branches in several Melbourne suburban shopping centres, but in 1982, Sydney-based retailer David Jones Ltd acquired the company and rebranded the stores. Some linguists have offered the company name as a plausible eponym for the phrase 'Buckley's chance' ('Buckley's and none', i.e. next to no chance).</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM002000" type="book"><author>Buckley and Nunn Ltd</author> <title level="m">Guide to Melbourne</title> <pubPlace>Melbourne</pubPlace> <date>1902</date></bibl></listBibl></div></back>
+</text></TEI>

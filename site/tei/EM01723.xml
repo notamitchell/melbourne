@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bullens Lane</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01723</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00338.xml"><desc>Chinese</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The present Bullens Lane consists of the nineteenth-century Bullens Lane and Meares Lane, which attached the former to Russell Street at a right angle. The original Bullens Lane actually ran off Little Bourke Street at around a hundred degree angle with Russell Street and the other north-south lanes, and hence led pedestrians slightly south-east. The Chinatown lane was probably named for clothiers Frederick Bullen and Son, who operated a store in Little Bourke Street in the 1880s. The area was known to contain substandard housing arrangements and the residents of Bullens Lane must have suffered terrible conditions. In January 1891, Sun Kwongon complained of a smoke nuisance at the rear of his Little Bourke Street property in Bullens Lane. Bennett and Co.'s engine chimney produced soot 'which falls on to my premises, all day and night'. Sun Kwongon claimed he dared not open his windows or doors due to this hazard, a precaution which doubtless caused problems of its own. Since 1895, the lane has been straightened out and the chimneys snuffed. The lane now backs onto a fast food store.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000637" type="resource-section"><title level="a">Central Melbourne: Lanes A-B</title> <title level="m">Amendment C105 - CBD Laneways Review</title> <publisher>City of Melbourne</publisher> <date>2007</date> <ref target="http://www.melbourne.vic.gov.au/info.cfm?top=195&amp;pg=3065&amp;bp=1902&amp;coll=8">online</ref></bibl></listBibl></div></back>
+</text></TEI>

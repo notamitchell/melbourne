@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Fireworks</title>
+<author>Andrew Brown-May</author>
+<author>Mimi Colligan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00569</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>In 1839 the discharging of fireworks greeted the arrival of both Lady Franklin, wife of the Governor of Tasmania, and Superintendent Charles Joseph La Trobe, and fireworks have been a popular feature of celebrations and festivals from the first years of the settlement. Between 1853 and 1863, Cremorne Gardens featured fireworks on summer nights. Most commonly associated with Guy Fawkes Day and Empire Day, fireworks have, along with processions, arches, transparencies and street decorations, been an important part of the celebratory repertoire during royal visits, Moomba, New Year's Eve, major sporting events, Chinese New Year, and the Royal Melbourne Show.</p>
+<p>In 1867 Walter Draper's Royal Victorian Fireworks Establishment at Richmond, sole importer of Baker's English and Chinese fireworks, offered a range of rockets for the visit of the Duke of Edinburgh: asteroid rockets, bouquets, pyramids, pin wheels, roman candles, cracker mines, Chinese trees and water fountains. Pyrotechnist James Pain catalogued a similar array for the 1888 Centennial International Exhibition.</p>
+<p>Firework shows, with actors and hundreds of extras, were produced from 1886 to 1904 by James Pain and Brock &amp; Co. at the Friendly Societies' Gardens, the East Melbourne Cricket Ground and the Exhibition Sports Oval. Subjects included 'the last days of Pompeii', 'the Great Fire of London' and 'the siege of Port Arthur (China)' in 1904.</p>
+<p>By the late 1950s, the popularity of bonfires and fireworks on Empire Day led to its general celebration as 'Cracker Night'. By the early 1960s there was increasing concern on the part of the National Safety Council, police and municipal authorities about the annual damage list, which included letterboxes blown apart, trees and hedges caught alight, motorists having bungers thrown into their cars, and dozens of fires attended by brigades across the metropolitan area. Animal welfare organisations urged pet-owners to lock up their animals. Of greater concern were burns and eye injuries to children.</p>
+<p>By 1962 the Municipal Association of Victoria was calling for stricter enforcement of the <hi rend="italic">Police Offences Act 1958</hi> in relation to the use of fireworks in public places, and in 1963 new regulations were gazetted by the State Government, limiting the size and power of fireworks. A decade later the Public Health Commission recommended a total ban on small fireworks, and while exploding fireworks such as bungers and crackers were banned in 1974, it was not until 1982 that all shop-goods (as opposed to display or novelty) fireworks were banned, as a result of pressure from the Royal Australian College of Ophthalmologists and the Australian and New Zealand Burns Association.</p>
+<p>Restrictions on the sale of fireworks led to a trend towards larger and more sophisticated displays, licensed under the Dangerous Goods (Explosives) Regulations. From 1986 the Fox FM Skyshow became an annual fireworks extravaganza at Albert Park Lake as part of Australia Day celebrations. In 1990 the Dangerous Goods Branch of the Department of Labour investigated incidents at Moomba after unexploded fireworks launched from city rooftops and barges on the Yarra River caused damage to nearby cars and buildings.</p></div>
+</body>
+</text></TEI>

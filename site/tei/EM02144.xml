@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Migrant Women's Refuge</title>
+<author>Peg Fraser</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02144</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-18" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-06-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00365.xml"><desc>Co.As.It.</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02146.xml"><desc>Immigrant Women's Domestic Violence Service</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02141.xml"><desc>Migrant Women and Feminism</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02142.xml"><desc>Migrant Women's Activism</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Migrant Women’s Refuge opened in 1978 to provide emergency accommodation for migrant women and their children. It was the first refuge in Australia to meet the specific needs of migrant women experiencing domestic violence.  It is still in operation today.</p>
+<p><hi rend="italic">Later known as</hi>: Kara House</p></div>
+</body>
+</text></TEI>

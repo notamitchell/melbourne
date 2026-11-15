@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Freemasons Hospital</title>
+<author>Alan Gregory</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00610</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>A private non-profit charitable institution founded in 1937 as an expression of the charitable objects of Freemasonry, the Freemasons Hospital opened in Clarendon Street, East Melbourne, with four operating theatres, 56 beds and accommodation for 42 nurses. In 1957 a new wing increased capacity to 104 beds, later to 147 beds. There were further extensions, including an arthritis and injuries unit in 1981 and a cancer treatment centre in 1991. Today the hospital has 253 beds and 11 operating theatres, and is the third largest private hospital in Victoria. In 1989 a large day-procedure centre (known as the Freemasons Hospital Medical Centre) was opened on a different site in Victoria Parade, with specialist units in women's health services, surgery and day oncology, as well as a 38-bed maternity unit. While run by the Freemasons of Victoria and supported financially by them, the hospital is a company limited by guarantee, and admission is open to anyone.</p></div>
+</body>
+</text></TEI>

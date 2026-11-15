@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>My Melbourne: Summers in Melbourne</title>
+<author>Jennifer Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00550</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>The corner of Lonsdale and Spencer streets is not, at first blush, a likely place to linger in the memory. It is - or at least was then, in the early and mid-1970s - the confluence of two ugly stretches of baked bitumen, dead straight in both directions. And on the corner was the <hi rend="italic">Age</hi>, where I went fresh from school, aged 16, to my first job as a cadet journalist.</p>
+<p>The job and my youth are key parts of the memory because adulthood was so alluring, and childhood so recent, that everything associated with that time and place became intensified, like sun focusing on a drop of water. I was between ages, between worlds, and so intoxicated with the freedom I could see ahead that the squat building I reported to each day seemed like a palace of dreams. Even the hideous Spencer Street railyards had an appeal, signifying movement and constant change.</p>
+<p>The most memorable days were in high summer - the first I hadn't spent lazing at a beach. Instead I was a worker, proud to be earning my own money (all of $40 a week!) and I would walk out of the air-conditioned newsroom each afternoon into that bare corner which had become a raging furnace. All Melburnians know that dry heat, it's part of our collective memory, but this was the extreme. Not so much a sun-trap as a sink for heat and light - the ashy dark roads and bricks absorbed the rays, sucked them down and swallowed them. My shoes sank into the melting pavement so I walked like a spacewoman, bits of tar clinging to my heels, the hotness radiating in waves round my ankles. And if that wasn't enough, there was the wind.</p>
+<p>I don't know which bunch of city planners made the mistake - maybe it was just such a desolate spot they didn't care - but something about the straightness of the roads and the lack of buildings turned this corner into a mighty wind tunnel. I was reading Joan Didion at the time, hypnotised by her tales of the parched Santa Ana winds which blew madness into suburban minds (this was the era of Tom Woolfe and New Journalism). This wind blew from Spencer Street so it was grimy and noisy as well as dry - a city wind, a traveller's wind, the wind of change. It sometimes carried smuts and sand, which stuck to your sweaty face. Other times it blew clean but always ferocious, so by the time I boarded the tram I'd be licking my lips and feel I'd been roasted on high in an oven.</p>
+<p>I live in Sydney now, where the summers are moist and warm. The wind blows (when at all) gentle and sometimes fragrant with tropical flowers. I hate the Sydney summer. It seems so - well, so wet. So limp. There's a part of my nature that loves extremes and I feel sure it was created on that fierce, exhilarating Melbourne corner. Hard-baked.</p></div>
+</body>
+</text></TEI>

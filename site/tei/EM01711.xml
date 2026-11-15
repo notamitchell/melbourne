@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Bond Street</title>
+<author>Edwina Byrne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01711</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Bond Street leads north from Flinders Street to Flinders Lane near Queen Street, and as early as 1840 contained commercial and warehouse storage. In 1895, Bond Street's Flinders Lane entrance was marked by Norwich Union Chambers, while its southern Flinders Street end serviced the Conference Hotel at the corner of Queen and Flinders streets. The street, running in close parallel to Queen Street, served as an access and delivery lane for the Queen Street shops, but also provided retail frontage for shops on the east side of the street. As a result, the Queen Street residents tended to treat this bustling shopping strip as they would a private right-of-way. In 1891, J. Bartram &amp; Son of 18 Queen Street wrote to the City of Melbourne asking permission to 'make use of an ordinary copper with fire underneath at the back of our premises (in Bond St) from time to time as we require a supply of hot water'. The City of Melbourne replied promptly with a rejection of the application, and noted on the file: 'This would be an obstruction to the traffic and a nuisance'. By 1920, Bond Street was predominantly used for the storage rooms of auction houses and loan societies. In 2008 it offered access to a large parking lot, but still provided frontage for a restaurant and a chic inner city bar which has adopted the theme of Bond Street's film namesake.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000653" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1920</date></bibl><bibl xml:id="PEM000654" type="resource-section"><title level="a">Bond Street, H7822, File 1875</title> <title level="m">Victorian Heritage Register On-Line</title> <date>2000</date> <ref target="http://www.doi.vic.gov.au/doi/hvolr.nsf">online</ref></bibl></listBibl></div></back>
+</text></TEI>

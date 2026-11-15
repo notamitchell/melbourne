@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Tivoli Theatre</title>
+<author>Frank Van Straten</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01494</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>At 249 Bourke Street, the Tivoli provided Melbourne with colourful, escapist vaudeville, variety and revue entertainment through almost all its 66-year history. Designed by William Pitt, it opened on 18 May 1901 as the 1539-seat New Opera House, with a bill headed by British comedian Marie Lloyd. The theatre was the Melbourne link in Harry Rickards' Tivoli vaudeville circuit. Later Rickards' stars included the escapologist Houdini, comedian W.C. Fields and illusionist Chung Ling Soo. In 1912 Rickards' successor, Hugh D. McIntosh, renamed the theatre the Tivoli. The elaborate musical comedy <hi rend="italic">Chu Chin Chow</hi> was staged in 1920. Lavish revues were introduced in the 1930s and became the Tivoli's standard fare, with pantomimes at Christmas and, in later years, occasional musicals. Among the many local Tivoli favourites were Roy Rene 'Mo', Jim Gerald, George Wallace, Jenny Howard, Clem Dawe, Eric Edgley and Queenie Paul - who, with her husband, Mike Connors, ran the Tivoli in the early 1930s. The theatre did much to raise morale during depression and war years. From 1946 most Tivoli shows were headed by overseas stars such as Tommy Trinder, George Formby, Tommy Steele, Shirley Bassey, Chico Marx, Nelson Eddy and Sophie Tucker. The theatre's auditorium was rebuilt in 1956. Jimmy Edwards starred in the final live show in 1966. The Tivoli became a cinema but was destroyed by fire in April 1967. Tivoli Court occupies the site.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000446" type="book"><author>Straten, Frank Van</author> <title level="m">Tivoli</title> <pubPlace>Melbourne</pubPlace> <publisher>Lothian</publisher> <date>2003</date></bibl></listBibl></div></back>
+</text></TEI>

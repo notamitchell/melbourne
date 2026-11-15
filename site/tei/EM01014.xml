@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mornington Peninsula</title>
+<author>Jo Hook</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01014</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Situated south-east of Melbourne between Port Phillip Bay, Westernport and Bass Strait, the Mornington Peninsula's European settlement history has been characterised by resource extraction (namely timber-getting, lime burning, fishing and quarrying), pastoralism, agriculture (particularly vineyards and orchards), and resort development. The European discovery of Westernport is credited to George Bass in 1798, and its first exploration to James Grant in 1801. The Port Phillip Bay side of the peninsula was explored by John Murray and Matthew Flinders in 1802. Britain's haste to establish a settlement at Port Phillip resulted in the ill-fated Collins Settlement near present-day Sorrento in 1803. Squatters, attracted by the fertile, gently undulating land, established pastoral runs across the peninsula in the 1830s. Its proximity to Melbourne by land and sea encouraged tourism and offered access to Melbourne's cattle and sheep markets and the booming building trade. Wealthy Melbourne gentlemen built summer residences along the coast with holiday houses proliferating after the advent of the motor car. While some areas have become suburbanised, the Westernport region remains rural. The good swimming and surfing beaches, many wineries and large number of golf courses make the peninsula a popular holiday and retirement area. Sites of interest include The Briars, Sages Cottage, McCrae Homestead, early settlers' graves at Sorrento, the Quarantine Station at Point Nepean, Fort Nepean, Coolart, and Cape Schanck Lighthouse.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000200" type="book"><author>Hollinshed, Charles N., E.C.F. Bird, and Noel Goss</author> <title level="m">Lime land leisure: Peninsular history in the Shire of Flinders</title> <pubPlace>Melbourne</pubPlace> <publisher>Shire of Flinders</publisher> <date>1982</date></bibl><bibl xml:id="PEM000337" type="book"><author>Rogers, Hunter</author> <title level="m">The early history of the Mornington Peninsula</title> <pubPlace>Melbourne</pubPlace> <publisher>H. Rogers</publisher> <date>1980</date></bibl></listBibl></div></back>
+</text></TEI>

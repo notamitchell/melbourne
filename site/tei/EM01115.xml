@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Parkville</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01115</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Parkville</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02077.xml"><desc>Elliot Drinking Fountain</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02080.xml"><desc>George Hawkins Ievers Memorial Drinking Fountain</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02086.xml"><desc>James C. Roberts Memorial</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3052, 3 km N, Melbourne City)</p>
+<p>Taking its name from Royal Park, which occupies most of the suburb's area, much of Parkville is bounded by two tree-lined boulevards, Royal Parade and Flemington Road. Royal Park was set aside in 1859, after 15 years of deliberation. Development around it began 10 years later. Many houses in Parkville are therefore mid- to late Victorian. Cast iron lace is prevalent, as is stucco decoration on pediments, 531 parapets and dividing walls.</p>
+<p>Parkville falls into three well-defined areas, each with its own special identity. North Parkville, between Royal Parade and The Avenue, has large opulent villas and substantial blocks of terrace houses. South Parkville, wedged between Royal Parade, Flemington Road and Gatehouse Street, has an unspoilt concentration of late 19th-century housing and had earlier been the site of city markets. North and South Parkville have each been designated an Urban Conservation No. 1 Area. West Parkville, near the junction of Flemington Road and the Tullamarine Freeway, has mixed land uses and a less formal layout. Much of it has been designated an Urban Conservation No. 2 Area.</p>
+<p>Over half of Parkville's residents are people under 34 years of age, many of whom attend the University of Melbourne. A small shopping strip on Royal Parade opposite the university includes Naughton's Hotel, a favourite student watering hole. The suburb also features the Melbourne Zoo (1861), Royal Melbourne Hospital (1944), Royal Children's Hospital (1963) and University High School (1929).</p>
+<p>In 2002 the Victorian Government appointed Australand Holdings to develop the former Royal Park Psychiatric Hospital site as the 2006 Commonwealth Games Village. This raised protests from such bodies as the Royal Park Protection Group Inc. After the Games, the area would become residential.</p>
+<p>Parkville's major industrial activity is the production of biologically based pharmaceuticals by CSL Ltd, formerly Commonwealth Serum Laboratories. The Bio21 precinct, devoted to biomedical research, on Flemington Road was completed in 2004.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000250" type="book"><author>Benjamin, Eric</author> <title level="m">Parkville</title> <pubPlace>Melbourne</pubPlace> <publisher>Parkville Productions</publisher> <date>1969</date></bibl><bibl xml:id="PEM000300" type="book"><author>Lewis, Hilary</author> <title level="m">South Parkville</title> <pubPlace>Melbourne</pubPlace> <publisher>Parkville Association</publisher> <date>1996</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Werribee Park</title>
+<author>Barbara Sungaila</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01599</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>One of Australia's grandest mansions, Werribee Park was built for pastoralist Thomas Chirnside who began to buy land in the Werribee area in the 1850s, eventually going into partnership with his brother Andrew. By 1880 the Chirnsides' estate comprised 81 068 acres (32 427 ha) at Werribee and Point Cook. Although many older buildings remain on the estate, it was the imposing Italianate mansion (1873-78) that became a popular site for coursing, hunting, horseracing and extravagant annual picnics. Special trains brought racegoers and other guests from Melbourne to enjoy the Chirnsides' hospitality. After Thomas' death in 1887, and Andrew's in 1890, the estate began to break up, starting with the purchase of 8847 acres (3539 ha) by the Melbourne and Metropolitan Board of Works for its new sewerage farm in 1893. In 1923 the remaining 994 acres (398 ha) and mansion were sold to the Catholic Church. A large wing was added to accommodate the Corpus Christi Seminary. The property, sold to the Victorian Government in 1973, now contains a hotel and conference centre, an open range zoo, the State Rose Garden and the State Equestrian Centre. The original house has been extensively restored and is open to the public.</p></div>
+</body>
+</text></TEI>

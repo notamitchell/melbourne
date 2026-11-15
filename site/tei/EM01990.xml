@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Surry Place</title>
+<author>Biheng Zhang</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01990</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00860.xml"><desc>Little Lon</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located between Lonsdale and Little Lonsdale streets, Surry Place extended west from Spring Street. Situated within the notorious 'Little Lon' district, it was a poor residential area in 1895. In 1928, only four small cottages remained on the site. By the 1950s, this small laneway had become largely industrial, being home to Taubman's Paints and the Commonwealth X-Ray and Radium Laboratory. Today, Surry Place no longer exists, with the site cleared in the second half of the twentieth century for the Commonwealth Government Offices on Spring Street.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000024"><head>Surry Place - north side, between Griffin Lane and Spring Street</head><graphic url="../objects/images/b21877.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_b21877.jpg"/><p>Australia Dept. of Housing and Construction Victoria/Tasmania Region 1950</p><note type="rights">Courtesy State Library of Victoria</note></figure></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000142" type="book"><author>Bate, Weston</author> <title level="m">Essential but unplanned: The story of Melbourne's lanes</title> <pubPlace>Melbourne</pubPlace> <publisher>State Library of Victoria and the City of Melbourne</publisher> <date>1994</date></bibl></listBibl></div></back>
+</text></TEI>

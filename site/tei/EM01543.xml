@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Vermont</title>
+<author>Chris Coney</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01543</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Vermont</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3133, 21 km E, Whitehorse City, Maroondah City)</p>
+<p>The name of this mainly residential suburb, French for 'green hill', was possibly suggested by the government botanist Ferdinand von Mueller. Wood-cutters arrived in the 1850s but orchards and small farms predominated until the 1950s. A school, church, mechanics institute, public hall, and post office-cum-general store met the needs of the small community until the 1910s. A bus service between Vermont and Mitcham started in 1923 and Wunderlich Tileworks established a factory in 1932, lifting the population to just over 700 in 1933. New civic groups, schools, churches and businesses flourished during the postwar housing boom, and in the latter decades of the century its population aged and decreased significantly.</p></div>
+</body>
+</text></TEI>

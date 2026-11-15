@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Spencer Street Station</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01409</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Melbourne terminal for all interstate and provincial train services, and for many provincial and rural bus services, Spencer Street Station is also on the city loop for Melbourne suburban train services. The site was set aside for a railway terminus in June 1852, when Lieutenant-Governor La Trobe granted 50 acres (20 ha) of land, including Batmans Hill, to the Melbourne, Mount Alexander &amp; Murray Railway Co., which intended to build a railway to Echuca. When the Victorian Government took over that project, Spencer Street Station became the focus of the Victorian (Government) Railways. The first building, erected there in 1858, was a timber and iron structure, with 'no semblance of architectural adornment'. Its only platform was 540 feet (164.5 m) long. Batmans Hill was removed in 1863-65 to extend the station and goods yards. New passenger platforms were added in the late 1870s, along with new goods and engine sheds. Spencer Street Station was connected with Flinders Street Station in 1891 by a viaduct, first used for passenger traffic in 1894. The station was extended in 1924 with construction of platforms 11-14 for suburban trains. With the arrival of the standard gauge line from Sydney in 1962, Spencer Street Station was largely reconstructed, in keeping with its new status. In the early 2000s, the station was redeveloped as Southern Cross Station by a public-private partnership to include a retail plaza, office accommodation and apartments. The project was designed to help integrate Melbourne's west end with the emerging Docklands.</p></div>
+</body>
+</text></TEI>

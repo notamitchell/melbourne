@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Queen Victoria Market</title>
+<author>Jayne Josem</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01215</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02070.xml"><desc>Dairy Hall Window</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02087.xml"><desc>John Batman Memorial</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02102.xml"><desc>Passage</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02108.xml"><desc>Pioneer Monument</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02128.xml"><desc>Wind Contrivance</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A bustling retail centre, the Queen Victoria Market sprawls over two northern city blocks. Increasing congestion in the Eastern Market in the 1850s forced the Melbourne City Council to consider establishing a new market. In 1878 three sheds were constructed for use by fruit- and vegetable-growers and other traders alongside the retail meat and fish market on the corner of Victoria and Elizabeth streets. Over the next decade the 'Vic Market' grew, as a new meat market façade and double-storey shops were constructed along the main roads. Six market sheds were built on an adjacent 4.3-acre (1.7 ha) Crown grant, a portion of which was in the old Melbourne Cemetery.</p>
+<p>Recognising the need for further expansion, the <hi rend="italic">Market Lands Act 1917</hi> allowed the market to extend into the rest of the cemetery. After much controversy over the reinterment of human remains, new sheds were constructed. Between 1928 and 1930, 60 brick stores were built for wholesale agents, and the Dairy Produce Hall was erected on Therry Street. Its initial dairy orientation was replaced by a predominance of delicatessens following the post-World War II influx of European immigrants. Throughout the market's history the ethnicity of the stallholders has mirrored Melbourne's emerging multiculturalism.</p>
+<p>By 1948 another investigation into overcrowded market conditions led to the controversial proposal to transfer the wholesale market to West Melbourne. After this transfer finally took place in 1969, market enthusiasts waged a decade-long battle to stave off redevelopment plans. Following a further inquiry, the Melbourne City Council handed administration to a Market Trust in 1978. Sunday trading made its successful debut in 1979. With its range of wares, its central location and its heritage edifices, the Queen Victoria Market has established itself as a Melbourne icon.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000434" type="book"><author>McCaughey, Ellen, and Mary Hoban</author> <title level="m">The Victoria Market</title> <pubPlace>Melbourne</pubPlace> <publisher>Time and Place Publications</publisher> <date>1984</date></bibl></listBibl></div></back>
+</text></TEI>

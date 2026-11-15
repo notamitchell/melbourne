@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Convicts</title>
+<author>A.G.L. Shaw</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00397</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Port Phillip was never strictly a penal settlement, but as part of New South Wales it received a number of convicts from time to time. First, convict labourers were sent down, about 100 at a time, to provide government labour between 1836 and 1842, but most of these men were sent back to Sydney after relatively short terms and there were complaints that more were needed. Second, a number of squatters from central New South Wales brought down some of their 'assigned servants' who were convicts. How many is uncertain - there were probably about 550 in the district in 1842 - and many of these remained in Port Phillip when their sentences expired. Third, between 1844 and 1849, 1727 'exiles' known as Pentonvillians were sent out with tickets of leave.</p>
+<p>However, most important were time-expired prisoners from Van Diemen's Land and New South Wales. Again the number is uncertain. No records were kept of the latter, as they were moving within the same colony, though probably they were fewer than those from Van Diemen's Land. These are thought to have numbered over 3000 in 1846 (about 15% of the male population). Probably another 2000 had arrived by 1848, and after a temporary decline, many more came after the gold discoveries in 1851.</p>
+<p>Though all too often described as scoundrels, villains and ruffians, these men provided an important supply of labour to squatters in the 1840s. But they also committed 40% of the district's crime between 1841 and 1846 (and more later) and their presence produced strong criticism of the imperial authorities for trying to block the colony's attempts to stop their arrival.</p></div>
+</body>
+</text></TEI>

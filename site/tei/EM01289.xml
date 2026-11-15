@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Rubbish and Rubbish Disposal</title>
+<author>Caitlin Stone</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01289</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00012.xml"><desc>Urban Environment</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02008.xml"><desc>Waratah Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02018.xml"><desc>Winfield Square</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>From the early 1850s rubbish disposal was a major problem in Melbourne. The influx of settlers that came with the gold rushes meant that the city was soon unable to deal with its increasing garbage. Although the <hi rend="italic">Police (Town and Country) Act 1854</hi> made it an offence to dump 'glass, filth, dirt, rubbish or other matter of a similar nature', visitors and residents alike complained of the vegetable scraps, papers, shop sweepings, dead animals and other rubbish that filled the city's streets.</p>
+<p>The first means of rubbish and garbage disposal were disorganised and informal. Residents and traders often 'disposed of' their rubbish by dumping it in their backyards, on streets or on any vacant area of land. Garbage was also buried in cesspits or fed to pigs. Marine store dealers and other scrap merchants had an important role in recycling common rubbish such as glass, metal and rags.</p>
+<p>It soon became apparent that a more organised system for disposing of the city's rubbish and garbage was required. In 1864 Fitzroy became the first municipality in Melbourne (and one of the first in Australia) to establish regular - although optional - collections for domestic rubbish. By the 1880s the City of Melbourne provided residents with free 'iron dust boxes' and encouraged them to leave these in their backyards to be emptied by the scavengers each week.</p>
+<p>Many of Melbourne's parks and recreation spots - including Carlton Gardens, Albert Park Lake, a large stretch of the esplanade at Williamstown and 3 acres (1.2 ha) of beach at St Kilda - were once makeshift rubbish dumps. Disused clay holes and quarries were also regularly used for rubbish disposal, but from the mid-1880s many municipalities began building incinerators to dispose of rubbish.</p>
+<p>In the 19th century, rubbish collectors and street-cleaners were not employed directly by the Melbourne City Council but by private contractors. Complaints of poor pay and conditions, however, prompted the council to take over garbage services in 1901. Rubbish collection remained a council service until the mid-1990s, when it was partially returned to private contractors by the Kennett government.</p>
+<p>In the mid-20th century, council rubbish collections were supplemented by a range of other disposal methods. Melburnians could return empty bottles to a local shop or bottle depot to be washed and refilled. The Salvation Army and Boy Scouts collected newspapers for recycling, while fish and chip shops and greengrocers would buy old newspapers to use for wrapping and packaging. Councils also allowed residents to use backyard incinerators for regular 'burn-offs' of leaves and other rubbish.</p>
+<p>In the late 20th century, the focus moved increasingly to reducing and recycling rubbish. Encouraged by the Environment Protection Authority, most councils introduced kerbside recycling programs in the late 1980s. By 2002 a quarter of the rubbish collected from Melbourne households was recyclable material.</p></div>
+</body>
+</text></TEI>

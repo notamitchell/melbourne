@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Scots' Church</title>
+<author>Peter Sherlock</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01340</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02081.xml"><desc>Georges Fountain</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The focus of Presbyterian worship, Scots' Church, on the corner of Collins and Russell streets, has been a notable feature of Melbourne's streetscape since its foundation. The first church building was constructed in 1841, but its minister James Forbes left in 1848 following the Presbyterian schism. On 29 November 1874 the present church building was opened. Designed in an intricate Gothic Revival style by Reed &amp; Barnes, and built from local stone by David Mitchell at a cost of £20 000, it is renowned for its stained-glass windows. The spire of 211 feet (64.3 m), since lowered, was for many years the highest point in the city.</p>
+<p>Further dissension in the 1880s ended when liberal minister Dr Charles Strong left with a substantial proportion of the congregation to form the Australian Church, but Scots' survived as the centre of Presbyterianism in the city. It developed a strong musical tradition, employing professional singers since the 1870s, including Mitchell's daughter Nellie Melba. In the 1920s radio broadcasts of services began, but it was 1966 before the first Australian-born minister was appointed to this conservative congregation, which in 1977 elected to remain separate from the Uniting Church of Australia.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000420" type="book"><author>Young, Wallace</author> <title level="m">The Scots' Church Melbourne: a brief history</title> <pubPlace>Melbourne</pubPlace> <publisher>Scots' Church</publisher> <date>1979</date></bibl></listBibl></div></back>
+</text></TEI>

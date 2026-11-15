@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Eugenics</title>
+<author>Megan Deacon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00536</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Eugenics was a movement originating in response to fears of racial decay in late 19th-century England. It aimed at perfecting the human population through selective breeding. Similar concerns led to the founding of eugenics organisations in Melbourne, the best known of which was the Eugenics Society of Victoria (1936-61). Its concerns and constituency were characteristic of the movement in Melbourne as a whole. The intelligentsia and professions provided most supporters. Eminent members included academics Dr K.S. Cunningham and Professor W. Agar, justices J.W. Barry and A. Foster, sociologists Meredith Atkinson and Victor Wallace, the vice-chancellor of the University of Melbourne, Sir John Medley, and Sir Keith Murdoch. The Eugenics Society numbered only 84 members and 46 associates at its peak, but the social prominence of its membership encouraged a wide dissemination of eugenic concepts. It emphasised hereditary factors in improving the human race, and advocated birth control and voluntary sterilisation of the 'unfit'. A proposal to include voluntary sterilisation in the 1939 Victorian Mental Hygiene Bill was unsuccessful. Eugenicists also participated in projects like the School Medical Service, and saw no contradiction between these reforms and eugenic measures. After World War II the society ceased holding public lectures and worked instead through informal contacts and other organisations. Failing to attract new members, it declined in influence and was disbanded in 1961. However, advances in genetic engineering have prompted a resurgence of interest in the eugenic ideal of biological improvement of human populations.</p></div>
+</body>
+</text></TEI>

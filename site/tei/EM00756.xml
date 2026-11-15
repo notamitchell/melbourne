@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Inquests</title>
+<author>Simon Cooke</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00756</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02139.xml"><desc>Swine Flu: In Focus - June 2009</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The official means by which the state investigates deaths that are unusual, unexpected or take place in situations (such as government institutions) where a high standard of scrutiny is appropriate, inquests serve as a mechanism to ensure that deaths from foul play or gross neglect do not go undetected, to bring preventable deaths to official notice and to explain and record how 'unnatural' deaths have occurred.</p>
+<p>Inquests were first held in Melbourne in 1840, and the ways in which inquests have been conducted have changed significantly. Until the establishment of a permanent morgue and Coroner's Court, inquests were often held in hotels, where the public was free to attend. Newspapers regularly reported proceedings. The (male) public played a part in inquests as jury members until 1903, when legislation was passed allowing coroners to hold an inquest without a jury. As a result, the inquest lost its civic character and became increasingly professionalised and bureaucratised.</p>
+<p>As specialist investigation began to dominate the inquest process and the number of deaths investigated increased during the 20th century, the time taken to complete investigations increased from days to weeks and even months. Some inquests still attracted public interest (such as when a young woman attending an inquest into her husband's death gave birth in the witness room in 1958), but in general, coverage of inquests in the newspapers declined rapidly.</p>
+<p>Reports in 1977 by the Coroner's Court Review Committee and in 1980 by J.G. Norris QC recommended significant changes to Victorian inquests. Reforms were introduced by the <hi rend="italic">Coroners Act 1985</hi> and by the opening of the Coronial Services Centre in 1988, which housed both the State Coroner's Office and the Victorian Institute of Forensic Pathology, emphasising the link between forensic science and the judicial process at inquests. Juries remained theoretically possible under the 1985 Act, but were never empanelled. The coronial jury was finally abolished by parliament in 1999, establishing the inquest as a specialised professional institution.</p></div>
+</body>
+</text></TEI>

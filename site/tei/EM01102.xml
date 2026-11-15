@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Outer Circle Railway</title>
+<author>Brian Carroll</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01102</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Outer Circle Railway system brought the government-owned Gippsland line from Sale into the city from its terminus at Oakleigh, without using the privately owned tracks to Flinders Street Station. The Victorian Railways built a line north from Oakleigh in a circle through Camberwell and Kew and over the Yarra River at Fairfield, to join the government line at Fulham Grange. It began life in 1890 as a 12-mile (19 km) cross-country link with few passengers and little freight. In 1893 the Fulham Grange (Fairfield) to Deepdene section closed. By 1897 the entire Outer Circle Line had been closed. It came to life again when the Ashburton to Camberwell section reopened on 4 July 1898. In 1900 the line from Deepdene to the new station at East Camberwell also reopened, with a train known as the Deepdene Dasher. The Camberwell to Ashburton section was electrified and became part of the Melbourne electric suburban network in 1924, with an extension to Alamein. The Deepdene section was not electrified and the Dasher made its last run in 1926. By the 1990s most of the land once occupied by the Outer Circle Railway had become a linear park. The bridge over the Yarra had long been converted to a road bridge, as part of the Chandler Highway.</p></div>
+</body>
+</text></TEI>

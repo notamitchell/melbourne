@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Yachting</title>
+<author>Tony Dingle</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01649</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Seen as an excellent recreation for a maritime power, racing or cruising in purpose-built vessels became increasingly popular in Britain from the beginning of the 19th century. Some immigrants brought their enthusiasms to Port Phillip Bay, holding the first regatta in 1838. <hi rend="italic">The Devil Afloat</hi>, the first unequivocal pleasure yacht, arrived a year later. Regattas were organised intermittently, featuring wagers on both rowing and sailing races. The Victoria Yacht Club, founded in 1856, soon folded, but another club of that name was established in 1872 and became the Royal Yacht Club of Victoria based at Williamstown. The Albert Park Yacht Club also began on the newly improved lagoon in 1872, other clubs soon followed and inter-club regattas were organised. In the 1880s the popularity of larger yachts built for cruising, as well as for racing, increased.</p>
+<p>Sailing in smaller boats consolidated in the first three decades of the 20th century, with several more clubs formed. After the great storm of 1932 destroyed many yachts the fleet was rebuilt with new designs such as Charles Peel's <hi rend="italic">Jubilee</hi>-class dinghies. The rise in motor car ownership after World War II led to a boom in dinghies, many of which were designed to be hauled out of the water and taken home on a trailer. Designers created new classes of boats constructed of waterproof plywood and often marketed in a kit that a home handyman could build. These lighter, small boats introduced women and children to participatory sailing for the first time, transforming it into something approaching a mass participation sport. Eighteen sailing clubs built clubhouses around Port Phillip Bay between 1945 and 1972. The Melbourne Olympic Games in 1956 brought high quality dinghy racing to the Bay, further increasing its popularity. By the late 1970s around 25 000 people, or 1% of Melbourne's population, were members of one of the city's 32 yacht clubs. The bulk of them sailed dinghies, but the older clubs remained largely devoted to the larger keelboats, competing in regular Saturday and Wednesday Bay races, as well as more ambitious races to destinations such as Tasmania.</p>
+<p>Towards the end of the 20th century the enthusiasm for dinghy sailing appeared to have waned. In recent decades windsurfing has offered an alternative and more individual way of sailing on the Bay that does not require a club, a clubhouse or even a boat.</p></div>
+</body>
+</text></TEI>

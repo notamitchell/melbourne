@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Related records – eMelbourne experiments</title>
+<link rel="stylesheet" href="../css/site.css">
+<link rel="stylesheet" href="experiments.css">
+<script src="../js/vendor/d3/d3.min.js"></script>
+<script src="common.js"></script>
+<style>
+  #chart svg { touch-action: none; cursor: grab; }
+  .node circle { stroke: var(--card); stroke-width: 1.5px; cursor: pointer; }
+  .node.centre circle { stroke: var(--fg); stroke-width: 2.5px; }
+  .node text { fill: var(--fg) !important; font-size: 11px; paint-order: stroke; stroke: var(--card); stroke-width: 3px; pointer-events: none; }
+  .link { stroke: var(--muted); stroke-opacity: .35; }
+  .link.theme { stroke-dasharray: 3 3; }
+  .faded { opacity: .15; }
+</style>
+</head>
+<body class="exp">
+<header class="site"><a class="brand" href="../index.html">eMelbourne</a><span class="tag">The Encyclopedia of Melbourne Online</span><nav class="top" aria-label="Site"><a href="../index.html">Home</a><a href="../page.html?p=about">About</a><a href="../page.html?p=help">Help</a><a href="../advanced.html">Advanced search</a><a href="index.html" aria-current="page">Experiments</a></nav><form class="quick" action="../search.html"><input name="q" type="search" placeholder="Quick search" aria-label="Quick search"></form></header>
+<main class="exp-wrap">
+<p class="exp-crumb"><a href="index.html">Experiments</a></p>
+<h1>Related records</h1>
+<p class="exp-lede">The records linked to one record, one to three links out. Links are the related entries recorded in the TEI (either way round), themes, and the place pages people were born or died in. Click a circle to move the centre there; open its entry from the box that appears. Drag to move circles, scroll to zoom.</p>
+<div class="exp-bar">
+  <input type="text" id="pick" list="records" placeholder="Choose a record, e.g. Carlton" aria-label="Centre record" size="34">
+  <datalist id="records"></datalist>
+  <label>Links out <select id="steps"><option>1</option><option selected>2</option><option>3</option></select></label>
+  <label><input type="checkbox" id="themes"> Go through themes</label>
+  <span id="count" class="exp-note"></span>
+</div>
+<div class="exp-legend" id="legend" aria-label="Kinds of record"></div>
+<div class="exp-chart" id="chart" style="margin-top:.75rem"></div>
+<p class="exp-note" id="note"></p>
+<details class="exp-table"><summary>List of the records shown</summary><div id="table"></div></details>
+</main>
+<script>
+(function () {
+  "use strict";
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>The chart library could not be loaded</b> (js/vendor/d3/d3.min.js).</p>"); return; }
+  const TYPES = [["entry", "Entry", 1], ["person", "Person", 2], ["place", "Place", 3], ["cultural-artefact", "Cultural artefact", 4], ["theme", "Theme", 7], ["concept", "Concept or event", 5]];
+  const slot = t => (TYPES.find(x => x[0] === t) || TYPES[5])[2];
+  const css = getComputedStyle(document.body);
+  const color = t => css.getPropertyValue("--series-" + slot(t)).trim();
+  const MAX = 350;
+  const { esc } = Exp;
+  let byId = {}, adj = {}, centre = new URLSearchParams(location.search).get("id") || "EM00297";
+
+  Exp.facets().then(rows => {
+    rows.forEach(r => { byId[r.id] = r; adj[r.id] = adj[r.id] || new Map(); });
+    const link = (a, b, kind) => { if (!byId[a] || !byId[b] || a === b) return; adj[a].set(b, adj[a].get(b) || kind); adj[b].set(a, adj[b].get(a) || kind); };
+    rows.forEach(r => {
+      (r.rel || []).forEach(o => link(r.id, o, "related"));
+      (r.th || []).forEach(o => link(r.id, o, "theme"));
+      ["b", "d"].forEach(k => { if (r[k] && r[k].pid) link(r.id, r[k].pid, k === "b" ? "born" : "died"); });
+    });
+    document.getElementById("records").innerHTML = rows.slice().sort((a, b) => a.n.localeCompare(b.n))
+      .map(r => `<option value="${esc(r.n)} (${esc((TYPES.find(t => t[0] === r.t) || TYPES[5])[1])})">`).join("");
+    document.getElementById("pick").addEventListener("change", e => {
+      const v = e.target.value, m = v.match(/^(.*) \(([^)]+)\)$/), name = m ? m[1] : v;
+      const r = rows.find(x => x.n === name) || rows.find(x => x.n.toLowerCase() === name.toLowerCase());
+      if (r) { centre = r.id; draw(); }
+    });
+    ["steps", "themes"].forEach(id => document.getElementById(id).addEventListener("change", draw));
+    document.getElementById("legend").innerHTML = TYPES.map(([k, l]) => `<span class="exp-key" style="cursor:default"><i style="background:${color(k)}"></i>${esc(l)}</span>`).join("") +
+      '<span class="exp-key" style="cursor:default"><svg width="22" height="8" aria-hidden="true"><line x1="0" y1="4" x2="22" y2="4" stroke="currentColor" stroke-dasharray="3 3"/></svg>Theme link</span>';
+    draw();
+  }).catch(e => document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p>" + esc(e.message) + "</p>"));
+
+  let sim = null;
+  function draw() {
+    if (!byId[centre]) centre = Object.keys(byId)[0];
+    try { history.replaceState(null, "", "?id=" + centre); } catch (e) { /* file:// */ }
+    document.getElementById("pick").value = "";
+    document.getElementById("pick").placeholder = byId[centre].n;
+    const steps = +document.getElementById("steps").value, viaThemes = document.getElementById("themes").checked;
+    // breadth first from the centre; themes are hubs, so they are shown but not gone through unless asked
+    const dist = new Map([[centre, 0]]); let frontier = [centre], cut = false;
+    for (let s = 1; s <= steps && !cut; s++) {
+      const next = [];
+      for (const id of frontier) {
+        if (id !== centre && byId[id].t === "theme" && !viaThemes) continue;
+        for (const o of adj[id].keys()) if (!dist.has(o)) {
+          if (dist.size >= MAX) { cut = true; break; }
+          dist.set(o, s); next.push(o);
+        }
+        if (cut) break;
+      }
+      frontier = next;
+    }
+    const nodes = [...dist].map(([id, d]) => ({ id, d, r: byId[id] }));
+    const links = [];
+    nodes.forEach(a => adj[a.id].forEach((kind, b) => { if (a.id < b && dist.has(b)) links.push({ source: a.id, target: b, kind }); }));
+    const deg = new Map(); links.forEach(l => { deg.set(l.source, (deg.get(l.source) || 0) + 1); deg.set(l.target, (deg.get(l.target) || 0) + 1); });
+    document.getElementById("count").textContent = `${nodes.length} records, ${links.length} links`;
+    document.getElementById("note").textContent = cut ? `Only the first ${MAX} records are shown; choose fewer links out to see the nearest ones in full.` : "";
+
+    const holder = document.getElementById("chart"), W = holder.clientWidth - 16, H = Math.max(480, Math.min(720, innerHeight - 200));
+    const svg = d3.create("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img").attr("aria-label", `Network of records linked to ${byId[centre].n}; the list below names them`);
+    const g = svg.append("g");
+    svg.call(d3.zoom().scaleExtent([.3, 4]).on("zoom", e => g.attr("transform", e.transform)));
+    const rad = n => (n.id === centre ? 11 : 4 + Math.min(6, Math.sqrt(deg.get(n.id) || 1)));
+    const link = g.append("g").selectAll("line").data(links).join("line").attr("class", l => "link" + (l.kind === "theme" ? " theme" : "")).attr("stroke-width", 1);
+    const node = g.append("g").selectAll("g").data(nodes).join("g").attr("class", n => "node" + (n.id === centre ? " centre" : ""));
+    node.append("circle").attr("r", rad).attr("fill", n => color(n.r.t));
+    node.filter(n => n.d <= 1 || nodes.length < 60).append("text").attr("x", n => rad(n) + 3).attr("y", 4).text(n => n.r.n);
+    node.append("title").text(n => n.r.n);
+
+    const tip = document.createElement("div"); tip.className = "exp-tip"; tip.hidden = true; tip.style.pointerEvents = "auto";
+    node.on("pointerenter", (e, n) => {
+      const near = new Set([n.id, ...adj[n.id].keys()]);
+      node.classed("faded", m => !near.has(m.id)); link.classed("faded", l => l.source.id !== n.id && l.target.id !== n.id);
+    }).on("pointerleave", () => { node.classed("faded", false); link.classed("faded", false); })
+      .on("click", (e, n) => {
+        if (n.id === centre) { showBox(e, n); return; }
+        centre = n.id; draw();
+      });
+    function showBox(e, n) {
+      const r = n.r, rect = holder.getBoundingClientRect();
+      tip.innerHTML = `<b>${esc(r.n)}</b><span class="m">${esc((TYPES.find(t => t[0] === r.t) || TYPES[5])[1])} · ${adj[n.id].size} links</span><br><a href="${Exp.entry(n.id)}">Open the entry</a>`;
+      tip.hidden = false; tip.style.left = Math.min(rect.width - 220, e.clientX - rect.left + 12) + "px"; tip.style.top = (e.clientY - rect.top + 12) + "px";
+    }
+    svg.on("click", e => { if (e.target.tagName === "svg") tip.hidden = true; });
+
+    if (sim) sim.stop();
+    const c = nodes.find(n => n.id === centre); c.fx = W / 2; c.fy = H / 2;
+    sim = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id(n => n.id).distance(l => (l.kind === "theme" ? 90 : 55)).strength(.5))
+      .force("charge", d3.forceManyBody().strength(nodes.length > 150 ? -60 : -260))
+      .force("collide", d3.forceCollide(n => rad(n) + 2))
+      .force("radial", d3.forceRadial(n => n.d * (Math.min(W, H) / 2 - 40) / steps, W / 2, H / 2).strength(.8))
+      .on("tick", () => {
+        link.attr("x1", l => l.source.x).attr("y1", l => l.source.y).attr("x2", l => l.target.x).attr("y2", l => l.target.y);
+        node.attr("transform", n => `translate(${n.x},${n.y})`);
+      });
+    node.call(d3.drag().on("start", (e, n) => { if (!e.active) sim.alphaTarget(.2).restart(); n.fx = n.x; n.fy = n.y; })
+      .on("drag", (e, n) => { n.fx = e.x; n.fy = e.y; })
+      .on("end", (e, n) => { if (!e.active) sim.alphaTarget(0); if (n.id !== centre) { n.fx = null; n.fy = null; } }));
+    holder.replaceChildren(svg.node(), tip);
+
+    const order = nodes.slice().sort((a, b) => a.d - b.d || a.r.n.localeCompare(b.r.n));
+    document.getElementById("table").innerHTML = "<table><thead><tr><th>Record</th><th>Kind</th><th>Links out</th></tr></thead><tbody>" +
+      order.map(n => `<tr><td><a href="${Exp.entry(n.id)}">${esc(n.r.n)}</a></td><td>${esc((TYPES.find(t => t[0] === n.r.t) || TYPES[5])[1])}</td><td>${n.d}</td></tr>`).join("") + "</tbody></table>";
+  }
+})();
+</script>
+</body>
+</html>

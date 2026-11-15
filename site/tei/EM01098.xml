@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ormond</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01098</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Ormond</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3204, 12 km SE, Glen Eira City)</p>
+<p>This southern suburb between Caulfield and Moorabbin was largely a market gardening district in the 19th century. A station that opened here on the Mordialloc (now Frankston) railway line in the 1880s was named North Road, but was changed to Ormond in 1897, apparently at the request of Caulfield Council who wished to honour the Melbourne philanthropist, Francis Ormond. The countrified aspect along North Road in the 1890s was remembered by Katharine Susannah Prichard in her autobiography <hi rend="italic">Children of the hurricane</hi> (1963): 'open paddocks of gorse and wildflowers along the main highway, the Dandenongs in blue haze at one end, the sea at the other'. In the 1910s subdividers marketed Ormond as a 'garden suburb', close to the sea, although most housing was constructed between the 1920s and 1940s.</p></div>
+</body>
+</text></TEI>

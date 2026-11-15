@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Dunlop Pneumatic Tyre Company</title>
+<author>Mike Williams</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00493</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01992.xml"><desc>Tattersalls Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Responding to demands from the cycling community, Pacific Dunlop began in 1893 in premises in Tattersall's Lane, expanded interstate in 1896, and by 1899 was independent of its British parent. Product diversification began in 1901 at a new Montague Street South Melbourne plant, intensifying after the 1905 takeover of Barnett Glass. Automotive tyres and sandshoes were major products during the 1920s. British Dunlop again became involved in 1927, and by 1929 the Australian company merged with competitors as the Dunlop Perdriau Rubber Co. Ltd which, during World War II, provided synthetic rubber products to the defence forces. During the late 1960s Dunlop made footwear, clothing and textiles, and surgical rubber goods, but after tariff reductions during the 1970s, moved manufacture offshore. Amalgamation with the Olympic Tyre Co. in 1980 introduced cable, fibre optics, additional sporting goods and innovative automotive batteries to the conglomerate's inventory. Severing ties with the failed UK Dunlop Co. in 1985 and renaming itself Pacific Dunlop, the enterprise moved into food-processing and by the early 1990s employed 28 000 people in Australia, and 20 000 in 13 countries overseas.</p></div>
+</body>
+</text></TEI>

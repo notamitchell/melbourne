@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>William Angliss Institute of Tafe</title>
+<author>Peter Rushbrook</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01618</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01687.xml"><desc>Alston Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The William Angliss Food Trades School opened on 18 September 1940 on the site of the old West Melbourne Technical School in La Trobe Street. The school was named after meat baron Sir William Angliss who, following a 1937 royal commission into the wheat, flour and bread industries, and demand from local hotel owners for better-trained staff, donated £20 000 for the construction of a double-storey red brick building. Specialising in training butchery, breadmaking and cooking apprentices, the school steadily expanded. Renamed the William Angliss Institute of TAFE, the school also offers training in the hospitality and tourism industries.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000476" type="book"><author>Nunn, Kathy</author> <title level="m">William Angliss College: The first 50 years</title> <pubPlace>Melbourne</pubPlace> <publisher>Hargreen Publishing</publisher> <date>1990</date></bibl></listBibl></div></back>
+</text></TEI>

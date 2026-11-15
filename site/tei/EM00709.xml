@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Herring Island</title>
+<author>Tony Dingle</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00709</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A piece of Crown land was severed from the north bank of the Yarra River when a sharp bend was removed by cutting through the abandoned Richmond Quarries in 1928-29 as part of a much larger flood mitigation scheme. The resulting land was named Como Island by the Melbourne and Metropolitan Board of Works, which built levee banks around its perimeter, dumped silt dredged from the river and planted trees and shrubs. Leased by the Boy Scouts Association in 1951, its new name honoured Sir Edmund Herring, Lieutenant-Governor of Victoria, president of the Association for 23 years. Since the scouts gave up the lease in 1971 the island has been used as a recreational facility, sculpture park and outdoor theatre site. The Friends of Herring Island Inc. promote nature conservation and educational programs on the island, which is a habitat for many birds and mammals.</p></div>
+</body>
+</text></TEI>

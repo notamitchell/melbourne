@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Australian Children's Folklore Collection</title>
+<author>June Factor</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00115</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>This collection at Museum Victoria documents children's folkloric traditions of verbal and play lore from the 19th century to the present. It reflects the cultural and regional diversity of Australia, including children's folklore from ethnic communities, oral histories of Aboriginal childhoods in Victoria, and collections from regional and rural centres. There is also comparative material from other countries. In conjunction with the Australian Children's Folklore Collection (ACFC), Museum Victoria publishes <hi rend="italic">Play &amp; Folklore</hi> twice a year. The ACFC is one of the largest and most significant collections of its kind in the world. In 2004 it was recognised by UNESCO as a documentary heritage collection of national significance, and listed on UNESCO's Australian Memory of the World Register.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Platypus</title>
+<author>Melody Serena</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01147</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>These amphibious egg-laying mammals were probably abundant in rivers and creeks throughout the Port Phillip District at the time of European settlement. In the 1870s sportsman-cum-naturalist Bob Stuart claimed to make a fairly good living by supplying furriers with platypus skins obtained along Darebin and Merri creeks and the Yarra River above Dights Falls.</p>
+<p>In 1933 Robert Eadie established a platypusary at Healesville Sanctuary, where visitors flocked to see a captive animal named Splash, and where in 1943 a pair named Jack and Jill parented Corrie, the first young hatched in captivity.</p>
+<p>In the 1950s, platypuses were regularly seen along the Yarra as far downstream as the Burnley Gardens in Richmond. By the 1980s, however, it was generally assumed that platypuses had become rare near Melbourne because of habitat degradation, water pollution, the proliferation of introduced pests such as foxes, and disturbance by human activities.</p>
+<p>Live-trapping surveys initiated by the Australian Platypus Conservancy (APC) and Melbourne Water in the mid-1990s showed that platypuses continue to reside in many urban waterways, breeding successfully within 20 km of the city centre. Well-established populations are found in the Yarra River upstream of Templestowe, Olinda Creek upstream of Lilydale, Monbulk Creek from Belgrave to Rowville, and Jacksons Creek upstream of Sunbury. The presence of platypuses in urban habitats is both a tribute to the animals' adaptability and an indicator of improving environmental conditions around the city.</p>
+<p>The APC was founded as a non-profit incorporated association at Kew in 1994 to support field research on one of Australia's least-studied animal icons and to use the platypus as a flagship species for environmental education about freshwater conservation issues. In the absence of any previous studies on urban platypuses, the APC began a collaborative research program with Melbourne Water on platypus populations occupying the Yarra River and Maribyrnong River catchments and streams arising in the Dandenong Ranges. The APC formally opened its Platypus Research and Conservation Centre in 1996 at Toorourrong Reservoir Park near Whittlesea.</p></div>
+</body>
+</text></TEI>

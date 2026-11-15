@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Appeals</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00075</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Collections for charitable, religious and educational institutions are a reflection of the voluntarism which was a central feature of social provision in Melbourne. Initially funded by supporters who received privileges in return for their subscriptions, most organisations quickly discovered the promotional and financial advantages of special events. The first attempt to centralise fundraising was the annual Hospital Saturday and Sunday Appeal, an English concept imported to Melbourne in 1873 at the suggestion of Sizar Elliott (1814-1901), a professional fundraiser for the Alfred Hospital. Collections took place on the streets and in churches, with the money raised being distributed according to established Treasury formulae. In 1923 this was absorbed into the new Lord Mayor's Fund, which sought to tap a wider range of sources, a concept that was developed further through the American Community Chest model introduced to South Melbourne in 1945.</p>
+<p>Organisations aware of the 'appeal' of their clientele have preferred the competitive to the co-operative model. Beginning in the 1880s, appeals were launched to celebrate significant anniversaries, to finance expansion or to compensate victims of natural or economic disasters. Fundraisers capitalised on sentiment to elicit donations, with the Royal Children's Hospital making regular newspaper appeals using the slogan 'A Sick Child Appeals to Your Love, Your Pity and Your Pocket'. After World War I patriotic fundraisers transferred their skills to civilian causes using media advertising followed up by local committees, which often continued on as ladies' auxiliaries, the core of ongoing fundraising from the 1920s to the 1970s. So frequent were special appeals that the Charities Commission, established in 1922, had as one of its functions the regulation of fundraising, receiving applications for Button Days and other campaigns and distributing them evenly throughout the year.</p>
+<p>The potential of radio for fundraising was realised first by Norman Banks with his 3KZ Christmas Day broadcasts from the children's ward of the Austin Hospital from 1937 to 1954. In 1942 the Royal Children's Hospital, in association with the <hi rend="italic">Herald-Sun</hi> and 3DB, launched its Good Friday appeal, which was extended to television through Channel 7 in 1955. Television fundraising was also employed by the Yooralla Society, which conducted an annual telethon on Channel 9. Other organisations discovered the appeal of an annual fundraising event with Vision Australia's Carols by Candlelight, conducted each Christmas Eve since 1938, the forerunner of the roadside collections, doorknocks, walks and fun runs which now dot the Melbourne charity calendar.</p></div>
+</body>
+</text></TEI>

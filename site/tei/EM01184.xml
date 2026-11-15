@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Preshil: the Margaret Lyttle Memorial School</title>
+<author>Naomi Rosh White</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01184</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Preshil in Kew is Australia's longest surviving progressive school and was founded by Margaret (Greta) Lyttle (1875-1944) in 1933. After Greta's death, her niece Margaret Lyttle (b. 1912) became headmistress, a position she held for 50 years. She extended the school into the upper years of primary education and, in the 1970s, established the secondary school. Preshil has consistently adopted pedagogical practices protective of children's personal dignity and individuality, and responsive to children's social and emotional development. Greta Lyttle was influenced by the ideas of Froebel, Montessori, theosophists and Freudians. Margaret took elements of these ideas but aligned herself with the 'New Psychology' and the writings of Bowlby, Kohl, Bettelheim and Dewey, taking the view that children learn through play, the engagement of the imagination and joint activities as members of a community in which the quality of relationships are key elements in learning.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000292" type="book"><author>White, Naomi Rosh</author> <title level="m">School matters: the Preshil alternative in education</title> <pubPlace>Melbourne</pubPlace> <publisher>Mandarin</publisher> <date>1995</date></bibl></listBibl></div></back>
+</text></TEI>

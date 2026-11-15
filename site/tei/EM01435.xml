@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Street Trees</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01435</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00012.xml"><desc>Urban Environment</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A notable feature of Melbourne's urban landscape, significant avenues of mature trees grace many Melbourne streets including Royal Parade, Victoria Parade, St Kilda Road, Flemington Road and Alexandra Avenue.</p>
+<p>As early as 1840, concern was voiced in the press about the deforestation of the Melbourne area. In the following decades the planting of street trees in the manner of European promenades was recommended as a useful and attractive element of the urban landscape. Following a street tree-planting program in Bendigo, and experimental planting in Adderley Street, St Kilda Road and the streets around the old Melbourne Cemetery, Mayor Gatehouse planted the first elm tree in Collins Street by the Melbourne Town Hall in May 1875.</p>
+<p>Street trees were favoured on scientific as well as aesthetic grounds, providing shade and purifying the air as well as complementing street architecture. By the 1930s, suburbs such as Brighton and Camberwell were characterised by their street avenues of silky oak, elms and planes. The word <hi rend="italic">leafy</hi>, applied particularly to eastern and bayside suburbs, has long implied middle-class conservatism as much as it has described landscape character. In 1931 the trees along St Kilda Road included 72 planes, 530 elms, 256 poplars and about 40 flowering gums. In 1936 the City of Melbourne carried out a tree-planting campaign to commemorate the coronation of King George VI.</p>
+<p>Iron tree guards protected city trees from wayward vehicles and runaway horses, but poor soil, inadequate drainage, infrequent watering, vandalism, gas contamination, insect infestation and disease all took their toll. In 1906 the Municipal Association of Victoria suggested the running of telegraph and telephone wires underground to prevent the mutilation of street trees through unmerciful pruning. In the mid-1990s, local councils and Cables Down Under challenged the authority of Optus under the <hi rend="italic">Telecommunications Act 1991</hi> to spoil trees through their rolling out of overhead cables.</p>
+<p>Street tree-planting has been the responsibility of municipal government, but the issue has long been characterised by broader technical, aesthetic and patriotic debate over the advantages of indigenous versus exotic species. From the 1870s, the poplar, elm, plane and oak have generally been favoured over native varieties. By the 1880s, however, native trees were being promoted as suitable and in some cases more appropriate alternatives. Though planes and elms dominated the landscape of Melbourne's streets, successive tree-planting debates in Flemington Road (1926) and Princes Highway (1932) rehearsed familiar arguments. Despite the Australian Conservation Foundation's endorsement of the plan, an opportunity to replant Swanston Street Walk with native trees was rejected by the Melbourne City Council in 1992.</p></div>
+</body>
+</text></TEI>

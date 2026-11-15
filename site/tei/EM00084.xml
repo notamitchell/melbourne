@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Ardeer</title>
+<author>John Lack</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00084</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Ardeer</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3022, 15 km W, Brimbank City)</p>
+<p>Ardeer is a mixed-use western suburb between Sunshine and Deer Park, crossed by Kororoit Creek and bounded by Ballarat Road to the north and the Western Ring Road to the west. The suburb takes its name from Ardeer in Scotland, where Nobel's Explosive Co. of Glasgow had its works. The Australian subsidiary of the Glasgow firm, Nobel (Australasia), took over the Australian Explosives and Chemicals Co. in 1925, and shortly thereafter renamed the site, which by reason of its isolation from Melbourne and suburbs had long proved popular among explosives, chemicals, fertiliser and fireworks manufacturers. From the 1950s Melbourne's western suburbs began to encroach on Ardeer through St Albans and Sunshine. From 1980 the suburb's population declined and aged, and though still a distinct blend of residential and industrial functions, Ardeer is now part of the Melbourne sprawl.</p></div>
+</body>
+</text></TEI>

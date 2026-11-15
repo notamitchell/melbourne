@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lifespans – eMelbourne experiments</title>
+<link rel="stylesheet" href="../css/site.css">
+<link rel="stylesheet" href="experiments.css">
+<script src="../js/vendor/d3/d3.min.js"></script>
+<script src="common.js"></script>
+</head>
+<body class="exp">
+<header class="site"><a class="brand" href="../index.html">eMelbourne</a><span class="tag">The Encyclopedia of Melbourne Online</span><nav class="top" aria-label="Site"><a href="../index.html">Home</a><a href="../page.html?p=about">About</a><a href="../page.html?p=help">Help</a><a href="../advanced.html">Advanced search</a><a href="index.html" aria-current="page">Experiments</a></nav><form class="quick" action="../search.html"><input name="q" type="search" placeholder="Quick search" aria-label="Quick search"></form></header>
+<main class="exp-wrap">
+<p class="exp-crumb"><a href="index.html">Experiments</a></p>
+<h1>Lifespans</h1>
+<p class="exp-lede">Every person in eMelbourne as a bar from birth to death, coloured by the kind of work they did. The line above counts how many of the people shown were alive in each year. Point at a bar for details; click it to open the entry.</p>
+<div class="exp-bar">
+  <input type="search" id="find" placeholder="Name or occupation" aria-label="Find a name or occupation">
+  <input type="text" id="born" placeholder="Born in, e.g. Dublin" aria-label="Born in">
+  <label>Sex <select id="sex"><option value="">Everyone</option><option value="f">Women</option><option value="m">Men</option></select></label>
+  <label>Order <select id="sort"><option value="b">Year of birth</option><option value="d">Year of death</option><option value="len">Length of life</option><option value="g">Kind of work</option></select></label>
+  <span id="count" class="exp-note"></span>
+</div>
+<div class="exp-legend" id="legend" role="group" aria-label="Kinds of work"></div>
+<div class="exp-chart" id="alive" style="margin-top:.75rem"></div>
+<div class="exp-chart" id="chart" style="margin-top:.75rem"></div>
+<p class="exp-note">Kinds of work are worked out from each person's occupations in the TEI (608 different occupations, folded into eight groups by keyword); a person goes in the group of their first occupation that fits. Dates known only to the year are drawn from the start of that year.</p>
+<details class="exp-table"><summary>Table of the people shown</summary><div id="table"></div></details>
+</main>
+<script>
+(function () {
+  "use strict";
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>The chart library could not be loaded</b> (js/vendor/d3/d3.min.js).</p>"); return; }
+  const SLOT = { politics: 1, law: 2, business: 3, arts: 4, science: 5, building: 6, church: 7, service: 8 };
+  const css = getComputedStyle(document.body);
+  const color = g => css.getPropertyValue(SLOT[g] ? "--series-" + SLOT[g] : "--series-other").trim();
+  const tip = document.createElement("div"); tip.className = "exp-tip"; tip.hidden = true;
+  const { esc } = Exp;
+  let people = [], on = new Set(Exp.GROUPS.map(g => g[0]));
+
+  Exp.facets().then(rows => {
+    people = rows.filter(r => r.t === "person" && r.b && r.b.y != null).map(r => {
+      const b = r.b.y + ((r.b.m || 1) - 1) / 12, d = r.d && r.d.y != null ? r.d.y + ((r.d.m || 1) - 1) / 12 : null;
+      return { id: r.id, n: r.n, b, d, by: r.b.y, dy: r.d && r.d.y, bpl: r.b.pl || "", dpl: (r.d && r.d.pl) || "", occ: r.occ || [], sex: r.sex, g: Exp.group(r.occ) };
+    });
+    document.getElementById("chart").appendChild(tip);
+    ["find", "born", "sex", "sort"].forEach(id => document.getElementById(id).addEventListener("input", draw));
+    draw();
+    addEventListener("resize", () => { clearTimeout(draw.t); draw.t = setTimeout(draw, 150); });
+  }).catch(e => document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p>" + esc(e.message) + "</p>"));
+
+  function shown() {
+    const q = document.getElementById("find").value.trim().toLowerCase(), bp = document.getElementById("born").value.trim().toLowerCase();
+    const sex = document.getElementById("sex").value;
+    return people.filter(p => (!q || p.n.toLowerCase().includes(q) || p.occ.some(o => o.toLowerCase().includes(q)))
+      && (!bp || p.bpl.toLowerCase().includes(bp)) && (!sex || p.sex === sex));
+  }
+
+  function legend(base) {
+    const n = d3.rollup(base, v => v.length, p => p.g);
+    const el = document.getElementById("legend");
+    el.innerHTML = Exp.GROUPS.map(([k, label]) => `<button type="button" class="exp-key" data-k="${k}" aria-pressed="${on.has(k)}"><i style="background:${color(k)}"></i>${esc(label)} <span class="n">${n.get(k) || 0}</span></button>`).join("");
+    el.onclick = e => {
+      const b = e.target.closest("[data-k]"); if (!b) return;
+      const k = b.dataset.k;
+      // first click shows only that group; later clicks add or remove; all off = all on
+      if (on.size === Exp.GROUPS.length) on = new Set([k]); else if (on.has(k)) on.delete(k); else on.add(k);
+      if (!on.size) on = new Set(Exp.GROUPS.map(g => g[0]));
+      draw();
+    };
+  }
+
+  function draw() {
+    const base = shown();
+    legend(base);
+    const list = base.filter(p => on.has(p.g));
+    const order = document.getElementById("sort").value;
+    const gi = Object.fromEntries(Exp.GROUPS.map((g, i) => [g[0], i]));
+    const len = p => (p.d == null ? -1 : p.d - p.b);
+    list.sort({ b: (a, z) => a.b - z.b, d: (a, z) => (a.d ?? 9999) - (z.d ?? 9999), len: (a, z) => len(z) - len(a), g: (a, z) => gi[a.g] - gi[z.g] || a.b - z.b }[order]);
+    document.getElementById("count").textContent = list.length.toLocaleString("en-AU") + " of " + people.length.toLocaleString("en-AU") + " people";
+
+    const W = document.getElementById("chart").clientWidth - 16, M = { l: 40, r: 12 };
+    const lo = Math.floor((d3.min(people, p => p.b) || 1750) / 10) * 10, hi = Math.ceil(((d3.max(people, p => p.d) || 2000) + 1) / 10) * 10;
+    const x = d3.scaleLinear([lo, hi], [M.l, W - M.r]);
+
+    // people alive each year
+    const years = d3.range(lo, hi + 1), alive = years.map(y => ({ y, n: list.filter(p => p.by <= y && (p.dy == null || p.dy >= y)).length }));
+    const H1 = 130, y1 = d3.scaleLinear([0, d3.max(alive, a => a.n) || 1], [H1 - 22, 10]).nice();
+    const s1 = d3.create("svg").attr("viewBox", `0 0 ${W} ${H1}`).attr("role", "img").attr("aria-label", "Number of the people shown alive in each year");
+    s1.append("g").attr("transform", `translate(0,${H1 - 22})`).call(d3.axisBottom(x).ticks(W / 90).tickFormat(d3.format("d")).tickSizeOuter(0)).call(g => g.select(".domain").attr("stroke", "var(--grid)")).call(g => g.selectAll("line").attr("stroke", "var(--grid)"));
+    s1.append("g").attr("transform", `translate(${M.l},0)`).call(d3.axisLeft(y1).ticks(3).tickSize(-(W - M.l - M.r))).call(g => g.select(".domain").remove()).call(g => g.selectAll("line").attr("stroke", "var(--grid)").attr("stroke-opacity", .6));
+    s1.append("path").datum(alive).attr("fill", "none").attr("stroke", "var(--accent)").attr("stroke-width", 2).attr("d", d3.line(a => x(a.y), a => y1(a.n)));
+    const cross = s1.append("g").style("display", "none");
+    cross.append("line").attr("y1", 10).attr("y2", H1 - 22).attr("stroke", "var(--muted)").attr("stroke-dasharray", "3 3");
+    cross.append("circle").attr("r", 4).attr("fill", "var(--accent)").attr("stroke", "var(--card)").attr("stroke-width", 2);
+    s1.append("rect").attr("x", M.l).attr("y", 0).attr("width", W - M.l - M.r).attr("height", H1).attr("fill", "transparent")
+      .on("pointermove", e => {
+        const yr = Math.round(x.invert(d3.pointer(e)[0])), a = alive[yr - lo]; if (!a) return;
+        cross.style("display", null).attr("transform", `translate(${x(yr)},0)`).select("circle").attr("cy", y1(a.n));
+        showTip(e, `<b>${yr}</b>${a.n.toLocaleString("en-AU")} of the people shown were alive`, "alive");
+      })
+      .on("pointerleave", () => { cross.style("display", "none"); tip.hidden = true; });
+    document.getElementById("alive").replaceChildren(s1.node());
+
+    // one bar per person
+    const ROW = 5, H = Math.max(60, list.length * ROW + 30);
+    const s = d3.create("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "group").attr("aria-label", "Lifespans of the people shown; the table below lists them");
+    s.append("g").attr("transform", "translate(0,22)").call(d3.axisTop(x).ticks(W / 90).tickFormat(d3.format("d")).tickSize(-(H - 22))).call(g => g.select(".domain").remove()).call(g => g.selectAll("line").attr("stroke", "var(--grid)").attr("stroke-opacity", .6));
+    // the bars repeat the table below, which is the keyboard and screen-reader route: keep them out of the tab order
+    s.append("g").attr("aria-hidden", "true").selectAll("a").data(list).join("a").attr("href", p => Exp.entry(p.id)).attr("tabindex", -1)
+      .append("rect").attr("x", p => x(p.b)).attr("y", (p, i) => 26 + i * ROW).attr("height", ROW - 1).attr("rx", 1.5)
+      .attr("width", p => Math.max(2, x(p.d ?? Math.min(hi, p.b + 1)) - x(p.b))).attr("fill", p => color(p.g)).attr("fill-opacity", p => (p.d == null ? .35 : 1))
+      .on("pointerenter", function (e, p) { d3.select(this).attr("stroke", "var(--fg)").attr("stroke-width", 1); showTip(e, tipFor(p)); })
+      .on("pointermove", (e, p) => showTip(e, tipFor(p)))
+      .on("pointerleave", function () { d3.select(this).attr("stroke", null); tip.hidden = true; });
+    const holder = document.getElementById("chart");
+    holder.replaceChildren(s.node(), tip);
+
+    document.getElementById("table").innerHTML = "<table><thead><tr><th>Name</th><th>Born</th><th>Died</th><th>Occupations</th></tr></thead><tbody>" +
+      list.map(p => `<tr><td><a href="${Exp.entry(p.id)}">${esc(p.n)}</a></td><td>${p.by}${p.bpl ? ", " + esc(p.bpl) : ""}</td><td>${p.dy ?? ""}${p.dpl ? ", " + esc(p.dpl) : ""}</td><td>${esc(p.occ.join(", "))}</td></tr>`).join("") + "</tbody></table>";
+  }
+  function tipFor(p) {
+    const g = Exp.GROUPS.find(x => x[0] === p.g)[1];
+    return `<b>${esc(p.n)}</b>${p.by}${p.bpl ? ", " + esc(p.bpl) : ""} – ${p.dy ?? "?"}${p.dpl ? ", " + esc(p.dpl) : ""}<br><span class="m">${esc(p.occ.join(", ") || "No occupation recorded")} · ${esc(g)}</span>`;
+  }
+  function showTip(e, html, where) {
+    const holder = where === "alive" ? document.getElementById("alive") : document.getElementById("chart");
+    if (tip.parentNode !== holder) holder.appendChild(tip);
+    tip.innerHTML = html; tip.hidden = false;
+    const r = holder.getBoundingClientRect(), tw = tip.offsetWidth;
+    let left = e.clientX - r.left + 14; if (left + tw > r.width) left = e.clientX - r.left - tw - 14;
+    tip.style.left = Math.max(0, left) + "px"; tip.style.top = (e.clientY - r.top + 14) + "px";
+  }
+})();
+</script>
+</body>
+</html>

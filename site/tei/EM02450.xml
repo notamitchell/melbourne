@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="person" subtype="person" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Watson, George John</title>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02450</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="edited">Linked death place St Kilda (checked list, tools/enrich.py).</change>
+</revisionDesc></teiHeader>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>George John</forename> <surname>Watson</surname></persName><sex value="1"/><birth when="1829">1829, <placeName>Ballydarton</placeName></birth><death when="1906-07-11">11 July 1906, <placeName ref="EM01305.xml">St Kilda, Melbourne</placeName></death><occupation>racing entrepreneur</occupation></person></listPerson></standOff>
+<text><body>
+<div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM001058" type="resource-section"><author>Eastwood, Jill</author> <title level="a">Watson, George John (1829-1906)</title> <title level="m">Australian Dictionary of Biography, online edition</title> <publisher>Australian National University</publisher> <date>2006</date> <ref target="http://www.adb.online.anu.edu.au/biogs/A060388b.htm">online</ref></bibl><bibl xml:id="PEM002086" type="edited-book"><author>Leavitt, T. W. H.; Lilburn, W. D.</author> <title level="m">The Jubilee History of Victoria and Melbourne</title> <pubPlace>Melbourne</pubPlace> <date>1888</date></bibl><bibl xml:id="PEM000179" type="book"><author>Ronald, Heather B.</author> <title level="m">Hounds are running: A history of the Melbourne Hunt</title> <pubPlace>Melbourne</pubPlace> <publisher>Lowden</publisher> <date>1970</date></bibl></listBibl></div></back>
+</text></TEI>

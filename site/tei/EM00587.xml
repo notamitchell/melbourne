@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Flinders Street Station</title>
+<author>Kate Gray</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00587</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01775.xml"><desc>Degraves Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01774.xml"><desc>Degraves Street</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Melbourne's iconic central railway terminus has been the heart of the suburban rail network since its construction in 1910. Strategically sited on the southern boundary of the city grid, it dominates views of the city from the Yarra River and St Kilda Road.</p>
+<p>A railway terminus was first established in the vicinity in 1854, when the privately owned Hobson's Bay Railway Co. opened the first railway line in Australia. This line ran from Sandridge (Port Melbourne) to the city, where a two-storey station building and goods sheds were constructed on Flinders Street, opposite the end of Elizabeth Street. In the mid-1860s the company purchased several other newly established suburban train lines, establishing the station at Flinders Street as the terminus for its expanding network.</p>
+<p>The government assumed ownership of all suburban lines in 1878 and within two years had embarked on an extravagant railways-construction program. In 1882 £80 000 was set aside for a new central station to serve as the main terminus for all passenger services in Melbourne. Various schemes were developed in the 1880s and 1890s, but it was not until 1901 that work began on the new station building, designed by two Railways Department employees, architect James Fawcett and engineer H.P.C. Ashworth. One of the lengthiest and most substantial public works of its time, the station was finally completed in 1910.</p>
+<p>The station is dominated by its long Flinders Street façade, a powerful exercise in banded red brick and cream painted render. This is terminated at the Swanston Street end by a massive copper dome over the arched main entry with its row of indicator clocks, and at the Elizabeth Street end by a giant banded clock tower. Stylistically, the building is an eclectic combination of various late-Victorian and Edwardian treatments, combining elements of French Renaissance and Romanesque styling. Other features of architectural interest include the art nouveau-influenced detailing in the stained glass and pressed metalwork, and the extensive use of zinc cladding on the exterior.</p>
+<p>The layout and presentation of the station are generally as constructed; the open-air platforms with their open truss verandahs still overlook the Yarra River to the south, and the subways connecting the platforms also remain, complete with their ceramic tiles and 'Do Not Spit' signs. Although the development of the underground city loop has reduced the number of commuters using the station, Flinders Street remains the city's best-known railway station. Its imposing presence and distinctive architectural treatment, combined with its prominent location, make it one of Melbourne's great landmarks. Under the clocks has been a time-honoured central city meeting place.</p></div>
+</body>
+</text></TEI>

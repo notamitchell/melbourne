@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Eastern Hill Fire Station</title>
+<author>Sally Wilde</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00498</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Officially opened on 3 November 1893, the fire station on the corner of Victoria and Gisborne streets was the new headquarters for the Metropolitan Fire Brigade, replacing the original Head Station of the Brigade at 447 Little Bourke Street. Lloyd Taylor and Fitts were joint architects with Smith &amp; Johnson and the builder was Thomas Cockram &amp; Co. With extensions and alterations, this building housed generations of firefighters from 1893 until 1950, and officers continued to live at the station until the 1970s.</p>
+<p>Besides living quarters, stables, workshops, offices and the Engine Hall, the complex included a tower which, before the introduction of street fire alarms and the widespread use of telephones, was manned 24 hours a day. Situated on one of the highest spots in the city, it was an important means of spotting fires across the metropolis.</p>
+<p>In 1972, work began on the new Eastern Hill Fire Station. The Brigade's central workshops, stores and tailoring were moved to a site at Thornbury, to make room for the building. The new Head Station was designed so that appliances turned out onto Gisborne rather than Victoria Street. The architects were Bates, Smart, McCutcheon Pty Ltd and the builder was A.J. Galvin Pty Ltd. After the new station was officially opened on 8 March 1979, the Brigade continued to use part of the old station for offices, and the Engine Hall and the basement were occupied by the Melbourne Fire Museum.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000149"><head>The St. John Ambulance Association, horse and covered cart outside the Eastern Hill Fire Station</head><graphic url="../objects/images/pi001736.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_pi001736.jpg"/><p>1901</p><note type="rights">Courtesy State Library of Victoria</note></figure></div>
+</body>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Pram Factory</title>
+<author>Helen Thomson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01180</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Australian Performing Group (APG), a collective of theatre workers, moved its headquarters in 1970 from La Mama Theatre into new premises featuring a 150-seat theatre converted from former livery stables and the Paramount pram factory in Drummond Street, Carlton. In 1973 a second 75-seat theatre was opened at the back. Between 1970 and 1981, when it was sold and demolished, it was the site of meetings, group-devised productions, set-building, rehearsals, protest meetings and performances, where unconventional physical intimacy between actors and audience contributed to the 'rough theatre' style characteristic of the 'New Wave' of Australian drama.</p></div>
+</body>
+</text></TEI>

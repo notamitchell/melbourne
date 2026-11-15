@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Larrikins</title>
+<author>Susan Priestley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00834</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01718.xml"><desc>Brogans Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This term originated about 1850-51 in the saliva-rich Galway brogue of a Melbourne police sergeant, John Staunton, when describing before a magistrate youths larking ('larrr a kin') in the streets. Previously known as Tom and Jerryites (cant for frequenters of low drinking houses) or in Sydney from the 1830s as cabbage tree mobs or cabbageites, larrikins manifested 'colonial boy' behaviour ranging from the prankish and irreverent to obscene language, larceny, hurling stones with and without shanghais, brawling, drunkenness and assault.</p>
+<p>'You infernal old larrikin' from New South Wales-born Walter Cooper's comedy <hi rend="italic">Colonial Experience</hi>, which premiered in Melbourne in 1868, identifies the word in common Australian parlance. Pushes, the larrikin word for their groups, were endemic in town and in all the populous suburbs by July 1869 when the <hi rend="italic">Argus</hi> newspaper echoed general press outrage:</p>
+<quote rend="block">Scarcely a day passes in which there is not brought before the City Court some one or more of the 'Bourke-Street crowd' or 'Collingwood gang' or 'Lonsdale-Street mob' of young ruffians who prowl about the streets for the greater part of the night, assaulting or insulting peaceable persons wherever they fancy.</quote>
+<p>Their willingness to fight and contempt for police are epitomised in bushranger Ned Kelly's 1879 Jerilderie letter: 'It takes eight or eleven of the biggest mud crushers in Melbourne to take one poor little half-starved larrakin [sic] to a watch house'.</p>
+<p>Larrikinism came into official language during Victoria's legislative attempts in 1871 and 1874 to curb the nuisance and deal with juvenile crime. Sergeant James Dalton, a witness before the 1874 Legislative Council Select Committee, has been confused with Staunton as the word's originator. E.E. Morris' <hi rend="italic">Austral English</hi> (1898) defined 'larrikin' as 'various shades ... between a playful youngster and a blackguardly rough'.</p>
+<p>Portrayals of Melbourne larrikins appear in Edward Dyson's <hi rend="italic">Fact'ry 'ands</hi> (1906), <hi rend="italic">Benno and some of the push</hi> (1911) and <hi rend="italic">Spats' fact'ry</hi> (1914) and in C.J. Dennis' <hi rend="italic">Songs of a sentimental bloke</hi> (1915) and <hi rend="italic">The moods of Ginger Mick</hi> (1916). Aspects of the larrikin style - cheekiness, a one-in-all-in attitude to 'stoushes', a penchant for drinking and two-up, even the slouch hat - melded into the Australian national character, evidenced to the world at Gallipoli.</p></div>
+</body>
+</text></TEI>

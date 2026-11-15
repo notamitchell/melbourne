@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Billy Graham Crusade</title>
+<author>Judith Smart</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00193</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>During 1959 Billy Graham, the charismatic American evangelist, conducted a 15-week crusade in Australia and New Zealand. In Melbourne, 719 000 people attended 25 meetings, the largest on 15 March at the Melbourne Cricket Ground attracting 143 750, a record for a single venue and for the ground. All the major Protestant denominations were represented on the platforms. The massive attendances may be explained in part by the Cold War, perceived threats to the family, 'juvenile delinquency' and the sexualised threat of rock music, Americanisation, and extensive non-British, mainly Catholic, migration. Graham preached on most of these matters and his message supported a prevailing conviction about moral decline, reinforced by the filming of <hi rend="italic">On the beach</hi> in Melbourne at the same time.</p></div>
+</body>
+</text></TEI>

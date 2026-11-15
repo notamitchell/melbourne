@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Currency</title>
+<author>John Sharples</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00431</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Currency in Melbourne has taken many forms since first European settlement in 1835. Nominally under New South Wales, where British coinage was used, Melbourne was settled from Tasmania and probably shared Launceston's more international currency structure. Personal cheques, drawn by settlers in Melbourne from 1835 on Launceston banks, have survived and may have circulated as a form of paper money. Mexican dollars and Indian rupees, known to be in use in Tasmania, may have circulated with British coins in Melbourne in the 1830s, but have not been found in archaeological contexts.</p>
+<p>Melbourne's coinage until the 1870s was characterised by very worn silver and copper coins (struck as early as 1797). Improved communications with Sydney and London in the 1840s, together with the establishment of banks, saw stability in high-denomination currencies, with British gold coins and private bank notes becoming available. The state of small change remained a problem. From 1848 Melbourne's merchants arranged for manufacture of copper tokens in England. Local production of these private 'coins' began in the early 1850s. By 1862 it had increased to the point that the government stopped their use by the simple technique of refusing to accept them for any form of payment.</p>
+<p>A branch of the Royal Mint opened in Sydney in 1855. Gold coins with special Sydney designs became available, but authorities in Melbourne had petitioned for their own mint and delayed proclaiming the Sydney gold coins legal tender until July 1857. From 1860 new British bronze penny, half-penny and farthing coins began to circulate. These, together with the silver threepence, fourpence, sixpence, shilling, florin, half-crown and crown and the gold half-sovereign and sovereign, made up a complement of 12 denominations in circulation. The Melbourne Branch of the Royal Mint opened in 1872. It issued gold sovereigns bearing the same designs, and international acceptability, as those of London.</p>
+<p>After Federation the Melbourne Mint continued to produce imperial gold coins. Australia's own coinage under Commonwealth authority began in 1910. It excluded the farthing and half-crown denominations. The Commonwealth Government brought an end to the issue of private bank notes by introducing a tax.</p>
+<p>World War I saw a gradual increase in Commonwealth paper money and the disappearance of gold coins. Silver Commonwealth coins were first struck at the Melbourne Mint from 1916 and bronze from 1919. These circulated throughout Australia. Through the 1920s an effort was made to remove British coins from circulation, a task completed in the early 1930s, although bronze coins of Queen Victoria were still occasionally found in circulation up to 1966.</p>
+<p>In 1966 decimal coinage and notes were introduced. Since that time the bronze denominations have been discontinued, plastic has replaced paper and electronic forms of payment have become common.</p></div>
+</body>
+</text></TEI>

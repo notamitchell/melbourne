@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Exhibition Street</title>
+<author>Andrew May</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00541</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>In 1880 Stephen Street residents insisted that the loss, inconvenience and depreciated property values brought about by that street's ill repute as a brothel district required that the portion from Bourke to Flinders streets be renamed Normanby Street. The International Exhibition held in that year in Melbourne eventually lent its name to the whole street, though both names were used in the 1880s and 1890s. The name was officially changed through a Melbourne City Council resolution of 5 December 1898, despite Councillor Cook's claim 'that the morality of the street would [not] be better under any other name' (Argus, 6 December 1898). In 1899 G.H. Hopkins, contemplating the printing of some fresh stationery, wrote to the council in regard to the name of the street that 'my neighbours all seem in a fog about it, some being positive it is our name and some the other'. However a 1923 enquiry to the council asking whether Exhibition Street used to be called Stephen Street suggests the old name was fading into disuse. The name change in 1898 applied to Stephen Street north of Collins Street, the southern portion to Flinders Street being named Collins Place until 1963.</p></div>
+</body>
+</text></TEI>

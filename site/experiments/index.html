@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experiments – eMelbourne</title>
+<link rel="stylesheet" href="../css/site.css">
+<link rel="stylesheet" href="experiments.css">
+</head>
+<body class="exp">
+<header class="site"><a class="brand" href="../index.html">eMelbourne</a><span class="tag">The Encyclopedia of Melbourne Online</span><nav class="top" aria-label="Site"><a href="../index.html">Home</a><a href="../page.html?p=about">About</a><a href="../page.html?p=help">Help</a><a href="../advanced.html">Advanced search</a><a href="index.html" aria-current="page">Experiments</a></nav><form class="quick" action="../search.html"><input name="q" type="search" placeholder="Quick search" aria-label="Quick search"></form></header>
+<main class="exp-wrap">
+<h1>Experiments</h1>
+<p class="exp-lede">Pictures of what the TEI records, after the experiments in eLiebermann. Each page reads the same index as the <a href="../advanced.html">advanced search</a> (data/facets.js, made by tools/build-facets.py) and draws with D3 7.9.0 from cdnjs, so the pages open by double-click but need an internet connection.</p>
+<ul class="exp-cards">
+  <li><a href="lifespans.html">Lifespans</a><p>Every person as a bar from birth to death, coloured by kind of work, with how many were alive each year. From <code>person/birth</code>, <code>death</code> and <code>occupation</code>.</p></li>
+  <li><a href="network.html">Related records</a><p>The records one to three links from any record: related entries, themes, and the places people were born or died in. From <code>listRelation</code> and <code>placeName/@ref</code>.</p></li>
+  <li><a href="themes.html">Themes together</a><p>Which of the 21 themes are tied by related records more often than chance. From <code>relation[@type='theme']</code> and the related entries.</p></li>
+  <li><a href="birthplaces.html">Where people were born</a><p>The commonest birthplaces and places of death, and which have their own place page. From <code>birth/placeName</code> and <code>death/placeName</code>.</p></li>
+  <li><a href="onthisday.html">On this day</a><p>Births, deaths and digital objects for every day of the year, as a calendar; opens on today. From <code>birth/@when</code>, <code>death/@when</code> and the object dates in data/objects.js.</p></li>
+  <li><a href="authors.html">Who wrote what</a><p>The authors of eMelbourne entries against the themes they wrote on. From <code>titleStmt/author</code> and the themes.</p></li>
+  <li><a href="objects.html">Objects through time</a><p>The 1,561 images and digitised records by year, with the entries they belong to. From data/objects.js.</p></li>
+</ul>
+</main>
+</body>
+</html>

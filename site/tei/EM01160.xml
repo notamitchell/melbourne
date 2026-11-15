@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Polly Woodside</title>
+<author>Alistair Harkness</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01160</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This ocean-going trading vessel, able to carry 1000 t and a crew of fifteen, was built in Belfast in 1885 and travelled more than 800 000 nautical miles (nearly 1.5 million km) carrying coal and nitrate between Europe and South America. Renamed <hi rend="italic">Rona</hi> in 1904, she worked in the Tasman Sea and Pacific Ocean for 20 years and saw wartime service in 1943-45. Her last seafaring years were as a coal hulk refuelling steamships in the Port of Melbourne. In 1968 National Trust volunteers restored the ship and her original name. One of only two ships of her type afloat in Australia, she is moored at the Polly Woodside Maritime Museum on the Yarra River.</p></div>
+</body>
+</text></TEI>

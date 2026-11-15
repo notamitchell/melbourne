@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Christian Brothers</title>
+<author>Chris Coney</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00343</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A Catholic religious order that came to Melbourne from Ireland in 1868, the Christian Brothers opened their first school next to St Francis' Church, Lonsdale Street, in 1869. During the following century brothers took responsibility for the St Vincent de Paul Orphanage and over 30 schools, including Parade College (Bundoora, first opened East Melbourne 1871), Christian Brothers College (St Kilda, 1878), St Kevin's College (Toorak, 1918), St Bernard's (Essendon) and St Joseph's (North Melbourne). Their primary mission was to help pupils to rise above the poverty that afflicted Irish Catholics, with great emphasis given to examination success. In the 1960s, consumerism, the liberalisation of social values and secularism rapidly decimated the novitiate ranks, sending the Order into a decline which was reinforced when scandals involving physical and sexual abuse were given significant media coverage from the 1970s. In 2004 the Order announced its intention to withdraw from Catholic education to focus instead on other community projects.</p></div>
+</body>
+</text></TEI>

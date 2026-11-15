@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Law Courts Place</title>
+<author>Patricia Mcmullan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01869</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01818.xml"><desc>Gordon Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00845.xml"><desc>Legal Precinct</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01939.xml"><desc>Post Office Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Law Court Place was a portion of Little Bourke Street between William and Queen streets. Law Courts Place connected into Post Office Place and Gordon Place to become Little Bourke Street. The nomenclature was not officially approved but informally accepted by local businesses. A letter from Herbert del Cott Pty Ltd to the Melbourne Town Clerk in 1923, states that the 'locality is also known as Law Courts Place, and we, together with other business firms in the same area, adopt law Courts Place as our address.'</p>
+<p>In 1930, the Beaufort Hotel was located in Law Courts Place.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000674" type="book"><title level="m">Sands &amp; McDougall’s commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1930</date></bibl></listBibl></div></back>
+</text></TEI>

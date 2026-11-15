@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Brotherhood of St Laurence</title>
+<author>Colin Holden</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00245</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The Brotherhood of St Laurence is a welfare agency of the Anglican Church. It was created by Father Gerard Kennedy Tucker (1885-1974) who took the name of St Laurence, 3rd-century Roman martyr and patron saint of the poor, from the chapel of St Laurence, created by his father Horace Finn Tucker, also a priest, in the Parish of Christ Church, South Yarra. It is the third largest Victorian-based welfare agency and has been incorporated under its own Act of Parliament (1971).</p>
+<p>The Brotherhood was founded in Adamstown, Newcastle, New South Wales, on 8 December 1930 as an Anglican male religious order with priest and lay members, to undertake parish work and train ordination candidates. On the initiative of Farnham Maynard at St Peter's Eastern Hill, the Brotherhood commenced work at St Mary's Mission, Fitzroy, in 1933 and soon purchased property to house the homeless at affordable rents. The original monastic ideal ended with the admission of the last such member in 1944, but the burgeoning organisation's redirection into social service delivery still originated in Tucker's visionary Christianity. Since its inception, the Brotherhood has worked towards positive social change through the development of community services and social policy, examples being public housing, family planning, employment, community day care for children, training programs for the unemployed, and research into the future of work and perceptions of poverty. In 1953 it became the nation's first non-government organisation to employ professional social workers. Its largely independent funding has allowed it to offer trenchant criticism of State and Commonwealth governments on social and welfare issues.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000155" type="book"><author>Handfield, John</author> <title level="m">Friends and brothers: A life of Gerard Kennedy Tucker, founder of the Brotherhood of St Laurence and Community Aid Abroad</title> <pubPlace>Melbourne</pubPlace> <publisher>Hyland House</publisher> <date>1980</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Latin Americans</title>
+<author>Rafaela Lopez</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00835</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Melburnians include people from more than 20 South and Central American states who, with the exception of the Portuguese-speaking Brazilians and French-speaking Haitians, speak the Spanish language. Small numbers of Latin Americans were living in Australia in the late 19th century and early 20th century. Immigration from that region did not commence, however, until the early 1970s when Chileans, Argentinians and Uruguayans, mostly motivated by the political and economic instability in their countries, began arriving in significant numbers. Small numbers of Peruvians, Colombians and other South Americans also arrived during this period. From the early 1980s to the early 1990s Central Americans, mostly refugees from civil war-torn El Salvador, came to Australia, with the majority settling in Melbourne. Latin American immigration peaked in the mid- to late 1980s. Most of the approximately 20 000 Latin American-born persons residing in Victoria in 1996 were living in Melbourne's south-eastern and western suburbs.</p>
+<p>Latin American Melbourne communities have many structures, mostly based on country of origin. There are, however, three peak organisations: the Footscray-based Spanish Latin American Welfare Centre (CELAS), the Springvale-based Latin American Association of Community Development and Welfare Services (PRODELA), and the Flemington-based Central American Community Welfare and Information Centre (CACWIC).</p>
+<p>Latin Americans hold many community celebrations, the largest and most widely attended being the Chilean Fiesta del 18 held annually during the weekend nearest to 18 September (Chilean National Day) in a Melbourne park. Latin American cultures have made a significant impact on Melbourne's nightlife. The Bullring in Johnston Street, Fitzroy (1994-2004), The Stage, and Copa Cabana in Smith Street, Collingwood, are places where people from all backgrounds dance to the latest salsa rhythms. Well-known Melburnians of Latin American origin include painter Juan Davila, writer Olga Lorenzo, Sunshine MP Telmo Languiller, and former Western Bulldogs footballer Jose Romero.</p></div>
+</body>
+</text></TEI>

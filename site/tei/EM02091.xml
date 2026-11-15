@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Janet Lady Clarke Memorial</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02091</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01044.xml"><desc>National Council of Women</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01139.xml"><desc>Philanthropy</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01214.xml"><desc>Queen Victoria Gardens</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Herbert Black Concrete and stamped copper rotunda 1913 Queen Victoria Gardens</p>
+<p>In 1873, Janet Snodgrass married wealthy pastoralist William Clarke, who was made Australia's first baronet in 1882. The Clarkes were generous philanthropists, with sympathy for a great many causes. Their wealth and social standing made them influential, and they used this to their advantage to raise awareness of and funds for various local causes.</p>
+<p>Lady Clarke sat on many committees, including the Women's National League, Women's Hospital Committee and the Talbot Colony for Epileptics. She was particularly active in supporting education. While Lady Clarke became the inaugural president of the National Council of Women of Victoria in 1902 and of the Australian Women's National League in 1904, she was not a supporter women's suffrage.</p>
+<p>Lady Clarke died in 1909, and upon her death a memorial fund was established. Herbert Black's design for a Grecian-style rotunda won the public competition. It can accommodate 100 musicians and offers a quiet place to contemplate the view across Queen Victoria Gardens. In part, the inscription on the rotunda reads: 'A tribute to the memory of a high example/ of beneficence and public spirit'.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000130"><head>Janet Lady Clarke Memorial</head><graphic url="../objects/images/JanetLadyClarke.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_JanetLadyClarke.jpg"/><p>Herbert Black 1913</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

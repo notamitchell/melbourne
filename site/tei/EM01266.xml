@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Roxburgh Ladies Seminary</title>
+<author>Liz Rushen</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01266</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00004.xml"><desc>Education</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This private educational institution was established in 1838 by Nichola Anne Cooke. Arriving in Melbourne from Van Diemen's Land in August 1838, Cooke had taken up a position as governess to John Batman's daughters. Following the loss of her mother and three sisters in the sinking of the schooner <hi rend="italic">Yarra Yarra</hi> in Bass Strait, Cooke established a school at a property rented from John Batman at the northwest corner of Flinders and Swanston streets. On the site of today's Young &amp; Jackson Hotel, the building was known as Roxburgh Cottage. By May 1839 the school had 15 pupils, two of John Batman's daughters being her earliest boarders. Despite the rapid demise of private schools, Nichola Cooke operated Roxburgh Ladies Seminary until 1851, eventually returning to Ireland, where she died in 1867.</p></div>
+</body>
+</text></TEI>

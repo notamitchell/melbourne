@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Hungarians</title>
+<author>Anna Ambrosy</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00737</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>There has been a Hungarian presence in Melbourne since the 1850s, with successive waves of immigration prompted by various social and political crises in Hungary and Eastern Europe. In the aftermath of World War I the partitioning of Hungary in the 1921 treaty of Trianon left millions of ethnic Hungarians as second-class citizens in the surrounding countries of Romania ('Transylvanians'), Yugoslavia ('Southern' Hungarians) and Czechoslovakia ('Upper' Hungarians). In this context, Australian census data after 1986, with questions on ancestry, give more accurate indications of the size of the ethnic Hungarian population in Melbourne than those surveys that rely solely on country of birth.</p>
+<p>Other significant spurs to Hungarian migration have included: the Hungarian Revolution of 1848-49; World War II with its crop of displaced persons; Russian occupation and Communist rule 1948-55; the 1956 Hungarian uprising; the labour force migrations encouraged by President Tito of Yugoslavia during the 1960s, which included a large proportion of 'Southern' Hungarians; and the harsh repressions of ethnic Hungarians by President Ceaucescu of Romania in the 1980s. Melbourne's 1956 Olympic Games witnessed political tensions over the Soviet invasion of Hungary, when the water-polo semi-final between Hungary and the Soviet Union descended into violence. Police were called and the match abandoned, with Hungary declared the winner.</p>
+<p>In the 1996 census, some 87% of Victoria's Hungarian-born population lived in Greater Melbourne, with more than 35% aged 65 or over; 53% of the elderly were concentrated in the local government areas of Brimbank, Boroondara, Casey, Glen Eira, Greater Dandenong, Knox, Monash, Port Phillip, Stonnington and Whitehorse. A number of Hungarian aged care groups have been founded to cater for this rapidly ageing community.</p>
+<p>The first Hungarian Society in Melbourne was founded in 1954, establishing a small Community Centre in Richmond in 1957. In 1981 work commenced on the Hungarian Community Cultural Centre in Wantirna. Built on land purchased by two benefactors, this major enterprise was made possible by volunteer labour and contributions from some 800 families. The Arpád Hostel and Aged Care Facility was subsequently established at a separate locality in Wantirna very near to the Hungarian Community Centre.</p>
+<p>At the annual 'Hungaro-Feast' the Hungarian community presents an exhibition of Hungarian arts and culture in the Hungarian Community Centre over a period of three days at the beginning of February. Dating from December 1969 Melbourne has been the site of the more extensive Hungarian Cultural Convention, the forerunner to the triennial convention. Since that time these conventions have extended to other State capitals.</p></div>
+</body>
+</text></TEI>

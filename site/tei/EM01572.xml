@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Wages Boards</title>
+<author>Charles Fahey</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01572</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Public reaction to newspaper reports on 'sweating' in 1890 led to the appointment of a parliamentary royal commission in 1893 to inquire into sweating and alleged insanitary conditions in factories and workrooms. On the commission's recommendation the <hi rend="italic">Factories and Shops Act</hi> was revised to provide for the formation of boards with the power to fix minimum wages in the manufacture of men's and boy's clothing, shirts, underclothing, boots, furniture and bread. Composed of five employer and five employee representatives, with a chairman having a casting vote, they could also limit the number of apprentices and non-indentured juvenile workers, or improvers.</p>
+<p>The 1896 Act was renewed for a further probationary period of two years in 1900. The trade of butcher was added and provision was made for parliament to appoint boards for any process, trade or business carried out in a factory or workroom. The new Act also gave the Chief Inspector of Factories the power to issue permits for aged and infirm workers to work at below-award rates and established a royal commission to inquire into the working of the boards and similar bodies across Australasia.</p>
+<p>The royal commission was critical of the boards and recommended the establishment of an arbitration court based on the New Zealand Act. Rejecting this recommendation, the incoming Irvine Government reintroduced the existing Wages Boards in a severely modified form in December 1902. The removal of the chairman's casting vote made it necessary for at least two employers to vote with the employees or vice versa before a determination could be ratified, rendering the boards unworkable until 1903 when a new Act restored the power of the chairman. It empowered parliament to introduce new boards that were to base their determinations on the wages paid by reputable employers to employees of average capacity. A Court of Industrial Appeals was also established.</p>
+<p>The 'reputable employers' clause did not yield a fair wage in industries where low wages were normal, as employers objected to the tendency to construe 'reputable' as 'best'. Amendments in 1907 and 1910 brought service workers, such as carters, and white-collar employees, such as clerks, under the system. The first removed the reputable employers clause and extended the Act to cover any 'process, trade, or business'; the second extended boards to any occupation. By 1920 over 90% of Victorian employees were covered.</p>
+<p>Unlike the Commonwealth Arbitration Court, the early Wages Boards did not take the cost of living into consideration in their determinations, and the Court of Industrial Appeals frequently reduced award wages, leading many workers to also seek Commonwealth awards. Wages Boards were successful in reducing sweating, and increasing average wages. They tended to restrain wage growth in times of increasing prosperity and had a dampening effect on the downward pressure on wages as unemployment increased. Wages Boards were adopted in all States except Western Australia and were the model for wages boards introduced in Great Britain in 1909. They were replaced by Conciliation and Arbitration Boards in 1982.</p></div>
+</body>
+</text></TEI>

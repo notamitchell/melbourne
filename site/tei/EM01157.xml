@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Polish</title>
+<author>Wendy Madden</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01157</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00008.xml"><desc>Ethnicity &amp; Demography</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02054.xml"><desc>Australia Today And Tomorrow</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Australia's first Polish immigrant was Joseph Potaski, who landed as a convict at the aborted Sorrento settlement in 1803. Although settlers were few until post-World War II immigration programs, during the 19th century there had been notable Polish residents in Melbourne, including Wilhelm Blandowski, appointed Victorian government zoologist in 1854. In 1863, exiles from the 1863 Polish uprising formed a short-lived Polish Society. Notable Polish Jews in early 20th-century Melbourne included beautician Helena Rubinstein, who opened a shop in Collins Street in 1902, and wine-maker Samuel Wynn (Shlomo ben David Weintraub), who in 1918 opened a wine shop in Bourke Street on the site of the future Florentino restaurant.</p>
+<p>Many Polish ex-servicemen arrived after World War II, having fought with the Allies in the Battle of Britain or in the desert at Tobruk. Other Polish immigrants during the 1940s and 1950s came from the displaced persons camps in Europe. Family reunions formed the basis of a second influx during 1956-57, when the communist government in Poland relaxed its emigration policy. Social and political unrest in Poland during the 1980s led to a third wave of emigration, with more than 4000 settling in Victoria by the end of 1983. The 1996 census showed 19 432 Polish-born settlers in Melbourne, many living in the western suburbs, particularly in Sunshine.</p>
+<p>There are 41 organisations under the umbrella of the Polish Community Council of Victoria (PCCV), catering for welfare, culture, sports, social and exservicemen's associations, such as the Ardeer Soccer Club and the Kosciuszko Society Inc. The newspaper <hi rend="italic">Tygodnik Polski</hi> is published weekly. The contribution made to Melbourne by the Polish community is diverse. Monash University bears the name of the noted World War I commander General Sir John Monash, whose family came from Krotischin in Prussia (part of modern-day Poland). Henry Krongold's philanthropy enabled the National Gallery of Victoria to purchase a Renoir. In 1983 Leonard Ostrowski was appointed as judge to the Victorian County Court.</p></div>
+</body>
+</text></TEI>

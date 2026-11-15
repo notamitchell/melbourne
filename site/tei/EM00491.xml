@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Duelling</title>
+<author>Paul De Serville</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00491</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>A traditional means of protecting one's honour, duelling was one custom brought out by gentlemen colonists. In 1839 George Arden, editor of the <hi rend="italic">Port Phillip Gazette</hi>, fought the first recorded duel. Seventeen duels were fought in the Port Phillip District; pistols rather than swords were used. Meeting places in Melbourne included Sandridge Beach and Flagstaff Hill. Garryowen's (Edmund Finn) description of the duel between Redmond Barry and the squatter Peter Snodgrass is memorable. In handling the hair-triggered duelling pistol, the impatient Snodgrass is reputed to have shot himself in the foot. Apart from that incident, duels in Melbourne were bloodless. Duelling died out after the 1850s.</p></div>
+</body>
+</text></TEI>

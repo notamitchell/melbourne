@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Collingwood Children's Farm</title>
+<author>Sally Ruljancich</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00376</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>One of the last intact examples of 19th-century rural landscapes in Melbourne, the 7 ha of paddocks opposite Yarra Bend Park have been farmed continuously since European settlement. The site housed a convent and female rescue institution conducted by the Sisters of the Good Shepherd until 1974, when the land was purchased by the Victorian Government. In 1979 a community committee, with support from the former Collingwood City Council, leased a small area of the former convent site for a children's farm, in the hope of educating city children about farming and food production. With the aid of community groups, the plots were weeded and carved out.</p>
+<p>Although in 1997 the State Government sold much of the area to private developers, the convent and garden have been protected. By running working bees, conservation groups, projects and seminars on sustainable practices and issues, the farm, which espouses a philosophy of permaculture, landcare and organic farming, remains a community and environmental asset. It is also home to Melbourne's first modern farmers' market.</p></div>
+</body>
+</text></TEI>

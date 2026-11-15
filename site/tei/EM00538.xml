@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Evangelical Movement</title>
+<author>Darrell Paproth</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00538</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The evangelical movement is a diverse worldwide movement that has been profoundly influential in some Protestant denominations and various interdenominational movements and missions. Historically its roots lay in the Reformation, but it has been shaped by the influences of Puritanism and Pietism, the 18th-century revivals, the 19th-century holiness movement, and 20th-century fundamentalism. It is characterised by its emphasis on the centrality of the cross, the Bible, personal conversion, and evangelistic activism.</p>
+<p>The strength of the evangelical movement in Melbourne was not in the denominations but in the plethora of interdenominational organisations and endeavours into which the leading evangelicals poured their considerable energy, piety and ability. First among these were deeper-life conventions, evangelistic campaigns, (mainly 'faith') missions, and prayer. In the 20th century the leadership was predominantly lay (in contrast to Sydney, which was mainly clergy-dominated); it was an informal network bound together by ties of friendship and common experience, theology and agenda. Loyal churchmen, the leaders eschewed separatist tendencies; thus, paradoxically, they strengthened their denominations even though they were committed to interdenominational causes.</p>
+<p>In colonial days evangelical theology and culture strongly influenced the Protestant churches in Melbourne, and they in turn influenced the culture and society of the city, though not without opposition from liberalising and secularising tendencies. There was a good deal of evangelical vitality in the half-century before World War I. The interwar years saw a resurgence of activity, confidence and potency which found a focal point of leadership and unity in the moderating influence of Rev. C.H. Nash and the Melbourne Bible Institute (now the Bible College of Victoria), and the Upwey/Belgrave Heights Convention. Apart from the high points of the Billy Graham Crusades, the decades following World War II saw a decline in evangelical fortunes. The reasons for this are complex, but among them may be mentioned the demise of Methodism with its emphasis on holiness and evangelism, the somewhat atomising effect of the Pentecostal and charismatic movements, and the lack of the kind of leadership and unity that was characteristic of the movement in earlier years.</p></div>
+</body>
+</text></TEI>

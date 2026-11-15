@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Montrose</title>
+<author>Peter Baddeley</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00998</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Montrose</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3765, 34 km E, Yarra Ranges Shire)</p>
+<p>Located on the tourist route in the Dandenong Ranges, Montrose was originally known as Double Pitts. In the 1850s a local saw mill utilised the extensive timber on the ranges. Prior to 1892 the area was referred to as South Mooroolbark. Local landowner James Walker, whose son had a store in Colchester Road, Kilsyth, named Rose Mont, called the settlement Montrose in the early 1890s. By the 1970s Montrose had become part of the sprawl of suburbs extending into the Dandenongs, with strict controls addressing problems of suburban encroachment into environmentally sensitive areas.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000224" type="book"><author>McLennan, Jennifer A.</author> <title level="m">Montrose: Settlement in the foothills: A history</title> <pubPlace>Melbourne</pubPlace> <publisher>Shire of Lilydale</publisher> <date>1987</date></bibl></listBibl></div></back>
+</text></TEI>

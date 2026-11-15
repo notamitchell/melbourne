@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Essendon Airport</title>
+<author>Roger Meyer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00531</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00019.xml"><desc>Transport</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Essendon was selected as the site of Melbourne's government aerodrome in August 1921. The first tenants included Herbert Larkin, George Matthews, Frank Roberts and Bob Hart. In 1935, after the elimination of Fishermans Bend as an alternative location, the Essendon site was expanded to the south and east to accommodate DC-2 aircraft. It was extended to its present size in 1944, and sealed runways were constructed in 1946 and 1947. During the late 1940s it was Australia's busiest airport. The first international passenger flight arrived in 1951. In May 1966 Essendon lost its status as the city's airport to the new Melbourne Airport at Tullamarine.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Fairlea, HM Prison</title>
+<author>Emma Russell</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00548</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Victoria's first female-only prison, Fairlea opened in 1956 in Yarra Bend Park, long a site of social exclusion as the location of the Yarra Bend Asylum and Fairhaven, a venereal diseases hospital.</p>
+<p>Women were a minority in Victoria's prisons: less than 20% in the 19th century, but since 1920 never higher than 6%. Detained first in hulks (in the 1860s), then in an outbuilding at Pentridge, they were an irritating presence in a male-oriented punishment system. Governor Kathleen Perrin's goal was to provide positive rehabilitation within a conducive environment, enabling the woman prisoner to 're-enter the world as a citizen'. She was supported by her friend and influential social activist Mrs (later Dame) Phyllis Frost, and by the Victorian Women's Prison Council.</p>
+<p>In the late 1960s and 1970s, this approach was questioned. The women's movement, an encroaching drug culture, a move away from a conservative, paternalistic society, and a rising anti-imprisonment movement contributed to some uncertainty of purpose at Fairlea.</p>
+<p>A tragic and deliberately lit fire on 6 February 1982 provided the impetus to develop a fresh, progressive approach to female prisoner management. Fairlea reopened in 1986 with modern cottage accommodation and up-to-date facilities. However, in August 1996 it was closed as part of the Liberal State Government's prison privatisation program. Its prisoners were moved to the new Metropolitan Women's Correctional Centre at Deer Park.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000144" type="book"><author>Russell, E.</author> <title level="m">Fairlea: the history of a women's prison in Australia 1956-1996</title> <pubPlace>Melbourne</pubPlace> <publisher>Australian Scholarly Publishing</publisher> <date>1998</date></bibl></listBibl></div></back>
+</text></TEI>

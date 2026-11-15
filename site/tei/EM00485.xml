@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Doveton</title>
+<author>Jenny Keating</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00485</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Doveton</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3177, 31 km SE, Casey City)</p>
+<p>An agricultural area until the 1950s, the Doveton area was originally part of the Eumemmerring run and named after John Doveton, nephew of Francis C. Doveton, a goldfields commissioner and magistrate. During World War II a bombed-out firm from Nottingham, England, bought land by the Princes Highway for a lace and textile factory. Commencing operations in 1950, this was soon followed by major motor car and truck manufacturers, International Harvester Co. and General Motors-Holden. H.J. Heinz moved into a factory opened by Prime Minister Menzies in 1955, and other companies followed. In 1954 the Housing Commission bought up land in the area and built a large estate, mainly constructed in production-line fashion from prefabricated concrete. The whole of the old Eumemmerring parish and pastoral run area is now subdivided into residential blocks which include Doveton and its adjoining suburbs, Hallam, Endeavour Hills and Eumemmerring. Doveton was the subject of sociological study in Lois Bryson and Faith Thompson's <hi rend="italic">Australian Newtown: Life and leadership in a working-class suburb</hi> (Melbourne: Penguin, 1972).</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000132" type="book"><author>Harding, Maria</author> <title level="m">Doveton: A brief history</title> <pubPlace>Melbourne</pubPlace> <publisher>The Friends of the Doveton Library</publisher> <date>1993</date></bibl></listBibl></div></back>
+</text></TEI>

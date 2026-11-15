@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Queen's Theatre</title>
+<author>Mimi Colligan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01217</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Melbourne's first substantial theatre building opened in April 1845 at the corner of Queen and Little Bourke streets and, like many 19th-century theatres, shared the site with a hotel - the St John Tavern. As was usual for the period, a varied program of two plays was offered, including <hi rend="italic">The bear hunters</hi> or <hi rend="italic">The fatal ravine</hi> and <hi rend="italic">Black-eyed Susan</hi>.</p>
+<p>Soon after, George Coppin held his first Melbourne season at the Queen's. Built by hotel-keeper and Melbourne city councillor John Thomas Smith (later to be mayor seven times), the brick and stone building measured 14 m by 23 m, with a capacity of 1200 people. By the mid-1850s the Queen's fell into theatrical disuse, becoming among other things a coach-builder's premises and a furniture warehouse. It was demolished in 1922. Apartments now occupy the site.</p></div>
+</body>
+</text></TEI>

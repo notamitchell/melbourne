@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Law Institute of Victoria</title>
+<author>Rob Mcqueen</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00840</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00009.xml"><desc>Crime, Law &amp; Order</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established in March 1859 the Institute was initially little more than a social club for 'city' solicitors. It started to play a more significant role in the late 1880s, commenting on proposed legislation and, through its complaints committee, referring cases of 'misconduct' to the Supreme Court. When in 1917 the Institute finally obtained statutory recognition it quickly became the pre-eminent voice of the 'lower branch' of the profession in Victoria. The depression occasioned a number of trust account defalcations by solicitors, and falling membership in the Institute. The former resulted in public clamour for compulsory fidelity insurance for solicitors, introduced by the <hi rend="italic">Legal Profession Practice Act 1946</hi>, which also entrenched the Institute's position as the representative of the 'lower branch' of the profession by tying membership of the Institute to the issue of practising certificates. This status quo remained until the <hi rend="italic">Legal Practice Act 1996</hi> significantly diluted the Institute's regulatory role, and membership ceased to be tied to the issue of a practising certificate.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000555" type="edited-book"><author>Hughes-Jones</author> <title level="m">The Law Institute of Victoria 1859-1959</title> <pubPlace>Melbourne</pubPlace> <publisher>The Institute</publisher> <date>1959</date></bibl><bibl xml:id="PEM000506" type="book-section"><author>McQueen</author> <title level="a">Together we fall, divided we stand: the myth of a monolithic Australian legal profession</title> <title level="m">Lawyers and vampires: Cultural histories of legal professions</title> <pubPlace>Oxford and Portland, Oregon</pubPlace> <publisher>Hart Publishing</publisher> <date>2003</date> <biblScope unit="page">293–328</biblScope></bibl></listBibl></div></back>
+</text></TEI>

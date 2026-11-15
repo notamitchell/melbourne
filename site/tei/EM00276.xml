@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Cabrini Hospital</title>
+<author>Gwynedd Hunter-Payne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00276</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Victoria's largest private hospital, located in Malvern, is owned by the Missionary Sisters of the Sacred Heart of Jesus who came to Australia from Rome in 1948 at the invitation of Catholic Archbishop Daniel Mannix. On arrival they took over St Benedict's, a 48-bed private hospital previously owned by the Sisters of Mercy. With 140 beds, the St Francis Xavier Cabrini Hospital was opened on 11 May 1958. Missionary Sisters came from the United States to take charge of each department, including the first 'in-house' pathology laboratory. Three men were instrumental to the growth and development of the hospital: a surgeon, Alwynne Rowlands, who acted as both mentor and medical adviser; Peter Norris, a solicitor, chair of the first Advisory Council, and Rory Willis, a surgeon, who became honorary medical director in 1969, the first such appointment in a private hospital in Victoria.</p>
+<p>The South Wing (1971) increased the hospital's capacity to 324 patients. Cabrini established the first on-site private Medical Consulting Rooms (1971). Postgraduate teaching commenced with the appointment of Professor R.R. (Rod) Andrew, Founding Dean of the Monash Medical School, as director of medical education at Cabrini in 1977. Undergraduate medical teaching, in association with Monash University, began officially in 1976 although Professor (later Sir Edward) Hughes had taught students from the Alfred Hospital in earlier years. Open-heart surgery commenced in October 1985 after the appointment of the hospital's first full-time medical staff as intensive care fellows. A Day Procedure Centre opened in 1990. The Governing Board, incorporated in 1987, assumed responsibility for both the outreach and the hospital encompassed by the service known since 2003 as Cabrini Health.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000099" type="book"><author>Hunter-Payne, Gwynedd</author> <title level="m">Cabrini: A hospital's journey 1948-1998</title> <pubPlace>Sydney</pubPlace> <publisher>Helicon Press</publisher> <date>1998</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>St Kilda Cemetery</title>
+<author>Geoffrey Austin</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01307</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>One of Melbourne's oldest suburban cemeteries, the St Kilda Cemetery contains a diverse range of monuments and notable burials including Alfred Deakin (prime minister), Ferdinand von Mueller (botanist) and Albert Jacka (World War I soldier). Robert Hoddle surveyed a cemetery of 20 acres (8 ha) in 1851; the first burials occurred in 1855. Management was provided by the St Kilda Cemetery Trust, with representation from the municipalities of St Kilda, Prahran and the various religious denominations. By 1900, 20 329 burials were recorded. With no further land available, the sale of burial plots was discontinued from 31 December 1900. However, because of declining income, pressure was placed on the trustees to sell small numbers of plots at various times during the 20th century, removing some of the cemetery's ornamental features and pathways in the process. Total burials had reached approximately 50 900 by 1967. With the cemetery near capacity and no financial reserves, trusteeship passed to the Necropolis Springvale in 1968. Approval was given in 1969 to replace the 19th-century cemetery lodge near the Dandenong Road gates with a lawn cemetery.</p></div>
+</body>
+</text></TEI>

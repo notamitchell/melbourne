@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Malthouse Theatre</title>
+<author>Helen Thomson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00890</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Melbourne's second major theatre company has its home at the old Carlton &amp; United Brewery Malthouse in South Melbourne. Founded as Hoopla Productions in 1976 by Carillo Gantner, Graeme Blundell and Garrie Hutchinson - the latter two of whom, drawing on their experience as members of the Australian Performing Group, wished to extend its experimental and nationalist aims to the mainstream - it became the Playbox Theatre Co. in 1978. In 1990 the company entered into partnership with Monash University but this ended in 1999 and a new partnership was begun with Victoria University in 2000. Its original two city theatres were destroyed by fire in 1984. After a period without a permanent base it moved in 1990 into the refurbished Malthouse, with two new theatres, the Beckett and the Merlyn, designed by John Beckett. Its artistic directors have included Rex Cramphorn, James McCaughey, Peter Oyston, Carillo Gantner, Aubrey Mellor and Michael Kantor. The company changed its name to Malthouse Theatre in 2004. From the start the Malthouse gave preference to contemporary Australian work and gradually moved towards producing exclusively Australian plays, most of them new work. Under new director Michael Kantor, this policy has changed to encompass international work of relevance to Australia. The company has thus played an extremely important role in the development of Australian writing for the stage, offering dramaturgical advice, building new audiences and taking risks with unknown writers and material. The quality of its productions has been mixed, but many important Australian playwrights have begun their careers with Malthouse productions.</p></div>
+</body>
+</text></TEI>

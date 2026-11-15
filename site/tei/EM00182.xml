@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Benevolent Asylum (Kingston Centre)</title>
+<author>Mary Kehoe</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00182</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Set in rolling green countryside 2 km north-west of the infant Melbourne township, the Benevolent Asylum was opened on 27 November 1851 to 'relieve the aged, infirm, disabled or destitute of all creeds and nations' in the town's early days. The asylum was built by the Victoria Benevolent Society, a group of philanthropic citizens determined to house the colony's 'deserving poor' in more dignified fashion than the dreaded workhouses of the new English Poor Law. In accordance with a pattern already established for the development of charities in Victoria, the government granted the land and provided funds to match private subscriptions to build the asylum.</p>
+<p>The overwhelming influx of immigrants to Victoria in the early 1850s placed enormous demands on the asylum, which initially served as an immigrants' home, blind asylum, orphanage, lying-in hospital and lunatic asylum. However, as other institutions were established, it focused increasingly on housing the aged poor. The impressive three-storey Tudor-style building on 'Institution Hill', straddling North and West Melbourne, was extended four times in its first 20 years. In 1873 the society commenced negotiations with the Victorian Government about relocating from the overcrowded site, but with no result. The society responded by erecting more wards on the 10-acre (4 ha) site, reaching a capacity of 685 beds.</p>
+<p>The depression of the 1890s severely strained the resources of the asylum, 878 applicants being turned away in 1892. The asylum finally relocated to a 150-acre (60 ha) site at Cheltenham in 1911 and the old buildings fronting Curzon Street in North Melbourne were demolished. By then almost 15 000 people had been assisted by the society.</p>
+<p>With the establishment of other asylums throughout rural Victoria, the Benevolent Asylum was renamed the Melbourne Benevolent Asylum in 1868. Now known as the Kingston Centre, it remains at Cheltenham but provides a vastly different aged care service from its 1850s forerunner.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000379" type="book"><author>Kehoe, Mary</author> <title level="m">The Melbourne Benevolent Asylum: Hotham's premier building</title> <pubPlace>Melbourne</pubPlace> <publisher>Hotham History Project</publisher> <date>1998</date></bibl></listBibl></div></back>
+</text></TEI>

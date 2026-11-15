@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Army Camps</title>
+<author>Bart Ziino</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00088</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00011.xml"><desc>Military &amp; Defence</desc></relation><relation name="related" type="concept" active="#subject" passive="EM03396.xml"><desc>The Everyday War: World War I and the City of Melbourne</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Victoria's army camps were a function of contemporary defence systems, fluctuating in scale and developing in type as Victorians and Australians responded to defence issues. The first camps were temporary encampments of volunteer corps, held annually at Easter from 1861 at Werribee Park and Queenscliff, and from 1887 at Langwarrin, where semi-permanent buildings were erected. During the Boer War (1899-1902), the Victorian contingents were mustered at the showgrounds, Ascot Vale, and later at Langwarrin. Easter encampments persisted after the war at Langwarrin and around Port Phillip heads.</p>
+<p>The introduction of compulsory training in 1910 demanded more expansive sites, with large camps at Kilmore, Seymour, Ballarat and Heidelberg. On the outbreak of World War I, a camp was established at Broadmeadows, where the Australian Imperial Force (AIF) was concentrated. Accusations of prostitution and other vices traditionally associated with military camps, and a series of riots in city streets, soon prompted references to Melbourne as a 'garrison town'. In early 1915 troops were removed to Seymour to alleviate serious concerns about their health. Several other temporary camps were established in 1915, notably at Ballarat, Flemington, Geelong, Maribyrnong and Royal Park. By the end of the war, Broadmeadows camp achieved a more permanent status. Seymour was consistently employed through the 1920s, with camps also at Heidelberg, Williamstown, Mornington, Queenscliff and Broadmeadows.</p>
+<p>Camps were less frequent and more localised after the abolition of compulsory training in 1930. During World War II existing militia forces were gathered at Seymour, a new camp for the Second AIF was constructed at nearby Puckapunyal, and Royal Park and Broadmeadows resumed as important centres. The arrival of US troops in 1942 saw further camps established, notably Camp Pell in Royal Park, facilitating a significant presence of servicemen in Melbourne, if only remembered for the Brownout murders. Postwar development of Australia's regular army and consolidation of Puckapunyal as Victoria's primary training site obviated the need for temporary camp facilities during subsequent conflicts.</p></div>
+</body>
+</text></TEI>

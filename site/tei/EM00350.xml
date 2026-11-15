@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>City Development Association</title>
+<author>David Dunstan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00350</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00002.xml"><desc>Architecture &amp; Planning</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>The City Development Association (CDA) was an activist organisation and pressure group formed to counter the perceived stagnation of Central Melbourne in the post-1945 era. The CDA's executive included many influential businessmen with subcommittees consisting of professionals and experts: architects, planners and academics. Founded in 1953, the CDA included city planning advocates keen to pursue old ideals and to see the implementation of the Melbourne and Metropolitan Board of Works planning scheme, but it became a vehicle for the concerns of a new generation of city businessmen and modernising professionals. Sir Norman Myer of the Myer Emporium was the first chairman and almost every type of city business was represented. Priorities included civic improvement, slum redevelopment, traffic and parking. Members were keen to see the city prepared for the Olympic Games in 1956. For its models the CDA looked not to Britain and Europe but to the United States and drew on futuristic American urban design ideas. It advocated high-rise office towers, high-density living and clover-leaf road junctions, envisaging a 'steel and concrete' transformation of what was still a Victorian-period city. The CDA saw itself as pledged to Melbourne's resurrection and 'for the love of the city' became a slogan. Projects included the founding of Moomba, promotion of 'the Paris End' of Collins Street, Chinatown, off-street parking and active participation in the construction of the Southern Cross Hotel, Melbourne's first American-style hotel. CDA activists 'networked' their ideas in private enterprise circles and were successful in pressuring the Melbourne City Council and the Victorian government, the latter particularly after 1955 when the Liberal Party led by (Sir) Henry Bolte secured office. The Housing Commission of Victoria followed CDA ideals by razing 'slums' and providing high-density tower developments in the inner suburbs. An Underground Rail Loop for Melbourne was another CDA idea, designed to raise the value of city property. Some momentum was lost with Norman Myer's death in 1956, and in the 1960s the CDA languished, a victim of its own success, with many of its aims all too brutally realised.</p></div>
+</body>
+</text></TEI>

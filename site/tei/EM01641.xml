@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Woori Yallock</title>
+<author>Jenny Keating</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01641</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Woori Yallock</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3139, 50 km E, Yarra Ranges Shire)</p>
+<p>Woori Yallock is a mainly rural district located on the Warburton Highway. In its various spellings (Wori Yolaok, Worri Yalloak) its name is derived from an Aboriginal term meaning 'running creek'. Barak, the famous Wurundjeri leader, settled briefly near here on a short-lived Aboriginal reserve gazetted in 1862. Opera-singer Nellie Melba's father, the builder David Mitchell, had a property at Woori Yallock named Steele's Flat, which David Syme of the Age newspaper took over and expanded. Timber milling and tourism were mainstays in the early 20th century, and residential expansion in the 1970s doubled the town's population.</p></div>
+</body>
+</text></TEI>

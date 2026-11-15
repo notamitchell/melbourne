@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Pawnbrokers</title>
+<author>Dean Wilson</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01124</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00003.xml"><desc>Business &amp; Industry</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01911.xml"><desc>Meyers Place</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>In 1849 the Magistrates Court granted a licence to Anne Wills to operate Melbourne's first official pawnbroking business in Bourke Street. By 1859 there were 39 pawnbrokers trading in the city and suburbs. Clearly demarcated by the sign of the three golden balls hung outside their premises, pawnbrokers centred around Elizabeth Street and Swanston Street for much of the 19th century. Some businesses catered to a wealthier clientele; Cohen &amp; Marks, dealers of gold, jewellery and plate, advertised a private customer entrance. The 1864 novel Raven Rockstrow, written by Collingwood pawnbroker Henry Newton Goodrich, describes transactions in a more typical business. Some commentators decried pawnbroking as a stimulus to crime, and saw its growth as a disturbing symbol of the re-emergence of old-world poverty in the colony. Most, however, acknowledged its function as a 'poor man's bank', providing credit to those denied it elsewhere. Both images have persisted. Pawnbrokers, colloquially known as 'pop shops', were an important means of survival during economic depression and they continue to be an important source of credit for low-income earners.</p></div>
+</body>
+</text></TEI>

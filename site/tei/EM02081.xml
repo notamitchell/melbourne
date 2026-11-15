@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Georges Fountain</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02081</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-15" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00381.xml"><desc>Collins Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00638.xml"><desc>Georges</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01340.xml"><desc>Scots' Church</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Peter Staughton Bluestone and concrete fountain 1981 Scots' Church, Collins Street</p>
+<p>Georges' Collins Street department store was once the grand dame of Melbourne inner-city retailing.</p>
+<p>As the department store approached its centenary year of 1980, it commissioned sculptor Peter Staughton to undertake a commemorative fountain to mark its hundred years of trading. An agreement was reached between the Fountains Trust of Victoria and the trustees of Scots' Church to locate the fountain close to Georges but on church land, between its assembly hall and place of worship.</p>
+<p>Staughton's simple yet beautiful design is tucked into a crease between the buildings. The fountain's large shallow dish is set into a corner formed by two bluestone walls, its water gently flowing over the bowl's lip into the pool below. The City of Melbourne paved the area for the installation. Premier Lindsay Thompson unveiled the fountain in 1981. Its plaque reads: 'Presented to the people of Victoria/ by/ Georges Australia Limited/ on the occasion of Georges' centenary 1880-1980'.</p></div>
+</body>
+</text></TEI>

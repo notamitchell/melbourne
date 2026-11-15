@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Arbitration Court</title>
+<author>Peter Love</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00078</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Established by the Commonwealth Parliament in 1904 to prevent and settle inter-state industrial disputes, the Arbitration Court brought workplace conflict into a judicial framework. The original objective was an orderly resolution of disputes like the bitter strikes of the 1890s, but the court entered the domain of social policy when Mr Justice Higgins delivered his 1907 Harvester judgment defining 'fair and reasonable' wages for a male breadwinner. Despite employers' objections that it imposed unwarranted constraints on a free labour market and trade unions' resentment of its shackles on industrial militancy, both became consenting parties to the court's awards and contrived arguments to show that either the capacity of industry to pay or the need for a fair living wage should be paramount.</p>
+<p>From a single judge in 1904 it grew to have more than 60 members at its Nauru House headquarters in 1999. In the mid-1950s its functions were divided between Court and Commission, which in turn was replaced by the Australian Industrial Relations Commission. In the 1980s the Hawke/Keating governments reduced its elaborate regulatory framework and placed an increasing emphasis on enterprise bargaining. In 2005, the Howard government made it effectively irrelevant by shifting national minimum wage fixation to the Australian Fair Pay Commission.</p></div>
+</body>
+</text></TEI>

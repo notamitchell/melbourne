@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Sir Edward 'Weary' Dunlop statue</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02114</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2008-08-22" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00802.xml"><desc>Kings Domain</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Peter Corlett Bronze statue with granite pedestal 1995 Kings Domain</p>
+<p>Born in Melbourne in 1944, Peter Corlett studied sculpture at RMIT. He has created several commemorative sculptures, including the Australian War Memorial's Simpson and His Donkey. Winning the commission for a memorial to Edward 'Weary' Dunlop, Corlett produced a work that not only commemorated this extraordinary man but paid homage to all medical staff serving prisoners of war in Asia-Pacific during World War II. The sculpture includes metal spikes that were used in the Burma-Thailand railway.</p>
+<p>Weary Dunlop trained in Melbourne as a pharmacist before he turned to medicine. He then undertook surgical training in London, where he remained until the outbreak of World War II. Dunlop joined the Medical Corps of the Australian Army. A surgeon of considerable skill, he served in a senior position in the Middle East and was then transferred to Java. In 1942, his company was captured by Japanese troops and imprisoned first in Singapore and then in Changi, Thailand. His company was sent to work on the Thai segment of the infamous Burma-Thailand railway. A natural organiser and leader, Dunlop led the first Australian prisoners of war who were to work on the line. He was a courageous leader and compassionate doctor, and restored morale in those terrible prison camps and jungle hospitals. He defied his captors, gave hope to the sick and eased the anguish of the dying.</p>
+<p>After 1945 and with the war behind him, Dunlop turned his energies to healing and to building bridges; he worked towards the health and welfare of former prisoners of war and their families, and towards promoting better relations between Australia and Asia.</p>
+<p>Following Dunlop's death in 1993, funds were raised through the Weary Dunlop Statue Appeal. Peter Corlett's memorial Weary Dunlop was unveiled by Premier Jeff Kennett on 15 August 1995.</p></div>
+<div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000136"><head>Sir Edward 'Weary' Dunlop statue</head><graphic url="../objects/images/SirEdwardWearyDunlop.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_SirEdwardWearyDunlop.jpg"/><p>Peter Corlett 1995</p><note type="rights">Courtesy City of Melbourne</note></figure></div>
+</body>
+</text></TEI>

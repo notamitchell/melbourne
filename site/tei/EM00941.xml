@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Melbourne General Cemetery</title>
+<author>Helen Harris</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00941</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00006.xml"><desc>Health &amp; Well Being</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>By 1849 it was obvious that Melbourne's original cemetery, on the site of what is now the Queen Victoria Market, was insufficient for the growing city's needs. Plans were made for the establishment of another cemetery in Carlton, on the then outskirts of Melbourne. The Act establishing this cemetery was passed by the New South Wales parliament in 1850. The first trustees were appointed in 1852, and the first burial, that of John Burnett after whom Burnett Street in St Kilda is named, took place in May 1853.</p>
+<p>The 40 acre (16 ha) cemetery was laid out in religious denominational sections, the proportion of land for each being based on census figures. The design was entrusted to architect Albert Purchas who was also involved with Boroondara Cemetery at Kew. The curving roads and pathways were later to be beautified with trees and shrubs provided by government botanist Ferdinand von Mueller, though it is doubtful if any of his plantings survive today.</p>
+<p>The cemetery size was subsequently increased several times in the 19th century, before being closed to all but plot holders in 1904 in order to allow the new Fawkner and Springvale cemeteries to become established. An Act of Parliament in the 1930s added more land, making a total of 100 acres (40 ha), and the main iron-gated entrance together with the lodge were moved from their original site beside Princes Park to Cemetery Road. The current administration building was then built from bluestone materials from the main lodge.</p>
+<p>There had been poor administration of the cemetery in the 19th century, but it was illegal activities by the trustees from the 1940s to the 1970s (for example, the reselling of burial plots) that resulted in their dismissal in 1978. Eventually the administration of the cemetery was given to the trustees of the Necropolis. However, by then a number of roadways and pathways had been filled in with graves, destroying much of the original layout.</p>
+<p>The cemetery has many prominent Victorians among its 500 000 burials. In 1996 an Act of Parliament required the trustees to spend $300 000 from their reserve fund to create a landscaped Prime Ministers' Memorial Park within the grounds. The ashes of Sir Robert Menzies and Sir John Gorton have been deposited there and a memorial erected to Harold Holt. 'Labor Corner' in the Catholic section contains the graves of a number of people associated with the Australian Labor Party, including James Scullin and Arthur Calwell. There is a Holocaust memorial in the Jewish section, a Hungarian memorial near Centre Avenue, while Italian, Chinese and other ethnic groups are well represented.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000381" type="book"><author>Chambers, Don</author> <title level="m">The Melbourne General Cemetery</title> <pubPlace>Melbourne</pubPlace> <publisher>Hyland House</publisher> <date>2003</date></bibl><bibl xml:id="PEM000520" type="edited-book"><author>Sagazio, Celestina</author> <title level="m">Cemeteries: Our heritage</title> <pubPlace>Melbourne</pubPlace> <publisher>National Trust of Australia (Victoria)</publisher> <date>1992</date></bibl></listBibl></div></back>
+</text></TEI>

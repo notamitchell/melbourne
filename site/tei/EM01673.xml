@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Young Men's Christian Association</title>
+<author>Martin Crotty</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01673</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00014.xml"><desc>Reform, Charity &amp; Philanthropy</desc></relation><relation name="related" type="theme" active="#subject" passive="EM00015.xml"><desc>Religion</desc></relation><relation name="related" type="concept" active="#subject" passive="EM01680.xml"><desc>ACDC Lane</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Established in Melbourne in 1853, the Young Men's Christian Association (YMCA), based on the British association of the same name, was a group of young men who met for mutual intellectual and moral improvement. The movement quickly foundered and nothing was heard of it until it was revived in 1870. Faltering again in 1894, it was forced to sell buildings acquired between 1877 and 1879, but revived in 1906. By 1924 Melbourne boasted the largest YMCA in the southern hemisphere. Its new premises opened in City Road near Princes Bridge in 1925, and a decade later membership stood at over 2000 men and boys, with branches at Montague and Northcote, an industrial centre at Yarraville, and camps at Shoreham and Mornington. The 'Y' concerned itself particularly with recent immigrants and dislocated youth, alienated through being unemployed. It sought to incorporate them into the prevailing economic and social system through a mixture of religion, moral earnestness, physical recreation and vocational training. In this respect it was similar to the boy rescue societies, but catered for an older age group. After a long period of decline, the Melbourne YMCA closed down in 1980, many of its functions being taken over by the Victorian State YMCA.</p></div>
+</body>
+</text></TEI>

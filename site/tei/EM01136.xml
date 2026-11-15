@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Pharmaceutical Society of Victoria</title>
+<author>Ann M. Mitchell</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01136</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Established in March 1857 in response to the threat of legislative interference in the business of local chemists, the Pharmaceutical Society of Victoria languished for more than ten years when the crisis abated. The founders' objectives included protection of the public through uniform systems of education and dispensing standards, their highmindedness tempered by self-interest and the need to promote union among chemists. Related organisations originating in Melbourne included Pharmaceutical Defence Ltd (1912) and the Pharmacy Guild of Australia (1928). The society was renamed the Pharmaceutical Society of Australasia in 1884; despite pressure from other States, it did not reassume the original title until 1921. It joined similar societies in 1981 and became an autonomous branch of the Pharmaceutical Society of Australia, which had established a national secretariat in Canberra in 1977.</p>
+<p>Pharmacists in Victoria still answer to the Pharmacy Board of Victoria, established by the <hi rend="italic">Pharmacy and Poisons Act 1876</hi>, for educational standards, qualifications, registration and discipline. The Act was drafted by the society council, guided by Joseph Bosisto, with the co-operation of the Medical Society of Victoria. While membership of the society is not compulsory, registration is, subject to qualifications. Thus the creation of the statutory board, and subsequently the establishment of the pharmacy college, ensured the voluntary society's future.</p>
+<p>The society was homeless for 25 years. In November 1882, anticipating establishment of the Victorian College of Pharmacy, it acquired the former County Court buildings at 360 Swanston Street (now part of RMIT University). Society, college and board were based at these premises from 1884 until 1960.</p>
+<p>In December 1950 the first of a series of properties was purchased on Royal Parade, Parkville, where classes began in 1960. On the one hand this marked the society's finest hour, and on the other the beginning of the end of its dominance of pharmacy education policy and administration. Shared aspirations and the need for economy had resulted in an enduring tripartite administration, with executive responsibilities as society secretary, college registrar and board registrar vested in a single officer (1877-1977). The three entities still cohabit at Parkville, but college administration progressively devolved after 1973 and the chief executive roles of board and society were finally severed in 1998.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000030" type="book"><author>Haines, Gregory</author> <title level="m">A history of pharmacy in Victoria</title> <pubPlace>Melbourne</pubPlace> <publisher>Australian Pharmaceutical Publishing Co, in association with the Pharmaceutical Society of Australia (Victorian Branch)</publisher> <date>1994</date></bibl></listBibl></div></back>
+</text></TEI>

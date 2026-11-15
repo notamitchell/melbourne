@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="object" subtype="cultural-artefact" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>John Batman Memorial</title>
+<author>City Of Melbourne</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM02135</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-08-01" type="created">Record created in the eMelbourne OHRM database.</change>
+<change when="2009-05-31" type="edited">Record last changed in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02021.xml"><desc>City of Melbourne Art and Heritage Collection</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00381.xml"><desc>Collins Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00603.xml"><desc>Founding Myths</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01342.xml"><desc>Sculpture and Memorials</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01372.xml"><desc>Shrine of Remembrance</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Stanley Hammond Bronze statue 1978 National Mutual Plaza, Collins Street (Melway ref. 1A F8)</p>
+<p>Stanley Hammond was born at Trentham, Victoria, in 1913. He trained in Daylesford and Melbourne before assisting Orlando Dutton with works for the Shrine of Remembrance and Paul Montford with the Macpherson Robertson Fountain and other sculptures. He also worked on Melbourne's South African War Memorial.</p>
+<p>Hammond's statue of John Batman depicts him not so much as the revered founding father but as a man of the land. Clothed in the garb of an explorer, he stands with one foot resting on a saddle roll and his head bent as he marks his map. The plaque bears the oft-repeated line from Batman's journal: 'This is the place for a village'.</p>
+<p>In 1977, the City of Melbourne commissioned the statue on the recommendation of its Parks &amp; Gardens Committee. It was unveiled in June 1978. National Mutual purchased the land on which the statue stands in 1993, and ownership of the statue was transferred with it.</p></div>
+</body>
+</text></TEI>

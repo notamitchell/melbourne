@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Mint Place</title>
+<author>Patricia Mcmullan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01914</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01216.xml"><desc>Queen Victoria Medical Centre</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01280.xml"><desc>Royal Mint</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Mint Place was a portion of Little Lonsdale Street located between William and Queen streets. The Former Royal Mint building was located in Mint Place and was built between 1869-72. It originally contained coin production machines as well as administration buildings and residential quarters. A two-storey office building, residences and perimeter walling is all that remains today. Lobbying for an Australian mint came soon after the Victorian gold rushes. After the Sydney Mint closed in 1926, the Melbourne Royal Mint was the only mint left in Australia still in operation until it too closed in 1968.</p>
+<p>In 1888, there was a pianoforte tuner and house agent in the place. The Melbourne Home and Governesses' Institute, as well as the registrar of births and deaths, were also located in the place. In 1910, the Queen Victoria Hospital for Women and the Leongatha Labour Colony office were located in Mint Place.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000710" type="book"><title level="m">Sands &amp; McDougall's commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1888</date></bibl><bibl xml:id="PEM000715" type="book"><title level="m">Sands &amp; McDougall's commercial and general Melbourne directory</title> <pubPlace>Melbourne</pubPlace> <publisher>Sands &amp; McDougall</publisher> <date>1910</date></bibl><bibl xml:id="PEM000725" type="resource-section"><title level="a">Former Royal Mint, Melbourne: VHR Number 0770, File Number 600493 (1&amp;2)</title> <title level="m">Victorian Heritage Register On-Line</title> <date>2000</date> <ref target="http://www.doi.vic.gov.au/doi/hvolr.nsf">online</ref></bibl></listBibl></div></back>
+</text></TEI>

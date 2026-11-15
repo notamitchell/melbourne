@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Duke of Wellington Hotel</title>
+<author>Chrystopher J. Spicer</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00492</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>Standing on the north-east corner of Russell and Flinders streets since 1850, the Duke of Wellington Hotel could well be the oldest hotel in the central city still trading in the original building. Builder Timothy Lane originally constructed it as his house, but apparently changed his mind and attempted to have it licensed. The 14-room, two-storey brick building was used as a boarding house until Richard Dalton obtained a licence in 1853. For most of the 1860s the licensee was Louis John Michel who in 1851 had been the first to publish the discovery of a goldfield at Warrandyte. The hotel was known for its beautiful situation facing the Yarra River until cut off by the advent of the railway. By the late 20th century it was owned by former Richmond and South Melbourne Football Club ruckman Brian 'Whale' Roberts and Tony Sheehan, who sold it in 2003 to property developer Morry Schwartz for $4.5 million.</p></div>
+</body>
+</text></TEI>

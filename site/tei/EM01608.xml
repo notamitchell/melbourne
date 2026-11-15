@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Western Market</title>
+<author>Sally Ruljancich</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01608</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01891.xml"><desc>Market Street</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Located on a site bounded by Market, Collins and William streets and Flinders Lane, the Western Market opened in December 1841 on a site that had been reserved for market purposes in 1837. With the privately and publicly built stalls quickly becoming dishevelled, and theft and disorder abounding, the Council attempted to tidy the market by erecting two rows of brick connected by an arcade in 1847. After the unofficial 'Rag Fair' of the same purpose was shut down in Flinders Street, homeless immigrants camped at the site, selling their belongings from suitcases during the day. A two-storey building was commenced in 1856 but the market lost stallholders to the increasingly popular Eastern Market. However, it remained Melbourne's wholesale fruit and vegetable market until 1930, when tenants were moved to 60 brick stores built at the Queen Victoria Market. In 1934 the old market site was leased as a car park.</p></div>
+</body>
+</text></TEI>

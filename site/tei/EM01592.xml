@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Wattle Park</title>
+<author>Andrew Lemon</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01592</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Wattle Park</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3128, 13 km E, Whitehorse City)</p>
+<p>East of Warrigal Road in Burwood, Wattle Park is noted for its native trees and its associations with the tramway system. Previously owned by businessman and Mayor of Melbourne, Orlando Fenwick, and then by Eliza Welch, the 137-acre (55 ha) block was secured by the Hawthorn Tramway Trust in 1917 as a destination for its Riversdale Road line (extended to Elgar Road in 1928). Thousands of trees were added to the original flora around the golf course, playing fields and chalet (1928). Since the demise of the Melbourne &amp; Metropolitan Tramways Board in 1996, Parks Victoria has managed the park. The adjacent suburb, developed for housing from the 1920s, came to share the name Wattle Park, including the site of the former Sherwood Park racecourse.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Social Work</title>
+<author>Shurlee Swain</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01392</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>The origins of social work in Melbourne are contested. Professional social work traces its beginnings to the arrival in 1929 of English almoner Miss Agnes Macintyre, who took up a position at the (Royal) Melbourne Hospital, but there were already other groups active in the city in what they described as social work. Members of ladies' benevolent societies and women's religious orders, child rescue workers and Charity Organisation Society enquiry officers were all performing similar roles, but their lack of a formal training structure or professional organisation left a space that the incoming almoners and their supporters within the Charities Commission were anxious to fill.</p>
+<p>Unlike charity workers, almoners were positioned as professionals, working on the basis of formal training rather than philanthropy. The Victorian Institute of Almoners, established at the time of Miss Macintyre's arrival, offered courses to women wanting to follow her example, with the Charities Commission exerting pressure on sometimes reluctant hospitals to employ the graduates. Proving their value during the polio epidemic in the early 1930s, almoners were well established in hospitals by the outbreak of war. Campaigns by the Committee for Social Training, established in 1931, to have the university offer training for a wider range of employment fell on deaf ears. While the Charity Organisation Society hosted a variety of short training courses, it was 1941 before training was moved into the University of Melbourne and 1949 before the new course was fully established.</p>
+<p>After the war the profession was more fully accepted, with social workers claiming positions in State and federal government departments. In 1944 South Melbourne Council broke new ground by offering a scholarship to Christine Thompson, who joined them as the first municipal social worker on completion of her course. Voluntary charities were slower to follow suit, struggling to abandon the notion of vocation in favour of professional expertise and wary too of the extra salaries that professionals commanded; however, by the 1960s most such organisations had some professional staff. To meet this increased demand, postgraduate social-work courses were established at both Monash and La Trobe universities during the 1970s, with the Preston Institute (now RMIT University) and, later, the Victoria University of Technology offering courses for undergraduates. Although, unlike psychologists, the profession still does not have an exclusive claim to the title 'social worker', it has been successful in displacing charity workers from many fields of service delivery.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000327" type="book"><author>Anderson, Paul</author> <title level="m">The Citizens Welfare Service of Victoria 1887-1987: a short history</title> <pubPlace>Melbourne</pubPlace> <publisher>Citizens Welfare Service of Victoria</publisher> <date>1987</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Roar Studios</title>
+<author>Traudi Allen</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01256</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00005.xml"><desc>Culture</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This artists' co-operative opened in June 1982 at 115A Brunswick Street (at the corner of James Street), Fitzroy, and ran as a dual-purpose studio and art gallery, offering emerging artists an alternative to the existing gallery system. It attempted to remedy a perceived bias within the Melbourne art world whereby certain art was refused exhibition on the grounds of the artists' gender, race or age. Of particular concern was the under-representation of art by women, Koories, young people and those of ethnic backgrounds. The name Roar, with its capacity for puns, encapsulated the spirit of the movement, whose members, in their teens and early twenties, were impatient to create an unpretentious place for their art. The artists' youth was transformed into the greatest of assets, as avant-garde conceptualism was juxtaposed with a figurative and often patterned style, characterised by its 'raw', free expression, intense colour and impasto paint. Best known among those involved were David Larwill, Mark Schaller, Sarah Faulkner, Jill Noble, Andrew Ferguson, Karan Hayman, Mark Howson, Mike Nicholls, Pasquali Giardino, Peter Ferguson, Richard Birmingham and Judi Singleton. In 1983 the group disbanded, as some pursued individual careers with established galleries. Roar Studios continued to operate as a co-operative under new management as Roar 2 until 2001.</p></div>
+</body>
+</text></TEI>

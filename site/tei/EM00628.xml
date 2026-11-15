@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Gas and Fuel Corporation</title>
+<author>David Dunstan</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00628</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<text><body>
+<div type="detail"><p>This State Government-controlled authority was formed in 1950 from the Metropolitan and Brighton gas companies to provide gas for light and power. Major plant construction works included West Melbourne, Highett, South Melbourne and Morwell, where the Lurgi process exploited Gippsland's brown coal. Refinery and liquefied petroleum gas was purchased and marketed as Heatane. Large deposits of natural gas in Bass Strait discovered by Esso and BHP in 1965 meant a potential rival commercial supplier. Negotiations resulted in an uneasy partnership of private and public enterprise. Following agreement in 1967 Esso/BHP built a processing plant at Longford in Gippsland and a high-pressure pipeline to Dandenong where a liquefied natural gas plant was also built.</p>
+<p>Over a million appliances were converted to natural gas from 1969 and existing production and storage plants, including gas holders, dismantled. With reduced energy costs and increasing appliance sales the Corporation extended itself into home insulation (1977) and new energy, including Solar Energy, and (despite opposition) oil and gas exploration.</p>
+<p>The Corporation had moved from its old premises next to St Paul's Cathedral to the Gas and Fuel buildings opposite at Princes Gate in 1967, and developed many suburban outlets. In 1997 the State Government announced it would privatise Gascor (the Corporation's new name) into three retail gas businesses, each with a distributor owning pipes, with defined areas, and its retail appliance arm, Gasmart. The gas retailers sold early in 1999 were Kinetik Energy, Energy21 and Ikon Energy. A product of hard times and the failure of private enterprise, the Corporation rode the wave of postwar growth and resource development. A significant government asset, it sought monopoly status but never attained it and has now been broken up and sold.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000109" type="book"><author>Proudley, Ray</author> <title level="m">Circle of influence: A history of the gas industry in Victoria</title> <pubPlace>Melbourne</pubPlace> <publisher>Hargreen Publishing Company in association with the Gas and Fuel Corporation of Victoria</publisher> <date>1987</date></bibl></listBibl></div></back>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Dandenong Police Paddocks</title>
+<author>Marie Fels</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00441</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00001.xml"><desc>Aboriginal Melbourne</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>This was the site which Aboriginal men of the Boon wurrung and Woi wurrung selected in 1837 for the headquarters of the first Corps of Native Police established by Christiaan de Villiers. The same site became the home station for the Westernport district of the Port Phillip Protectorate for the same two groups under Assistant Protector William Thomas in 1841. For most of the period 1842-53 the site functioned as the headquarters of the Native Police Corps raised by Henry Edmund Dana. It has a burial ground, as yet undiscovered, described by Assistant Protector William Thomas as containing graves of both Aboriginal and European persons. Following Dana's death in 1852 and the reorganisation of policing generally in Victoria, the site became the Stud Depot of the Victoria Police: horses were 195 bred, trained and spelled on the site. The breeding lines of the famous Victoria Police greys were established here in the 1920s from Sacedon, a retired racehorse, and Gorland, purchased from A.G. Hunter of Seymour. The stud moved to Bundoora in 1931. From 1869 to 1931 the site was home to a succession of Queensland Aboriginal trackers, brought down initially to assist in the search for bushranger Ned Kelly. The Dandenong Police Paddocks Reserve is now a 499-ha park managed by Parks Victoria and includes areas of significant indigenous flora.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" subtype="place" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Little River</title>
+<author>Jill Barnard</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00861</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Little River</placeName></place></listPlace>
+<listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>(3211, 44 km W, Wyndham City, Greater Geelong City)</p>
+<p>Now by-passed by the Geelong Freeway, Little River began as the site of a traveller's inn at a crossing on the Little River in 1840. A township called Rothwell was laid out in 1849 but locals preferred Little River. Later the Railways Department called the station Bulban, but again, local usage prevailed. After the station was opened, Little River was advertised as a popular place for hunting. It achieved some fame in 1884 following a disastrous railway accident. Its main role throughout the 19th and 20th centuries, however, has been as a community and service centre for the surrounding agricultural area. In the 1970s it achieved some prominence when a popular Australian rock band named itself after the town.</p></div>
+</body>
+</text></TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Eastern Quoll</title>
+<author>John Seebeck</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM00500</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00016.xml"><desc>Science, Nature, Geography</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>Formerly known as the Native Cat, this marsupial carnivore (<hi rend="italic">Dasyurus viverrinus</hi>) was once abundant in the Melbourne area until the early years of the 20th century, when an unidentified epidemic disease struck this and its larger relative, the Spot-tail Quoll (or Tiger Cat). The species rapidly declined and became extinct in the State by the mid-1950s. The last specimen to be collected in Melbourne was from Studley Park in 1948. Eastern Quolls are prettily marked, bearing many pale spots on their chocolate-brown or black fur; the tail is bushy and unspotted. The skins were favoured for rugs and other artefacts. Erect ears and a sharp face give an almost fox-like appearance. Feeding largely on small birds, mammals and insects, they were unwelcome visitors to country and suburban poultry runs, and in 1934, when moves were made to protect the species, many public objections were received. They were formally protected under the <hi rend="italic">Game Act</hi> in 1935. Early accounts refer to them as 'one of the commonest of all the bush animals' and 'so plentiful they kept the rabbits down'. Eastern Quolls are extinct on mainland Australia but are still found in Tasmania.</p></div>
+</body>
+</text></TEI>

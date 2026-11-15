@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/emelbourne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="topic" subtype="entry" xml:lang="en">
+<teiHeader><fileDesc><titleStmt><title>Netball</title>
+<author>Rob Hess</author>
+</titleStmt>
+<publicationStmt><publisher>eMelbourne: The Encyclopedia of Melbourne Online</publisher><idno type="entry">EM01053</idno><availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability></publicationStmt>
+<sourceDesc><p>Converted from the OHRM database of eMelbourne, <ref target="https://doi.org/10.26188/23983911.v1">doi:10.26188/23983911.v1</ref>.</p></sourceDesc></fileDesc>
+<revisionDesc status="published">
+<change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
+<change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+</revisionDesc></teiHeader>
+<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00018.xml"><desc>Sport &amp; Recreation</desc></relation></listRelation></standOff>
+<text><body>
+<div type="detail"><p>A derivative of basketball, an American game invented by James Naismith in 1891, netball was known as 'women's basketball' until 1970. With rules modified for women by physical education teachers in Britain in 1895, there is evidence that the sport was being played in local schools at the turn of the 19th century. An interschool seven-a-side competition was conducted in 1913.</p>
+<p>The Victorian Netball Association has its origins in the Melbourne Girls' Basket Ball Association, founded in 1922 using facilities provided in Richmond by the Young Women's Christian Association. The first interstate match, which took place between Victoria and New South Wales in 1926, led to the establishment of the All Australian Women's Basket Ball Association in the following year and Melbourne hosted the first interstate carnival in September 1928.</p>
+<p>International tours against New Zealand and England resulted in the standardisation of rules in 1957. However, controversy arose when the South African team played Victoria in June 1970, and a violent anti-apartheid protest resulted in extensive damage to the new four-court indoor stadium at Royal Park.</p>
+<p>With the introduction of floodlit outdoor competitions, netball has become the largest participant sport for girls and women in Australia. Two Melbourne-based netballers, Joyce Brown and Margaret Caldow, have been inducted into the Sport Australia Hall of Fame. A modified game for young players, the introduction of mixed netball for men and women, and the profile gained from a national club competition established in 1985, have continued to popularise the sport.</p></div>
+</body>
+<back><div type="bibliography" xml:id="references"><head>References</head><listBibl><bibl xml:id="PEM000323" type="book"><author>Netball Victoria</author> <title level="m">The awakening giant: A celebration of 65 years of Netball Victoria</title> <pubPlace>Melbourne</pubPlace> <publisher>Netball Victoria</publisher> <date>1994</date></bibl></listBibl></div></back>
+</text></TEI>
