@@ -32,72 +32,80 @@
   function sortKey(s) { return norm(s).replace(/^(the|a|an) /, ""); }
 
   /* ------------------------------------------------------------ chrome */
+  // One header for every page: brand, the five ways in, and search.
+  // Experiments pages copy this markup by hand (they don't load app.js).
+  var NAV = [["themes", "index.html#themes", "Themes"], ["browse", "browse.html", "A to Z"],
+    ["exhibitions", "index.html#exhibitions", "Exhibitions"], ["experiments", "experiments/index.html", "Experiments"],
+    ["about", "page.html?p=about", "About"]];
+  var EXHIBITIONS = [
+    ["everydaywar", "The Everyday War", "1914–1919",
+      "The First World War as Melbourne lived it, told through the letters people wrote to the city council."],
+    ["civictreasures", "Civic Treasures", "1830s–1840s",
+      "Pictures and documents from the young town before the gold rush, from the City of Melbourne collection."],
+    ["letterheads", "Letterheads", "1850s–1950s",
+      "Business stationery as a record of the city’s trades, addresses and taste in advertising."],
+    ["infocus", "In Focus", "2009",
+      "A close look at one moment: the swine flu outbreak of June 2009."]];
+
   function chrome(active) {
     var header = $("#site-header");
     header.innerHTML =
-      '<a class="brand" href="index.html">eMelbourne</a>' +
-      '<span class="tag">The Encyclopedia of Melbourne Online</span>' +
-      '<nav class="top" aria-label="Site"><a href="index.html" data-k="home">Home</a>' +
-      '<a href="page.html?p=about" data-k="about">About</a><a href="page.html?p=help" data-k="help">Help</a><a href="advanced.html" data-k="advanced">Advanced search</a><a href="experiments/index.html" data-k="experiments">Experiments</a></nav>' +
-      '<form class="quick" action="search.html"><input name="q" type="search" placeholder="Quick search" aria-label="Quick search"></form>';
+      '<div class="hd">' +
+      '<a class="brand" href="index.html"><span class="brand-name">eMelbourne</span>' +
+      '<span class="brand-tag">The Encyclopedia of Melbourne Online</span></a>' +
+      '<form class="quick" action="search.html" role="search"><label class="sr" for="quick-q">Search eMelbourne</label>' +
+      '<input id="quick-q" name="q" type="search" placeholder="Search people, places, events…" autocomplete="off">' +
+      '<button type="submit">Search</button></form>' +
+      '<nav class="top" aria-label="Site">' + NAV.map(function (n) {
+        return '<a href="' + n[1] + '" data-k="' + n[0] + '">' + n[2] + "</a>";
+      }).join("") + "</nav></div>";
     var t = $('nav.top [data-k="' + active + '"]', header);
     if (t) t.setAttribute("aria-current", "page");
+    var q = $("#quick-q", header); if (q && active === "search") q.value = param("q");
 
+    // the side panel is only used inside an exhibition, for its sections
     var side = $("#side");
-    side.innerHTML =
-      '<div class="tabs" role="tablist">' +
-      '<a role="tab" href="index.html#themes" data-k="themes">Themes</a>' +
-      '<a role="tab" href="browse.html" data-k="az">A to Z</a>' +
-      '<a role="tab" href="search.html" data-k="search">Search</a>' +
-      '<a role="tab" href="advanced.html" data-k="advanced">Advanced</a></div>' +
-      '<details class="themes" open><summary>Themes</summary><ul id="theme-menu"></ul></details>' +
-      '<details class="themes exhibitions"><summary>Exhibitions</summary><ul id="exhibit-menu"></ul></details>';
-    var tab = $('.tabs [data-k="' + ({ browse: "az", search: "search", advanced: "advanced" }[active] || "themes") + '"]', side);
-    if (tab) tab.setAttribute("aria-selected", "true");
-    if (window.matchMedia && matchMedia("(max-width: 760px)").matches) $("details.themes", side).open = false;
+    side.innerHTML = "";
 
-    // names.js (small) says which records exist; the full search index is only
-    // loaded by the search and A to Z pages
     return Promise.all([getNav(), getNames()]).then(function (r) {
-      var nav = r[0], have = r[1];
-      var ul = $("#theme-menu");
-      nav.themes.forEach(function (t) {
-        var li = h("li"), a = h("a", { href: entryHref(t.id), "data-id": t.id }, t.name);
-        if (!have[t.id]) a.classList.add("not-converted");
-        li.appendChild(a); ul.appendChild(li);
-      });
-      // exhibitions from the old site's extra pages (tei/pages/); sub-pages of
-      // the exhibition being viewed are listed under it
-      var ex = $("#exhibit-menu"), pages = {}, cur = param("p");
+      var nav = r[0], pages = {}, cur = param("p");
       (nav.pages || []).forEach(function (p) { pages[p.id] = p; });
-      [["everydaywar", "Everyday War (WWI)"], ["civictreasures", "Civic Treasures"],
-        ["letterheads", "Letterheads"], ["infocus", "In Focus"]].forEach(function (e) {
-        if (!pages[e[0]]) return;
-        var li = h("li"), a = h("a", { href: "page.html?p=" + e[0] }, e[1]);
-        var group = (pages[cur] || {}).group || cur;
-        if (cur === e[0] || group === e[0]) { a.classList.add("current"); $("details.exhibitions", side).open = true; }
-        li.appendChild(a);
-        if (group === e[0]) {
-          var sub = h("ul");
-          nav.pages.filter(function (p) { return p.group === e[0]; }).forEach(function (p) {
-            var sl = h("li"), sa = h("a", { href: "page.html?p=" + p.id }, p.title);
-            if (p.id === cur) sa.classList.add("current");
-            sl.appendChild(sa); sub.appendChild(sl);
+      var group = (pages[cur] || {}).group || "";
+      var ex = EXHIBITIONS.filter(function (e) { return e[0] === cur || e[0] === group; })[0];
+      if (ex) {
+        var sub = nav.pages.filter(function (p) { return p.group === ex[0]; });
+        var box = h("nav", { "class": "exhibit-nav", "aria-label": ex[1] });
+        box.appendChild(h("p", { "class": "exhibit-label" }, "Exhibition"));
+        var top = h("a", { href: "page.html?p=" + ex[0], "class": "exhibit-home" }, ex[1]);
+        if (cur === ex[0]) top.setAttribute("aria-current", "page");
+        box.appendChild(top);
+        if (sub.length) {
+          var ul = h("ul");
+          sub.forEach(function (p) {
+            var li = h("li"), a = h("a", { href: "page.html?p=" + p.id }, p.title);
+            if (p.id === cur) a.setAttribute("aria-current", "page");
+            li.appendChild(a); ul.appendChild(li);
           });
-          li.appendChild(sub);
+          box.appendChild(ul);
         }
-        ex.appendChild(li);
-      });
+        side.appendChild(box);
+        var x = $('nav.top [data-k="exhibitions"]', header); if (x) x.setAttribute("aria-current", "page");
+      }
+      document.body.classList.toggle("has-side", !!side.firstChild);
       return nav;
     });
   }
 
-  // highlight the themes an entry belongs to (or the theme itself)
-  function markThemes(ids) {
-    ids.forEach(function (id) {
-      var a = $('#theme-menu a[data-id="' + id + '"]');
-      if (a) a.classList.add("current");
+  // "Home › Themes › Sport & Recreation" above a page title
+  function crumbs(items) {
+    var nav = h("nav", { "class": "crumbs", "aria-label": "Breadcrumb" }), ol = h("ol");
+    [["index.html", "Home"]].concat(items).forEach(function (c) {
+      var li = h("li");
+      li.appendChild(c[0] ? h("a", { href: c[0] }, c[1]) : h("span", null, c[1]));
+      ol.appendChild(li);
     });
+    nav.appendChild(ol);
+    return nav;
   }
 
   // links to records that do not exist: mark them instead of leaving dead ends
@@ -116,40 +124,76 @@
     });
   }
 
-  // builds the entry <article> from a TEI document (also used by the editor's preview)
+  // builds the entry <article> from a TEI document (also used by the editor's preview):
+  // title block, then the text, with a rail of facts, themes and related records beside it
   function entryArticle(doc, id, names) {
     var meta = TEI.header(doc);
-    var art = h("article");
-    art.appendChild(h("p", { "class": "kicker" }, meta.type));
-    art.appendChild(h("h1", null, meta.title));
-    if (meta.author) art.appendChild(h("p", { "class": "byline" }, meta.author));
-    [TEI.facts(doc), TEI.render(doc.querySelector("text > body")), TEI.relations(doc),
+    var art = h("article", { "class": "entry" });
+    var head = h("header", { "class": "entry-head" });
+    head.appendChild(h("p", { "class": "kicker" }, meta.type));
+    head.appendChild(h("h1", null, meta.title));
+    if (meta.author) head.appendChild(h("p", { "class": "byline" }, "By " + meta.author));
+    art.appendChild(head);
+
+    var body = h("div", { "class": "entry-body" });
+    [TEI.render(doc.querySelector("text > body")),
       doc.querySelector("text > back") && TEI.render(doc.querySelector("text > back"))]
-      .forEach(function (n) { if (n) art.appendChild(n); });
-    var cite = h("p", { "class": "cite" });
-    cite.textContent = (meta.author ? meta.author + ", " : "") + "'" + meta.title +
-      "', eMelbourne: The Encyclopedia of Melbourne Online, " + id + ". ";
-    cite.appendChild(h("a", { href: meta.licenceUrl, rel: "license" }, meta.licence));
-    cite.appendChild(document.createTextNode(" · "));
-    cite.appendChild(h("a", { href: "tei/" + id + ".xml" }, "TEI source"));
-    art.appendChild(cite);
+      .forEach(function (n) { if (n) body.appendChild(n); });
+
+    var rail = h("aside", { "class": "entry-rail", "aria-label": "About this record" });
+    var facts = TEI.facts(doc);
+    if (facts) { var fs = h("section", { "class": "rail-box facts-box" }); fs.appendChild(h("h2", null, "At a glance")); fs.appendChild(facts); rail.appendChild(fs); }
+    var rel = TEI.relations(doc);
+    if (rel) {
+      var themeLinks = rel.querySelectorAll('a[data-type="theme"]');
+      if (themeLinks.length) {
+        var ts = h("section", { "class": "rail-box themes-box" }), tl = h("ul", { "class": "chips" });
+        ts.appendChild(h("h2", null, themeLinks.length > 1 ? "Themes" : "Theme"));
+        Array.prototype.forEach.call(themeLinks, function (a) { var li = a.parentNode; tl.appendChild(li); });
+        ts.appendChild(tl); rail.appendChild(ts);
+      }
+      if (rel.querySelector("li")) { rel.classList.add("rail-box"); rail.appendChild(rel); }
+    }
+    if (rail.firstChild) { art.classList.add("has-rail"); art.appendChild(rail); }
+    art.appendChild(body);
+
+    var citeText = (meta.author ? meta.author + ", " : "") + "‘" + meta.title +
+      "’, eMelbourne: The Encyclopedia of Melbourne Online, " + id + ".";
+    var cs = h("section", { "class": "cite" });
+    cs.appendChild(h("h2", null, "Cite this entry"));
+    cs.appendChild(h("p", { "class": "cite-text" }, citeText));
+    var tools = h("p", { "class": "cite-tools" });
+    var copy = h("button", { type: "button", "class": "btn-quiet" }, "Copy citation");
+    copy.addEventListener("click", function () {
+      var done = function () { copy.textContent = "Copied"; setTimeout(function () { copy.textContent = "Copy citation"; }, 2000); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(citeText).then(done, function () {});
+    });
+    tools.appendChild(copy);
+    tools.appendChild(h("a", { href: meta.licenceUrl, rel: "license" }, meta.licence));
+    tools.appendChild(h("a", { href: "tei/" + id + ".xml" }, "TEI source"));
+    cs.appendChild(tools);
+    body.appendChild(cs);
     return art;
   }
 
   /* ------------------------------------------------------------ entry */
   function entryPage() {
     var id = param("id").toUpperCase(), main = $("#main");
-    chrome("themes").then(function () {
+    chrome(" ").then(function (nav) {
       if (!/^EM\d{5}$/.test(id)) { main.textContent = "No entry given."; return; }
       return Promise.all([TEI.load(id), getNames()]).then(function (res) {
         var doc = res[0], names = res[1], meta = TEI.header(doc);
         document.title = meta.title + " – eMelbourne";
         var art = entryArticle(doc, id, names);
-        main.innerHTML = ""; main.appendChild(art);
+        main.innerHTML = "";
+        var themeIds = {}; (nav.themes || []).forEach(function (t) { themeIds[t.id] = t.name; });
+        var first = Array.prototype.map.call(doc.querySelectorAll('listRelation relation[type="theme"]'), function (r) {
+          return (r.getAttribute("passive").match(/EM\d{5}/) || [""])[0]; }).filter(function (t) { return themeIds[t]; })[0];
+        var trail = meta.type === "Theme" ? [["index.html#themes", "Themes"]]
+          : first ? [["index.html#themes", "Themes"], [entryHref(first), themeIds[first]]] : [["browse.html", "A to Z"]];
+        main.appendChild(crumbs(trail));
+        main.appendChild(art);
         markMissing(art, names);
-        markThemes(meta.type === "Theme" ? [id] : Array.prototype.map.call(
-          doc.querySelectorAll('listRelation relation[type="theme"]'),
-          function (r) { return (r.getAttribute("passive").match(/EM\d{5}/) || [""])[0]; }));
         if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); }
       });
     }).catch(function () {
@@ -175,11 +219,16 @@
 
   function pagePage() {
     var pid = param("p") || "about", main = $("#main");
-    chrome(pid).then(function () {
+    if (pid === "help") { location.replace("page.html?p=about"); return; }   // Help was retired
+    chrome(pid).then(function (nav) {
       return renderPage(pid, main).then(function (doc) {
         var title = TEI.header(doc).title;
         document.title = title + " – eMelbourne";
+        var p = (nav.pages || []).filter(function (x) { return x.id === pid; })[0] || {};
+        var ex = EXHIBITIONS.filter(function (e) { return e[0] === pid || e[0] === p.group; })[0];
+        var trail = ex ? [["index.html#exhibitions", "Exhibitions"]].concat(pid === ex[0] ? [] : [["page.html?p=" + ex[0], ex[1]]]) : [];
         main.insertBefore(h("h1", null, title), main.firstChild);
+        main.insertBefore(crumbs(trail), main.firstChild);
       });
     }).catch(function () { main.textContent = "Page not found."; });
   }
@@ -187,24 +236,58 @@
   function homePage() {
     var main = $("#main");
     chrome("home").then(function (nav) {
-      var intro = h("section", { "class": "intro" });
-      intro.appendChild(h("h1", null, "The Encyclopedia of Melbourne Online"));
+      var intro = h("section", { "class": "hero" });
+      intro.appendChild(h("p", { "class": "kicker" }, "The city past and present"));
+      intro.appendChild(h("h1", null, "The Encyclopedia of Melbourne"));
+      intro.appendChild(h("p", { "class": "lede" },
+        "3,391 records on the people, places, events and institutions that shaped Melbourne, written by the city's historians."));
       var f = h("form", { action: "search.html", "class": "big-search", role: "search" });
-      f.appendChild(h("input", { name: "q", type: "search", placeholder: "Search entries, people, places…", "aria-label": "Search" }));
+      f.appendChild(h("label", { "for": "home-q", "class": "sr" }, "Search eMelbourne"));
+      f.appendChild(h("input", { id: "home-q", name: "q", type: "search", placeholder: "Try “Bourke Street”, “Melba” or “1956 Olympics”", autocomplete: "off" }));
       f.appendChild(h("button", { type: "submit" }, "Search"));
       intro.appendChild(f);
+      var quick = h("p", { "class": "hero-links" });
+      [["browse.html", "Browse A to Z"], ["advanced.html", "Advanced search"], ["experiments/onthisday.html", "On this day"]].forEach(function (l) {
+        quick.appendChild(h("a", { href: l[0] }, l[1]));
+      });
+      intro.appendChild(quick);
       main.appendChild(intro);
 
-      var themes = h("section", { id: "themes", "class": "theme-grid" });
+      var themes = h("section", { id: "themes", "class": "home-sec" });
       themes.appendChild(h("h2", null, "Themes"));
-      var ul = h("ul");
+      themes.appendChild(h("p", { "class": "sec-lede" }, "Twenty-one long essays that each open onto hundreds of entries."));
+      var ul = h("ul", { "class": "theme-tiles" });
       nav.themes.forEach(function (t) { var li = h("li"); li.appendChild(h("a", { href: entryHref(t.id) }, t.name)); ul.appendChild(li); });
       themes.appendChild(ul);
       main.appendChild(themes);
 
-      var feat = h("section", { "class": "features" });
+      var exs = h("section", { id: "exhibitions", "class": "home-sec" });
+      exs.appendChild(h("h2", null, "Exhibitions"));
+      var el = h("ul", { "class": "ex-cards" });
+      EXHIBITIONS.forEach(function (e) {
+        var li = h("li"), a = h("a", { href: "page.html?p=" + e[0] });
+        a.appendChild(h("span", { "class": "ex-date" }, e[2]));
+        a.appendChild(h("span", { "class": "ex-title" }, e[1]));
+        a.appendChild(h("span", { "class": "ex-desc" }, e[3]));
+        li.appendChild(a); el.appendChild(li);
+      });
+      exs.appendChild(el);
+      main.appendChild(exs);
+
+      var feat = h("section", { "class": "home-sec features" });
       feat.appendChild(h("h2", null, "Features"));
       main.appendChild(feat);
+
+      var more = h("section", { "class": "home-sec more" });
+      more.appendChild(h("h2", null, "More ways in"));
+      var ml = h("ul", { "class": "more-links" });
+      [["experiments/index.html", "Experiments", "Lifespans, networks and maps drawn from the records."],
+        ["page.html?p=further-reading", "Further reading", "Books and sources on Melbourne’s history."],
+        ["page.html?p=about", "About eMelbourne", "Who made it, and how the records were converted."]].forEach(function (m) {
+        var li = h("li"); li.appendChild(h("a", { href: m[0] }, m[1])); li.appendChild(h("span", null, m[2])); ml.appendChild(li);
+      });
+      more.appendChild(ml);
+      main.appendChild(more);
       return renderPage("home", feat);
     });
   }
@@ -311,7 +394,7 @@
   // the old pages linked to as objects/D…htm
   function objectPage() {
     var id = param("id").toUpperCase(), main = $("#main");
-    chrome("themes").then(function () { return Promise.all([getObjects(), getNames()]); }).then(function (r) {
+    chrome(" ").then(function () { return Promise.all([getObjects(), getNames()]); }).then(function (r) {
       var o = r[0][id], names = r[1];
       main.innerHTML = "";
       if (!o) { main.appendChild(h("h1", null, id)); main.appendChild(h("p", null, "No digital object with this identifier.")); return; }
