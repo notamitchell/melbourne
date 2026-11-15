@@ -18,7 +18,7 @@
 
   /* Set githubRepo (e.g. "unimelb/emelbourne") once the site is on GitHub, and
      the steps shown after saving link straight to the right upload pages. */
-  var CONFIG = { githubRepo: "notamitchell/Melbourne", branch: "main", sitePath: "site" };
+  var CONFIG = { githubRepo: "notamitchell/melbourne", branch: "main", sitePath: "site" };
 
   var NS = "http://www.tei-c.org/ns/1.0", XML_NS = "http://www.w3.org/XML/1998/namespace";
   var XMLDECL = '<?xml version="1.0" encoding="UTF-8"?>\n';

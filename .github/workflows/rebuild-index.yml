@@ -39,6 +39,9 @@ jobs:
         run: python3 tools/build-facets.py site
 
       - name: Commit the rebuilt files
+        # if a TEI file is broken, keep the last good indexes rather than
+        # dropping that entry from search and A to Z
+        if: env.UNREADABLE != '1'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
