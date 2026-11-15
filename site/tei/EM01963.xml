@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01850.xml"><desc>Hosier Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Rutledge Lane</placeName><location type="point"><geo>-37.81644 144.96889</geo><note type="source">Rutledge Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Rutledge Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01850.xml"><desc>Hosier Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Swanston and Russell streets, Rutledge Lane forms a horseshoe off the west side of Hosier Lane. This lane remained unnamed until the late 1990s or early 2000s.</p></div>
 </body>

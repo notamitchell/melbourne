@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00708.xml"><desc>Heritage Conservation</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Highlander Lane</placeName><location type="point"><geo>-37.81956 144.95800</geo><note type="source">Highlander Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Highlander Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00708.xml"><desc>Heritage Conservation</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Highlander Lane is located between King and William streets, extending from Flinders Street through to Flinders Lane. Formerly known as Bowden Lane, the name was changed to Highlander Lane prior to 1856. The lane was named after Flinders Street's Royal Highlander Hotel, later called the Holyhead Hotel.</p>
 <p>As was standard for many of Melbourne's lanes, more than one hotel was located on Highlander Lane. In addition to the Highlander Hotel on the eastern corner of Flinders Lane, the Great Britain Hotel could be found on Highlander Lane in 1860.</p>

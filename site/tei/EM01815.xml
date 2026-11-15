@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01758.xml"><desc>Coverlid Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01760.xml"><desc>Croft Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Golden Fleece Alley</placeName><location type="point"><geo>-37.81234 144.96842</geo><note type="source">Golden Fleece Alley: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Golden Fleece Alley in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01758.xml"><desc>Coverlid Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01760.xml"><desc>Croft Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Golden Fleece Alley is located between Russell and Exhibition streets. It extends west from Coverlid Place and doglegs to the north to a dead-end. It was named prior to 1895 for the Golden Fleece Hotel, on the corner of Russell Street and Golden Fleece Alley.</p></div>
 </body>

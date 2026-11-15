@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00208.xml"><desc>Bohemia</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Rankins Lane</placeName><location type="point"><geo>-37.81378 144.96216</geo><note type="source">Rankins Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Rankins Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00208.xml"><desc>Bohemia</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Queen and Elizabeth streets and extending south from Little Bourke Street, Rankins Lane was named by 1895, possibly after early Melbourne builder John Rankin. In the early to mid twentieth century, the lane was mostly used for shoe-dying and jewellery manufacturing. By 1994, these factories and warehouses had been converted to residential apartments. Bohemian artist Mirka Mora, who migrated to Australia from France in 1951 and was instrumental in Melbourne's contemporary art scene, had an early studio in one of the warehouses on Rankins Lane.</p></div>
 </body>

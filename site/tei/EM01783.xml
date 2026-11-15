@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01288.xml"><desc>RSL (Victorian Branch)</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Duckboard Place</placeName><location type="point"><geo>-37.81558 144.97140</geo><note type="source">Duckboard Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Duckboard Place in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01288.xml"><desc>RSL (Victorian Branch)</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Russell and Exhibition streets, Duckboard Place extends south from Flinders Lane and doglegs to connect with adjacent ACDC Lane. It was named in 1953, although the right-of-way had been created prior to 1915. Adjacent at 91 Flinders Lane is Duckboard House, after whom the lane was named. It was built in the interwar period and served as a World War II entertainment venue for the troops. The term 'duckboard' was first used during World War I and described a slatted timber path that was laid down on wet or muddy ground in the trenches or in camps. In 2008, the property housed the Duckboard Club, a branch of the Melbourne RSL Club, and was concurrently being re-fitted for a tavern and restaurant.</p></div>
 </body>

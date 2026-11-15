@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00117.xml"><desc>Australian Club</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01994.xml"><desc>Temple Court</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01995.xml"><desc>Temple Court Place</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Gurners Lane</placeName><location type="point"><geo>-37.81696 144.95950</geo><note type="source">Gurners Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Gurners Lane in Melbourne (the Hoddle grid) (Vicmap has 4 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00117.xml"><desc>Australian Club</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01994.xml"><desc>Temple Court</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01995.xml"><desc>Temple Court Place</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Gurners Lane is located between William and Queen streets, connecting Collins Street with Little Collins Street. It intersects with Temple Court Place on the east side.</p>
 <p>Gurners Lane was named prior to 1856 for Henry Gurner, the Crown Solicitor of Victoria 1851-80. Gurner lived in nearby William Street until 1854. The Australian Club was established in 1878 and from 1895 located between Gurners Lane and William Street. The lane was also the residence of its caretaker, Daniel Sullivan.</p></div>

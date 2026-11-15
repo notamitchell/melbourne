@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Gills Alley</placeName><location type="point"><geo>-37.81524 144.96272</geo><note type="source">Gills Alley: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Gills Alley in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Gills Alley is located between Queen and Elizabeth streets, extending north to a dead-end from Little Collins Street. In 1895, Gills Alley extended through from Little Collins Street to Bourke Street. The Saracen's Head Hotel was located on the corner of Gills Alley and Bourke Street. By 1920, however, the north end of the lane had been closed off, leaving the sole entrance to the lane on Little Collins Street. Gills Alley was at this time the location of several warehouses, showrooms and factories belonging to the Harvey, Shaw and Drake Company.</p></div>
 </body>

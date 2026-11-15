@@ -10,8 +10,9 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPlace><place xml:id="subject"><placeName type="main">Blind Bight</placeName></place></listPlace></standOff>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Blind Bight</placeName><location type="point"><geo>-38.21387 145.33994</geo><note type="source">Blind Bight: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Centroid of the gazetted locality.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>(3980, 55 km SE, Casey City)</p>
 <p>The most vibrant of the small coastal villages in the Western Port District, Blind Bight, with its new housing estate and Community Centre, is the focal point for other centres such as Warneet, Cannons Creek and Tooradin. It has developed significantly since the 1970s but still retains characteristic coastal vegetation such as tea-tree groves and is home to a number of water-based recreational activities.</p></div>

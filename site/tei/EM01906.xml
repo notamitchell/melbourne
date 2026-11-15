@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01837.xml"><desc>Hay Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01856.xml"><desc>Katherine Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Mercantile Place</placeName><location type="point"><geo>-37.82005 144.95696</geo><note type="source">Mercantile Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Mercantile Place in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01837.xml"><desc>Hay Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01856.xml"><desc>Katherine Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Mercantile Place runs between Katherine Place and King Street. The Inspector of Nuisances, John Fullerton, noted on 11 April 1891 that the then unnamed right-of-way required immediate attention due to its filthy condition. Fullerton also noted that the right-of-way was so old that he could not determine whether it had been made by the City Council or privately.</p></div>
 </body>

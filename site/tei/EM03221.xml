@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked death place Glen Iris (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>James George Hill</forename> <surname>Murtagh</surname></persName><sex value="1"/><birth when="1908-07-20">20 July 1908, <placeName>Waiwakaihi</placeName></birth><death when="1971-06-07">7 June 1971, <placeName ref="EM00646.xml">Glen Iris, Melbourne</placeName></death><occupation>Catholic priest</occupation><occupation>historian</occupation><occupation>journalist</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>James George Hill</forename> <surname>Murtagh</surname></persName><sex value="1"/><birth when="1908-07-20">20 July 1908, <placeName>Waiwakaihi</placeName></birth><death when="1971-06-07">7 June 1971, <placeName ref="EM00646.xml">Glen Iris, Melbourne</placeName></death><occupation>Catholic priest</occupation><occupation>historian</occupation><occupation>journalist</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>Glen Iris, Melbourne</placeName><location type="point"><geo>-37.85596 145.06500</geo><note type="source">Glen Iris: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Glen Iris, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

@@ -10,8 +10,9 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPlace><place xml:id="subject"><placeName type="main">Kooyong</placeName></place></listPlace></standOff>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Kooyong</placeName><location type="point"><geo>-37.84136 145.03584</geo><note type="source">Kooyong: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Centroid of the gazetted locality.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>(3144, 6 km SE, Stonnington City)</p>
 <p>Kooyong is a small residential district best known as the site of the Lawn Tennis Association of Victoria's stadium and headquarters, established there in 1920. <hi rend="italic">Kooyongkoot</hi> meaning 'resting place' or 'haunt of the wild fowl', was the Aboriginal name for Gardiners Creek. George Stevenson's large mansion and estate, Glenferrie, dominated the area at the end of the 19th century. Chinese market gardeners worked here until the 1930s but Kooyong was gradually subdivided between 1900 and the 1930s and became an enclave of substantial, often architect-designed houses.</p></div>

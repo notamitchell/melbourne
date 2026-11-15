@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked death place Heidelberg (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Oscar Adolf</forename> <surname>Mendelsohn</surname></persName><persName type="alternative">Milsen, Oscar</persName><sex value="1"/><birth when="1896-07-12">12 July 1896, <placeName>Nanango</placeName></birth><death when="1978-01-05">5 January 1978, <placeName ref="EM00704.xml">Heidelberg, Melbourne</placeName></death><occupation>bon vivant</occupation><occupation>polymath</occupation><occupation>public analyst</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Oscar Adolf</forename> <surname>Mendelsohn</surname></persName><persName type="alternative">Milsen, Oscar</persName><sex value="1"/><birth when="1896-07-12">12 July 1896, <placeName>Nanango</placeName></birth><death when="1978-01-05">5 January 1978, <placeName ref="EM00704.xml">Heidelberg, Melbourne</placeName></death><occupation>bon vivant</occupation><occupation>polymath</occupation><occupation>public analyst</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>Heidelberg, Melbourne</placeName><location type="point"><geo>-37.75251 145.06991</geo><note type="source">Heidelberg: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Heidelberg, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Reservoir (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Wheelers Hill (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Harold Robert</forename> <surname>Dew</surname></persName><sex value="1"/><birth when="1891-04-14">14 April 1891, <placeName ref="EM01238.xml">Reservoir, Melbourne</placeName></birth><death when="1962-11-17">17 November 1962, <placeName ref="EM01613.xml">Wheelers Hill</placeName></death><occupation>professor of surgery</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Harold Robert</forename> <surname>Dew</surname></persName><sex value="1"/><birth when="1891-04-14">14 April 1891, <placeName ref="EM01238.xml">Reservoir, Melbourne</placeName></birth><death when="1962-11-17">17 November 1962, <placeName ref="EM01613.xml">Wheelers Hill</placeName></death><occupation>professor of surgery</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Reservoir, Melbourne</placeName><location type="point"><geo>-37.71201 145.00691</geo><note type="source">Reservoir: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Reservoir, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Wheelers Hill</placeName><location type="point"><geo>-37.90753 145.18701</geo><note type="source">Wheelers Hill: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1962: a Victorian place with no well-known namesake elsewhere.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

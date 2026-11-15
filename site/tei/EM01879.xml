@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01762.xml"><desc>Crossley Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Liverpool Street</placeName><location type="point"><geo>-37.81126 144.97142</geo><note type="source">Liverpool Street: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Liverpool Street in Melbourne (the Hoddle grid) (Vicmap has 8 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01762.xml"><desc>Crossley Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Liverpool Street is located between Exhibition and Spring streets and connects Bourke and Little Bourke streets. It was formerly known as Juliet Terrace, the companion street to Romeo Lane (now Crossley Street). It was renamed in 1890 after the Liverpool Hotel in Bourke Street. In 1950, there were several engineers, a couple clothing manufacturers and storage space in the street.</p></div>
 <div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000055"><head>Correspondence file between Ratepayers of Juliet Lane and Chairman, Public Works Committee, City of Melbourne</head><graphic url="../objects/thumbs/tn_JULI_001_L.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_JULI_001_L.jpg"/><p>17 July 1865</p><note type="rights">Courtesy Public Record Office Victoria</note></figure></div>

@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked death place Fitzroy (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Wilberforce Stephen (Bill)</forename> <surname>Newton</surname></persName><sex value="1"/><birth when="1890-12-27">27 December 1890, <placeName>East Malvern, Melbourne</placeName></birth><death when="1956-10-03">3 October 1956, <placeName ref="EM00574.xml">Fitzroy, Melbourne</placeName></death><occupation>physician</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Wilberforce Stephen (Bill)</forename> <surname>Newton</surname></persName><sex value="1"/><birth when="1890-12-27">27 December 1890, <placeName>East Malvern, Melbourne</placeName></birth><death when="1956-10-03">3 October 1956, <placeName ref="EM00574.xml">Fitzroy, Melbourne</placeName></death><occupation>physician</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>East Malvern, Melbourne</placeName><location type="point"><geo>-37.87662 145.06541</geo><note type="source">Malvern East: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;East Malvern, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Fitzroy, Melbourne</placeName><location type="point"><geo>-37.80090 144.97916</geo><note type="source">Fitzroy: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Fitzroy, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

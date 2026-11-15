@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01320.xml"><desc>Salvation Army</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Watson Place</placeName><location type="point"><geo>-37.81575 144.96807</geo><note type="source">Watson Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Watson Place in Melbourne (the Hoddle grid) (Vicmap has 1 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01320.xml"><desc>Salvation Army</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Swanston and Russell streets, Watson Place extends north from Flinders Lane. It was named pre-1860, when Love McKersie and Co. was known to have occupied this lane for a warehousemen business. During World War I, an old brick warehouse was used by the Salvation Army as a dry canteen from 1916 to 1920.</p></div>
 </body>

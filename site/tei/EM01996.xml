@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Thomson Street</placeName><location type="point"><geo>-37.81461 144.95886</geo><note type="source">Thomson Street: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Thomson Street in Melbourne (the Hoddle grid) (Vicmap has 9 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between William and Queen streets and extending south from Little Bourke Street, Thomson Street was formed between 1915 and 1935 on the site of the former Metropolitan Mission Throat Hospital. The lane was named after brassfounders and coppersmiths Thomson &amp; Co., who operated in Little Bourke Street c1880-1950.</p></div>
 </body>

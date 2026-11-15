@@ -11,8 +11,10 @@
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2008-09-09" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Belman Place</placeName><location type="point"><geo>-37.81113 144.96762</geo><note type="source">Belman Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Belman Place in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Belman Place leads east off Russell Street, south of Lonsdale Street. In 1920, it contained the Finlay and Rogerson motor exchange. In 2008 it was contained by the buildings of the Mantra-on-Russell, a luxury hotel and apartment complex. It is primarily a service access way, essentially storing the garbage bins of the hotel and providing vehicle access.</p></div>
 </body>

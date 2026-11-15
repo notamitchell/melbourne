@@ -10,8 +10,10 @@
 <change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>John</forename> <surname>Sanderson</surname></persName><sex value="1"/><birth when="1868-12-26">26 December 1868, <placeName>Glenthompson</placeName></birth><death when="1945-01-05">5 January 1945, <placeName>Wokingham</placeName></death><occupation>businessman</occupation><occupation>grazier</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>John</forename> <surname>Sanderson</surname></persName><sex value="1"/><birth when="1868-12-26">26 December 1868, <placeName>Glenthompson</placeName></birth><death when="1945-01-05">5 January 1945, <placeName>Wokingham</placeName></death><occupation>businessman</occupation><occupation>grazier</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Glenthompson</placeName><location type="point"><geo>-37.69415 142.52469</geo><note type="source">Glenthompson: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1868: a Victorian place with no well-known namesake elsewhere.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

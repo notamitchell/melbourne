@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Michael Lane</placeName><location type="point"><geo>-37.81526 144.96035</geo><note type="source">Michael Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Michael Lane in Melbourne (the Hoddle grid) (Vicmap has 1 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Michael Lane runs south off Bourke Street between William and Queen streets.</p></div>
 <div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000043"><head>Wide Pitcher Channels. Michaels Lane off Bourke St.</head><graphic url="../objects/images/COM_n0953.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_COM_n0953.jpg"/><p>June 1961</p><note type="rights">Courtesy City of Melbourne</note></figure></div>

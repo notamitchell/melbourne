@@ -11,8 +11,10 @@
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2015-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00391.xml"><desc>Confectionery</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Niagara Lane</placeName><location type="point"><geo>-37.81307 144.96145</geo><note type="source">Niagara Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Niagara Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00391.xml"><desc>Confectionery</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Niagara Lane connects Little Bourke to Lonsdale streets between Queen and Elizabeth streets. The lane was previously known as Millers Lane. In 1856, the Niagara Hotel was located in Niagara Lane. The hotel was named after the boat on which the owners of the establishment had arrived in Melbourne. In 1891, the lane was home to many residents as well as importers and merchants, dining rooms, confectioners and plumbers and gasfitters.</p>
 <p>Weston Bate asserts that Niagara Lane boasted 'the gem of all the lanes', four three-storey buildings built for Henry Marks in 1887. The buildings were sold in 1923 for £12 000. Bate believes these buildings represented 'the pride and success of the nineteenth-century commercial city'. In 1993 they were converted into apartments.</p></div>

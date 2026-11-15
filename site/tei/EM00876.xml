@@ -10,8 +10,9 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPlace><place xml:id="subject"><placeName type="main">Lysterfield</placeName></place></listPlace></standOff>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Lysterfield</placeName><location type="point"><geo>-37.93533 145.30083</geo><note type="source">Lysterfield: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Centroid of the gazetted locality.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>(3156, 35 km SE, Knox City)</p>
 <p>This mostly rural area along the Monbulk Creek south of Ferntree Gully, was settled around 1880. Opera entrepreneur William Saurin Lyster purchased land in 1870 and it is after him that the locality took its name. This was pastoral country and several horse studs existed here for a time. Lysterfield Lake was from 1929 a water supply reservoir for the Mornington Peninsula but after completion of Cardinia Creek Reservoir was converted into a park in the 1980s. Quarrying in the adjacent Barry Ranges remains a contentious issue locally.</p></div>

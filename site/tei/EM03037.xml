@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Malvern (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Mount Evelyn (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Maria May</forename> <surname>Brodney</surname></persName><persName type="alternative">Francis, Maria</persName><sex value="2"/><birth when="1894-04-13">13 April 1894, <placeName ref="EM00891.xml">Malvern, Melbourne</placeName></birth><death when="1973-08-21">21 August 1973, <placeName ref="EM01024.xml">Mount Evelyn</placeName></death><occupation>labour activist</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Maria May</forename> <surname>Brodney</surname></persName><persName type="alternative">Francis, Maria</persName><sex value="2"/><birth when="1894-04-13">13 April 1894, <placeName ref="EM00891.xml">Malvern, Melbourne</placeName></birth><death when="1973-08-21">21 August 1973, <placeName ref="EM01024.xml">Mount Evelyn</placeName></death><occupation>labour activist</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Malvern, Melbourne</placeName><location type="point"><geo>-37.85681 145.03502</geo><note type="source">Malvern: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Malvern, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Mount Evelyn</placeName><location type="point"><geo>-37.78745 145.38803</geo><note type="source">Mount Evelyn: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1973: a Victorian place with no well-known namesake elsewhere.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

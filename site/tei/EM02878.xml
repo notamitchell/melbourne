@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place St Kilda (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Elsternwick (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>William Apperley Norton</forename> <surname>Robertson</surname></persName><sex value="1"/><birth when="1874-11-25">25 November 1874, <placeName ref="EM01305.xml">St Kilda, Melbourne</placeName></birth><death when="1939-10-11">11 October 1939, <placeName ref="EM00515.xml">Elsternwick, Melbourne</placeName></death><occupation>veterinary scientist</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>William Apperley Norton</forename> <surname>Robertson</surname></persName><sex value="1"/><birth when="1874-11-25">25 November 1874, <placeName ref="EM01305.xml">St Kilda, Melbourne</placeName></birth><death when="1939-10-11">11 October 1939, <placeName ref="EM00515.xml">Elsternwick, Melbourne</placeName></death><occupation>veterinary scientist</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>St Kilda, Melbourne</placeName><location type="point"><geo>-37.86369 144.98180</geo><note type="source">St Kilda: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;St Kilda, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Elsternwick, Melbourne</placeName><location type="point"><geo>-37.88584 145.00701</geo><note type="source">Elsternwick: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Elsternwick, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

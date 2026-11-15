@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01792.xml"><desc>Equitable Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01954.xml"><desc>Robertson Lane</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Collins Way</placeName><location type="point"><geo>-37.81582 144.96236</geo><note type="source">Collins Way: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Collins Way in Melbourne (the Hoddle grid) (Vicmap has 1 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01792.xml"><desc>Equitable Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01954.xml"><desc>Robertson Lane</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Collins Way leads south from Little Collins between Queen Street and Elizabeth Street. It is a dead-end lane adjoining the Westpac and BT Investment Centre's square. It was previously known as Robertson Lane, and was probably renamed following the renaming of another Collins Place, on the same block, to Equitable Place at the turn of the nineteenth century. In 1895, the lane provided access to the Union Ludstone and Rothschild Chambers. In 2008, it bordered an apartment building.</p></div>
 </body>

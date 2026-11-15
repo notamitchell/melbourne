@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01289.xml"><desc>Rubbish and Rubbish Disposal</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02016.xml"><desc>Williams Lane</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Waratah Place</placeName><location type="point"><geo>-37.81174 144.96719</geo><note type="source">Waratah Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Waratah Place in Melbourne (the Hoddle grid) (Vicmap has 2 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01289.xml"><desc>Rubbish and Rubbish Disposal</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02016.xml"><desc>Williams Lane</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Swanston and Russell streets, Waratah Place extends from Lonsdale Street to Little Bourke Street. It had previously been known as Williams Lane. In May 1893, one resident of Williams Lane, Ali Sue, received a summons for allegedly throwing a quantity of vegetable refuse upon the water channel in this lane. City of Melbourne's Assistant Inspector Edward Thunderbolt stated in his report of the incident that Ali Sue had already been cautioned for similar offences on two previous occasions. The quantity of refuse was measured at 'an old privy pan full'.</p></div>
 </body>

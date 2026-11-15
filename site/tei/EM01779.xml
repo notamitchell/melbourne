@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01780.xml"><desc>Drewery Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01781.xml"><desc>Drewery Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Drewery Alley</placeName><location type="point"><geo>-37.81099 144.96380</geo><note type="source">Drewery Alley: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Drewery Alley in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01780.xml"><desc>Drewery Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01781.xml"><desc>Drewery Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Drewery Alley is located between Elizabeth and Swanston streets, extending west from Drewery Lane, between Lonsdale and Little Lonsdale streets. It is situated just north of Drewery Place. Drewery Alley, along with Drewery Lane and Drewery Place, were named after chemist Thomas Drewery, who was elected a City Councillor for Gipps Ward in 1851. Today Drewery Alley provides a right-of-way for residential buildings located in the surrounding area.</p></div>
 </body>

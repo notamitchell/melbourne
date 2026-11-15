@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00656.xml"><desc>Gordon House</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Harwood Place</placeName><location type="point"><geo>-37.81093 144.97170</geo><note type="source">Harwood Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Harwood Place in Melbourne (the Hoddle grid) (Vicmap has 1 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00656.xml"><desc>Gordon House</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Harwood Place is located between Exhibition and Spring streets, extending south from Little Bourke Street, and doglegging to the east to form a dead-end. Harwood Place is located directly opposite the former Gordon House. In 1895, the Marine Store Yards occupied land along the eastern side of the lane, towards Little Bourke Street. In 1915, the National Theatre was situated at the south-eastern end of the lane, fronting Bourke Street. The Theatre has since been demolished. By 1920, the buildings surrounding Harwood Place stood vacant. The lane is predominantly used today for commercial purposes.</p></div>
 </body>

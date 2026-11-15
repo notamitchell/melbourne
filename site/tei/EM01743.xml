@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00854.xml"><desc>Light and Power</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Cleve Lane</placeName><location type="point"><geo>-37.81561 144.95401</geo><note type="source">Cleve Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Cleve Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00854.xml"><desc>Light and Power</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Cleve Alley, as it was known prior to 1915, is a dead-end lane north from Little Bourke Street between Spencer and King streets. It was likely named for the Cleve brothers, who built a bonded warehouse in Lonsdale Street in 1854, and later expanded the business to the corner of King Street. In 1895, the lane forked to the east, and was bordered by a store, workshops and sheds. The lane borders the former CitiPower Power Station, on the same land that was occupied in 1895 by the Electric Light Works.</p></div>
 </body>

@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked death place Malvern (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Traugott Bernhard</forename> <surname>Zwar</surname></persName><sex value="1"/><birth when="1876-06-20">20 June 1876, <placeName>Kapunda</placeName></birth><death when="1947-01-16">16 January 1947, <placeName ref="EM00891.xml">Malvern, Melbourne</placeName></death><occupation>surgeon</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Traugott Bernhard</forename> <surname>Zwar</surname></persName><sex value="1"/><birth when="1876-06-20">20 June 1876, <placeName>Kapunda</placeName></birth><death when="1947-01-16">16 January 1947, <placeName ref="EM00891.xml">Malvern, Melbourne</placeName></death><occupation>surgeon</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>Malvern, Melbourne</placeName><location type="point"><geo>-37.85681 145.03502</geo><note type="source">Malvern: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Malvern, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

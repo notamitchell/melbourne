@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked death place East Melbourne (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>George Hermon</forename> <surname>Gill</surname></persName><sex value="1"/><birth when="1895-03-08">8 March 1895, <placeName>Fulham, London</placeName></birth><death when="1973-02-27">27 February 1973, <placeName ref="EM00496.xml">East Melbourne</placeName></death><occupation>journalist</occupation><occupation>mariner</occupation><occupation>naval officer</occupation><occupation>war historian</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>George Hermon</forename> <surname>Gill</surname></persName><sex value="1"/><birth when="1895-03-08">8 March 1895, <placeName>Fulham, London</placeName></birth><death when="1973-02-27">27 February 1973, <placeName ref="EM00496.xml">East Melbourne</placeName></death><occupation>journalist</occupation><occupation>mariner</occupation><occupation>naval officer</occupation><occupation>war historian</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>East Melbourne</placeName><location type="point"><geo>-37.81442 144.98259</geo><note type="source">East Melbourne: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1973: a Victorian place with no well-known namesake elsewhere.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

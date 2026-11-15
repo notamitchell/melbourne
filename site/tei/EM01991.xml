@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01828.xml"><desc>Guildford Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01679.xml"><desc>Laneway Commissions</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01901.xml"><desc>McLean Alley</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Sutherland Street</placeName><location type="point"><geo>-37.81103 144.96079</geo><note type="source">Sutherland Street: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Sutherland Street in Melbourne (the Hoddle grid) (Vicmap has 8 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01828.xml"><desc>Guildford Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01679.xml"><desc>Laneway Commissions</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01901.xml"><desc>McLean Alley</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Queen and Elizabeth streets, Sutherland Street extends from La Trobe Street to Little Lonsdale Street. Formed in 1855 as Bucks Head Lane, after the Bucks Head Hotel, it became known as Sutherland Street from 1894. The latter name was possibly for Melbourne merchant Andrew Sutherland.</p>
 <p>In 2007, Sutherland Street was the site of Samuel Indratma's art installation 'Urban Apartment', which was part of the City of Melbourne's Laneway Commissions program.</p></div>

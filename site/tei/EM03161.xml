@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked death place Canterbury (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Edith Amelia</forename> <surname>Kerr</surname></persName><sex value="2"/><birth when="1893-06-06">6 June 1893, <placeName>Patyah, Edenhope</placeName></birth><death when="1975-04-02">2 April 1975, <placeName ref="EM00288.xml">Canterbury, Melbourne</placeName></death><occupation>headmistress</occupation><occupation>missionary</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Edith Amelia</forename> <surname>Kerr</surname></persName><sex value="2"/><birth when="1893-06-06">6 June 1893, <placeName>Patyah, Edenhope</placeName></birth><death when="1975-04-02">2 April 1975, <placeName ref="EM00288.xml">Canterbury, Melbourne</placeName></death><occupation>headmistress</occupation><occupation>missionary</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>Canterbury, Melbourne</placeName><location type="point"><geo>-37.82360 145.07571</geo><note type="source">Canterbury: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Canterbury, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

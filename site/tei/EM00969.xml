@@ -10,8 +10,9 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPlace><place xml:id="subject"><placeName type="main">Merri</placeName></place></listPlace>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Merri</placeName><location type="point"><geo>-37.77818 144.99126</geo><note type="source">Merri: VICNAMES Register of Geographic Place Names, © State of Victoria (DEECA), CC BY 4.0. VICNAMES neighbourhood point (registered name).</note></location></place></listPlace>
 <listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>(3070, 6 km N, Darebin City)</p>

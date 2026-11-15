@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Elsternwick (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Hawthorn (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Percival</forename> <surname>Serle</surname></persName><sex value="1"/><birth when="1871-07-18">18 July 1871, <placeName ref="EM00515.xml">Elsternwick, Melbourne</placeName></birth><death when="1951-12-16">16 December 1951, <placeName ref="EM00693.xml">Hawthorn, Melbourne</placeName></death><occupation>accountant</occupation><occupation>scholar</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Percival</forename> <surname>Serle</surname></persName><sex value="1"/><birth when="1871-07-18">18 July 1871, <placeName ref="EM00515.xml">Elsternwick, Melbourne</placeName></birth><death when="1951-12-16">16 December 1951, <placeName ref="EM00693.xml">Hawthorn, Melbourne</placeName></death><occupation>accountant</occupation><occupation>scholar</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Elsternwick, Melbourne</placeName><location type="point"><geo>-37.88584 145.00701</geo><note type="source">Elsternwick: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Elsternwick, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Hawthorn, Melbourne</placeName><location type="point"><geo>-37.82479 145.03208</geo><note type="source">Hawthorn: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Hawthorn, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

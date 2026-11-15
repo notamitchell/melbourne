@@ -10,8 +10,10 @@
 <change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Barbara Mary</forename> <surname>Ramsden</surname></persName><sex value="2"/><birth when="1903-12-27">27 December 1903, <placeName>Annandale, Sydney</placeName></birth><death when="1971-01-01">1 January 1971, <placeName>Melbourne</placeName></death><occupation>editor</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Barbara Mary</forename> <surname>Ramsden</surname></persName><sex value="2"/><birth when="1903-12-27">27 December 1903, <placeName>Annandale, Sydney</placeName></birth><death when="1971-01-01">1 January 1971, <placeName>Melbourne</placeName></death><occupation>editor</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>Melbourne</placeName><location type="point"><geo>-37.82429 144.97399</geo><note type="source">Melbourne: VICNAMES Register of Geographic Place Names, © State of Victoria (DEECA), CC BY 4.0. &quot;Melbourne&quot; in 1971: Melbourne, Victoria.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

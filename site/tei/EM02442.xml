@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked death place Collingwood (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>William Mountford Kinsey</forename> <surname>Vale</surname></persName><sex value="1"/><birth when="1833-08-10">10 August 1833, <placeName>London</placeName></birth><death when="1895-10-23">23 October 1895, <placeName ref="EM00375.xml">Collingwood, Melbourne</placeName></death><occupation>bookseller</occupation><occupation>politician</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>William Mountford Kinsey</forename> <surname>Vale</surname></persName><sex value="1"/><birth when="1833-08-10">10 August 1833, <placeName>London</placeName></birth><death when="1895-10-23">23 October 1895, <placeName ref="EM00375.xml">Collingwood, Melbourne</placeName></death><occupation>bookseller</occupation><occupation>politician</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>Collingwood, Melbourne</placeName><location type="point"><geo>-37.80194 144.98817</geo><note type="source">Collingwood: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Collingwood, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

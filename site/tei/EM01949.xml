@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01463.xml"><desc>T&amp;G Building (KPMG House)</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Ramsden Place</placeName><location type="point"><geo>-37.81582 144.96883</geo><note type="source">Ramsden Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Ramsden Place in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01463.xml"><desc>T&amp;G Building (KPMG House)</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Swanston and Russell streets, and extending north from Flinders Lane, Ramsden Place was named just prior to 1860. In that year, wine merchants Dods &amp; Davidson operated their business from this lane. Today, Ramsden Place is privately owned, having been sold by the City of Melbourne to the adjacent Temperance and General (T &amp; G) Building for $4.3 million in the late twentieth century.</p></div>
 </body>

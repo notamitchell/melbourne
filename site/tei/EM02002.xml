@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Ulster Lane</placeName><location type="point"><geo>-37.81267 144.97334</geo><note type="source">Ulster Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Ulster Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Collins and Little Collins streets, Ulster Lane extends west from Spring Street. It was named pre-1915 after the Ulster Family Hotel, situated at the corner of Spring and Little Collins streets. In 1901, Ulster Lane was occupied by the New Treasury Hotel and produce merchant John E. Griffiths.</p></div>
 </body>

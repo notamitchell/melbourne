@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Frankston (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Heidelberg (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Vernon Ashton Hobart</forename> <surname>Sturdee</surname></persName><sex value="1"/><birth when="1890-04-16">16 April 1890, <placeName ref="EM00606.xml">Frankston</placeName></birth><death when="1966-05-25">25 May 1966, <placeName ref="EM00704.xml">Heidelberg, Melbourne</placeName></death><occupation>army officer</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Vernon Ashton Hobart</forename> <surname>Sturdee</surname></persName><sex value="1"/><birth when="1890-04-16">16 April 1890, <placeName ref="EM00606.xml">Frankston</placeName></birth><death when="1966-05-25">25 May 1966, <placeName ref="EM00704.xml">Heidelberg, Melbourne</placeName></death><occupation>army officer</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Frankston</placeName><location type="point"><geo>-38.14815 145.14569</geo><note type="source">Frankston: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1890: a Victorian place with no well-known namesake elsewhere.</note></location></place><place type="death"><placeName>Heidelberg, Melbourne</placeName><location type="point"><geo>-37.75251 145.06991</geo><note type="source">Heidelberg: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Heidelberg, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

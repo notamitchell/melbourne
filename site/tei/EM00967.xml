@@ -10,8 +10,9 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPlace><place xml:id="subject"><placeName type="main">Merlynston</placeName></place></listPlace></standOff>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Merlynston</placeName><location type="point"><geo>-37.71985 144.95431</geo><note type="source">Merlynston: VICNAMES Register of Geographic Place Names, © State of Victoria (DEECA), CC BY 4.0. VICNAMES neighbourhood point (registered name).</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>(3058, 10 km N, Moreland City)</p>
 <p>A residential locality developed from the 1920s around the Merlynston railway station in Coburg North, which took its name from the daughter of Donald Bain, former Coburg councillor and land developer.</p></div>

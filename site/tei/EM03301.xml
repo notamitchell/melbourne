@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Kew (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>John Joseph Meagher</forename> <surname>Thompson</surname></persName><sex value="1"/><birth when="1907-12-20">20 December 1907, <placeName ref="EM00796.xml">Kew, Melbourne</placeName></birth><death when="1968-07-19">19 July 1968, <placeName>Darlinghurst, Sydney</placeName></death><occupation>broadcaster</occupation><occupation>poet</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>John Joseph Meagher</forename> <surname>Thompson</surname></persName><sex value="1"/><birth when="1907-12-20">20 December 1907, <placeName ref="EM00796.xml">Kew, Melbourne</placeName></birth><death when="1968-07-19">19 July 1968, <placeName>Darlinghurst, Sydney</placeName></death><occupation>broadcaster</occupation><occupation>poet</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Kew, Melbourne</placeName><location type="point"><geo>-37.80341 145.03318</geo><note type="source">Kew: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Kew, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

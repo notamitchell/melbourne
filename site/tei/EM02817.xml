@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Windsor (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Thomas</forename> <surname>O'Callaghan</surname></persName><sex value="1"/><birth when="1845-04-11">11 April 1845, <placeName ref="EM01624.xml">Windsor</placeName></birth><death when="1931-09-01">1 September 1931, <placeName>North Carlton, Melbourne</placeName></death><occupation>policeman</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Thomas</forename> <surname>O'Callaghan</surname></persName><sex value="1"/><birth when="1845-04-11">11 April 1845, <placeName ref="EM01624.xml">Windsor</placeName></birth><death when="1931-09-01">1 September 1931, <placeName>North Carlton, Melbourne</placeName></death><occupation>policeman</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>North Carlton, Melbourne</placeName><location type="point"><geo>-37.78707 144.97403</geo><note type="source">North Carlton: VICNAMES Register of Geographic Place Names, © State of Victoria (DEECA), CC BY 4.0. &quot;North Carlton, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

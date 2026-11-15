@@ -10,7 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
+<standOff>
+<listPlace type="location"><place><placeName>Chapel Street</placeName><location type="point"><geo>-37.85346 144.99307</geo><note type="source">Chapel Street: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Chapel Street in Prahran, St Kilda, South Yarra, Windsor (Vicmap has 12 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>Located in the City of Stonnington, Chapel Street extends from the Yarra River at Alexandra Avenue, south to St Kilda Road, traversing the suburbs of South Yarra, Prahran, Windsor and St Kilda. Chapel Street gained its name from the Independent (Congregationalist) Chapel which stood near Commercial Road in the late 1840s, although the street's fame is firmly rooted in the retailing located between Toorak Road, South Yarra, and Dandenong Road, Windsor.</p>
 <p>Chapel Street grew as a retail centre after the arrival of the railway in the 1860s, and expanded when the advent of trams in 1885 made the shops readily accessible to commuters. Major building development in the 1880s, and again between the 1890s depression and World War I, saw Chapel Street emerge as one of Melbourne's most important thoroughfares. During the interwar years, young Colin McInnes sensed the 'drama' of life as it surged between the 'five storey buildings with their turrets and towers' that lined the street, where was found the 'excitement of a big city' (<hi rend="italic">The road to Gundagai</hi>, 1965).</p>

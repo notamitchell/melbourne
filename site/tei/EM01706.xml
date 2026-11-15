@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01877.xml"><desc>Little Queen Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01907.xml"><desc>Merlin Alley</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Benjamin Lane</placeName><location type="point"><geo>-37.81484 144.96014</geo><note type="source">Benjamin Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Benjamin Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01877.xml"><desc>Little Queen Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01907.xml"><desc>Merlin Alley</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Benjamin Lane leads north off Bourke Street between Queen and Little Queen streets, winding behind the delicatessens and cafes of the Bourke-Queen intersection. Its entrance is partially covered by the overpass of a building housing a pharmacy and deli, but the lane re-emerges in daylight to provide pedestrian access to a car park, connecting from here to Little Queen Street and Merlin Alley. The lane has no footpaths, and is mainly used as a service lane for the surrounding buildings.</p></div>
 </body>

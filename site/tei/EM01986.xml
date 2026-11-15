@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01679.xml"><desc>Laneway Commissions</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01992.xml"><desc>Tattersalls Lane</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Stevenson Lane</placeName><location type="point"><geo>-37.81183 144.96531</geo><note type="source">Stevenson Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Stevenson Lane in Melbourne (the Hoddle grid) (Vicmap has 1 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01679.xml"><desc>Laneway Commissions</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01992.xml"><desc>Tattersalls Lane</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Swanston and Russell streets, Stevenson Lane forms a horseshoe shape west of Tattersalls Lane, which runs from Lonsdale Street to Little Bourke Street. It was named in the latter decades of the twentieth century and in 2002-2003, hosted Endra Che-Kahn and Marco Mattucci's art installation 'Safe Between Us' as was part of the City of Melbourne's Laneway Commissions program.</p></div>
 </body>

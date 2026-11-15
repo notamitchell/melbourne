@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00659.xml"><desc>Governors</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Scott Alley</placeName><location type="point"><geo>-37.81681 144.96636</geo><note type="source">Scott Alley: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Scott Alley in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00659.xml"><desc>Governors</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Elizabeth and Swanston streets, Scott Alley extends south from Flinders Lane. The right-of-way was formed prior to 1856 as Hotham Place, named after Governor of Victoria Sir Charles Hotham. It was renamed Scott Alley in 1906. In 1935, the Bible House Chambers, which housed the British &amp; Foreign Bible Society and some manufacturing agents, occupied Scott Alley.</p></div>
 </body>

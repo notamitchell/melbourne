@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Heape Court</placeName><location type="point"><geo>-37.81178 144.96134</geo><note type="source">Heape Court: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Heape Court in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Heape Court is located between Queen and Elizabeth streets, extending south from Little Lonsdale Street, doglegging to the west, and extending further south to a dead-end. The lane was named in 1858 for pastoralist and merchant Benjamin Heape, owner of the Heape and Grice business which operated from Little Lonsdale Street. The Heape Court warehouse located at the rear of 361-65 Little Lonsdale Street was built in 1854, and today is listed on the Victorian Heritage Register as a rare and intact example of a gold rush era brick warehouse. The building is a simple two-storey brick structure with a gable room, built by the Holmes Bros firm for Joseph Burton Pynsent, a merchant and general outfitter. It was later used as a blacksmith store for John Cooper and Sons, a wholesale ironmonger and importing firm. In 1860, Heape Court was the location of the Gideon Heard and Co., a tobacco and snuff manufacturing business.</p></div>
 </body>
