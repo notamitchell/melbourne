@@ -10,8 +10,10 @@
 <change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Douglas Wright</forename> <surname>Lockwood</surname></persName><sex value="1"/><birth when="1918-07-09">9 July 1918, <placeName>Natimuk</placeName></birth><death when="1980-12-21">21 December 1980, <placeName>Bendigo</placeName></death><occupation>author</occupation><occupation>journalist</occupation><occupation>soldier</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Douglas Wright</forename> <surname>Lockwood</surname></persName><sex value="1"/><birth when="1918-07-09">9 July 1918, <placeName>Natimuk</placeName></birth><death when="1980-12-21">21 December 1980, <placeName>Bendigo</placeName></death><occupation>author</occupation><occupation>journalist</occupation><occupation>soldier</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Natimuk</placeName><location type="point"><geo>-36.73534 141.93595</geo><note type="source">Natimuk: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1918: a Victorian place with no well-known namesake elsewhere.</note></location></place><place type="death"><placeName>Bendigo</placeName><location type="point"><geo>-36.75701 144.27940</geo><note type="source">Bendigo: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1980: a Victorian place with no well-known namesake elsewhere.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

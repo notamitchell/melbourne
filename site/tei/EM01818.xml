@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00656.xml"><desc>Gordon House</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01869.xml"><desc>Law Courts Place</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Gordon Place</placeName><location type="point"><geo>-37.81036 144.97195</geo><note type="source">Gordon Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Gordon Place in Melbourne (the Hoddle grid) (Vicmap has 1 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00656.xml"><desc>Gordon House</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01869.xml"><desc>Law Courts Place</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Gordon Place is located between Exhibition and Spring streets, extending north from Little Bourke Street. It was named for Gordon House, situated near the intersection of Little Bourke and Spring streets. Gordon House was built as a guest-house in 1883 by politician and theatrical entrepreneur George Coppin. Designed by noted architect William Pitt, it was modelled on the Chelsea Model Lodging House in London. The building is now listed on the Victorian Heritage Register, and has been converted to a boutique hotel. Gordon Place was also home to the Gordon Chambers in 1895.</p></div>
 </body>

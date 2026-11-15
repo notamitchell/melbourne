@@ -10,8 +10,9 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPlace><place xml:id="subject"><placeName type="main">Tally Ho</placeName></place></listPlace></standOff>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Tally Ho</placeName><location type="point"><geo>-37.87430 145.15918</geo><note type="source">Tally Ho: VICNAMES Register of Geographic Place Names, © State of Victoria (DEECA), CC BY 4.0. Mean of 2 VICNAMES neighbourhood points for the same place, all within 3 km (registered name).</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>(3151, 18 km E, Whitehorse City)</p>
 <p>Now absorbed into the suburb of Burwood East, Tally Ho took its name from an 1870s hotel at the corner of Blackburn and Highbury roads. Orchards predominated as a local industry, and in 1903 the Tally Ho Boys' Village was established as a Methodist training farm for city youth. The name is perpetuated in the Tally Ho Business Park at the south-west corner of Burwood Highway and Springvale Road.</p></div>

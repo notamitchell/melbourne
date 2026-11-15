@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Clifton Hill (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Eric Wilfred</forename> <surname>Welch</surname></persName><sex value="1"/><birth when="1900-10-28">28 October 1900, <placeName ref="EM00359.xml">Clifton Hill, Melbourne</placeName></birth><death when="1983-07-25">25 July 1983, <placeName>Mt Martha</placeName></death><occupation>sporting commentator</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Eric Wilfred</forename> <surname>Welch</surname></persName><sex value="1"/><birth when="1900-10-28">28 October 1900, <placeName ref="EM00359.xml">Clifton Hill, Melbourne</placeName></birth><death when="1983-07-25">25 July 1983, <placeName>Mt Martha</placeName></death><occupation>sporting commentator</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Clifton Hill, Melbourne</placeName><location type="point"><geo>-37.79020 144.99766</geo><note type="source">Clifton Hill: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Clifton Hill, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

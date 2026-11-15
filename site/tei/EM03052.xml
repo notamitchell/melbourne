@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Prahran (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Parkville (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Minnie Elizabeth</forename> <surname>Cawthorn</surname></persName><sex value="2"/><birth when="1898-08-23">23 August 1898, <placeName ref="EM01178.xml">Prahran, Melbourne</placeName></birth><death when="1966-05-10">10 May 1966, <placeName ref="EM01115.xml">Parkville, Melbourne</placeName></death><occupation>aviatrix</occupation><occupation>headmistress</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Minnie Elizabeth</forename> <surname>Cawthorn</surname></persName><sex value="2"/><birth when="1898-08-23">23 August 1898, <placeName ref="EM01178.xml">Prahran, Melbourne</placeName></birth><death when="1966-05-10">10 May 1966, <placeName ref="EM01115.xml">Parkville, Melbourne</placeName></death><occupation>aviatrix</occupation><occupation>headmistress</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Prahran, Melbourne</placeName><location type="point"><geo>-37.85175 145.00035</geo><note type="source">Prahran: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Prahran, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Parkville, Melbourne</placeName><location type="point"><geo>-37.78683 144.95130</geo><note type="source">Parkville: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Parkville, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

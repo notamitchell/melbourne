@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00232.xml"><desc>Brewers and Brewing</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00524.xml"><desc>Engineering</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>McCrackens Lane</placeName><location type="point"><geo>-37.81742 144.95725</geo><note type="source">McCrackens Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only McCrackens Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00232.xml"><desc>Brewers and Brewing</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00524.xml"><desc>Engineering</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>McCrackens Lane runs off Little Collins Street between King and William streets.</p>
 <p>McCracken's Collins Street brewery produced stout and ales from 1851 until it became part of Carlton and United breweries in 1907. In 1961, David &amp; Jenkins engineers as well as the Kendall &amp; Knight Company's workshops were located in the lane.</p></div>

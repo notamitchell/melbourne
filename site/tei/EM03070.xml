@@ -10,8 +10,10 @@
 <change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Douglas Berry</forename> <surname>Copland</surname></persName><sex value="1"/><birth when="1894-02-24">24 February 1894, <placeName>Otaio</placeName></birth><death when="1971-09-27">27 September 1971, <placeName>Kyneton</placeName></death><occupation>academic</occupation><occupation>bureaucrat</occupation><occupation>diplomat</occupation><occupation>economist</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Douglas Berry</forename> <surname>Copland</surname></persName><sex value="1"/><birth when="1894-02-24">24 February 1894, <placeName>Otaio</placeName></birth><death when="1971-09-27">27 September 1971, <placeName>Kyneton</placeName></death><occupation>academic</occupation><occupation>bureaucrat</occupation><occupation>diplomat</occupation><occupation>economist</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>Kyneton</placeName><location type="point"><geo>-37.22743 144.46167</geo><note type="source">Kyneton: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1971: a Victorian place with no well-known namesake elsewhere.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

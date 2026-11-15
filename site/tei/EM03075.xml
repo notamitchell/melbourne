@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Prahran (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Olinda (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Leonard Bell</forename> <surname>Cox</surname></persName><sex value="1"/><birth when="1894-08-29">29 August 1894, <placeName ref="EM01178.xml">Prahran, Melbourne</placeName></birth><death when="1976-07-24">24 July 1976, <placeName ref="EM01084.xml">Olinda</placeName></death><occupation>art collector</occupation><occupation>neurologist</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Leonard Bell</forename> <surname>Cox</surname></persName><sex value="1"/><birth when="1894-08-29">29 August 1894, <placeName ref="EM01178.xml">Prahran, Melbourne</placeName></birth><death when="1976-07-24">24 July 1976, <placeName ref="EM01084.xml">Olinda</placeName></death><occupation>art collector</occupation><occupation>neurologist</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Prahran, Melbourne</placeName><location type="point"><geo>-37.85175 145.00035</geo><note type="source">Prahran: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Prahran, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

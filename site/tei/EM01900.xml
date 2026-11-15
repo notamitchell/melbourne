@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>McKillop Street</placeName><location type="point"><geo>-37.81506 144.96164</geo><note type="source">McKillop Street: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only McKillop Street in Melbourne (the Hoddle grid) (Vicmap has 2 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>McKillop Street connects Little Collins and Bourke streets, between Queen and Elizabeth streets. The first date of private residential and commercial occupation in the street is dated to 1839. The street was named in 1865 after J.P. McKillop, a Scottish accountant and estate agent. In 1910, the Victorian Associated Vineyards Company, a cork manufacturer and several other printers and manufacturers were located in McKillop Street.</p></div>
 </body>

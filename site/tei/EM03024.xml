@@ -10,8 +10,10 @@
 <change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Richard John</forename> <surname>Bennetts</surname></persName><sex value="1"/><birth when="1925-01-03">3 January 1925, <placeName>North Fitzroy, Melbourne</placeName></birth><death when="1978-07-03">3 July 1978, <placeName>Cooma</placeName></death><occupation>intelligence officer</occupation><occupation>journalist</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Richard John</forename> <surname>Bennetts</surname></persName><sex value="1"/><birth when="1925-01-03">3 January 1925, <placeName>North Fitzroy, Melbourne</placeName></birth><death when="1978-07-03">3 July 1978, <placeName>Cooma</placeName></death><occupation>intelligence officer</occupation><occupation>journalist</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>North Fitzroy, Melbourne</placeName><location type="point"><geo>-37.78624 144.98209</geo><note type="source">North Fitzroy: VICNAMES Register of Geographic Place Names, © State of Victoria (DEECA), CC BY 4.0. &quot;North Fitzroy, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

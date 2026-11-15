@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01679.xml"><desc>Laneway Commissions</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02009.xml"><desc>Warburton Alley</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Warburton Lane</placeName><location type="point"><geo>-37.81382 144.96193</geo><note type="source">Warburton Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Warburton Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01679.xml"><desc>Laneway Commissions</desc></relation><relation name="related" type="entry" active="#subject" passive="EM02009.xml"><desc>Warburton Alley</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Queen and Elizabeth streets, Warburton Lane extends south from Little Bourke Street. It was named pre-1895 after Thomas Warburton, a galvanised iron merchant who traded from this lane. In 2007, Warburton Lane was host to the City of Melbourne's Laneway Commissions art installation 'Chandelier', created by Angela Morgan, Isla Shaw and Kylie Mitchell.</p></div>
 </body>

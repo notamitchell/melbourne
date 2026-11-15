@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Glen Iris (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Kew (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Thomas MacFarland</forename> <surname>Cherry</surname></persName><sex value="1"/><birth when="1898-05-21">21 May 1898, <placeName ref="EM00646.xml">Glen Iris, Melbourne</placeName></birth><death when="1966-11-21">21 November 1966, <placeName ref="EM00796.xml">Kew, Melbourne</placeName></death><occupation>professor of mathematics</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Thomas MacFarland</forename> <surname>Cherry</surname></persName><sex value="1"/><birth when="1898-05-21">21 May 1898, <placeName ref="EM00646.xml">Glen Iris, Melbourne</placeName></birth><death when="1966-11-21">21 November 1966, <placeName ref="EM00796.xml">Kew, Melbourne</placeName></death><occupation>professor of mathematics</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Glen Iris, Melbourne</placeName><location type="point"><geo>-37.85596 145.06500</geo><note type="source">Glen Iris: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Glen Iris, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Kew, Melbourne</placeName><location type="point"><geo>-37.80341 145.03318</geo><note type="source">Kew: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Kew, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

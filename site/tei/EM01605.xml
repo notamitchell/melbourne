@@ -10,8 +10,9 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPlace><place xml:id="subject"><placeName type="main">West Melbourne</placeName></place></listPlace>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">West Melbourne</placeName><location type="point"><geo>-37.80951 144.92559</geo><note type="source">West Melbourne: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Centroid of the gazetted locality.</note></location></place></listPlace>
 <listRelation><relation name="related" type="theme" active="#subject" passive="EM00022.xml"><desc>Suburbs &amp; Localities</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02061.xml"><desc>City Living Sculpture</desc></relation><relation name="related" type="cultural-artefact" active="#subject" passive="EM02110.xml"><desc>Railway Viewing Platform</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>(3003, 1.5 km W, Melbourne City)</p>

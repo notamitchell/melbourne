@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00192.xml"><desc>Billiards, Snooker and Pool</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Pink Alley</placeName><location type="point"><geo>-37.81364 144.97026</geo><note type="source">Pink Alley: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Pink Alley in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00192.xml"><desc>Billiards, Snooker and Pool</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Pink Alley connects to Little Collins Street between Russell and Exhibition streets. In 1860, the Paddington Hotel, a ginger beer manufacturer and butcher could be found in Pink Alley. In 1910, the Adam and Eve hotel as well as a billiard table manufacturer were located in the alley.</p></div>
 <div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000026"><head>Motherwell Gateway, Pink Alley, off Little Collins Street</head><graphic url="../objects/images/b51920.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_b51920.jpg"/><p>John Kinmont Moir 1934</p><note type="rights">Courtesy State Library of Victoria</note></figure></div>

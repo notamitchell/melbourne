@@ -10,8 +10,9 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPlace><place xml:id="subject"><placeName type="main">Bend of Islands</placeName></place></listPlace></standOff>
+<standOff><listPlace><place xml:id="subject"><placeName type="main">Bend of Islands</placeName><location type="point"><geo>-37.69768 145.28446</geo><note type="source">Bend Of Islands: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Centroid of the gazetted locality.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>(3097, 28 km NE, Nillumbik Shire)</p>
 <p>The residents of the Bend of Islands, a 634.5-ha Environmental Living Zone (ELZ) protected by special zoning regulations, are committed to protection of the natural environment. The Haughton family subdivided land in the area in the 1920s, naming the Bend of Islands Estate after the small group of islands in the Yarra River near its junction with Watsons Creek. The locality was officially gazetted in 2000.</p>

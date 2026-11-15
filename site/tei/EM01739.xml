@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00586.xml"><desc>Flinders Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Chester Lane</placeName><location type="point"><geo>-37.81483 144.97131</geo><note type="source">Chester Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Chester Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00586.xml"><desc>Flinders Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Chester Lane leads north from Flinders Lane between Russell and Exhibition streets, hooking westwards mid-block. In 1895, the lane serviced the Flinders Hotel, which stretched the entire length of Chester Lane on its west side, and several small terraces. In 1920, the Doery Davies &amp; Co. Stables were located in Chester Lane. Today it winds around the sizable office buildings of 101 Collins Street.</p></div>
 </body>

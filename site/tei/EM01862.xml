@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01863.xml"><desc>Knox Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01899.xml"><desc>McIntyre Alley</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Knox Lane</placeName><location type="point"><geo>-37.81051 144.96356</geo><note type="source">Knox Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Knox Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01863.xml"><desc>Knox Place</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01899.xml"><desc>McIntyre Alley</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Knox Lane is located between Swanston and Elizabeth streets. It connects Little Lonsdale Street to Knox Place in a dogleg shape, which opens to Swanston Street. It was previously known as Partner Alley. This is the current site of the Melbourne Central shopping complex, located behind the former John Knox Church in Swanston Street, which is now a convention centre for the Melbourne Church of Christ.</p></div>
 </body>

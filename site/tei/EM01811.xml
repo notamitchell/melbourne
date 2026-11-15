@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>George Parade</placeName><location type="point"><geo>-37.81495 144.97025</geo><note type="source">George Parade: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only George Parade in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00727.xml"><desc>Hotels</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>George Parade is located between Russell and Exhibition streets, extending from Flinders Lane to Collins Street. It was formerly known as La Trobe Parade until after 1915. As was standard for most lanes, George Parade was home to a hotel. The Windsor Castle Hotel was located on the corner of La Trobe Parade and Flinders Lane in 1895. The laneways were also often the location of warehouses and manufacturing businesses. The laneways were created as rights-of-way, and thus provided these buildings with access for deliveries. One such business requiring access for frequent pick-ups and deliveries was a printing press, located at 24 La Trobe Parade.</p></div>
 </body>

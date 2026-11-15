@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place St Kilda (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Rupert Charles Wulsten</forename> <surname>Bunny</surname></persName><sex value="1"/><birth when="1864-09-29">29 September 1864, <placeName ref="EM01305.xml">St Kilda, Melbourne</placeName></birth><death when="1947-05-25">25 May 1947, <placeName>Melbourne</placeName></death><occupation>artist</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Rupert Charles Wulsten</forename> <surname>Bunny</surname></persName><sex value="1"/><birth when="1864-09-29">29 September 1864, <placeName ref="EM01305.xml">St Kilda, Melbourne</placeName></birth><death when="1947-05-25">25 May 1947, <placeName>Melbourne</placeName></death><occupation>artist</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>St Kilda, Melbourne</placeName><location type="point"><geo>-37.86369 144.98180</geo><note type="source">St Kilda: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;St Kilda, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Melbourne</placeName><location type="point"><geo>-37.82429 144.97399</geo><note type="source">Melbourne: VICNAMES Register of Geographic Place Names, © State of Victoria (DEECA), CC BY 4.0. &quot;Melbourne&quot; in 1947: Melbourne, Victoria.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

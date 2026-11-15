@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01124.xml"><desc>Pawnbrokers</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Meyers Place</placeName><location type="point"><geo>-37.81204 144.97222</geo><note type="source">Meyers Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Meyers Place in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01124.xml"><desc>Pawnbrokers</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Meyers Place connects Little Collins and Bourke Streets between Exhibition and Spring streets. It was formerly known as Nicholas Lane. In 1860 Nicholas Lane housed businesses run by a house and sign painter, wood carver and galvanized iron and zinc worker. By 1891, it was home to many residents, as well as refreshment rooms, two tobacconists, a pawnbroker and a post and telegraph office.</p>
 <p>On 25 October 1892 Assistant Inspector of Nuisances Edward Thunderbolt wrote to the City's Inspector of Nuisances John Fullerton, requesting a summons against James Harris, a resident of Little Collins Street, for throwing rubbish into Nicholas Lane, contrary to by-law.</p>

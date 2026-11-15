@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01784.xml"><desc>Eagle Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Chisholm Place</placeName><location type="point"><geo>-37.81348 144.95630</geo><note type="source">Chisholm Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Chisholm Place in Melbourne (the Hoddle grid) (Vicmap has 1 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01784.xml"><desc>Eagle Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Chisholm Place leads south off Little Lonsdale Street between William and King streets. It was previously known as Chisholms Place. The laneway was largely residential in 1895, but there were also premises occupied by a tinsmith and a blacksmith. In 1905, the City was informed of some 'undesirable characters' in Chisholm Place and Eagle Alley: 'We are informed that a lot of these undesirable characters have been forced by the police to leave the east of the city and they have only moved them to the locality we have mentioned'. The lane now contains a car park.</p></div>
 </body>

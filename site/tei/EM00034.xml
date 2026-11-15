@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-06-26" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Acland Street</placeName><location type="point"><geo>-37.86615 144.97750</geo><note type="source">Acland Street: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Acland Street in St Kilda (Vicmap has 3 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="theme" active="#subject" passive="EM00021.xml"><desc>Streets &amp; Lanes</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>This St Kilda street was named after Sir Thomas Dyke Acland, a former owner of the schooner <hi rend="italic">Lady of St Kilda</hi>, after which the suburb is named. Acland Street is divided into two sections, the northern end primarily residential, the southern end below Carlisle Street entirely commercial. In the 19th century and again today, the northern end has been one of Melbourne's most sought after addresses. From 1870 it was the home of Moritz Michaelis, part-owner of the Footscray tanning works Michaelis Hallenstein, and whose mansion Linden, operating today as a community art gallery, still stands at number 26. Since the 1930s Acland Street has been a meeting place for Jewish and other Eastern European immigrants, and became famous in the postwar period for its cake shops and cafés. In 1958, Masha and Avram Zeleznikow opened the Scheherazade Café, named after the Persian Queen and the Paris club where they met after the traumas of the war in Europe. It soon became a haven for artists and writers, a role it maintains today. An Acland Street Residents Association was formed in 1994 to focus local concerns about traffic, planning and development issues.</p></div>
 </body>

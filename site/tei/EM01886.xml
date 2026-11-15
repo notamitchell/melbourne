@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00232.xml"><desc>Brewers and Brewing</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00586.xml"><desc>Flinders Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Malthouse Lane</placeName><location type="point"><geo>-37.81576 144.97163</geo><note type="source">Malthouse Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Malthouse Lane in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00232.xml"><desc>Brewers and Brewing</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00586.xml"><desc>Flinders Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Malthouse Lane runs north from Flinders Lane connecting to Exhibition Street in a dogleg fashion. It has previously been known as both Wilson Lane and Conquest Lane. From 1869, Samuel Burston's five-storey steam and gas powered malt house produced malt for brewing. In 1910, the lane boasted a tie manufacturer and an underclothing manufacturer.</p></div>
 </body>

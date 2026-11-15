@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Sunbury (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Caulfield (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>John Alexander Thomas</forename> <surname>Shirlow</surname></persName><sex value="1"/><birth when="1869-12-13">13 December 1869, <placeName ref="EM01445.xml">Sunbury</placeName></birth><death when="1936-06-22">22 June 1936, <placeName ref="EM00310.xml">Caulfield, Melbourne</placeName></death><occupation>art teacher</occupation><occupation>etcher</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>John Alexander Thomas</forename> <surname>Shirlow</surname></persName><sex value="1"/><birth when="1869-12-13">13 December 1869, <placeName ref="EM01445.xml">Sunbury</placeName></birth><death when="1936-06-22">22 June 1936, <placeName ref="EM00310.xml">Caulfield, Melbourne</placeName></death><occupation>art teacher</occupation><occupation>etcher</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>Caulfield, Melbourne</placeName><location type="point"><geo>-37.88405 145.02634</geo><note type="source">Caulfield: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Caulfield, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-11-15T03:58:08Z. . 
+Schema generated from ODD source 2026-11-15T06:28:33Z. . 
 TEI Edition: P5 Version 4.12.0a. Last updated on 27th July 2026, revision 497393620 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/ 
   
@@ -9937,7 +9937,22 @@ Sample values include: 1] listening; 2] speaking; 3] reading; 4] writing</a:docu
          <ref name="tei_att.cmc.attributes"/>
          <ref name="tei_att.declarable.attributes"/>
          <ref name="tei_att.sortable.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
+Suggested values include: 1] location; 2] life</a:documentation>
+               <choice>
+                  <value>location</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">eMelbourne: where the subject of a topic entry (such as a street) is.</a:documentation>
+                  <value>life</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">eMelbourne: a person's birth and death places, with coordinates.</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -9986,7 +10001,21 @@ Sample values include: 1] listening; 2] speaking; 3] reading; 4] writing</a:docu
          <ref name="tei_att.cmc.attributes"/>
          <ref name="tei_att.datable.attributes"/>
          <ref name="tei_att.editLike.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
+Suggested values include: 1] point</a:documentation>
+               <choice>
+                  <value>point</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A single point, in <code xmlns="http://www.w3.org/1999/xhtml"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0">&lt;geo&gt;</code> as latitude and longitude.</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -10391,7 +10420,22 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
          <ref name="tei_att.datable.attributes"/>
          <ref name="tei_att.editLike.attributes"/>
          <ref name="tei_att.sortable.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
+Suggested values include: 1] birth; 2] death</a:documentation>
+               <choice>
+                  <value>birth</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Where the person was born.</a:documentation>
+                  <value>death</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Where the person died.</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>

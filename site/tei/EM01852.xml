@@ -11,8 +11,10 @@
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2008-10-16" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00381.xml"><desc>Collins Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01997.xml"><desc>Throssell Lane</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Howitt Lane</placeName><location type="point"><geo>-37.81395 144.97359</geo><note type="source">Howitt Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Howitt Lane in Melbourne (the Hoddle grid) (Vicmap has 2 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00381.xml"><desc>Collins Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01997.xml"><desc>Throssell Lane</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Howitt Lane is located between Exhibition and Spring streets, extending north from Flinders Lane. It is directly opposite Throssell Lane on Flinders Lane. The lane was originally named Booth Lane, however after 1905 the name was changed to Howitt Lane. The lane is named after Dr Godfrey Howitt, whose garden and prefabricated wooden cottage were located at the eastern end of Collins Street from the 1840s. In 1895 huge vacant lots existed on either side of Howitt Lane.</p></div>
 </body>

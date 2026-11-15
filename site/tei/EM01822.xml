@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01826.xml"><desc>Grimes Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Gresham Street</placeName><location type="point"><geo>-37.81558 144.95654</geo><note type="source">Gresham Street: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Gresham Street in Melbourne (the Hoddle grid) (Vicmap has 1 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01826.xml"><desc>Grimes Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Gresham Street is located between King and William streets, extending from Bourke Street through to Little Bourke Street. Gresham Street was formed in the late 1880s as a private lane, and hence was unnamed until 1933. Gresham Street was located in a block which in 1895 contained a significant number of warehouses. These were located on the western side, whilst a timber yard occupied the area on the east. On the north-west side of the lane was an engineering and blacksmiths workshop.</p></div>
 </body>

@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01794.xml"><desc>Exploration Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Jones Lane</placeName><location type="point"><geo>-37.80985 144.96865</geo><note type="source">Jones Lane: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Jones Lane in Melbourne (the Hoddle grid) (Vicmap has 2 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01794.xml"><desc>Exploration Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Jones Lane is located between Russell and Exhibition streets and connects Lonsdale and Little Lonsdale streets. In 1839, the first commercial building was occupied in Jones Lane. By 1888, there was a state school as well as two musicians living in the lane. In 1892, Jones Lane contained a timber yard run by John Perry. By 1930, the lane contained linotypers, metal workers, wood turners and cigar merchants.</p></div>
 <div type="gallery" xml:id="gallery"><head>Gallery</head><figure xml:id="D00000099"><head>Correspondence file between  Benjamin McCracken &amp; others and the City of Melbourne, re Jones Lane</head><graphic url="../objects/thumbs/tn_JONE_001_L.jpg"/><graphic type="thumbnail" url="../objects/thumbs/tn_JONE_001_L.jpg"/><p>16 July 1874</p><note type="rights">Courtesy Public Record Office Victoria</note></figure></div>

@@ -10,8 +10,10 @@
 <change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Susannah Jane</forename> <surname>Williams</surname></persName><sex value="2"/><birth when="1875-09-15">15 September 1875, <placeName>Castlemaine</placeName></birth><death when="1942-05-27">27 May 1942, <placeName>Castlemaine</placeName></death><occupation>classical scholar</occupation><occupation>educationist</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Susannah Jane</forename> <surname>Williams</surname></persName><sex value="2"/><birth when="1875-09-15">15 September 1875, <placeName>Castlemaine</placeName></birth><death when="1942-05-27">27 May 1942, <placeName>Castlemaine</placeName></death><occupation>classical scholar</occupation><occupation>educationist</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Castlemaine</placeName><location type="point"><geo>-37.05813 144.21849</geo><note type="source">Castlemaine: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1875: a Victorian place with no well-known namesake elsewhere.</note></location></place><place type="death"><placeName>Castlemaine</placeName><location type="point"><geo>-37.05813 144.21849</geo><note type="source">Castlemaine: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1942: a Victorian place with no well-known namesake elsewhere.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

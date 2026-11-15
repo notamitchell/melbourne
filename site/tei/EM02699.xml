@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Moonee Ponds (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Essendon (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Edward Hore</forename> <surname>Kinnear</surname></persName><sex value="1"/><birth when="1874-10-27">27 October 1874, <placeName ref="EM01001.xml">Moonee Ponds, Melbourne</placeName></birth><death when="1965-03-03">3 March 1965, <placeName ref="EM00530.xml">Essendon, Melbourne</placeName></death><occupation>businessman</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Edward Hore</forename> <surname>Kinnear</surname></persName><sex value="1"/><birth when="1874-10-27">27 October 1874, <placeName ref="EM01001.xml">Moonee Ponds, Melbourne</placeName></birth><death when="1965-03-03">3 March 1965, <placeName ref="EM00530.xml">Essendon, Melbourne</placeName></death><occupation>businessman</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Moonee Ponds, Melbourne</placeName><location type="point"><geo>-37.76561 144.92144</geo><note type="source">Moonee Ponds: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Moonee Ponds, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Essendon, Melbourne</placeName><location type="point"><geo>-37.74979 144.91093</geo><note type="source">Essendon: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Essendon, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01830.xml"><desc>Gurners Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00845.xml"><desc>Legal Precinct</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01994.xml"><desc>Temple Court</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Temple Court Place</placeName><location type="point"><geo>-37.81670 144.95981</geo><note type="source">Temple Court Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Temple Court Place in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01830.xml"><desc>Gurners Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00845.xml"><desc>Legal Precinct</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01994.xml"><desc>Temple Court</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between William and Queen streets, Temple Court Place extends south from Little Collins Street and turns west at a right angle to open onto Gurners Lane. It was named in 1860 to signal its vicinity to adjacent Temple Court, which was home to many lawyers' offices. In 1901, Temple Court Place was occupied by several printers and solicitors.</p></div>
 </body>

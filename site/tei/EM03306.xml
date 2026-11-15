@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Prahran (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Keith William (Bluey)</forename> <surname>Truscott</surname></persName><sex value="1"/><birth when="1916-05-17">17 May 1916, <placeName ref="EM01178.xml">Prahran, Melbourne</placeName></birth><death when="1943-03-28">28 March 1943</death><occupation>Australian Rules footballer</occupation><occupation>air force officer</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Keith William (Bluey)</forename> <surname>Truscott</surname></persName><sex value="1"/><birth when="1916-05-17">17 May 1916, <placeName ref="EM01178.xml">Prahran, Melbourne</placeName></birth><death when="1943-03-28">28 March 1943</death><occupation>Australian Rules footballer</occupation><occupation>air force officer</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Prahran, Melbourne</placeName><location type="point"><geo>-37.85175 145.00035</geo><note type="source">Prahran: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Prahran, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

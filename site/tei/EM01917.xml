@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01385.xml"><desc>Smell</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Monaghan Place</placeName><location type="point"><geo>-37.81628 144.96648</geo><note type="source">Monaghan Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Monaghan Place in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM01385.xml"><desc>Smell</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Monaghan Place runs north off Flinders Lane between Elizabeth and Swanston streets. In 1860, Monaghan Place was home to the Queen's Arms Hotel. In a letter dated 10 March 1892, the Assistant Inspector of Nuisances Edward Thunderbolt wrote to the Inspector of Nuisances John Fullerton asking for a summons about smelly oysters:</p>
 <quote rend="block">I beg leave to apply for a summons against Mr Anthony Lucas, oyster saloon keeper 69 Swanston Street for causing nuisance by washing damaged oysters, and creating foul and offensive smell in the lane at rear of above premises within the City of Melbourne on March 9th 1892. Contrary to by law 73.</quote></div>

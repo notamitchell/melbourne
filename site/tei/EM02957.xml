@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked death place East Melbourne (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Eric William</forename> <surname>Tulloch</surname></persName><sex value="1"/><birth when="1883-04-16">16 April 1883, <placeName>Ballarat</placeName></birth><death when="1926-05-08">8 May 1926, <placeName ref="EM00496.xml">East Melbourne</placeName></death><occupation>brewer</occupation><occupation>rower</occupation><occupation>soldier</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Eric William</forename> <surname>Tulloch</surname></persName><sex value="1"/><birth when="1883-04-16">16 April 1883, <placeName>Ballarat</placeName></birth><death when="1926-05-08">8 May 1926, <placeName ref="EM00496.xml">East Melbourne</placeName></death><occupation>brewer</occupation><occupation>rower</occupation><occupation>soldier</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Ballarat</placeName><location type="point"><geo>-37.55985 143.85431</geo><note type="source">Ballarat: VICNAMES Register of Geographic Place Names, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1883: a Victorian place with no well-known namesake elsewhere.</note></location></place><place type="death"><placeName>East Melbourne</placeName><location type="point"><geo>-37.81442 144.98259</geo><note type="source">East Melbourne: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1926: a Victorian place with no well-known namesake elsewhere.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

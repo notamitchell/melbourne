@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00586.xml"><desc>Flinders Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00896.xml"><desc>Manufacturing</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Mill Place</placeName><location type="point"><geo>-37.81761 144.96392</geo><note type="source">Mill Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Mill Place in Melbourne (the Hoddle grid) (Vicmap has 1 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00586.xml"><desc>Flinders Lane</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00896.xml"><desc>Manufacturing</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Mill Place runs south off Flinders Lane between Queen and Elizabeth streets. Domestic and commercial occupation of the place dates from 1839. In 1891, Mill Place was a thriving area of manufacturing activity. It was home to the Flemington Meat Preserving Company, soap and candle manufacturers and lime, coal and cement merchants. There were also several tea and clothing merchants located in Mill Place.</p></div>
 </body>

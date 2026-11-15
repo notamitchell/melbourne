@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM01704.xml"><desc>Bear Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Penfold Place</placeName><location type="point"><geo>-37.81560 144.96143</geo><note type="source">Penfold Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Penfold Place in Melbourne (the Hoddle grid) (Vicmap has 2 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM01704.xml"><desc>Bear Alley</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Penfold Place runs north from Little Collins Street between Queen and Elizabeth streets, and was named for the Adelaide wine firm who established a storage facility there. It was formerly called Bear Alley.</p></div>
 </body>

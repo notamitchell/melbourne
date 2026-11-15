@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place Gardenvale (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Arnold Hughes</forename> <surname>Ennor</surname></persName><sex value="1"/><birth when="1912-10-10">10 October 1912, <placeName ref="EM00623.xml">Gardenvale, Melbourne</placeName></birth><death when="1977-10-14">14 October 1977, <placeName>Canberra</placeName></death><occupation>administrator</occupation><occupation>biochemist</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Arnold Hughes</forename> <surname>Ennor</surname></persName><sex value="1"/><birth when="1912-10-10">10 October 1912, <placeName ref="EM00623.xml">Gardenvale, Melbourne</placeName></birth><death when="1977-10-14">14 October 1977, <placeName>Canberra</placeName></death><occupation>administrator</occupation><occupation>biochemist</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Gardenvale, Melbourne</placeName><location type="point"><geo>-37.89811 145.00913</geo><note type="source">Gardenvale: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Gardenvale, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

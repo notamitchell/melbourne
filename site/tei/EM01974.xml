@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00188.xml"><desc>Bicycles and Bicycling</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>Somerset Place</placeName><location type="point"><geo>-37.81369 144.96249</geo><note type="source">Somerset Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only Somerset Place in Melbourne (the Hoddle grid) (Vicmap has 3 other road(s) of this name elsewhere in Melbourne).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00188.xml"><desc>Bicycles and Bicycling</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>Located between Queen and Elizabeth streets, Somerset Place extends south from Little Bourke Street. It was named in the late nineteenth century and in 1900 was occupied by several bicycle-related businesses. Hatsell King, a cricket bat manufacturer, also occupied Somerset Place during this time. In recent years, residential apartments have emerged in this lane, which still provides rear access for many of the businesses along Elizabeth Street.</p></div>
 </body>

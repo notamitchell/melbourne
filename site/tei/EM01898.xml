@@ -10,8 +10,10 @@
 <revisionDesc status="published">
 <change when="2008-07-17" type="created">Record created in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (street) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listRelation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00910.xml"><desc>Mayoralty</desc></relation></listRelation></standOff>
+<standOff>
+<listPlace type="location"><place><placeName>McIlwraith Place</placeName><location type="point"><geo>-37.81226 144.97181</geo><note type="source">McIlwraith Place: Vicmap Transport road centreline, © State of Victoria (DEECA), CC BY 4.0. Only McIlwraith Place in Melbourne (the Hoddle grid).</note></location></place></listPlace><listRelation><relation name="related" type="entry" active="#subject" passive="EM00219.xml"><desc>Bourke Street</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00826.xml"><desc>Lanes and Alleys</desc></relation><relation name="related" type="entry" active="#subject" passive="EM00910.xml"><desc>Mayoralty</desc></relation></listRelation></standOff>
 <text><body>
 <div type="detail"><p>McIlwraith Place connects Little Collins and Bourke Streets between Exhibition and Spring streets. It was previously known as Lilly Lane, named after James Lilly who was an estate agent in the 1840s. In a letter written to the Melbourne Town Clerk in 1885, the resident of 1 Lilly Lane complained of the nuisances created by men visiting the local theatre and public houses. She described the other residents in the lane as respectable, with many having large families.</p>
 <p>The lane was renamed after John McIlwraith, manufacturer of plumbing goods, ship owner, and Lord Mayor of Melbourne 1873-74. In 1961, the McIlwraith Company had their storage located in the place, as well as there being clothing and pleating companies there.</p></div>

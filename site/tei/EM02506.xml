@@ -11,8 +11,10 @@
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked death place Sandringham (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Clarice Marjoribanks</forename> <surname>Beckett</surname></persName><sex value="2"/><birth when="1887-03-21">21 March 1887, <placeName>Casterton</placeName></birth><death when="1935-07-07">7 July 1935, <placeName ref="EM01325.xml">Sandringham, Melbourne</placeName></death><occupation>painter</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Clarice Marjoribanks</forename> <surname>Beckett</surname></persName><sex value="2"/><birth when="1887-03-21">21 March 1887, <placeName>Casterton</placeName></birth><death when="1935-07-07">7 July 1935, <placeName ref="EM01325.xml">Sandringham, Melbourne</placeName></death><occupation>painter</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>Casterton</placeName><location type="point"><geo>-37.60308 141.33191</geo><note type="source">Casterton: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1887: a Victorian place with no well-known namesake elsewhere.</note></location></place><place type="death"><placeName>Sandringham, Melbourne</placeName><location type="point"><geo>-37.95361 145.01463</geo><note type="source">Sandringham: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Sandringham, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

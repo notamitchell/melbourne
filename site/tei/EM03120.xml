@@ -12,8 +12,10 @@
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
 <change when="2026-11-15" type="edited">Linked birth place South Yarra (checked list, tools/enrich.py).</change>
 <change when="2026-11-15" type="edited">Linked death place Surrey Hills (checked list, tools/enrich.py).</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (birth place, death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Rachel</forename> <surname>Grieve</surname></persName><sex value="2"/><birth when="1885-02-18">18 February 1885, <placeName ref="EM01404.xml">South Yarra, Melbourne</placeName></birth><death when="1977-07-02">2 July 1977, <placeName ref="EM01454.xml">Surrey Hills, Melbourne</placeName></death><occupation>weaver</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>Rachel</forename> <surname>Grieve</surname></persName><sex value="2"/><birth when="1885-02-18">18 February 1885, <placeName ref="EM01404.xml">South Yarra, Melbourne</placeName></birth><death when="1977-07-02">2 July 1977, <placeName ref="EM01454.xml">Surrey Hills, Melbourne</placeName></death><occupation>weaver</occupation></person></listPerson>
+<listPlace type="life"><place type="birth"><placeName>South Yarra, Melbourne</placeName><location type="point"><geo>-37.83922 144.99187</geo><note type="source">South Yarra: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;South Yarra, Melbourne&quot;: a named part of Melbourne.</note></location></place><place type="death"><placeName>Surrey Hills, Melbourne</placeName><location type="point"><geo>-37.82673 145.09823</geo><note type="source">Surrey Hills: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. &quot;Surrey Hills, Melbourne&quot;: a named part of Melbourne.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>

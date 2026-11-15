@@ -10,8 +10,10 @@
 <change when="2009-06-05" type="created">Record created in the eMelbourne OHRM database.</change>
 <change when="2009-08-03" type="edited">Record last changed in the eMelbourne OHRM database.</change>
 <change type="converted">Converted to TEI from the 2023 figshare archive.</change>
+<change when="2026-11-15" type="geocoded">Coordinates added (death place) from Vicmap and VICNAMES (CC BY 4.0), checked in enrichments/geo-review.csv.</change>
 </revisionDesc></teiHeader>
-<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>William</forename> <surname>Mair</surname></persName><sex value="1"/><birth when="1806-08-31">31 August 1806, <placeName>Glasgow</placeName></birth><death when="1904-01-01">1 January 1904, <placeName>Nyora</placeName></death><occupation>civil servant</occupation><occupation>soldier</occupation></person></listPerson></standOff>
+<standOff><listPerson><person xml:id="subject"><persName type="main"><forename>William</forename> <surname>Mair</surname></persName><sex value="1"/><birth when="1806-08-31">31 August 1806, <placeName>Glasgow</placeName></birth><death when="1904-01-01">1 January 1904, <placeName>Nyora</placeName></death><occupation>civil servant</occupation><occupation>soldier</occupation></person></listPerson>
+<listPlace type="life"><place type="death"><placeName>Nyora</placeName><location type="point"><geo>-38.30857 145.68370</geo><note type="source">Nyora: Vicmap Admin locality polygon, © State of Victoria (DEECA), CC BY 4.0. Bare name, 1904: a Victorian place with no well-known namesake elsewhere.</note></location></place></listPlace></standOff>
 <text><body>
 <div type="detail"><p>View the full biographical record by clicking on the <hi rend="italic">Australian Dictionary of Biography</hi> link under <ref target="#references">References</ref> below.</p></div>
 </body>
