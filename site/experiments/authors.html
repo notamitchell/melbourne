@@ -27,20 +27,20 @@
 <main class="exp-wrap">
 <p class="exp-crumb"><a href="index.html">Experiments</a></p>
 <h1>Who wrote what</h1>
-<p class="exp-lede">The people (and organisations) credited as authors of eMelbourne entries, against the themes of what they wrote. Darker squares are more entries (on a log scale, so one entry still shows); the bar on the right is each author's total. Click a name or a square for the entries.</p>
+<p class="exp-lede">The writers of eMelbourne's articles, and the themes they wrote about. The darker the square, the more they wrote on that theme; the bar on the right shows how many articles each wrote in all. Click a name or a square to see the articles.</p>
 <div class="exp-bar">
-  <label>Authors <select id="top"><option>20</option><option selected>40</option><option>80</option></select></label>
-  <label>Order <select id="sort"><option value="n">Most entries</option><option value="name">Surname</option><option value="spread">Most themes</option></select></label>
+  <label>How many writers <select id="top"><option>20</option><option selected>40</option><option>80</option></select></label>
+  <label>Order <select id="sort"><option value="n">Most articles</option><option value="name">Surname</option><option value="spread">Most themes</option></select></label>
   <span id="count" class="exp-note"></span>
 </div>
 <div class="exp-chart" id="chart"></div>
 <div id="list" aria-live="polite"></div>
-<details class="exp-table"><summary>Table of all authors</summary><div id="table"></div></details>
+<details class="exp-table"><summary>All writers as a list</summary><div id="table"></div></details>
 </main>
 <script>
 (function () {
   "use strict";
-  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>The chart library could not be loaded</b> (js/vendor/d3/d3.min.js).</p>"); return; }
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>Sorry, the chart could not be drawn.</b> Try reloading the page.</p>"); return; }
   const { esc } = Exp;
   let authors = [], themes = [], byId = {};
   Promise.all([Exp.facets(), Exp.nav()]).then(([rows, nav]) => {
@@ -53,9 +53,9 @@
       const sur = name.split(" ").slice(-1)[0];
       return { name, sur, recs, th, spread: th.size };
     });
-    document.getElementById("count").textContent = `${authors.length} authors of ${rows.filter(r => r.au).length.toLocaleString("en-AU")} records`;
+    document.getElementById("count").textContent = "";
     ["top", "sort"].forEach(id => document.getElementById(id).addEventListener("input", draw));
-    document.getElementById("table").innerHTML = "<table><thead><tr><th>Author</th><th>Entries</th><th>Themes</th></tr></thead><tbody>" +
+    document.getElementById("table").innerHTML = "<table><thead><tr><th>Writer</th><th>Articles</th><th>Themes</th></tr></thead><tbody>" +
       authors.slice().sort((a, b) => b.recs.length - a.recs.length || a.sur.localeCompare(b.sur)).map(a => `<tr><td>${esc(a.name)}</td><td>${a.recs.length}</td><td>${a.spread}</td></tr>`).join("") + "</tbody></table>";
     draw();
     addEventListener("resize", () => { clearTimeout(draw.t); draw.t = setTimeout(draw, 150); });
@@ -73,7 +73,7 @@
     const svg = d3.create("svg").attr("viewBox", `0 0 ${W} ${H}`).style("max-width", W + "px")
       .attr("role", "img").attr("aria-label", "Matrix of authors against themes; darker squares are more entries. The table below lists every author.");
     themes.forEach((t, j) => svg.append("text").attr("transform", `translate(${L + j * cell + cell / 2 + 4},${T - 8}) rotate(-55)`).style("font-size", "11px").text(t.name));
-    svg.append("text").attr("x", L + themes.length * cell + 12).attr("y", T - 8).style("font-size", "11px").text("All entries");
+    svg.append("text").attr("x", L + themes.length * cell + 12).attr("y", T - 8).style("font-size", "11px").text("All articles");
     const tip = document.createElement("div"); tip.className = "exp-tip"; tip.hidden = true;
     const rowG = svg.selectAll("g.row").data(list).join("g").attr("class", "row").attr("transform", (a, i) => `translate(0,${T + i * cell})`);
     rowG.append("text").attr("class", "lab").attr("x", L - 8).attr("y", cell / 2 + 4).attr("text-anchor", "end").text(a => a.name).on("click", (e, a) => show(a, null));
@@ -84,7 +84,7 @@
         g.append("rect").attr("class", "cell").attr("x", L + j * cell).attr("width", cell).attr("height", cell).attr("rx", 3)
           .attr("fill", n ? col(n) : "var(--hover)")
           .on("pointermove", e => {
-            tip.innerHTML = `<b>${esc(a.name)}</b>${n} ${n === 1 ? "entry" : "entries"} on ${esc(t.name)}`; tip.hidden = false;
+            tip.innerHTML = `<b>${esc(a.name)}</b>${n} ${n === 1 ? "article" : "articles"} on ${esc(t.name)}`; tip.hidden = false;
             const r = holder.getBoundingClientRect(); let x = e.clientX - r.left + 14; if (x + 240 > r.width) x -= 260;
             tip.style.left = x + "px"; tip.style.top = (e.clientY - r.top + 14) + "px";
           })
@@ -100,7 +100,7 @@
     const recs = a.recs.filter(r => !t || (t.id === "none" ? !(r.th && r.th.length) : (r.th || []).includes(t.id))).sort((x, y) => x.n.localeCompare(y.n));
     document.getElementById("list").innerHTML = `<h2>${esc(a.name)}${t ? " on " + esc(t.name) : ""}: ${recs.length}</h2><ul>` +
       recs.map(r => `<li><a href="${Exp.entry(r.id)}">${esc(r.n)}</a></li>`).join("") + "</ul>" +
-      `<p class="exp-note"><a href="../advanced.html?author=${encodeURIComponent(a.name)}${t && t.id !== "none" ? "&theme=" + t.id : ""}">Open in advanced search</a></p>`;
+      `<p class="exp-note"><a href="../advanced.html?author=${encodeURIComponent(a.name)}${t && t.id !== "none" ? "&theme=" + t.id : ""}">Find these in advanced search</a></p>`;
   }
 })();
 </script>

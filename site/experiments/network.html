@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Related records – eMelbourne experiments</title>
+<title>Connections – eMelbourne experiments</title>
 <link rel="stylesheet" href="../css/site.css">
 <link rel="stylesheet" href="experiments.css">
 <script src="../js/vendor/d3/d3.min.js"></script>
@@ -22,25 +22,25 @@
 <header class="site"><div class="hd"><a class="brand" href="../index.html"><span class="brand-name">eMelbourne</span><span class="brand-tag">The Encyclopedia of Melbourne Online</span></a><form class="quick" action="../search.html" role="search"><label class="sr" for="quick-q">Search eMelbourne</label><input id="quick-q" name="q" type="search" placeholder="Search people, places, events…" autocomplete="off"><button type="submit">Search</button><a class="adv" href="../advanced.html">Advanced search</a></form><nav class="top" aria-label="Site"><a href="../index.html#themes">Themes</a><a href="../browse.html">A to Z</a><a href="../index.html#exhibitions">Exhibitions</a><a href="onthisday.html">On this day</a><a href="index.html" aria-current="page">Experiments</a><a href="../page.html?p=about">About</a></nav></div></header>
 <main class="exp-wrap">
 <p class="exp-crumb"><a href="index.html">Experiments</a></p>
-<h1>Related records</h1>
-<p class="exp-lede">The records linked to one record, one to three links out. Links are the related entries recorded in the TEI (either way round), themes, and the place pages people were born or died in. Click a circle to move the centre there; open its entry from the box that appears. Drag to move circles, scroll to zoom.</p>
+<h1>Connections</h1>
+<p class="exp-lede">Choose a person, place or topic to see what it is connected to: related articles, its themes, and the places people were born or died. Click any circle to make it the new centre, or click the centre to open its page. You can drag circles around and scroll to zoom.</p>
 <div class="exp-bar">
-  <input type="text" id="pick" list="records" placeholder="Choose a record, e.g. Carlton" aria-label="Centre record" size="34">
+  <input type="text" id="pick" list="records" placeholder="Choose a person, place or topic, e.g. Carlton" aria-label="Start from" size="34">
   <datalist id="records"></datalist>
-  <label>Links out <select id="steps"><option>1</option><option selected>2</option><option>3</option></select></label>
-  <label><input type="checkbox" id="themes"> Go through themes</label>
+  <label>How far to look <select id="steps"><option value="1">Direct connections</option><option value="2" selected>Two steps away</option><option value="3">Three steps away</option></select></label>
+  <label><input type="checkbox" id="themes"> Also follow themes (shows many more)</label>
   <span id="count" class="exp-note"></span>
 </div>
-<div class="exp-legend" id="legend" aria-label="Kinds of record"></div>
+<div class="exp-legend" id="legend" aria-label="Kinds of page"></div>
 <div class="exp-chart" id="chart" style="margin-top:.75rem"></div>
 <p class="exp-note" id="note"></p>
-<details class="exp-table"><summary>List of the records shown</summary><div id="table"></div></details>
+<details class="exp-table"><summary>Everything shown, as a list</summary><div id="table"></div></details>
 </main>
 <script>
 (function () {
   "use strict";
-  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>The chart library could not be loaded</b> (js/vendor/d3/d3.min.js).</p>"); return; }
-  const TYPES = [["entry", "Entry", 1], ["person", "Person", 2], ["place", "Place", 3], ["cultural-artefact", "Cultural artefact", 4], ["theme", "Theme", 7], ["concept", "Concept or event", 5]];
+  if (!window.d3) { document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p><b>Sorry, the chart could not be drawn.</b> Try reloading the page.</p>"); return; }
+  const TYPES = [["entry", "Article", 1], ["person", "Person", 2], ["place", "Place", 3], ["cultural-artefact", "Monument or artwork", 4], ["theme", "Theme", 7], ["concept", "Concept or event", 5]];
   const slot = t => (TYPES.find(x => x[0] === t) || TYPES[5])[2];
   const css = getComputedStyle(document.body);
   const color = t => css.getPropertyValue("--series-" + slot(t)).trim();
@@ -65,7 +65,7 @@
     });
     ["steps", "themes"].forEach(id => document.getElementById(id).addEventListener("change", draw));
     document.getElementById("legend").innerHTML = TYPES.map(([k, l]) => `<span class="exp-key" style="cursor:default"><i style="background:${color(k)}"></i>${esc(l)}</span>`).join("") +
-      '<span class="exp-key" style="cursor:default"><svg width="22" height="8" aria-hidden="true"><line x1="0" y1="4" x2="22" y2="4" stroke="currentColor" stroke-dasharray="3 3"/></svg>Theme link</span>';
+      '<span class="exp-key" style="cursor:default"><svg width="22" height="8" aria-hidden="true"><line x1="0" y1="4" x2="22" y2="4" stroke="currentColor" stroke-dasharray="3 3"/></svg>Shared theme</span>';
     draw();
   }).catch(e => document.querySelector(".exp-wrap").insertAdjacentHTML("beforeend", "<p>" + esc(e.message) + "</p>"));
 
@@ -94,11 +94,11 @@
     const links = [];
     nodes.forEach(a => adj[a.id].forEach((kind, b) => { if (a.id < b && dist.has(b)) links.push({ source: a.id, target: b, kind }); }));
     const deg = new Map(); links.forEach(l => { deg.set(l.source, (deg.get(l.source) || 0) + 1); deg.set(l.target, (deg.get(l.target) || 0) + 1); });
-    document.getElementById("count").textContent = `${nodes.length} records, ${links.length} links`;
-    document.getElementById("note").textContent = cut ? `Only the first ${MAX} records are shown; choose fewer links out to see the nearest ones in full.` : "";
+    document.getElementById("count").textContent = `${nodes.length} shown`;
+    document.getElementById("note").textContent = cut ? `Only the nearest ${MAX} are shown. Choose fewer steps to see everything close by.` : "";
 
     const holder = document.getElementById("chart"), W = holder.clientWidth - 16, H = Math.max(480, Math.min(720, innerHeight - 200));
-    const svg = d3.create("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img").attr("aria-label", `Network of records linked to ${byId[centre].n}; the list below names them`);
+    const svg = d3.create("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img").attr("aria-label", `Network of pages connected to ${byId[centre].n}; the list below names them`);
     const g = svg.append("g");
     svg.call(d3.zoom().scaleExtent([.3, 4]).on("zoom", e => g.attr("transform", e.transform)));
     const rad = n => (n.id === centre ? 11 : 4 + Math.min(6, Math.sqrt(deg.get(n.id) || 1)));
@@ -119,7 +119,7 @@
       });
     function showBox(e, n) {
       const r = n.r, rect = holder.getBoundingClientRect();
-      tip.innerHTML = `<b>${esc(r.n)}</b><span class="m">${esc((TYPES.find(t => t[0] === r.t) || TYPES[5])[1])} · ${adj[n.id].size} links</span><br><a href="${Exp.entry(n.id)}">Open the entry</a>`;
+      tip.innerHTML = `<b>${esc(r.n)}</b><span class="m">${esc((TYPES.find(t => t[0] === r.t) || TYPES[5])[1])} · ${adj[n.id].size} connections</span><br><a href="${Exp.entry(n.id)}">Open this page</a>`;
       tip.hidden = false; tip.style.left = Math.min(rect.width - 220, e.clientX - rect.left + 12) + "px"; tip.style.top = (e.clientY - rect.top + 12) + "px";
     }
     svg.on("click", e => { if (e.target.tagName === "svg") tip.hidden = true; });
@@ -141,7 +141,7 @@
     holder.replaceChildren(svg.node(), tip);
 
     const order = nodes.slice().sort((a, b) => a.d - b.d || a.r.n.localeCompare(b.r.n));
-    document.getElementById("table").innerHTML = "<table><thead><tr><th>Record</th><th>Kind</th><th>Links out</th></tr></thead><tbody>" +
+    document.getElementById("table").innerHTML = "<table><thead><tr><th>Page</th><th>Kind</th><th>Steps away</th></tr></thead><tbody>" +
       order.map(n => `<tr><td><a href="${Exp.entry(n.id)}">${esc(n.r.n)}</a></td><td>${esc((TYPES.find(t => t[0] === n.r.t) || TYPES[5])[1])}</td><td>${n.d}</td></tr>`).join("") + "</tbody></table>";
   }
 })();
