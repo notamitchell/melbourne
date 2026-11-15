@@ -35,17 +35,10 @@
   // One header for every page: brand, the five ways in, and search.
   // Experiments pages copy this markup by hand (they don't load app.js).
   var NAV = [["themes", "index.html#themes", "Themes"], ["browse", "browse.html", "A to Z"],
-    ["exhibitions", "index.html#exhibitions", "Exhibitions"], ["experiments", "experiments/index.html", "Experiments"],
+    ["exhibitions", "index.html#exhibitions", "Exhibitions"], ["onthisday", "experiments/onthisday.html", "On this day"], ["experiments", "experiments/index.html", "Experiments"],
     ["about", "page.html?p=about", "About"]];
-  var EXHIBITIONS = [
-    ["everydaywar", "The Everyday War", "1914–1919",
-      "The First World War as Melbourne lived it, told through the letters people wrote to the city council."],
-    ["civictreasures", "Civic Treasures", "1830s–1840s",
-      "Pictures and documents from the young town before the gold rush, from the City of Melbourne collection."],
-    ["letterheads", "Letterheads", "1850s–1950s",
-      "Business stationery as a record of the city’s trades, addresses and taste in advertising."],
-    ["infocus", "In Focus", "2009",
-      "A close look at one moment: the swine flu outbreak of June 2009."]];
+  var EXHIBITIONS = [["everydaywar", "The Everyday War"], ["civictreasures", "Civic Treasures"],
+    ["letterheads", "Letterheads"], ["infocus", "In Focus"]];
 
   function chrome(active) {
     var header = $("#site-header");
@@ -55,13 +48,23 @@
       '<span class="brand-tag">The Encyclopedia of Melbourne Online</span></a>' +
       '<form class="quick" action="search.html" role="search"><label class="sr" for="quick-q">Search eMelbourne</label>' +
       '<input id="quick-q" name="q" type="search" placeholder="Search people, places, events…" autocomplete="off">' +
-      '<button type="submit">Search</button></form>' +
+      '<button type="submit">Search</button><a class="adv" href="advanced.html">Advanced search</a></form>' +
       '<nav class="top" aria-label="Site">' + NAV.map(function (n) {
         return '<a href="' + n[1] + '" data-k="' + n[0] + '">' + n[2] + "</a>";
       }).join("") + "</nav></div>";
     var t = $('nav.top [data-k="' + active + '"]', header);
     if (t) t.setAttribute("aria-current", "page");
     var q = $("#quick-q", header); if (q && active === "search") q.value = param("q");
+
+    var foot = $("footer.site");
+    if (foot && !$(".foot-nav", foot)) {
+      var fn = h("nav", { "class": "foot-nav", "aria-label": "More" });
+      [["page.html?p=about", "About eMelbourne"],
+        ["advanced.html", "Advanced search"], ["experiments/index.html", "Experiments"], ["editor.html", "Edit an entry"]].forEach(function (l) {
+        fn.appendChild(h("a", { href: l[0] }, l[1]));
+      });
+      foot.insertBefore(fn, foot.firstChild);
+    }
 
     // the side panel is only used inside an exhibition, for its sections
     var side = $("#side");
@@ -152,10 +155,17 @@
         Array.prototype.forEach.call(themeLinks, function (a) { var li = a.parentNode; tl.appendChild(li); });
         ts.appendChild(tl); rail.appendChild(ts);
       }
-      if (rel.querySelector("li")) { rel.classList.add("rail-box"); rail.appendChild(rel); }
+      // a short list sits in the rail; a theme's long list goes under the text, in columns
+      var nRel = rel.querySelectorAll("li").length;
+      if (nRel > 24) { rel.classList.add("related-long"); var longRel = rel; }
+      else if (nRel) { rel.classList.add("rail-box"); rail.appendChild(rel); }
     }
     if (rail.firstChild) { art.classList.add("has-rail"); art.appendChild(rail); }
     art.appendChild(body);
+    if (longRel) {
+      longRel.querySelector("h2").textContent = "Related entries (" + longRel.querySelectorAll("li").length + ")";
+      body.appendChild(longRel);
+    }
 
     var citeText = (meta.author ? meta.author + ", " : "") + "‘" + meta.title +
       "’, eMelbourne: The Encyclopedia of Melbourne Online, " + id + ".";
@@ -239,23 +249,17 @@
       var intro = h("section", { "class": "hero" });
       intro.appendChild(h("p", { "class": "kicker" }, "The city past and present"));
       intro.appendChild(h("h1", null, "The Encyclopedia of Melbourne"));
-      intro.appendChild(h("p", { "class": "lede" },
-        "3,391 records on the people, places, events and institutions that shaped Melbourne, written by the city's historians."));
       var f = h("form", { action: "search.html", "class": "big-search", role: "search" });
       f.appendChild(h("label", { "for": "home-q", "class": "sr" }, "Search eMelbourne"));
-      f.appendChild(h("input", { id: "home-q", name: "q", type: "search", placeholder: "Try “Bourke Street”, “Melba” or “1956 Olympics”", autocomplete: "off" }));
+      f.appendChild(h("input", { id: "home-q", name: "q", type: "search", placeholder: "Search people, places, events…", autocomplete: "off" }));
       f.appendChild(h("button", { type: "submit" }, "Search"));
       intro.appendChild(f);
-      var quick = h("p", { "class": "hero-links" });
-      [["browse.html", "Browse A to Z"], ["advanced.html", "Advanced search"], ["experiments/onthisday.html", "On this day"]].forEach(function (l) {
-        quick.appendChild(h("a", { href: l[0] }, l[1]));
-      });
-      intro.appendChild(quick);
+      var adv = h("p", { "class": "hero-links" }); adv.appendChild(h("a", { href: "advanced.html" }, "Advanced search"));
+      intro.appendChild(adv);
       main.appendChild(intro);
 
       var themes = h("section", { id: "themes", "class": "home-sec" });
       themes.appendChild(h("h2", null, "Themes"));
-      themes.appendChild(h("p", { "class": "sec-lede" }, "Twenty-one long essays that each open onto hundreds of entries."));
       var ul = h("ul", { "class": "theme-tiles" });
       nav.themes.forEach(function (t) { var li = h("li"); li.appendChild(h("a", { href: entryHref(t.id) }, t.name)); ul.appendChild(li); });
       themes.appendChild(ul);
@@ -266,29 +270,40 @@
       var el = h("ul", { "class": "ex-cards" });
       EXHIBITIONS.forEach(function (e) {
         var li = h("li"), a = h("a", { href: "page.html?p=" + e[0] });
-        a.appendChild(h("span", { "class": "ex-date" }, e[2]));
         a.appendChild(h("span", { "class": "ex-title" }, e[1]));
-        a.appendChild(h("span", { "class": "ex-desc" }, e[3]));
+        a.dataset.ex = e[1].replace(/^The /, "");
         li.appendChild(a); el.appendChild(li);
       });
       exs.appendChild(el);
       main.appendChild(exs);
 
-      var feat = h("section", { "class": "home-sec features" });
+      var feat = h("section", { "class": "home-sec" });
       feat.appendChild(h("h2", null, "Features"));
+      var fl = h("ul", { "class": "feat-cards" });
+      feat.appendChild(fl);
       main.appendChild(feat);
 
-      var more = h("section", { "class": "home-sec more" });
-      more.appendChild(h("h2", null, "More ways in"));
-      var ml = h("ul", { "class": "more-links" });
-      [["experiments/index.html", "Experiments", "Lifespans, networks and maps drawn from the records."],
-        ["page.html?p=further-reading", "Further reading", "Books and sources on Melbourne’s history."],
-        ["page.html?p=about", "About eMelbourne", "Who made it, and how the records were converted."]].forEach(function (m) {
-        var li = h("li"); li.appendChild(h("a", { href: m[0] }, m[1])); li.appendChild(h("span", null, m[2])); ml.appendChild(li);
+      // the old home page's features, one card each; the exhibitions already have their own cards
+      var src = h("div");
+      return renderPage("home", src).then(function () {
+        var exTitles = {}, exPages = {};
+        EXHIBITIONS.forEach(function (e) { exTitles[e[1].replace(/^The /, "")] = 1; exPages["page.html?p=" + e[0]] = 1; });
+        Array.prototype.forEach.call(src.querySelectorAll("section.tei-div"), function (sec) {
+          var head = sec.querySelector("h2, h3"), title = head ? head.textContent.trim() : "";
+          var link = Array.prototype.filter.call(sec.querySelectorAll("a[href]"), function (a) { return !a.querySelector("img"); }).pop();
+          if (!title || !link) return;
+          var href = link.getAttribute("href");
+          var p = Array.prototype.filter.call(sec.querySelectorAll("p"), function (x) { return !x.closest("figure"); })[0], text = p ? p.textContent.replace(/\s*(Read More|Explore)\.{3}\s*$/i, "").trim() : "";
+          var exCard = $('.ex-cards a[data-ex="' + title.replace(/^The /, "") + '"]');
+          if (exCard && text) exCard.appendChild(h("span", { "class": "ex-desc" }, text));
+          if (exPages[href] || exTitles[title.replace(/^The /, "")]) return;
+          var li = h("li"), a = h("a", { href: href });
+          if (/^https?:/.test(href)) { a.target = "_blank"; a.rel = "noopener"; }
+          a.appendChild(h("span", { "class": "feat-title" }, title));
+          if (text) a.appendChild(h("span", { "class": "feat-desc" }, text));
+          li.appendChild(a); fl.appendChild(li);
+        });
       });
-      more.appendChild(ml);
-      main.appendChild(more);
-      return renderPage("home", feat);
     });
   }
 
@@ -297,12 +312,13 @@
     var main = $("#main"), type = param("type") || "Entry", letter = (param("l") || "A").toUpperCase();
     chrome("browse").then(getIndex).then(function (idx) {
       document.title = "A to Z – eMelbourne";
+      main.appendChild(crumbs([]));
       main.appendChild(h("h1", null, "A to Z"));
       var tnav = h("nav", { "class": "chips", "aria-label": "Type" });
       TYPES.forEach(function (t) {
         var n = idx.filter(function (i) { return i.type === t[0]; }).length;
         if (!n) return;
-        var a = h("a", { href: "browse.html?type=" + encodeURIComponent(t[0]) }, t[1] + " (" + n + ")");
+        var a = h("a", { href: "browse.html?type=" + encodeURIComponent(t[0]) }, t[1] + " " + n.toLocaleString("en-AU"));
         if (t[0] === type) a.setAttribute("aria-current", "page");
         tnav.appendChild(a);
       });
@@ -399,6 +415,7 @@
       main.innerHTML = "";
       if (!o) { main.appendChild(h("h1", null, id)); main.appendChild(h("p", null, "No digital object with this identifier.")); return; }
       document.title = (o.title || id) + " – eMelbourne";
+      main.appendChild(crumbs((o.entries || []).slice(0, 1).map(function (e) { return [entryHref(e), names[e] || e]; })));
       var art = h("article", { "class": "object" });
       art.appendChild(h("p", { "class": "kicker" }, o.type ? o.type.charAt(0).toUpperCase() + o.type.slice(1) : "Digital object"));
       art.appendChild(h("h1", null, o.title || id));
